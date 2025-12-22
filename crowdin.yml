@@ -9,4 +9,4 @@ preserve_hierarchy: true
 
 files:
   - source: /messages/en.json
-    translation: /messages/%locale%.json
+    translation: /messages/%two_letters_code%.json
