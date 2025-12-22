@@ -1,22 +1,22 @@
 {
   "nav": {
-    "company": "Unternehmen",
-    "services": "Dienste",
-    "resources": "Ressourcen",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
     "extras": "Extras",
-    "contact": "Kontakt",
+    "contact": "Contact",
     "discord": "Discord",
-    "joinDiscord": "Tritt unserem Discord bei",
-    "theme": "Design",
-    "currency": "Währung",
-    "language": "Sprache",
-    "settings": "Einstellungen",
-    "menu": "Menü"
+    "joinDiscord": "Join our Discord",
+    "theme": "Theme",
+    "currency": "Currency",
+    "language": "Language",
+    "settings": "Settings",
+    "menu": "Menu"
   },
   "company": {
     "contact": {
-      "title": "Kontaktiere uns",
-      "description": "Nimm Kontakt mit unserem Team auf"
+      "title": "Contact Us",
+      "description": "Get in touch with our team"
     },
     "about": {
       "title": "About Us",
@@ -902,7 +902,6 @@
       "createAccount": "Create one",
       "errors": {
         "invalid": "Invalid email or password. Please try again.",
-        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
         "networkError": "Network error. Please check your connection and try again.",
         "generic": "An error occurred during sign in. Please try again."
       }
@@ -955,6 +954,68 @@
       "logout": "Sign Out",
       "signIn": "Sign In",
       "loggingOut": "Signing out..."
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "nav": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "servers": "Servers",
+      "sync": "Sync",
+      "settings": "Settings"
+    },
+    "status": {
+      "online": "System Online"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "Overview of your Pterodactyl panel data and sync status."
+    },
+    "stats": {
+      "users": "Total Users",
+      "migratedCount": "{count} migrated",
+      "servers": "Servers",
+      "nodes": "Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "nests": "Nests",
+      "eggs": "Eggs",
+      "eggVariables": "Egg Variables",
+      "databases": "Databases"
+    },
+    "sync": {
+      "status": "Sync Status",
+      "lastSync": "Last sync",
+      "never": "Never",
+      "idle": "Idle",
+      "syncing": "Syncing...",
+      "inProgress": "Sync in Progress",
+      "syncingTarget": "Syncing {target} data from panel...",
+      "complete": "complete",
+      "runFull": "Run Full Sync",
+      "success": "Sync Completed",
+      "completed": "Successfully synced {target} data.",
+      "error": "Sync Failed",
+      "quickActions": "Quick Sync Actions",
+      "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
+      "targets": {
+        "locations": "Locations",
+        "nodes": "Nodes",
+        "allocations": "Allocations",
+        "nests": "Nests & Eggs",
+        "servers": "Servers",
+        "databases": "Databases",
+        "users": "Users"
+      }
+    },
+    "actions": {
+      "refresh": "Refresh"
+    },
+    "error": {
+      "title": "Error",
+      "unauthorized": "You are not authorized to access this page.",
+      "forbidden": "Admin access required."
     }
   }
 }
