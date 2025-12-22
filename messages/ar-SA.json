@@ -1,1021 +1,1021 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "الشركة",
+    "services": "الخدمات",
+    "resources": "الموارد",
     "extras": "Extras",
-    "contact": "Contact",
-    "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "contact": "الاتصال",
+    "discord": "ديسكورد",
+    "joinDiscord": "انضم إلى ديسكورد",
+    "theme": "السمة",
+    "currency": "العملة",
+    "language": "اللغة",
+    "settings": "الإعدادات",
+    "menu": "القائمة"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "اتصل بنا",
+      "description": "اتصل بفريقنا"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "نبذة عنا",
+      "description": "تعرف على المزيد حول NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "استضافة Minecraft",
+      "description": "خوادم Minecraft مع الإعداد الفوري"
     },
     "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "title": "الاستضافة الراكدة",
+      "description": "يجب على الخوادم مع حماية DDoS"
     },
     "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "title": "الاستضافة الهوائية",
+      "description": "خوادم هيدرولية مع حماية DDoS"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "جميع الخدمات",
+      "description": "استكشف جميع خدمات الاستضافة"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "منطقة العميل",
+      "description": "إدارة الفواتير والفواتير وإعدادات الحساب"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "لوحة اللعبة",
+      "description": "التحكم في خوادم اللعبة الخاصة بك مع لوحتنا"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "قاعدة المعارف",
+      "description": "الإرشادات والدروس والوثائق"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "ما الجديد",
+      "description": "أحدث التحديثات والميزات"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "استخدم الرمز",
+      "suffix": "على مادتيك المفيدة!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "استضافة اللعبة",
+    "titleHighlight": "صنع بسيط",
+    "description": "إستضافة سريعة وموثوق بها وآمنة لمجتمعات الألعاب الخاصة بك. قم بإطلاق خوادم مخصصة مع الإعداد الفوري، وحماية DDoS، والدعم على مدار الساعة.",
+    "getStarted": "ابدأ",
+    "joinDiscord": "الانضمام إلى ديسكورد",
+    "trustedBy": "موثوق بها من قبل مجتمعات الألعاب في جميع أنحاء العالم",
+    "trustpilotReviews": "استعراضات تجريبية",
     "stats": {
-      "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptime": "تحديث SLA",
+      "uptimeDesc": "إفراط المؤسسة إبقاء الخوادم الخاصة بك على الإنترنت.",
+      "ping": "متوسط",
+      "pingDesc": "تحسين توجيه لعب اللعبة في وقت متأخر منخفض.",
+      "support": "الدعم",
+      "supportDesc": "مساعدة الخبراء في التثبيت، المودع، والخادم مفتوح."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "البنية التحتية",
+    "title": "بُنيت ل",
+    "titleHighlight": "الأداء",
+    "description": "بنية تحتية على مستوى المؤسسة مع أدوات سهلة للاعب. خوادم فورية، ومسارات متأخرة، وضوابط قوية.",
+    "viewPlans": "عرض خطط الاستضافة",
+    "startingFrom": "يبدأ من",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "حماية DDoS",
+        "description": "التخفيف من درجة المؤسسة مدعوم من قبل FyfeWeb مع النسيج التلقائي للحفاظ على الخوادم على الإنترنت تحت الهجوم.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "حماية شبكة FyfeWeb",
+          "1": "التخفيض التلقائي للقياس",
+          "2": "الرصد في الوقت الحقيقي"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "شبكة لاتفيا منخفضة",
+        "description": "الطرق المثلى من خلال شبكة FyfeWeb، المملكة المتحدة، مع الملوثات العضوية الثابتة بلندن من أجل الحد الأدنى من الصفر.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "زمن متوسط 50mg الفرعي",
+          "1": "المسار القائم على المملكة المتحدة",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "الإعداد الفوري",
+        "description": "نقرة واحدة على قوالب الخادم، وتثبيتات المودج الآلية، والتزويد السريع.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "نشر 60 ثانية",
+          "1": "قوالب ما قبل البناء",
+          "2": "التكوين التلقائي"
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "title": "مراكز بيانات المملكة المتحدة",
+        "description": "موقع استراتيجي في المملكة المتحدة مع ملوثات عضوية ثابتة بلندن مدعومة من FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "ملوثات عضوية ثابتة في لندن",
+          "1": "شبكة FyfeWeb",
+          "2": "التغطية المنخفضة للوقت في المملكة المتحدة"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "لوحة التحكم",
+        "description": "واجهة مستخدم قوية للوصول إلى وحدة التحكم وإدارة الملفات والنسخ الاحتياطية والمقاييس.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "وحدة تحكم حية",
+          "1": "مدير الملفات",
+          "2": "المهام المجدولة"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "24/7 الدعم",
+        "description": "• توفير الدعم الإنساني - الأول مع الخبراء في أي وقت، من أجل التجهيزات واستكشاف الأخطاء.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "دعم ديسكورد",
+          "1": "نظام التذاكر",
+          "2": "قاعدة المعارف"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "قصتنا",
+    "title": "بنيت بواسطة اللاعبين،",
+    "titleHighlight": "للاعبين",
+    "paragraph1": "بدأت NodeByte كمجموعة صغيرة من اللاعبين والمهندسين الذين يريدون استضافة كانت سريعة وموثوق بها وسهلة الإدارة. لقد شهدنا الإحباط من خوادم التباطؤ والدعم غير المستجيب.",
+    "paragraph2": "لهذا السبب قمنا ببناء بنية تحتية مُحكَّمة خصيصا للاعبين المتعددين: مسار زمن التأخر المنخفض، حماية DDoS قوية وتوفير الخادم الفوري حتى تتمكن من اللعب بسرعة.",
+    "joinCommunity": "انضم إلى مجتمعنا",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "بُني للاعبين",
+        "description": "إن بنيتنا التحتية تعطي الأولوية لمسار التأخير المنخفض، والأداء الذي يمكن التنبؤ به، والوقت القوي حتى تبقى مجتمعاتك على الإنترنت ومستجيبة."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "دعم المجتمع & مودي",
+        "description": "تثبيت مودس سلس، ودعم لقطة سريعة، وأدوات مجتمعية لمساعدتك على تشغيل عوالم موحدة، وخوادم ثابتة ببذل الحد الأدنى من الجهود."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "فتح عن طريق التصميم",
+        "description": "نحن نقدر الشفافية من التزامات اتفاقية مستوى الخدمة الواضحة لفتح الأدوات. منصة عملنا توفر APIs و التكاملات لأتمتة سير عمل الخادم."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "تحديث SLA",
+      "latency": "متوسط لاتفي",
+      "support": "الدعم",
+      "servers": "خوادم نشطة"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "التسعير",
+    "title": "خطط الخادم",
+    "description": "خطط مرنة تتوافق مع احتياجاتك. جميع الخطط تتضمن حماية DDoS، الإعداد الفوري، والدعم على مدار الساعة.",
+    "getStarted": "ابدأ",
+    "viewAllPlans": "عرض جميع الخطط",
+    "comingSoon": "التسعير القادم قريبا",
+    "comingSoonDescription": "نحن نعمل على جلب لك أفضل تجربة الاستضافة. انضم إلى ديسكورد ليتم إعلامنا عند تشغيلنا!",
+    "joinDiscord": "الانضمام إلى ديسكورد",
+    "mostPopular": "الأكثر شعبية",
+    "customSolution": "هل تحتاج إلى حل مخصص أم لديك أسئلة؟",
+    "contactUs": "اتصل بنا",
+    "perMonth": "شهر"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "أسئلة متكررة",
+    "title": "سؤال متكرر",
+    "titleHighlight": "أسئلة",
+    "description": "إجابات سريعة عن استضافة نوديبايت والأداء والدعم.",
+    "searchPlaceholder": "البحث في الأسئلة...",
+    "noResults": "لم يتم العثور على نتائج. حاول البحث عن \"DDoS\" أو \"mods\" أو \"SLA\".",
+    "stillHaveQuestions": "ما زال لديك أسئلة؟",
+    "cantFind": "لا يمكن العثور على ما تبحث عنه؟ فريق الدعم لدينا هنا للمساعدة.",
+    "contactSupport": "الاتصال بالدعم",
+    "joinDiscord": "الانضمام إلى ديسكورد",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "ما هي السرعة التي يمكنني بها توفير خادم؟",
+        "answer": "معظم قوالب الخادم التي تم بناؤها مسبقاً في أقل من 60 ثانية. قد تستغرق الإعدادات المخصصة مع المودات الكبيرة وقتاً أطول اعتماداً على وقت التثبيت."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "هل تقدم حماية DDoS؟",
+        "answer": "نعم، تشمل جميع الخطط تخفيف DDoS على مستوى المؤسسة بدعم من FyfeWeb. توفر ملوثات عضوية ثابتة لدينا في لندن الفرز التلقائي للتخلص من الملوثات العضوية الثابتة عند حافة الشبكة."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "أين تقع مراكز البيانات الخاصة بك؟",
+        "answer": "ونحن ندير مراكز بيانات قائمة على المملكة المتحدة مع ملوثات عضوية ثابتة بلندن مدعومة بشريكنا في الشبكة FyfeWeb، وتوفر تغطية ممتازة في جميع أنحاء المملكة المتحدة وأوروبا."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "هل يمكنني تشغيل المودات والخرائط المخصصة؟",
+        "answer": "نعم، تدعم لوحة التحكم والقوالب الخاصة بنا محمّلات المودات الشائعة (Forge, Fabric) وتحميلات الخرائط المخصصة. يتوفر دعم الموديل المدارة على الخطط المحددة."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "ما هو SLA؟",
+        "answer": "نحن نعرض اتفاق مستوى معيشي مدفوع بنسبة 99.6٪ على خطط الإنتاج. انظر شروطنا للحصول على التفاصيل ومعايير الأهلية."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "هل يمكنني الحصول على تجربة قبل الالتزام؟",
+        "answer": "نعم، نحن نعرض تجارب مجانية للمستخدمين الجدد لاختبار خدماتنا قبل التعهد بالالتزام. قم بزيارة صفحتنا التجريبية المجانية لمشاهدة الخيارات المتاحة.",
+        "trialLink": "بدء تجربة مجانية"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "خوادم اللعبة",
+    "title": "اختر الخاص بك",
+    "titleHighlight": "المباراة",
+    "description": "خوادم لعبة قوية منخفضة التوقت. الإعداد الفوري، لوحة تحكم بديهية، و 24/7 دعم الخبراء.",
+    "viewPlans": "عرض الخطط",
+    "learnMore": "اعرف المزيد",
+    "comingSoon": "قريباً",
+    "customSolution": "هل تحتاج إلى خادم لعبة غير مدرج؟",
+    "contactUs": "اتصل بنا",
+    "forCustom": "من أجل الحلول المخصصة.",
+    "hosting": "الاستضافة",
+    "joinWaitlist": "الانضمام إلى قائمة الانتظار",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "خوادم Java & Bedrock بنقرة واحدة مع تحميل المودج، الإضافات، ودعم الإصدار الكامل.",
+      "tag": "الأكثر شعبية",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "دعم التصنيع و الحفر",
+        "1": "إدارة الإضافات",
+        "2": "النسخ الاحتياطي التلقائي",
+        "3": "تحميل JAR مخصص"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "ممتاز للخوادم الصغيرة والاختبار"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "بلازي",
+          "description": "عظيم للمجتمعات المتنامية"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "name": "جحيم",
+          "description": "مثالية للمجتمعات المحلية المتوسطة الحجم"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "storage": "تخزين {amount} جيجابايت",
+        "databases": "10 قواعد بيانات MySQL",
+        "ddos": "حماية FyfeWeb DDoS",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "jars": "الجرات التلقائية/المثبتة مسبقاً",
+        "uptime": "99.6% تحديث مستوى المعيشة"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "بنقرة واحدة لتحميل المودي",
+          "description": "تثبيت Forge, Fabric, Paper, Spigot, وأكثر بنقرة واحدة من لوحة التحكم لدينا.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "دعم التصنيع و الحفر",
+            "1": "خوادم الورق & Spigot",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "تحميل JAR مخصص"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "معدات الأداء العالي",
+          "description": "معالجات AMD Ryzen برتبة المؤسسة مع تخزين NVMe من أجل الأداء الرائع.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 وحدات معالجة",
+            "1": "وحدة تخزين SSD NVMe",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "حتى سرعة الساعة 4.8 غيغاهرتز"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "حماية DDoS",
+          "description": "تخفيض DDoS بدرجة المؤسسة مدعوم بواسطة FyfeWeb يبقي الخادم الخاص بك على الإنترنت حتى أثناء الهجمات.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "0": "حماية الطبقة 3/4/7",
+            "1": "تصفية شبكة FyfeWeb",
+            "2": "تخفيض وقت التعطيل الصفري",
+            "3": "ملوثات عضوية ثابتة في لندن المملكة المتحدة"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "الإعداد الفوري",
+          "description": "يتم نشر الخادم الخاص بك خلال ثواني. ابدأ التشغيل مباشرة بعد الشراء.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "المؤقت الآلي",
+            "1": "إعدادات التكوين المسبق",
+            "2": "جاهز في أقل من 60 ثانية",
+            "3": "لا حاجة إلى معرفة تقنية"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "الوصول الكامل لـ FTP",
+          "description": "إكمال الوصول إلى الملف عبر FTP/SFTP. تحميل العوالم، الإضافات، والتكوين بسهولة.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "الوصول إلى ملف SFTP",
+            "1": "مدير الملفات القائم على الويب",
+            "2": "سحب وإسقاط التحميلات",
+            "3": "النسخ الاحتياطي التلقائي"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "خانات غير محدودة",
+          "description": "لا توجد حدود اصطناعية لللاعب. استضيف أكبر عدد ممكن من اللاعبين الذين يمكن لجهازك التعامل معهم.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "لا توجد قيود على الفتحة",
+            "1": "الموارد القابلة للقياس",
+            "2": "الترقية في أي وقت",
+            "3": "التخصيص العادل للموارد"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "ما هي إصدارات Minecraft التي تدعمها؟",
+          "answer": "نحن ندعم جميع إصدارات Minecraft من 1.7.10 إلى أحدث إصدار، بما في ذلك لقطات سريعة. كل من إصدار Java وBedrock Edition خوادم متوفرة."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "هل يمكنني تثبيت الإضافات والإضافات؟",
+          "answer": "نعم! نحن ندعم جميع محمّلات المودات الرئيسية بما في ذلك Forge, Fabric, و NeoForge. للملحقات، نحن ندعم الورقة، سبيجوت، بوكيت، وبوربور. يمكنك أيضًا تحميل JARs مخصصة."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "كيف يمكنني تحميل علمي الحالي؟",
+          "answer": "يمكنك تحميل ملفاتك العالمية عن طريق مدير الملفات على شبكة الإنترنت أو عن طريق SFTP. ببساطة قم بسحب وإسقاط مجلد العالم الخاص بك وسيكون جاهزا للاستخدام."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "هل هناك حد للاعبين ؟",
+          "answer": "لا، نحن لا نفرض حدودا اصطناعية. يمكن للخادم الخاص بك استضافة أكبر عدد ممكن من اللاعبين الذين يمكن أن تتعامل معهم مواردك المخصصة."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "هل يمكنني ترقية خطتي لاحقاً؟",
+          "answer": "بالتأكيد! يمكنك ترقية أو تخفيض خطتك في أي وقت من لوحة الفوترة الخاصة بنا. تصبح التغييرات نافذة المفعول على الفور بدون توقف عن العمل."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "هل تعرض الاسترداد؟",
+          "answer": "نعم، نحن نقدم ضمانة استرجاع المال لمدة 48 ساعة في جميع عمليات الشراء الجديدة. إذا لم تكن راضية، اتصل بالدعم لاسترداد كامل المبلغ."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "إستضافة خادم Rust عالية الأداء مع دعم Oxide/uMod وخيارات خريطة مخصصة.",
+      "tag": "الأداء العالي",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "دعم Oxide/uMod",
+        "1": "خرائط مخصصة",
+        "2": "جدولة المسح",
+        "3": "الوصول إلى RCON"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "المبتدئ",
+          "description": "موصى به لـ 40 لاعب"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "قياسي",
+          "description": "موصى به لـ 75 لاعب"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "الأداء",
+          "description": "موصى به لـ 100 لاعب"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}GB SSD التخزين",
+        "ddos": "حماية FyfeWeb DDoS",
+        "location": "نيوكاسل، المملكة المتحدة",
+        "databases": "10 قواعد بيانات MySQL",
+        "panel": "BytePanel (لوحة اللعبة)",
+        "oxide": "Oxide/Umod مدعوم",
+        "rustplus": "Rust+ مدعوم",
+        "uptime": "99.6% تحديث مستوى المعيشة"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "دعم Oxide/uMod",
+          "description": "الدعم الكامل لإضافات أوكسيدي و uMod . قم بتثبيت الاضافات وإدارتها مباشرة من لوحة التحكم الخاصة بنا.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "تثبيت Oxide بنقرة واحدة",
+            "1": "مدير الاضافات",
+            "2": "التحديثات التلقائية متوفرة",
+            "3": "إدارة الأذونات"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "خرائط مخصصة",
+          "description": "استخدم الخرائط التي تم إنشاؤها إجرائيا أو قم بتحميل الخرائط المخصصة الخاصة بك. دعم كامل لتخصيص الخريطة.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "وضع الإجراءات",
+            "1": "تحميل خريطة مخصصة",
+            "2": "تحكم حجم الخريطة",
+            "3": "تخصيص البذور"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "الأداء العالي",
+          "description": "يجب أن يتطلب رود معدات قوية. خوادمنا تستخدم أحدث وحدات المعالجة المركزية Ryzen و NVMe التخزين.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 وحدات معالجة",
+            "1": "وحدة تخزين SSD NVMe",
+            "2": "أداء ذو موضوع واحد عالي",
+            "3": "الشبكات ذات الوقت المنخفض"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "حماية DDoS",
+          "description": "يحمي تخفيف DDoS على مستوى مؤسسة FyfeWeb، من خلال ملوثات عضوية ثابتة في لندن في المملكة المتحدة، خادمك من الهجمات 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "0": "تصفية شبكة FyfeWeb",
+            "1": "ملوثات عضوية ثابتة في لندن المملكة المتحدة",
+            "2": "حماية الطبقة 3/4/7",
+            "3": "وقت التعطيل صفر"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "جدولة المسح",
+          "description": "جدولة مسح تلقائي للحفاظ على خادمك. تكوين لاسلكي أسبوعي، أو أسبوعي، أو شهري.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "مسح تلقائي",
+            "1": "خيارات مسح المخططات",
+            "2": "مسح جدولة الخرائط",
+            "3": "إشعارات ديسكورد"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "وصول RCON الكامل",
+          "description": "أكمل الوصول إلى وحدة التحكم عن بعد لإدارة الخادم. تنفيذ الأوامر من أي مكان.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "RCON على شبكة الإنترنت",
+            "1": "جدولة الأوامر",
+            "2": "إدارة اللاعب",
+            "3": "السجلات في الوقت الحقيقي"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "هل تدعم إضافات Oxide/uMod ؟",
+          "answer": "نعم! نحن ندعم Oxide و uMod. يمكنك تثبيت أوكسيدي بنقرة واحدة من لوحة التحكم الخاصة بنا وإدارة الإضافات من خلال مدير البرنامج المساعد الخاص بنا أو عبر FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "هل يمكنني استخدام خرائط مخصصة؟",
+          "answer": "بالتأكيد! يمكنك استخدام الخرائط التي تم إنشاؤها إجرائيا مع بذور وأحجام مخصصة، أو تحميل ملفات الخرائط المخصصة الخاصة بك عن طريق FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "كيف يعمل جدولة المسح؟",
+          "answer": "يسمح لك جدولة مسح السيرفر بمسح تلقائي في جدول زمني تختاره. يمكنك تكوين برامج مسح الخريطة فقط أو المخططات الكاملة، وإرسال إشعارات ديسكورد اختياريا."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "ما هو معدل علامة الخادم؟",
+          "answer": "سيرفرات Rust لدينا تعمل في معدل الـ 30 علامة الافتراضي. جهازنا العالي الأداء يضمن الأداء المتسق حتى مع العديد من اللاعبين على الإنترنت."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "هل يمكنني الوصول إلى RCON؟",
+          "answer": "نعم، تحصل على وصول RCON الكامل. يمكنك استخدام وحدة تحكم RCON الخاصة بنا على شبكة الإنترنت أو الاتصال بأي عميل RCON قياسي."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "هل تدعم الخوادم المعدّلة؟",
+          "answer": "نعم، نحن ندعم كل من خوادم الفانيليا والراست المعتدلة. قم بتثبيت أوكسيدي وإضافة أي إضافات تحتاجها لإنشاء تجربتك المثالية المودعة."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "استضافة خادم الهوائية قادمة قريباً! انضم إلى ديسكورد للحصول على الوصول المبكر والتحديثات.",
+      "tag": "قيد التطوير",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "دعم المودة",
+        "1": "خرائط مخصصة",
+        "2": "اعدادات سهلة",
+        "3": "دعم 24/7"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "الميزات",
+      "title": "لماذا اختر لنا",
+      "titleSuffix": "الاستضافة",
+      "description": "بنية تحتية من درجة المؤسسة مصممة خصيصا لخوادم {game}."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "التسعير",
+      "title": "خطط الخادم",
+      "description": "خطط مرنة تتوافق مع احتياجاتك. جميع الخطط تتضمن حماية DDoS، الإعداد الفوري، والدعم على مدار الساعة.",
+      "comingSoon": "التسعير القادم قريبا",
+      "comingSoonDesc": "نحن نعمل على جلب لك أفضل تجربة استضافة {game} . انضم إلى ديسكورد ليتم إعلامنا عند تشغيلنا!",
+      "joinDiscord": "الانضمام إلى ديسكورد",
+      "mostPopular": "الأكثر شعبية",
+      "getStarted": "ابدأ",
+      "viewAllPlans": "عرض جميع الخطط",
+      "customSolution": "هل تحتاج إلى حل مخصص أم لديك أسئلة؟",
+      "contactUs": "اتصل بنا"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "badge": "أسئلة متكررة",
+      "title": "أسئلة",
+      "description": "الأسئلة الشائعة حول خدمة الاستضافة {game}.",
+      "stillHaveQuestions": "ما زال لديك أسئلة؟",
+      "supportAvailable": "فريق الدعم لدينا متاح على مدار الساعة لمساعدتك في أي أسئلة.",
+      "askOnDiscord": "اسأل عن ديسكورد",
+      "contactSupport": "الاتصال بالدعم"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "الانضمام إلى قائمة الانتظار",
+      "viewPlans": "عرض الخطط",
+      "learnMore": "اعرف المزيد",
+      "comingSoon": "قريباً",
+      "joinDiscordForUpdates": "انضم إلى ديسكورد للحصول على تحديثات"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "اذهب في اللمس",
+    "title": "الاتصال",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "نحن هنا لمساعدة 24/7. الوصول عبر أي من قنوات الدعم لدينا وسوف نعود إليك في أقرب وقت ممكن.",
+    "supportChannels": "قنوات الدعم",
+    "copied": "نسخ!",
+    "copiedDesc": "تم نسخ عنوان البريد الإلكتروني إلى الحافظة",
+    "copyFailed": "فشل النسخ",
+    "copyFailedDesc": "فشل النسخ إلى الحافظة",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "مجتمع ديسكورد",
+      "description": "انضم إلى مجتمعنا للحصول على الدعم الفوري، الإعلانات، والمحادثة مع المستخدمين الآخرين.",
+      "button": "الانضمام إلى ديسكورد",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "الردود الفورية",
+        "1": "مساعدة المجتمع",
+        "2": "اعلانات"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "الإبلاغ عن الأخطاء واقتراح الميزات والمساهمة في مشاريعنا مفتوحة المصدر.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "تقارير الأخطاء",
+        "1": "طلبات الميزات",
+        "2": "المصدر المفتوح"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "تذكرة الدعم",
+      "description": "قم بتقديم تذكرة من خلال لوحة الفوترة الخاصة بنا للمسائل المتعلقة بالحساب.",
+      "button": "فتح تذكرة"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "دعم البريد الإلكتروني",
+      "title": "تفضّل البريد الإلكتروني؟ حصلنا على تغطية",
+      "responseTime": "وقت الاستجابة: عادة في غضون 24 ساعة",
+      "departments": "البريد الإلكتروني للقسم",
+      "technical": "الدعم التقني",
+      "technicalDesc": "مشاكل الخادم والمساعدة التقنية",
+      "general": "الدعم العام",
+      "generalDesc": "المسائل العامة والمساعدة",
+      "account": "مشكلات الحساب",
+      "accountDesc": "مشاكل في تسجيل الدخول والحساب",
+      "billing": "استفسارات الفواتير",
+      "billingDesc": "المدفوعات والفواتير"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "تابعنا",
+      "description": "البقاء على التحديث مع الأخبار والنصائح وتحديثات المجتمع"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "إشعار هام",
+      "description": "نحن لا نتعامل مع الفواتير أو الدعم المتصل بالحساب عبر ديسكورد. للحصول على الخصوصية والأمان، يرجى الاتصال بنا على support@nodebyte.host للمسائل الحساسة."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "خدمات استضافة سريعة وموثوق بها وموسعة وآمنة لتجربة اللعب الخاصة بك. بنيت للبشر. مدعومة من Bytes.",
+    "getInTouch": "اذهب في اللمس",
+    "emailUs": "البريد الإلكتروني",
+    "support": "الدعم",
+    "contactTeam": "اتصل بفريقنا",
+    "quickLinks": "روابط سريعة",
+    "legal": "قانوني",
+    "status": "تشغيل جميع النظم",
+    "copyright": "جميع الحقوق محفوظة.format@@0",
+    "builtWith": "مبني مع",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "تشغيل جميع النظم",
+      "degraded": "الأداء المتدني",
+      "maintenance": "تحت الصيانة"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "minecraftHosting": "استضافة Minecraft",
+      "rustHosting": "الاستضافة الراكدة",
+      "gamePanel": "لوحة اللعبة",
+      "clientArea": "منطقة العميل"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "خادم ديسكورد",
+      "serviceStatus": "حالة الخدمة",
+      "knowledgeBase": "قاعدة المعارف",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "الشروط والأحكام",
+      "privacy": "سياسة الخصوصية",
+      "refund": "سياسة الاسترداد",
+      "legalHub": "المركز القانوني"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "حول NodeByte",
+      "contact": "اتصل بنا",
+      "companyInfo": "معلومات الشركة",
+      "changes": "تغيير"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "مراجعات",
+      "readReviews": "قراءة مراجعاتنا"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "تحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "حاول مرة أخرى",
+    "learnMore": "اعرف المزيد",
+    "getStarted": "ابدأ",
+    "comingSoon": "قريباً"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "ما الجديد",
+    "title": "تغيير",
+    "titleHighlight": "& التحديثات",
+    "description": "ابقى على اطلاع على أحدث الإصدارات والمميزات والتحسينات في جميع مشاريع نوديبايت.",
+    "searchPlaceholder": "البحث في الإصدار...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "جميع المستودعات",
+      "allTypes": "جميع الأنواع",
+      "feature": "الميزة",
+      "bugfix": "إصلاح الأخطاء",
+      "improvement": "التحسين",
+      "breaking": "كسر التغيير",
+      "security": "أمان"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "عرض على GitHub",
+      "publishedOn": "نُشرت في",
+      "by": "بواسطة",
+      "assets": "الأصول",
+      "downloadAsset": "تنزيل",
+      "noAssets": "لا توجد أصول متوفرة",
+      "preRelease": "الإصدار السابق",
+      "latest": "الأحدث",
+      "draft": "مسودة"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "لا توجد إصدارات",
+      "description": "حاول تعديل البحث أو الفلاتر الخاصة بك للعثور على ما تبحث عنه.",
+      "clearFilters": "مسح الفلاتر"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "جاري تحميل الإصدار...",
+      "description": "جلب أحدث التحديثات من مستودعاتنا."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "فشل تحميل الإصدارات",
+      "description": "حدث خطأ أثناء جلب الإصدار. الرجاء المحاولة مرة أخرى لاحقاً.",
+      "retry": "حاول مرة أخرى"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "إجمالي الإصدارات",
+      "repositories": "المستودعات",
+      "latestUpdate": "آخر تحديث"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "عرض جميع الإصدارات",
+    "showMore": "إظهار المزيد",
+    "showLess": "إظهار أقل",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "السابق",
+      "next": "التالي",
+      "page": "الصفحة",
+      "of": "من"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم نسخ الرابط!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "قاعدة المعارف",
+    "description": "ابحث عن إجابات ودروس وأدلة لمساعدتك في الحصول على أقصى ما يمكن من تجربة NodeByte الخاصة بك.",
+    "searchPlaceholder": "البحث في قاعدة المعارف...",
+    "browseByCategory": "تصفح حسب الفئة",
+    "recentlyUpdated": "تم التحديث مؤخرا",
+    "articles": "مقالات",
+    "minRead": "قراءة دقيقة",
+    "updated": "تم التحديث",
+    "onThisPage": "في هذه الصفحة",
+    "backTo": "العودة إلى",
+    "previous": "السابق",
+    "next": "التالي",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "لم يتم العثور على نتائج",
+      "description": "جرب كلمات مفتاحية مختلفة أو تصفح الفئات",
+      "forQuery": "لم يتم العثور على نتائج لـ"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "لا توجد مقالات بعد",
+      "description": "هذه الفئة لا تحتوي على أي مقالات حتى الآن. تحقق قريباً!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "لا تزال بحاجة إلى مساعدة؟",
+      "description": "لا يمكن العثور على ما تبحث عنه؟ نحن هنا للمساعدة.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "مجتمع ديسكورد",
+        "description": "انضم إلى ديسكورد للدعم الحي ومساعدة المجتمع.",
+        "button": "الانضمام إلى ديسكورد"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "تذكرة الدعم",
+        "description": "فتح تذكرة دعم لمشاكل الحساب أو الفواتير.",
+        "button": "فتح تذكرة"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "أسئلة متكررة",
+        "description": "تحقق من أسئلتنا المتكررة للحصول على إجابات سريعة.",
+        "button": "عرض الأسئلة الشائعة"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "البحث في قاعدة المعارف",
+      "button": "البحث"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "toggle": "فتح قائمة الثيم",
+    "appearance": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "coolTones": "نغمات رائعة",
+    "warmTones": "نغمات دافئة",
+    "nature": "الطبيعة",
+    "slate": "قائمة",
+    "midnight": "منتصف الليل",
+    "ocean": "المحيط",
+    "forest": "الغابة",
+    "sunset": "غروب",
+    "rose": "وردة",
+    "amber": "آمبر",
+    "emerald": "الزمردي",
+    "teal": "الفم",
+    "sky": "سماء",
+    "violet": "البنفسجي"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "استضافة خادم اللعبة",
+    "description": "استضافة خادم لعبة عالية الأداء مع الإعداد الفوري، لوحة تحكم قوية، ودعم الخبراء على مدار الساعة.",
+    "startingAt": "يبدأ في"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
-    "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "loading": "جاري التحميل",
+    "pagination": "تحديد الصفحات",
+    "previous": "السابق",
+    "next": "التالي",
+    "morePages": "المزيد من الصفحات",
+    "previousSlide": "الشريحة السابقة",
+    "nextSlide": "الشريحة التالية",
+    "breadcrumb": "منتفخ",
+    "more": "المزيد",
+    "toggleSidebar": "تبديل الشريط الجانبي",
+    "goToSlide": "الذهاب إلى الشريحة"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "حول NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "بنيت بواسطة اللاعبين،",
+      "titleHighlight": "للاعبين",
+      "description": "بدأت NodeByte كمجموعة صغيرة من اللاعبين والمهندسين الذين يريدون استضافة كانت سريعة وموثوق بها وسهلة الإدارة. اليوم، نحن خوادم الألعاب في جميع أنحاء العالم.",
+      "joinCommunity": "انضم إلى مجتمعنا",
+      "contactUs": "اتصل بنا"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "قصتنا",
+      "title": "كيف بدأ الجميع",
+      "paragraph1": "ولدت نوديبيتي من الإحباط. كلاعبون متحمسون بأنفسهم، شهدنا مباشرة ألم خوادم متخلفة، والدعم غير المستجيب، ولوحات التحكم المعقدة التي جعلت إدارة الخوادم كابوسة.",
+      "paragraph2": "في عام 2024، قررنا أن ما يكفي كان كافيا. قمنا بتجميع فريق من اللاعبين المتحمسين والمهندسين المتمرسين مع هدف واحد: بناء منصة استضافة اللعبة التي نتمناها دائما.",
+      "paragraph3": "اليوم، خوادم لعبة NodeByte في جميع أنحاء العالم. ولكن مهمتنا تظل كما يلي: جعل استضافة خادم اللعبة سريعة وموثوق بها ومتاحة للجميع."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "قيمنا",
+      "title": "ماذا نحن",
+      "titleHighlight": "قم بالانتظار لـ",
+      "description": "إن قيمنا الأساسية توجه كل شيء نقوم به، من قرارات البنية التحتية إلى دعم العملاء.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "بُني للاعبين",
+        "description": "إن بنيتنا التحتية تعطي الأولوية لمسار التأخير المنخفض، والأداء الذي يمكن التنبؤ به، والوقت القوي حتى تبقى مجتمعاتك على الإنترنت ومستجيبة."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "دعم المجتمع & مودي",
+        "description": "تثبيت مودس سلس، ودعم لقطة سريعة، وأدوات مجتمعية لمساعدتك على تشغيل عوالم موحدة، وخوادم ثابتة ببذل الحد الأدنى من الجهود."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "فتح عن طريق التصميم",
+        "description": "نحن نقدر الشفافية من التزامات اتفاقية مستوى الخدمة الواضحة لفتح الأدوات. منصة عملنا توفر APIs و التكاملات لأتمتة سير عمل الخادم."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "تحديث SLA",
+      "latency": "متوسط لاتفي",
+      "support": "الدعم",
+      "servers": "خوادم نشطة"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "رحلتنا",
+      "title": "موجز",
+      "titleHighlight": "التاريخ",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "تم تأسيس NodeByte",
+        "description": "بدأ كمشروع صغير من قبل اللاعبين الذين يريدون خيارات استضافة أفضل لمجتمعاتهم."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "النمو السريع",
+        "description": "توسيع البنية التحتية مع شراكة FyfeWeb ، إضافة حماية DDoS للمؤسسة ومراكز بيانات المملكة المتحدة."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "التوسيع العالمي",
+        "description": "وأطلقت خدمات جديدة، وعززت فريق المراقبة، وواصلت تنامي مجتمعنا العالمي."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "فريقنا",
+      "title": "مقابلة",
+      "titleHighlight": "الفريق",
+      "description": "الناس المتحمسون وراء نودي بيتي الذين يعملون بلا كلل لتقديم أفضل تجربة الاستضافة.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "المؤسس والمطور الرئيسي"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "مطور المكدس الكامل والحماس في الألعاب يبني البنية التحتية التي تعمل على تمكين نوديبايت."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "هل أنت مستعد للبدء؟",
+      "description": "انضم إلى آلاف مجتمعات الألعاب التي تثق في نوديبايت لاحتياجاتها من استضافة الخادم.",
+      "getStarted": "عرض خوادم اللعبة",
+      "joinDiscord": "الانضمام إلى ديسكورد"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها. دعنا نعيدك إلى المسار الصحيح.",
+    "goHome": "الذهاب إلى المنزل",
+    "goBack": "العودة إلى الوراء",
+    "quickLinks": "روابط سريعة",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "المنزل",
+      "games": "ألعاب",
+      "kb": "قاعدة المعارف",
+      "contact": "الاتصال"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "خطأ ما",
+    "description": "لقد واجهنا خطأ غير متوقع. لا تقلق، تم إبلاغ فريقنا ويعمل على ذلك.",
+    "errorCode": "رمز الخطأ",
+    "tryAgain": "حاول مرة أخرى",
+    "goHome": "الذهاب إلى المنزل",
+    "needHelp": "بحاجة إلى مساعدة؟",
+    "helpDescription": "إذا استمر هذا الخطأ، يرجى التواصل مع فريق الدعم.",
+    "joinDiscord": "الانضمام إلى ديسكورد",
+    "contactSupport": "الاتصال بالدعم"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "تسجيل الدخول",
+      "description": "قم بتسجيل الدخول باستخدام حساب NodeByte الخاص بك للمتابعة.",
+      "emailLabel": "عنوان البريد الإلكتروني",
+      "emailPlaceholder": "You@example.com",
+      "passwordLabel": "كلمة المرور",
+      "passwordPlaceholder": "أدخل كلمة المرور",
+      "loginButton": "تسجيل الدخول",
+      "loggingIn": "جاري تسجيل الدخول...",
+      "forgotPassword": "هل نسيت كلمة المرور؟",
+      "noAccount": "ليس لديك حساب؟",
+      "createAccount": "إنشاء واحد",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "البريد الإلكتروني أو كلمة المرور غير صالحة. الرجاء المحاولة مرة أخرى.",
+        "networkError": "خطأ في الشبكة. الرجاء التحقق من اتصالك وحاول مرة أخرى.",
+        "generic": "حدث خطأ أثناء تسجيل الدخول. الرجاء المحاولة مرة أخرى."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "إنشاء حساب",
+      "description": "قم بالتسجيل للوصول إلى خوادم وخدمات اللعبة الخاصة بك.",
+      "emailLabel": "عنوان البريد الإلكتروني",
+      "emailPlaceholder": "You@example.com",
+      "passwordLabel": "كلمة المرور",
+      "passwordPlaceholder": "إنشاء كلمة مرور",
+      "confirmPasswordLabel": "تأكيد كلمة المرور",
+      "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+      "registerButton": "إنشاء حساب",
+      "registering": "إنشاء الحساب...",
+      "alreadyHaveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول",
+      "panelAccountRequired": "مطلوب حساب اللوحة القديمة",
+      "panelAccountRequiredDescription": "بينما نعمل على الهجرة بعيدا عن أنظمتنا القديمة، يجب أن يكون لديك حساب موجود في لوحة اللعبة الخاصة بنا للتسجيل. يتم إنشاء حسابات لوحة عند شراء خدمة من خلال نظام الفوترة لدينا.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "يوجد بالفعل حساب بهذا البريد الإلكتروني.",
+        "notInPanel": "لم يتم العثور على حساب لعبة بهذا البريد الإلكتروني. الرجاء شراء خدمة أولاً لإنشاء حساب لوحة.",
+        "panelAccountLinked": "حساب اللوحة هذا مرتبط بالفعل بحساب NodeByte آخر.",
+        "passwordsDontMatch": "كلمة المرور غير متطابقة.",
+        "passwordTooShort": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.",
+        "invalidEmail": "الرجاء إدخال عنوان بريد إلكتروني صحيح.",
+        "networkError": "خطأ في الشبكة. الرجاء التحقق من اتصالك وحاول مرة أخرى.",
+        "generic": "حدث خطأ أثناء التسجيل. الرجاء المحاولة مرة أخرى."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "تم إنشاء الحساب!",
+        "description": "تم إنشاء حسابك بنجاح. يمكنك الآن تسجيل الدخول."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "خطأ المصادقة",
+      "description": "حدثت مشكلة أثناء تسجيل الدخول.",
+      "configuration": "هناك خطأ في التكوين مع نظام المصادقة.",
+      "accessDenied": "ليس لديك الصلاحيّات الكافية للوصول إلى هذا المصدر.",
+      "verification": "رابط تسجيل الدخول لم يعد صالحًا.",
+      "default": "حدث خطأ غير متوقع أثناء تسجيل الدخول.",
+      "credentialsSignin": "بيانات الاعتماد غير صالحة. الرجاء التحقق من بريدك الإلكتروني وكلمة المرور.",
+      "tryAgain": "حاول مرة أخرى",
+      "goHome": "الذهاب إلى المنزل"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "حسابي",
+      "viewPanel": "عرض اللوحة",
+      "admin": "المشرف",
+      "logout": "تسجيل الخروج",
+      "signIn": "تسجيل الدخول",
+      "loggingOut": "جاري تسجيل الخروج..."
     }
   },
   "admin": {
-    "title": "Admin Panel",
+    "title": "لوحة المشرف",
     "nav": {
-      "dashboard": "Dashboard",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
-      "settings": "Settings"
+      "dashboard": "لوحة التحكم",
+      "users": "المستخدمون",
+      "servers": "خوادم",
+      "sync": "مزامنة",
+      "settings": "الإعدادات"
     },
     "status": {
-      "online": "System Online"
+      "online": "النظام على الانترنت"
     },
     "dashboard": {
-      "title": "Dashboard",
-      "description": "Overview of your Pterodactyl panel data and sync status."
+      "title": "لوحة التحكم",
+      "description": "نظرة عامة على بيانات لوحة Pterodactyl وحالة المزامنة."
     },
     "stats": {
-      "users": "Total Users",
-      "migratedCount": "{count} migrated",
-      "servers": "Servers",
+      "users": "مجموع المستخدمين",
+      "migratedCount": "ترحيل {count}",
+      "servers": "خوادم",
       "nodes": "Nodes",
-      "locations": "Locations",
-      "allocations": "Allocations",
-      "nests": "Nests",
-      "eggs": "Eggs",
-      "eggVariables": "Egg Variables",
-      "databases": "Databases"
+      "locations": "المواقع",
+      "allocations": "المخصصات",
+      "nests": "عشوائب",
+      "eggs": "بيض",
+      "eggVariables": "متغيرات البيض",
+      "databases": "قواعد البيانات"
     },
     "sync": {
-      "status": "Sync Status",
-      "lastSync": "Last sync",
-      "never": "Never",
-      "idle": "Idle",
-      "syncing": "Syncing...",
-      "inProgress": "Sync in Progress",
-      "syncingTarget": "Syncing {target} data from panel...",
+      "status": "حالة المزامنة",
+      "lastSync": "آخر مزامنة",
+      "never": "لا",
+      "idle": "الخمول",
+      "syncing": "مزامنة...",
+      "inProgress": "المزامنة في التقدم",
+      "syncingTarget": "مزامنة البيانات {target} من اللوحة...",
       "complete": "complete",
-      "runFull": "Run Full Sync",
-      "success": "Sync Completed",
-      "completed": "Successfully synced {target} data.",
-      "error": "Sync Failed",
-      "quickActions": "Quick Sync Actions",
-      "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
+      "runFull": "تشغيل المزامنة الكاملة",
+      "success": "اكتمل المزامنة",
+      "completed": "تمت مزامنة بيانات {target} بنجاح.",
+      "error": "فشل المزامنة",
+      "quickActions": "إجراءات المزامنة السريعة",
+      "quickActionsDescription": "مزامنة أنواع البيانات الفردية من لوحة Pterodactyl.",
       "targets": {
-        "locations": "Locations",
+        "locations": "المواقع",
         "nodes": "Nodes",
-        "allocations": "Allocations",
-        "nests": "Nests & Eggs",
-        "servers": "Servers",
-        "databases": "Databases",
-        "users": "Users"
+        "allocations": "المخصصات",
+        "nests": "الخناق والبيض",
+        "servers": "خوادم",
+        "databases": "قواعد البيانات",
+        "users": "المستخدمون"
       }
     },
     "actions": {
-      "refresh": "Refresh"
+      "refresh": "تحديث"
     },
     "error": {
-      "title": "Error",
-      "unauthorized": "You are not authorized to access this page.",
-      "forbidden": "Admin access required."
+      "title": "خطأ",
+      "unauthorized": "غير مسموح لك بالدخول إلى هذه الصفحة.",
+      "forbidden": "مطلوب الوصول إلى المدير."
     }
   }
 }
