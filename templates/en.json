@@ -963,7 +963,8 @@
       "users": "Users",
       "servers": "Servers",
       "sync": "Sync",
-      "settings": "Settings"
+      "settings": "Settings",
+      "backToSite": "Back to Site"
     },
     "status": {
       "online": "System Online"
@@ -1007,6 +1008,182 @@
         "servers": "Servers",
         "databases": "Databases",
         "users": "Users"
+      }
+    },
+    "users": {
+      "title": "Users",
+      "description": "Manage user accounts and permissions.",
+      "stats": {
+        "total": "Total Users",
+        "migrated": "Migrated",
+        "admins": "Admins",
+        "active": "Active"
+      },
+      "filters": {
+        "title": "Filters",
+        "searchPlaceholder": "Search by name or email...",
+        "all": "All Users",
+        "active": "Active",
+        "inactive": "Inactive",
+        "admin": "Admins",
+        "migrated": "Migrated",
+        "notMigrated": "Not Migrated"
+      },
+      "table": {
+        "user": "User",
+        "email": "Email",
+        "status": "Status",
+        "pterodactyl": "Panel ID",
+        "created": "Created",
+        "lastLogin": "Last Login"
+      },
+      "badges": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "admin": "Admin",
+        "migrated": "Migrated"
+      },
+      "empty": {
+        "title": "No users found",
+        "searchHint": "Try adjusting your search or filters."
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total} users",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "servers": {
+      "title": "Servers",
+      "description": "View and manage all game servers.",
+      "stats": {
+        "total": "Total Servers",
+        "running": "Running",
+        "offline": "Offline",
+        "suspended": "Suspended"
+      },
+      "filters": {
+        "title": "Filters",
+        "searchPlaceholder": "Search by name or UUID...",
+        "all": "All Servers",
+        "running": "Running",
+        "offline": "Offline",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "table": {
+        "server": "Server",
+        "status": "Status",
+        "owner": "Owner",
+        "resources": "Resources",
+        "node": "Node",
+        "created": "Created"
+      },
+      "status": {
+        "running": "Running",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "installing": "Installing",
+        "install_failed": "Failed",
+        "suspended": "Suspended",
+        "restoring_backup": "Restoring"
+      },
+      "resources": {
+        "memory": "Memory",
+        "disk": "Disk",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "No servers found",
+        "searchHint": "Try adjusting your search or filters."
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total} servers",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Configure system settings and connections.",
+      "wip": {
+        "title": "Work in Progress",
+        "description": "This settings page is under development. Currently, only connection testing is functional. Other features will be enabled in a future update."
+      },
+      "save": "Save Changes",
+      "saved": "Settings Saved",
+      "savedDesc": "Your settings have been saved successfully.",
+      "saveError": "Failed to save settings. Please try again.",
+      "copyFailed": "Failed to copy to clipboard",
+      "tabs": {
+        "connections": "Connections",
+        "features": "Features",
+        "notifications": "Notifications",
+        "advanced": "Advanced"
+      },
+      "status": {
+        "connected": "Connected",
+        "disconnected": "Disconnected"
+      },
+      "connection": {
+        "success": "Connection Successful",
+        "successDesc": "Successfully connected to {type}.",
+        "failed": "Connection Failed",
+        "error": "Failed to test connection."
+      },
+      "testConnection": "Test Connection",
+      "pterodactyl": {
+        "title": "Pterodactyl Panel",
+        "description": "Configure the connection to your Pterodactyl panel.",
+        "url": "Panel URL",
+        "apiKey": "API Key",
+        "apiKeyNote": "API key is stored as an environment variable.",
+        "version": "Panel Version"
+      },
+      "database": {
+        "title": "Database",
+        "description": "Database connection configuration.",
+        "provider": "Provider",
+        "connectionString": "Connection String",
+        "connectionStringNote": "Database URL is stored as an environment variable."
+      },
+      "features": {
+        "title": "Feature Toggles",
+        "description": "Enable or disable system features.",
+        "registration": "User Registration",
+        "registrationDesc": "Allow new users to register accounts.",
+        "maintenance": "Maintenance Mode",
+        "maintenanceDesc": "Enable maintenance mode to block access to the site.",
+        "autoSync": "Automatic Sync",
+        "autoSyncDesc": "Automatically sync data from the panel periodically."
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "Configure notification settings.",
+        "email": "Email Notifications",
+        "emailDesc": "Send email notifications for important events.",
+        "discord": "Discord Notifications",
+        "discordDesc": "Send notifications to a Discord channel.",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "Enter your Discord webhook URL to receive notifications."
+      },
+      "advanced": {
+        "title": "Advanced Settings",
+        "description": "Advanced configuration options.",
+        "cacheTimeout": "Cache Timeout",
+        "cacheTimeoutDesc": "How long to cache API responses.",
+        "syncInterval": "Sync Interval",
+        "syncIntervalDesc": "How often to automatically sync data from the panel.",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes",
+        "hour": "hour",
+        "hours": "hours",
+        "dangerZone": "Danger Zone",
+        "dangerZoneDesc": "These actions are irreversible. Proceed with caution.",
+        "clearCache": "Clear Cache",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
