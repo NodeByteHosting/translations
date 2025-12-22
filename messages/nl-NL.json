@@ -1,1021 +1,1021 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Bedrijfsnaam",
+    "services": "Voorzieningen",
+    "resources": "Hulpmiddelen",
     "extras": "Extras",
-    "contact": "Contact",
-    "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
+    "contact": "Contactpersoon",
+    "discord": "Onenigheid",
+    "joinDiscord": "Word lid van Discord",
+    "theme": "Thema",
+    "currency": "valuta",
+    "language": "Taal",
+    "settings": "Instellingen",
     "menu": "Menu"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Contacteer ons",
+      "description": "Neem contact op met ons team"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "Over ons",
+      "description": "Meer informatie over NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Minecraft hosting",
+      "description": "Minecraft servers met onmiddellijke installatie"
     },
     "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "title": "Rust hostingscherm",
+      "description": "Rust servers met DDoS bescherming"
     },
     "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "title": "Hytale gastheer",
+      "description": "Hytale servers met DDoS bescherming"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Alle diensten",
+      "description": "Ontdek al onze hostingdiensten"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Klant gebied",
+      "description": "Beheer facturering, facturen en accountinstellingen"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Spel paneel",
+      "description": "Beheer je spelservers met ons paneel"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "Kennisbank",
+      "description": "Handleidingen, tutorials en documentatie"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Wat is nieuw",
+      "description": "Laatste updates en functies"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "GEBRUIK CODE",
+      "suffix": "OP UW EERSTE BESTELLING!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Spel Hosting",
+    "titleHighlight": "Eenvoudig gemaakt",
+    "description": "Snel, betrouwbaar en veilig hosting voor jouw gaming gemeenschappen. Start toegewijde servers met onmiddellijke installatie, DDoS-bescherming en 24/7 ondersteuning.",
+    "getStarted": "Nu inschrijven",
+    "joinDiscord": "Deelnemen aan Discord",
+    "trustedBy": "Vertrouwd door gaming-gemeenschappen wereldwijd",
+    "trustpilotReviews": "Trustpilot beoordelingen",
     "stats": {
       "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptimeDesc": "Enterprise redundantie waardoor uw servers online blijven.",
+      "ping": "Gem. ping",
+      "pingDesc": "Geoptimaliseerde routing voor lage latency gameplay.",
+      "support": "Ondersteuning",
+      "supportDesc": "Deskundige hulp bij installaties, mods en server ops."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Infrastructuur",
+    "title": "Gebouwd voor",
+    "titleHighlight": "Prestaties",
+    "description": "Enterprise-grade infrastructuur met gamer-vriendelijke tooling. Instant servers, low-latency routing en krachtige besturingssystemen.",
+    "viewPlans": "Bekijk hostingplannen",
+    "startingFrom": "Begint bij",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "DDoS bescherming",
+        "description": "Enterprise-grade mitigatie aangedreven door FyfeWeb met automatische uitwassen om servers online aangevallen te houden.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
+          "0": "Bescherming van het FyfeWeb netwerk",
+          "1": "Auto-schalen mitigatie",
           "2": "Real-time monitoring"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Lage latency Netwerk",
+        "description": "Geoptimaliseerde routes via FyfeWeb's UK network met London POPs voor minimale ping.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Sub-50ms gem. latentie",
+          "1": "UK-gebaseerde routering",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Directe installatie",
+        "description": "Een klik op server templates, geautomatiseerde mod installaties en snelle provisioning.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 seconden deployingen",
+          "1": "Voorgebouwde sjablonen",
+          "2": "Automatische configuratie"
         }
       },
       "locations": {
         "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "description": "Strategisch gelegen in het Verenigd Koninkrijk met Londense POP’s aangedreven door FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "London POP's",
+          "1": "FyfeWeb netwerk",
+          "2": "Lage latency UK dekking"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Controlepaneel",
+        "description": "Een krachtige UI voor console toegang, bestandsbeheer, back-ups en statistieken.",
         "highlights": {
           "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "1": "Bestandsbeheer",
+          "2": "Geplande taken"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "24/7 ondersteuning",
+        "description": "Human-eerste hulp met deskundige ops elk gewenst moment beschikbaar voor installaties en het oplossen van problemen.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Discord ondersteuning",
+          "1": "Ticket systeem",
+          "2": "Kennisbank"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Ons verhaal",
+    "title": "Gebouwd door Gamers,",
+    "titleHighlight": "voor gamers",
+    "paragraph1": "NodeByte begon als een kleine groep gamers en ops ingenieurs die wilden hosting die snel, betrouwbaar en makkelijk te beheren was. We hebben de frustratie ervaren van trage servers en niet-ontvankelijke ondersteuning van harte.",
+    "paragraph2": "Dat is waarom we infrastructuur hebben gebouwd die specifiek is afgestemd voor multiplayerspellen: lage latency routing, robuuste DDoS bescherming en instant server provisioning zodat u snel kunt gaan spelen.",
+    "joinCommunity": "Word lid van onze gemeenschap",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Gebouwd voor spelers",
+        "description": "Onze infrastructuur geeft prioriteit aan lage latency routes, voorspelbare prestaties en sterke tijd zodat jouw gemeenschappen online blijven en reageren."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Community & Mod ondersteuning",
+        "description": "Naadloze mod installaties, snapshot ondersteuning en community tools om u te helpen modded worlds en persistente servers te runnen met minimale inspanning."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Openen door ontwerp",
+        "description": "Wij waarderen transparantie van duidelijke SLA verplichtingen tot het openen van tooling. Ons platform biedt API's en integraties om serverworkflows te automatiseren."
       }
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "latency": "Gem. latentie",
+      "support": "Ondersteuning",
+      "servers": "Actieve servers"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Prijsstelling",
+    "title": "Server Plannen",
+    "description": "Flexibele plannen om aan uw behoeften tegemoet te komen. Alle plannen omvatten DDoS-bescherming, onmiddellijke installatie en 24/7 ondersteuning.",
+    "getStarted": "Nu inschrijven",
+    "viewAllPlans": "Bekijk alle abonnementen",
+    "comingSoon": "Binnenkort de prijzen",
+    "comingSoonDescription": "We werken eraan om je de beste hosting ervaring mee te geven. Word lid van Discord en krijg een melding wanneer we starten!",
+    "joinDiscord": "Deelnemen aan Discord",
+    "mostPopular": "Meest populair",
+    "customSolution": "Heb je een aangepaste oplossing nodig of heb je vragen?",
+    "contactUs": "Contacteer ons",
+    "perMonth": "maand"
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "title": "Veelgestelde vragen",
+    "titleHighlight": "vragen",
+    "description": "Snelle antwoorden over NodeByte hosting, prestaties en ondersteuning.",
+    "searchPlaceholder": "Zoek vragen...",
+    "noResults": "Geen resultaten gevonden. Probeer te zoeken naar \"DDoS\", \"mods\", of \"SLA\".",
+    "stillHaveQuestions": "Hebt u nog vragen?",
+    "cantFind": "Kunt u niet vinden wat u zoekt? Ons ondersteuningsteam is er om u te helpen.",
+    "contactSupport": "Contact met Support",
+    "joinDiscord": "Deelnemen aan Discord",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Hoe snel kan ik een server aanbieden?",
+        "answer": "Meest vooraf gebouwde server sjablonen in minder dan 60 seconden. Aangepaste instellingen met grote mods kunnen langer duren, afhankelijk van de mod installatie."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Bieden jullie DDoS bescherming?",
+        "answer": "Ja, alle plannen omvatten mitigatie op ondernemingsniveau DDoS aangedreven door FyfeWeb. Onze London POP's zorgen voor automatische filtering en uitwassen aan de rand van het netwerk."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Waar zijn uw datacenters locatie?",
+        "answer": "We opereren in het Verenigd Koninkrijk met behulp van POP’s uit Londen die worden aangedreven door onze netwerkpartner FyfeWeb, en bieden een uitstekende dekking in het Verenigd Koninkrijk en Europa."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Kan ik mods en aangepaste kaarten uitvoeren?",
+        "answer": "Ja, ons controlepaneel en sjablonen ondersteunen gemeenschappelijke mod laaders (Forge, Fabric) en aangepaste kaart uploads. Managed mod ondersteuning is beschikbaar op geselecteerde plannen."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Wat is je uptime SLA?",
+        "answer": "We bieden 99,6% uptime SLA aan over productieplannen. Bekijk onze voorwaarden voor details en subsidiabiliteitscriteria."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Kan ik een proces krijgen voordat ik ben gecommiteerd?",
+        "answer": "Ja, we bieden gratis proefprojecten aan voor nieuwe gebruikers om onze diensten te testen voordat we een verbintenis aangaan. Bezoek onze gratis proefpagina om beschikbare opties te zien.",
+        "trialLink": "Begin Gratis Proefperiode"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
+    "badge": "Spel Servers",
+    "title": "Kies je",
+    "titleHighlight": "Wedstrijd",
+    "description": "Krachtige, low-latency spel servers. Instant setup, intuïtief controlepaneel en 24/7 deskundige ondersteuning.",
+    "viewPlans": "Bekijk abonnementen",
+    "learnMore": "Meer informatie",
+    "comingSoon": "Binnenkort beschikbaar",
+    "customSolution": "Heb je een spelserver nodig die niet vermeld is?",
+    "contactUs": "Contacteer ons",
+    "forCustom": "voor aangepaste oplossingen.",
     "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "joinWaitlist": "Join wachtlijst",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Java & Bedrock servers met één klik mod loaders, plugins en volledige versie ondersteuning.",
+      "tag": "Meest populair",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Smeed & Stofondersteuning",
+        "1": "Plugin beheer",
+        "2": "Automatische reservekopieën",
+        "3": "Aangepaste JAR uploads"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Perfect voor kleine servers en testen"
         },
         "blaze": {
           "name": "Blaze",
-          "description": "Great for growing communities"
+          "description": "Ideaal voor het groeien van gemeenschappen"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "name": "Vuurhaard",
+          "description": "Ideaal voor middelgrote gemeenschappen"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "storage": "{amount} GB opslagruimte",
+        "databases": "10 MySQL databases",
+        "ddos": "FyfeWeb DDoS bescherming",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "jars": "Auto/Vooraf geïnstalleerde jars",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "One-Click Mod Laders",
+          "description": "Installeer Forge, Fabric, Papier, Spigot, en meer met een enkele klik vanaf het controlepaneel.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Smeed & Stofondersteuning",
+            "1": "Papier & Spigot servers",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Aangepaste JAR uploads"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Hoge prestaties Hardware",
+          "description": "Enterprise grade AMD Ryzen processors met NVMe opslag voor het blazen van snelle prestaties.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 CPU's",
+            "1": "NVMe SSD opslag",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Tot 4.8GHz kloksnelheid"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "DDoS bescherming",
+          "description": "mitigatie van de Enterprise grade DDoS aangedreven door FyfeWeb houdt uw server online zelfs tijdens aanvallen.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "0": "Laag 3/4/7 bescherming",
+            "1": "FyfeWeb netwerk filteren",
+            "2": "Nul downtime mitigatie",
+            "3": "UK London POP's"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Directe installatie",
+          "description": "Uw server is binnen enkele seconden geïmplementeerd. Start direct afspelen na aankoop.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Geautomatiseerde provisioning",
+            "1": "Vooraf geconfigureerde instellingen",
+            "2": "Klaar in minder dan 60 seconden",
+            "3": "Geen technische kennis nodig"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Volledige FTP toegang",
+          "description": "Voltooi bestandstoegang via FTP/SFTP. Upload werden, plugins en configuraties met gemak.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
+            "0": "SFTP bestandstoegang",
+            "1": "Web-gebaseerde bestandsbeheer",
             "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "3": "Automatische back-ups"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Onbeperkt aantal plaatsen",
+          "description": "Geen kunstmatige speler limiet. Host zoveel spelers als je hardware kan verwerken.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Geen slot beperkingen",
+            "1": "Schaalbare grondstoffen",
+            "2": "Upgrade op elk gewenst moment",
+            "3": "Eerlijke hulpbron toewijzing"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Welke Minecraft-versies ondersteunt u?",
+          "answer": "We ondersteunen alle Minecraft versies van 1.7.10 tot de laatste release, inclusief snapshots. Zowel Java Edition als Bedrock Edition servers zijn beschikbaar."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Kan ik mods en plugins installeren?",
+          "answer": "Ja! We ondersteunen alle grote mod laaders inclusief Forge, Fabric, en NeoForge. Voor plug-ins ondersteunen we Papier, Spigot, Bukkit en Purpur. U kunt ook aangepaste JAR's uploaden."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Hoe upload ik mijn bestaande wereld?",
+          "answer": "U kunt wereldwijd bestanden uploaden via onze webgebaseerde bestandsbeheerder of via SFTP. Sleep en plaats je wereldmap en deze is klaar voor gebruik."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Is er een spelerslimiet?",
+          "answer": "Nee, we leggen geen kunstmatige spelerlimieten op. Je server kan zoveel spelers hosten als je toegewezen middelen kunnen gebruiken."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Kan ik mijn abonnement later upgraden?",
+          "answer": "Absoluut! U kunt uw abonnement op elk gewenst moment upgraden of downgraden vanuit ons factureringspaneel. Wijzigingen worden onmiddellijk van kracht zonder downtime."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Bied je restituties aan?",
+          "answer": "Ja, we bieden een geld-terug-garantie van 48 uur aan voor alle nieuwe aankopen. Als je niet tevreden bent, neem dan contact op met support voor een volledige terugbetaling."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Hoogwaardige Rust server hosting met Oxide/uMod ondersteuning en aangepaste kaart opties.",
+      "tag": "Hoge prestaties",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Oxide/uMod ondersteuning",
+        "1": "Aangepaste kaarten",
+        "2": "Scheduler wissen",
+        "3": "RCON toegang"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Beginner",
+          "description": "Aanbevolen voor 40 spelers"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "Standaard",
+          "description": "Aanbevolen voor 75 spelers"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Prestaties",
+          "description": "Aanbevolen voor 100 spelers"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}GB SSD Opslag",
+        "ddos": "FyfeWeb DDoS bescherming",
+        "location": "Newcastle, Verenigd Koninkrijk",
+        "databases": "10 MySQL databases",
+        "panel": "BytePanel (Zelfde Panel)",
+        "oxide": "Oxide/Umod ondersteund",
+        "rustplus": "Rust+ ondersteund",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Oxide/uMod ondersteuning",
+          "description": "Volledige ondersteuning voor Oxide en uMod plugins. Installeer en beheer plugins rechtstreeks vanuit ons controlepaneel.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "One-click Oxide installatie",
+            "1": "Plugin beheer",
+            "2": "Auto-updates beschikbaar",
+            "3": "Toestemming beheer"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Aangepaste kaarten",
+          "description": "Gebruik procedureel gegenereerde kaarten of upload uw eigen aangepaste kaarten. Volledige kaart aanpassingsondersteuning.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "Procedurele generatie",
+            "1": "Aangepaste kaartuploads",
+            "2": "Kaart grootte controle",
+            "3": "Seed aanpassing"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Hoge prestaties",
+          "description": "Rust vereist krachtige hardware. Onze servers gebruiken de nieuwste AMD Ryzen CPU's en NVMe opslag.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 CPU's",
+            "1": "NVMe SSD opslag",
+            "2": "Hoog draad prestatie",
+            "3": "Laag latency netwerk"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "DDoS bescherming",
+          "description": "FyfeWeb's enterprise-grade DDoS mitigation via UK London POPs beschermt jouw server 24/7 tegen aanvallen.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "0": "FyfeWeb netwerk filteren",
+            "1": "UK London POP's",
+            "2": "Laag 3/4/7 bescherming",
+            "3": "Nul tijd"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Wis Planner",
+          "description": "Automatisch wissen schema's om uw server vers te houden. Configureer wekelijks, tweewekelijks of maandelijks gewichten.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Geautomatiseerde wissen",
+            "1": "Blauwdruk wipe opties",
+            "2": "Kaart wissen planning",
+            "3": "Discord notificaties"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Volledige RCON toegang",
+          "description": "Voltooi de externe console toegang voor serverbeheer. Voer opdrachten van waar dan ook uit.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
+            "0": "Web-gebaseerde RCON",
+            "1": "Commando plannen",
+            "2": "Speler beheer",
             "3": "Real-time logs"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Steun je Oxide/uMod plugins?",
+          "answer": "Ja! Oxide en uMod ondersteunen wij volledig. U kunt Oxide installeren met één klik vanaf ons controlepaneel en plug-ins beheren via onze plugin beheerder of via FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Kan ik aangepaste kaarten gebruiken?",
+          "answer": "Absoluut! U kunt procedureel gegenereerde kaarten gebruiken met aangepaste seeds en groottes, of uw eigen aangepaste kaartbestanden uploaden via FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Hoe werkt de wipe planner?",
+          "answer": "Met het wissen van de server kan je de verwijdering van de server automatiseren volgens het schema dat je kiest. Je kunt alleen wispen of volledige blauwdruk wissen configureren en optioneel Discord meldingen versturen."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Wat is de server tick rate?",
+          "answer": "Onze Rust servers draaien met de standaard 30 tick snelheid. Onze high-performance hardware zorgt voor consistente prestaties, zelfs bij veel spelers online."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Kan ik RCON-toegang krijgen?",
+          "answer": "Ja, u krijgt volledige RCON toegang. U kunt onze webgebaseerde RCON console gebruiken of verbinden met een standaard RCON client."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Ondersteunt u de modded servers?",
+          "answer": "Ja, we ondersteunen zowel vanilla als modded Rust servers. Installeer Oxide en voeg alle plugins toe die je nodig hebt om je perfecte modded ervaring te maken."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Hytale server hosting komt binnenkort! Sluit je aan bij onze Discord om snel toegang en updates te krijgen.",
+      "tag": "In ontwikkeling",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Mod ondersteuning",
+        "1": "Aangepaste kaarten",
+        "2": "Eenvoudige configuratie",
+        "3": "24/7 ondersteuning"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
+      "badge": "Eigenschappen",
+      "title": "Waarom kiezen voor onze",
       "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "description": "Enterprise-grade infrastructuur specifiek voor {game} servers."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "Prijsstelling",
+      "title": "Server Plannen",
+      "description": "Flexibele plannen om aan uw behoeften tegemoet te komen. Alle plannen omvatten DDoS-bescherming, onmiddellijke installatie en 24/7 ondersteuning.",
+      "comingSoon": "Binnenkort de prijzen",
+      "comingSoonDesc": "We werken eraan om je de beste {game} hosting ervaring mee te brengen. Word lid van Discord en krijg een melding wanneer we starten!",
+      "joinDiscord": "Deelnemen aan Discord",
+      "mostPopular": "Meest populair",
+      "getStarted": "Nu inschrijven",
+      "viewAllPlans": "Bekijk alle abonnementen",
+      "customSolution": "Heb je een aangepaste oplossing nodig of heb je vragen?",
+      "contactUs": "Contacteer ons"
     },
     "faq": {
       "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "title": "vragen",
+      "description": "Veelvoorkomende vragen over onze {game} hosting service.",
+      "stillHaveQuestions": "Hebt u nog vragen?",
+      "supportAvailable": "Ons supportteam is 24/7 beschikbaar om u te helpen met eventuele vragen.",
+      "askOnDiscord": "Vragen over Discord",
+      "contactSupport": "Contact met Support"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Join wachtlijst",
+      "viewPlans": "Bekijk abonnementen",
+      "learnMore": "Meer informatie",
+      "comingSoon": "Binnenkort beschikbaar",
+      "joinDiscordForUpdates": "Word lid van onze Discord voor updates"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "Neem contact op",
+    "title": "Contactpersoon",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "We zijn er om 24/7 te helpen. Bereik via een van onze ondersteuningskanalen en we nemen zo snel mogelijk contact met je op.",
+    "supportChannels": "Support Kanalen",
+    "copied": "Gekopieerd!",
+    "copiedDesc": "E-mailadres gekopieerd naar klembord",
+    "copyFailed": "Kopiëren mislukt",
+    "copyFailedDesc": "Kon niet naar klembord kopiëren",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Discord gemeenschap",
+      "description": "Word lid van onze community voor directe ondersteuning, aankondigingen en chat met andere gebruikers.",
+      "button": "Deelnemen aan Discord",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Directe antwoorden",
+        "1": "Community hulp",
+        "2": "Mededelingen"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Meld bugs, suggereer functies en draag bij aan onze open source projecten.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Foutrapporten",
+        "1": "Feature aanvragen",
+        "2": "Open bron"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Ondersteuning Ticket",
+      "description": "Een ticket indienen via ons factureringspaneel voor accountgerelateerde problemen.",
+      "button": "Open ticket"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "E-mail Ondersteuning",
+      "title": "Verkeerd e-mailadres? We hebben het u gevonden",
+      "responseTime": "Reactietijd: meestal binnen 24 uur",
+      "departments": "Afdeling E-mails",
+      "technical": "Technische ondersteuning",
+      "technicalDesc": "Serverproblemen & technische hulp",
+      "general": "Algemene ondersteuning",
+      "generalDesc": "Algemene vragen & assistentie",
+      "account": "Problemen met account",
+      "accountDesc": "Login & account problemen",
+      "billing": "Facturering vragen",
+      "billingDesc": "Betalingen & facturen"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Volg ons",
+      "description": "Blijf op de hoogte van nieuws, tips en communityupdates"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Belangrijke mededeling",
+      "description": "Wij behandelen geen facturering of account-gerelateerde ondersteuning via Discord. Voor privacy en veiligheid, neem contact met ons op via support@nodebyte.host voor gevoelige zaken."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Snel, betrouwbare, schaalbare en veilige hosting diensten voor uw spelervaring. Gebouwd voor mensen. Aangedreven door Bytes.",
+    "getInTouch": "Neem contact op",
+    "emailUs": "E-mail ons",
+    "support": "Ondersteuning",
+    "contactTeam": "Contact opnemen met ons team",
+    "quickLinks": "Snelle links",
+    "legal": "Juridisch",
+    "status": "Alle systemen operationeel",
+    "copyright": "Alle rechten voorbehouden.format@@0",
+    "builtWith": "Gebouwd met",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Alle systemen operationeel",
+      "degraded": "Verminderde prestaties",
+      "maintenance": "In onderhoud"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "minecraftHosting": "Minecraft hosting",
+      "rustHosting": "Rust hostingscherm",
+      "gamePanel": "Spel paneel",
+      "clientArea": "Klant gebied"
     },
     "resources": {
-      "discordServer": "Discord Server",
+      "discordServer": "Discord server",
       "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "knowledgeBase": "Kennisbank",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Algemene Voorwaarden",
+      "privacy": "Privacy Beleid",
+      "refund": "Restitutie beleid",
+      "legalHub": "Juridische Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "Over NodeByte",
+      "contact": "Contacteer ons",
+      "companyInfo": "Bedrijfs informatie",
+      "changes": "Wijzigingslogboek"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "beoordelingen",
+      "readReviews": "Lees onze beoordelingen"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Laden...",
+    "error": "Er ging iets mis",
+    "retry": "Opnieuw proberen",
+    "learnMore": "Meer informatie",
+    "getStarted": "Nu inschrijven",
+    "comingSoon": "Binnenkort beschikbaar"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
+    "badge": "Wat is nieuw",
+    "title": "Wijzigingslogboek",
     "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "description": "Blijf op de hoogte van de laatste releases, functies en verbeteringen voor alle NodeByte projecten.",
+    "searchPlaceholder": "releases zoeken...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Alle opslagplaatsen",
+      "allTypes": "Alle typen",
+      "feature": "Functie",
+      "bugfix": "Bug fix",
+      "improvement": "Verbetering",
+      "breaking": "Verandering breken",
+      "security": "Beveiliging"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Bekijk op GitHub",
+      "publishedOn": "Gepubliceerd op",
+      "by": "door",
+      "assets": "Activa",
+      "downloadAsset": "downloaden",
+      "noAssets": "Geen assets beschikbaar",
+      "preRelease": "Voor-versie",
+      "latest": "Nieuwste",
+      "draft": "Kladversie"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Geen releases gevonden",
+      "description": "Probeer je zoekopdracht of filters aan te passen om te vinden wat je zoekt.",
+      "clearFilters": "Filters wissen"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "releases laden...",
+      "description": "De laatste updates ophalen uit onze repositories."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Fout bij het laden van releases",
+      "description": "Er is een fout opgetreden bij het ophalen van releases. Probeer het later opnieuw.",
+      "retry": "Probeer opnieuw"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Totale releases",
+      "repositories": "Bewaarplaatsen",
+      "latestUpdate": "Laatste update"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Bekijk alle releases",
+    "showMore": "Meer weergeven",
+    "showLess": "Minder weergeven",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "named@@0",
+      "next": "Volgende",
+      "page": "Pagina",
+      "of": "van"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Koppeling kopiëren",
+    "linkCopied": "Link gekopieerd!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "Kennisbank",
+    "description": "Vind antwoorden, tutorials en handleidingen om u te helpen het meeste uit uw NodeByte ervaring te halen.",
+    "searchPlaceholder": "Zoek naar kennisbasis...",
+    "browseByCategory": "Bladeren per categorie",
+    "recentlyUpdated": "Recent bijgewerkt",
+    "articles": "artikelen",
+    "minRead": "min. leestijd",
+    "updated": "Bijgewerkt",
+    "onThisPage": "Op deze pagina",
+    "backTo": "Terug naar",
+    "previous": "named@@0",
+    "next": "Volgende",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Geen resultaten gevonden",
+      "description": "Probeer andere trefwoorden of zoek categorieën",
+      "forQuery": "Geen resultaten gevonden voor"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Nog geen artikelen",
+      "description": "Deze categorie heeft nog geen artikelen. Kom snel terug!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Heb je nog steeds hulp nodig?",
+      "description": "Kan je niet vinden wat je zoekt? We zijn er om je te helpen.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Discord gemeenschap",
+        "description": "Word lid van onze Discord voor live ondersteuning en communityhulp.",
+        "button": "Deelnemen aan Discord"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Ondersteuning Ticket",
+        "description": "Open een supportticket voor account- of factuurproblemen.",
+        "button": "Open ticket"
       },
       "faq": {
         "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "description": "Bekijk onze veelgestelde vragen voor snelle antwoorden.",
+        "button": "Bekijk FAQ"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Doorzoek de kennisbank",
+      "button": "Zoeken"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
+    "toggle": "Themamenu openen",
+    "appearance": "Uiterlijk",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem",
+    "coolTones": "Coole Tonen",
+    "warmTones": "Warme Tonen",
+    "nature": "Natuur",
+    "slate": "Schrijfplaat",
+    "midnight": "Middernacht",
+    "ocean": "Oceaan",
+    "forest": "Bos",
+    "sunset": "Zonsondergang",
+    "rose": "Roos",
     "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "emerald": "Smaragd",
+    "teal": "Groenblauw",
+    "sky": "Lucht",
+    "violet": "Paars"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "Spel Server Hosting",
+    "description": "Goede spelhosting met onmiddellijke instelling, krachtig controlepaneel en 24/7 deskundige ondersteuning.",
+    "startingAt": "Beginnen bij"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
+    "loading": "Laden...",
+    "pagination": "paginering",
+    "previous": "named@@0",
+    "next": "Volgende",
+    "morePages": "Meer pagina's",
+    "previousSlide": "Vorige slide",
+    "nextSlide": "Volgende slide",
     "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "more": "Meer",
+    "toggleSidebar": "Zijbalk in-/uitschakelen",
+    "goToSlide": "Ga naar slide"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "Over NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Gebouwd door Gamers,",
+      "titleHighlight": "voor gamers",
+      "description": "NodeByte begon als een kleine groep gamers en ops ingenieurs die wilden hosting die snel, betrouwbaar en makkelijk te beheren was. Vandaag de dag kunnen we krachtige spelservers wereldwijd gebruiken.",
+      "joinCommunity": "Word lid van onze gemeenschap",
+      "contactUs": "Contacteer ons"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Ons verhaal",
+      "title": "Hoe het allemaal begon",
+      "paragraph1": "NodeByte is geboren uit frustratie. Als actieve gamers hebben we zelf ervaring gehad met de pijn van trage servers, niet-responsieve ondersteuning en complexe controlepanelen die van server een nachtmerrie maakten.",
+      "paragraph2": "In 2024 hebben we genoeg besloten, dat is genoeg. We hebben een team van gepassioneerde gamers en ervaren ops ingenieurs samengesteld met één doel: bouw het game-hosting platform dat we altijd wilden hebben.",
+      "paragraph3": "Vandaag NodeByte krachten spel servers over de hele wereld. Maar onze missie blijft hetzelfde: maak spelserver snel en betrouwbaar en voor iedereen toegankelijk."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Onze waarden",
+      "title": "Wat wij",
+      "titleHighlight": "Standaard voor",
+      "description": "Onze kernwaarden zijn de leidraad voor alles wat we doen, van infrastructuurbesluiten tot klantenondersteuning.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Gebouwd voor spelers",
+        "description": "Onze infrastructuur geeft prioriteit aan lage latency routes, voorspelbare prestaties en sterke tijd zodat jouw gemeenschappen online blijven en reageren."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Community & Mod ondersteuning",
+        "description": "Naadloze mod installaties, snapshot ondersteuning en community tools om u te helpen modded worlds en persistente servers te runnen met minimale inspanning."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Openen door ontwerp",
+        "description": "Wij waarderen transparantie van duidelijke SLA verplichtingen tot het openen van tooling. Ons platform biedt API's en integraties om serverworkflows te automatiseren."
       }
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "latency": "Gem. latentie",
+      "support": "Ondersteuning",
+      "servers": "Actieve servers"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "Onze reis",
+      "title": "Een kort",
+      "titleHighlight": "Geschiedenis",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "NodeByte Gevloten",
+        "description": "Startte als een klein project door gamers die betere hosting opties voor hun gemeenschappen wilden."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Snelle Groei",
+        "description": "Uitgebreide infrastructuur met FyfeWeb partnerschap, waarmee de bescherming van enterprise DDoS en UK datacentra worden toegevoegd."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Globale Uitbreiding",
+        "description": "Er zijn nieuwe diensten in het leven geroepen, het controlepaneel is verbeterd en we blijven onze mondiale gemeenschap uitbreiden."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
+      "badge": "Ons team",
+      "title": "Ontmoet de",
       "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "description": "De gepassioneerde mensen achter NodeByte die onvermoeibaar werken aan de beste hosting ervaring.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Oprichter & Hoofdontwikkelaar"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Full-stack ontwikkelaar en spelliefhebbers bouwen de infrastructuur die NodeByte stuurt."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Klaar om te beginnen?",
+      "description": "Sluit u aan bij duizenden gaming-gemeenschappen die NodeByte vertrouwen voor hun server hosting behoeften.",
+      "getStarted": "Bekijk Spelservers",
+      "joinDiscord": "Deelnemen aan Discord"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die je zoekt bestaat niet of is verplaatst. Laten we je weer op het goede spoor brengen.",
+    "goHome": "Ga naar huis",
+    "goBack": "Ga terug",
+    "quickLinks": "Snelle links",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "Startpagina",
+      "games": "Spellen",
+      "kb": "Kennisbank",
+      "contact": "Contactpersoon"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Er is iets misgegaan",
+    "description": "Er is een onverwachte fout opgetreden. Geen zorgen, ons team is op de hoogte gebracht en werkt eraan.",
+    "errorCode": "Foutmelding code",
+    "tryAgain": "Probeer opnieuw",
+    "goHome": "Ga naar huis",
+    "needHelp": "Hulp nodig?",
+    "helpDescription": "Als deze fout zich blijft voordoen, neem dan contact op met ons supportteam.",
+    "joinDiscord": "Deelnemen aan Discord",
+    "contactSupport": "Contact met Support"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "Log in",
+      "description": "Log in met uw NodeByte account om door te gaan.",
+      "emailLabel": "Uw e-mailadres",
+      "emailPlaceholder": "jij@voorbeeld.com",
+      "passwordLabel": "Wachtwoord",
+      "passwordPlaceholder": "Voer je wachtwoord in",
+      "loginButton": "Log in",
+      "loggingIn": "Bezig met inloggen...",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "noAccount": "Nog geen account?",
+      "createAccount": "Maak er een",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "Ongeldig e-mailadres of wachtwoord. Probeer het opnieuw.",
+        "networkError": "Netwerkfout. Controleer je verbinding en probeer het opnieuw.",
+        "generic": "Er is een fout opgetreden tijdens het inloggen. Probeer het opnieuw."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "Account Aanmaken",
+      "description": "Registreer je om toegang te krijgen tot je spelservers en -diensten.",
+      "emailLabel": "Uw e-mailadres",
+      "emailPlaceholder": "jij@voorbeeld.com",
+      "passwordLabel": "Wachtwoord",
+      "passwordPlaceholder": "Maak een wachtwoord",
+      "confirmPasswordLabel": "Bevestig wachtwoord",
+      "confirmPasswordPlaceholder": "Bevestig je wachtwoord",
+      "registerButton": "Account Aanmaken",
+      "registering": "Account aanmaken...",
+      "alreadyHaveAccount": "Heeft u al een account?",
+      "signIn": "Log in",
+      "panelAccountRequired": "Oud Paneel Account Vereist",
+      "panelAccountRequiredDescription": "Terwijl we werken aan het wegmigreren van onze oude systemen, moet u een bestaand account hebben op ons spelpaneel om u te registreren. Accountaccounts worden aangemaakt wanneer u een dienst aanschaf via ons factureringssysteem.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "Er bestaat al een account met dit e-mailadres.",
+        "notInPanel": "Geen spel panel account gevonden met deze e-mail. Koop eerst een dienst om een account aan te maken.",
+        "panelAccountLinked": "Dit panel account is al gekoppeld aan een ander NodeByte account.",
+        "passwordsDontMatch": "Wachtwoorden komen niet overeen.",
+        "passwordTooShort": "Wachtwoord moet ten minste 8 tekens bevatten.",
+        "invalidEmail": "Vul alstublieft een geldig e-mailadres in.",
+        "networkError": "Netwerkfout. Controleer je verbinding en probeer het opnieuw.",
+        "generic": "Er is een fout opgetreden tijdens de registratie. Probeer het opnieuw."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Account aangemaakt!",
+        "description": "Uw account is aangemaakt. U kunt nu inloggen."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Authenticatie fout",
+      "description": "Er was een probleem met het ondertekenen van je in.",
+      "configuration": "Er is een configuratiefout met het verificatiesysteem.",
+      "accessDenied": "U bent niet gemachtigd voor toegang tot deze resource.",
+      "verification": "De inloglink is niet langer geldig",
+      "default": "Er trad een fout op tijdens het inloggen.",
+      "credentialsSignin": "Ongeldige inloggegevens. Controleer uw e-mail en wachtwoord.",
+      "tryAgain": "Probeer opnieuw",
+      "goHome": "Ga naar huis"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "Mijn account",
+      "viewPanel": "Paneel weergeven",
+      "admin": "Beheerder",
+      "logout": "Log uit",
+      "signIn": "Log in",
+      "loggingOut": "Bezig met afmelden..."
     }
   },
   "admin": {
-    "title": "Admin Panel",
+    "title": "Beheerder paneel",
     "nav": {
       "dashboard": "Dashboard",
-      "users": "Users",
+      "users": "Gebruikers",
       "servers": "Servers",
-      "sync": "Sync",
-      "settings": "Settings"
+      "sync": "Synchroniseren",
+      "settings": "Instellingen"
     },
     "status": {
-      "online": "System Online"
+      "online": "Systeem Online"
     },
     "dashboard": {
       "title": "Dashboard",
-      "description": "Overview of your Pterodactyl panel data and sync status."
+      "description": "Overzicht van uw Pterodactyl paneel gegevens en sync status."
     },
     "stats": {
-      "users": "Total Users",
-      "migratedCount": "{count} migrated",
+      "users": "Totaal aantal gebruikers",
+      "migratedCount": "{count} gemigreerd",
       "servers": "Servers",
       "nodes": "Nodes",
-      "locations": "Locations",
-      "allocations": "Allocations",
-      "nests": "Nests",
-      "eggs": "Eggs",
-      "eggVariables": "Egg Variables",
+      "locations": "Locaties",
+      "allocations": "Toewijzingen",
+      "nests": "Neesters",
+      "eggs": "Eieren",
+      "eggVariables": "Ei variabelen",
       "databases": "Databases"
     },
     "sync": {
-      "status": "Sync Status",
-      "lastSync": "Last sync",
-      "never": "Never",
-      "idle": "Idle",
-      "syncing": "Syncing...",
-      "inProgress": "Sync in Progress",
-      "syncingTarget": "Syncing {target} data from panel...",
+      "status": "Synchronisatie status",
+      "lastSync": "Laatste synchronisatie",
+      "never": "Nooit",
+      "idle": "Inactief",
+      "syncing": "Synchroniseren...",
+      "inProgress": "Bezig met synchroniseren",
+      "syncingTarget": "{target} gegevens synchroniseren van het venster...",
       "complete": "complete",
-      "runFull": "Run Full Sync",
-      "success": "Sync Completed",
-      "completed": "Successfully synced {target} data.",
-      "error": "Sync Failed",
-      "quickActions": "Quick Sync Actions",
-      "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
+      "runFull": "Volledige synchronisatie uitvoeren",
+      "success": "Synchronisatie voltooid",
+      "completed": "Gegevens {target} succesvol gesynchroniseerd.",
+      "error": "Synchronisatie mislukt",
+      "quickActions": "Quick Sync Acties",
+      "quickActionsDescription": "Synchroniseer individuele gegevenstypen vanuit het Pterodactyl paneel.",
       "targets": {
-        "locations": "Locations",
+        "locations": "Locaties",
         "nodes": "Nodes",
-        "allocations": "Allocations",
-        "nests": "Nests & Eggs",
+        "allocations": "Toewijzingen",
+        "nests": "Nesten & Eieren",
         "servers": "Servers",
         "databases": "Databases",
-        "users": "Users"
+        "users": "Gebruikers"
       }
     },
     "actions": {
-      "refresh": "Refresh"
+      "refresh": "Vernieuwen"
     },
     "error": {
-      "title": "Error",
-      "unauthorized": "You are not authorized to access this page.",
-      "forbidden": "Admin access required."
+      "title": "Foutmelding",
+      "unauthorized": "U heeft geen toestemming om deze pagina te bezoeken.",
+      "forbidden": "Beheerder toegang vereist."
     }
   }
 }
