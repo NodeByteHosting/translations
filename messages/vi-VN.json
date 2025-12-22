@@ -1,241 +1,69 @@
 {
-  "admin": {
-    "sidebar": {
-      "dashboard": "Dashboard",
-      "settings": "Settings",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
-      "logs": "Logs",
-      "backToHome": "Back to Home"
-    },
-    "dashboard": {
-      "title": "Dashboard",
-      "welcome": "Welcome back",
-      "stats": {
-        "activeServers": "Active Servers",
-        "totalUsers": "Total Users",
-        "uptime": "Uptime",
-        "cpuUsage": "CPU Usage"
-      },
-      "recentActivity": "Recent Activity",
-      "noActivity": "No recent activity"
-    },
-    "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
-      "generalSettings": "General Settings",
-      "maintenanceMode": {
-        "label": "Maintenance Mode",
-        "description": "When enabled, users cannot access the hosting panel.",
-        "enable": "Enable Maintenance Mode",
-        "disable": "Disable Maintenance Mode"
-      },
-      "registrationSettings": "Registration Settings",
-      "registration": {
-        "label": "Allow Registrations",
-        "description": "When disabled, new users cannot create accounts.",
-        "enable": "Enable Registrations",
-        "disable": "Disable Registrations"
-      },
-      "pterodactylSettings": "Pterodactyl Settings",
-      "pterodactylUrl": {
-        "label": "Pterodactyl URL",
-        "placeholder": "https://panel.example.com"
-      },
-      "pterodactylApiKey": {
-        "label": "Pterodactyl API Key",
-        "placeholder": "Your API key"
-      },
-      "pterodactylInfo": "Configure your Pterodactyl panel connection for server management.",
-      "integrations": "Integrations",
-      "crowdinSettings": "Crowdin Settings",
-      "crowdinProjectId": {
-        "label": "Crowdin Project ID",
-        "placeholder": "12345"
-      },
-      "crowdinToken": {
-        "label": "Crowdin Personal Token",
-        "placeholder": "Your personal token"
-      },
-      "crowdinInfo": "Connect to Crowdin for translation management.",
-      "githubSettings": "GitHub Settings",
-      "githubToken": {
-        "label": "GitHub Token",
-        "placeholder": "Your GitHub token"
-      },
-      "githubInfo": "Connect to GitHub for releases and automation.",
-      "notificationSettings": "Notification Settings",
-      "emailNotifications": {
-        "label": "Email Notifications",
-        "description": "Enable email notifications for system events.",
-        "enable": "Enable",
-        "disable": "Disable"
-      },
-      "discordNotifications": {
-        "label": "Discord Notifications",
-        "description": "Enable Discord notifications for system events.",
-        "enable": "Enable",
-        "disable": "Disable"
-      },
-      "resendApiKey": {
-        "label": "Resend API Key",
-        "placeholder": "Your Resend API key"
-      },
-      "discordWebhooks": {
-        "label": "Discord Webhooks",
-        "description": "Add Discord webhooks for notifications",
-        "placeholder": "Webhook URL",
-        "addWebhook": "Add Webhook",
-        "removeWebhook": "Remove",
-        "noWebhooks": "No webhooks configured"
-      },
-      "cacheSettings": "Cache Settings",
-      "cacheTimeout": {
-        "label": "Cache Timeout",
-        "placeholder": "300",
-        "unit": "seconds"
-      },
-      "syncSettings": "Sync Settings",
-      "syncInterval": {
-        "label": "Sync Interval",
-        "placeholder": "60",
-        "unit": "seconds"
-      },
-      "autoSync": {
-        "label": "Auto Sync",
-        "description": "Automatically sync data with Pterodactyl.",
-        "enable": "Enable",
-        "disable": "Disable"
-      },
-      "testConnections": "Test Connections",
-      "testDatabase": "Test Database Connection",
-      "testPterodactyl": "Test Pterodactyl Connection",
-      "testing": "Testing...",
-      "testResult": {
-        "success": "Connection successful",
-        "failed": "Connection failed",
-        "error": "Error: {error}"
-      },
-      "saveSettings": "Save Settings",
-      "saving": "Saving...",
-      "settingsSaved": "Settings saved successfully",
-      "settingsFailed": "Failed to save settings",
-      "allFieldsRequired": "Please fill in all required fields",
-      "invalidUrl": "Please enter a valid URL",
-      "invalidApiKey": "Please enter a valid API key",
-      "security": {
-        "title": "Security",
-        "sensitive": "Sensitive field - shown as asterisks for security"
-      }
-    },
-    "users": {
-      "title": "Users",
-      "description": "Manage user accounts and permissions.",
-      "totalUsers": "Total Users",
-      "activeUsers": "Active Users",
-      "recentSignups": "Recent Sign-ups",
-      "searchUsers": "Search users by email or username...",
-      "columns": {
-        "email": "Email",
-        "username": "Username",
-        "joinDate": "Join Date",
-        "status": "Status",
-        "role": "Role",
-        "actions": "Actions"
-      },
-      "status": {
-        "active": "Active",
-        "inactive": "Inactive",
-        "banned": "Banned",
-        "suspended": "Suspended"
-      },
-      "roles": {
-        "user": "User",
-        "admin": "Admin",
-        "moderator": "Moderator"
-      },
-      "actions": {
-        "view": "View",
-        "edit": "Edit",
-        "suspend": "Suspend",
-        "ban": "Ban",
-        "delete": "Delete"
-      },
-      "noUsers": "No users found",
-      "loadingUsers": "Loading users..."
-    },
-    "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
-      "totalServers": "Total Servers",
-      "activeServers": "Active Servers",
-      "searchServers": "Search servers...",
-      "columns": {
-        "name": "Name",
-        "owner": "Owner",
-        "game": "Game",
-        "status": "Status",
-        "players": "Players",
-        "memory": "Memory",
-        "actions": "Actions"
-      },
-      "status": {
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Starting",
-        "stopping": "Stopping",
-        "crashed": "Crashed"
-      },
-      "actions": {
-        "view": "View",
-        "manage": "Manage",
-        "restart": "Restart",
-        "stop": "Stop",
-        "delete": "Delete"
-      },
-      "noServers": "No servers found",
-      "loadingServers": "Loading servers..."
-    },
-    "sync": {
-      "title": "Sync",
-      "description": "Synchronize data with Pterodactyl.",
-      "lastSync": "Last Sync",
-      "syncNow": "Sync Now",
-      "syncing": "Syncing...",
-      "syncStatus": "Sync Status",
-      "syncSuccess": "Sync completed successfully",
-      "syncFailed": "Sync failed",
-      "syncError": "Error during sync: {error}",
-      "syncLog": "Sync Log",
-      "noSyncLog": "No sync logs available",
-      "serversSynced": "Servers synced",
-      "usersSynced": "Users synced",
-      "allocationsSynced": "Allocations synced"
-    },
-    "logs": {
-      "title": "Logs",
-      "description": "View system and activity logs.",
-      "systemLogs": "System Logs",
-      "activityLogs": "Activity Logs",
-      "errorLogs": "Error Logs",
-      "columns": {
-        "timestamp": "Timestamp",
-        "level": "Level",
-        "message": "Message",
-        "source": "Source"
-      },
-      "levels": {
-        "info": "Info",
-        "warning": "Warning",
-        "error": "Error",
-        "debug": "Debug"
-      },
-      "noLogs": "No logs available",
-      "loadingLogs": "Loading logs...",
-      "clearLogs": "Clear Logs",
-      "clearConfirm": "Are you sure you want to clear all logs?",
-      "logsCleared": "Logs cleared successfully"
+  "login": {
+    "title": "Sign In",
+    "description": "Sign in with your NodeByte account to continue.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "loginButton": "Sign In",
+    "loggingIn": "Signing in...",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Create one",
+    "errors": {
+      "invalid": "Invalid email or password. Please try again.",
+      "networkError": "Network error. Please check your connection and try again.",
+      "generic": "An error occurred during sign in. Please try again."
     }
+  },
+  "register": {
+    "title": "Create Account",
+    "description": "Register to access your game servers and services.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Create a password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "registerButton": "Create Account",
+    "registering": "Creating account...",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "panelAccountRequired": "Old Panel Account Required",
+    "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+    "errors": {
+      "emailExists": "An account with this email already exists.",
+      "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
+      "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
+      "passwordsDontMatch": "Passwords do not match.",
+      "passwordTooShort": "Password must be at least 8 characters.",
+      "invalidEmail": "Please enter a valid email address.",
+      "networkError": "Network error. Please check your connection and try again.",
+      "generic": "An error occurred during registration. Please try again."
+    },
+    "success": {
+      "title": "Account Created!",
+      "description": "Your account has been created successfully. You can now sign in."
+    }
+  },
+  "error": {
+    "title": "Authentication Error",
+    "description": "There was a problem signing you in.",
+    "configuration": "There is a configuration error with the authentication system.",
+    "accessDenied": "You do not have permission to access this resource.",
+    "verification": "The sign in link is no longer valid.",
+    "default": "An unexpected error occurred during sign in.",
+    "credentialsSignin": "Invalid credentials. Please check your email and password.",
+    "tryAgain": "Try Again",
+    "goHome": "Go Home"
+  },
+  "userMenu": {
+    "myAccount": "My Account",
+    "viewPanel": "View Panel",
+    "admin": "Admin",
+    "logout": "Sign Out",
+    "signIn": "Sign In",
+    "loggingOut": "Signing out..."
   }
 }
