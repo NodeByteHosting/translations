@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "company": "Entreprise",
+    "services": "Services",
+    "resources": "Ressources",
+    "extras": "Extras",
+    "contact": "Contact",
+    "discord": "Discord",
+    "joinDiscord": "Rejoignez notre Discord",
+    "theme": "Thème",
+    "currency": "Devise",
+    "language": "Langue",
+    "settings": "Paramètres",
+    "menu": "Menu"
+  },
+  "company": {
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Prenez contact avec notre équipe"
+    },
+    "about": {
+      "title": "À propos",
+      "description": "En savoir plus sur NodeByte"
+    }
+  },
+  "services": {
+    "minecraft": {
+      "title": "Hébergement Minecraft",
+      "description": "Serveurs Minecraft avec configuration instantanée"
+    },
+    "rust": {
+      "title": "Hébergement Rust",
+      "description": "Serveurs Rust avec protection DDoS"
+    },
+    "hytale": {
+      "title": "Hébergement Hytale",
+      "description": "Serveurs Hytale avec protection DDoS"
+    },
+    "all": {
+      "title": "Tous les services",
+      "description": "Explorez tous nos services d'hébergement"
+    }
+  },
+  "resources": {
+    "clientArea": {
+      "title": "Espace client",
+      "description": "Gérez la facturation, les factures et les paramètres du compte"
+    },
+    "gamePanel": {
+      "title": "Panneau de jeu",
+      "description": "Contrôlez vos serveurs de jeu avec notre panneau"
+    }
+  },
+  "extras": {
+    "kb": {
+      "title": "Base de connaissances",
+      "description": "Guides, tutoriels et documentation"
+    },
+    "changelog": {
+      "title": "Nouveautés",
+      "description": "Dernières mises à jour et fonctionnalités"
+    }
+  },
+  "hero": {
+    "promo": {
+      "prefix": "UTILISEZ LE CODE",
+      "suffix": "SUR VOTRE PREMIÈRE COMMANDE!"
+    },
+    "title": "Hébergement de Jeux",
+    "titleHighlight": "Simplifié",
+    "description": "Hébergement rapide, fiable et sécurisé pour vos communautés de jeux. Lancez des serveurs dédiés avec configuration instantanée, protection DDoS et support 24/7.",
+    "getStarted": "Commencer",
+    "joinDiscord": "Rejoindre Discord",
+    "trustedBy": "Approuvé par les communautés de jeux du monde entier",
+    "trustpilotReviews": "Avis Trustpilot",
+    "stats": {
+      "uptime": "SLA Disponibilité",
+      "uptimeDesc": "Redondance entreprise gardant vos serveurs en ligne.",
+      "ping": "Ping Moyen",
+      "pingDesc": "Routage optimisé pour un gameplay à faible latence.",
+      "support": "Support",
+      "supportDesc": "Aide experte pour les installations, mods et opérations serveur."
+    }
+  },
+  "features": {
+    "badge": "Fonctionnalités",
+    "title": "Tout ce dont vous avez besoin",
+    "titleHighlight": "pour réussir",
+    "description": "Notre plateforme est construite de A à Z pour offrir la meilleure expérience de jeu possible pour vous et vos joueurs."
+  },
+  "about": {
+    "badge": "À propos",
+    "title": "Créé par des joueurs,",
+    "titleHighlight": "pour des joueurs",
+    "description": "Nous comprenons ce dont les joueurs ont besoin parce que nous sommes des joueurs. NodeByte a été fondé avec une mission simple : fournir un hébergement de jeu fiable et performant sans complexité.",
+    "stats": {
+      "uptime": "SLA de disponibilité",
+      "support": "Support",
+      "setup": "Temps de configuration",
+      "customers": "Joueurs satisfaits"
+    }
+  },
+  "pricing": {
+    "badge": "Tarifs",
+    "title": "Plans serveur",
+    "description": "Plans flexibles adaptés à vos besoins. Tous les plans incluent la protection DDoS, la configuration instantanée et le support 24/7.",
+    "getStarted": "Commencer",
+    "viewAllPlans": "Voir tous les plans",
+    "comingSoon": "Tarifs bientôt disponibles",
+    "comingSoonDescription": "Nous travaillons pour vous offrir la meilleure expérience d'hébergement. Rejoignez notre Discord pour être notifié du lancement !",
+    "joinDiscord": "Rejoindre Discord",
+    "mostPopular": "Le plus populaire",
+    "customSolution": "Besoin d'une solution personnalisée ou avez des questions ?",
+    "contactUs": "Contactez-nous",
+    "perMonth": "mois"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Questions",
+    "titleHighlight": "fréquentes",
+    "description": "Vous avez des questions ? Nous avons des réponses. Si vous ne trouvez pas ce que vous cherchez, n'hésitez pas à contacter notre équipe de support."
+  },
+  "games": {
+    "badge": "Hébergement de jeux",
+    "title": "Choisissez votre",
+    "titleHighlight": "jeu",
+    "description": "Sélectionnez parmi notre gamme de jeux pris en charge. Chaque plateforme est optimisée pour les meilleures performances possibles.",
+    "viewPlans": "Voir les plans",
+    "learnMore": "En savoir plus",
+    "comingSoon": "Bientôt disponible"
+  },
+  "contact": {
+    "badge": "Nous contacter",
+    "title": "Comment pouvons-nous",
+    "titleHighlight": "vous aider ?",
+    "description": "Notre équipe est là pour vous aider. Choisissez votre méthode de contact préférée ci-dessous.",
+    "supportChannels": "Canaux de support",
+    "discord": {
+      "title": "Communauté Discord",
+      "description": "Rejoignez notre Discord pour un support en temps réel et des discussions communautaires.",
+      "button": "Rejoindre Discord"
+    },
+    "ticket": {
+      "title": "Ticket de support",
+      "description": "Soumettez un ticket via notre panneau de facturation pour les problèmes liés au compte.",
+      "button": "Ouvrir un ticket"
+    },
+    "email": {
+      "title": "Nous contacter",
+      "description": "Envoyez-nous un e-mail et nous vous répondrons dans les 24 heures.",
+      "departments": "E-mails des départements",
+      "general": "Demandes générales",
+      "support": "Support technique",
+      "billing": "Questions de facturation",
+      "partnerships": "Partenariats"
+    },
+    "social": {
+      "title": "Suivez-nous",
+      "description": "Restez informé des dernières nouvelles et annonces."
+    },
+    "warning": {
+      "title": "Avis important",
+      "description": "Pour une réponse plus rapide, nous recommandons d'utiliser Discord pour le support. Notre communauté et notre équipe y sont les plus actifs."
+    }
+  },
+  "footer": {
+    "tagline": "Services d'hébergement rapides, fiables, évolutifs et sécurisés pour votre expérience de jeu. Construit pour les humains. Propulsé par des octets.",
+    "getInTouch": "Nous contacter",
+    "emailUs": "Envoyez-nous un email",
+    "support": "Support",
+    "contactTeam": "Contactez notre équipe",
+    "quickLinks": "Liens rapides",
+    "legal": "Mentions légales",
+    "status": "Tous les systèmes opérationnels",
+    "copyright": "Tous droits réservés.",
+    "builtWith": "Créé avec"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer",
+    "comingSoon": "Bientôt disponible"
+  }
+}

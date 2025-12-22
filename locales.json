@@ -1,0 +1,16 @@
+{
+  "locales": ["en", "de", "fr", "es"],
+  "defaultLocale": "en",
+  "names": {
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español"
+  },
+  "flags": {
+    "en": "🇬🇧",
+    "de": "🇩🇪",
+    "fr": "🇫🇷",
+    "es": "🇪🇸"
+  }
+}
