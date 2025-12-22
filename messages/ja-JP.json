@@ -1,1021 +1,1021 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "会社名",
+    "services": "サービス",
+    "resources": "リソース",
     "extras": "Extras",
-    "contact": "Contact",
+    "contact": "お問い合わせ",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "joinDiscord": "Discordに参加する",
+    "theme": "テーマ",
+    "currency": "通貨",
+    "language": "言語",
+    "settings": "設定",
+    "menu": "メニュー"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "お問い合わせ",
+      "description": "私たちのチームに連絡する"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "私たちについて",
+      "description": "NodeByteの詳細"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Minecraft ホスティング",
+      "description": "Minecraft のサーバー"
     },
     "rust": {
       "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "description": "DDoS保護を備えたRustサーバー"
     },
     "hytale": {
       "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "description": "DDoS保護機能を備えたHytale サーバー"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "すべてのサービス",
+      "description": "すべてのホスティングサービスをご覧ください"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "取引先エリア",
+      "description": "請求書、請求書、アカウントの設定を管理する"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "ゲームパネル",
+      "description": "私たちのパネルでゲームサーバーを制御します"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "ナレッジベース",
+      "description": "ガイド、チュートリアル、ドキュメント"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "新着情報",
+      "description": "最新のアップデートと機能"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "コードを使用",
+      "suffix": "最初の注文で！"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "ゲームホスティング",
+    "titleHighlight": "シンプルにしました",
+    "description": "迅速で信頼性の高いセキュアなホスティング。インスタントセットアップ、DDoS保護、24時間年中無休のサポートを備えた専用サーバーを起動します。",
+    "getStarted": "はじめよう",
+    "joinDiscord": "Discord に参加",
+    "trustedBy": "世界中のゲームコミュニティから信頼されています",
+    "trustpilotReviews": "Trustpilotレビュー",
     "stats": {
-      "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptime": "稼働時間SLA",
+      "uptimeDesc": "サーバーをオンラインに保つ企業冗長性。",
+      "ping": "平均Ping",
+      "pingDesc": "低遅延のゲームプレイに最適化されたルーティング。",
+      "support": "サポート",
+      "supportDesc": "インストール、Mod、サーバーのopsに関する専門家のヘルプ。"
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "インフラストラクチャ",
+    "title": "ビルドされた",
+    "titleHighlight": "パフォーマンス",
+    "description": "ゲーマーに優しいツールを備えたエンタープライズグレードのインフラストラクチャ。インスタントサーバー、低遅延ルーティング、強力なコントロール。",
+    "viewPlans": "ホスティングプランを表示",
+    "startingFrom": "開始日",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "DDoS保護",
+        "description": "FyfeWebを搭載したエンタープライズグレードの緩和と、サーバーをオンライン状態に保つ自動スクラブ機能を備えています。",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "FyfeWebネットワーク保護",
+          "1": "自動スケーリングによる緩和処理",
+          "2": "リアルタイム監視"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "低遅延ネットワーク",
+        "description": "FyfeWebの英国ネットワークを経由して、ロンドンPOPで最小限のpingでルートを最適化しました。",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Sub-50ms avg レイテンシー",
+          "1": "UKベースのルーティング",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "インスタントセットアップ",
+        "description": "ワンクリックサーバーテンプレート、自動化されたModインストール、および高速プロビジョニング。",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60秒のデプロイ数",
+          "1": "ビルド済みのテンプレート",
+          "2": "自動設定"
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "title": "UK データセンター",
+        "description": "FyfeWebを搭載したロンドンPOPで英国に戦略的に配置されました。",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "ロンドンPOPs",
+          "1": "FyfeWebネットワーク",
+          "2": "低レイテンシの英国の報道状況"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "コントロール パネル",
+        "description": "コンソールアクセス、ファイル管理、バックアップ、メトリックのための強力なUI。",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "ライブコンソール",
+          "1": "ファイルマネージャー",
+          "2": "スケジュールされたタスク"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "24時間365日のサポート",
+        "description": "インストールとトラブルシューティングのために、いつでも利用可能なエキスパートオペを持つ人間初のサポート。",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Discordサポート",
+          "1": "チケットシステム",
+          "2": "ナレッジベース"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "私たちのストーリー",
+    "title": "ゲーマーによって構築されました",
+    "titleHighlight": "ゲーマー向け",
+    "paragraph1": "NodeByte は、高速で信頼性が高く、管理が容易なホスティングを望んでいたゲーマーやオプスのエンジニアの小さなグループとして始まりました。 私たちは、ラギーサーバーと応答しないサポートの不満を直接経験しました。",
+    "paragraph2": "そのため、マルチプレイヤー向けに特化したインフラストラクチャを構築しました。低遅延ルーティングです。 堅牢な DDoS 保護、およびインスタントサーバープロビジョニングにより、迅速に再生できます。",
+    "joinCommunity": "コミュニティに参加する",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "プレイヤー向けに構築",
+        "description": "当社のインフラストラクチャは、低遅延ルーティング、予測可能なパフォーマンス、および強力な稼働時間を優先するため、コミュニティはオンラインでも反応性を維持できます。"
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "コミュニティ & Mod サポート",
+        "description": "シームレスなModインストール、スナップショットサポート、コミュニティツールを使用して、モデリングされた世界と永続的なサーバーを最小限の労力で実行できます。"
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "デザインで開く",
+        "description": "当社のプラットフォームは、明確なSLAのコミットメントからオープンツーリングまでの透明性を重視しており、サーバーワークフローを自動化するためのAPIと統合を提供しています。"
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "稼働時間SLA",
+      "latency": "平均遅延",
+      "support": "サポート",
+      "servers": "アクティブなサーバー"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "価格",
+    "title": "サーバープラン",
+    "description": "ニーズに合わせた柔軟なプラン。すべてのプランには、DDoS保護、インスタントセットアップ、24時間年中無休のサポートが含まれます。",
+    "getStarted": "はじめよう",
+    "viewAllPlans": "すべてのプランを表示",
+    "comingSoon": "価格は近日公開予定です",
+    "comingSoonDescription": "私たちは最高のホスティング体験を提供するために取り組んでいます。Discordに参加して、起動時に通知を受け取りましょう！",
+    "joinDiscord": "Discord に参加",
+    "mostPopular": "最も人気",
+    "customSolution": "カスタムソリューションが必要ですか、質問がありますか？",
+    "contactUs": "お問い合わせ",
+    "perMonth": "月"
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "title": "よくある質問",
+    "titleHighlight": "質問",
+    "description": "NodeByteのホスティング、パフォーマンス、およびサポートに関する簡単な回答。",
+    "searchPlaceholder": "質問を検索...",
+    "noResults": "結果が見つかりませんでした。「DDoS」、「mods」、「SLA」を検索してみてください。",
+    "stillHaveQuestions": "まだ質問がありますか？",
+    "cantFind": "お探しの内容が見つかりませんか？サポートチームがお手伝いします。",
+    "contactSupport": "サポートに連絡",
+    "joinDiscord": "Discord に参加",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "どのくらいの速さでサーバーをプロビジョニングできますか?",
+        "answer": "ほとんどのビルド済みのサーバーテンプレートは60秒未満で提供されています。MODのインストール時間に応じて、大きなMODを使用するカスタム設定に時間がかかる場合があります。"
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "DDoS保護を提供していますか?",
+        "answer": "はい、すべてのプランには、FyfeWebを搭載したエンタープライズグレードのDDoS緩和策が含まれます。私たちのロンドンPOPは、ネットワークエッジで自動フィルタリングとスクラブを提供します。"
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "データセンターはどこにありますか?",
+        "answer": "弊社は、弊社のネットワークパートナーである FyfeWeb を搭載した London POP を搭載し、英国およびヨーロッパ全域で優れたカバレッジを提供しています。"
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "MODやカスタムマップを実行できますか?",
+        "answer": "はい、当社のコントロールパネルとテンプレートは、一般的なModローダー(Forge、Fabric)とカスタムマップアップロードをサポートしています。管理されたMODサポートは、選択したプランで利用できます。"
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "稼働時間のSLAは何ですか？",
+        "answer": "私たちは、生産計画について99.6%の稼働時間SLAを提供しています。"
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "コミットする前にトライアルを受けることはできますか?",
+        "answer": "はい、コミットする前に新しいユーザーがサービスをテストするための無料トライアルを提供しています。利用可能なオプションについては無料トライアルページをご覧ください。",
+        "trialLink": "無料トライアルを開始"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "ゲームサーバー",
+    "title": "あなたを選択",
+    "titleHighlight": "ゲーム",
+    "description": "パワフルで低遅延のゲームサーバー。インスタントセットアップ、直感的なコントロールパネル、24時間年中無休のエキスパートサポート。",
+    "viewPlans": "プランを表示",
+    "learnMore": "もっと詳しく",
+    "comingSoon": "近日公開",
+    "customSolution": "表示されていないゲームサーバーが必要ですか？",
+    "contactUs": "お問い合わせ",
+    "forCustom": "を選択します。",
+    "hosting": "ホスティング",
+    "joinWaitlist": "ウェイトリストに参加",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "1クリックでModローダー、プラグイン、およびフルバージョンをサポートするJavaとBedrockサーバー。",
+      "tag": "最も人気",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Forge & Fabric のサポート",
+        "1": "プラグイン管理",
+        "2": "自動バックアップ",
+        "3": "カスタムJARアップロード"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "小規模なサーバーとテストに最適です"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "ブレイズ",
+          "description": "成長するコミュニティに最適です"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "name": "インフェルノ",
+          "description": "中規模コミュニティに最適"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "storage": "{amount} GB のストレージ",
+        "databases": "10 MySQL データベース",
+        "ddos": "FyfeWeb DDoS保護",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "jars": "自動/事前にインストールされた jar ファイル",
+        "uptime": "99.6%の稼働時間SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "ワンクリックのModローダー",
+          "description": "Forge、Fabric、Paper、Spigotなどをコントロールパネルからワンクリックでインストールします。",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Forge & Fabric のサポート",
+            "1": "紙とSpigot サーバー",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "カスタムJARアップロード"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "高性能ハードウェア",
+          "description": "エンタープライズグレードのNVMeストレージを備えたAMDのRyzenプロセッサは、高速なパフォーマンスを実現します。",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 CPU",
+            "1": "NVMe SSDストレージ",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "最大 4.8GHz のクロック速度"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "DDoS保護",
+          "description": "FyfeWebを利用したエンタープライズグレードのDDoS緩和は、攻撃時でもサーバーをオンラインに保ちます。",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "0": "レイヤ 3/4/7 保護",
+            "1": "FyfeWebネットワークフィルタリング",
+            "2": "ゼロダウンタイムの削減",
+            "3": "UK London POP"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "インスタントセットアップ",
+          "description": "サーバーは数秒以内に展開されます。購入後すぐにプレイを開始してください。",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "自動プロビジョニング",
+            "1": "事前設定された設定",
+            "2": "60秒以内に準備完了",
+            "3": "技術的な知識は必要ありません"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "完全な FTP アクセス",
+          "description": "FTP/SFTP経由でファイルアクセスを完了します。ワールド、プラグイン、設定を簡単にアップロードできます。",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "SFTP ファイルアクセス",
+            "1": "ウェブベースのファイルマネージャー",
+            "2": "ドラッグ＆ドロップによるアップロード",
+            "3": "自動バックアップ"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "無制限のスロット",
+          "description": "人工的なプレーヤーの制限はありません。ハードウェアが処理できる数のプレーヤーをホストします。",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "スロット制限なし",
+            "1": "スケーラブルなリソース",
+            "2": "いつでもアップグレード",
+            "3": "公正な資源の割り当て"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "どのバージョンの Minecraft をサポートしていますか?",
+          "answer": "1.7.10からスナップショットを含む最新のリリースまで、すべてのMinecraftバージョンをサポートしています。Java EditionとBedrock Editionの両方のサーバーが利用可能です。"
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Modやプラグインをインストールできますか?",
+          "answer": "はい！Forge、Fabric、NeoForgeなどの主要なModローダーをすべてサポートしています。 プラグインの場合、Paper, Spigot, Bukkit, Purpar をサポートしています。カスタム JAR をアップロードすることもできます。"
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "既存のワールドをアップロードするにはどうすればいいですか?",
+          "answer": "ウェブベースのファイルマネージャーまたはSFTP経由であなたのワールドファイルをアップロードすることができます。 ワールドフォルダをドラッグアンドドロップするだけで、すぐに使用できます。"
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "制限はありますか?",
+          "answer": "いいえ、私たちは人工的なプレイヤー制限を課しません。あなたのサーバーは割り当てられたリソースが処理できる数のプレイヤーをホストできます。"
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "後でプランをアップグレードできますか？",
+          "answer": "もちろんです！プランをいつでも請求パネルからアップグレードまたはダウングレードできます。変更はダウンタイムなしですぐに有効になります。"
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "払い戻しを提供しますか？",
+          "answer": "はい、私たちはすべての新しい購入に48時間の返金保証を提供しています。満足していない場合は、全額返金についてはサポートにお問い合わせください。"
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Oxide/uModサポートとカスタムマップオプションを備えた高性能Rustサーバーホスティング。",
+      "tag": "高パフォーマンス",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Oxide/uMod サポート",
+        "1": "カスタムマップ",
+        "2": "スケジューラの消去",
+        "3": "RCON アクセス"
       },
       "plans": {
         "starter": {
           "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "description": "40人のプレイヤーにお勧めします"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "標準",
+          "description": "75人のプレイヤーにおすすめです"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "パフォーマンス",
+          "description": "100人のプレイヤーにおすすめです"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}GB SSDストレージ",
+        "ddos": "FyfeWeb DDoS保護",
+        "location": "イギリスのニューカッスル州",
+        "databases": "10 MySQL データベース",
+        "panel": "BytePanel(ゲームパネル)",
+        "oxide": "Oxide/Umod対応",
+        "rustplus": "Rust+ サポート",
+        "uptime": "99.6%の稼働時間SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Oxide/uMod サポート",
+          "description": "Oxide プラグインと uMod プラグインを完全にサポートします。コントロールパネルから直接プラグインをインストールして管理します。",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Oxide をワンクリックでインストール",
+            "1": "プラグインマネージャー",
+            "2": "利用可能な自動アップデートがあります",
+            "3": "権限管理"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "カスタムマップ",
+          "description": "手続きによって生成された地図を使用するか、独自のカスタム地図をアップロードします。完全な地図カスタマイズをサポートします。",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "プロシージャル生成",
+            "1": "カスタムマップのアップロード",
+            "2": "マップサイズコントロール",
+            "3": "シードのカスタマイズ"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "高パフォーマンス",
+          "description": "Rust は強力なハードウェアを必要とします。弊社のサーバーは最新の AMD Ryzen CPU と NVMe ストレージを使用しています。",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 CPU",
+            "1": "NVMe SSDストレージ",
+            "2": "高単一スレッドのパフォーマンス",
+            "3": "低遅延ネットワーク"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "DDoS保護",
+          "description": "英国ロンドンPOPを通じたFyfeWebのエンタープライズグレードのDDoS緩和は、24時間年中無休の攻撃からサーバーを保護します。",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "0": "FyfeWebネットワークフィルタリング",
+            "1": "UK London POP",
+            "2": "レイヤ 3/4/7 保護",
+            "3": "ダウンタイムゼロ時間"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "スケジューラの消去",
+          "description": "サーバーを新鮮に保つための自動ワイプスケジューリング。毎週、隔週、または毎月のワイプを設定します。",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "自動ワイプ",
+            "1": "ブループリントワイプオプション",
+            "2": "ワイプスケジューリングをマップする",
+            "3": "Discordの通知"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "完全な RCON アクセス",
+          "description": "サーバー管理のためのリモートコンソールアクセスを完了します。任意の場所からコマンドを実行します。",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "WebベースのRCON",
+            "1": "コマンドスケジュール",
+            "2": "プレイヤー管理",
+            "3": "リアルタイムログ"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Oxide/uModプラグインをサポートしていますか？",
+          "answer": "私たちは完全にサポート酸化物とuMod。 コントロールパネルからワンクリックでOxideをインストールし、プラグインマネージャまたはFTP経由でプラグインを管理できます。"
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "カスタムマップを使用できますか?",
+          "answer": "もちろんです! カスタムシードやサイズで手続き的に生成されたマップを使用したり、FTP 経由で独自のカスタムマップファイルをアップロードしたりできます。"
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "ワイプスケジューラはどのように動作しますか?",
+          "answer": "当社のワイプスケジューラを使用すると、選択したスケジュールでサーバーワイプを自動化できます。 マップのみのワイプまたは完全なブループリントワイプを設定したり、必要に応じてDiscord通知を送信することができます。"
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "サーバーのティックレートは？",
+          "answer": "当社のRustサーバーはデフォルトの30ティックレートで動作します。当社の高性能ハードウェアは、オンラインの多くのプレイヤーでも一貫したパフォーマンスを保証します。"
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "RCONにアクセスできますか?",
+          "answer": "はい、完全な RCON アクセスが可能です。当社の Web ベースの RCON コンソールを使用するか、標準の RCON クライアントに接続できます。"
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "moded サーバーをサポートしていますか？",
+          "answer": "はい、私たちはバニラとモッドのRustサーバーの両方をサポートしています。Oxideをインストールし、完璧なモッド体験を作成するために必要なプラグインを追加してください。"
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Hytale サーバーのホスティングはまもなく開始されます。Discordに参加して早期アクセスとアップデートをご利用ください。",
+      "tag": "開発中",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Mod サポート",
+        "1": "カスタムマップ",
+        "2": "簡単な構成",
+        "3": "24時間年中無休のサポート"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "特徴",
+      "title": "なぜ私たちを選ぶのか",
+      "titleSuffix": "ホスティング",
+      "description": "{game} サーバーに特化したエンタープライズグレードのインフラストラクチャ。"
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "価格",
+      "title": "サーバープラン",
+      "description": "ニーズに合わせた柔軟なプラン。すべてのプランには、DDoS保護、インスタントセットアップ、24時間年中無休のサポートが含まれます。",
+      "comingSoon": "価格は近日公開予定です",
+      "comingSoonDesc": "最高の {game} ホスティング体験を提供しようとしています。Discordに参加して、起動時に通知を受け取りましょう！",
+      "joinDiscord": "Discord に参加",
+      "mostPopular": "最も人気",
+      "getStarted": "はじめよう",
+      "viewAllPlans": "すべてのプランを表示",
+      "customSolution": "カスタムソリューションが必要ですか、質問がありますか？",
+      "contactUs": "お問い合わせ"
     },
     "faq": {
       "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "title": "質問",
+      "description": "{game} ホスティングサービスに関するよくある質問。",
+      "stillHaveQuestions": "まだ質問がありますか？",
+      "supportAvailable": "当社のサポートチームは24時間年中無休で対応しています。",
+      "askOnDiscord": "Discordで確認する",
+      "contactSupport": "サポートに連絡"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "ウェイトリストに参加",
+      "viewPlans": "プランを表示",
+      "learnMore": "もっと詳しく",
+      "comingSoon": "近日公開",
+      "joinDiscordForUpdates": "Discordに参加してアップデートしよう"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "連絡を取る",
+    "title": "お問い合わせ",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "私たちは24時間年中無休でサポートをいたします。サポートチャンネルを通じて、できるだけ早くご連絡いたします。",
+    "supportChannels": "サポートチャンネル",
+    "copied": "コピーしました！",
+    "copiedDesc": "メールアドレスをクリップボードにコピーしました",
+    "copyFailed": "コピーに失敗しました",
+    "copyFailedDesc": "クリップボードにコピーできませんでした",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Discordコミュニティ",
+      "description": "私たちのコミュニティに参加して、インスタントサポート、アナウンス、他のユーザーとチャットしましょう。",
+      "button": "Discord に参加",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "即時応答",
+        "1": "コミュニティヘルプ",
+        "2": "お知らせ"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "バグを報告し、機能を提案し、オープンソースプロジェクトに貢献します。",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "バグレポート",
+        "1": "機能のリクエスト",
+        "2": "オープンソース"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "サポートチケット",
+      "description": "アカウント関連の問題については、請求パネルからチケットを送信してください。",
+      "button": "チケットを開く"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "メールサポート",
+      "title": "メールアドレスをご希望ですか？カバーされています。",
+      "responseTime": "応答時間:通常24時間以内",
+      "departments": "部署メール",
+      "technical": "技術サポート",
+      "technicalDesc": "サーバーの問題と技術的ヘルプ",
+      "general": "一般的なサポート",
+      "generalDesc": "一般的な質問とヘルプ",
+      "account": "アカウントの問題",
+      "accountDesc": "ログインとアカウントの問題",
+      "billing": "請求に関するお問い合わせ",
+      "billingDesc": "支払いと請求書"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "フォローしてください",
+      "description": "ニュース、ヒント、コミュニティの最新情報を常に更新する"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "重要なお知らせ",
+      "description": "弊社はDiscordを通じた請求やアカウント関連のサポートは行いません。プライバシーとセキュリティについては、support@nodebyte.hostまでご連絡ください。"
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
+    "tagline": "あなたのゲーム体験のための高速で信頼性の高い、スケーラブルで安全なホスティングサービス。人間のために構築されたByteによって動作します。",
+    "getInTouch": "連絡を取る",
+    "emailUs": "メールでお問い合わせください",
+    "support": "サポート",
+    "contactTeam": "私たちのチームに連絡する",
+    "quickLinks": "クイックリンク",
     "legal": "Legal",
-    "status": "All Systems Operational",
+    "status": "すべてのシステム操作",
     "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "builtWith": "次で作成",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "すべてのシステム操作",
+      "degraded": "パフォーマンスが低下しました",
+      "maintenance": "メンテナンス中"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
+      "minecraftHosting": "Minecraft ホスティング",
       "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "gamePanel": "ゲームパネル",
+      "clientArea": "取引先エリア"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "Discord サーバー",
+      "serviceStatus": "サービスステータス",
+      "knowledgeBase": "ナレッジベース",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー",
+      "refund": "払い戻しポリシー",
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "NodeByteについて",
+      "contact": "お問い合わせ",
+      "companyInfo": "会社情報",
+      "changes": "更新履歴"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "レビュー",
+      "readReviews": "レビューを読む"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "読み込み中...",
+    "error": "問題が発生しました",
+    "retry": "もう一度やり直してください",
+    "learnMore": "もっと詳しく",
+    "getStarted": "はじめよう",
+    "comingSoon": "近日公開"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "新着情報",
+    "title": "更新履歴",
+    "titleHighlight": "& 更新",
+    "description": "すべての NodeByte プロジェクトの最新のリリース、機能、改善点について最新の情報をご確認ください。",
+    "searchPlaceholder": "リリースを検索...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "すべてのリポジトリ",
+      "allTypes": "すべてのタイプ",
+      "feature": "機能",
+      "bugfix": "バグ修正",
+      "improvement": "Melhoria",
+      "breaking": "破壊的な変更",
+      "security": "セキュリティ"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "GitHubで見る",
+      "publishedOn": "公開日時",
+      "by": "作成者:",
+      "assets": "アセット",
+      "downloadAsset": "ダウンロード",
+      "noAssets": "利用可能なアセットがありません",
+      "preRelease": "プレリリース",
+      "latest": "最新",
+      "draft": "ドラフト（下書き）"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "リリースが見つかりませんでした",
+      "description": "検索またはフィルターを調整して、探しているものを見つけてください。",
+      "clearFilters": "フィルタをクリア"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "リリースを読み込み中...",
+      "description": "リポジトリから最新の更新情報を取得しています。"
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "リリースの読み込みに失敗しました",
+      "description": "リリースの取得中にエラーが発生しました。後でもう一度お試しください。",
+      "retry": "もう一度試す"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "全リリース",
+      "repositories": "リポジトリ",
+      "latestUpdate": "最新のアップデート"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "すべてのリリースを表示",
+    "showMore": "詳細を表示",
+    "showLess": "縮小表示",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "前",
+      "next": "次へ",
+      "page": "ページ",
+      "of": "/"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "リンクをコピー",
+    "linkCopied": "リンクをコピーしました！"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
+    "title": "ナレッジベース",
+    "description": "NodeByteの体験を最大限に引き出すための解答、チュートリアル、ガイドをご覧ください。",
+    "searchPlaceholder": "ナレッジベースを検索...",
+    "browseByCategory": "カテゴリ別に参照",
+    "recentlyUpdated": "最近更新された",
+    "articles": "記事",
     "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "updated": "更新日時",
+    "onThisPage": "このページ",
+    "backTo": "前に戻る",
+    "previous": "前",
+    "next": "次へ",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "結果が見つかりませんでした",
+      "description": "異なるキーワードを試すか、カテゴリを参照してください",
+      "forQuery": "結果が見つかりませんでした："
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "記事はまだありません",
+      "description": "このカテゴリにはまだ記事がありません。すぐに確認してください！"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "まだヘルプが必要ですか？",
+      "description": "お探しの内容が見つかりませんか？お手伝いいたします。",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Discordコミュニティ",
+        "description": "Discordに参加して、ライブサポートとコミュニティヘルプをご利用ください。",
+        "button": "Discord に参加"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "サポートチケット",
+        "description": "アカウントまたは請求の問題のためのサポート チケットを開きます。",
+        "button": "チケットを開く"
       },
       "faq": {
         "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "description": "よくある質問を簡単に確認してください。",
+        "button": "FAQを見る"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "ナレッジベースを検索",
+      "button": "検索"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
+    "toggle": "テーマメニューを開く",
+    "appearance": "外観",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "coolTones": "クールな音",
+    "warmTones": "暖かい音",
     "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
+    "slate": "スレート",
+    "midnight": "ミッドナイト",
+    "ocean": "海",
+    "forest": "森",
+    "sunset": "日没",
+    "rose": "バラ",
+    "amber": "アンバー",
     "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "teal": "ティール",
+    "sky": "空",
+    "violet": "バイオレット"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "ゲームサーバーホスティング",
+    "description": "インスタントセットアップ、強力なコントロールパネル、24時間年中無休のエキスパートサポートを備えた高性能ゲームサーバーホスティング。",
+    "startingAt": "開始日時"
   },
   "accessibility": {
-    "loading": "Loading",
+    "loading": "読み込み中",
     "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
-    "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "previous": "前",
+    "next": "次へ",
+    "morePages": "その他のページ",
+    "previousSlide": "前のスライド",
+    "nextSlide": "次のスライド",
+    "breadcrumb": "breadcrunb",
+    "more": "もっと見る",
+    "toggleSidebar": "サイドバーの切り替え",
+    "goToSlide": "スライドに移動"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "NodeByteについて",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "ゲーマーによって構築されました",
+      "titleHighlight": "ゲーマー向け",
+      "description": "NodeByte は、高速で信頼性が高く、管理が容易なホスティングを望んでいたゲーマーやオプスのエンジニアの小さなグループとして始まりました。 今日、私たちは世界中のゲームサーバーにパワーを供給しています。",
+      "joinCommunity": "コミュニティに参加する",
+      "contactUs": "お問い合わせ"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "私たちのストーリー",
+      "title": "全ての始まり方",
+      "paragraph1": "NodeByteは不満から生まれました。 私たちは熱心なゲーマーとして、ラギーサーバーの痛み、応答のないサポート、複雑なコントロールパネルを経験し、サーバー管理を悪夢にさせました。",
+      "paragraph2": "2024年には、私たちは十分であると判断しました。 私たちは情熱的なゲーマーと経験豊富なオプスエンジニアのチームを集めました:私たちが常に存在したいゲームホスティングプラットフォームを構築します。",
+      "paragraph3": "今日, NodeByte は世界中のゲームサーバーを強化します. しかし、私たちの使命は同じまま: 高速で信頼性の高い、誰もがアクセスできるゲームサーバーを作る."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "私たちの価値",
+      "title": "私たちのもの",
+      "titleHighlight": "待機する",
+      "description": "インフラの決定からカスタマーサポートに至るまで、私たちが行うすべてのことをコアにしています。",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "プレイヤー向けに構築",
+        "description": "当社のインフラストラクチャは、低遅延ルーティング、予測可能なパフォーマンス、および強力な稼働時間を優先するため、コミュニティはオンラインでも反応性を維持できます。"
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "コミュニティ & Mod サポート",
+        "description": "シームレスなModインストール、スナップショットサポート、コミュニティツールを使用して、モデリングされた世界と永続的なサーバーを最小限の労力で実行できます。"
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "デザインで開く",
+        "description": "当社のプラットフォームは、明確なSLAのコミットメントからオープンツーリングまでの透明性を重視しており、サーバーワークフローを自動化するためのAPIと統合を提供しています。"
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "稼働時間SLA",
+      "latency": "平均遅延",
+      "support": "サポート",
+      "servers": "アクティブなサーバー"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "私たちの旅",
+      "title": "簡単な",
+      "titleHighlight": "沿革",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "NodeByte 設立済み",
+        "description": "コミュニティのためのより良いホスティングオプションを望んでいたゲーマーによって小さなプロジェクトとして開始されました。"
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "急速成長",
+        "description": "FyfeWebパートナーシップによりインフラストラクチャを拡大し、エンタープライズのDDoS保護と英国のデータセンターを追加しました。"
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "グローバル拡張",
+        "description": "新しいサービス、強化されたコントロールパネルを立ち上げ、グローバルコミュニティの拡大を続けています。"
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "私たちのチーム",
+      "title": "以下を参照：",
+      "titleHighlight": "チーム",
+      "description": "最高のホスティング体験を提供するために精力的に働くNodeByteの背後にある情熱的な人々。",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "創設者＆主開発者"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "NodeByteを動かすインフラストラクチャを構築するフルスタックの開発者とゲーム愛好家。"
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "始める準備はできましたか？",
+      "description": "サーバーホスティングニーズのためにNodeByteを信頼する何千ものゲームコミュニティに参加してください。",
+      "getStarted": "ゲームサーバーを表示",
+      "joinDiscord": "Discord に参加"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動されています。元通りに戻しましょう。",
+    "goHome": "帰還する",
+    "goBack": "戻る",
+    "quickLinks": "クイックリンク",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "ホーム",
+      "games": "ゲーム",
+      "kb": "ナレッジベース",
+      "contact": "お問い合わせ"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "問題が発生しました",
+    "description": "予期しないエラーが発生しました。ご心配なく、チームに通知され、対応中です。",
+    "errorCode": "エラーコード",
+    "tryAgain": "もう一度試す",
+    "goHome": "帰還する",
+    "needHelp": "ヘルプが必要ですか？",
+    "helpDescription": "このエラーが解決しない場合は、サポートチームにお問い合わせください。",
+    "joinDiscord": "Discord に参加",
+    "contactSupport": "サポートに連絡"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
+      "title": "サインイン",
+      "description": "NodeByte アカウントでサインインして続行してください。",
+      "emailLabel": "メールアドレス",
       "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "passwordLabel": "パスワード",
+      "passwordPlaceholder": "パスワードを入力してください",
+      "loginButton": "サインイン",
+      "loggingIn": "サインイン中...",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "createAccount": "作成する",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "メールアドレスまたはパスワードが無効です。もう一度やり直してください。",
+        "networkError": "ネットワークエラーが発生しました。接続を確認して、もう一度やり直してください。",
+        "generic": "サインイン中にエラーが発生しました。もう一度やり直してください。"
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
+      "title": "アカウントを作成",
+      "description": "ゲームサーバーとサービスにアクセスするには登録してください。",
+      "emailLabel": "メールアドレス",
       "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "passwordLabel": "パスワード",
+      "passwordPlaceholder": "パスワードを作成",
+      "confirmPasswordLabel": "パスワードの確認",
+      "confirmPasswordPlaceholder": "パスワードの確認",
+      "registerButton": "アカウントを作成",
+      "registering": "アカウントを作成しています...",
+      "alreadyHaveAccount": "既にアカウントをお持ちですか？",
+      "signIn": "サインイン",
+      "panelAccountRequired": "古いパネルアカウントが必要です",
+      "panelAccountRequiredDescription": "古いシステムからの移行に取り組んでいますが、登録するにはゲームパネルに既存のアカウントが必要です。 パネルアカウントは、請求システムを通じてサービスを購入する際に作成されます。",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "このメールアドレスのアカウントは既に存在します。",
+        "notInPanel": "このメールアドレスのゲームパネルアカウントが見つかりません。まずサービスを購入してパネルアカウントを作成してください。",
+        "panelAccountLinked": "このパネルアカウントは既に別のNodeByteアカウントにリンクされています。",
+        "passwordsDontMatch": "パスワードが一致しません。",
+        "passwordTooShort": "パスワードは8文字以上である必要があります。",
+        "invalidEmail": "有効なメールアドレスを入力してください。",
+        "networkError": "ネットワークエラーが発生しました。接続を確認して、もう一度やり直してください。",
+        "generic": "登録中にエラーが発生しました。もう一度やり直してください。"
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "アカウントが作成されました！",
+        "description": "アカウントが正常に作成されました。今すぐサインインできます。"
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "認証エラー",
+      "description": "サインイン中に問題が発生しました。",
+      "configuration": "認証システムに設定エラーがあります。",
+      "accessDenied": "このリソースにアクセスする権限がありません．",
+      "verification": "サインインリンクは無効になりました。",
+      "default": "ログイン中に予期しないエラーが発生しました。",
+      "credentialsSignin": "無効な資格情報です。メールアドレスとパスワードを確認してください。",
+      "tryAgain": "もう一度試す",
+      "goHome": "帰還する"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "マイアカウント",
+      "viewPanel": "パネルを表示",
+      "admin": "管理者",
+      "logout": "サインアウト",
+      "signIn": "サインイン",
+      "loggingOut": "サインアウトしています..."
     }
   },
   "admin": {
-    "title": "Admin Panel",
+    "title": "管理パネル",
     "nav": {
-      "dashboard": "Dashboard",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
-      "settings": "Settings"
+      "dashboard": "ダッシュボード",
+      "users": "ユーザー",
+      "servers": "サーバー",
+      "sync": "同期",
+      "settings": "設定"
     },
     "status": {
-      "online": "System Online"
+      "online": "オンラインのシステム"
     },
     "dashboard": {
-      "title": "Dashboard",
-      "description": "Overview of your Pterodactyl panel data and sync status."
+      "title": "ダッシュボード",
+      "description": "Pterodactyl パネルデータと同期状態の概要。"
     },
     "stats": {
-      "users": "Total Users",
-      "migratedCount": "{count} migrated",
-      "servers": "Servers",
+      "users": "合計ユーザー",
+      "migratedCount": "{count} が移行されました",
+      "servers": "サーバー",
       "nodes": "Nodes",
-      "locations": "Locations",
-      "allocations": "Allocations",
-      "nests": "Nests",
-      "eggs": "Eggs",
-      "eggVariables": "Egg Variables",
-      "databases": "Databases"
+      "locations": "場所",
+      "allocations": "割り当て",
+      "nests": "巣の数",
+      "eggs": "卵",
+      "eggVariables": "卵変数",
+      "databases": "データベース"
     },
     "sync": {
-      "status": "Sync Status",
-      "lastSync": "Last sync",
-      "never": "Never",
-      "idle": "Idle",
-      "syncing": "Syncing...",
-      "inProgress": "Sync in Progress",
-      "syncingTarget": "Syncing {target} data from panel...",
+      "status": "同期状態",
+      "lastSync": "最終同期",
+      "never": "一切なし",
+      "idle": "待機中",
+      "syncing": "同期中...",
+      "inProgress": "同期中",
+      "syncingTarget": "パネルから {target} データを同期中...",
       "complete": "complete",
-      "runFull": "Run Full Sync",
-      "success": "Sync Completed",
-      "completed": "Successfully synced {target} data.",
-      "error": "Sync Failed",
-      "quickActions": "Quick Sync Actions",
-      "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
+      "runFull": "フル同期を実行",
+      "success": "同期完了",
+      "completed": "{target} データが正常に同期されました。",
+      "error": "同期に失敗しました",
+      "quickActions": "クイック同期アクション",
+      "quickActionsDescription": "Pterodactyl パネルから個々のデータタイプを同期します。",
       "targets": {
-        "locations": "Locations",
+        "locations": "場所",
         "nodes": "Nodes",
-        "allocations": "Allocations",
-        "nests": "Nests & Eggs",
-        "servers": "Servers",
-        "databases": "Databases",
-        "users": "Users"
+        "allocations": "割り当て",
+        "nests": "巣と卵",
+        "servers": "サーバー",
+        "databases": "データベース",
+        "users": "ユーザー"
       }
     },
     "actions": {
-      "refresh": "Refresh"
+      "refresh": "更新"
     },
     "error": {
-      "title": "Error",
-      "unauthorized": "You are not authorized to access this page.",
-      "forbidden": "Admin access required."
+      "title": "エラー",
+      "unauthorized": "このページにアクセスする権限がありません。",
+      "forbidden": "管理者アクセスが必要です。"
     }
   }
 }
