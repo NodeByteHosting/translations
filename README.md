@@ -2,66 +2,68 @@
 
 Community translations for [NodeByte Hosting](https://nodebyte.host).
 
+[![Crowdin](https://badges.crowdin.net/nodebyte/localized.svg)](https://crowdin.com/project/nodebyte)
+
 ## 🌍 Contributing Translations
 
-### Option 1: Via Crowdin (Recommended)
+### Via Crowdin (Recommended)
 The easiest way to contribute translations is through our Crowdin project:
 **[Translate on Crowdin →](https://crowdin.com/project/nodebyte)**
 
 Crowdin provides a user-friendly interface for translating and automatically syncs approved translations to this repository.
 
-### Option 2: Direct GitHub Contribution
-1. Fork this repository
-2. Copy `messages/en.json` to `messages/<language-code>.json`
-3. Translate all strings in the new file
-4. Add your language to `locales.json`
-5. Submit a Pull Request
-
 ## 📁 Structure
 
 ```
+├── templates/
+│   └── en.json      # English source (Crowdin source file)
 ├── messages/
-│   ├── en.json      # English (source)
-│   ├── de.json      # German
-│   ├── fr.json      # French
-│   ├── es.json      # Spanish
-│   └── ...
+│   ├── de-DE.json   # German (Crowdin managed)
+│   ├── fr-FR.json   # French (Crowdin managed)
+│   ├── es-ES.json   # Spanish (Crowdin managed)
+│   └── ...          # 30+ languages
 ├── locales.json     # List of available locales
+├── crowdin.yml      # Crowdin configuration
 └── README.md
 ```
 
 ## 📝 Translation Guidelines
 
 1. **Keep placeholders intact** - Variables like `{count}` or `{name}` should not be translated
-2. **Maintain formatting** - Keep the same JSON structure and indentation
+2. **Maintain formatting** - Keep the same JSON structure
 3. **Use native expressions** - Translate naturally, don't translate word-for-word
-4. **Test your translations** - Ensure they make sense in context
+4. **Use indexed objects for arrays** - Use `{"0": "item", "1": "item"}` not `["item", "item"]`
 
-## 🌐 Available Languages
+## 🌐 Supported Languages
 
-| Language | Code | Status | Translator |
-|----------|------|--------|------------|
-| English | `en` | ✅ Complete | NodeByte Team |
-| German | `de` | ✅ Complete | Community |
-| French | `fr` | ✅ Complete | Community |
-| Spanish | `es` | ✅ Complete | Community |
+| Language | Code | Language | Code |
+|----------|------|----------|------|
+| 🇬🇧 English | `en` | 🇮🇹 Italiano | `it-IT` |
+| 🇿🇦 Afrikaans | `af-ZA` | 🇯🇵 日本語 | `ja-JP` |
+| 🇸🇦 العربية | `ar-SA` | 🇰🇷 한국어 | `ko-KR` |
+| 🇪🇸 Català | `ca-ES` | 🇳🇱 Nederlands | `nl-NL` |
+| 🇨🇿 Čeština | `cs-CZ` | 🇳🇴 Norsk | `no-NO` |
+| 🇩🇰 Dansk | `da-DK` | 🇵🇱 Polski | `pl-PL` |
+| 🇩🇪 Deutsch | `de-DE` | 🇧🇷 Português (Brasil) | `pt-BR` |
+| 🇬🇷 Ελληνικά | `el-GR` | 🇵🇹 Português | `pt-PT` |
+| 🇪🇸 Español | `es-ES` | 🇷🇴 Română | `ro-RO` |
+| 🇫🇮 Suomi | `fi-FI` | 🇷🇺 Русский | `ru-RU` |
+| 🇫🇷 Français | `fr-FR` | 🇷🇸 Српски | `sr-SP` |
+| 🇮🇱 עברית | `he-IL` | 🇸🇪 Svenska | `sv-SE` |
+| 🇭🇺 Magyar | `hu-HU` | 🇹🇷 Türkçe | `tr-TR` |
+| 🇺🇦 Українська | `uk-UA` | 🇻🇳 Tiếng Việt | `vi-VN` |
+| 🇨🇳 简体中文 | `zh-CN` | 🇹🇼 繁體中文 | `zh-TW` |
 
-## 🆕 Adding a New Language
+## 🔄 How It Works
 
-1. Create `messages/<code>.json` based on `en.json`
-2. Add the locale to `locales.json`:
-   ```json
-   {
-     "locales": ["en", "de", "fr", "es", "YOUR_CODE"],
-     "names": {
-       "YOUR_CODE": "Language Name"
-     },
-     "flags": {
-       "YOUR_CODE": "🏳️"
-     }
-   }
-   ```
-3. Submit a PR with your translations
+1. **Source file**: `templates/en.json` is the English source maintained by the NodeByte team
+2. **Crowdin sync**: When changes are pushed, Crowdin detects new/updated strings
+3. **Community translation**: Translators contribute via Crowdin's web interface
+4. **Auto PR**: Crowdin automatically creates PRs with approved translations to `messages/`
+
+## 🆕 Requesting a New Language
+
+If your language isn't listed, [open an issue](https://github.com/NodeByteHosting/translations/issues) or ask in our Discord!
 
 ## 📜 License
 
