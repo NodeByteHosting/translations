@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "extras": "Extras",
+    "contact": "Contact",
+    "discord": "Discord",
+    "joinDiscord": "Join our Discord",
+    "theme": "Theme",
+    "currency": "Currency",
+    "language": "Language",
+    "settings": "Settings",
+    "menu": "Menu"
+  },
+  "company": {
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with our team"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn more about NodeByte"
+    }
+  },
+  "services": {
+    "minecraft": {
+      "title": "Minecraft Hosting",
+      "description": "Minecraft servers with instant setup"
+    },
+    "rust": {
+      "title": "Rust Hosting",
+      "description": "Rust servers with DDoS protection"
+    },
+    "hytale": {
+      "title": "Hytale Hosting",
+      "description": "Hytale servers with DDoS protection"
+    },
+    "all": {
+      "title": "All Services",
+      "description": "Explore all our hosting services"
+    }
+  },
+  "resources": {
+    "clientArea": {
+      "title": "Client Area",
+      "description": "Manage billing, invoices, and account settings"
+    },
+    "gamePanel": {
+      "title": "Game Panel",
+      "description": "Control your game servers with our panel"
+    }
+  },
+  "extras": {
+    "kb": {
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
+    },
+    "changelog": {
+      "title": "What's New",
+      "description": "Latest updates and features"
+    }
+  },
+  "hero": {
+    "promo": {
+      "prefix": "USE CODE",
+      "suffix": "ON YOUR FIRST ORDER!"
+    },
+    "title": "Game Hosting",
+    "titleHighlight": "Made Simple",
+    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
+    "getStarted": "Get Started",
+    "joinDiscord": "Join Discord",
+    "trustedBy": "Trusted by gaming communities worldwide",
+    "trustpilotReviews": "Trustpilot Reviews",
+    "stats": {
+      "uptime": "Uptime SLA",
+      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
+      "ping": "Avg. Ping",
+      "pingDesc": "Optimized routing for low-latency gameplay.",
+      "support": "Support",
+      "supportDesc": "Expert help with installs, mods, and server ops."
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Everything You Need",
+    "titleHighlight": "to Succeed",
+    "description": "Our platform is built from the ground up to deliver the best possible gaming experience for you and your players."
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Built by Gamers,",
+    "titleHighlight": "for Gamers",
+    "description": "We understand what gamers need because we are gamers. NodeByte was founded with a simple mission: provide reliable, high-performance game hosting without the complexity.",
+    "stats": {
+      "uptime": "Uptime SLA",
+      "support": "Support",
+      "setup": "Setup Time",
+      "customers": "Happy Gamers"
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Server Plans",
+    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
+    "getStarted": "Get Started",
+    "viewAllPlans": "View All Plans",
+    "comingSoon": "Pricing Coming Soon",
+    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
+    "joinDiscord": "Join Discord",
+    "mostPopular": "Most Popular",
+    "customSolution": "Need a custom solution or have questions?",
+    "contactUs": "Contact us",
+    "perMonth": "month"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "description": "Got questions? We've got answers. If you can't find what you're looking for, feel free to reach out to our support team."
+  },
+  "games": {
+    "badge": "Game Hosting",
+    "title": "Choose Your",
+    "titleHighlight": "Game",
+    "description": "Select from our range of supported games. Each platform is optimized for the best possible performance.",
+    "viewPlans": "View Plans",
+    "learnMore": "Learn More",
+    "comingSoon": "Coming Soon"
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "How Can We",
+    "titleHighlight": "Help You?",
+    "description": "Our team is here to help. Choose your preferred method of contact below.",
+    "supportChannels": "Support Channels",
+    "discord": {
+      "title": "Discord Community",
+      "description": "Join our Discord for real-time support and community discussions.",
+      "button": "Join Discord"
+    },
+    "ticket": {
+      "title": "Support Ticket",
+      "description": "Submit a ticket through our billing panel for account-related issues.",
+      "button": "Open Ticket"
+    },
+    "email": {
+      "title": "Email Us",
+      "description": "Send us an email and we'll respond within 24 hours.",
+      "departments": "Department Emails",
+      "general": "General Inquiries",
+      "support": "Technical Support",
+      "billing": "Billing Questions",
+      "partnerships": "Partnerships"
+    },
+    "social": {
+      "title": "Follow Us",
+      "description": "Stay updated with the latest news and announcements."
+    },
+    "warning": {
+      "title": "Important Notice",
+      "description": "For the fastest response, we recommend using Discord for support. Our community and staff are most active there."
+    }
+  },
+  "footer": {
+    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
+    "getInTouch": "Get in Touch",
+    "emailUs": "Email Us",
+    "support": "Support",
+    "contactTeam": "Contact our team",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "status": "All Systems Operational",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "comingSoon": "Coming Soon"
+  }
+}
