@@ -964,7 +964,7 @@
       "servers": "Servidores",
       "sync": "Sincronizar",
       "settings": "Ajustes",
-      "backToSite": "Back to Site"
+      "backToSite": "Volver al sitio"
     },
     "status": {
       "online": "Sistema en línea"
@@ -1008,6 +1008,182 @@
         "servers": "Servidores",
         "databases": "Bases de datos",
         "users": "Usuarios"
+      }
+    },
+    "users": {
+      "title": "Usuarios",
+      "description": "Administrar cuentas de usuario y permisos.",
+      "stats": {
+        "total": "Total de usuarios",
+        "migrated": "Migrado",
+        "admins": "Administradores",
+        "active": "Activo"
+      },
+      "filters": {
+        "title": "Filtros",
+        "searchPlaceholder": "Buscar por nombre o email...",
+        "all": "Todos los usuarios",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "admin": "Administradores",
+        "migrated": "Migrado",
+        "notMigrated": "No Migrado"
+      },
+      "table": {
+        "user": "Usuario",
+        "email": "E-mail",
+        "status": "Estado",
+        "pterodactyl": "ID del Panel",
+        "created": "Creado",
+        "lastLogin": "Último acceso"
+      },
+      "badges": {
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "admin": "Admin",
+        "migrated": "Migrado"
+      },
+      "empty": {
+        "title": "No hay usuarios",
+        "searchHint": "Intente ajustar su búsqueda o filtros."
+      },
+      "pagination": {
+        "showing": "Mostrando usuarios {from} a {to} de {total}",
+        "previous": "Anterior",
+        "next": "Siguiente"
+      }
+    },
+    "servers": {
+      "title": "Servidores",
+      "description": "Ver y administrar todos los servidores de juego.",
+      "stats": {
+        "total": "Total de servidores",
+        "running": "Ejecutando",
+        "offline": "Desconectado",
+        "suspended": "Suspendido"
+      },
+      "filters": {
+        "title": "Filtros",
+        "searchPlaceholder": "Buscar por nombre o UUID...",
+        "all": "Todos los servidores",
+        "running": "Ejecutando",
+        "offline": "Desconectado",
+        "suspended": "Suspendido",
+        "installing": "Instalando"
+      },
+      "table": {
+        "server": "Servidor",
+        "status": "Estado",
+        "owner": "Propietario",
+        "resources": "Recursos",
+        "node": "Nodo",
+        "created": "Creado"
+      },
+      "status": {
+        "running": "Ejecutando",
+        "offline": "Desconectado",
+        "starting": "Iniciando",
+        "stopping": "Deteniendo",
+        "installing": "Instalando",
+        "install_failed": "Fallo",
+        "suspended": "Suspendido",
+        "restoring_backup": "Restaurando"
+      },
+      "resources": {
+        "memory": "Memoria",
+        "disk": "Disco",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "No hay servidores",
+        "searchHint": "Intente ajustar su búsqueda o filtros."
+      },
+      "pagination": {
+        "showing": "Mostrando {from} a {to} de servidores {total}",
+        "previous": "Anterior",
+        "next": "Siguiente"
+      }
+    },
+    "settings": {
+      "title": "Ajustes",
+      "description": "Configurar la configuración del sistema y las conexiones.",
+      "wip": {
+        "title": "Trabajo en curso",
+        "description": "Esta página de configuración está en desarrollo. Actualmente, sólo las pruebas de conexión son funcionales. Otras características se habilitarán en una actualización futura."
+      },
+      "save": "Guardar Cambios",
+      "saved": "Ajustes guardados",
+      "savedDesc": "La configuración se ha guardado correctamente.",
+      "saveError": "Error al guardar la configuración. Inténtelo de nuevo.",
+      "copyFailed": "Error al copiar al portapapeles",
+      "tabs": {
+        "connections": "Conexiones",
+        "features": "Características",
+        "notifications": "Notificaciones",
+        "advanced": "Avanzado"
+      },
+      "status": {
+        "connected": "Conectado",
+        "disconnected": "Desconectado"
+      },
+      "connection": {
+        "success": "Conexión exitosa",
+        "successDesc": "Conectado con éxito a {type}.",
+        "failed": "Error de conexión",
+        "error": "Error al probar la conexión."
+      },
+      "testConnection": "Probar conexión",
+      "pterodactyl": {
+        "title": "Panel de Pterodactil",
+        "description": "Configure la conexión al panel de Pterodactyl.",
+        "url": "URL del panel",
+        "apiKey": "Clave API",
+        "apiKeyNote": "La clave API se almacena como una variable de entorno.",
+        "version": "Versión del Panel"
+      },
+      "database": {
+        "title": "Base de datos",
+        "description": "Configuración de conexión de base de datos.",
+        "provider": "Proveedor",
+        "connectionString": "Cadena de conexión",
+        "connectionStringNote": "La URL de la base de datos se almacena como una variable de entorno."
+      },
+      "features": {
+        "title": "Características",
+        "description": "Activar o desactivar las características del sistema.",
+        "registration": "Registro de usuario",
+        "registrationDesc": "Permitir a los nuevos usuarios registrar cuentas.",
+        "maintenance": "Modo de mantenimiento",
+        "maintenanceDesc": "Habilitar el modo de mantenimiento para bloquear el acceso al sitio.",
+        "autoSync": "Sincronización automática",
+        "autoSyncDesc": "Sincronizar automáticamente los datos del panel de forma periódica."
+      },
+      "notifications": {
+        "title": "Notificaciones",
+        "description": "Configurar la configuración de notificación.",
+        "email": "Notificaciones por email",
+        "emailDesc": "Enviar notificaciones por correo electrónico para eventos importantes.",
+        "discord": "Notificaciones de Discord",
+        "discordDesc": "Enviar notificaciones a un canal de Discord.",
+        "webhook": "URL del Webhook de Discord",
+        "webhookDesc": "Introduce la URL de tu webhook de Discord para recibir notificaciones."
+      },
+      "advanced": {
+        "title": "Configuración Avanzada",
+        "description": "Opciones de configuración avanzadas.",
+        "cacheTimeout": "Tiempo de espera",
+        "cacheTimeoutDesc": "Cuánto tiempo almacenar en caché las respuestas de la API.",
+        "syncInterval": "Intervalo de sincronización",
+        "syncIntervalDesc": "Con qué frecuencia sincronizar automáticamente los datos del panel.",
+        "seconds": "segundos",
+        "minute": "minuto",
+        "minutes": "minutos",
+        "hour": "hora",
+        "hours": "horas",
+        "dangerZone": "Zona de peligro",
+        "dangerZoneDesc": "Estas acciones son irreversibles. Proceda con precaución.",
+        "clearCache": "Limpiar caché",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
