@@ -1,1021 +1,1021 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Організація",
+    "services": "Послуги",
+    "resources": "Ресурси",
     "extras": "Extras",
-    "contact": "Contact",
+    "contact": "Контакт",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "joinDiscord": "Приєднатися до нашої Discord",
+    "theme": "Тема",
+    "currency": "Валюта",
+    "language": "Мова:",
+    "settings": "Налаштування",
+    "menu": "Меню"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Зв’язатись з нами",
+      "description": "Зв'яжіться з нашою командою"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "Про нас",
+      "description": "Дізнатися більше про NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Хостинг Minecraft",
+      "description": "Minecraft сервери з миттєвими налаштуваннями"
     },
     "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "title": "Прохостинг іржі",
+      "description": "Ірландські сервери із захистом DDoS"
     },
     "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "title": "Гіталі Хостінг",
+      "description": "Захист Hytale серверів з DDoS"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Усі сервіси",
+      "description": "Дослідіть всі наші хостингові сервіси"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Область клієнта",
+      "description": "Управління рахунковими рахунками, рахунками та налаштуваннями облікового запису"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Ігрова панель",
+      "description": "Контролюйте свої ігрові сервери за допомогою нашої панелі"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "База знань",
+      "description": "Посібники, навчальні посібники та документація"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Що нового",
+      "description": "Останні оновлення та функції"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "КОД ВИКОРИСТАННЯ",
+      "suffix": "НА ВАШ ПЕРШІ ЗАРЕЖИМ!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Хостинг гри",
+    "titleHighlight": "Зроблено простий",
+    "description": "Швидкий, надійний і безпечний хостинг для ваших ігрових спільнот. Запустіть виділені сервери з миттєвим налаштуванням, захистом DDoS та службою 24/7.",
+    "getStarted": "Початок роботи",
+    "joinDiscord": "Приєднатися до Discord",
+    "trustedBy": "Нам довіряють ігрові спільноти по всьому світу",
+    "trustpilotReviews": "Інформація про Trustpilot",
     "stats": {
       "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptimeDesc": "Підприємство надлишку підприємства зберігає ваші сервери в мережі.",
+      "ping": "Середній пінг",
+      "pingDesc": "Оптимізована маршрутизація для гри з низькою затримкою.",
+      "support": "Підтримка",
+      "supportDesc": "Експертна допомога з установками, модами і сервером."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Інфраструктура",
+    "title": "Створений для",
+    "titleHighlight": "Продуктивність",
+    "description": "Інфраструктура дослідного класу з інструментарієм, сприятливим для гравця інструментом. Доступні миттєві сервери, низькозатримка, маршрутизація та потужний контроль.",
+    "viewPlans": "Перегляд планів хостингу",
+    "startingFrom": "Починаючи з",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "DDoS захист",
+        "description": "пом'якшення наслідків FyfeWeb з автоматичним шкалом, аби тримати сервери в мережі під атакою.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "Захист мережі FyfeWeb",
+          "1": "Автоматичне зменшення масштабу",
+          "2": "Реальний моніторинг"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Низька затримка мережі",
+        "description": "Оптимізовані маршрути через мережу Великобританії FyfeWeb, з лондонськими POP для мінімального пінгу.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Під50мс. латентність",
+          "1": "Британська маршрутизація",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Миттєві налаштування",
+        "description": "Автоматизовані встановлення модів і швидкий режим одним натисканням.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 секунд розгортки",
+          "1": "Попередньо побудовані шаблони",
+          "2": "Автоматична конфігурація"
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "title": "Центр даних Великобританії",
+        "description": "Стратегічно розташована у Великобританії з лондонськими POPs за допомогою FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "Позиція лондонських повідомлень",
+          "1": "FyfeWeb мережа",
+          "2": "Низьке покриття Великобританією затримки"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Панель управління",
+        "description": "Потужний інтерфейс доступу до консолі, керування файлами, резервними копіями та метриками.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "Консоль",
+          "1": "Файловий менеджер",
+          "2": "Заплановані завдання"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "Підтримка 24/7",
+        "description": "Людина, перша підтримка експертів доступна у будь-який час, для встановлення та усунення несправностей.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Підтримка Discord",
+          "1": "Система заявок",
+          "2": "База знань"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Наша історія",
+    "title": "Побудовано геймерами,",
+    "titleHighlight": "для геймерів",
+    "paragraph1": "Вузол взявся за невелику групу геймерів і магазинів з точки зору інженерів, які хотіли розмістити цей рівень, надійний і легкий для управління. Ми відчули розчарування слабких серверів і ще незмінну підтримку.",
+    "paragraph2": "Ось чому ми побудували інфраструктуру, спеціально налаштовану для мережевої гри: низька затримка, надійний захист DDoS та підтримка серверів, щоб ви могли швидко грати в них.",
+    "joinCommunity": "Приєднайтеся до нашої спільноти",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Створено для гравців",
+        "description": "Наша інфраструктура визначає пріоритети з низькою затримкою, передбачувану продуктивність праці та тривалий час, щоб ваші громади залишалися в мережі та відповідальними."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Спільнота підтримка модів",
+        "description": "Безшовна установка модів, підтримка знімків та інструменти спільноти, що допоможе вам запускати світи та наполегливі сервери з мінімальними зусиллями."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Відкрити за дизайном",
+        "description": "Ми дбаємо про прозорість відносно очевидних зобов’язань SLA для відкритих інструментів. Наша платформа забезпечує API і інтеграції для автоматизації серверних процесів."
       }
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "latency": "Середній Латентність",
+      "support": "Підтримка",
+      "servers": "Активні сервери"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Ціноутворення",
+    "title": "Плани серверу",
+    "description": "Гнучкі плани відповідають вашим потребам. Всі плани включають захист DDoS, миттєве налаштування та підтримку 24/7.",
+    "getStarted": "Початок роботи",
+    "viewAllPlans": "Переглянути всі плани",
+    "comingSoon": "Незабаром ціноутворення",
+    "comingSoonDescription": "Ми працюємо над тим, щоб дати Вам найкращий доступ для хостингу. Приєднайтеся до нашого Discord, щоб отримувати сповіщення при запуску!",
+    "joinDiscord": "Приєднатися до Discord",
+    "mostPopular": "Найпопулярніші",
+    "customSolution": "Потрібне користувальницьке рішення або має питання?",
+    "contactUs": "Зв'язатися з нами",
+    "perMonth": "місяць"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "ЧАП",
+    "title": "Часто задаються",
+    "titleHighlight": "Питання",
+    "description": "Короткі відповіді про хостинг NodeByt, результати та підтримку.",
+    "searchPlaceholder": "Шукати питання...",
+    "noResults": "Немає результатів. Спробуйте пошукати \"DDoS\", \"mods\", або \"SLA\".",
+    "stillHaveQuestions": "Маєте інші запитання?",
+    "cantFind": "Не можете знайти те, що шукали? Наша команда підтримки тут, щоб допомогти.",
+    "contactSupport": "Звернутися до служби підтримки",
+    "joinDiscord": "Приєднатися до Discord",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Як швидко я можу забезпечити сервер?",
+        "answer": "Найбільш попередньо побудовані шаблони серверів за 60 секунд. Користувацькі налаштування з великими модами можуть зайняти більше залежно від часу встановлення модів."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Ви надаєте захист DDoS?",
+        "answer": "Так, усі плани включають пом'якшення DDoS підприємства за допомогою FyfeWeb. Наші POPs в Лондоні забезпечують автоматичну фільтрацію та перевірку на краю мережі."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Де розташовані ваші центри?",
+        "answer": "Ми працюємо у британських центрах обробки даних з лондонними POP за підтримки нашого мережевого партнера FyfeWeb, забезпечуючи відмінне висвітлення у Великобританії та Європі."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Чи можна запускати моди та власні карти?",
+        "answer": "Так, наша панель керування і шаблони підтримують загальні завантажувачі модів (Forge, Fabric) і користувацькі завантаження карт. Керована підтримка моду доступна на вибраних планах."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Який у тебе час на SLA?",
+        "answer": "Ми пропонуємо 99.6% на виробничі плани. Ознайомтеся з нашими умовами для деталей та критеріїв придатності."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Чи можу я отримати пробний період перед тим, як це зробити?",
+        "answer": "Так, ми пропонуємо безкоштовні пробні версії для нових користувачів для того, щоб перевірити наші послуги, перш ніж відходити від своїх зобов'язань. Відвідайте нашу безкоштовну сторінку, щоб побачити доступні варіанти.",
+        "trialLink": "Розпочати пробну версію"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "Ігрові сервери",
+    "title": "Виберіть свій",
+    "titleHighlight": "Гра",
+    "description": "Потужні, низькозатримкові сервери. Миттєва установка, інтуїтивна панель керування і 24/7 експертна підтримка.",
+    "viewPlans": "Огляд планів",
+    "learnMore": "Дізнатися більше",
+    "comingSoon": "Скоро",
+    "customSolution": "Потрібний ігровий сервер?",
+    "contactUs": "Зв'язатися з нами",
+    "forCustom": "для користувацьких рішень.",
+    "hosting": "Хостинг",
+    "joinWaitlist": "Приєднатися до Черги",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Java & Bedrock сервери одним натисканням на завантаження модів, плагінів і повна підтримка версій.",
+      "tag": "Найпопулярніші",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Підтримка Forge і тканини",
+        "1": "Управління плагінами",
+        "2": "Автоматичне резервне копіювання",
+        "3": "Користувацькі JAR завантаження"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Ідеально для малих серверів та тестування"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "Блейз",
+          "description": "Відмінно підходить для зростаючих громад"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "name": "Вогнемет 'Пекло'",
+          "description": "Ідея для середніх громад"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount} ГБ сховища",
+        "databases": "10 баз даних MySQL",
+        "ddos": "Захист FyfeWeb DDoS",
+        "panel": "Байтпанель",
+        "jars": "Авто/Попередньо встановлені банки",
+        "uptime": "99.6% УПЛА"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "Односторонні завантажувачі модів",
+          "description": "Встановити Forge, Fabric, Paper, Spigot та інше лише за один клік з нашої панелі керування.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Підтримка Forge і тканини",
+            "1": "Папір і шпигунські сервери",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Користувацькі JAR завантаження"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Високопродуктивне обладнання",
+          "description": "Підприємство класу AMD Ryzen processors з сховищем NVMe для швидкого розвитку продуктивності.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Rzen 9 ЦП",
+            "1": "NVMe SSD сховище",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Годинник до 4.8ГГц"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "DDoS захист",
+          "description": "пом'якшення наслідків для рівня підприємства DDoS завдяки FyfeWeb підтримує ваш сервер онлайн навіть під час атак.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "0": "Захист шару 3/4/7",
+            "1": "Фільтрація за мережею FyfeWeb",
+            "2": "Нульова пом'якшення часу",
+            "3": "Фірми Лондона"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Миттєві налаштування",
+          "description": "Ваш сервер розгортається протягом декількох секунд. Почніть грати одразу після покупки.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Автоматизоване забезпечення",
+            "1": "Попередньо налаштовані параметри",
+            "2": "Готове до менш ніж 60 секунд",
+            "3": "Не потрібні технічні знання"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Повний FTP доступ",
+          "description": "Повний доступ до файлу через FTP/SFTP. Завантаження світів, плагінів і конфігурації з легкістю.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "Доступ до SFTP файлу",
+            "1": "Веб-менеджер файлів",
+            "2": "Перетягнути і видалити завантаження",
+            "3": "Автоматичні резервні копії"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Необмежені слоти",
+          "description": "Не встановлено штучного обмеження гравця. Виконайте декілька гравців завдяки апаратній обробці.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Немає жодних обмежень",
+            "1": "Масштабовані ресурси",
+            "2": "Оновлювати в будь-який час",
+            "3": "Ярмаркові розподілення ресурсів"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Які версії Minecraft ви підтримуєте?",
+          "answer": "Ми підтримуємо всі версії Minecraft з 1.7.10 до найновішої версії, включаючи знімки. Доступні обидва сервери Java і Bedrock Edition."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Чи можна встановлювати моди та плагіни?",
+          "answer": "Так! Ми підтримуємо всі основні завантажувачі модів, включаючи Форжи, Фабрику та NeoForge. Для плагінів ми підтримуємо Paper, Spigot, Bukkit та Purpur. Ви також можете завантажувати JARs."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Як завантажити свій існуючий світ?",
+          "answer": "Ви можете завантажувати ваші світові файли через наш веб-диспетчер файлів або через SFTP. Просто перетягніть папку і зажміть її і готові до використання."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Чи є обмеження у гравців?",
+          "answer": "Ні, ми не накладаємо обмеження штучного гравця. Ваш сервер може заховати стільки гравців, скільки ви виділяєте ресурси для обробки."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Я можу оновити план пізніше?",
+          "answer": "Абсолютно! Ви можете оновити або знизити ваш план в будь-який час з нашої панелі розрахунків. Зміни набудуть чинності негайно без вільного часу."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Ви даєте повернення коштів?",
+          "answer": "Так, ми пропонуємо 48-годинну гарантію повернення грошей на всі нові покупки. Якщо ви не задоволені, зверніться до служби підтримки за повним поверненням."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Високопродуктивний сервер Rust на хості з підтримкою Oxide/uMod та користувацькими параметрами карти.",
+      "tag": "Висока продуктивність",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Підтримка Oxide/uMod",
+        "1": "Користувацькі карти",
+        "2": "Очистити планувальник",
+        "3": "Доступ до RCON"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Стартер",
+          "description": "Рекомендовано для 40 гравців"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "Стандартна",
+          "description": "Рекомендовано для 75 гравців"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Продуктивність",
+          "description": "Рекомендовано для 100 гравців"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}ГБ сховища SSD",
+        "ddos": "Захист FyfeWeb DDoS",
+        "location": "Ньюкастл, Велика Британія",
+        "databases": "10 баз даних MySQL",
+        "panel": "Панель байтпанелі (Game Panel)",
+        "oxide": "Окиснення/Umod підтримується",
+        "rustplus": "Rust+ підтримується",
+        "uptime": "99.6% УПЛА"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Окиснення/uMod підтримка",
+          "description": "Повна підтримка плагінів Oxide and uMod. Встановіть та керуйте плагінами безпосередньо з нашої панелі керування.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Встановлення в один клік",
+            "1": "Управління плагінами",
+            "2": "Доступні автоматичні оновлення",
+            "3": "Керування дозволами"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Користувацькі карти",
+          "description": "Використовуй процедурно створені карти або завантажуй власні карти. Підтримуй налаштування повної карти.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "Процедурне покоління",
+            "1": "Користувацьке завантаження карт",
+            "2": "Керування розміром карти",
+            "3": "Налаштування Seed"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Висока продуктивність",
+          "description": "Іржа вимагає потужного обладнання. Наші сервери використовують останні AMD Ryzen CPU та NVMe зберігання.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Rzen 9 ЦП",
+            "1": "NVMe SSD сховище",
+            "2": "Високошвидкісна продуктивність",
+            "3": "Мережі з низькою затримкою"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "DDoS захист",
+          "description": "FyfeWeb-сервер при пом'якшенні DDoS по у Великобританії, в Лондоні POP захищає ваш сервер від атак 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "0": "Фільтрація за мережею FyfeWeb",
+            "1": "Фірми Лондона",
+            "2": "Захист шару 3/4/7",
+            "3": "Зменшений час"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Очистити планувальник",
+          "description": "Автоматизоване стирання розкладок, щоб тримати ваш сервер свіжим. Налаштуйте щотижня, двотижневе або щомісячне очищення.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Автоматизоване очищеня",
+            "1": "Опції рецепту креслення",
+            "2": "Планування карти",
+            "3": "Сповіщення Discord"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Повний доступ RCON",
+          "description": "Повний віддалений доступ до консолі для управління сервером. Виконати команди з будь-якого місця.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "Веб-RCON",
+            "1": "Планування команд",
+            "2": "Керування гравцем",
+            "3": "Журнал в реальному часі"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Ви підтримуєте плагіни Oxide/uMod?",
+          "answer": "Так! Ми повністю підтримуємо Оксид та uMod. Ви можете встановити Оксид одним кліком з нашої панелі керування і управляти плагінами через менеджера плагінів або через FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Чи можна використовувати користувальницькі карти?",
+          "answer": "Абсолютно! Ви можете використовувати процедурно згенеровані мапи за допомогою власних наданих місць та розмірів або завантажувати власні файли карт через FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Як працює планувальник рецептів?",
+          "answer": "Наш планувальник дозволяє автоматизувати видалення сервера стирань за розкладом. Ви можете налаштувати стирання, доступне лише для карти, або повне креслення, і при цьому відправляти повідомлення Discord."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Яка кількість відміток сервера?",
+          "answer": "Наші сервери Rust працюють зі швидкістю 30 міліметрів. Наші високопродуктивні засоби забезпечують стабільну продуктивність навіть з багатьма гравцями в Інтернеті."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Чи можна отримати доступ до RCON?",
+          "answer": "Так, ви отримуєте повний доступ до RCON. Ви можете використовувати нашу веб-консоль RCON або з'єднатися з іншим стандартним клієнтом RCON."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Ви підтримуєте модифіковані сервери?",
+          "answer": "Так, ми підтримуємо і оригінальні, і модифіковані сервера Rust. Встановіть Oxide і додайте будь-який плагін, що вам потрібно створити ідеальний модифікований досвід."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Хостинг сервера Hytal! Приєднуйтесь до нашого Discord щоб отримати ранній доступ і оновлення.",
+      "tag": "У розробці",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Мод підтримка",
+        "1": "Користувацькі карти",
+        "2": "Прості налаштування",
+        "3": "Підтримка 24/7"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "Особливості",
+      "title": "Чому обирайте наше",
+      "titleSuffix": "Хостинг",
+      "description": "Інфраструктура підприємств адаптована спеціально для серверів {game}."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "Ціноутворення",
+      "title": "Плани серверу",
+      "description": "Гнучкі плани відповідають вашим потребам. Всі плани включають захист DDoS, миттєве налаштування та підтримку 24/7.",
+      "comingSoon": "Незабаром ціноутворення",
+      "comingSoonDesc": "Ми працюємо над тим, щоб дати вам найкращий досвід хостингу {game} . Приєднайтеся до нашого Discord, щоб отримувати сповіщення при запуску!",
+      "joinDiscord": "Приєднатися до Discord",
+      "mostPopular": "Найпопулярніші",
+      "getStarted": "Початок роботи",
+      "viewAllPlans": "Переглянути всі плани",
+      "customSolution": "Потрібне користувальницьке рішення або має питання?",
+      "contactUs": "Зв'язатися з нами"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "badge": "ЧАП",
+      "title": "Питання",
+      "description": "Загальні питання про наш хостинг {game}.",
+      "stillHaveQuestions": "Маєте інші запитання?",
+      "supportAvailable": "Наша команда підтримки доступна 24/7, щоб допомогти вам з будь-якими питаннями.",
+      "askOnDiscord": "Запитати в Discord",
+      "contactSupport": "Звернутися до служби підтримки"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Приєднатися до Черги",
+      "viewPlans": "Огляд планів",
+      "learnMore": "Дізнатися більше",
+      "comingSoon": "Скоро",
+      "joinDiscordForUpdates": "Приєднатися до нашого Discord для отримання оновлень"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "Зв'яжіться з нами",
+    "title": "Контакт",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "Ми тут, щоб допомогти нам 24/7. Досягніть будь-якого з наших каналів підтримки, і ми допоможемо вам якомога швидше.",
+    "supportChannels": "Підтримка каналів",
+    "copied": "Скопійовано!",
+    "copiedDesc": "Адреса електронної пошти скопійована в буфер обміну",
+    "copyFailed": "Не вдалося скопіювати",
+    "copyFailedDesc": "Не вдалося скопіювати в буфер обміну",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Спільнота Discord",
+      "description": "Приєднуйтесь до нашої спільноти для миттєвої підтримки, оголошень та спілкуйтеся з іншими користувачами.",
+      "button": "Приєднатися до Discord",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Миттєві відповіді",
+        "1": "Допомога в спільноті",
+        "2": "Оголошення"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Повідомляти про помилки, запропонувати можливості та внести свій внесок до наших проектів з відкритим вихідним кодом.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Звіти про помилки",
+        "1": "Запропонувати ідею",
+        "2": "Відкритий код"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Служба підтримки",
+      "description": "Відправте квиток через нашу платіжну панель для проблем, пов'язаних з обліковим записом.",
+      "button": "Відкрити тікет"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "Підтримка по електронній пошті",
+      "title": "Віддати перевагу електронній пошті? У нас є покрита",
+      "responseTime": "Час відповіді: зазвичай протягом 24 годин",
+      "departments": "Електронні адреси відділу",
+      "technical": "Технічна підтримка",
+      "technicalDesc": "Проблеми з сервером та технічна допомога",
+      "general": "Загальна підтримка",
+      "generalDesc": "Загальні питання та допомога",
+      "account": "Проблеми з рахунком",
+      "accountDesc": "Проблеми з входом і обліковим записом",
+      "billing": "Запити",
+      "billingDesc": "Платежі та рахунки"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Слідуйте за нами",
+      "description": "Будьте в курсі новин, порад та оновлень спільноти"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Важливі повідомлення",
+      "description": "Ми не працюємо з платежами чи підтримкою, пов'язаною з акаунтами через Discord. Для конфіденційності та безпеки, будь ласка, зв'яжіться з нами за адресою support@nodebyte.host на чутливі справи."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Швидкий, надійний, масштабований і безпечний хостинг-сервіс для Вашого ігрового досвіду. Створений для людей.",
+    "getInTouch": "Зв'яжіться з нами",
+    "emailUs": "Напишіть нам",
+    "support": "Підтримка",
+    "contactTeam": "Зв'яжіться з нашою командою",
+    "quickLinks": "Швидкі посилання",
+    "legal": "Юридичні",
+    "status": "Всі системи",
+    "copyright": "Усі права захищені.",
+    "builtWith": "Побудований з",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Всі системи",
+      "degraded": "Погіршення продуктивності",
+      "maintenance": "Проходять технічні роботи"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "minecraftHosting": "Хостинг Minecraft",
+      "rustHosting": "Прохостинг іржі",
+      "gamePanel": "Ігрова панель",
+      "clientArea": "Область клієнта"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "Discord сервер",
+      "serviceStatus": "Стан служби",
+      "knowledgeBase": "База знань",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Правила та Умови",
+      "privacy": "Політика конфіденційності",
+      "refund": "Повернення грошей",
+      "legalHub": "Юридичний вузол"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "Про NodeByte",
+      "contact": "Зв’язатись з нами",
+      "companyInfo": "Інформація про компанію",
+      "changes": "Список змін"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "відгуки",
+      "readReviews": "Прочитати відгуки"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Завантажується...",
+    "error": "Сталася помилка",
+    "retry": "Спробуйте ще раз",
+    "learnMore": "Дізнатися більше",
+    "getStarted": "Початок роботи",
+    "comingSoon": "Скоро"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "Що нового",
+    "title": "Список змін",
+    "titleHighlight": "& Оновлення",
+    "description": "Будьте в курсі останніх випусків, функцій та покращень у всіх проектах NodeByt.",
+    "searchPlaceholder": "Пошук релізів...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Всі репозиторії",
+      "allTypes": "Всі типи",
+      "feature": "Особливість",
+      "bugfix": "Виправлення помилок",
+      "improvement": "Поліпшення",
+      "breaking": "Зміна дихання",
+      "security": "Безпека"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Вид на GitHub",
+      "publishedOn": "Опубліковано",
+      "by": "за",
+      "assets": "Вкладення",
+      "downloadAsset": "Звантажити",
+      "noAssets": "Медіафайли відсутні",
+      "preRelease": "Пре-реліз",
+      "latest": "Недавні",
+      "draft": "Креслення"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Релізів не знайдено",
+      "description": "Спробуйте налаштувати свої пошукові або фільтри, щоб знайти те, що ви шукаєте.",
+      "clearFilters": "Скинути фільтри"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "Завантаження релізів...",
+      "description": "Отримання останніх оновлень з наших репозиторіїв."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Не вдалося завантажити релізи",
+      "description": "Помилка при отриманні релізів. Будь ласка, спробуйте ще раз пізніше.",
+      "retry": "Спробуйте ще раз"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Всього релізів",
+      "repositories": "Репозиторії",
+      "latestUpdate": "Останнє оновлення"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Переглянути всі релізи",
+    "showMore": "Показати більше",
+    "showLess": "Показати менше",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "Попереднє",
+      "next": "Уперед",
+      "page": "Сторінка",
+      "of": "з"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Скопіювати посилання",
+    "linkCopied": "Лінк скопійовано!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "База знань",
+    "description": "Знайдіть відповіді, підручники та інструкції, які допоможуть вам отримати з майстерності з вашого NodeByt.",
+    "searchPlaceholder": "База знань пошуку...",
+    "browseByCategory": "Перегляд за категоріями",
+    "recentlyUpdated": "Нещодавно оновлені",
+    "articles": "статті",
+    "minRead": "хв. читання",
+    "updated": "Оновлено",
+    "onThisPage": "На цій сторінці",
+    "backTo": "Повернутися до",
+    "previous": "Попереднє",
+    "next": "Уперед",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Нічого не знайдено",
+      "description": "Спробуйте різні ключові слова або перегляньте категорії",
+      "forQuery": "Нічого не знайдено"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Ще немає статей",
+      "description": "У цій категорії поки що немає жодної статті. Незабаром!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Все ще потрібна допомога?",
+      "description": "Не знайшли, що шукали? Ми тут, щоб допомогти.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Спільнота Discord",
+        "description": "Приєднайтеся до нашого Discord для отримання додаткової підтримки та допомоги спільноти.",
+        "button": "Приєднатися до Discord"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Служба підтримки",
+        "description": "Відкрити квиток на підтримку для рахунків або білінгу.",
+        "button": "Відкрити тікет"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "ЧАП",
+        "description": "Перегляньте наші часті запитання для швидкого відповіді.",
+        "button": "Переглянути FAQ"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Пошук в базі знань",
+      "button": "Пошук"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "toggle": "Відкрити меню теми",
+    "appearance": "Зовнішній вигляд",
+    "light": "Світла",
+    "dark": "Темна",
+    "system": "Система",
+    "coolTones": "Круті тонни",
+    "warmTones": "Теплі тони",
+    "nature": "Природа",
+    "slate": "Сланець",
+    "midnight": "Північ",
+    "ocean": "Океан",
+    "forest": "Форест",
+    "sunset": "Захід Сонця",
+    "rose": "Троянда",
+    "amber": "Бурштиновий",
+    "emerald": "Смарагд",
+    "teal": "Зелено-блакитний",
+    "sky": "Небо",
+    "violet": "Фіолетовий"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "Хостинг ігрового сервера",
+    "description": "Високопродуктивний сервер, на якому хостинг з миттєвими налаштуваннями, потужною панеллю управління та цілодобовою підтримкою.",
+    "startingAt": "Починаючи з"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
-    "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "loading": "Завантаження",
+    "pagination": "нумерація сторінок",
+    "previous": "Попереднє",
+    "next": "Уперед",
+    "morePages": "Більше сторінок",
+    "previousSlide": "Попередній слайд",
+    "nextSlide": "Наступний слайд",
+    "breadcrumb": "хлібні крихти",
+    "more": "Більше",
+    "toggleSidebar": "Бічна панель",
+    "goToSlide": "Перейти до слайду"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "Про NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Побудовано геймерами,",
+      "titleHighlight": "для геймерів",
+      "description": "Вузол взявся за невелику групу геймерів і магазинів з точки зору інженерів, які хотіли розмістити цей рівень, надійний і легкий для управління. Сьогодні ми з вами потужними ігровими серверами по всьому світу.",
+      "joinCommunity": "Приєднайтеся до нашої спільноти",
+      "contactUs": "Зв’язатись з нами"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Наша історія",
+      "title": "Як все почалося",
+      "paragraph1": "Вузол народився розчарування. Як завзято ми самі пережили з перших рук біль від слабких серверів, невиразної підтримки та складних контрольних панелей, що зробили управління серверами, кошмаром.",
+      "paragraph2": "У 2024 році ми вирішили, що достатньо. Ми зібрали команду пристрасних геймерів та досвідчених інженерів з однією метою: побудувати ігрову хостинг платформу, яку ми завжди бажали.",
+      "paragraph3": "Сьогодні NodeByte володіє ігровими серверами всього світу. Але наша місія залишається однаковою: зробіть ігрові сервери, які проводяться швидко, надійними та доступними для всіх."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Наші цінності",
+      "title": "Що ми",
+      "titleHighlight": "Перестати на",
+      "description": "Наші основні значення керують усім, що ми робимо, від інфраструктурних рішень до підтримки клієнтів.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Створено для гравців",
+        "description": "Наша інфраструктура визначає пріоритети з низькою затримкою, передбачувану продуктивність праці та тривалий час, щоб ваші громади залишалися в мережі та відповідальними."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Спільнота підтримка модів",
+        "description": "Безшовна установка модів, підтримка знімків та інструменти спільноти, що допоможе вам запускати світи та наполегливі сервери з мінімальними зусиллями."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Відкрити за дизайном",
+        "description": "Ми дбаємо про прозорість відносно очевидних зобов’язань SLA для відкритих інструментів. Наша платформа забезпечує API і інтеграції для автоматизації серверних процесів."
       }
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "latency": "Середній Латентність",
+      "support": "Підтримка",
+      "servers": "Активні сервери"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "Наша подорож",
+      "title": "Короткий",
+      "titleHighlight": "Історія",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "Загублений вузол вузла",
+        "description": "Все почалося як невеликий проект геймерів, які хотіли мати кращі варіанти хостингу."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Швидкий ріст",
+        "description": "Розширена інфраструктура з FyfeWeb партнерством, додавши захист від підприємницьких DDoS та центри обробки даних Великобританії."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Глобальне розширення",
+        "description": "Запускається нові послуги, посилена панель управління і продовжує зростати нашу глобальну спільноту."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "Наша команда",
+      "title": "Познайомтеся з",
+      "titleHighlight": "Команда",
+      "description": "Запеклих людей, які працюють невтомно, щоб доставити найкращий хостинг-досвід.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Засновник та провідний розробник"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Повностековий розробник та ігровий ентузіаст розбудовують інфраструктуру, яка надає NodeByte."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Готові до запуску?",
+      "description": "Приєднуйтесь до тисяч ігрових спільнот, які довіряють NodeByte для задоволення потреб на сервері.",
+      "getStarted": "Переглянути ігрові сервери",
+      "joinDiscord": "Приєднатися до Discord"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Сторінку не знайдено",
+    "description": "Сторінка, яку ви шукаєте, не існує або була переміщена. Нехай ви потрапите назад на трек.",
+    "goHome": "Додому",
+    "goBack": "Повернутися",
+    "quickLinks": "Швидкі посилання",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "Домашній екран",
+      "games": "Ігри",
+      "kb": "База знань",
+      "contact": "Контакт"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Щось пішло не так",
+    "description": "У нас виникла несподівана помилка. Не хвилюйтеся, наша команда була повідомлена і над нею працює.",
+    "errorCode": "Код помилки",
+    "tryAgain": "Спробуйте ще раз",
+    "goHome": "Додому",
+    "needHelp": "Потрібна допомога?",
+    "helpDescription": "Якщо помилка залишається, будь ласка, зв'яжіться з нашою командою підтримки.",
+    "joinDiscord": "Приєднатися до Discord",
+    "contactSupport": "Звернутися до служби підтримки"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "Увійти",
+      "description": "Щоб продовжити, увійдіть під вашим обліковим записом NodeByt.",
+      "emailLabel": "Адреса електронної пошти",
+      "emailPlaceholder": "ви@example.com",
+      "passwordLabel": "Пароль",
+      "passwordPlaceholder": "Введіть пароль",
+      "loginButton": "Увійти",
+      "loggingIn": "Входимо...",
+      "forgotPassword": "Забули свій пароль?",
+      "noAccount": "Ще не зареєстровані?",
+      "createAccount": "Створити",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "Недійсна адреса електронної пошти або пароль. Будь ласка, спробуйте ще раз.",
+        "networkError": "Мережева помилка. Перевірте з'єднання і спробуйте ще раз.",
+        "generic": "Сталася помилка під час входу. Будь ласка, спробуйте ще раз."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "Створити обл. запис",
+      "description": "Зареєструйтесь, щоб отримати доступ до Ваших ігрових серверів та сервісів.",
+      "emailLabel": "Адреса електронної пошти",
+      "emailPlaceholder": "ви@example.com",
+      "passwordLabel": "Пароль",
+      "passwordPlaceholder": "Створити пароль",
+      "confirmPasswordLabel": "Підтвердити пароль",
+      "confirmPasswordPlaceholder": "Підтвердіть ваш пароль",
+      "registerButton": "Створити обл. запис",
+      "registering": "Створення облікового запису...",
+      "alreadyHaveAccount": "Вже маєте обліковий запис?",
+      "signIn": "Увійти",
+      "panelAccountRequired": "Потрібен старий обліковий запис панелі",
+      "panelAccountRequiredDescription": "Ми працюємо над тим, щоб відійти від старих систем, вам потрібно мати існуючий обліковий запис на нашій ігровій панелі, щоб зареєструватися. Коли ви купуєте сервіс через нашу платіжну систему створюються облікові записи.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "Обліковий запис з цією електронною адресою вже існує.",
+        "notInPanel": "Для створення облікового запису для гри не знайдено на цьому email. Будь ласка, придбайте послугу, спочатку щоб створити обліковий запис.",
+        "panelAccountLinked": "Обліковий запис панелі уже з'єднано з іншим обліковим записом NodeByt.",
+        "passwordsDontMatch": "Паролі не співпадають.",
+        "passwordTooShort": "Пароль має складатися з принаймні з 8 символів.",
+        "invalidEmail": "Будь ласка, введіть дійсну адресу електронної пошти.",
+        "networkError": "Мережева помилка. Перевірте з'єднання і спробуйте ще раз.",
+        "generic": "Сталася помилка під час реєстрації. Будь ласка, спробуйте ще раз."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Акаунт створено!",
+        "description": "Ваш обліковий запис успішно створено. Тепер ви можете увійти."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Помилка автентифікації",
+      "description": "Під час входу сталася помилка.",
+      "configuration": "З системою розпізнавання сталася помилка конфігурації.",
+      "accessDenied": "Ви не маєте дозволу на доступ до цього ресурсу.",
+      "verification": "Неприпустиме посилання для входу.",
+      "default": "Під час входу сталась непередбачена помилка.",
+      "credentialsSignin": "Невірні облікові дані. Будь ласка, перевірте свою електронну пошту та пароль.",
+      "tryAgain": "Спробуйте ще раз",
+      "goHome": "Додому"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "Особистий кабінет",
+      "viewPanel": "Перегляд панелі",
+      "admin": "Адмін",
+      "logout": "Вийти з системи",
+      "signIn": "Увійти",
+      "loggingOut": "Вихід..."
     }
   },
   "admin": {
-    "title": "Admin Panel",
+    "title": "Центр керування",
     "nav": {
-      "dashboard": "Dashboard",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
-      "settings": "Settings"
+      "dashboard": "Приладна дошка",
+      "users": "Спільноти",
+      "servers": "Сервери",
+      "sync": "Синхр",
+      "settings": "Налаштування"
     },
     "status": {
-      "online": "System Online"
+      "online": "Система онлайн"
     },
     "dashboard": {
-      "title": "Dashboard",
-      "description": "Overview of your Pterodactyl panel data and sync status."
+      "title": "Приладна дошка",
+      "description": "Огляд даних панелі Pterodactyl і статусу синхронізації."
     },
     "stats": {
-      "users": "Total Users",
-      "migratedCount": "{count} migrated",
-      "servers": "Servers",
+      "users": "Всього користувачів",
+      "migratedCount": "Змінено {count}",
+      "servers": "Сервери",
       "nodes": "Nodes",
-      "locations": "Locations",
-      "allocations": "Allocations",
-      "nests": "Nests",
-      "eggs": "Eggs",
-      "eggVariables": "Egg Variables",
-      "databases": "Databases"
+      "locations": "Місцезнаходження",
+      "allocations": "Алокації",
+      "nests": "Нест",
+      "eggs": "Яйця",
+      "eggVariables": "Змінні яйця",
+      "databases": "Бази даних"
     },
     "sync": {
-      "status": "Sync Status",
-      "lastSync": "Last sync",
-      "never": "Never",
-      "idle": "Idle",
-      "syncing": "Syncing...",
-      "inProgress": "Sync in Progress",
-      "syncingTarget": "Syncing {target} data from panel...",
+      "status": "Стан синхронізації",
+      "lastSync": "Остання синхронізація",
+      "never": "Ніколи",
+      "idle": "В очікуванні",
+      "syncing": "Синхронізація...",
+      "inProgress": "Триває синхронізація",
+      "syncingTarget": "Синхронізація даних {target} з панелі...",
       "complete": "complete",
-      "runFull": "Run Full Sync",
-      "success": "Sync Completed",
-      "completed": "Successfully synced {target} data.",
-      "error": "Sync Failed",
-      "quickActions": "Quick Sync Actions",
-      "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
+      "runFull": "Запустити повну синхронізацію",
+      "success": "Синхронізацію завершено",
+      "completed": "Успішно синхронізовано {target} даних.",
+      "error": "Помилка синхронізації",
+      "quickActions": "Дії Швидкої синхронізації",
+      "quickActionsDescription": "Синхронізувати окремі типи даних з панелі Pterodactyl.",
       "targets": {
-        "locations": "Locations",
+        "locations": "Місцезнаходження",
         "nodes": "Nodes",
-        "allocations": "Allocations",
-        "nests": "Nests & Eggs",
-        "servers": "Servers",
-        "databases": "Databases",
-        "users": "Users"
+        "allocations": "Алокації",
+        "nests": "Справи та яйця",
+        "servers": "Сервери",
+        "databases": "Бази даних",
+        "users": "Спільноти"
       }
     },
     "actions": {
-      "refresh": "Refresh"
+      "refresh": "Оновити"
     },
     "error": {
-      "title": "Error",
-      "unauthorized": "You are not authorized to access this page.",
-      "forbidden": "Admin access required."
+      "title": "Помилка",
+      "unauthorized": "Ви не авторизовані для доступу до цієї сторінки.",
+      "forbidden": "Необхідний доступ до адміністратора."
     }
   }
 }
