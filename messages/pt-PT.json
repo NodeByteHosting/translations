@@ -964,7 +964,7 @@
       "servers": "Servidores",
       "sync": "Sincronizar",
       "settings": "Confirgurações",
-      "backToSite": "Back to Site"
+      "backToSite": "Voltar para o Site"
     },
     "status": {
       "online": "Sistema online"
@@ -1008,6 +1008,182 @@
         "servers": "Servidores",
         "databases": "Banco de dados",
         "users": "Utilizadores"
+      }
+    },
+    "users": {
+      "title": "Utilizadores",
+      "description": "Gerenciar contas de usuário e permissões.",
+      "stats": {
+        "total": "Usuários totais",
+        "migrated": "Migrado",
+        "admins": "Administradores",
+        "active": "ativo"
+      },
+      "filters": {
+        "title": "Filtros",
+        "searchPlaceholder": "Pesquisar por nome ou e-mail...",
+        "all": "Todos os usuários",
+        "active": "ativo",
+        "inactive": "Inativo",
+        "admin": "Administradores",
+        "migrated": "Migrado",
+        "notMigrated": "Não migrado"
+      },
+      "table": {
+        "user": "Usuário",
+        "email": "e-mail",
+        "status": "SItuação",
+        "pterodactyl": "ID do painel",
+        "created": "Criado",
+        "lastLogin": "Último Acesso"
+      },
+      "badges": {
+        "active": "ativo",
+        "inactive": "Inativo",
+        "admin": "Administrador",
+        "migrated": "Migrado"
+      },
+      "empty": {
+        "title": "Nenhum usuário encontrado",
+        "searchHint": "Tente ajustar sua pesquisa ou filtros."
+      },
+      "pagination": {
+        "showing": "Mostrando {from} a {to} dos usuários da {total}",
+        "previous": "Anterior",
+        "next": "Próximo"
+      }
+    },
+    "servers": {
+      "title": "Servidores",
+      "description": "Ver e gerenciar todos os servidores do jogo.",
+      "stats": {
+        "total": "Total de Servidores",
+        "running": "Executando",
+        "offline": "Desconectado",
+        "suspended": "Suspenso"
+      },
+      "filters": {
+        "title": "Filtros",
+        "searchPlaceholder": "Pesquisar por nome ou UUID...",
+        "all": "Todos os servidores",
+        "running": "Executando",
+        "offline": "Desconectado",
+        "suspended": "Suspenso",
+        "installing": "Instalando"
+      },
+      "table": {
+        "server": "Servidor",
+        "status": "SItuação",
+        "owner": "Proprietário",
+        "resources": "Recursos",
+        "node": "Servidor",
+        "created": "Criado"
+      },
+      "status": {
+        "running": "Executando",
+        "offline": "Desconectado",
+        "starting": "Iniciando",
+        "stopping": "Parando",
+        "installing": "Instalando",
+        "install_failed": "Falhou",
+        "suspended": "Suspenso",
+        "restoring_backup": "Restaurando"
+      },
+      "resources": {
+        "memory": "Memória",
+        "disk": "Disco",
+        "cpu": "cpu"
+      },
+      "empty": {
+        "title": "Nenhum servidor encontrado",
+        "searchHint": "Tente ajustar sua pesquisa ou filtros."
+      },
+      "pagination": {
+        "showing": "Mostrando {from} a {to} dos servidores da {total}",
+        "previous": "Anterior",
+        "next": "Próximo"
+      }
+    },
+    "settings": {
+      "title": "Confirgurações",
+      "description": "Configurar configurações e conexões do sistema.",
+      "wip": {
+        "title": "Trabalho em andamento",
+        "description": "Esta página de configurações está em desenvolvimento. Atualmente, apenas o teste de conexão está funcional. Outros recursos serão ativados em uma futura atualização."
+      },
+      "save": "Salvar as alterações",
+      "saved": "Configurações Salvas",
+      "savedDesc": "Suas configurações foram salvas com sucesso.",
+      "saveError": "Falha ao salvar as configurações. Tente novamente.",
+      "copyFailed": "Falha ao copiar para área de transferência",
+      "tabs": {
+        "connections": "Conexões",
+        "features": "Funcionalidades",
+        "notifications": "notificações",
+        "advanced": "Avançado"
+      },
+      "status": {
+        "connected": "Conectado",
+        "disconnected": "Desconectado"
+      },
+      "connection": {
+        "success": "Ligado com sucesso",
+        "successDesc": "Conectado com sucesso a {type}.",
+        "failed": "Falha na conexão",
+        "error": "Não foi possível testar a conexão."
+      },
+      "testConnection": "Testar Conexão",
+      "pterodactyl": {
+        "title": "Painel Pterodactyl",
+        "description": "Configure a conexão ao seu painel Pterodactyl.",
+        "url": "URL do painel",
+        "apiKey": "Chave de API",
+        "apiKeyNote": "Chave de API é armazenada como uma variável de ambiente.",
+        "version": "Versão do Painel"
+      },
+      "database": {
+        "title": "Banco",
+        "description": "Configuração de conexão",
+        "provider": "Fornecedor",
+        "connectionString": "String de conexão",
+        "connectionStringNote": "A URL do banco de dados é armazenada como uma variável de ambiente."
+      },
+      "features": {
+        "title": "Alternadores de Recursos",
+        "description": "Ativar ou desativar recursos do sistema.",
+        "registration": "Registro de Usuário",
+        "registrationDesc": "Permitir que novos usuários registrem contas.",
+        "maintenance": "Modo de Manutenção",
+        "maintenanceDesc": "Habilitar o modo de manutenção para bloquear o acesso ao site.",
+        "autoSync": "Sincronização Automática",
+        "autoSyncDesc": "Sincronizar dados automaticamente com o painel periodicamente."
+      },
+      "notifications": {
+        "title": "notificações",
+        "description": "Configurar configurações de notificação.",
+        "email": "Notificações por e-mail",
+        "emailDesc": "Enviar notificações por e-mail para eventos importantes.",
+        "discord": "Notificações do Discord",
+        "discordDesc": "Enviar notificações para um canal do Discord.",
+        "webhook": "URL do Discord Webhook",
+        "webhookDesc": "Digite sua URL do webhook do Discord para receber notificações."
+      },
+      "advanced": {
+        "title": "Configurações Avançadas",
+        "description": "Opções de configuração avançadas.",
+        "cacheTimeout": "Timeout do Cache",
+        "cacheTimeoutDesc": "Quanto tempo armazenar em cache as respostas da API.",
+        "syncInterval": "Intervalo de sincronização",
+        "syncIntervalDesc": "Com que frequência sincronizar dados automaticamente do painel.",
+        "seconds": "segundos",
+        "minute": "minuto",
+        "minutes": "Minutos",
+        "hour": "hora",
+        "hours": "horas",
+        "dangerZone": "Zona de Perigo",
+        "dangerZoneDesc": "Essas ações são irreversíveis. Proceda com cautela.",
+        "clearCache": "Limpar Cache",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
