@@ -1,960 +1,1022 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Yritys",
+    "services": "Palvelut",
+    "resources": "Resurssit",
     "extras": "Extras",
-    "contact": "Contact",
+    "contact": "Yhteystieto",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "joinDiscord": "Liity Discordiin",
+    "theme": "Teema",
+    "currency": "Valuutta",
+    "language": "Kieli",
+    "settings": "Asetukset",
+    "menu": "Valikko"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Ota Yhteyttä",
+      "description": "Ota yhteyttä tiimimme kanssa"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "Tietoa Meistä",
+      "description": "Lue lisää NodeByte"
     }
   },
   "services": {
     "minecraft": {
       "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "description": "Minecraft-palvelimet joissa pika-asetukset"
     },
     "rust": {
       "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "description": "Pölypalvelimet, joissa on DDoS-suojaus"
     },
     "hytale": {
       "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "description": "Hytale-palvelimet joissa DDoS suojaus"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Kaikki Palvelut",
+      "description": "Tutustu kaikkiin hosting-palveluihimme"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Asiakkaan Alue",
+      "description": "Hallitse laskutusta, laskuja ja tiliasetuksia"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Pelin Paneeli",
+      "description": "Hallitse pelin palvelimia meidän paneeli"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "Tietämyskanta",
+      "description": "Ohjeet, oppaat ja asiakirjat"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Mitä Uutta",
+      "description": "Viimeisimmät päivitykset ja ominaisuudet"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "KÄYTÄ KOODI",
+      "suffix": "OVAT ENSIMMÄINEN TIEDOSSI!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Pelin Palvelin",
+    "titleHighlight": "Valmistettu Yksinkertaisesti",
+    "description": "Nopea, luotettava ja turvallinen hosting pelaamista yhteisöille. Käynnistä omistettu palvelimet pikaasetukset, DDoS suojaus ja 24/7 tuki.",
+    "getStarted": "Aloita Alusta",
+    "joinDiscord": "Liity Discordiin",
+    "trustedBy": "Luota peliyhteisöihin kaikkialla maailmassa",
+    "trustpilotReviews": "Trustpilot Arviot",
     "stats": {
-      "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptime": "Käyttöaika SLA",
+      "uptimeDesc": "Enterprise redundancy pitää palvelimia verkossa.",
+      "ping": "Keskim. Ping",
+      "pingDesc": "Optimoitu reititys matalan latenssin pelattavaksi.",
+      "support": "Tuki",
+      "supportDesc": "Asiantuntija auttaa asennuksia, modeja ja palvelin ops."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Infrastruktuuri",
+    "title": "Rakennettu kohteelle",
+    "titleHighlight": "Suorituskyky",
+    "description": "Yritys-luokan infrastruktuuri, jossa on gamer-ystävällinen työkalu. Pikapalvelimet, matala latenssi reititys ja tehokas ohjaus.",
+    "viewPlans": "Näytä Hosting-suunnitelmat",
+    "startingFrom": "Alkaen alkaen",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "DDoS Suojaus",
+        "description": "Yritysluokan lieventäminen powered by FyfeWeb automaattinen pesu pitää palvelimet verkossa hyökkäyksessä.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "FyfeWeb verkon suojaus",
+          "1": "Skaalaus automaattisesti",
+          "2": "Reaaliaikainen seuranta"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Matalan Latenssin Verkko",
+        "description": "Optimoidut reitit FyfeWebin Ison-Britannian verkon kautta Lontoon POPs minimiin ping.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Sub50ms avg latenssi",
+          "1": "UK-pohjainen reititys",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Välitön Asetukset",
+        "description": "Yhden napsautuksen palvelinmallit, automatisoidut mod-asennukset ja nopea toimitus.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 sekunnin tyhjennys",
+          "1": "Esirakennetut mallit",
+          "2": "Automaattinen määritys"
         }
       },
       "locations": {
         "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "description": "Strategisesti sijaitsee Yhdistyneessä kuningaskunnassa Lontoon POPs powered by FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "Lontoon POP-yhdisteet",
+          "1": "FyfeWeb verkko",
+          "2": "Yhdistyneen kuningaskunnan vähäinen latenssi"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Hallintapaneeli",
+        "description": "Tehokas käyttöliittymä konsoliin pääsyn, tiedostojen hallinta, varmuuskopiot ja metriikka.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "Elävä konsoli",
+          "1": "Tiedostojen hallinta",
+          "2": "Ajoitetut tehtävät"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "24/7 Tuki",
+        "description": "Human-ensimmäinen tuki asiantuntija-oppeja saatavilla milloin tahansa, asennus ja vianetsintä.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Discordin tuki",
+          "1": "Tukipyynnön järjestelmä",
+          "2": "Tietämyspohja"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Meidän Tarina",
+    "title": "Rakenna pelaajien toimesta,",
+    "titleHighlight": "pelaajille",
+    "paragraph1": "NodeByte aloitti pienen joukon pelaajia ja ops insinöörejä, jotka halusivat hosting, joka oli nopea, luotettava ja helppo hallita. Olemme kokeneet turhautumista laggy servers ja reagoimaton tuki ensin.",
+    "paragraph2": "Siksi rakennettiin erityisesti moninpeliin sopiva infrastruktuuri : alhainen latenssi reititys, vankka DDoS suojaus, ja instant palvelimen varauksia, jotta voit saada pelaa nopeasti.",
+    "joinCommunity": "Liity Yhteisöömme",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Rakennettu pelaajille",
+        "description": "Infrastruktuurimme priorisoi alhaisen latenssireitityksen, ennustettavan suorituskyvyn ja vahvan käytettävyyden, jotta yhteisösi pysyvät verkossa ja reagoivina."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Yhteisön & Modien Tuki",
+        "description": "Saumaton modi asentaa, tilannekuvan tuki ja yhteisön työkalu, joiden avulla voit ajaa moderoituja maailmoja ja pysyviä palvelimia mahdollisimman vähän."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Avaa ulkoasun mukaan",
+        "description": "Arvostamme läpinäkyvyyttä selkeistä SLA sitoumuksista avata työkaluja. Alustamme tarjoaa API ja integraatiot automatisoida palvelimen työnkulkuja."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "Käyttöaika SLA",
+      "latency": "Keskim. Latenssi",
+      "support": "Tuki",
+      "servers": "Aktiiviset Palvelimet"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Hinnoittelu",
+    "title": "Palvelimen Suunnitelmat",
+    "description": "Joustavat suunnitelmat tarpeisiisi vastaamiseksi. Kaikki suunnitelmat sisältävät DDoS-suojauksen, pikaasennuksen ja 24/7 tuen.",
+    "getStarted": "Aloita Alusta",
+    "viewAllPlans": "Näytä Kaikki Suunnitelmat",
+    "comingSoon": "Hinnoittelu Tulossa Pian",
+    "comingSoonDescription": "Pyrimme tuomaan sinulle parhaan hosting-kokemuksen. Liity Discordiin ja ilmoita siitä kun aloitamme!",
+    "joinDiscord": "Liity Discordiin",
+    "mostPopular": "Suosituimmat",
+    "customSolution": "Tarvitsetko mukautetun ratkaisun vai kysyttävää?",
+    "contactUs": "Ota yhteyttä",
+    "perMonth": "kuukausi"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "UKK",
+    "title": "Usein Kysytty",
+    "titleHighlight": "Kysymykset",
+    "description": "Nopeita vastauksia NodeByte hosting, suorituskyky ja tuki.",
+    "searchPlaceholder": "Hae kysymyksiä...",
+    "noResults": "Tuloksia ei löytynyt. Kokeile etsiä \"DDoS\", \"mods\", tai \"SLA\".",
+    "stillHaveQuestions": "Onko kysyttävää?",
+    "cantFind": "Etkö löydä etsimääsi? Tukitiimimme on täällä auttamassa.",
+    "contactSupport": "Ota Yhteyttä Tukeen",
+    "joinDiscord": "Liity Discordiin",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Kuinka nopeasti voin tarjota palvelimen?",
+        "answer": "Useimmat valmiiksi rakennettu palvelin malleja varauksia alle 60 sekuntia. Mukautetut asetukset suuria modeja voi kestää kauemmin riippuen mod asennusajasta."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Tarjoatteko DDoS suojausta?",
+        "answer": "Kyllä, kaikki suunnitelmat sisältävät yritysluokan DDoS lieventäminen powered by FyfeWeb. Meidän Lontoon POPs tarjoaa automaattisen suodatus ja puhdistus verkon reunalla."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Missä ovat tietokeskuksenne?",
+        "answer": "Käytämme UK-pohjaisia datakeskuksia London POPs powered by our network partner FyfeWeb, joka tarjoaa erinomaisen kattavuuden kaikkialla Yhdistyneessä kuningaskunnassa ja Euroopassa."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Voinko ajaa modeja ja mukautettuja karttoja?",
+        "answer": "Kyllä, meidän ohjauspaneeli ja mallit tukevat yleisiä mod kuormaajia (Forge, Fabric) ja mukautettuja karttalatauksia. Hallittu mod-tuki on saatavilla valituilla suunnitelmilla."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Mikä on käyttöaikasi SLA?",
+        "answer": "Tarjoamme 99,6 % uptime SLA on tuotantosuunnitelmat. Katso tarkemmat tiedot ja tukikelpoisuuskriteerit."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Voinko saada oikeudenkäynnin ennen suorittamista?",
+        "answer": "Kyllä, tarjoamme ilmaisia kokeiluja uusille käyttäjille testata palveluitamme ennen sitoutumista. Käy maksuttomalla kokeilusivulla nähdäksesi saatavilla olevat vaihtoehdot.",
+        "trialLink": "Aloita Ilmainen Kokeilu"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "Pelipalvelimet",
+    "title": "Valitse Sinun",
+    "titleHighlight": "Peli",
+    "description": "Tehokas ja latenssi pelipalvelin. Pika-asennus, intuitiivinen ohjauspaneeli ja 24/7 asiantuntija-tuki.",
+    "viewPlans": "Näytä Suunnitelmat",
+    "learnMore": "Lue Lisää",
+    "comingSoon": "Tulossa Pian",
+    "customSolution": "Tarvitsetko pelipalvelimen, jota ei ole listattu?",
+    "contactUs": "Ota yhteyttä",
+    "forCustom": "mukautettuja ratkaisuja.",
+    "hosting": "Palvelin",
+    "joinWaitlist": "Liity Jonotuslistaan",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Java & Bedrock palvelimet yhdellä napsautuksella mod-kuormaajat, liitännäiset ja täysi versiotuki.",
+      "tag": "Suosituimmat",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Taotun ja kankaan tuki",
+        "1": "Liitännäisten hallinta",
+        "2": "Automaattiset varmuuskopiot",
+        "3": "Mukautetut JAR lataukset"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Täydellinen pienten palvelimien ja testaus"
         },
         "blaze": {
           "name": "Blaze",
-          "description": "Great for growing communities"
+          "description": "Suuri kasvaville yhteisöille"
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "description": "Ihanteellinen keskikokoisille yhteisöille"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount} Gt Tallennustila",
+        "databases": "10 MySQL-tietokantaa",
+        "ddos": "FyfeWeb DDoS Suojaus",
+        "panel": "BytePaneeli",
+        "jars": "Automaattinen/Esiasennetut purkit",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "Yhden Klikkauksen Modien Lataajat",
+          "description": "Asenna Forge, Fabric, Paper, Spigot, ja paljon muuta yhdellä napsautuksella meidän ohjauspaneeli.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Taotun ja kankaan tuki",
+            "1": "Paperi & Spiget-palvelimet",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Mukautetut JAR lataukset"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Korkean Suorituskyvyn Laitteisto",
+          "description": "Yritysluokan AMD Ryzen prosessorit, joissa on NVMe-tallennustila nopeaa suorituskykyä varten.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 Suorittimet",
+            "1": "NVMe SSD tallennustila",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Enintään 4,8GHz kellotaajuus"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "DDoS Suojaus",
+          "description": "Enterprise grade DDoS lieventäminen powered by FyfeWeb pitää palvelimen verkossa jopa hyökkäyksissä.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
+            "0": "Tason 3/4/7 suojaus",
+            "1": "FyfeWeb-verkon suodatus",
+            "2": "Nollaa seisokkien vähentämistä",
             "3": "UK London POPs"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Välitön Asetukset",
+          "description": "Palvelimesi on käytössä muutamassa sekunnissa. Aloita toisto heti oston jälkeen.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Automatisoidut varaukset",
+            "1": "Esiasetukset",
+            "2": "Valmis alle 60 sekunnissa",
+            "3": "Teknistä tietämystä ei tarvita"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Täysi Ftp Pääsy",
+          "description": "Täydellinen pääsy tiedostoihin FTP/SFTP:llä. Lataa maailmoja, liitännäisiä ja konfiguraatioita helposti.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "SFTP tiedoston käyttö",
+            "1": "Web-pohjainen tiedostonhallinta",
+            "2": "Vedä ja pudota lataukset",
+            "3": "Automaattiset varmuuskopiot"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Rajoittamaton Lähtöpaikka",
+          "description": "Ei keinotekoisia pelaajarajoja. Isäntä niin monta pelaajaa kuin laitteistosi voi käsitellä.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Ei lähtö- ja saapumisaikoja koskevia rajoituksia",
+            "1": "Skaalattavat resurssit",
+            "2": "Päivitä milloin tahansa",
+            "3": "Oikeudenmukainen resurssien jako"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Mitä Minecraftin versioita tuet?",
+          "answer": "Tuemme kaikkia Minecraftin versioita 1.7.10 viimeisimpään julkaisuun, mukaan lukien tilannekuvat. Sekä Java Edition että Bedrock Edition -palvelimet ovat käytettävissä."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Voinko asentaa modeja ja liitännäisiä?",
+          "answer": "Kyllä! Tuemme kaikkia suurimpia mod kuormaajia, kuten Forge, Fabric, ja NeoForge. Plugins, tuemme Paper, Spigot, Bukkit ja Purpur. Voit myös ladata mukautettuja JAR."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Miten voin ladata nykyisen maailmani?",
+          "answer": "Voit ladata maailman tiedostoja web-pohjaisen tiedostonhallinnan kautta tai SFTP:n kautta. Vedä ja pudota maailman kansio ja se on valmis käytettäväksi."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Onko pelaajan raja olemassa?",
+          "answer": "Ei, emme määrää keinotekoisia pelaajarajoja. Palvelin voi isännöidä niin monta pelaajaa kuin varatut resurssit voivat käsitellä."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Voinko päivittää suunnitelmaani myöhemmin?",
+          "answer": "Ehdottomasti! Voit päivittää tai alentaa tilaustasi milloin tahansa laskutuspaneelistamme. Muutokset tulevat voimaan välittömästi ilman seisokkeja."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Tarjoatteko hyvityksiä?",
+          "answer": "Kyllä, tarjoamme 48-tunnin rahat takaisin -takuun kaikille uusille ostoksille. Jos et ole tyytyväinen, ota yhteyttä tukeen saadaksesi täyden palautuksen."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Korkean suorituskyvyn Rust palvelin hosting Oxide/uMod tuki ja mukautettuja karttavaihtoehtoja.",
+      "tag": "Korkea Suorituskyky",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Hapettu/uMod -tuki",
+        "1": "Mukautetut kartat",
+        "2": "Tyhjennä ajastus",
+        "3": "RCON käyttö"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Käynnistäjä",
+          "description": "Suositellaan 40 pelaajalle"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "Normaali",
+          "description": "Suositellaan 75 pelaajalle"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Suorituskyky",
+          "description": "Suositellaan 100 pelaajalle"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}Gt Ssd Tallennustila",
+        "ddos": "FyfeWeb DDoS Suojaus",
+        "location": "Newcastle, Yhdistynyt Kuningaskunta",
+        "databases": "10 MySQL-tietokantaa",
+        "panel": "BytePanel (nimipaneeli)",
+        "oxide": "Tuetut Happi/Umod",
+        "rustplus": "Rust+ Tuettu",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Oxide/uMod -tuki",
+          "description": "Täydellinen tuki oksidi- ja uMod-liitännäisille. Asenna ja hallitse liitännäisiä suoraan meidän ohjauspaneelista.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Yhden napsautuksen oksidi-asennus",
+            "1": "Liitännäisen hallinta",
+            "2": "Automaattiset päivitykset saatavilla",
+            "3": "Käyttöoikeuksien hallinta"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Mukautetut Kartat",
+          "description": "Käytä menettelyllisesti luotuja karttoja tai lataa omia mukautettuja karttoja. Koko kartan muokkaustuki.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "Menettelyyn perustuva tuotanto",
+            "1": "Mukautettujen karttojen lataukset",
+            "2": "Kartan koon säätö",
+            "3": "Siementen räätälöinti"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Korkea Suorituskyky",
+          "description": "Rust vaatii tehokkaita laitteita. Palvelimemme käyttävät uusinta AMD Ryzen -suoritinta ja NVMe -tallennustilaa.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 Suorittimet",
+            "1": "NVMe SSD tallennustila",
+            "2": "Korkea yksisuuntainen suorituskyky",
+            "3": "Matalan latenssin verkostoituminen"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "DDoS Suojaus",
+          "description": "FyfeWebin yritysluokan DDoS hillitseminen UK London POPs suojaa palvelinta hyökkäyksiltä 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
+            "0": "FyfeWeb-verkon suodatus",
             "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "2": "Tason 3/4/7 suojaus",
+            "3": "Nolla seisokkeja"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Tyhjennä Aikataulu",
+          "description": "Automaattinen pyyhkäisy ajastus pitääksesi palvelimen tuoreena. Määritä viikoittain, kahdesti viikossa tai kuukausittain.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Automatisoidut pyyhkeet",
+            "1": "Suunnitelman pyyhkäisyn asetukset",
+            "2": "Kartan pyyhkäisyn ajastus",
+            "3": "Discordin ilmoitukset"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Täysi RCON Pääsy",
+          "description": "Suorita etäyhteyden käyttö palvelimen hallintaan. Suorita komentoja mistä tahansa.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "Web-pohjainen RCON",
+            "1": "Komennon ajastus",
+            "2": "Pelaajien hallinta",
+            "3": "Reaaliaikaiset lokit"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Tuetko Oxide/uMod -liitännäisiä?",
+          "answer": "Kyllä! Tuemme täysin Oxidia ja uMod. Voit asentaa Oxide yhdellä napsautuksella meidän ohjauspaneeli ja hallita plugins kautta plugin manageri tai FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Voinko käyttää omia karttoja?",
+          "answer": "Ehdottomasti! Voit käyttää menettelyllisesti luotuja karttoja, joissa on mukautettuja siemeniä ja kokoja, tai ladata omia mukautettuja karttatiedostoja FTP:n kautta."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Miten pyyhkäisy aikataulu toimii?",
+          "answer": "Pyyhkäisy ajastin avulla voit automatisoida palvelimen pyyhkimet aikataulussa, jonka valitset. Voit määrittää vain karttapyyhkeet tai koko suunnitelman pyyhkeet ja halutessasi lähettää Discord-ilmoituksia."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Mikä on palvelimen rasti?",
+          "answer": "Meidän Rust palvelimet toimivat oletuksena 30 rastitusnopeus. Meidän korkean suorituskyvyn laitteisto takaa johdonmukaisen suorituskyvyn jopa monien pelaajien verkossa."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Voinko käyttää RCONia?",
+          "answer": "Kyllä, saat täyden RCON yhteyden. Voit käyttää web-pohjaista RCON konsolia tai liittää mihin tahansa standardi RCON asiakas."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Tuetko moderoituja palvelimia?",
+          "answer": "Kyllä, tuemme sekä vanilja- että moderoituja ruostimia. Asenna Oxide ja lisää kaikki plugins sinun täytyy luoda täydellinen modded kokemus."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Hytale palvelin hosting tulossa pian! Liity Discordiin saadaksesi varhaisen pääsyn ja päivitykset.",
+      "tag": "Kehitystyössä",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Modin tuki",
+        "1": "Mukautetut kartat",
+        "2": "Helppo konfigurointi",
+        "3": "24/7 tuki"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "Ominaisuudet",
+      "title": "Miksi Valita Meidän",
+      "titleSuffix": "Palvelin",
+      "description": "Yritystason infrastruktuuri räätälöity erityisesti {game} palvelimille."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "Hinnoittelu",
+      "title": "Palvelimen Suunnitelmat",
+      "description": "Joustavat suunnitelmat tarpeisiisi vastaamiseksi. Kaikki suunnitelmat sisältävät DDoS-suojauksen, pikaasennuksen ja 24/7 tuen.",
+      "comingSoon": "Hinnoittelu Tulossa Pian",
+      "comingSoonDesc": "Pyrimme tuomaan sinulle parhaan {game} isännöintikokemuksen. Liity Discordiimme saadaksesi ilmoituksen kun aloitamme!",
+      "joinDiscord": "Liity Discordiin",
+      "mostPopular": "Suosituimmat",
+      "getStarted": "Aloita Alusta",
+      "viewAllPlans": "Näytä Kaikki Suunnitelmat",
+      "customSolution": "Tarvitsetko mukautetun ratkaisun vai kysyttävää?",
+      "contactUs": "Ota yhteyttä"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "badge": "UKK",
+      "title": "Kysymykset",
+      "description": "Yleisiä kysymyksiä meidän {game} hosting palvelu.",
+      "stillHaveQuestions": "Onko kysyttävää?",
+      "supportAvailable": "Tukitiimimme on käytettävissä 24/7 auttamaan sinua kaikissa kysymyksissä.",
+      "askOnDiscord": "Kysy Discordista",
+      "contactSupport": "Ota Yhteyttä Tukeen"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Liity Jonotuslistaan",
+      "viewPlans": "Näytä Suunnitelmat",
+      "learnMore": "Lue Lisää",
+      "comingSoon": "Tulossa Pian",
+      "joinDiscordForUpdates": "Liity Discordiin saadaksesi päivityksiä"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "Hanki kosketus",
+    "title": "Yhteystieto",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "Olemme täällä auttamassa 24/7. Saavuta läpi kaikki meidän tukikanavat ja me palaamme sinulle mahdollisimman pian.",
+    "supportChannels": "Tukikanavat",
+    "copied": "Kopioitu!",
+    "copiedDesc": "Sähköpostiosoite kopioitu leikepöydälle",
+    "copyFailed": "Kopiointi Epäonnistui",
+    "copyFailedDesc": "Kopiointi leikepöydälle epäonnistui",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Discord-yhteisö",
+      "description": "Liity yhteisöömme saadaksesi välittömän tuen, ilmoitukset ja juttele muiden käyttäjien kanssa.",
+      "button": "Liity Discordiin",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Välittömät vastaukset",
+        "1": "Yhteisön apu",
+        "2": "Ilmoitukset"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Ilmoita virheistä, ehdota ominaisuuksia ja osallistu avoimen lähdekoodin projekteihimme.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Virheraportit",
+        "1": "Pyynnöt ominaisuuksista",
+        "2": "Avoin lähdekoodi"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Tue Tukipyyntöä",
+      "description": "Lähetä lippu laskutuspaneelin kautta tiliin liittyviin kysymyksiin.",
+      "button": "Avaa Tiketti"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "Lähetä Tuki Sähköpostilla",
+      "title": "Suosi Sähköpostia? Saimme Olet Katettu",
+      "responseTime": "Vasteaika: tyypillisesti 24 tunnin kuluessa",
+      "departments": "Osasto Sähköpostit",
+      "technical": "Tekninen Tuki",
+      "technicalDesc": "Palvelimen ongelmat ja tekninen apu",
+      "general": "Yleinen Tuki",
+      "generalDesc": "Yleiset kysymykset ja apu",
+      "account": "Tilin Ongelmat",
+      "accountDesc": "Kirjautumis- ja tiliongelmat",
+      "billing": "Laskutus Kyselyt",
+      "billingDesc": "Maksut ja laskut"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Seuraa Meitä",
+      "description": "Pysy ajan tasalla uutisista, vinkeistä ja yhteisön päivityksistä"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Tärkeä Huomautus",
+      "description": "Emme käsittele laskutusta tai tiliin liittyvää tukea Discordin kautta. Yksityisyyden ja turvallisuuden vuoksi ota yhteyttä osoitteeseen support@nodebyte.host arkaluonteisissa asioissa."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Nopeat, luotettavat, skaalautuvat ja turvalliset hosting-palvelut pelikokemuksellesi. Rakennettu ihmisille. Powered by Bytes.",
+    "getInTouch": "Hanki kosketus",
+    "emailUs": "Lähetä Meille Sähköpostia",
+    "support": "Tuki",
+    "contactTeam": "Ota yhteyttä tiimiin",
+    "quickLinks": "Nopeat Linkit",
+    "legal": "Oikeudellinen",
+    "status": "Kaikki Järjestelmät Toimivat",
+    "copyright": "Kaikki oikeudet pidätetään.",
+    "builtWith": "Rakennettu sovelluksella",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Kaikki Järjestelmät Toimivat",
+      "degraded": "Heikentynyt Suorituskyky",
+      "maintenance": "Kunnossapidon Alla"
     },
     "services": {
       "minecraftHosting": "Minecraft Hosting",
       "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "gamePanel": "Pelin Paneeli",
+      "clientArea": "Asiakkaan Alue"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "Discord-palvelin",
+      "serviceStatus": "Palvelun Tila",
+      "knowledgeBase": "Tietämyskanta",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Ehdot Ja Ehdot",
+      "privacy": "Yksityisyyden Suoja",
+      "refund": "Hyvityksen Käytäntö",
+      "legalHub": "Oikeudellinen Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "Tietoja NodeByte",
+      "contact": "Ota Yhteyttä",
+      "companyInfo": "Yrityksen Tiedot",
+      "changes": "Muutosloki"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "arvostelut",
+      "readReviews": "Lue arvosteluja"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Ladataan...",
+    "error": "Jokin meni pieleen",
+    "retry": "Yritä uudelleen",
+    "learnMore": "Lue Lisää",
+    "getStarted": "Aloita Alusta",
+    "comingSoon": "Tulossa Pian"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "Mitä Uutta",
+    "title": "Muutosloki",
+    "titleHighlight": "& Päivitykset",
+    "description": "Pysy ajan tasalla uusimmista julkaisuista, ominaisuuksista ja parannuksista kaikissa NodeByte projekteissa.",
+    "searchPlaceholder": "Hae julkaisuja...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Kaikki Repot",
+      "allTypes": "Kaikki Tyypit",
+      "feature": "Ominaisuus",
+      "bugfix": "Vian Korjaus",
+      "improvement": "Parannus",
+      "breaking": "Katkaise Muutos",
+      "security": "Turvallisuus"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Näytä GitHubissa",
+      "publishedOn": "Julkaistu",
+      "by": "mennessä",
+      "assets": "Laitteet",
+      "downloadAsset": "Lataa",
+      "noAssets": "Sisältöjä ei ole saatavilla",
+      "preRelease": "Esijulkaisu",
+      "latest": "Viimeisimmät",
+      "draft": "Luonnos"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Julkaisuja ei löytynyt",
+      "description": "Yritä muuttaa hakuasi tai suodattimiasi löytääksesi etsimäsi.",
+      "clearFilters": "Tyhjennä Suodattimet"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "Ladataan julkaisuja...",
+      "description": "Haetaan viimeisimmät päivitykset arkistoistamme."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Julkaisujen lataaminen epäonnistui",
+      "description": "Julkaisujen haussa tapahtui virhe. Yritä myöhemmin uudelleen.",
+      "retry": "Yritä Uudelleen"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Julkaisut Yhteensä",
+      "repositories": "Repot",
+      "latestUpdate": "Viimeisin Päivitys"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Näytä Kaikki Julkaisut",
+    "showMore": "Näytä Lisää",
+    "showLess": "Näytä Vähemmän",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "Edellinen",
+      "next": "Seuraava",
+      "page": "Sivu",
+      "of": "jostakin"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Kopioi linkki",
+    "linkCopied": "Linkki kopioitu!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "Tietämyskanta",
+    "description": "Etsi vastauksia, oppaita ja oppaita, jotka auttavat sinua saamaan kaiken irti NodeByte kokemuksestanne.",
+    "searchPlaceholder": "Etsi tietämyspohja...",
+    "browseByCategory": "Selaa kategorian mukaan",
+    "recentlyUpdated": "Äskettäin Päivitetty",
+    "articles": "artikkelit",
+    "minRead": "min luettu",
+    "updated": "Päivitetty",
+    "onThisPage": "Tällä sivulla",
+    "backTo": "Takaisin sivustolle",
+    "previous": "Edellinen",
+    "next": "Seuraava",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Tuloksia ei löytynyt",
+      "description": "Kokeile eri avainsanoja tai selaa kategorioita",
+      "forQuery": "Tuloksia ei löytynyt"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Ei vielä artikkeleita",
+      "description": "Tällä kategorialla ei ole vielä yhtään artikkelia. Tarkista pian!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Tarvitsetko vielä apua?",
+      "description": "Etkö löydä etsimääsi? Olemme täällä auttamassa.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Discord-yhteisö",
+        "description": "Liity Discordiin saadaksesi suoraa tukea ja yhteisön apua.",
+        "button": "Liity Discordiin"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Tue Tukipyyntöä",
+        "description": "Avaa tukipyyntö tiliin tai laskutukseen liittyviin ongelmiin.",
+        "button": "Avaa Tiketti"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "UKK",
+        "description": "Tutustu usein kysyttyihin kysymyksiin saadaksesi nopeita vastauksia.",
+        "button": "Näytä UKK"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Hae Tietämyskannasta",
+      "button": "Etsi"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "toggle": "Avaa teemavalikko",
+    "appearance": "Ulkoasu",
+    "light": "Vaalea",
+    "dark": "Tumma",
+    "system": "Järjestelmä",
+    "coolTones": "Viileä Sävy",
+    "warmTones": "Lämmin Sävy",
+    "nature": "Luonto",
+    "slate": "Liuskekivi",
+    "midnight": "Keskiyö",
+    "ocean": "Meri",
+    "forest": "Metsä",
+    "sunset": "Auringonlasku",
+    "rose": "Ruusu",
+    "amber": "Meripihka",
+    "emerald": "Smaragdi",
+    "teal": "Sinappi",
+    "sky": "Taiva",
+    "violet": "Violetti"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "Pelipalvelimen Palvelin",
+    "description": "Korkean suorituskyvyn pelipalvelimen isännöinti pikaasetuksella, tehokkaalla ohjauspaneelilla ja 24/7 asiantuntijatuella.",
+    "startingAt": "Aloitetaan klo"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
+    "loading": "Ladataan",
+    "pagination": "sivutus",
+    "previous": "Edellinen",
+    "next": "Seuraava",
+    "morePages": "Lisää sivuja",
+    "previousSlide": "Edellinen dia",
+    "nextSlide": "Seuraava dia",
     "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "more": "Lisää",
+    "toggleSidebar": "Vaihda sivupalkkia",
+    "goToSlide": "Siirry diaan"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "Tietoja NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Rakenna pelaajien toimesta,",
+      "titleHighlight": "pelaajille",
+      "description": "NodeByte aloitti pienen joukon pelaajia ja ops insinöörejä, jotka halusivat hosting, joka oli nopea, luotettava ja helppo hallita. Tänään, me valtapeli palvelimia maailmanlaajuisesti.",
+      "joinCommunity": "Liity Yhteisöömme",
+      "contactUs": "Ota Yhteyttä"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Meidän Tarina",
+      "title": "Miten Kaikki Alkoi",
+      "paragraph1": "NodeByte syntyi turhautuneisuudesta. Kuten innokas pelaajat itse, koimme ensin kivun laggy serverit, reagoimaton tuki, ja monimutkaisia ohjauspaneelit, jotka tekivät palvelimen hallinta painajainen.",
+      "paragraph2": "Vuonna 2024 päätimme tarpeeksi. Koottiin joukko intohimoisia pelaajia ja kokeneita ops insinöörejä yksi tavoite: rakentaa peli hosting foorumi me aina toivoimme.",
+      "paragraph3": "Tänään, NodeByte valtuuttaa peli palvelimia ympäri maailmaa. Mutta tehtävämme on edelleen sama: tehdä pelipalvelimen hosting nopea, luotettava, ja kaikkien saatavilla."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Meidän Arvot",
+      "title": "Mitä Me",
+      "titleHighlight": "Seisokaa",
+      "description": "Keskeiset arvomme ohjaavat kaikkea mitä teemme, infrastruktuuripäätöksistä aina asiakastukeen.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Rakennettu pelaajille",
+        "description": "Infrastruktuurimme priorisoi alhaisen latenssireitityksen, ennustettavan suorituskyvyn ja vahvan käytettävyyden, jotta yhteisösi pysyvät verkossa ja reagoivina."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Yhteisön & Modien Tuki",
+        "description": "Saumaton modi asentaa, tilannekuvan tuki ja yhteisön työkalu, joiden avulla voit ajaa moderoituja maailmoja ja pysyviä palvelimia mahdollisimman vähän."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Avaa ulkoasun mukaan",
+        "description": "Arvostamme läpinäkyvyyttä selkeistä SLA sitoumuksista avata työkaluja. Alustamme tarjoaa API ja integraatiot automatisoida palvelimen työnkulkuja."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "Käyttöaika SLA",
+      "latency": "Keskim. Latenssi",
+      "support": "Tuki",
+      "servers": "Aktiiviset Palvelimet"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "Meidän Matkamme",
+      "title": "Lyhyt",
+      "titleHighlight": "Historia",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "NodeByte Perustettu",
+        "description": "Aloitti pienenä projektina pelaajille, jotka halusivat parempia hosting vaihtoehtoja yhteisöilleen."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Nopea Kasvu",
+        "description": "Laajennettu infrastruktuuri FyfeWeb-kumppanuus, lisäämällä yrityksen DDoS suoja ja UK datakeskukset."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Yleinen Laajennus",
+        "description": "Käynnistettiin uusia palveluja, tehostettu ohjauspaneeli ja jatkaa maailmanlaajuisen yhteisömme kasvua."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "Tiimimme",
+      "title": "Tapaa",
+      "titleHighlight": "Tiimi",
+      "description": "NodeByten takana olevat intohimoiset ihmiset, jotka väsymättä tekevät työtä tarjotakseen parhaan hosting-kokemuksen.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Perustaja & Johtava Kehittäjä"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Full-pino kehittäjä ja pelaamista harrastaja rakentaa infrastruktuuri, joka valtuuttaa NodeByte."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Oletko valmis aloittamaan?",
+      "description": "Liity tuhansiin pelaamista yhteisöihin, jotka luottavat NodeByte palvelimen hosting-tarpeisiin.",
+      "getStarted": "Näytä Pelipalvelimet",
+      "joinDiscord": "Liity Discordiin"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Sivua Ei Löytynyt",
+    "description": "Sivua, jota etsit ei ole olemassa tai on siirretty. Saadaan sinut takaisin raiteilleen.",
+    "goHome": "Siirry Kotiin",
+    "goBack": "Siirry Takaisin",
+    "quickLinks": "Nopeat Linkit",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "Koti",
+      "games": "Pelit",
+      "kb": "Tietämyskanta",
+      "contact": "Yhteystieto"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Jotain Meni Väärä",
+    "description": "Kohtasimme odottamattoman virheen. Älä huoli, tiimimme on ilmoitettu ja työskentelee sen parissa.",
+    "errorCode": "Virhe Koodissa",
+    "tryAgain": "Yritä Uudelleen",
+    "goHome": "Siirry Kotiin",
+    "needHelp": "Tarvitsetko Apua?",
+    "helpDescription": "Jos tämä virhe jatkuu, ota yhteyttä tukitiimiimme.",
+    "joinDiscord": "Liity Discordiin",
+    "contactSupport": "Ota Yhteyttä Tukeen"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "Kirjaudu Sisään",
+      "description": "Kirjaudu sisään NodeByte tililläsi jatkaaksesi.",
+      "emailLabel": "Sähköposti Osoite",
+      "emailPlaceholder": "sinä@esimerkki.com",
+      "passwordLabel": "Salasana",
+      "passwordPlaceholder": "Syötä salasanasi",
+      "loginButton": "Kirjaudu Sisään",
+      "loggingIn": "Kirjaudutaan sisään...",
+      "forgotPassword": "Unohditko salasanasi?",
+      "noAccount": "Eikö sinulla ole tiliä?",
+      "createAccount": "Luo yksi",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "Virheellinen sähköpostiosoite tai salasana. Yritä uudelleen.",
+        "networkError": "Verkkovirhe. Tarkista yhteytesi ja yritä uudelleen.",
+        "generic": "Kirjautumisen aikana tapahtui virhe. Yritä uudelleen."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "Luo Tili",
+      "description": "Rekisteröidy päästäksesi pelipalvelimiisi ja palveluihisi.",
+      "emailLabel": "Sähköposti Osoite",
+      "emailPlaceholder": "sinä@esimerkki.com",
+      "passwordLabel": "Salasana",
+      "passwordPlaceholder": "Luo salasana",
+      "confirmPasswordLabel": "Vahvista Salasana",
+      "confirmPasswordPlaceholder": "Vahvista salasanasi",
+      "registerButton": "Luo Tili",
+      "registering": "Luodaan tiliä...",
+      "alreadyHaveAccount": "Onko sinulla jo tili?",
+      "signIn": "Kirjaudu sisään",
+      "panelAccountRequired": "Vanha Paneelitili Vaaditaan",
+      "panelAccountRequiredDescription": "Samalla kun työskentelemme siirtymisessä pois vanhoista järjestelmistä, sinulla on oltava olemassa oleva tili meidän pelipaneelissa rekisteröidäksesi. Paneelitilit luodaan, kun ostat palvelun meidän laskutusjärjestelmämme kautta.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "Tällä sähköpostiosoitteella on jo tili.",
+        "notInPanel": "Tällä sähköpostilla ei löytynyt pelipaneelitiliä. Ole hyvä ja osta ensin palvelu luodaksesi paneelitilin.",
+        "panelAccountLinked": "Tämä paneelitili on jo linkitetty toiseen NodeByte tiliin.",
+        "passwordsDontMatch": "Salasanat eivät täsmää.",
+        "passwordTooShort": "Salasanan on oltava vähintään 8 merkkiä pitkä.",
+        "invalidEmail": "Anna voimassa oleva sähköpostiosoite.",
+        "networkError": "Verkkovirhe. Tarkista yhteytesi ja yritä uudelleen.",
+        "generic": "Rekisteröinnin aikana tapahtui virhe. Yritä uudelleen."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Tili Luotu!",
+        "description": "Tilisi on luotu onnistuneesti. Voit nyt kirjautua sisään."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Tunnistautuminen Virhe",
+      "description": "Sisään kirjautumisessa tapahtui virhe.",
+      "configuration": "On olemassa asetusvirhe kanssa todennuksen järjestelmä.",
+      "accessDenied": "Sinulla ei ole oikeuksia käyttää tätä resurssia.",
+      "verification": "Linkki ei ole enää voimassa.",
+      "default": "Kirjautumisen aikana tapahtui odottamaton virhe.",
+      "credentialsSignin": "Virheelliset käyttäjätunnukset. Tarkista sähköpostisi ja salasanasi.",
+      "tryAgain": "Yritä Uudelleen",
+      "goHome": "Siirry Kotiin"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "Oma Tili",
+      "viewPanel": "Näytä Paneeli",
+      "admin": "Ylläpitäjä",
+      "logout": "Kirjaudu Ulos",
+      "signIn": "Kirjaudu Sisään",
+      "loggingOut": "Kirjaudutaan ulos..."
+    }
+  },
+  "admin": {
+    "title": "Ylläpito Paneeli",
+    "nav": {
+      "dashboard": "Hallintapaneeli",
+      "users": "Käyttäjät",
+      "servers": "Palvelimet",
+      "sync": "Synkronointi",
+      "settings": "Asetukset",
+      "backToSite": "Back to Site"
+    },
+    "status": {
+      "online": "Järjestelmä Verkossa"
+    },
+    "dashboard": {
+      "title": "Hallintapaneeli",
+      "description": "Yleiskatsaus Pterodactyl paneelin tietoihin ja synkronointitilaan."
+    },
+    "stats": {
+      "users": "Käyttäjiä Yhteensä",
+      "migratedCount": "{count} siirtynyt",
+      "servers": "Palvelimet",
+      "nodes": "Nodes",
+      "locations": "Sijainnit",
+      "allocations": "Määrärahat",
+      "nests": "Nisät",
+      "eggs": "Munat",
+      "eggVariables": "Munan Muuttujat",
+      "databases": "Tietokannat"
+    },
+    "sync": {
+      "status": "Synkronoinnin Tila",
+      "lastSync": "Viimeisin synkronointi",
+      "never": "Ei Koskaan",
+      "idle": "Jouten",
+      "syncing": "Synkronoi...",
+      "inProgress": "Synkronointi käynnissä",
+      "syncingTarget": "Synkronoidaan {target} dataa paneelista...",
+      "complete": "complete",
+      "runFull": "Suorita Täysi Synkronointi",
+      "success": "Synkronointi Valmis",
+      "completed": "{target} datan synkronointi onnistui.",
+      "error": "Synkronointi Epäonnistui",
+      "quickActions": "Nopea Synkronointi Toiminnot",
+      "quickActionsDescription": "Synkronoi Pterodactyl -paneelin yksittäiset tietotyypit.",
+      "targets": {
+        "locations": "Sijainnit",
+        "nodes": "Nodes",
+        "allocations": "Määrärahat",
+        "nests": "Nisät Ja Munat",
+        "servers": "Palvelimet",
+        "databases": "Tietokannat",
+        "users": "Käyttäjät"
+      }
+    },
+    "actions": {
+      "refresh": "Päivitä"
+    },
+    "error": {
+      "title": "Virhe",
+      "unauthorized": "Sinulla ei ole oikeutta käyttää tätä sivua.",
+      "forbidden": "Pääkäyttäjän pääsy vaaditaan."
     }
   }
 }

@@ -1,960 +1,1022 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "W związku z tym Komisja odrzuciła ten argument.",
+    "services": "Usługi",
+    "resources": "Zasoby",
     "extras": "Extras",
-    "contact": "Contact",
+    "contact": "Kontakt",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
+    "joinDiscord": "Dołącz do naszego Discorda",
+    "theme": "Motyw",
+    "currency": "Waluta",
+    "language": "Język",
+    "settings": "Ustawienia",
     "menu": "Menu"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Skontaktuj się z nami",
+      "description": "Skontaktuj się z naszym zespołem"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "O nas",
+      "description": "Dowiedz się więcej o NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Hosting Minecraft",
+      "description": "Serwery Minecraft z natychmiastową konfiguracją"
     },
     "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "title": "Hosting Rust",
+      "description": "Serwery Rust z ochroną DDoS"
     },
     "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "title": "Hosting Hytale",
+      "description": "Serwery Hytale z ochroną DDoS"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Wszystkie usługi",
+      "description": "Odkryj wszystkie nasze usługi hostingowe"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Obszar klienta",
+      "description": "Zarządzaj rozliczeniami, fakturami i ustawieniami konta"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Panel gry",
+      "description": "Kontroluj swoje serwery gier za pomocą naszego panelu"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "Baza wiedzy",
+      "description": "Przewodniki, samouczki i dokumentacja"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Co nowego",
+      "description": "Najnowsze aktualizacje i funkcje"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "KOD UŻYTKOWNIKA",
+      "suffix": "NA TWOJEJ PIERWSZEJ ORDER!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Hosting gry",
+    "titleHighlight": "Wykonano proste",
+    "description": "Szybki, niezawodny i bezpieczny hosting dla społeczności grających. Uruchom dedykowane serwery z natychmiastową konfiguracją, ochroną DDoS i obsługą 24/7.",
+    "getStarted": "Zacznij",
+    "joinDiscord": "Dołącz do Discorda",
+    "trustedBy": "Zaufały się społecznościami grającymi na całym świecie",
+    "trustpilotReviews": "Recenzje Trustpilot",
     "stats": {
-      "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptime": "SLA czasu pracy",
+      "uptimeDesc": "Zredundancja przedsiębiorstwa utrzymująca serwery online.",
+      "ping": "Śr. ping",
+      "pingDesc": "Zoptymalizowane przekierowanie do rozgrywki o małej opóźnieniach.",
+      "support": "Wsparcie",
+      "supportDesc": "Pomoc eksperta z instalacjami, modyfikacjami i opcjami serwera."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Infrastruktura",
+    "title": "Zbudowane dla",
+    "titleHighlight": "Efektywność",
+    "description": "Infrastruktura firmy z narzędziami przyjaznymi dla gracza. Natychmiastowe serwery, przekierowywanie niskich opóźnień i potężne sterowanie.",
+    "viewPlans": "Zobacz plany hostingu",
+    "startingFrom": "Począwszy od",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "Ochrona DDoS",
+        "description": "Łagodzenie skutków dla przedsiębiorstw napędzane przez FyfeWeb z automatycznym oczyszczaniem, aby serwery były atakowane online.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "Ochrona sieci FyfeWeb",
+          "1": "Automatyczne ograniczanie skali",
+          "2": "Monitorowanie w czasie rzeczywistym"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Sieć o niskim opóźnieniu",
+        "description": "Zoptymalizowano trasy przez brytyjską sieć FyfeWeg z londyńskimi OPs do minimalnego pingu.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Średnie opóźnienie sub50ms",
+          "1": "Przekierowywanie oparte na Wielkiej Brytanii",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Natychmiastowe ustawienia",
+        "description": "Szablony serwerów, zautomatyzowane modyfikacje i szybkie zaopatrzenie.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 sekund rozmieszczeń",
+          "1": "Wstępnie zbudowane szablony",
+          "2": "Automatyczna konfiguracja"
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "title": "Brytyjskie Centrum Danych",
+        "description": "Strategicznie zlokalizowany w Zjednoczonym Królestwie z londyńskimi programami operacyjnymi wspieranymi przez FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "Londyńskie TZO",
+          "1": "Sieć FyfeWeb",
+          "2": "Niskie opóźnienie brytyjskie"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Panel sterowania",
+        "description": "Potężny interfejs dostępu do konsoli, zarządzania plikami, kopii zapasowych i metryk.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "Konsola na żywo",
+          "1": "Menedżer plików",
+          "2": "Zaplanowane zadania"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "Wsparcie 24/7",
+        "description": "Ludzkie pierwsze wsparcie z ekspertami jest dostępne w dowolnym czasie, do instalowania i rozwiązywania problemów.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Wsparcie Discorda",
+          "1": "System zgłoszeń",
+          "2": "Baza wiedzy"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Nasza Opowieść",
+    "title": "Zbudowane przez graczy",
+    "titleHighlight": "dla graczy",
+    "paragraph1": "NodeByte zaczął być małą grupą graczy, którzy chcieli hostingu, który był szybki, niezawodny i łatwy w zarządzaniu. Doświadczyliśmy frustracji serwerów laggy i nieelastycznego wsparcia.",
+    "paragraph2": "Dlatego zbudowaliśmy infrastrukturę specjalnie dostosowaną do gier wieloosobowych: przekierowywanie niskich opóźnień, solidna ochrona DDoS i natychmiastowe zaopatrzenie serwera, dzięki czemu będziesz mógł szybko grać.",
+    "joinCommunity": "Dołącz do naszej społeczności",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Zbudowane dla Graczy",
+        "description": "Nasza infrastruktura priorytetuje przekierowywanie opóźnień, przewidywalną wydajność i silny czas pracy, tak aby twoje społeczności pozostały online i reagowały."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Wsparcie Społeczności i Moda",
+        "description": "Bezproblemowe instalowanie modów, wsparcie dla migawek i narzędzia społecznościowe, aby pomóc Ci w obsłudze zmodyfikowanych światów i trwałych serwerów przy minimalnym wysiłku."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Otwórz przez projekt",
+        "description": "Doceniamy przejrzystość od jasnych zobowiązań SLA do otwarcia narzędzi. Nasza platforma zapewnia API i integracje do zautomatyzowania przepływu pracy serwera."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "SLA czasu pracy",
+      "latency": "Śr. opóźnienie",
+      "support": "Wsparcie",
+      "servers": "Aktywne serwery"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Cennik",
+    "title": "Plany serwera",
+    "description": "Elastyczne plany dostosowane do Twoich potrzeb. Wszystkie plany obejmują ochronę DDoS, natychmiastową konfigurację i wsparcie 24/7.",
+    "getStarted": "Zacznij",
+    "viewAllPlans": "Zobacz wszystkie plany",
+    "comingSoon": "Cennik wkrótce",
+    "comingSoonDescription": "Pracujemy nad zapewnieniem Ci najlepszych doświadczeń z hostingiem. Dołącz do naszego Discorda, aby otrzymywać powiadomienia o uruchomieniu!",
+    "joinDiscord": "Dołącz do Discorda",
+    "mostPopular": "Najpopularniejsze",
+    "customSolution": "Potrzebujesz niestandardowego rozwiązania lub masz pytania?",
+    "contactUs": "Skontaktuj się z nami",
+    "perMonth": "miesiąc"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "Często zadawane pytania",
+    "title": "Często zadawane",
+    "titleHighlight": "Pytania",
+    "description": "Szybkie odpowiedzi na temat hostingu, wydajności i wsparcia dla węzła NodeByte.",
+    "searchPlaceholder": "Szukaj pytań...",
+    "noResults": "Nie znaleziono wyników. Spróbuj wyszukać \"DDoS\", \"mody\" lub \"SLA\".",
+    "stillHaveQuestions": "Nadal masz pytania?",
+    "cantFind": "Nie możesz znaleźć tego, czego szukasz? Nasz zespół pomocy technicznej jest tutaj, aby pomóc.",
+    "contactSupport": "Skontaktuj się z pomocą techniczną",
+    "joinDiscord": "Dołącz do Discorda",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Jak szybko mogę zapewnić serwer?",
+        "answer": "Większość wstępnie zbudowanych szablonów serwerów w ciągu 60 sekund. Niestandardowe konfiguracje z dużymi modyfikacjami mogą zająć więcej czasu w zależności od czasu instalacji modyfikacji."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Czy oferujesz ochronę DDoS?",
+        "answer": "Tak, wszystkie plany obejmują łagodzenie DDoS klasy przedsiębiorstw napędzane przez FyfeWeb. Nasze londyńskie OPP zapewniają automatyczne filtrowanie i oczyszczanie na krawędzi sieci."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Gdzie znajdują się twoje centra danych?",
+        "answer": "Prowadzimy brytyjskie ośrodki danych z londyńskimi OP wspieranymi przez naszego partnera sieciowego FyfeWeb, zapewniając doskonały zasięg w całej Wielkiej Brytanii i Europie."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Czy mogę uruchomić modyfikacje i niestandardowe mapy?",
+        "answer": "Tak, nasz panel sterowania i szablony obsługują typowe ładunki modów (Forge, Fabric) i niestandardowe przesyłanie map. Zarządzane wsparcie modów jest dostępne na wybranych planach."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Jaki jest twój czas pracy SLA?",
+        "answer": "Oferujemy 99,6% czasu obowiązywania umowy SLA w odniesieniu do planów produkcji. Szczegóły i kryteria kwalifikowalności zobacz nasze warunki."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Czy mogę odebrać okres próbny przed zatwierdzeniem?",
+        "answer": "Tak, oferujemy bezpłatne próby dla nowych użytkowników, aby przetestować nasze usługi przed podjęciem zobowiązania. Odwiedź naszą darmową stronę próbną, aby zobaczyć dostępne opcje.",
+        "trialLink": "Rozpocznij darmowy okres próbny"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
+    "badge": "Serwery gier",
+    "title": "Wybierz swój",
+    "titleHighlight": "Gra",
+    "description": "Potężne, niskoemisyjne serwery gry. Natychmiastowa konfiguracja, intuicyjny panel sterowania i wsparcie eksperckie 24/7.",
+    "viewPlans": "Zobacz plany",
+    "learnMore": "Poznaj więcej",
+    "comingSoon": "Wkrótce",
+    "customSolution": "Potrzebujesz serwera gry, który nie jest na liście?",
+    "contactUs": "Skontaktuj się z nami",
+    "forCustom": "dla niestandardowych rozwiązań.",
     "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "joinWaitlist": "Dołącz do listy oczekiwania",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Serwery Java i Bedrock z jednym kliknięciem loadera, wtyczki i pełną obsługą wersji.",
+      "tag": "Najpopularniejsze",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Wykuwanie i obsługa tkanin",
+        "1": "Zarządzanie wtyczkami",
+        "2": "Automatyczne kopie zapasowe",
+        "3": "Własne przesłanie JAR"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Idealne dla małych serwerów i testów"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "Płomienny",
+          "description": "Wielkie dla rozwijających się społeczności"
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "description": "Idealne dla średnich społeczności"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "storage": "{amount} GB przestrzeni dyskowej",
+        "databases": "10 baz danych MySQL",
+        "ddos": "Ochrona FyfeWeb DDoS",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "jars": "Auto/wstępnie zainstalowane słoje",
+        "uptime": "SLA z 99,6%"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "Obciążenia modyfikacji jednym kliknięciem",
+          "description": "Zainstaluj Forge, Fabric, Paper, Spigot i więcej jednym kliknięciem z naszego panelu sterowania.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Wykuwanie i obsługa tkanin",
+            "1": "Serwery papieru i Spigot",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Własne przesłanie JAR"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Sprzęt o wysokiej wydajności",
+          "description": "Procesory AMD Ryzen o klasie przedsiębiorczej z magazynem NVMe przeznaczone do mieszania z szybką wydajnością.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 CPU",
+            "1": "Pamięć NVMe SSD",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Prędkość zegara do 4,8 GHz"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "Ochrona DDoS",
+          "description": "Ładowanie DDoS klasy Enterprise zasilane przez FyfeWeb utrzymuje Twój serwer online nawet podczas ataków.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
+            "0": "Ochrona warstwy 3/4/7",
+            "1": "Filtrowanie sieci FyfeWeb",
+            "2": "Ograniczanie zerowego czasu przestoju",
             "3": "UK London POPs"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Natychmiastowe ustawienia",
+          "description": "Twój serwer jest rozmieszczony w ciągu sekund. Zacznij grać natychmiast po zakupie.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Automatyczne zaopatrywanie",
+            "1": "Wstępnie skonfigurowane ustawienia",
+            "2": "Gotowy za mniej niż 60 sekund",
+            "3": "Nie jest wymagana wiedza techniczna"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Pełny dostęp do FTP",
+          "description": "Pełny dostęp do plików poprzez FTP/SFTP. Ładuj światy, wtyczki i konfiguracje z łatwością.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "Dostęp do pliku SFTP",
+            "1": "Menedżer plików internetowych",
+            "2": "Przeciągnij i upuść",
+            "3": "Automatyczne kopie zapasowe"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Nielimitowane miejsca",
+          "description": "Brak limitów sztucznego gracza. Zorganizuj tyle graczy, ile twój sprzęt może obsłużyć.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Brak ograniczeń gniazda",
+            "1": "Skalowalne zasoby",
+            "2": "Aktualizuj w każdej chwili",
+            "3": "Sprawiedliwy przydział zasobów"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Jakie wersje Minecraft wspierasz?",
+          "answer": "Wspieramy wszystkie wersje Minecraft od 1.7.10 do najnowszej wersji, w tym zrzuty. Dostępne są zarówno serwery Java Edition, jak i Bedrock Edition."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Czy mogę zainstalować modyfikacje i wtyczki?",
+          "answer": "Tak! Wspieramy wszystkie główne ładunki modów, w tym Forge, Fabric, NeoForge. Dla wtyczek wspieramy papier, Spigot, Bukkit i Purpur. Możesz również przesłać własne JAR."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Jak mogę przesłać mój istniejący świat?",
+          "answer": "Możesz przesłać swoje pliki światowe za pośrednictwem naszego menedżera plików internetowych lub SFTP. Po prostu przeciągnij i upuść folder świata i będzie gotowy do użycia."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Czy istnieje limit gracza?",
+          "answer": "Nie, nie narzucamy sztucznych limitów gracza. Twój serwer może hostować tyle graczy ile twoich przydzielonych zasobów może obsłużyć."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Czy mogę później ulepszyć swój plan?",
+          "answer": "W porządku! Możesz ulepszyć lub obniżyć swój plan w dowolnym momencie z naszego panelu rozliczeniowego. Zmiany zaczynają obowiązywać natychmiast bez przestoju."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Czy oferujesz zwroty?",
+          "answer": "Tak, oferujemy 48-godzinny zwrot pieniędzy na wszystkie nowe zakupy. Jeśli nie jesteś zadowolony, skontaktuj się z pomocą techniczną, aby uzyskać pełny zwrot pieniędzy."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Wysoko wydajny hosting serwera Rust z obsługą Oxide/uMod i niestandardowymi opcjami mapy.",
+      "tag": "Wysoka wydajność",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Wsparcie Oxide/uMod",
+        "1": "Niestandardowe mapy",
+        "2": "Wyczyść harmonogram",
+        "3": "Dostęp do RCON"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Rozpocznij",
+          "description": "Zalecane dla 40 graczy"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "Standardowy",
+          "description": "Zalecane dla 75 graczy"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Efektywność",
+          "description": "Zalecane dla 100 graczy"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
+        "storage": "{amount}GB przestrzeni SSD",
+        "ddos": "Ochrona FyfeWeb DDoS",
+        "location": "Newcastle, Zjednoczone Królestwo",
+        "databases": "10 baz danych MySQL",
         "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "oxide": "Obsługiwane utlenianie/modyfikacje",
+        "rustplus": "Rust+ obsługiwany",
+        "uptime": "SLA z 99,6%"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Wsparcie Oxide/uMod",
+          "description": "Pełne wsparcie dla wtyczek Oxide i uMod. Zainstaluj wtyczki i zarządzaj nimi bezpośrednio z naszego panelu sterowania.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Instalacja tlenku jednym kliknięciem",
+            "1": "Menedżer wtyczek",
+            "2": "Dostępne auto-aktualizacje",
+            "3": "Zarządzanie uprawnieniami"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Własne mapy",
+          "description": "Użyj wygenerowanych proceduralnie map lub prześlij własne niestandardowe mapy. Pełna obsługa dostosowywania mapy.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "pokolenie proceduralne",
+            "1": "Własne przesyłanie map",
+            "2": "Kontrola rozmiaru mapy",
+            "3": "Dostosowywanie seedów"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Wysoka wydajność",
+          "description": "Rust wymaga potężnego sprzętu. Nasze serwery używają najnowszych procesorów AMD Ryzen i pamięci NVMe.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 CPU",
+            "1": "Pamięć NVMe SSD",
+            "2": "Wysoka wydajność pojedynczego wątku",
+            "3": "Tworzenie sieci o niskim opóźnieniu"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "Ochrona DDoS",
+          "description": "Łagodzenie DDoS klasy firmy FyfeWeb, poprzez brytyjskie OPP chroni Twój serwer przed atakami 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
+            "0": "Filtrowanie sieci FyfeWeb",
             "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "2": "Ochrona warstwy 3/4/7",
+            "3": "Zero czasu przestoju"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Wyczyść harmonogram",
+          "description": "Automatyczne planowanie wyczyszczenia, aby serwer był świeży. Skonfiguruj wycieraczki co tydzień, dwa tygodnie lub co miesiąc.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Automatyczne wycieraczki",
+            "1": "Opcje wycierania schematu",
+            "2": "Harmonogram wycierania mapy",
+            "3": "Powiadomienia Discorda"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Pełny dostęp do RCON",
+          "description": "Kompletny dostęp do zdalnej konsoli dla zarządzania serwerem. Wykonaj polecenia z dowolnego miejsca.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "RCON oparty na Internecie",
+            "1": "Harmonogram poleceń",
+            "2": "Zarządzanie odtwarzaczami",
+            "3": "Logi w czasie rzeczywistym"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Czy wspierasz wtyczki Oxide/uMod?",
+          "answer": "Tak! W pełni wspieramy Tlenek i uMod. Możesz zainstalować Oxide jednym kliknięciem z naszego panelu sterowania i zarządzać wtyczkami za pośrednictwem naszego menedżera wtyczek lub FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Czy mogę używać niestandardowych map?",
+          "answer": "Absolutnie! Możesz użyć wygenerowanych proceduralnie map z niestandardowymi seedami i rozmiarami lub przesłać własne niestandardowe pliki mapy za pomocą FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Jak działa harmonogram wycierania?",
+          "answer": "Nasz harmonogram wycieraczek pozwala Ci zautomatyzować wycieranie serwera w wybranym przez Ciebie harmonogramie. Możesz skonfigurować wyskakujące tylko mapę lub pełne wyskakujące schematy i opcjonalnie wysyłać powiadomienia Discorda."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Jaki jest wskaźnik ticków serwera?",
+          "answer": "Nasze serwery Rust działają domyślnie 30 tick. Nasz sprzęt o wysokiej wydajności zapewnia spójność wydajności nawet z wieloma graczami online."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Czy mogę uzyskać dostęp do RCON?",
+          "answer": "Tak, otrzymujesz pełny dostęp do RCON. Możesz korzystać z naszej internetowej konsoli RCON lub łączyć się z dowolnym standardowym klientem RCON."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Czy obsługujesz serwery moderowane?",
+          "answer": "Tak, wspieramy zarówno serwery vanilla jak i moderowane Rust (moded). Zainstaluj Oxide i dodaj wszelkie wtyczki potrzebne do stworzenia idealnego modelu."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Serwer Hytale już wkrótce! Dołącz do naszego Discorda, aby uzyskać szybki dostęp i aktualizacje.",
+      "tag": "W rozwoju",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Obsługa modyfikacji",
+        "1": "Niestandardowe mapy",
+        "2": "Łatwa konfiguracja",
+        "3": "Wsparcie 24/7"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
+      "badge": "Funkcje",
+      "title": "Dlaczego warto wybrać nasze",
       "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "description": "Infrastruktura przedsiębiorstwa dostosowana specjalnie do serwerów {game}."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "Cennik",
+      "title": "Plany serwera",
+      "description": "Elastyczne plany dostosowane do Twoich potrzeb. Wszystkie plany obejmują ochronę DDoS, natychmiastową konfigurację i wsparcie 24/7.",
+      "comingSoon": "Cennik wkrótce",
+      "comingSoonDesc": "Pracujemy nad zapewnieniem Ci najlepszego doświadczenia z hostingiem {game} . Dołącz do naszego Discorda, aby otrzymywać powiadomienia o uruchomieniu!",
+      "joinDiscord": "Dołącz do Discorda",
+      "mostPopular": "Najpopularniejsze",
+      "getStarted": "Zacznij",
+      "viewAllPlans": "Zobacz wszystkie plany",
+      "customSolution": "Potrzebujesz niestandardowego rozwiązania lub masz pytania?",
+      "contactUs": "Skontaktuj się z nami"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "badge": "Często zadawane pytania",
+      "title": "Pytania",
+      "description": "Często zadawane pytania dotyczące naszej usługi hostingowej {game}.",
+      "stillHaveQuestions": "Nadal masz pytania?",
+      "supportAvailable": "Nasz zespół pomocy technicznej jest dostępny 24 godziny na dobę, 7 dni w tygodniu, aby pomóc Ci w zadaniu pytań.",
+      "askOnDiscord": "Zapytaj na Discordzie",
+      "contactSupport": "Skontaktuj się z pomocą techniczną"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Dołącz do listy oczekiwania",
+      "viewPlans": "Zobacz plany",
+      "learnMore": "Poznaj więcej",
+      "comingSoon": "Wkrótce",
+      "joinDiscordForUpdates": "Dołącz do naszego Discorda w celu aktualizacji"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "Dotknij",
+    "title": "Kontakt",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "Jesteśmy tutaj, aby pomóc całodobowo 7. Skorzystaj z dowolnego z naszych kanałów wsparcia, a my wrócimy do Ciebie jak najszybciej.",
+    "supportChannels": "Kanały wsparcia",
+    "copied": "Skopiowano!",
+    "copiedDesc": "Adres e-mail skopiowany do schowka",
+    "copyFailed": "Kopiowanie nie powiodło się",
+    "copyFailedDesc": "Nie udało się skopiować do schowka",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Społeczność Discorda",
+      "description": "Dołącz do naszej społeczności dla natychmiastowego wsparcia, ogłoszeń i czatu z innymi użytkownikami.",
+      "button": "Dołącz do Discorda",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Natychmiastowe odpowiedzi",
+        "1": "Pomoc społeczności",
+        "2": "Ogłoszenia"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Zgłoś błędy, sugeruj funkcje i przyczyniaj się do naszych projektów open source.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Raporty o błędach",
+        "1": "Prośby o funkcje",
+        "2": "Otwarte źródło"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Bilet Wsparcia",
+      "description": "Prześlij zgłoszenie za pośrednictwem naszego panelu rozliczeniowego w przypadku problemów związanych z kontem.",
+      "button": "Otwórz zgłoszenie"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "Wsparcie e-mail",
+      "title": "Preferuj wiadomość? Mamy cię obdarzoną",
+      "responseTime": "Czas reakcji: zazwyczaj w ciągu 24 godzin",
+      "departments": "E-maile departamentu",
+      "technical": "Wsparcie techniczne",
+      "technicalDesc": "Problemy z serwerem i pomoc techniczna",
+      "general": "Ogólne wsparcie",
+      "generalDesc": "Pytania ogólne i pomoc",
+      "account": "Problemy z kontem",
+      "accountDesc": "Problemy z logowaniem i kontem",
+      "billing": "Zapytania do fakturowania",
+      "billingDesc": "Płatności i faktury"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Obserwuj nas",
+      "description": "Bądź na bieżąco z aktualnościami, wskazówkami i aktualizacjami społeczności"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Ważna informacja",
+      "description": "Nie obsługujemy obsługi rozliczeniowej ani obsługi klienta za pośrednictwem Discorda. Dla ochrony prywatności i bezpieczeństwa skontaktuj się z nami pod adresem support@nodebyte.host, aby uzyskać dostęp do wrażliwych spraw."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Szybkie, niezawodne, skalowalne i bezpieczne usługi hostingowe dla Twojego doświadczenia w grze. Zbudowane dla ludzi. Wspierane przez Bajty.",
+    "getInTouch": "Dotknij",
+    "emailUs": "Wyślij do nas",
+    "support": "Wsparcie",
+    "contactTeam": "Skontaktuj się z naszym zespołem",
+    "quickLinks": "Szybkie linki",
+    "legal": "Prawne",
+    "status": "Wszystkie systemy operacyjne",
+    "copyright": "Wszystkie prawa zastrzeżone.",
+    "builtWith": "Zbudowane z",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Wszystkie systemy operacyjne",
+      "degraded": "pogorszona wydajność",
+      "maintenance": "W trakcie konserwacji"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "minecraftHosting": "Hosting Minecraft",
+      "rustHosting": "Hosting Rust",
+      "gamePanel": "Panel gry",
+      "clientArea": "Obszar klienta"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "Serwer Discorda",
+      "serviceStatus": "Status usługi",
+      "knowledgeBase": "Baza wiedzy",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Regulamin",
+      "privacy": "Polityka prywatności",
+      "refund": "Polityka zwrotu",
+      "legalHub": "Centrum prawne"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "O NodeByte",
+      "contact": "Skontaktuj się z nami",
+      "companyInfo": "Informacje o firmie",
+      "changes": "Lista zmian"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "recenzje",
+      "readReviews": "Przeczytaj nasze opinie"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Ładowanie...",
+    "error": "Coś poszło nie tak",
+    "retry": "Spróbuj ponownie",
+    "learnMore": "Poznaj więcej",
+    "getStarted": "Zacznij",
+    "comingSoon": "Wkrótce"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "Co nowego",
+    "title": "Lista zmian",
+    "titleHighlight": "& Aktualizacje",
+    "description": "Bądź na bieżąco z najnowszymi wersjami, funkcjami i ulepszeniami we wszystkich projektach NodeByte.",
+    "searchPlaceholder": "Szukaj wydań...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Wszystkie repozytoria",
+      "allTypes": "Wszystkie typy",
+      "feature": "Funkcja",
+      "bugfix": "Napraw błąd",
+      "improvement": "Ulepszenie",
+      "breaking": "Zmiana łamania",
+      "security": "Bezpieczeństwo"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Zobacz na GitHub",
+      "publishedOn": "Opublikowane dnia",
+      "by": "przez",
+      "assets": "Aktywa",
+      "downloadAsset": "Pobierz",
+      "noAssets": "Brak dostępnych zasobów",
+      "preRelease": "Wydanie wstępne",
+      "latest": "Najnowsze",
+      "draft": "Szkic"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Nie znaleziono wydań",
+      "description": "Spróbuj dostosować wyszukiwanie lub filtry, aby znaleźć to, czego szukasz.",
+      "clearFilters": "Wyczyść filtry"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "Ładowanie wydań...",
+      "description": "Pobieranie najnowszych aktualizacji z naszych repozytoriów."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Nie udało się załadować wydań",
+      "description": "Wystąpił błąd podczas pobierania wydań. Spróbuj ponownie później.",
+      "retry": "Spróbuj ponownie"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Wszystkich wydań",
+      "repositories": "Repozytoria",
+      "latestUpdate": "Najnowsza aktualizacja"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Zobacz wszystkie wydania",
+    "showMore": "Pokaż więcej",
+    "showLess": "Pokaż mniej",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "Poprzedni",
+      "next": "Następny",
+      "page": "Strona",
+      "of": "z"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Kopiuj link",
+    "linkCopied": "Link skopiowany!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "Baza wiedzy",
+    "description": "Znajdź odpowiedź, samouczki i poradniki, aby pomóc Ci w jak największym wykorzystaniu swojego doświadczenia z NodeByte.",
+    "searchPlaceholder": "Szukaj bazy wiedzy...",
+    "browseByCategory": "Przeglądaj według kategorii",
+    "recentlyUpdated": "Ostatnio zaktualizowane",
+    "articles": "artykuły",
+    "minRead": "min. odczyt",
+    "updated": "Zaktualizowano",
+    "onThisPage": "Na tej stronie",
+    "backTo": "Wróć do",
+    "previous": "Poprzedni",
+    "next": "Następny",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Nie znaleziono wyników",
+      "description": "Wypróbuj różne słowa kluczowe lub przeglądaj kategorie",
+      "forQuery": "Nie znaleziono wyników dla"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Brak artykułów",
+      "description": "Ta kategoria nie ma jeszcze żadnych artykułów. Sprawdź ponownie wkrótce!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Nadal potrzebujesz pomocy?",
+      "description": "Nie możesz znaleźć tego, czego szukasz? Jesteśmy tutaj, aby pomóc.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Społeczność Discorda",
+        "description": "Dołącz do naszego Discorda, aby uzyskać pomoc na żywo i pomoc społeczności.",
+        "button": "Dołącz do Discorda"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Bilet Wsparcia",
+        "description": "Otwórz bilet pomocy technicznej dla problemów z kontem lub rozliczeniem.",
+        "button": "Otwórz zgłoszenie"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "Często zadawane pytania",
+        "description": "Sprawdź nasze często zadawane pytania, aby uzyskać szybkie odpowiedzi.",
+        "button": "Zobacz FAQ"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Przeszukaj bazę wiedzy",
+      "button": "Szukaj"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
+    "toggle": "Otwórz menu motywu",
+    "appearance": "Wygląd",
+    "light": "Światło",
+    "dark": "Ciemny",
     "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
+    "coolTones": "Fajne Tony",
+    "warmTones": "Ciepłe Tony",
+    "nature": "Rodzaj",
+    "slate": "Łupek",
+    "midnight": "Północ",
     "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "forest": "Las",
+    "sunset": "Słońce",
+    "rose": "Róża dzika",
+    "amber": "Bursztyn",
+    "emerald": "Szmaragd",
+    "teal": "Turkusowy",
+    "sky": "Niebo",
+    "violet": "Fiolet"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "Hosting serwera gry",
+    "description": "Wysoko wydajny hosting serwera gier z natychmiastową konfiguracją, potężnym panelem sterowania i obsługą ekspertów 24/7.",
+    "startingAt": "Począwszy od"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
-    "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "loading": "Ładowanie",
+    "pagination": "stronicowanie",
+    "previous": "Poprzedni",
+    "next": "Następny",
+    "morePages": "Więcej stron",
+    "previousSlide": "Poprzedni slajd",
+    "nextSlide": "Następny slajd",
+    "breadcrumb": "bromek bromek",
+    "more": "Więcej",
+    "toggleSidebar": "Przełącz pasek boczny",
+    "goToSlide": "Przejdź do slajdu"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "O NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Zbudowane przez graczy",
+      "titleHighlight": "dla graczy",
+      "description": "NodeByte zaczął być małą grupą graczy, którzy chcieli hostingu, który był szybki, niezawodny i łatwy w zarządzaniu. Dziś zasilamy serwery gier na całym świecie.",
+      "joinCommunity": "Dołącz do naszej społeczności",
+      "contactUs": "Skontaktuj się z nami"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Nasza Opowieść",
+      "title": "Jak to wszystko zaczęło się",
+      "paragraph1": "NodeByte urodziły się z frustracji. Jako sami luźni gracze doświadczyliśmy silnego bólu opóźnień serwerów, niereagowania i złożonych paneli sterowania, które sprawiły, że zarządzanie serwerem stało się koszmarem.",
+      "paragraph2": "W 2024 roku podjęliśmy decyzję wystarczająco dużo. Zainstalowaliśmy zespół pasjonatów i doświadczonych inżynierów kupujących w jednym celu: stwórz platformę hostingu gry, którą zawsze chcieliśmy, istniało.",
+      "paragraph3": "Dziś NodeByte potęgują serwery gier na całym świecie. Nasze zadania pozostają jednak takie same: spraw, aby serwer gier był szybki, niezawodny i dostępny dla wszystkich."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Nasze wartości",
+      "title": "Co my",
+      "titleHighlight": "Staw na",
+      "description": "Nasze podstawowe wartości kierują się wszystkim, co robimy, od decyzji dotyczących infrastruktury po wsparcie klientów.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Zbudowane dla Graczy",
+        "description": "Nasza infrastruktura priorytetuje przekierowywanie opóźnień, przewidywalną wydajność i silny czas pracy, tak aby twoje społeczności pozostały online i reagowały."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Wsparcie Społeczności i Moda",
+        "description": "Bezproblemowe instalowanie modów, wsparcie dla migawek i narzędzia społecznościowe, aby pomóc Ci w obsłudze zmodyfikowanych światów i trwałych serwerów przy minimalnym wysiłku."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Otwórz przez projekt",
+        "description": "Doceniamy przejrzystość od jasnych zobowiązań SLA do otwarcia narzędzi. Nasza platforma zapewnia API i integracje do zautomatyzowania przepływu pracy serwera."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "SLA czasu pracy",
+      "latency": "Śr. opóźnienie",
+      "support": "Wsparcie",
+      "servers": "Aktywne serwery"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "Nasza podróż",
+      "title": "Krótki",
+      "titleHighlight": "Historia",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "Znaleziono węzeł",
+        "description": "Zaczęty jako mały projekt graczy, którzy chcieli lepszych opcji hostingu dla swoich społeczności."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Szybki wzrost",
+        "description": "Rozszerzona infrastruktura dzięki partnerstwu FyfeWeb, dodając przedsiębiorstwom ochronę DDoS i brytyjskie centra danych."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Rozszerzenie globalne",
+        "description": "Uruchomiono nowe usługi, wzmocniono panel kontroli i nadal rozwijano naszą globalną społeczność."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "Nasz zespół",
+      "title": "Poznaj",
+      "titleHighlight": "Drużyna",
+      "description": "Pasjonują ludzi stojących za NodeByte, którzy niestrudzenie pracują w celu zapewnienia najlepszego doświadczenia z hostingiem.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Założyciel i wiodący programista"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Deweloperzy i entuzjastzy do gry w pełni zdolni budować infrastrukturę wspomagającą NodeByte."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Gotowy do rozpoczęcia?",
+      "description": "Dołącz do tysięcy społeczności grających, które ufają NodeByte w związku ze swoimi potrzebami hostingu serwera.",
+      "getStarted": "Zobacz serwery gier",
+      "joinDiscord": "Dołącz do Discorda"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Strona nie znaleziona",
+    "description": "Strona, której szukasz, nie istnieje lub została przeniesiona. Wróćmy na ścieżkę.",
+    "goHome": "Przejdź do strony głównej",
+    "goBack": "Powrót",
+    "quickLinks": "Szybkie linki",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "Strona główna",
+      "games": "Gry",
+      "kb": "Baza wiedzy",
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Coś wymagało złego",
+    "description": "Napotkaliśmy nieoczekiwany błąd. Nie martw się, nasz zespół został powiadomiony i pracuje nad nim.",
+    "errorCode": "Kod błędu",
+    "tryAgain": "Spróbuj ponownie",
+    "goHome": "Przejdź do strony głównej",
+    "needHelp": "Potrzebujesz pomocy?",
+    "helpDescription": "Jeśli ten błąd będzie się powtarzał, skontaktuj się z naszym zespołem pomocy technicznej.",
+    "joinDiscord": "Dołącz do Discorda",
+    "contactSupport": "Skontaktuj się z pomocą techniczną"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "Zaloguj się",
+      "description": "Zaloguj się na swoje konto NodeByte, aby kontynuować.",
+      "emailLabel": "Adres e-mail",
+      "emailPlaceholder": "Ciebie@przyklad.com",
+      "passwordLabel": "Hasło",
+      "passwordPlaceholder": "Wprowadź hasło",
+      "loginButton": "Zaloguj się",
+      "loggingIn": "Logowanie...",
+      "forgotPassword": "Zapomniałeś hasła?",
+      "noAccount": "Nie masz konta?",
+      "createAccount": "Utwórz jeden",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "Nieprawidłowy adres e-mail lub hasło. Spróbuj ponownie.",
+        "networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
+        "generic": "Wystąpił błąd podczas logowania. Spróbuj ponownie."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "Utwórz konto",
+      "description": "Zarejestruj się, aby uzyskać dostęp do serwerów i usług gry.",
+      "emailLabel": "Adres e-mail",
+      "emailPlaceholder": "Ciebie@przyklad.com",
+      "passwordLabel": "Hasło",
+      "passwordPlaceholder": "Utwórz hasło",
+      "confirmPasswordLabel": "Potwierdź hasło",
+      "confirmPasswordPlaceholder": "Potwierdź swoje hasło",
+      "registerButton": "Utwórz konto",
+      "registering": "Tworzenie konta...",
+      "alreadyHaveAccount": "Masz już konto?",
+      "signIn": "Zaloguj się",
+      "panelAccountRequired": "Wymagane konto starego panelu",
+      "panelAccountRequiredDescription": "Pracując nad migracją z naszych starych systemów, musisz mieć istniejące konto w naszym panelu gry, aby się zarejestrować. Konta panelu są tworzone podczas zakupu usługi przez nasz system rozliczeniowy.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "Konto o podanym adresie e-mail już istnieje.",
+        "notInPanel": "Nie znaleziono konta w grze z tym adresem e-mail. Proszę najpierw kupić usługę, aby utworzyć konto panelu.",
+        "panelAccountLinked": "To konto panelu jest już połączone z innym kontem NodeByte.",
+        "passwordsDontMatch": "Hasła nie są identyczne.",
+        "passwordTooShort": "Hasło musi mieć co najmniej 8 znaków.",
+        "invalidEmail": "Wprowadź poprawny adres e-mail.",
+        "networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
+        "generic": "Wystąpił błąd podczas rejestracji. Spróbuj ponownie."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Konto utworzone!",
+        "description": "Twoje konto zostało utworzone pomyślnie. Teraz możesz się zalogować."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Błąd uwierzytelniania",
+      "description": "Wystąpił problem podczas logowania.",
+      "configuration": "Istnieje błąd konfiguracji z systemem uwierzytelniania.",
+      "accessDenied": "Nie masz uprawnień dostępu do tego zasobu.",
+      "verification": "Link logowania jest już nieważny.",
+      "default": "Podczas logowania wystąpił nieoczekiwany błąd.",
+      "credentialsSignin": "Nieprawidłowe dane logowania. Sprawdź swój adres e-mail i hasło.",
+      "tryAgain": "Spróbuj ponownie",
+      "goHome": "Przejdź do strony głównej"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "Moje konto",
+      "viewPanel": "Zobacz panel",
+      "admin": "Administrator",
+      "logout": "Wyloguj się",
+      "signIn": "Zaloguj się",
+      "loggingOut": "Wylogowywanie..."
+    }
+  },
+  "admin": {
+    "title": "Panel administracyjny",
+    "nav": {
+      "dashboard": "Pulpit",
+      "users": "Użytkownicy",
+      "servers": "Serwery",
+      "sync": "Synchronizacja",
+      "settings": "Ustawienia",
+      "backToSite": "Back to Site"
+    },
+    "status": {
+      "online": "System online"
+    },
+    "dashboard": {
+      "title": "Pulpit",
+      "description": "Przegląd danych panelu Pterodactyl i stan synchronizacji."
+    },
+    "stats": {
+      "users": "Wszystkich użytkowników",
+      "migratedCount": "{count} zmigrował",
+      "servers": "Serwery",
+      "nodes": "Nodes",
+      "locations": "Lokalizacje",
+      "allocations": "Przydziały",
+      "nests": "Gniazda",
+      "eggs": "Jaja",
+      "eggVariables": "Zmienne jaja",
+      "databases": "Bazy danych"
+    },
+    "sync": {
+      "status": "Status synchronizacji",
+      "lastSync": "Ostatnia synchronizacja",
+      "never": "Nigdy",
+      "idle": "Bezczynny",
+      "syncing": "Synchronizacja...",
+      "inProgress": "Synchronizacja w toku",
+      "syncingTarget": "Synchronizuję dane {target} z panelu...",
+      "complete": "complete",
+      "runFull": "Uruchom pełną synchronizację",
+      "success": "Synchronizacja zakończona",
+      "completed": "Pomyślnie zsynchronizowano dane {target}.",
+      "error": "Synchronizacja nie powiodła się",
+      "quickActions": "Akcje szybkiej synchronizacji",
+      "quickActionsDescription": "Synchronizuj poszczególne typy danych z panelu Pterodaktylu.",
+      "targets": {
+        "locations": "Lokalizacje",
+        "nodes": "Nodes",
+        "allocations": "Przydziały",
+        "nests": "Gniazda i Jajka",
+        "servers": "Serwery",
+        "databases": "Bazy danych",
+        "users": "Użytkownicy"
+      }
+    },
+    "actions": {
+      "refresh": "Odśwież"
+    },
+    "error": {
+      "title": "Błąd",
+      "unauthorized": "Nie masz uprawnień do dostępu do tej strony.",
+      "forbidden": "Wymagany dostęp administratora."
     }
   }
 }
