@@ -964,7 +964,7 @@
       "servers": "Palvelimet",
       "sync": "Synkronointi",
       "settings": "Asetukset",
-      "backToSite": "Back to Site"
+      "backToSite": "Takaisin sivustolle"
     },
     "status": {
       "online": "Järjestelmä Verkossa"
@@ -1008,6 +1008,182 @@
         "servers": "Palvelimet",
         "databases": "Tietokannat",
         "users": "Käyttäjät"
+      }
+    },
+    "users": {
+      "title": "Käyttäjät",
+      "description": "Hallitse käyttäjätilejä ja käyttöoikeuksia.",
+      "stats": {
+        "total": "Käyttäjiä Yhteensä",
+        "migrated": "Siirretty",
+        "admins": "Ylläpitäjät",
+        "active": "Aktiivinen"
+      },
+      "filters": {
+        "title": "Suodattimet",
+        "searchPlaceholder": "Etsi nimellä tai sähköpostilla...",
+        "all": "Kaikki Käyttäjät",
+        "active": "Aktiivinen",
+        "inactive": "Passiivinen",
+        "admin": "Ylläpitäjät",
+        "migrated": "Siirretty",
+        "notMigrated": "Ei Siirretty"
+      },
+      "table": {
+        "user": "Käyttäjä",
+        "email": "Sähköposti",
+        "status": "Tila",
+        "pterodactyl": "Paneelin Tunnus",
+        "created": "Luotu",
+        "lastLogin": "Viimeisin Kirjautuminen"
+      },
+      "badges": {
+        "active": "Aktiivinen",
+        "inactive": "Passiivinen",
+        "admin": "Ylläpitäjä",
+        "migrated": "Siirretty"
+      },
+      "empty": {
+        "title": "Käyttäjiä ei löytynyt",
+        "searchHint": "Yritä muuttaa hakua tai suodattimia."
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total} users",
+        "previous": "Edellinen",
+        "next": "Seuraava"
+      }
+    },
+    "servers": {
+      "title": "Palvelimet",
+      "description": "Tarkastele ja hallitse kaikkia pelipalvelimia.",
+      "stats": {
+        "total": "Palvelimet Yhteensä",
+        "running": "Käynnissä",
+        "offline": "Offline-tilassa",
+        "suspended": "Keskeytetty"
+      },
+      "filters": {
+        "title": "Suodattimet",
+        "searchPlaceholder": "Etsi nimellä tai UUID:llä...",
+        "all": "Kaikki Palvelimet",
+        "running": "Käynnissä",
+        "offline": "Offline-tilassa",
+        "suspended": "Keskeytetty",
+        "installing": "Asennetaan"
+      },
+      "table": {
+        "server": "Palvelin",
+        "status": "Tila",
+        "owner": "Omistaja",
+        "resources": "Resurssit",
+        "node": "Solmu",
+        "created": "Luotu"
+      },
+      "status": {
+        "running": "Käynnissä",
+        "offline": "Offline-tilassa",
+        "starting": "Aloitetaan",
+        "stopping": "Pysäytetään",
+        "installing": "Asennetaan",
+        "install_failed": "Epäonnistui",
+        "suspended": "Keskeytetty",
+        "restoring_backup": "Palautetaan"
+      },
+      "resources": {
+        "memory": "Muisti",
+        "disk": "Levy",
+        "cpu": "Suoritin"
+      },
+      "empty": {
+        "title": "Palvelimia ei löytynyt",
+        "searchHint": "Yritä muuttaa hakua tai suodattimia."
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total} servers",
+        "previous": "Edellinen",
+        "next": "Seuraava"
+      }
+    },
+    "settings": {
+      "title": "Asetukset",
+      "description": "Määritä järjestelmän asetukset ja yhteydet.",
+      "wip": {
+        "title": "Käynnissä oleva työ",
+        "description": "Tämä asetussivu on kehitteillä. Tällä hetkellä vain yhteyden testaus on toiminnallista. Muut ominaisuudet otetaan käyttöön tulevassa päivityksessä."
+      },
+      "save": "Tallenna Muutokset",
+      "saved": "Asetukset Tallennettu",
+      "savedDesc": "Asetukset on tallennettu onnistuneesti.",
+      "saveError": "Asetusten tallennus epäonnistui. Yritä uudelleen.",
+      "copyFailed": "Kopiointi leikepöydälle epäonnistui",
+      "tabs": {
+        "connections": "Yhteydet",
+        "features": "Ominaisuudet",
+        "notifications": "Ilmoitukset",
+        "advanced": "Lisäasetukset"
+      },
+      "status": {
+        "connected": "Yhdistetty",
+        "disconnected": "Yhteys Katkaistu"
+      },
+      "connection": {
+        "success": "Yhteys Onnistui",
+        "successDesc": "Onnistuneesti yhdistetty {type}.",
+        "failed": "Yhteys Epäonnistui",
+        "error": "Yhteyden testaaminen epäonnistui."
+      },
+      "testConnection": "Testaa Yhteys",
+      "pterodactyl": {
+        "title": "Pterodaktyylipaneeli",
+        "description": "Määritä yhteys Pterodactyl paneeliisi.",
+        "url": "Paneelin URL",
+        "apiKey": "Api Avain",
+        "apiKeyNote": "API-avain on tallennettu ympäristön muuttujaksi.",
+        "version": "Paneelin Versio"
+      },
+      "database": {
+        "title": "Tietokanta",
+        "description": "Tietokantayhteyden määritys.",
+        "provider": "Tarjoaja",
+        "connectionString": "Yhteyden Merkkijono",
+        "connectionStringNote": "Tietokannan URL on tallennettu ympäristömuuttujaksi."
+      },
+      "features": {
+        "title": "Ominaisuuksien Vaihto",
+        "description": "Ota käyttöön tai poista käytöstä järjestelmäominaisuudet.",
+        "registration": "Käyttäjän Rekisteröinti",
+        "registrationDesc": "Salli uusien käyttäjien rekisteröityä tilejä.",
+        "maintenance": "Ylläpitotila",
+        "maintenanceDesc": "Ota huoltotila käyttöön estääksesi pääsyn sivustolle.",
+        "autoSync": "Automaattinen Synkronointi",
+        "autoSyncDesc": "Synkronoi tiedot automaattisesti paneelista säännöllisesti."
+      },
+      "notifications": {
+        "title": "Ilmoitukset",
+        "description": "Määritä ilmoitusasetukset.",
+        "email": "Sähköpostin Ilmoitukset",
+        "emailDesc": "Lähetä sähköposti-ilmoitukset tärkeille tapahtumille.",
+        "discord": "Discord Ilmoitukset",
+        "discordDesc": "Lähetä ilmoituksia Discord-kanavalle.",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "Syötä Discordin verkkokoukun URL vastaanottaaksesi ilmoituksia."
+      },
+      "advanced": {
+        "title": "Edistyneet Asetukset",
+        "description": "Edistyneet asetusasetukset.",
+        "cacheTimeout": "Välimuistin Aikakatkaisu",
+        "cacheTimeoutDesc": "Kuinka kauan välimuisti API vastaa.",
+        "syncInterval": "Synkronoinnin Aikaväli",
+        "syncIntervalDesc": "Kuinka usein paneelin tietoja synkronoidaan automaattisesti.",
+        "seconds": "sekuntia",
+        "minute": "minuutti",
+        "minutes": "minuuttia",
+        "hour": "tunti",
+        "hours": "tuntia",
+        "dangerZone": "Vaara Vyöhyke",
+        "dangerZoneDesc": "Nämä toimet ovat peruuttamattomia. Jatka varovaisesti.",
+        "clearCache": "Tyhjennä Välimuisti",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
