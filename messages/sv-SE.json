@@ -964,7 +964,7 @@
       "servers": "Servrar",
       "sync": "Synk",
       "settings": "Inställningar",
-      "backToSite": "Back to Site"
+      "backToSite": "Tillbaka till sajten"
     },
     "status": {
       "online": "System online"
@@ -1008,6 +1008,182 @@
         "servers": "Servrar",
         "databases": "Databaser",
         "users": "Användare"
+      }
+    },
+    "users": {
+      "title": "Användare",
+      "description": "Hantera användarkonton och behörigheter.",
+      "stats": {
+        "total": "Totalt antal användare",
+        "migrated": "Migrerad",
+        "admins": "Administratörer",
+        "active": "Aktiv"
+      },
+      "filters": {
+        "title": "Filter",
+        "searchPlaceholder": "Sök på namn eller e-post...",
+        "all": "Alla användare",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "admin": "Administratörer",
+        "migrated": "Migrerad",
+        "notMigrated": "Inte migrerad"
+      },
+      "table": {
+        "user": "Användare",
+        "email": "E-post",
+        "status": "Status",
+        "pterodactyl": "Panelens ID",
+        "created": "Skapad",
+        "lastLogin": "Senaste inloggning"
+      },
+      "badges": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "admin": "Administratör",
+        "migrated": "Migrerad"
+      },
+      "empty": {
+        "title": "Inga användare hittades",
+        "searchHint": "Försök att justera din sökning eller filter."
+      },
+      "pagination": {
+        "showing": "Visar {from} till {to} av {total} användare",
+        "previous": "Föregående",
+        "next": "Nästa"
+      }
+    },
+    "servers": {
+      "title": "Servrar",
+      "description": "Visa och hantera alla spelservrar.",
+      "stats": {
+        "total": "Totalt antal servrar",
+        "running": "Körs",
+        "offline": "Offline",
+        "suspended": "Avstängd"
+      },
+      "filters": {
+        "title": "Filter",
+        "searchPlaceholder": "Sök på namn eller UUID...",
+        "all": "Alla servrar",
+        "running": "Körs",
+        "offline": "Offline",
+        "suspended": "Avstängd",
+        "installing": "Installerar"
+      },
+      "table": {
+        "server": "Server",
+        "status": "Status",
+        "owner": "Ägare",
+        "resources": "Resurser",
+        "node": "Nod",
+        "created": "Skapad"
+      },
+      "status": {
+        "running": "Körs",
+        "offline": "Offline",
+        "starting": "Startar",
+        "stopping": "Stoppar",
+        "installing": "Installerar",
+        "install_failed": "Misslyckades",
+        "suspended": "Avstängd",
+        "restoring_backup": "Återställer"
+      },
+      "resources": {
+        "memory": "Minne",
+        "disk": "Diskett",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "Inga servrar hittades",
+        "searchHint": "Försök att justera din sökning eller filter."
+      },
+      "pagination": {
+        "showing": "Visar {from} till {to} av {total} servrar",
+        "previous": "Föregående",
+        "next": "Nästa"
+      }
+    },
+    "settings": {
+      "title": "Inställningar",
+      "description": "Konfigurera systeminställningar och anslutningar.",
+      "wip": {
+        "title": "Arbetet pågår",
+        "description": "Denna inställningssida är under utveckling. För närvarande är endast anslutningstestning funktionell. Andra funktioner kommer att aktiveras i en framtida uppdatering."
+      },
+      "save": "Spara ändringar",
+      "saved": "Inställningar sparade",
+      "savedDesc": "Dina inställningar har sparats.",
+      "saveError": "Det gick inte att spara inställningarna. Försök igen.",
+      "copyFailed": "Det gick inte att kopiera till urklipp",
+      "tabs": {
+        "connections": "Anslutningar",
+        "features": "Funktioner",
+        "notifications": "Aviseringar",
+        "advanced": "Avancerat"
+      },
+      "status": {
+        "connected": "Ansluten",
+        "disconnected": "Frånkopplad"
+      },
+      "connection": {
+        "success": "Anslutningen lyckades",
+        "successDesc": "Ansluten till {type}",
+        "failed": "Anslutningen misslyckades",
+        "error": "Det gick inte att testa anslutningen."
+      },
+      "testConnection": "Testa anslutning",
+      "pterodactyl": {
+        "title": "Pterodactyl Panel",
+        "description": "Konfigurera anslutningen till din Pterodactyl-panel.",
+        "url": "Panelens URL",
+        "apiKey": "API nyckel",
+        "apiKeyNote": "API-nyckel lagras som en miljövariabel.",
+        "version": "Panelens version"
+      },
+      "database": {
+        "title": "Databas",
+        "description": "Anslutningskonfiguration för databaser.",
+        "provider": "Leverantör",
+        "connectionString": "Anslutning sträng",
+        "connectionStringNote": "Databasens URL lagras som en miljövariabel."
+      },
+      "features": {
+        "title": "Växlar funktion",
+        "description": "Aktivera eller inaktivera systemfunktioner.",
+        "registration": "Registrering av användare",
+        "registrationDesc": "Tillåt nya användare att registrera konton.",
+        "maintenance": "Underhållsläge",
+        "maintenanceDesc": "Aktivera underhållsläge för att blockera åtkomst till webbplatsen.",
+        "autoSync": "Automatisk synkronisering",
+        "autoSyncDesc": "Synkronisera data automatiskt från panelen regelbundet."
+      },
+      "notifications": {
+        "title": "Aviseringar",
+        "description": "Konfigurera aviseringsinställningar.",
+        "email": "E-post aviseringar",
+        "emailDesc": "Skicka e-postmeddelanden för viktiga händelser.",
+        "discord": "Discord-meddelanden",
+        "discordDesc": "Skicka notifieringar till en Discord-kanal.",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "Ange din Discords webhook URL för att ta emot meddelanden."
+      },
+      "advanced": {
+        "title": "Avancerade inställningar",
+        "description": "Avancerade konfigurationsalternativ",
+        "cacheTimeout": "Cache Timeout",
+        "cacheTimeoutDesc": "Hur länge man cachar API-svar.",
+        "syncInterval": "Synkronisera intervall",
+        "syncIntervalDesc": "Hur ofta att automatiskt synkronisera data från panelen.",
+        "seconds": "sekunder",
+        "minute": "minut",
+        "minutes": "minuter",
+        "hour": "timme",
+        "hours": "timmar",
+        "dangerZone": "Fara Zon",
+        "dangerZoneDesc": "Dessa åtgärder är oåterkalleliga. Fortsätt med försiktighet.",
+        "clearCache": "Rensa cache",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {

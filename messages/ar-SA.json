@@ -964,7 +964,7 @@
       "servers": "خوادم",
       "sync": "مزامنة",
       "settings": "الإعدادات",
-      "backToSite": "Back to Site"
+      "backToSite": "العودة إلى الموقع"
     },
     "status": {
       "online": "النظام على الانترنت"
@@ -1008,6 +1008,182 @@
         "servers": "خوادم",
         "databases": "قواعد البيانات",
         "users": "المستخدمون"
+      }
+    },
+    "users": {
+      "title": "المستخدمون",
+      "description": "إدارة حسابات المستخدم والأذونات.",
+      "stats": {
+        "total": "مجموع المستخدمين",
+        "migrated": "ترحيل",
+        "admins": "المشرفين",
+        "active": "نشط"
+      },
+      "filters": {
+        "title": "فلاتر",
+        "searchPlaceholder": "البحث عن طريق الاسم أو البريد الإلكتروني...",
+        "all": "جميع المستخدمين",
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "admin": "المشرفين",
+        "migrated": "ترحيل",
+        "notMigrated": "لم يتم الترحيل"
+      },
+      "table": {
+        "user": "المستخدم",
+        "email": "البريد الإلكتروني",
+        "status": "الحالة",
+        "pterodactyl": "معرف اللوحة",
+        "created": "أنشئ",
+        "lastLogin": "آخر تسجيل دخول"
+      },
+      "badges": {
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "admin": "المشرف",
+        "migrated": "ترحيل"
+      },
+      "empty": {
+        "title": "لم يتم العثور على مستخدمين",
+        "searchHint": "حاول تعديل البحث أو الفلاتر الخاصة بك."
+      },
+      "pagination": {
+        "showing": "عرض {from} إلى {to} من المستخدمين {total}",
+        "previous": "السابق",
+        "next": "التالي"
+      }
+    },
+    "servers": {
+      "title": "خوادم",
+      "description": "عرض وإدارة جميع خوادم اللعبة.",
+      "stats": {
+        "total": "مجموع الخوادم",
+        "running": "تشغيل",
+        "offline": "غير متصل",
+        "suspended": "معلق"
+      },
+      "filters": {
+        "title": "فلاتر",
+        "searchPlaceholder": "البحث بالاسم أو UUID...",
+        "all": "جميع الخوادم",
+        "running": "تشغيل",
+        "offline": "غير متصل",
+        "suspended": "معلق",
+        "installing": "تثبيت"
+      },
+      "table": {
+        "server": "خادم",
+        "status": "الحالة",
+        "owner": "المالك",
+        "resources": "الموارد",
+        "node": "عقدة",
+        "created": "أنشئ"
+      },
+      "status": {
+        "running": "تشغيل",
+        "offline": "غير متصل",
+        "starting": "البدء",
+        "stopping": "التوقف",
+        "installing": "تثبيت",
+        "install_failed": "فشل",
+        "suspended": "معلق",
+        "restoring_backup": "الاستعادة"
+      },
+      "resources": {
+        "memory": "الذاكرة",
+        "disk": "قرص",
+        "cpu": "المعالج"
+      },
+      "empty": {
+        "title": "لم يتم العثور على خوادم",
+        "searchHint": "حاول تعديل البحث أو الفلاتر الخاصة بك."
+      },
+      "pagination": {
+        "showing": "عرض {from} إلى {to} للخوادم {total}",
+        "previous": "السابق",
+        "next": "التالي"
+      }
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "description": "تهيئة إعدادات النظام واتصالاته.",
+      "wip": {
+        "title": "العمل الجاري",
+        "description": "صفحة الإعدادات هذه قيد التطوير. حالياً، اختبار الاتصال فقط وظيفي. سيتم تمكين ميزات أخرى في تحديث المستقبل."
+      },
+      "save": "حفظ التغييرات",
+      "saved": "تم حفظ الإعدادات",
+      "savedDesc": "تم حفظ الإعدادات الخاصة بك بنجاح.",
+      "saveError": "فشل في حفظ الإعدادات. الرجاء المحاولة مرة أخرى.",
+      "copyFailed": "فشل النسخ إلى الحافظة",
+      "tabs": {
+        "connections": "اتصالات",
+        "features": "الميزات",
+        "notifications": "الإشعارات",
+        "advanced": "متقدم"
+      },
+      "status": {
+        "connected": "متصل",
+        "disconnected": "قطع"
+      },
+      "connection": {
+        "success": "تم الاتصال بنجاح",
+        "successDesc": "تم الاتصال بـ {type} بنجاح.",
+        "failed": "فشل الاتصال",
+        "error": "فشل اختبار الاتصال."
+      },
+      "testConnection": "اختبار الاتصال",
+      "pterodactyl": {
+        "title": "لوحة Pterodactyl",
+        "description": "تكوين الاتصال بلوحة Pterodactyl الخاصة بك.",
+        "url": "رابط اللوحة",
+        "apiKey": "مفتاح API",
+        "apiKeyNote": "يتم تخزين مفتاح API كمتغير بيئي.",
+        "version": "إصدار اللوحة"
+      },
+      "database": {
+        "title": "قاعدة البيانات",
+        "description": "تكوين اتصال قاعدة البيانات.",
+        "provider": "موفر",
+        "connectionString": "سلسلة الاتصال",
+        "connectionStringNote": "يتم تخزين رابط قاعدة البيانات كمتغير بيئي."
+      },
+      "features": {
+        "title": "تبديل الميزة",
+        "description": "تمكين أو تعطيل ميزات النظام.",
+        "registration": "تسجيل المستخدم",
+        "registrationDesc": "السماح للمستخدمين الجدد بتسجيل الحسابات.",
+        "maintenance": "وضع الصيانة",
+        "maintenanceDesc": "تمكين وضع الصيانة لمنع الوصول إلى الموقع.",
+        "autoSync": "المزامنة التلقائية",
+        "autoSyncDesc": "مزامنة البيانات تلقائياً من اللوحة دورياً."
+      },
+      "notifications": {
+        "title": "الإشعارات",
+        "description": "تهيئة إعدادات الإشعار.",
+        "email": "إشعارات البريد الإلكتروني",
+        "emailDesc": "إرسال إشعارات البريد الإلكتروني للأحداث الهامة.",
+        "discord": "إشعارات ديسكورد",
+        "discordDesc": "إرسال إشعارات إلى قناة ديسكورد.",
+        "webhook": "رابط ديسكورد Webhook",
+        "webhookDesc": "أدخل عنوان ويب هوك ديسكورد لتلقي الإشعارات."
+      },
+      "advanced": {
+        "title": "الإعدادات المتقدمة",
+        "description": "خيارات التكوين المتقدمة.",
+        "cacheTimeout": "مهلة التخزين المؤقت",
+        "cacheTimeoutDesc": "كم من الوقت للتخزين المؤقت لاستجابات API.",
+        "syncInterval": "الفاصل الزمني للمزامنة",
+        "syncIntervalDesc": "كم عدد المرات للمزامنة التلقائية للبيانات من اللوحة.",
+        "seconds": "ثواني",
+        "minute": "دقيقة",
+        "minutes": "دقائق",
+        "hour": "ساعة",
+        "hours": "ساعات",
+        "dangerZone": "منطقة الخطر",
+        "dangerZoneDesc": "وهذه الإجراءات لا رجعة فيها ولا بد من المضي قدما بحذر.",
+        "clearCache": "مسح ذاكرة التخزين المؤقت",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {

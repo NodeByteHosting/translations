@@ -964,7 +964,7 @@
       "servers": "サーバー",
       "sync": "同期",
       "settings": "設定",
-      "backToSite": "Back to Site"
+      "backToSite": "サイトに戻る"
     },
     "status": {
       "online": "オンラインのシステム"
@@ -1008,6 +1008,182 @@
         "servers": "サーバー",
         "databases": "データベース",
         "users": "ユーザー"
+      }
+    },
+    "users": {
+      "title": "ユーザー",
+      "description": "ユーザーアカウントと権限の管理。",
+      "stats": {
+        "total": "合計ユーザー",
+        "migrated": "移行",
+        "admins": "管理者",
+        "active": "アクティブ"
+      },
+      "filters": {
+        "title": "フィルタ",
+        "searchPlaceholder": "名前またはメールアドレスで検索...",
+        "all": "すべてのユーザー",
+        "active": "アクティブ",
+        "inactive": "非アクティブ",
+        "admin": "管理者",
+        "migrated": "移行",
+        "notMigrated": "移行しない"
+      },
+      "table": {
+        "user": "ユーザー",
+        "email": "Eメールアドレス",
+        "status": "ステータス",
+        "pterodactyl": "部品ID",
+        "created": "作成済み",
+        "lastLogin": "最終ログイン"
+      },
+      "badges": {
+        "active": "アクティブ",
+        "inactive": "非アクティブ",
+        "admin": "管理者",
+        "migrated": "移行"
+      },
+      "empty": {
+        "title": "ユーザーが見つかりませんでした",
+        "searchHint": "検索またはフィルターを調整してください。"
+      },
+      "pagination": {
+        "showing": "{from} ユーザーの {to} に {total} を表示",
+        "previous": "前",
+        "next": "次へ"
+      }
+    },
+    "servers": {
+      "title": "サーバー",
+      "description": "すべてのゲームサーバーを表示および管理します。",
+      "stats": {
+        "total": "合計サーバー",
+        "running": "実行中",
+        "offline": "オフライン",
+        "suspended": "保留中"
+      },
+      "filters": {
+        "title": "フィルタ",
+        "searchPlaceholder": "名前またはUUIDで検索",
+        "all": "すべてのサーバー",
+        "running": "実行中",
+        "offline": "オフライン",
+        "suspended": "保留中",
+        "installing": "インストール中"
+      },
+      "table": {
+        "server": "サーバー",
+        "status": "ステータス",
+        "owner": "所有者",
+        "resources": "リソース",
+        "node": "ノード",
+        "created": "作成済み"
+      },
+      "status": {
+        "running": "実行中",
+        "offline": "オフライン",
+        "starting": "開始",
+        "stopping": "停止中",
+        "installing": "インストール中",
+        "install_failed": "失敗しました",
+        "suspended": "保留中",
+        "restoring_backup": "復元中"
+      },
+      "resources": {
+        "memory": "メモリ",
+        "disk": "ディスク",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "サーバーが見つかりません",
+        "searchHint": "検索またはフィルターを調整してください。"
+      },
+      "pagination": {
+        "showing": "{from} を {to} サーバーの {total} に表示",
+        "previous": "前",
+        "next": "次へ"
+      }
+    },
+    "settings": {
+      "title": "設定",
+      "description": "システム設定と接続を構成します。",
+      "wip": {
+        "title": "作業中",
+        "description": "この設定ページは開発中です。現在、接続テストのみが機能しています。今後のアップデートで他の機能が有効になります。"
+      },
+      "save": "変更を保存",
+      "saved": "設定を保存しました",
+      "savedDesc": "設定が正常に保存されました。",
+      "saveError": "設定の保存に失敗しました。もう一度やり直してください。",
+      "copyFailed": "クリップボードにコピーできませんでした",
+      "tabs": {
+        "connections": "コネクション",
+        "features": "特徴",
+        "notifications": "通知",
+        "advanced": "高度な設定"
+      },
+      "status": {
+        "connected": "接続しました",
+        "disconnected": "切断されました"
+      },
+      "connection": {
+        "success": "接続成功",
+        "successDesc": "{type} に接続しました。",
+        "failed": "接続に失敗しました",
+        "error": "接続テストに失敗しました。"
+      },
+      "testConnection": "接続をテスト",
+      "pterodactyl": {
+        "title": "プテロダクティルパネル",
+        "description": "Pterodactyl パネルへの接続を設定します。",
+        "url": "パネル URL",
+        "apiKey": "API キー",
+        "apiKeyNote": "API キーは環境変数として保存されます。",
+        "version": "パネルのバージョン"
+      },
+      "database": {
+        "title": "データベース",
+        "description": "データベース接続の構成",
+        "provider": "プロバイダー",
+        "connectionString": "接続文字列",
+        "connectionStringNote": "データベース URL は環境変数として保存されます。"
+      },
+      "features": {
+        "title": "機能の切り替え",
+        "description": "システム機能を有効または無効にします。",
+        "registration": "ユーザー登録",
+        "registrationDesc": "新規ユーザーがアカウント登録できるようにします。",
+        "maintenance": "メンテナンスモード",
+        "maintenanceDesc": "メンテナンスモードを有効にしてサイトへのアクセスをブロックします。",
+        "autoSync": "自動同期",
+        "autoSyncDesc": "定期的にパネルからデータを自動的に同期します。"
+      },
+      "notifications": {
+        "title": "通知",
+        "description": "通知設定を構成します。",
+        "email": "メール通知",
+        "emailDesc": "重要なイベントのメール通知を送信します。",
+        "discord": "Discord通知",
+        "discordDesc": "Discordチャンネルに通知を送信します。",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "通知を受け取るには、Discord WebhookのURLを入力してください。"
+      },
+      "advanced": {
+        "title": "詳細設定",
+        "description": "詳細設定オプション。",
+        "cacheTimeout": "キャッシュのタイムアウト",
+        "cacheTimeoutDesc": "APIレスポンスをキャッシュする期間。",
+        "syncInterval": "同期間隔",
+        "syncIntervalDesc": "自動的にパネルからデータを同期する頻度を設定します。",
+        "seconds": "秒",
+        "minute": "分",
+        "minutes": "分",
+        "hour": "時",
+        "hours": "時間",
+        "dangerZone": "危険ゾーン",
+        "dangerZoneDesc": "これらの操作は元に戻せません。慎重に行ってください。",
+        "clearCache": "キャッシュをクリア",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {

@@ -964,7 +964,7 @@
       "servers": "Servere",
       "sync": "Synkronisering",
       "settings": "Innstillinger",
-      "backToSite": "Back to Site"
+      "backToSite": "Tilbake til nettstedet"
     },
     "status": {
       "online": "System pålogget"
@@ -1008,6 +1008,182 @@
         "servers": "Servere",
         "databases": "Databaser",
         "users": "Brukere"
+      }
+    },
+    "users": {
+      "title": "Brukere",
+      "description": "Administrer brukerkontoer og -rettigheter.",
+      "stats": {
+        "total": "Totalt antall brukere",
+        "migrated": "Overført",
+        "admins": "Administratorer",
+        "active": "Aktiv"
+      },
+      "filters": {
+        "title": "Filtre",
+        "searchPlaceholder": "Søk med navn eller e-post...",
+        "all": "Alle brukere",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "admin": "Administratorer",
+        "migrated": "Overført",
+        "notMigrated": "Ikke Overført"
+      },
+      "table": {
+        "user": "Bruker",
+        "email": "E-post",
+        "status": "Status:",
+        "pterodactyl": "Panel ID",
+        "created": "Opprettet",
+        "lastLogin": "Siste pålogging"
+      },
+      "badges": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "admin": "Administrator",
+        "migrated": "Overført"
+      },
+      "empty": {
+        "title": "Ingen brukere funnet",
+        "searchHint": "Prøv å endre ditt søk eller filtre."
+      },
+      "pagination": {
+        "showing": "Viser {from} til {to} av {total} brukere",
+        "previous": "Forrige",
+        "next": "Neste"
+      }
+    },
+    "servers": {
+      "title": "Servere",
+      "description": "Se og administrer alle spillservere.",
+      "stats": {
+        "total": "Totalt antall servere",
+        "running": "Kjører",
+        "offline": "Frakoblet",
+        "suspended": "Suspendert"
+      },
+      "filters": {
+        "title": "Filtre",
+        "searchPlaceholder": "Søk etter navn eller UUID...",
+        "all": "Alle servere",
+        "running": "Kjører",
+        "offline": "Frakoblet",
+        "suspended": "Suspendert",
+        "installing": "Installerer"
+      },
+      "table": {
+        "server": "Tjener",
+        "status": "Status:",
+        "owner": "Eier",
+        "resources": "Ressurser",
+        "node": "EK-gruppe",
+        "created": "Opprettet"
+      },
+      "status": {
+        "running": "Kjører",
+        "offline": "Frakoblet",
+        "starting": "Starter",
+        "stopping": "Stopper",
+        "installing": "Installerer",
+        "install_failed": "Mislyktes",
+        "suspended": "Suspendert",
+        "restoring_backup": "Gjenoppretter"
+      },
+      "resources": {
+        "memory": "Minne",
+        "disk": "Disk",
+        "cpu": "Prosessor"
+      },
+      "empty": {
+        "title": "Ingen servere funnet",
+        "searchHint": "Prøv å endre ditt søk eller filtre."
+      },
+      "pagination": {
+        "showing": "Viser {from} til {to} av {total} servere",
+        "previous": "Forrige",
+        "next": "Neste"
+      }
+    },
+    "settings": {
+      "title": "Innstillinger",
+      "description": "Konfigurere systeminnstillinger og -tilkoblinger.",
+      "wip": {
+        "title": "Arbeid i fremdrift",
+        "description": "Denne innstillingssiden er under utvikling. Foreløpig bare tilkoblingstesting er funksjonell. Andre funksjoner vil bli aktivert i en fremtidig oppdatering."
+      },
+      "save": "Lagre endringer",
+      "saved": "Innstillinger lagret",
+      "savedDesc": "Dine innstillinger har blitt lagret.",
+      "saveError": "Kunne ikke lagre innstillingene. Vennligst prøv igjen.",
+      "copyFailed": "Kan ikke kopiere til utklippstavlen",
+      "tabs": {
+        "connections": "Tilkoblinger",
+        "features": "Funksjoner",
+        "notifications": "Varsler",
+        "advanced": "Avansert"
+      },
+      "status": {
+        "connected": "Tilkoblet",
+        "disconnected": "Frakoblet"
+      },
+      "connection": {
+        "success": "Tilkobling vellykket",
+        "successDesc": "Koblet til {type}.",
+        "failed": "Tilkobling mislyktes",
+        "error": "Kunne ikke teste tilkoblingen."
+      },
+      "testConnection": "Test tilkoblingen",
+      "pterodactyl": {
+        "title": "Pterodactyl Panel",
+        "description": "Konfigurer tilkoblingen til ditt Pterodactyl panel.",
+        "url": "Panel URL",
+        "apiKey": "API-nøkkel (Automatic Translation)",
+        "apiKeyNote": "API-nøkkel er lagret som en miljøvariabel.",
+        "version": "Panel Versjon"
+      },
+      "database": {
+        "title": "Databasen",
+        "description": "Database tilkoblingskonfigurasjon.",
+        "provider": "Leverandør",
+        "connectionString": "Tilkobling streng",
+        "connectionStringNote": "Databasens URL lagres som en miljøvariabel."
+      },
+      "features": {
+        "title": "Egenskap veksler",
+        "description": "Slå av eller deaktivere systemfunksjoner.",
+        "registration": "Brukerregistrering",
+        "registrationDesc": "Tillat nye brukere å registrere kontoer.",
+        "maintenance": "Vedlikehold modus",
+        "maintenanceDesc": "Aktiver vedlikeholdsmodus for å blokkere tilgang til nettstedet.",
+        "autoSync": "Automatisk synkronisering",
+        "autoSyncDesc": "Synkroniser data automatisk fra panelet med jevne mellomrom."
+      },
+      "notifications": {
+        "title": "Varsler",
+        "description": "Konfigurer varslingsinnstillinger.",
+        "email": "E-post varsling",
+        "emailDesc": "Send e-postvarsler for viktige arrangementer.",
+        "discord": "Discord varsler",
+        "discordDesc": "Send varsler til en Discord-kanal.",
+        "webhook": "URL til Discord Webhook",
+        "webhookDesc": "Skriv inn din Discord webhook URL for å motta varslinger."
+      },
+      "advanced": {
+        "title": "Avanserte innstillinger",
+        "description": "Avanserte konfigurasjonsalternativer.",
+        "cacheTimeout": "Tidsavbrudd for hurtigbuffer",
+        "cacheTimeoutDesc": "Hvor lenge svarene fra hurtiglager API-et.",
+        "syncInterval": "Synkroniser intervall",
+        "syncIntervalDesc": "Hvor ofte skal du synkronisere data automatisk fra panelet.",
+        "seconds": "sekunder",
+        "minute": "minutt",
+        "minutes": "minutter",
+        "hour": "time",
+        "hours": "timer",
+        "dangerZone": "Fare sone",
+        "dangerZoneDesc": "Disse påvirkningene er ikke reversible. Fortsett med forsiktighet.",
+        "clearCache": "Tøm hurtiglager",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {

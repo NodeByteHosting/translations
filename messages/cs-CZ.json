@@ -964,7 +964,7 @@
       "servers": "Servery",
       "sync": "Synchronizovat",
       "settings": "Nastavení",
-      "backToSite": "Back to Site"
+      "backToSite": "Zpět na stránku"
     },
     "status": {
       "online": "Systém online"
@@ -1008,6 +1008,182 @@
         "servers": "Servery",
         "databases": "Databáze",
         "users": "Uživatelé"
+      }
+    },
+    "users": {
+      "title": "Uživatelé",
+      "description": "Správa uživatelských účtů a oprávnění.",
+      "stats": {
+        "total": "Celkem uživatelů",
+        "migrated": "Migrováno",
+        "admins": "Správci",
+        "active": "Aktivní"
+      },
+      "filters": {
+        "title": "Filtry",
+        "searchPlaceholder": "Hledat podle jména nebo e-mailu...",
+        "all": "Všichni uživatelé",
+        "active": "Aktivní",
+        "inactive": "Neaktivní",
+        "admin": "Správci",
+        "migrated": "Migrováno",
+        "notMigrated": "Nemigrováno"
+      },
+      "table": {
+        "user": "Uživatel",
+        "email": "E-mailová adresa",
+        "status": "Stav",
+        "pterodactyl": "ID dílce",
+        "created": "Vytvořeno",
+        "lastLogin": "Poslední přihlášení"
+      },
+      "badges": {
+        "active": "Aktivní",
+        "inactive": "Neaktivní",
+        "admin": "Admin",
+        "migrated": "Migrováno"
+      },
+      "empty": {
+        "title": "Nenalezeni žádní uživatelé",
+        "searchHint": "Zkuste upravit vyhledávání nebo filtry."
+      },
+      "pagination": {
+        "showing": "Zobrazeno {from} až {to} uživatelů {total}",
+        "previous": "Předchozí",
+        "next": "Další"
+      }
+    },
+    "servers": {
+      "title": "Servery",
+      "description": "Zobrazit a spravovat všechny herní servery.",
+      "stats": {
+        "total": "Celkem serverů",
+        "running": "Běh",
+        "offline": "Offline",
+        "suspended": "Pozastaveno"
+      },
+      "filters": {
+        "title": "Filtry",
+        "searchPlaceholder": "Hledat podle jména nebo UUID...",
+        "all": "Všechny servery",
+        "running": "Běh",
+        "offline": "Offline",
+        "suspended": "Pozastaveno",
+        "installing": "Instalace"
+      },
+      "table": {
+        "server": "Server",
+        "status": "Stav",
+        "owner": "Vlastník",
+        "resources": "Zdroje",
+        "node": "Uzel",
+        "created": "Vytvořeno"
+      },
+      "status": {
+        "running": "Běh",
+        "offline": "Offline",
+        "starting": "Začíná",
+        "stopping": "Zastavování",
+        "installing": "Instalace",
+        "install_failed": "Selhalo",
+        "suspended": "Pozastaveno",
+        "restoring_backup": "Obnovení"
+      },
+      "resources": {
+        "memory": "Paměť",
+        "disk": "Disk",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "Nebyly nalezeny žádné servery",
+        "searchHint": "Zkuste upravit vyhledávání nebo filtry."
+      },
+      "pagination": {
+        "showing": "Zobrazeno {from} na {to} serverů {total}",
+        "previous": "Předchozí",
+        "next": "Další"
+      }
+    },
+    "settings": {
+      "title": "Nastavení",
+      "description": "Konfigurace nastavení a připojení systému.",
+      "wip": {
+        "title": "Probíhá práce",
+        "description": "Tato stránka s nastavením je ve vývoji. V současné době je funkční pouze testování připojení. Další funkce budou povoleny v budoucí aktualizaci."
+      },
+      "save": "Uložit změny",
+      "saved": "Nastavení uloženo",
+      "savedDesc": "Vaše nastavení bylo úspěšně uloženo.",
+      "saveError": "Nepodařilo se uložit nastavení. Zkuste to prosím znovu.",
+      "copyFailed": "Kopírování do schránky se nezdařilo",
+      "tabs": {
+        "connections": "Kontakty",
+        "features": "Vlastnosti",
+        "notifications": "Oznámení",
+        "advanced": "Rozšířené"
+      },
+      "status": {
+        "connected": "Připojeno",
+        "disconnected": "Odpojeno"
+      },
+      "connection": {
+        "success": "Připojení bylo úspěšné",
+        "successDesc": "Úspěšně připojeno k {type}.",
+        "failed": "Připojení se nezdařilo",
+        "error": "Nepodařilo se otestovat připojení."
+      },
+      "testConnection": "Testovat připojení",
+      "pterodactyl": {
+        "title": "Pterodactyl Panel",
+        "description": "Konfigurace připojení k panelu Pterodactyl.",
+        "url": "URL panelu",
+        "apiKey": "API klíč",
+        "apiKeyNote": "API klíč je uložen jako proměnná prostředí.",
+        "version": "Verze panelu"
+      },
+      "database": {
+        "title": "Databáze",
+        "description": "Nastavení připojení k databázi.",
+        "provider": "Poskytovatel",
+        "connectionString": "Řetězec připojení",
+        "connectionStringNote": "URL databáze je uložena jako proměnná prostředí."
+      },
+      "features": {
+        "title": "Přepínače funkcí",
+        "description": "Povolit nebo zakázat systémové funkce.",
+        "registration": "Registrace uživatele",
+        "registrationDesc": "Povolit novým uživatelům registrovat účty.",
+        "maintenance": "Režim údržby",
+        "maintenanceDesc": "Povolte režim údržby pro blokování přístupu k webu.",
+        "autoSync": "Automatická synchronizace",
+        "autoSyncDesc": "Automaticky pravidelně synchronizovat data z panelu."
+      },
+      "notifications": {
+        "title": "Oznámení",
+        "description": "Konfigurovat nastavení oznámení.",
+        "email": "E-mailová oznámení",
+        "emailDesc": "Odeslat oznámení e-mailem pro důležité události.",
+        "discord": "Discord oznámení",
+        "discordDesc": "Poslat oznámení do Discord kanálu.",
+        "webhook": "URL Discord Webhook",
+        "webhookDesc": "Zadejte URL tvého Discord webhook pro příjem oznámení."
+      },
+      "advanced": {
+        "title": "Pokročilá nastavení",
+        "description": "Pokročilé nastavení",
+        "cacheTimeout": "Časový limit keše",
+        "cacheTimeoutDesc": "Jak dlouho reaguje API mezipaměti.",
+        "syncInterval": "Interval synchronizace",
+        "syncIntervalDesc": "Jak často se automaticky synchronizovat data z panelu.",
+        "seconds": "sekundy",
+        "minute": "minuta",
+        "minutes": "minuty",
+        "hour": "hodina",
+        "hours": "hodiny",
+        "dangerZone": "Nebezpečná zóna",
+        "dangerZoneDesc": "Tyto akce jsou nevratné. Postupujte opatrně.",
+        "clearCache": "Vymazat mezipaměť",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {

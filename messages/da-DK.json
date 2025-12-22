@@ -964,7 +964,7 @@
       "servers": "Servere",
       "sync": "Synkroniser",
       "settings": "Indstillinger",
-      "backToSite": "Back to Site"
+      "backToSite": "Tilbage til webstedet"
     },
     "status": {
       "online": "System Online"
@@ -1008,6 +1008,182 @@
         "servers": "Servere",
         "databases": "Databaser",
         "users": "Brugere"
+      }
+    },
+    "users": {
+      "title": "Brugere",
+      "description": "Administrer brugerkonti og tilladelser.",
+      "stats": {
+        "total": "Brugere I Alt",
+        "migrated": "Migreret",
+        "admins": "Administratorer",
+        "active": "Aktiv"
+      },
+      "filters": {
+        "title": "Filtre",
+        "searchPlaceholder": "Søg efter navn eller e-mail...",
+        "all": "Alle Brugere",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "admin": "Administratorer",
+        "migrated": "Migreret",
+        "notMigrated": "Ikke Migreret"
+      },
+      "table": {
+        "user": "Bruger",
+        "email": "E-mail",
+        "status": "Status",
+        "pterodactyl": "Panel ID",
+        "created": "Oprettet",
+        "lastLogin": "Sidste Login"
+      },
+      "badges": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "admin": "Administrator",
+        "migrated": "Migreret"
+      },
+      "empty": {
+        "title": "Ingen brugere fundet",
+        "searchHint": "Prøv at justere din søgning eller filtre."
+      },
+      "pagination": {
+        "showing": "Viser {from} til {to} af {total} brugere",
+        "previous": "Forrige",
+        "next": "Næste"
+      }
+    },
+    "servers": {
+      "title": "Servere",
+      "description": "Se og administrere alle spilservere.",
+      "stats": {
+        "total": "Samlede Servere",
+        "running": "Kører",
+        "offline": "Offline",
+        "suspended": "Suspenderet"
+      },
+      "filters": {
+        "title": "Filtre",
+        "searchPlaceholder": "Søg efter navn eller UUID...",
+        "all": "Alle Servere",
+        "running": "Kører",
+        "offline": "Offline",
+        "suspended": "Suspenderet",
+        "installing": "Installerer"
+      },
+      "table": {
+        "server": "Server",
+        "status": "Status",
+        "owner": "Ejer",
+        "resources": "Ressourcer",
+        "node": "Indholdselement",
+        "created": "Oprettet"
+      },
+      "status": {
+        "running": "Kører",
+        "offline": "Offline",
+        "starting": "Starter",
+        "stopping": "Stopper",
+        "installing": "Installerer",
+        "install_failed": "Mislykkedes",
+        "suspended": "Suspenderet",
+        "restoring_backup": "Gendanner"
+      },
+      "resources": {
+        "memory": "Hukommelse",
+        "disk": "Disk",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "Ingen servere fundet",
+        "searchHint": "Prøv at justere din søgning eller filtre."
+      },
+      "pagination": {
+        "showing": "Viser {from} til {to} af {total} servere",
+        "previous": "Forrige",
+        "next": "Næste"
+      }
+    },
+    "settings": {
+      "title": "Indstillinger",
+      "description": "Konfigurere systemindstillinger og forbindelser.",
+      "wip": {
+        "title": "Arbejde i gang",
+        "description": "Denne indstillings side er under udvikling. I øjeblikket er kun forbindelsestest funktionel. Andre funktioner vil blive aktiveret i en fremtidig opdatering."
+      },
+      "save": "Gem Ændringer",
+      "saved": "Indstillinger Gemt",
+      "savedDesc": "Dine indstillinger er blevet gemt.",
+      "saveError": "Kunne ikke gemme indstillinger. Prøv venligst igen.",
+      "copyFailed": "Kunne ikke kopiere til udklipsholder",
+      "tabs": {
+        "connections": "Forbindelser",
+        "features": "Funktioner",
+        "notifications": "Notifikationer",
+        "advanced": "Avanceret"
+      },
+      "status": {
+        "connected": "Forbundet",
+        "disconnected": "Afbrudt"
+      },
+      "connection": {
+        "success": "Forbindelse Gennemført",
+        "successDesc": "Tilslutning til {type}.",
+        "failed": "Forbindelse Mislykkedes",
+        "error": "Kunne ikke teste forbindelse."
+      },
+      "testConnection": "Test Forbindelse",
+      "pterodactyl": {
+        "title": "Pterodactyl Panel",
+        "description": "Indstil forbindelsen til dit Pterodactyl panel.",
+        "url": "Panel URL",
+        "apiKey": "API Nøgle",
+        "apiKeyNote": "API-nøgle er gemt som en miljøvariabel.",
+        "version": "Panel Version"
+      },
+      "database": {
+        "title": "Database",
+        "description": "Database forbindelse konfiguration.",
+        "provider": "Udbyder",
+        "connectionString": "Forbindelsesstreng",
+        "connectionStringNote": "Database URL er gemt som en miljøvariabel."
+      },
+      "features": {
+        "title": "Funktion Skifter",
+        "description": "Aktiver eller deaktiver systemfunktioner.",
+        "registration": "Bruger Registrering",
+        "registrationDesc": "Tillad nye brugere at registrere konti.",
+        "maintenance": "Vedligeholdelse Tilstand",
+        "maintenanceDesc": "Aktivér vedligeholdelsestilstand for at blokere adgang til webstedet.",
+        "autoSync": "Automatisk Synk",
+        "autoSyncDesc": "Synk automatisk data fra panelet regelmæssigt."
+      },
+      "notifications": {
+        "title": "Notifikationer",
+        "description": "Konfigurér notifikationsindstillinger.",
+        "email": "E-Mail Notifikationer",
+        "emailDesc": "Send e-mail notifikationer for vigtige begivenheder.",
+        "discord": "Discord Notifikationer",
+        "discordDesc": "Send notifikationer til en Discord kanal.",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "Indtast din Discord webhook URL for at modtage notifikationer."
+      },
+      "advanced": {
+        "title": "Avancerede Indstillinger",
+        "description": "Avancerede konfigurationsindstillinger.",
+        "cacheTimeout": "Cache Timeout",
+        "cacheTimeoutDesc": "Hvor lang tid til at cache API svar.",
+        "syncInterval": "Synkroniser Interval",
+        "syncIntervalDesc": "Hvor ofte til automatisk at synkronisere data fra panelet.",
+        "seconds": "sekunder",
+        "minute": "minut",
+        "minutes": "minutter",
+        "hour": "time",
+        "hours": "timer",
+        "dangerZone": "Fare Zone",
+        "dangerZoneDesc": "Disse handlinger er irreversible. Fortsæt med forsigtighed.",
+        "clearCache": "Ryd Cache",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
