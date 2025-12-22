@@ -6,9 +6,6 @@ on:
       - master
     paths:
       - 'messages/en.json'
-      - 'messages/es.json'
-      - 'messages/de.json'
-      - 'messages/fr.json'
   workflow_dispatch:
 
 jobs:

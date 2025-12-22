@@ -1,0 +1,349 @@
+{
+  "nav": {
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "extras": "Extras",
+    "contact": "Contact",
+    "discord": "Discord",
+    "joinDiscord": "Join our Discord",
+    "theme": "Theme",
+    "currency": "Currency",
+    "language": "Language",
+    "settings": "Settings",
+    "menu": "Menu"
+  },
+  "company": {
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with our team"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn more about NodeByte"
+    }
+  },
+  "services": {
+    "minecraft": {
+      "title": "Minecraft Hosting",
+      "description": "Minecraft servers with instant setup"
+    },
+    "rust": {
+      "title": "Rust Hosting",
+      "description": "Rust servers with DDoS protection"
+    },
+    "hytale": {
+      "title": "Hytale Hosting",
+      "description": "Hytale servers with DDoS protection"
+    },
+    "all": {
+      "title": "All Services",
+      "description": "Explore all our hosting services"
+    }
+  },
+  "resources": {
+    "clientArea": {
+      "title": "Client Area",
+      "description": "Manage billing, invoices, and account settings"
+    },
+    "gamePanel": {
+      "title": "Game Panel",
+      "description": "Control your game servers with our panel"
+    }
+  },
+  "extras": {
+    "kb": {
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
+    },
+    "changelog": {
+      "title": "What's New",
+      "description": "Latest updates and features"
+    }
+  },
+  "hero": {
+    "promo": {
+      "prefix": "USE CODE",
+      "suffix": "ON YOUR FIRST ORDER!"
+    },
+    "title": "Game Hosting",
+    "titleHighlight": "Made Simple",
+    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
+    "getStarted": "Get Started",
+    "joinDiscord": "Join Discord",
+    "trustedBy": "Trusted by gaming communities worldwide",
+    "trustpilotReviews": "Trustpilot Reviews",
+    "stats": {
+      "uptime": "Uptime SLA",
+      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
+      "ping": "Avg. Ping",
+      "pingDesc": "Optimized routing for low-latency gameplay.",
+      "support": "Support",
+      "supportDesc": "Expert help with installs, mods, and server ops."
+    }
+  },
+  "features": {
+    "badge": "Infrastructure",
+    "title": "Built for",
+    "titleHighlight": "Performance",
+    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
+    "viewPlans": "View Hosting Plans",
+    "startingFrom": "Starting from",
+    "items": {
+      "ddos": {
+        "title": "DDoS Protection",
+        "description": "Enterprise-grade mitigation and automatic scrubbing to keep servers online under attack.",
+        "highlights": {
+          "0": "Network edge filtering",
+          "1": "Auto-scaling protection",
+          "2": "Real-time monitoring"
+        }
+      },
+      "latency": {
+        "title": "Low Latency Network",
+        "description": "Optimized routes, private backbone links, and regional POPs for minimal ping.",
+        "highlights": {
+          "0": "Sub-50ms avg latency",
+          "1": "Global routing",
+          "2": "Direct peering"
+        }
+      },
+      "setup": {
+        "title": "Instant Setup",
+        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "highlights": {
+          "0": "60 second deploys",
+          "1": "Pre-built templates",
+          "2": "Auto configuration"
+        }
+      },
+      "locations": {
+        "title": "Global Locations",
+        "description": "Multiple regions and edge POPs to keep players close and latency low.",
+        "highlights": {
+          "0": "UK data centers",
+          "1": "EU expansion",
+          "2": "Strategic placement"
+        }
+      },
+      "panel": {
+        "title": "Control Panel",
+        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "highlights": {
+          "0": "Live console",
+          "1": "File manager",
+          "2": "Scheduled tasks"
+        }
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "highlights": {
+          "0": "Discord support",
+          "1": "Ticket system",
+          "2": "Knowledge base"
+        }
+      }
+    }
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Built by Gamers,",
+    "titleHighlight": "for Gamers",
+    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
+    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
+    "joinCommunity": "Join Our Community",
+    "values": {
+      "players": {
+        "title": "Built for Players",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+      },
+      "community": {
+        "title": "Community & Mod Support",
+        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+      },
+      "open": {
+        "title": "Open by Design",
+        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+      }
+    },
+    "stats": {
+      "uptime": "Uptime SLA",
+      "latency": "Avg Latency",
+      "support": "Support",
+      "servers": "Active Servers"
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Server Plans",
+    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
+    "getStarted": "Get Started",
+    "viewAllPlans": "View All Plans",
+    "comingSoon": "Pricing Coming Soon",
+    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
+    "joinDiscord": "Join Discord",
+    "mostPopular": "Most Popular",
+    "customSolution": "Need a custom solution or have questions?",
+    "contactUs": "Contact us",
+    "perMonth": "month"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "description": "Quick answers about NodeByte hosting, performance, and support.",
+    "searchPlaceholder": "Search questions...",
+    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
+    "stillHaveQuestions": "Still have questions?",
+    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
+    "contactSupport": "Contact Support",
+    "joinDiscord": "Join Discord",
+    "items": {
+      "provision": {
+        "question": "How fast can I provision a server?",
+        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+      },
+      "ddos": {
+        "question": "Do you offer DDoS protection?",
+        "answer": "Yes, all plans include automated DDoS mitigation at the network edge. For large or targeted attacks we provide additional scrubbing services on higher tiers."
+      },
+      "locations": {
+        "question": "Where are your data centers located?",
+        "answer": "We operate multiple data centers across the UK with EU expansion planned. Check our coverage map or contact sales for custom regions."
+      },
+      "mods": {
+        "question": "Can I run mods and custom maps?",
+        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+      },
+      "uptime": {
+        "question": "What is your uptime SLA?",
+        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+      },
+      "trial": {
+        "question": "Can I get a trial before committing?",
+        "answer": "Yes, we offer a 7-day trial period for new users to test our services before making a commitment. Contact our support team to get started."
+      }
+    }
+  },
+  "games": {
+    "badge": "Game Servers",
+    "title": "Choose Your",
+    "titleHighlight": "Game",
+    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
+    "viewPlans": "View Plans",
+    "learnMore": "Learn More",
+    "comingSoon": "Coming Soon",
+    "customSolution": "Need a game server that's not listed?",
+    "contactUs": "Contact us",
+    "forCustom": "for custom solutions.",
+    "minecraft": {
+      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
+      "tag": "Most Popular",
+      "features": {
+        "0": "Forge & Fabric support",
+        "1": "Plugin management",
+        "2": "Auto backups",
+        "3": "Custom JAR uploads"
+      }
+    },
+    "rust": {
+      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
+      "tag": "High Performance",
+      "features": {
+        "0": "Oxide/uMod support",
+        "1": "Custom maps",
+        "2": "Wipe scheduler",
+        "3": "RCON access"
+      }
+    },
+    "hytale": {
+      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
+      "tag": "In Development",
+      "features": {
+        "0": "Mod support",
+        "1": "Custom maps",
+        "2": "Easy configuration",
+        "3": "24/7 support"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact",
+    "titleHighlight": "NodeByte",
+    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
+    "supportChannels": "Support Channels",
+    "copied": "Copied!",
+    "copiedDesc": "Email address copied to clipboard",
+    "copyFailed": "Copy Failed",
+    "copyFailedDesc": "Failed to copy to clipboard",
+    "discord": {
+      "title": "Discord Community",
+      "description": "Join our community for instant support, announcements, and chat with other users.",
+      "button": "Join Discord",
+      "features": {
+        "0": "Instant responses",
+        "1": "Community help",
+        "2": "Announcements"
+      }
+    },
+    "github": {
+      "title": "GitHub Discussions",
+      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "button": "Open GitHub",
+      "features": {
+        "0": "Bug reports",
+        "1": "Feature requests",
+        "2": "Open source"
+      }
+    },
+    "ticket": {
+      "title": "Support Ticket",
+      "description": "Submit a ticket through our billing panel for account-related issues.",
+      "button": "Open Ticket"
+    },
+    "email": {
+      "badge": "Email Support",
+      "title": "Prefer Email? We've Got You Covered",
+      "responseTime": "Response time: typically within 24 hours",
+      "departments": "Department Emails",
+      "technical": "Technical Support",
+      "technicalDesc": "Server issues & technical help",
+      "general": "General Support",
+      "generalDesc": "General questions & assistance",
+      "account": "Account Issues",
+      "accountDesc": "Login & account problems",
+      "billing": "Billing Inquiries",
+      "billingDesc": "Payments & invoices"
+    },
+    "social": {
+      "title": "Follow Us",
+      "description": "Stay updated with news, tips, and community updates"
+    },
+    "warning": {
+      "title": "Important Notice",
+      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+    }
+  },
+  "footer": {
+    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
+    "getInTouch": "Get in Touch",
+    "emailUs": "Email Us",
+    "support": "Support",
+    "contactTeam": "Contact our team",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "status": "All Systems Operational",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "comingSoon": "Coming Soon"
+  }
+}
