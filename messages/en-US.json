@@ -902,7 +902,6 @@
       "createAccount": "Create one",
       "errors": {
         "invalid": "Invalid email or password. Please try again.",
-        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
         "networkError": "Network error. Please check your connection and try again.",
         "generic": "An error occurred during sign in. Please try again."
       }
