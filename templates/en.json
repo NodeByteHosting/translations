@@ -902,6 +902,7 @@
       "createAccount": "Create one",
       "errors": {
         "invalid": "Invalid email or password. Please try again.",
+        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
         "networkError": "Network error. Please check your connection and try again.",
         "generic": "An error occurred during sign in. Please try again."
       }
@@ -920,7 +921,7 @@
       "alreadyHaveAccount": "Already have an account?",
       "signIn": "Sign in",
       "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "panelAccountRequiredDescription": "To create a NodeByte account, you must have an existing game panel account associated with a purchased service.",
       "errors": {
         "emailExists": "An account with this email already exists.",
         "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",

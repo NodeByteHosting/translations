@@ -8,6 +8,10 @@ on:
       - 'messages/en.json'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   synchronize-with-crowdin:
     runs-on: ubuntu-latest
