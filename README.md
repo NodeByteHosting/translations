@@ -16,14 +16,19 @@ Crowdin provides a user-friendly interface for translating and automatically syn
 
 ```
 ├── templates/
-│   └── en.json      # English source (Crowdin source file)
+│   └── en/                  # English source modules (Crowdin source files)
+│       ├── common.json      # Shared UI strings, navigation, theme
+│       ├── home.json        # Homepage, hero, features, pricing, FAQ
+│       ├── pages.json       # Static pages, contact, footer, KB
+│       ├── auth.json        # Authentication, login, register
+│       └── admin.json       # Admin panel, settings, users, servers
 ├── messages/
-│   ├── de-DE.json   # German (Crowdin managed)
-│   ├── fr-FR.json   # French (Crowdin managed)
-│   ├── es-ES.json   # Spanish (Crowdin managed)
-│   └── ...          # 30+ languages
-├── locales.json     # List of available locales
-├── crowdin.yml      # Crowdin configuration
+│   ├── de-DE.json           # German (Crowdin managed)
+│   ├── fr-FR.json           # French (Crowdin managed)
+│   ├── es-ES.json           # Spanish (Crowdin managed)
+│   └── ...                  # 30+ languages
+├── locales.json             # List of available locales
+├── crowdin.yml              # Crowdin configuration
 └── README.md
 ```
 
@@ -56,10 +61,15 @@ Crowdin provides a user-friendly interface for translating and automatically syn
 
 ## 🔄 How It Works
 
-1. **Source file**: `templates/en.json` is the English source maintained by the NodeByte team
-2. **Crowdin sync**: When changes are pushed, Crowdin detects new/updated strings
+1. **Source files**: `templates/en/*.json` are modular English sources maintained by the NodeByte team
+   - `common.json` - Shared UI strings used across pages
+   - `home.json` - Homepage and game server content
+   - `pages.json` - Static pages like contact, KB, footer
+   - `auth.json` - Authentication pages and flows
+   - `admin.json` - Admin panel configuration
+2. **Crowdin sync**: When changes are pushed, Crowdin detects new/updated strings in all files
 3. **Community translation**: Translators contribute via Crowdin's web interface
-4. **Auto PR**: Crowdin automatically creates PRs with approved translations to `messages/`
+4. **Auto PR**: Crowdin automatically creates PRs with approved translations to `messages/` (with modular structure per locale)
 
 ## 🆕 Requesting a New Language
 

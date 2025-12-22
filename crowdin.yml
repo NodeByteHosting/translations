@@ -8,5 +8,5 @@ api_token_env: CROWDIN_PERSONAL_TOKEN
 preserve_hierarchy: true
 
 files:
-  - source: /templates/en.json
+  - source: /templates/en/*.json
     translation: /messages/%locale%.json
