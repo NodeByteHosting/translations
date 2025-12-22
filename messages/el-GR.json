@@ -1,1021 +1,1021 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Εταιρεία",
+    "services": "Υπηρεσίες",
+    "resources": "Πόροι",
     "extras": "Extras",
-    "contact": "Contact",
+    "contact": "Επικοινωνία",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "joinDiscord": "Εγγραφείτε στο Discord μας",
+    "theme": "Θέμα",
+    "currency": "Νόμισμα",
+    "language": "Γλώσσα",
+    "settings": "Ρυθμίσεις",
+    "menu": "Μενού"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Επικοινωνήστε Μαζί Μας",
+      "description": "Ελάτε σε επαφή με την ομάδα μας"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "Σχετικά Με Εμάς",
+      "description": "Μάθετε περισσότερα για το NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Φιλοξενία Minecraft",
+      "description": "Εξυπηρετητές Minecraft με άμεση ρύθμιση"
     },
     "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "title": "Φιλοξενία Σκουριάς",
+      "description": "Διακομιστές σκόνης με προστασία DDoS"
     },
     "hytale": {
       "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "description": "Hytale servers με προστασία DDoS"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Όλες Οι Υπηρεσίες",
+      "description": "Εξερευνήστε όλες τις υπηρεσίες φιλοξενίας"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Περιοχή Πελάτη",
+      "description": "Διαχείριση ρυθμίσεων τιμολόγησης, τιμολογίων και λογαριασμού"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Πλαίσιο Παιχνιδιού",
+      "description": "Ελέγξτε τους διακομιστές παιχνιδιών σας με τον πίνακα μας"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "Γνωσιακή Βάση",
+      "description": "Οδηγοί, οδηγοί και τεκμηρίωση"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Τι Νέο Υπάρχει",
+      "description": "Τελευταίες ενημερώσεις και χαρακτηριστικά"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΚΩΔΙΚΟ",
+      "suffix": "ΣΧΕΤΙΚΑ ΜΕ ΤΟ ΠΡΩΤΟ ORDER ΣΑΣ!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Φιλοξενία Παιχνιδιών",
+    "titleHighlight": "Απλό Κατασκευασμένο",
+    "description": "Γρήγορη, αξιόπιστη και ασφαλή φιλοξενία για τις κοινότητες τυχερών παιχνιδιών σας. Εκτελέστε αποκλειστικούς διακομιστές με άμεση εγκατάσταση, προστασία DDoS και υποστήριξη 24/7.",
+    "getStarted": "Ας Αρχίσουμε",
+    "joinDiscord": "Συμμετοχή Στο Discord",
+    "trustedBy": "Εμπιστοσύνη από κοινότητες τυχερών παιχνιδιών σε όλο τον κόσμο",
+    "trustpilotReviews": "Κριτικές Εμπιστοσύνης",
     "stats": {
       "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptimeDesc": "Επιχείρηση εφεδρεία διατηρώντας τους διακομιστές σας online.",
+      "ping": "Μέσος Όρος Ping",
+      "pingDesc": "Βελτιστοποιημένη δρομολόγηση για παιχνίδι χαμηλής καθυστέρησης.",
+      "support": "Υποστήριξη",
+      "supportDesc": "Ειδική βοήθεια με εγκαταστάσεις, mods, και ops διακομιστή."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Υποδομή",
+    "title": "Χτισμένο για",
+    "titleHighlight": "Επιδόσεις",
+    "description": "Στιγμιαίοι διακομιστές, δρομολόγηση χαμηλής καθυστέρησης και ισχυροί έλεγχοι.",
+    "viewPlans": "Προβολή Προγραμμάτων Φιλοξενίας",
+    "startingFrom": "Ξεκινώντας από",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "Προστασία DDoS",
+        "description": "Μέτρηση της επιχείρησης που τροφοδοτείται από FyfeWeb με αυτόματη τρίψιμο για να κρατήσει διακομιστές σε απευθείας σύνδεση υπό επίθεση.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "Προστασία δικτύου FyfeWeb",
+          "1": "Μέτρηση αυτόματης κλιμάκωσης",
+          "2": "Παρακολούθηση σε πραγματικό χρόνο"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Δίκτυο Χαμηλής Καθυστέρησης",
+        "description": "Βελτιστοποιημένες διαδρομές μέσω του δικτύου FyfeWeb στο Ηνωμένο Βασίλειο με POPs του Λονδίνου για ελάχιστο ping.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Υπο-50 ms avg λανθάνουσα κατάσταση",
+          "1": "δρομολόγηση με βάση το Ηνωμένο Βασίλειο",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Άμεση Εγκατάσταση",
+        "description": "Πρότυπα ενός κλικ διακομιστή, αυτοματοποιημένες εγκαταστάσεις mod και γρήγορη παροχή.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 δευτερόλεπτα αναπτύσσονται",
+          "1": "Προκατασκευασμένα πρότυπα",
+          "2": "Αυτόματη ρύθμιση"
         }
       },
       "locations": {
         "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "description": "Στρατηγικά βρίσκεται στο Ηνωμένο Βασίλειο με το Λονδίνο POPs τροφοδοτείται από FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "POPs Λονδίνου",
+          "1": "Δίκτυο FyfeWeb",
+          "2": "Χαμηλή καθυστέρηση κάλυψη UK"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Πίνακας Ελέγχου",
+        "description": "Ένα ισχυρό UI για την πρόσβαση κονσόλας, διαχείριση αρχείων, αντίγραφα ασφαλείας και μετρήσεις.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "Ζωντανή κονσόλα",
+          "1": "Διαχειριστής αρχείων",
+          "2": "Προγραμματισμένες εργασίες"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "Υποστήριξη 24/7",
+        "description": "Ανθρώπινη πρώτη υποστήριξη με ops εμπειρογνωμόνων διαθέσιμες ανά πάσα στιγμή, για εγκαταστάσεις και αντιμετώπιση προβλημάτων.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Υποστήριξη Discord",
+          "1": "Σύστημα εισιτηρίων",
+          "2": "Βάση γνώσεων"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Η Ιστορία Μας",
+    "title": "Κατασκευασμένο από παίκτες,",
+    "titleHighlight": "για παίκτες",
+    "paragraph1": "Η NodeByte ξεκίνησε ως μια μικρή ομάδα gamers και ops engineers που ήθελαν φιλοξενία που ήταν γρήγορη, αξιόπιστη και εύκολη στη διαχείριση. Έχουμε βιώσει την απογοήτευση των καθυστερημένων διακομιστών και την αδιάκριτη υποστήριξη από πρώτο χέρι.",
+    "paragraph2": "Αυτός είναι ο λόγος για τον οποίο κατασκευάσαμε υποδομή συντονισμένη ειδικά για multiplayer gaming: δρομολόγηση χαμηλής καθυστέρησης, ισχυρή προστασία DDoS και άμεση παροχή διακομιστή, ώστε να μπορείτε να παίζετε γρήγορα.",
+    "joinCommunity": "Γίνετε Μέλος Της Κοινότητάς Μας",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Χτισμένο για παίκτες",
+        "description": "Η υποδομή μας δίνει προτεραιότητα στη δρομολόγηση χαμηλής καθυστέρησης, την προβλέψιμη απόδοση, και την ισχυρή ώρα λειτουργίας, έτσι ώστε οι κοινότητές σας να μένουν online και να ανταποκρίνονται."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Υποστήριξη Κοινότητας & Mod",
+        "description": "Απρόσκοπτη εγκατάσταση mod, υποστήριξη στιγμιότυπου και εργαλεία κοινότητας για να σας βοηθήσει να εκτελέσετε modded κόσμους και επίμονες διακομιστές με ελάχιστη προσπάθεια."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Άνοιγμα από το σχεδιασμό",
+        "description": "Εκτιμούμε τη διαφάνεια από τις σαφείς δεσμεύσεις SLA για το άνοιγμα εργαλείων. Η πλατφόρμα μας παρέχει APIs και ενοποιήσεις για την αυτοματοποίηση ροών εργασίας του διακομιστή."
       }
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "latency": "Μέση Καθυστέρηση",
+      "support": "Υποστήριξη",
+      "servers": "Ενεργοί Διακομιστές"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Τιμολόγηση",
+    "title": "Σχέδια Διακομιστή",
+    "description": "Όλα τα σχέδια περιλαμβάνουν προστασία DDoS, άμεση εγκατάσταση και υποστήριξη 24/7.",
+    "getStarted": "Ας Αρχίσουμε",
+    "viewAllPlans": "Προβολή Όλων Των Σχεδίων",
+    "comingSoon": "Σύντομα Τιμολόγηση",
+    "comingSoonDescription": "Εργαζόμαστε για να σας φέρουμε την καλύτερη εμπειρία φιλοξενίας. Εγγραφείτε στο Discord μας για να ειδοποιηθείτε όταν ξεκινήσουμε!",
+    "joinDiscord": "Συμμετοχή Στο Discord",
+    "mostPopular": "Πιο Δημοφιλή",
+    "customSolution": "Χρειάζεστε μια προσαρμοσμένη λύση ή να έχουν ερωτήσεις?",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "perMonth": "μήνας"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "Συχνές",
+    "title": "Συχνές Ερωτήσεις",
+    "titleHighlight": "Ερωτήσεις",
+    "description": "Γρήγορες απαντήσεις για τη φιλοξενία, την απόδοση και την υποστήριξη NodeByte.",
+    "searchPlaceholder": "Αναζήτηση ερωτήσεων...",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα. Δοκιμάστε να ψάξετε για \"DDoS\", \"mods\", ή \"SLA\".",
+    "stillHaveQuestions": "Εξακολουθούν να έχουν ερωτήσεις?",
+    "cantFind": "Δεν μπορείτε να βρείτε αυτό που ψάχνετε? Η ομάδα υποστήριξης μας είναι εδώ για να βοηθήσει.",
+    "contactSupport": "Υποστήριξη Επαφής",
+    "joinDiscord": "Συμμετοχή Στο Discord",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Πόσο γρήγορα μπορώ να προβλέψω ένα διακομιστή?",
+        "answer": "Τα περισσότερα προκατασκευασμένα πρότυπα διακομιστή που προβλέπονται σε λιγότερο από 60 δευτερόλεπτα. Προσαρμοσμένες ρυθμίσεις με μεγάλα mods μπορεί να διαρκέσει περισσότερο ανάλογα με το χρόνο εγκατάστασης του mod."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Προσφέρετε προστασία DDoS?",
+        "answer": "Ναι, όλα τα σχέδια περιλαμβάνουν μετριασμό DDoS επιχειρηματικής ποιότητας που τροφοδοτείται από το FyfeWeb. Οι POPs του Λονδίνου μας παρέχουν αυτόματο φιλτράρισμα και καθαρισμό στην άκρη του δικτύου."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Πού βρίσκονται τα κέντρα δεδομένων σας?",
+        "answer": "Λειτουργούμε data centers με βάση το Ηνωμένο Βασίλειο με POPs του Λονδίνου που τροφοδοτούνται από τον συνεργάτη δικτύου μας FyfeWeb, παρέχοντας εξαιρετική κάλυψη σε όλο το Ηνωμένο Βασίλειο και την Ευρώπη."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Μπορώ να εκτελέσω mods και προσαρμοσμένους χάρτες?",
+        "answer": "Ναι, ο πίνακας ελέγχου και τα πρότυπα μας υποστηρίζουν κοινούς φορτωτές mod (Φαράγγι, Ύφασμα) και προσαρμοσμένες μεταφορτώσεις χάρτη."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Ποια είναι η uptime SLA?",
+        "answer": "Προσφέρουμε ένα 99,6% uptime SLA στα σχέδια παραγωγής. Δείτε τους όρους μας για λεπτομέρειες και κριτήρια επιλεξιμότητας."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Μπορώ να πάρω μια δοκιμή πριν από τη διάπραξη?",
+        "answer": "Ναι, προσφέρουμε δωρεάν δοκιμές στους νέους χρήστες για να δοκιμάσουν τις υπηρεσίες μας πριν από μια δέσμευση. Επισκεφθείτε τη δωρεάν δοκιμαστική σελίδα μας για να δείτε τις διαθέσιμες επιλογές.",
+        "trialLink": "Έναρξη Δωρεάν Δοκιμής"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "Διακομιστές Παιχνιδιού",
+    "title": "Επιλέξτε Σας",
+    "titleHighlight": "Παιχνίδι",
+    "description": "Ισχυροί, χαμηλής καθυστέρησης διακομιστές παιχνιδιών. Άμεση εγκατάσταση, διαισθητικός πίνακας ελέγχου και υποστήριξη εμπειρογνωμόνων 24/7.",
+    "viewPlans": "Προβολή Προγραμμάτων",
+    "learnMore": "Μάθετε Περισσότερα",
+    "comingSoon": "Έρχεται Σύντομα",
+    "customSolution": "Χρειάζεστε ένα διακομιστή παιχνιδιού που δεν είναι εισηγμένο?",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "forCustom": "για προσαρμοσμένες λύσεις.",
+    "hosting": "Φιλοξενία",
+    "joinWaitlist": "Συμμετοχή Στη Λίστα Αναμονής",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Java & Bedrock διακομιστές με ένα κλικ φορτωτές mod, plugins και πλήρη υποστήριξη έκδοσης.",
+      "tag": "Πιο Δημοφιλή",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Υποστήριξη σφυρηλατημένου & υφάσματος",
+        "1": "Διαχείριση προσθέτων",
+        "2": "Αυτόματα αντίγραφα ασφαλείας",
+        "3": "Προσαρμοσμένες αναβαθμίσεις JAR"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Ιδανικό για μικρούς διακομιστές και δοκιμές"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "Φλόγα",
+          "description": "Μεγάλη για τις αναπτυσσόμενες κοινότητες"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "name": "Κόλαση",
+          "description": "Ιδανικό για μεσαίου μεγέθους κοινότητες"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "storage": "{amount} Gb Αποθηκευτικός Χώρος",
+        "databases": "10 Βάσεις Δεδομένων MySQL",
+        "ddos": "Προστασία FyfeWeb DDoS",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "jars": "Αυτόματο/Προ-εγκατεστημένες βάζες",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "Φορτωτές Mod Με Ένα Κλικ",
+          "description": "Εγκαταστήστε το Forge, το ύφασμα, το χαρτί, το Spigot, και άλλα με ένα μόνο κλικ από τον πίνακα ελέγχου μας.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Υποστήριξη σφυρηλατημένου & υφάσματος",
+            "1": "Διακομιστές χαρτιού & Spigot",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Προσαρμοσμένες αναβαθμίσεις JAR"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Υλικό Υψηλής Απόδοσης",
+          "description": "Επεξεργαστές βαθμού AMD Ryzen με αποθήκευση NVMe για γρήγορη απόδοση.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 CPU",
+            "1": "Αποθ. χώρος NVMe SSD",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Ταχύτητα ρολογιού έως 4.8GHz"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "Προστασία DDoS",
+          "description": "Επιχείρηση βαθμού μετριασμού DDoS που τροφοδοτείται από FyfeWeb κρατά το διακομιστή σας online ακόμη και κατά τη διάρκεια επιθέσεων.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
+            "0": "Προστασία 3/4/7 στρώματος",
+            "1": "Φιλτράρισμα δικτύου FyfeWeb",
+            "2": "Μείωση μηδενικού χρόνου διακοπής",
             "3": "UK London POPs"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Άμεση Εγκατάσταση",
+          "description": "Ο διακομιστής σας αναπτύσσεται μέσα σε δευτερόλεπτα. Ξεκινήστε την αναπαραγωγή αμέσως μετά την αγορά.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Αυτοματοποιημένη παροχή",
+            "1": "Προρυθμισμένες ρυθμίσεις",
+            "2": "Έτοιμο σε λιγότερο από 60 δευτερόλεπτα",
+            "3": "Δεν απαιτούνται τεχνικές γνώσεις"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Πλήρης Πρόσβαση Ftp",
+          "description": "Πλήρης πρόσβαση στο αρχείο μέσω FTP/SFTP. Ανεβάστε κόσμους, plugins και διαμορφώσεις με ευκολία.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "Πρόσβαση αρχείου SFTP",
+            "1": "Διαχειριστής αρχείων βασισμένος στο διαδίκτυο",
+            "2": "Μεταφορά & απόθεση μεταφορτώσεων",
+            "3": "Αυτόματα αντίγραφα ασφαλείας"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Απεριόριστα Κουλοχέρηδες",
+          "description": "Δεν υπάρχουν τεχνητά όρια παίκτη. Φιλοξενήστε όσους παίκτες και το υλικό σας μπορεί να χειριστεί.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Δεν υπάρχουν περιορισμοί υποδοχής",
+            "1": "Κλιμάκωση πόρων",
+            "2": "Αναβάθμιση ανά πάσα στιγμή",
+            "3": "Δίκαιη κατανομή πόρων"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Τι υποστηρίζουν οι εκδόσεις του Minecraft?",
+          "answer": "Υποστηρίζουμε όλες τις εκδόσεις του Minecraft από την 1.7.10 έως την τελευταία έκδοση, συμπεριλαμβανομένων στιγμιότυπων. Και οι δύο διακομιστές Java Edition και Bedrock Edition είναι διαθέσιμοι."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Μπορώ να εγκαταστήσω mods και plugins?",
+          "answer": "Ναι! Υποστηρίζουμε όλους τους μεγάλους φορτωτές mod συμπεριλαμβανομένων των Forge, Fabric, και NeoForge. Για plugins, υποστηρίζουμε Χαρτί, Spigot, Bukkit, και Purpur. Μπορείτε επίσης να ανεβάσετε προσαρμοσμένα JAR."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Πώς μπορώ να ανεβάσω τον υπάρχοντα κόσμο μου?",
+          "answer": "Μπορείτε να ανεβάσετε τα αρχεία σας στον κόσμο μέσω του web based διαχειριστή αρχείων μας ή μέσω του SFTP. Απλά σύρετε και αφήστε το φάκελο του κόσμου σας και θα είναι έτοιμο για χρήση."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Υπάρχει ένα όριο παίκτη?",
+          "answer": "Όχι, δεν επιβάλλουμε τεχνητά όρια παίκτη. Ο διακομιστής σας μπορεί να φιλοξενήσει όσους παίκτες όπως οι κατανεμημένοι πόροι σας μπορούν να χειριστούν."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Μπορώ να αναβαθμίσω το σχέδιό μου αργότερα?",
+          "answer": "Απολύτως! Μπορείτε να αναβαθμίσετε ή να υποβαθμίσετε το σχέδιό σας ανά πάσα στιγμή από τον πίνακα χρέωσής μας."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Προσφέρετε επιστροφές?",
+          "answer": "Ναι, προσφέρουμε εγγύηση επιστροφής χρημάτων 48 ωρών σε όλες τις νέες αγορές. Αν δεν είστε ικανοποιημένοι, επικοινωνήστε με την υποστήριξη για πλήρη επιστροφή χρημάτων."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Υψηλής απόδοσης διακομιστή Rust φιλοξενίας με υποστήριξη Oxide/uMod και προσαρμοσμένες επιλογές χάρτη.",
+      "tag": "Υψηλή Απόδοση",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Υποστήριξη οξειδίου/uMod",
+        "1": "Προσαρμοσμένοι χάρτες",
+        "2": "Εκκαθάριση χρονοδιαγράμματος",
+        "3": "Πρόσβαση RCON"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Εκκίνηση",
+          "description": "Συνιστάται για 40 παίκτες"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "Τυπικό",
+          "description": "Συνιστάται για 75 παίκτες"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Επιδόσεις",
+          "description": "Συνιστάται για 100 παίκτες"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}Gb SSD Αποθηκευτικός Χώρος",
+        "ddos": "Προστασία FyfeWeb DDoS",
+        "location": "Νιούκαστλ, Ηνωμένο Βασίλειο",
+        "databases": "10 Βάσεις Δεδομένων MySQL",
+        "panel": "BytePanel (Πίνακας Παιχνιδιών)",
+        "oxide": "Υποστηρίζεται Οξείδιο/Umod",
+        "rustplus": "Υποστηριζόμενο Rust+",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Υποστήριξη Oxide/uMod",
+          "description": "Πλήρης υποστήριξη για plugins Oxide και uMod. Εγκαταστήστε και διαχειριστείτε plugins απευθείας από τον πίνακα ελέγχου μας.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Εγκατάσταση Oxide με ένα κλικ",
+            "1": "Διαχειριστής προσθέτων",
+            "2": "Διαθέσιμες αυτόματες ενημερώσεις",
+            "3": "Διαχείριση δικαιωμάτων"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Προσαρμοσμένοι Χάρτες",
+          "description": "Χρησιμοποιήστε διαδικαστικά δημιουργημένους χάρτες ή ανεβάστε τους δικούς σας προσαρμοσμένους χάρτες. Πλήρης υποστήριξη προσαρμογής χάρτη.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "Διαδικαστική παραγωγή",
+            "1": "Προσαρμοσμένες μεταφορτώσεις χάρτη",
+            "2": "Έλεγχος μεγέθους χάρτη",
+            "3": "Προσαρμογή σπόρου"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Υψηλή Απόδοση",
+          "description": "Οι διακομιστές μας χρησιμοποιούν την τελευταία αποθήκευση AMD Ryzen CPUs και NVMe .",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 CPU",
+            "1": "Αποθ. χώρος NVMe SSD",
+            "2": "Υψηλή απόδοση ενός νήματος",
+            "3": "Δίκτυο χαμηλής καθυστέρησης"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "Προστασία DDoS",
+          "description": "Ο μετριασμός DDoS βαθμού επιχείρησης της Fyfeud μέσω του UK London POPs προστατεύει το διακομιστή σας από επιθέσεις 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
+            "0": "Φιλτράρισμα δικτύου FyfeWeb",
             "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "2": "Προστασία 3/4/7 στρώματος",
+            "3": "Μηδενικός χρόνος διακοπής"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Χρονοδιάγραμμα Εκκαθάριση",
+          "description": "Αυτόματη εκκαθάριση προγραμματισμό για να κρατήσει το διακομιστή σας φρέσκο. Ρυθμίστε εβδομαδιαία, δύο εβδομάδες ή μηνιαία μαντηλάκια.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Αυτοματοποιημένα μαντηλάκια",
+            "1": "Επιλογές εκκαθάρισης σχεδιαγράμματος",
+            "2": "Προγραμματισμός εκκαθάρισης χάρτη",
+            "3": "Ειδοποιήσεις Discord"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Πλήρης Πρόσβαση RCON",
+          "description": "Πλήρης πρόσβαση απομακρυσμένης κονσόλας για τη διαχείριση του διακομιστή. Εκτελέστε εντολές από οπουδήποτε.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "Διαδικτυακή βάση RCON",
+            "1": "Προγραμματισμός εντολών",
+            "2": "Διαχείριση παικτών",
+            "3": "Αρχεία καταγραφής πραγματικού χρόνου"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Υποστηρίξτε Oxide/uMod plugins?",
+          "answer": "Ναι! Υποστηρίζουμε πλήρως το Οξείδιο και το uMod. Μπορείτε να εγκαταστήσετε το Oxide με ένα κλικ από τον πίνακα ελέγχου μας και να διαχειριστείτε plugins μέσω του διαχειριστή plugin μας ή μέσω FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Μπορώ να χρησιμοποιήσω προσαρμοσμένους χάρτες?",
+          "answer": "Απόλυτα! Μπορείτε να χρησιμοποιήσετε διαδικαστικά δημιουργημένους χάρτες με προσαρμοσμένους σπόρους και μεγέθη, ή να ανεβάσετε τα δικά σας προσαρμοσμένα αρχεία χάρτη μέσω FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Πώς λειτουργεί το wipe scheduler?",
+          "answer": "Το wipe scheduler μας σας επιτρέπει να αυτοματοποιήσετε τα σκουπίδια του διακομιστή σε ένα πρόγραμμα που θα επιλέξετε. Μπορείτε να ρυθμίσετε τα μαντηλάκια μόνο χάρτη ή τα μαντηλάκια πλήρους σχεδιαγράμματος, και προαιρετικά να στείλετε ειδοποιήσεις Discord."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Ποια είναι η βαθμολογία του διακομιστή?",
+          "answer": "Οι Rust servers μας τρέχουν με προεπιλεγμένο ρυθμό 30 tick. Το υψηλής απόδοσης υλικό μας εξασφαλίζει σταθερή απόδοση ακόμα και με πολλούς online παίκτες."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Μπορώ να έχω πρόσβαση RCON?",
+          "answer": "Ναι, έχετε πλήρη πρόσβαση RCON Μπορείτε να χρησιμοποιήσετε την web-based κονσόλα μας RCON ή να συνδεθείτε με οποιοδήποτε τυπικό πελάτη RCON ."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Υποστηρίξτε διαμορφωμένους διακομιστές?",
+          "answer": "Ναι, υποστηρίζουμε τόσο τους διακομιστές βανίλιας όσο και τα modded Rust. Εγκαταστήστε το οξείδιο και προσθέστε όλα τα plugins που χρειάζεστε για να δημιουργήσετε την τέλεια εμπειρία σας σε moded."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Hytale server φιλοξενίας έρχεται σύντομα! Εγγραφείτε στο Discord μας για να αποκτήσετε έγκαιρη πρόσβαση και ενημερώσεις.",
+      "tag": "Στην Ανάπτυξη",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Υποστήριξη mod",
+        "1": "Προσαρμοσμένοι χάρτες",
+        "2": "Εύκολη διαμόρφωση",
+        "3": "24/7 υποστήριξη"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "Χαρακτηριστικά",
+      "title": "Γιατί Να Επιλέξετε Μας",
+      "titleSuffix": "Φιλοξενία",
+      "description": "Υποδομή σε επίπεδο επιχείρησης ειδικά προσαρμοσμένη για τους διακομιστές {game}"
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
+      "badge": "Τιμολόγηση",
+      "title": "Σχέδια Διακομιστή",
+      "description": "Όλα τα σχέδια περιλαμβάνουν προστασία DDoS, άμεση εγκατάσταση και υποστήριξη 24/7.",
+      "comingSoon": "Σύντομα Τιμολόγηση",
       "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "joinDiscord": "Συμμετοχή Στο Discord",
+      "mostPopular": "Πιο Δημοφιλή",
+      "getStarted": "Ας Αρχίσουμε",
+      "viewAllPlans": "Προβολή Όλων Των Σχεδίων",
+      "customSolution": "Χρειάζεστε μια προσαρμοσμένη λύση ή να έχουν ερωτήσεις?",
+      "contactUs": "Επικοινωνήστε μαζί μας"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
+      "badge": "Συχνές",
+      "title": "Ερωτήσεις",
       "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "stillHaveQuestions": "Εξακολουθούν να έχουν ερωτήσεις?",
+      "supportAvailable": "Η ομάδα υποστήριξής μας είναι διαθέσιμη 24 ώρες το 24ωρο για να σας βοηθήσει με οποιεσδήποτε ερωτήσεις.",
+      "askOnDiscord": "Ερώτηση στο Discord",
+      "contactSupport": "Υποστήριξη Επαφής"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Συμμετοχή Στη Λίστα Αναμονής",
+      "viewPlans": "Προβολή Προγραμμάτων",
+      "learnMore": "Μάθετε Περισσότερα",
+      "comingSoon": "Έρχεται Σύντομα",
+      "joinDiscordForUpdates": "Γίνετε μέλος στο Discord για ενημερώσεις"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "Ελάτε σε επαφή",
+    "title": "Επικοινωνία",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "Είμαστε εδώ για να βοηθήσουμε 24 ώρες το 24ωρο. Προσεγγίστε μέσα από οποιοδήποτε από τα κανάλια υποστήριξης μας και θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.",
+    "supportChannels": "Κανάλια Υποστήριξης",
+    "copied": "Αντιγράφηκε!",
+    "copiedDesc": "Η διεύθυνση ηλεκτρονικού ταχυδρομείου αντιγράφηκε στο πρόχειρο",
+    "copyFailed": "Η Αντιγραφή Απέτυχε",
+    "copyFailedDesc": "Αποτυχία αντιγραφής στο πρόχειρο",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Κοινότητα Discord",
+      "description": "Γίνετε μέλος της κοινότητάς μας για άμεση υποστήριξη, ανακοινώσεις και συνομιλήστε με άλλους χρήστες.",
+      "button": "Συμμετοχή Στο Discord",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Άμεσες απαντήσεις",
+        "1": "Βοήθεια κοινότητας",
+        "2": "Ανακοινώσεις"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Αναφέρετε σφάλματα, προτείνετε χαρακτηριστικά και συνεισφέρετε στα έργα ανοιχτού κώδικα.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Αναφορές σφαλμάτων",
+        "1": "Αιτήσεις λειτουργιών",
+        "2": "Ανοιχτός κώδικας"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Αίτημα Υποστήριξης",
+      "description": "Υποβάλετε ένα εισιτήριο μέσω του πίνακα χρέωσης μας για θέματα που σχετίζονται με λογαριασμό.",
+      "button": "Άνοιγμα Αιτήματος"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "Υποστήριξη Email",
+      "title": "Προτίμηση Email? Σας Έχουμε Καλύψει",
+      "responseTime": "Χρόνος απόκρισης: συνήθως μέσα σε 24 ώρες",
+      "departments": "Emails Τμήματος",
+      "technical": "Τεχνική Υποστήριξη",
+      "technicalDesc": "Θέματα διακομιστή & τεχνική βοήθεια",
+      "general": "Γενική Υποστήριξη",
+      "generalDesc": "Γενικές ερωτήσεις και βοήθεια",
+      "account": "Ζητήματα Λογαριασμού",
+      "accountDesc": "Προβλήματα σύνδεσης & λογαριασμού",
+      "billing": "Ερωτήσεις Χρέωσης",
+      "billingDesc": "Πληρωμές και τιμολόγια"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Ακολουθήστε Μας",
+      "description": "Μείνετε ενημερωμένοι με νέα, συμβουλές, και ενημερώσεις κοινότητας"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Σημαντική Ειδοποίηση",
+      "description": "Δεν χειριζόμαστε τιμολόγηση ή υποστήριξη που σχετίζεται με λογαριασμό μέσω του Discord. Για ιδιωτικότητα και ασφάλεια, παρακαλούμε επικοινωνήστε μαζί μας στο support@nodebyte.host για ευαίσθητα θέματα."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Γρήγορες, αξιόπιστες, επεκτάσιμες και ασφαλείς υπηρεσίες φιλοξενίας για την εμπειρία του παιχνιδιού σας. Χτισμένο για Ανθρώπους. Τροφοδοτείται από Bytes.",
+    "getInTouch": "Ελάτε σε επαφή",
+    "emailUs": "Στείλε Μας Email",
+    "support": "Υποστήριξη",
+    "contactTeam": "Επικοινωνήστε με την ομάδα μας",
+    "quickLinks": "Γρήγοροι Σύνδεσμοι",
+    "legal": "Νομικά",
+    "status": "Όλα Τα Λειτουργικά Συστήματα",
+    "copyright": "Με επιφύλαξη παντός δικαιώματος.",
+    "builtWith": "Χτισμένο με",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Όλα Τα Λειτουργικά Συστήματα",
+      "degraded": "Μειωμένη Απόδοση",
+      "maintenance": "Υπό Συντήρηση"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "minecraftHosting": "Φιλοξενία Minecraft",
+      "rustHosting": "Φιλοξενία Σκουριάς",
+      "gamePanel": "Πλαίσιο Παιχνιδιού",
+      "clientArea": "Περιοχή Πελάτη"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "Διακομιστής Discord",
+      "serviceStatus": "Κατάσταση Υπηρεσίας",
+      "knowledgeBase": "Γνωσιακή Βάση",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Όροι & Προϋποθέσεις",
+      "privacy": "Πολιτική Απορρήτου",
+      "refund": "Πολιτική Επιστροφής Χρημάτων",
+      "legalHub": "Νομικό Κόμβο"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "Σχετικά Με NodeByte",
+      "contact": "Επικοινωνήστε Μαζί Μας",
+      "companyInfo": "Πληροφορίες Εταιρείας",
+      "changes": "Αρχείο Αλλαγών"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "σχόλια",
+      "readReviews": "Διαβάστε τις κριτικές μας"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Φόρτωση...",
+    "error": "Κάτι πήγε στραβά",
+    "retry": "Προσπαθήστε ξανά",
+    "learnMore": "Μάθετε Περισσότερα",
+    "getStarted": "Ας Αρχίσουμε",
+    "comingSoon": "Έρχεται Σύντομα"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "Τι Νέο Υπάρχει",
+    "title": "Αρχείο Αλλαγών",
+    "titleHighlight": "& Ενημερώσεις",
+    "description": "Μείνετε ενημερωμένοι με τις τελευταίες εκδόσεις, λειτουργίες και βελτιώσεις σε όλα τα έργα της NodeByte.",
+    "searchPlaceholder": "Αναζήτηση εκδόσεων...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Όλοι Οι Χώροι Αποθήκευσης",
+      "allTypes": "Όλοι Οι Τύποι",
+      "feature": "Χαρακτηριστικό",
+      "bugfix": "Διόρθωση Σφάλματος",
+      "improvement": "Βελτίωση",
+      "breaking": "Σπάζοντας Την Αλλαγή",
+      "security": "Ασφάλεια"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Προβολή στο GitHub",
+      "publishedOn": "Δημοσιεύθηκε στις",
+      "by": "από",
+      "assets": "Ενεργητικό",
+      "downloadAsset": "Λήψη",
+      "noAssets": "Δεν υπάρχουν διαθέσιμα στοιχεία",
+      "preRelease": "Προ-έκδοση",
+      "latest": "Τελευταία",
+      "draft": "Πρόχειρο"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Δεν βρέθηκαν εκδόσεις",
+      "description": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας για να βρείτε αυτό που ψάχνετε.",
+      "clearFilters": "Εκκαθάριση Φίλτρων"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "Φόρτωση εκδόσεων...",
+      "description": "Λήψη των τελευταίων ενημερώσεων από τα αποθετήριά μας."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Αποτυχία φόρτωσης εκδόσεων",
+      "description": "Παρουσιάστηκε σφάλμα κατά την ανάκτηση εκδόσεων. Παρακαλώ προσπαθήστε ξανά αργότερα.",
+      "retry": "Δοκιμάστε Ξανά"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Σύνολο Εκδόσεων",
+      "repositories": "Χώροι Αποθήκευσης",
+      "latestUpdate": "Τελευταία Ενημέρωση"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Προβολή Όλων Των Εκδόσεων",
+    "showMore": "Εμφάνιση Περισσότερων",
+    "showLess": "Εμφάνιση Λιγότερων",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "Προηγούμενο",
+      "next": "Επόμενο",
+      "page": "Σελίδα",
+      "of": "από"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Αντιγραφή συνδέσμου",
+    "linkCopied": "Ο σύνδεσμος αντιγράφηκε!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "Γνωσιακή Βάση",
+    "description": "Βρείτε απαντήσεις, οδηγούς και οδηγούς για να σας βοηθήσει να αξιοποιήσετε στο έπακρο την εμπειρία σας NodeByte.",
+    "searchPlaceholder": "Αναζήτηση βάσης γνώσης...",
+    "browseByCategory": "Αναζήτηση ανά κατηγορία",
+    "recentlyUpdated": "Πρόσφατα Ενημερώθηκε",
+    "articles": "Άρθρα",
+    "minRead": "λεπτά ανάγνωσης",
+    "updated": "Ενημερώθηκε",
+    "onThisPage": "Σε αυτή τη σελίδα",
+    "backTo": "Πίσω σε",
+    "previous": "Προηγούμενο",
+    "next": "Επόμενο",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Δεν βρέθηκαν αποτελέσματα",
+      "description": "Δοκιμάστε διαφορετικές λέξεις-κλειδιά ή περιηγηθείτε σε κατηγορίες",
+      "forQuery": "Δεν βρέθηκαν αποτελέσματα για"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Δεν υπάρχουν άρθρα ακόμα",
+      "description": "Αυτή η κατηγορία δεν έχει ακόμα κανένα άρθρο. Ελέγξτε ξανά σύντομα!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Ακόμα χρειάζεται βοήθεια?",
+      "description": "Δεν μπορείτε να βρείτε αυτό που ψάχνετε? Είμαστε εδώ για να βοηθήσουμε.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Κοινότητα Discord",
+        "description": "Γίνετε μέλος του Discord για ζωντανή υποστήριξη και κοινοτική βοήθεια.",
+        "button": "Συμμετοχή Στο Discord"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Αίτημα Υποστήριξης",
+        "description": "Ανοίξτε ένα εισιτήριο υποστήριξης για ζητήματα λογαριασμού ή χρέωσης.",
+        "button": "Άνοιγμα Αιτήματος"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "Συχνές",
+        "description": "Ελέγξτε τις συχνές ερωτήσεις μας για γρήγορες απαντήσεις.",
+        "button": "Δείτε Τις Συχνές Ερωτήσεις"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Αναζήτηση Γνωσιακής Βάσης",
+      "button": "Αναζήτηση"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "toggle": "Άνοιγμα μενού θέματος",
+    "appearance": "Εμφάνιση",
+    "light": "Φωτεινό",
+    "dark": "Σκοτεινό",
+    "system": "Σύστημα",
+    "coolTones": "Ψυχρός Τόνος",
+    "warmTones": "Ζεστός Τόνος",
+    "nature": "Φύση",
+    "slate": "Πλασμός",
+    "midnight": "Μεσάνυχτα",
+    "ocean": "Ωκεανός",
+    "forest": "Δάσος",
+    "sunset": "Ήλιος",
+    "rose": "Τριαντάφυλλο",
+    "amber": "Κεχριμπάρι",
+    "emerald": "Σμαράγδι",
+    "teal": "Τιρκουάζ",
+    "sky": "Ουρανός",
+    "violet": "Βιολετί"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "Φιλοξενία Διακομιστή Παιχνιδιών",
+    "description": "Υψηλής απόδοσης server παιχνίδι φιλοξενίας με άμεση ρύθμιση, ισχυρό πίνακα ελέγχου, και 24/7 υποστήριξη εμπειρογνωμόνων.",
+    "startingAt": "Έναρξη στις"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
+    "loading": "Φόρτωση",
+    "pagination": "σελιδοποίηση",
+    "previous": "Προηγούμενο",
+    "next": "Επόμενο",
+    "morePages": "Περισσότερες σελίδες",
+    "previousSlide": "Προηγούμενη διαφάνεια",
+    "nextSlide": "Επόμενη διαφάνεια",
     "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "more": "Περισσότερα",
+    "toggleSidebar": "Εναλλαγή πλευρικής μπάρας",
+    "goToSlide": "Πηγαίνετε στο slide"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "Σχετικά Με NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Κατασκευασμένο από παίκτες,",
+      "titleHighlight": "για παίκτες",
+      "description": "Η NodeByte ξεκίνησε ως μια μικρή ομάδα gamers και ops engineers που ήθελαν φιλοξενία που ήταν γρήγορη, αξιόπιστη και εύκολη στη διαχείριση. Σήμερα, τροφοδοτούμε τους διακομιστές παιχνιδιών παγκοσμίως.",
+      "joinCommunity": "Γίνετε Μέλος Της Κοινότητάς Μας",
+      "contactUs": "Επικοινωνήστε Μαζί Μας"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Η Ιστορία Μας",
+      "title": "Πώς Ξεκίνησε Όλα",
+      "paragraph1": "Η NodeByte γεννήθηκε από απογοήτευση. Ως άπληστοι gamers οι ίδιοι, βιώσαμε από πρώτο χέρι τον πόνο των laggy servers, ανεύθυνη υποστήριξη και σύνθετους πίνακες ελέγχου που έκαναν τη διαχείριση του server εφιάλτη.",
+      "paragraph2": "Το 2024, αποφασίσαμε ότι ήταν αρκετό. Συγκεντρώσαμε μια ομάδα παθιασμένων gamers και έμπειρων μηχανικών ops με έναν στόχο: χτίσουμε την πλατφόρμα φιλοξενίας παιχνιδιών που ανέκαθεν επιθυμούσαμε.",
+      "paragraph3": "Σήμερα, NodeByte δυνάμεις διακομιστές παιχνιδιών σε όλο τον κόσμο. Αλλά η αποστολή μας παραμένει η ίδια: κάνει το παιχνίδι διακομιστή φιλοξενίας γρήγορη, αξιόπιστη και προσιτή σε όλους."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Οι Τιμές Μας",
+      "title": "Τι Είμαστε",
+      "titleHighlight": "Στάση Για",
+      "description": "Οι βασικές αξίες μας καθοδηγούν ό,τι κάνουμε, από τις αποφάσεις υποδομής έως την υποστήριξη πελατών.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Χτισμένο για παίκτες",
+        "description": "Η υποδομή μας δίνει προτεραιότητα στη δρομολόγηση χαμηλής καθυστέρησης, την προβλέψιμη απόδοση, και την ισχυρή ώρα λειτουργίας, έτσι ώστε οι κοινότητές σας να μένουν online και να ανταποκρίνονται."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Υποστήριξη Κοινότητας & Mod",
+        "description": "Απρόσκοπτη εγκατάσταση mod, υποστήριξη στιγμιότυπου και εργαλεία κοινότητας για να σας βοηθήσει να εκτελέσετε modded κόσμους και επίμονες διακομιστές με ελάχιστη προσπάθεια."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Άνοιγμα από το σχεδιασμό",
+        "description": "Εκτιμούμε τη διαφάνεια από τις σαφείς δεσμεύσεις SLA για το άνοιγμα εργαλείων. Η πλατφόρμα μας παρέχει APIs και ενοποιήσεις για την αυτοματοποίηση ροών εργασίας του διακομιστή."
       }
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "latency": "Μέση Καθυστέρηση",
+      "support": "Υποστήριξη",
+      "servers": "Ενεργοί Διακομιστές"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "Το Ταξίδι Μας",
+      "title": "Ένα Σύντομο",
+      "titleHighlight": "Ιστορικό",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "NodeByte Ιδρύθηκε",
+        "description": "Ξεκίνησε ως ένα μικρό έργο από gamers που ήθελαν καλύτερες επιλογές φιλοξενίας για τις κοινότητές τους."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Ταχεία Ανάπτυξη",
+        "description": "Διευρυμένη υποδομή με τη συνεργασία FyfeWeb, προσθέτοντας την προστασία των επιχειρήσεων DDoS και τα data centers."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Παγκόσμια Επέκταση",
+        "description": "Ξεκίνησε νέες υπηρεσίες, βελτιώθηκε ο πίνακας ελέγχου και συνέχισε να αναπτύσσει την παγκόσμια κοινότητά μας."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "Η Ομάδα Μας",
+      "title": "Γνωρίστε το",
+      "titleHighlight": "Ομάδα",
+      "description": "Οι παθιασμένοι άνθρωποι πίσω από το NodeByte που εργάζονται ακούραστα για να προσφέρουν την καλύτερη εμπειρία φιλοξενίας.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Ιδρυτής & Επικεφαλής Προγραμματιστής"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Full-stack προγραμματιστής και gaming ενθουσιώδης χτίζοντας την υποδομή που τροφοδοτεί NodeByte."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Έτοιμο για να ξεκινήσει?",
+      "description": "Συμμετοχή σε χιλιάδες κοινότητες τυχερών παιχνιδιών που εμπιστεύονται NodeByte για τις ανάγκες φιλοξενίας του διακομιστή τους.",
+      "getStarted": "Προβολή Διακομιστών Παιχνιδιών",
+      "joinDiscord": "Συμμετοχή Στο Discord"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Η Σελίδα Δεν Βρέθηκε",
+    "description": "Η σελίδα που ψάχνετε δεν υπάρχει ή έχει μετακινηθεί. Ας σας επαναφέρουμε στο κομμάτι.",
+    "goHome": "Μετάβαση Στην Αρχική",
+    "goBack": "Μετάβαση Πίσω",
+    "quickLinks": "Γρήγοροι Σύνδεσμοι",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "Αρχική",
+      "games": "Παιχνίδια",
+      "kb": "Γνωσιακή Βάση",
+      "contact": "Επικοινωνία"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Κάτι Πήγε Λάθος",
+    "description": "Αντιμετωπίσαμε ένα απρόσμενο σφάλμα. Μην ανησυχείτε, η ομάδα μας ενημερώθηκε και εργάζεται πάνω σε αυτό.",
+    "errorCode": "Κωδικός Σφάλματος",
+    "tryAgain": "Δοκιμάστε Ξανά",
+    "goHome": "Μετάβαση Στην Αρχική",
+    "needHelp": "Χρειάζεστε Βοήθεια?",
+    "helpDescription": "Εάν αυτό το σφάλμα παραμένει, παρακαλούμε απευθυνθείτε στην ομάδα υποστήριξης.",
+    "joinDiscord": "Συμμετοχή Στο Discord",
+    "contactSupport": "Υποστήριξη Επαφής"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
+      "title": "Είσοδος",
+      "description": "Συνδεθείτε με το λογαριασμό σας NodeByte για να συνεχίσετε.",
+      "emailLabel": "Διεύθυνση Email",
       "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "passwordLabel": "Κωδικός",
+      "passwordPlaceholder": "Εισάγετε τον κωδικό σας",
+      "loginButton": "Είσοδος",
+      "loggingIn": "Γίνεται σύνδεση...",
+      "forgotPassword": "Ξεχάσατε τον κωδικό σας?",
+      "noAccount": "Δεν έχετε λογαριασμό?",
+      "createAccount": "Δημιουργία ενός",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "Μη έγκυρο email ή κωδικός πρόσβασης. Παρακαλώ προσπαθήστε ξανά.",
+        "networkError": "Σφάλμα δικτύου. Παρακαλώ ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
+        "generic": "Παρουσιάστηκε σφάλμα κατά τη διάρκεια της σύνδεσης. Παρακαλώ προσπαθήστε ξανά."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
+      "title": "Δημιουργία Λογαριασμού",
+      "description": "Εγγραφείτε για να αποκτήσετε πρόσβαση στους διακομιστές και τις υπηρεσίες σας.",
+      "emailLabel": "Διεύθυνση Email",
       "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "passwordLabel": "Κωδικός",
+      "passwordPlaceholder": "Δημιουργία κωδικού πρόσβασης",
+      "confirmPasswordLabel": "Επιβεβαίωση Κωδικού Πρόσβασης",
+      "confirmPasswordPlaceholder": "Επιβεβαιώστε τον κωδικό σας",
+      "registerButton": "Δημιουργία Λογαριασμού",
+      "registering": "Δημιουργία λογαριασμού...",
+      "alreadyHaveAccount": "Έχετε ήδη λογαριασμό?",
+      "signIn": "Σύνδεση",
+      "panelAccountRequired": "Απαιτείται Παλιός Λογαριασμός Πίνακα",
+      "panelAccountRequiredDescription": "Ενώ εργαζόμαστε για να μεταναστεύσουμε μακριά από τα παλιά μας συστήματα, πρέπει να έχετε έναν υπάρχοντα λογαριασμό στον πίνακα παιχνιδιών μας για να εγγραφείτε. Οι λογαριασμοί πίνακα δημιουργούνται όταν αγοράζετε μια υπηρεσία μέσω του συστήματος χρέωσής μας.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "Υπάρχει ήδη λογαριασμός με αυτό το email.",
+        "notInPanel": "Δεν βρέθηκε λογαριασμός πίνακα παιχνιδιών με αυτό το email. Παρακαλώ αγοράστε μια υπηρεσία για να δημιουργήσετε έναν λογαριασμό πίνακα.",
+        "panelAccountLinked": "Αυτός ο λογαριασμός πάνελ είναι ήδη συνδεδεμένος με άλλο λογαριασμό NodeByte.",
+        "passwordsDontMatch": "Οι κωδικοί πρόσβασης δεν ταιριάζουν.",
+        "passwordTooShort": "Ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον 8 χαρακτήρες.",
+        "invalidEmail": "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.",
+        "networkError": "Σφάλμα δικτύου. Παρακαλώ ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
+        "generic": "Παρουσιάστηκε σφάλμα κατά την εγγραφή. Παρακαλώ προσπαθήστε ξανά."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Ο Λογαριασμός Δημιουργήθηκε!",
+        "description": "Ο λογαριασμός σας δημιουργήθηκε επιτυχώς. Μπορείτε τώρα να εισέλθετε."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Σφάλμα Ταυτοποίησης",
+      "description": "Υπήρξε ένα πρόβλημα κατά την υπογραφή σας.",
+      "configuration": "Υπάρχει ένα σφάλμα ρύθμισης παραμέτρων με το σύστημα ελέγχου ταυτότητας.",
+      "accessDenied": "Δεν έχετε δικαίωμα πρόσβασης σε αυτόν τον πόρο.",
+      "verification": "Ο σύνδεσμος σύνδεσης δεν είναι πλέον έγκυρος.",
+      "default": "Παρουσιάστηκε μη αναμενόμενο σφάλμα κατά τη διάρκεια της σύνδεσης.",
+      "credentialsSignin": "Μη έγκυρα διαπιστευτήρια. Παρακαλώ ελέγξτε το email και τον κωδικό πρόσβασής σας.",
+      "tryAgain": "Δοκιμάστε Ξανά",
+      "goHome": "Μετάβαση Στην Αρχική"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "Ο Λογαριασμός Μου",
+      "viewPanel": "Προβολή Πίνακα",
+      "admin": "Διαχειριστής",
+      "logout": "Αποσύνδεση",
+      "signIn": "Είσοδος",
+      "loggingOut": "Αποσύνδεση..."
     }
   },
   "admin": {
-    "title": "Admin Panel",
+    "title": "Πίνακας Διαχειριστή",
     "nav": {
-      "dashboard": "Dashboard",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
-      "settings": "Settings"
+      "dashboard": "Ταμπλό",
+      "users": "Χρήστες",
+      "servers": "Διακομιστές",
+      "sync": "Συγχρονισμός",
+      "settings": "Ρυθμίσεις"
     },
     "status": {
-      "online": "System Online"
+      "online": "Συνδεδεμένο Σύστημα"
     },
     "dashboard": {
-      "title": "Dashboard",
-      "description": "Overview of your Pterodactyl panel data and sync status."
+      "title": "Ταμπλό",
+      "description": "Επισκόπηση των δεδομένων του πίνακα Pterodactyl και κατάσταση συγχρονισμού."
     },
     "stats": {
-      "users": "Total Users",
+      "users": "Σύνολο Χρηστών",
       "migratedCount": "{count} migrated",
-      "servers": "Servers",
+      "servers": "Διακομιστές",
       "nodes": "Nodes",
-      "locations": "Locations",
-      "allocations": "Allocations",
-      "nests": "Nests",
-      "eggs": "Eggs",
-      "eggVariables": "Egg Variables",
-      "databases": "Databases"
+      "locations": "Τοποθεσίες",
+      "allocations": "Κατανομές",
+      "nests": "Φωλιά",
+      "eggs": "Αυγά",
+      "eggVariables": "Μεταβλητές Αυγών",
+      "databases": "Βάσεις δεδομένων"
     },
     "sync": {
-      "status": "Sync Status",
-      "lastSync": "Last sync",
-      "never": "Never",
-      "idle": "Idle",
-      "syncing": "Syncing...",
-      "inProgress": "Sync in Progress",
+      "status": "Κατάσταση Συγχρονισμού",
+      "lastSync": "Τελευταίος συγχρονισμός",
+      "never": "Ποτέ",
+      "idle": "Αδρανής",
+      "syncing": "Συγχρονισμός...",
+      "inProgress": "Συγχρονισμός σε εξέλιξη",
       "syncingTarget": "Syncing {target} data from panel...",
       "complete": "complete",
-      "runFull": "Run Full Sync",
-      "success": "Sync Completed",
+      "runFull": "Εκτέλεση Πλήρους Συγχρονισμού",
+      "success": "Ο Συγχρονισμός Ολοκληρώθηκε",
       "completed": "Successfully synced {target} data.",
-      "error": "Sync Failed",
-      "quickActions": "Quick Sync Actions",
-      "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
+      "error": "Αποτυχία Συγχρονισμού",
+      "quickActions": "Ενέργειες Γρήγορου Συγχρονισμού",
+      "quickActionsDescription": "Συγχρονισμός μεμονωμένων τύπων δεδομένων από τον πίνακα Pterodactyl.",
       "targets": {
-        "locations": "Locations",
+        "locations": "Τοποθεσίες",
         "nodes": "Nodes",
-        "allocations": "Allocations",
-        "nests": "Nests & Eggs",
-        "servers": "Servers",
-        "databases": "Databases",
-        "users": "Users"
+        "allocations": "Κατανομές",
+        "nests": "Φωλιές & Αυγά",
+        "servers": "Διακομιστές",
+        "databases": "Βάσεις δεδομένων",
+        "users": "Χρήστες"
       }
     },
     "actions": {
-      "refresh": "Refresh"
+      "refresh": "Ανανέωση"
     },
     "error": {
-      "title": "Error",
-      "unauthorized": "You are not authorized to access this page.",
-      "forbidden": "Admin access required."
+      "title": "Σφάλμα",
+      "unauthorized": "Δεν είστε εξουσιοδοτημένοι να έχετε πρόσβαση σε αυτή τη σελίδα.",
+      "forbidden": "Απαιτείται πρόσβαση διαχειριστή."
     }
   }
 }
