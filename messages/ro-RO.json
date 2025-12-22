@@ -1,960 +1,1022 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Companie",
+    "services": "Servicii",
+    "resources": "Resurse",
     "extras": "Extras",
     "contact": "Contact",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "joinDiscord": "Alătură-te Discord nostru",
+    "theme": "Tema",
+    "currency": "Monedă",
+    "language": "Limba",
+    "settings": "Setări",
+    "menu": "Meniu"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Contactează-ne",
+      "description": "Luați legătura cu echipa noastră"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "Despre noi",
+      "description": "Află mai multe despre NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Găzduire Minecraft",
+      "description": "Servere Minecraft cu configurare instantă"
     },
     "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "title": "Găzduire cu Rust",
+      "description": "Resetare servere cu protecție DDoS"
     },
     "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "title": "Găzduire Hytale",
+      "description": "Servere de istorii cu protecție DDoS"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Toate serviciile",
+      "description": "Explorează toate serviciile noastre de găzduire"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Zona clientului",
+      "description": "Gestionați facturarea, facturile și setările contului"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Panou de jocuri",
+      "description": "Controlează serverele de jocuri cu panoul nostru"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "Baza de cunoștințe",
+      "description": "Ghiduri, tutoriale și documentație"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Ce este nou",
+      "description": "Ultimele actualizări și caracteristici"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "UTILIZAȚI COD",
+      "suffix": "ÎN PRIMELE DUMNEAVOASTRĂ!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Găzduirea jocului",
+    "titleHighlight": "Făcut simplu",
+    "description": "Găzduire rapidă, fiabilă și sigură pentru comunitățile tale de jocuri. Lansează servere dedicate cu configurare instantanee, protecție DDoS și suport 24/7.",
+    "getStarted": "Începeți",
+    "joinDiscord": "Alătură-te Discord",
+    "trustedBy": "Încrederea comunităţilor de jocuri din întreaga lume",
+    "trustpilotReviews": "Recenzii Trustpilot",
     "stats": {
-      "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptime": "Actualizare SLA",
+      "uptimeDesc": "Concedierea întreprinderilor pentru a-ți păstra serverele online.",
+      "ping": "Ping mediu",
+      "pingDesc": "Rutare optimizată pentru jocul de latență scăzută.",
+      "support": "Suport",
+      "supportDesc": "Expertul este de ajutor cu operele de instalare, mod-uri și server."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Infrastructură",
+    "title": "Construit pentru",
+    "titleHighlight": "Performanță",
+    "description": "Infrastructură la nivel de întreprindere cu unelte prietenoase cu gama. Servere instante, rutare cu latență redusă și controale puternice.",
+    "viewPlans": "Vezi planurile de găzduire",
+    "startingFrom": "Pornind de la",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "Protecție DDoS",
+        "description": "Combaterea gradului de întreprinderi alimentată de FyfeWeb cu spălare automată pentru a ține serverele online sub atac.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "Protecție prin rețea FyfeWeb",
+          "1": "Reducere automată",
+          "2": "Monitorizarea în timp real"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Rețea de latență redusă",
+        "description": "Rute optimizate prin intermediul rețelei britanice a FyfeWeb-ului cu POP-uri din Londra pentru ping minim.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Sub-50ms latență medie",
+          "1": "Rutare cu sediul în Regatul Unit",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Configurare instantanee",
+        "description": "Șabloane server cu un singur clic, instalare mod automat și aprovizionare rapidă.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 de secunde de desfășurare",
+          "1": "Șabloane pre-construite",
+          "2": "Configurare automată"
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "title": "Centre de date din UK",
+        "description": "Situat strategic în Regatul Unit, cu POP londoneze alimentate de FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "POP-uri din Londra",
+          "1": "Rețea FyfeWeb",
+          "2": "Latență scăzută acoperire Marea Britanie"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Panou de control",
+        "description": "O interfață puternică pentru accesul la consolă, gestionarea fișierelor, copii de rezervă și măsurători.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "Consolă live",
+          "1": "Manager fişiere",
+          "2": "Sarcini programate"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "Suport 24/7",
+        "description": "Asistență umană pentru prima dată, cu canale disponibile oricând pentru instalare și depanare.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Suport Discord",
+          "1": "Sistem tichet",
+          "2": "Baza de cunoștințe"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Povestea noastră",
+    "title": "Construit de Jocuri,",
+    "titleHighlight": "pentru Jocuri",
+    "paragraph1": "NodeByte a început ca un mic grup de ingineri de gameri şi de opere, care doreau găzduire rapidă, fiabilă şi uşor de gestionat. Am experimentat frustrarea serverelor friguroase și suportul personal fără reacție.",
+    "paragraph2": "De aceea am construit o infrastructură adaptată special pentru jocurile multiplayer: rutare cu latență scăzută, Protecție DDoS robustă, și provizii pentru serverul instantaneu, astfel încât să puteți juca repede.",
+    "joinCommunity": "Alătură-te comunității noastre",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Construit pentru jucători",
+        "description": "Infrastructura noastră acordă prioritate rutării cu latență scăzută, performanțelor previzibile și uptime-ului puternic, astfel încât comunitățile tale să rămână online și receptive."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Suport Comunitate & Mod",
+        "description": "Instalează mod fără probleme, suport instantaneu și instrumente comunitare pentru a te ajuta să rulezi lumi modificate și servere persistente cu efort minim."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Deschide prin Design",
+        "description": "Apreciem transparența din angajamente clare SLA pentru a deschide instrumente. Platforma noastră oferă API-uri și integrări pentru a automatiza fluxurile de lucru ale serverului."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "Actualizare SLA",
+      "latency": "Latență medie",
+      "support": "Suport",
+      "servers": "Servere active"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Prețuri",
+    "title": "Planuri de server",
+    "description": "Planuri flexibile pentru a se potrivi nevoilor tale. Toate planurile includ protecție DDoS, configurare instantă și suport 24/7.",
+    "getStarted": "Începeți",
+    "viewAllPlans": "Vezi toate planurile",
+    "comingSoon": "Prețurile urmează în curând",
+    "comingSoonDescription": "Lucrăm pentru a îți aduce cea mai bună experiență de găzduire. Alătură-te Discord nostru pentru a fi notificat când lansă!",
+    "joinDiscord": "Alătură-te Discord",
+    "mostPopular": "Cele mai populare",
+    "customSolution": "Ai nevoie de o soluție personalizată sau ai întrebări?",
+    "contactUs": "Contactați-ne",
+    "perMonth": "lună"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "Întrebări",
+    "title": "Întrebat frecvent",
+    "titleHighlight": "Întrebări",
+    "description": "Răspunsuri rapide despre găzduirea NodeByte, performanță și suport.",
+    "searchPlaceholder": "Caută întrebări...",
+    "noResults": "Niciun rezultat găsit. Încearcă să cauți \"DDoS\", \"mods\", sau \"SLA\".",
+    "stillHaveQuestions": "Mai aveți întrebări?",
+    "cantFind": "Nu găsești ce cauți? Echipa noastră de asistență este aici pentru a te ajuta.",
+    "contactSupport": "Contactați asistența",
+    "joinDiscord": "Alătură-te Discord",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Cât de repede pot furniza un server?",
+        "answer": "Cele mai multe șabloane preconstruite de server în mai puțin de 60 de secunde. Configurări personalizate cu moduri mari pot dura mai mult în funcție de timpul de instalare a modului."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Oferiţi protecţie DDoS?",
+        "answer": "Da, toate planurile includ DDoS de grad de întreprindere alimentat de FyfeWeb. POP-urile noastre de la Londra oferă filtrare automată și descompunere la marginea rețelei."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Unde sunt localizate centrele dvs. de date?",
+        "answer": "Operăm centre de date cu sediul în Regatul Unit cu POP londoneze alimentate de partenerul nostru de rețea FyfeWeb, oferind o acoperire excelentă în Regatul Unit și în Europa."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Pot rula mod-uri și hărți personalizate?",
+        "answer": "Da, panoul nostru de control și șabloanele suportă încărcătoare comune de mod (Forge, Fabricare) și încărcări de hartă personalizată. Suport de mod gestionat este disponibil în planurile selectate."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Care este uptime SLA?",
+        "answer": "Oferim un SLA de 99,6% pentru planurile de producţie. Vezi termenii noştri pentru detalii şi criterii de eligibilitate."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Pot avea parte de un proces înainte de a mă angaja?",
+        "answer": "Da, oferim teste gratuite noilor utilizatori pentru a testa serviciile noastre înainte de a face un angajament. Vizitați pagina noastră gratuită de testare pentru a vedea opțiunile disponibile.",
+        "trialLink": "Începe testarea gratuită"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "Servere de joc",
+    "title": "Alege-ți",
+    "titleHighlight": "Joc",
+    "description": "Servere de joc puternice, cu latență scăzută. Configurare instantanee, panou de control intuitiv și suport 24/7.",
+    "viewPlans": "Vizualizare planuri",
+    "learnMore": "Află mai multe",
+    "comingSoon": "În curând",
+    "customSolution": "Ai nevoie de un server de joc care să nu fie listat?",
+    "contactUs": "Contactați-ne",
+    "forCustom": "pentru soluţii personalizate.",
+    "hosting": "Găzduire",
+    "joinWaitlist": "Alătură-te listei de așteptare",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Serverele Java & Bedrock cu un singur click încărcătoare, plugin-uri și suport pentru versiunea completă.",
+      "tag": "Cele mai populare",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Suport Forge & Tesatura",
+        "1": "Gestionarea plugin-urilor",
+        "2": "Backup-uri automate",
+        "3": "Încărcări JAR personalizate"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Perfect pentru servere mici și testare"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "Amortizor",
+          "description": "Grozav pentru comunitățile în creștere"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "name": "Infern",
+          "description": "Ideal pentru comunități mijlocii"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount} GB de stocare",
+        "databases": "10 Baze de date MySQL",
+        "ddos": "Protecție FyfeWeb DDoS",
+        "panel": "Panou",
+        "jars": "Borcane auto/preinstalate",
+        "uptime": "SLA de uptime 99,6%"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "Încărcători pentru un singur clic",
+          "description": "Instalează Forge, Fabric, Hârtie, Spigot și multe altele cu un singur clic din panoul nostru de control.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Suport Forge & Tesatura",
+            "1": "Servere de hartie si Spigot",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Încărcări JAR personalizate"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Hardware de înaltă performanță",
+          "description": "Procesoare AMD Ryzen de grad al întreprinderilor cu stocare NVMe pentru determinarea performanţei rapide.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 procesoare",
+            "1": "Stocare SSD NVMe",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Până la viteza ceasului de 4,8GHz"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "Protecție DDoS",
+          "description": "Reducere DDoS de nivel Enterprise alimentat de FyfeWeb vă păstrează serverul online chiar și în timpul atacurilor.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "0": "Protecție nivel 3/4/7",
+            "1": "Filtrare rețea FyfeWeb",
+            "2": "Reducere zero în timp",
+            "3": "POP-uri din Marea Britanie"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Configurare instantanee",
+          "description": "Serverul tău este instalat în câteva secunde. Începe să joci imediat după cumpărare.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Furnizare automată",
+            "1": "Setări pre-configurate",
+            "2": "Gata în mai puțin de 60 de secunde",
+            "3": "Nu sunt necesare cunoștințe tehnice"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Acces complet FTP",
+          "description": "Acces complet la fișiere prin FTP/SFTP. Încărcați lumi, plugin-uri și configurații cu ușurință.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "Acces fișier SFTP",
+            "1": "Manager de fişiere web",
+            "2": "Trageți și plasați încărcările",
+            "3": "Backup-uri automate"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Sloturi nelimitate",
+          "description": "Fără limite de jucători artificiali. Găzduiește cât de mulți jucători se pot descurca hardware-ul.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Fără restricții de sloturi",
+            "1": "Resurse scalabile",
+            "2": "Actualizați oricând",
+            "3": "Alocarea corectă a resurselor"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Ce versiuni de Minecraft susține?",
+          "answer": "Suportăm toate versiunile de Minecraft de la 1.7.10 la ultima versiune, inclusiv instantanee. Atât serverele Java Edition cât și Bedrock Edition sunt disponibile."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Pot instala mod-uri şi plugin-uri?",
+          "answer": "Da! Sprijinim toate încărcătoarele majore de moduri, inclusiv Forge, Fabric, şi NeoForge. Pentru plugin-uri, oferim suport pentru Hârtie, Spigot, Bukkit și Purpur. De asemenea, puteți încărca JAR-uri personalizate."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Cum pot încărca lumea mea existentă?",
+          "answer": "Puteți încărca fișierele lumii prin intermediul managerului nostru de fișiere web sau prin SFTP. Trageți și plasați folderul lumii dvs. și acesta va fi gata de utilizare."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Există o limită pentru jucători?",
+          "answer": "Nu, nu impunem limite pentru jucători artificiali. Serverul tău poate găzdui cât de mulți jucători se pot descurca resursele alocate."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Pot actualiza planul mai târziu?",
+          "answer": "Absolut! Puteți să vă actualizați sau să vă retrogradați planul în orice moment din panoul de facturare. Modificările intră în vigoare imediat fără downtime."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Oferiți rambursări?",
+          "answer": "Da, oferim o garanție de returnare a banilor de 48 de ore pentru toate cumpărăturile noi. Dacă nu ești mulțumit, contactează suportul pentru o rambursare completă."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "Server Rust de înaltă performanţă, care găzduieşte cu suport Oxid/uMod şi opţiuni personalizate pentru hartă.",
+      "tag": "Performanță ridicată",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Suport oxid/uMod",
+        "1": "Hărți personalizate",
+        "2": "Ştergeţi programatorul",
+        "3": "Acces RCON"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Continuare",
+          "description": "Recomandat pentru 40 de jucători"
         },
         "standard": {
           "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "description": "Recomandat pentru 75 de jucători"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Performanță",
+          "description": "Recomandat pentru 100 de jucători"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "{amount}GB de stocare SSD",
+        "ddos": "Protecție FyfeWeb DDoS",
+        "location": "Newcastle, Marea Britanie",
+        "databases": "10 Baze de date MySQL",
+        "panel": "Panou BytePanel (Game)",
+        "oxide": "Oxid/Umod suportat",
+        "rustplus": "Rust+ suportat",
+        "uptime": "SLA de uptime 99,6%"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Suport oxid/uMod",
+          "description": "Suport complet pentru plugin-urile Oxide și uMod. Instalați și gestionați plugin-urile direct din panoul de control.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Instalare O1 click Oxide",
+            "1": "Manager plugin-uri",
+            "2": "Actualizări automate disponibile",
+            "3": "Gestionare permisiuni"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Hărţi personalizate",
+          "description": "Folosește hărțile generate procedural sau încarcă propriile hărți personalizate. Suport pentru personalizarea hărții.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "Generare procedurală",
+            "1": "Încărcare hartă personalizată",
+            "2": "Control dimensiune hartă",
+            "3": "Personalizarea Seed-ului"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Performanță ridicată",
+          "description": "Trebuie să cerem echipamente puternice. Serverele noastre folosesc ultimele procesoare AMD Ryzen şi stocarea NVMe.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 procesoare",
+            "1": "Stocare SSD NVMe",
+            "2": "Performanță unică temă mare",
+            "3": "Rețele de joasă latență"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "Protecție DDoS",
+          "description": "Reducerea DDoS la nivel de întreprindere a FyfeWeb-ului prin intermediul POP-urilor UK din Londra vă protejează serverul de atacurile 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
+            "0": "Filtrare rețea FyfeWeb",
+            "1": "POP-uri din Marea Britanie",
+            "2": "Protecție nivel 3/4/7",
             "3": "Zero downtime"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Curăță Planificator",
+          "description": "Ștergeți automat programarea pentru a păstra serverul proaspăt. Configurați săptămânal, bi-săptămânal sau ștergerile lunare.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Ștergeri automate",
+            "1": "Opțiuni de ștergere a planului",
+            "2": "Planificare ștergere hartă",
+            "3": "Notificări Discord"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Acces complet RCON",
+          "description": "Acces la consolă completă pentru managementul serverului. Execută comenzi de oriunde.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "RCON web",
+            "1": "Programarea comenzilor",
+            "2": "Administrarea jucătorului",
+            "3": "Jurnale în timp real"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Susțineți plugin-urile Oxide/uMod?",
+          "answer": "Da! Susținem pe deplin Oxidul și uMod. Puteți instala Oxide cu un singur clic din panoul nostru de control și să gestionați plugin-urile prin intermediul managerului nostru de plugin-uri sau prin FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Pot folosi hărți personalizate?",
+          "answer": "Absolut! Puteţi utiliza hărţi generate procedural cu seed-uri şi mărimi personalizate, sau încărcaţi propriile fişiere de hartă personalizate prin FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Cum funcționează ștergerea programatorului?",
+          "answer": "Programul nostru de formatare vă permite să automatizați ștergerile serverului pe un program pe care îl alegeți. Poți configura ștergeri numai pentru hartă sau ștergeri complete pentru schițe și opțional să trimiți notificări Discord."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Care este rata de selectare a serverului?",
+          "answer": "Serverele noastre Rust rulează la valoarea implicită de 30 tick-uri. Hardware-ul nostru de înaltă performanță asigură o performanță constantă chiar și cu mulți jucători online."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Pot accesa RCON?",
+          "answer": "Da, obții acces complet la RCON. Poți folosi consola RCON pe web sau să te conectezi cu orice client RCON standard."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Suporta servere modificate?",
+          "answer": "Da, suportăm servere de vanilie și Rust moded. Instalează Oxide și adaugă orice plugin-uri de care ai nevoie pentru a crea experiența ta modulată perfectă."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Hytale server găzduiește în curând! Alătură-te Discord nostru pentru a obține acces timpuriu și actualizări.",
+      "tag": "În dezvoltare",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Suport mod",
+        "1": "Hărți personalizate",
+        "2": "Configurare ușoară",
+        "3": "Suport 24/7"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "Caracteristici",
+      "title": "De ce să ne alegem",
+      "titleSuffix": "Găzduire",
+      "description": "Infrastructură la nivel de întreprindere concepută special pentru serverele {game}."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "Prețuri",
+      "title": "Planuri de server",
+      "description": "Planuri flexibile pentru a se potrivi nevoilor tale. Toate planurile includ protecție DDoS, configurare instantă și suport 24/7.",
+      "comingSoon": "Prețurile urmează în curând",
+      "comingSoonDesc": "Lucrăm pentru a îți aduce cea mai bună experiență de găzduire {game} . Alătură-te Discord nostru pentru a fi notificat când lansă!",
+      "joinDiscord": "Alătură-te Discord",
+      "mostPopular": "Cele mai populare",
+      "getStarted": "Începeți",
+      "viewAllPlans": "Vezi toate planurile",
+      "customSolution": "Ai nevoie de o soluție personalizată sau ai întrebări?",
+      "contactUs": "Contactați-ne"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "badge": "Întrebări",
+      "title": "Întrebări",
+      "description": "Întrebări frecvente despre serviciul nostru de găzduire {game}.",
+      "stillHaveQuestions": "Mai aveți întrebări?",
+      "supportAvailable": "Echipa noastră de suport este disponibilă 24/7 pentru a vă ajuta cu orice întrebări.",
+      "askOnDiscord": "Întreabă pe Discord",
+      "contactSupport": "Contactați asistența"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Alătură-te listei de așteptare",
+      "viewPlans": "Vizualizare planuri",
+      "learnMore": "Află mai multe",
+      "comingSoon": "În curând",
+      "joinDiscordForUpdates": "Alătură-te Discord pentru actualizări"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
+    "badge": "Intră în atingere",
     "title": "Contact",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "Suntem aici să ajutăm 24/7. Ajută prin oricare dintre canalele noastre de suport şi te vom contacta cât mai curând posibil.",
+    "supportChannels": "Suport canale",
+    "copied": "Copiat!",
+    "copiedDesc": "Adresa de e-mail copiată în clipboard",
+    "copyFailed": "Copiere eșuată",
+    "copyFailedDesc": "Copierea în clipboard a eșuat",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Comunitate Discord",
+      "description": "Alătură-te comunității noastre pentru suport instant, anunțuri și conversații cu alți utilizatori.",
+      "button": "Alătură-te Discord",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Răspunsuri instantanee",
+        "1": "Ajutor comunitar",
+        "2": "Anunţuri"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Raportează erori, sugerează caracteristici și contribuie la proiectele noastre cu sursă deschisă.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Rapoarte de erori",
+        "1": "Solicitări caracteristici",
+        "2": "Sursă deschisă"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Suport tichet",
+      "description": "Trimiteți un bilet prin panoul nostru de facturare pentru probleme legate de cont.",
+      "button": "Deschide Bilet"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "Suport Email",
+      "title": "Preferi Email? Am ajuns la tine",
+      "responseTime": "Timpul de răspuns: de obicei în 24 de ore",
+      "departments": "E-mailuri Department",
+      "technical": "Asistenţă tehnică",
+      "technicalDesc": "Probleme cu serverul & ajutor tehnic",
+      "general": "Sprijin general",
+      "generalDesc": "Întrebări generale și asistență",
+      "account": "Probleme cont",
+      "accountDesc": "Probleme de conectare și cont",
+      "billing": "Facturarea anchetelor",
+      "billingDesc": "Plăți și facturi"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Urmărește-ne",
+      "description": "Rămâi actualizat cu știri, sfaturi și actualizări ale comunității"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Notă importantă",
+      "description": "Nu ne ocupăm de facturare sau asistență legată de cont prin intermediul Discord. Pentru confidențialitate și securitate, te rugăm să ne contactezi la support@nodebyte.host pentru probleme sensibile."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Servicii de găzduire rapide, fiabile, scalabile și securizate pentru experiența ta de jocuri. Construit pentru oameni. Susținut de Bytes.",
+    "getInTouch": "Intră în atingere",
+    "emailUs": "Trimiteți-ne un e-mail",
+    "support": "Suport",
+    "contactTeam": "Contactează echipa noastră",
+    "quickLinks": "Link-uri rapide",
+    "legal": "Juridic",
+    "status": "Toate sistemele sunt operaţionale",
+    "copyright": "Toate drepturile rezervate.",
+    "builtWith": "Construit cu",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Toate sistemele sunt operaţionale",
+      "degraded": "Performanță degradată",
+      "maintenance": "În întreținere"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "minecraftHosting": "Găzduire Minecraft",
+      "rustHosting": "Găzduire cu Rust",
+      "gamePanel": "Panou de jocuri",
+      "clientArea": "Zona clientului"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "discordServer": "Server Discord",
+      "serviceStatus": "Starea serviciului",
+      "knowledgeBase": "Baza de cunoștințe",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Termeni & Condiții",
+      "privacy": "Politica de confidenţialitate",
+      "refund": "Politica de rambursare",
+      "legalHub": "Platformă juridică"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "Despre NodeByte",
+      "contact": "Contactează-ne",
+      "companyInfo": "Informații companie",
+      "changes": "Jurnal modificări"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "recenzii",
+      "readReviews": "Citește recenziile noastre"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Încărcare...",
+    "error": "Ceva nu a funcționat",
+    "retry": "Încercați din nou",
+    "learnMore": "Află mai multe",
+    "getStarted": "Începeți",
+    "comingSoon": "În curând"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "Ce este nou",
+    "title": "Jurnal modificări",
+    "titleHighlight": "& Actualizări",
+    "description": "Rămâneți la curent cu ultimele lansări, caracteristici și îmbunătățiri în toate proiectele NodeByte.",
+    "searchPlaceholder": "Căutare lansări...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Toate repozitoriile",
+      "allTypes": "Toate tipurile",
+      "feature": "Caracteristică",
+      "bugfix": "Remediere eroare",
+      "improvement": "Îmbunătățire",
+      "breaking": "Ruperea Schimbării",
+      "security": "Securitate"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Vezi pe GitHub",
+      "publishedOn": "Publicat pe",
+      "by": "de",
+      "assets": "Active",
+      "downloadAsset": "Descărcare",
+      "noAssets": "Nu există active disponibile",
+      "preRelease": "Pre-Eliberare",
+      "latest": "Ultimele",
+      "draft": "Schiță"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Nu s-au găsit Partajări",
+      "description": "Încercați să ajustați căutarea sau filtrele pentru a găsi ceea ce căutați.",
+      "clearFilters": "Șterge filtrele"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "Încărcare lansări...",
+      "description": "Preluarea celor mai recente actualizări din depozitele noastre."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Încărcarea partajărilor a eșuat",
+      "description": "A apărut o eroare la preluarea versiunilor. Vă rugăm să încercaţi din nou mai târziu.",
+      "retry": "Încearcă din nou"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Total lansări",
+      "repositories": "Repertorii",
+      "latestUpdate": "Ultima actualizare"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Vezi toate lansările",
+    "showMore": "Arată mai mult",
+    "showLess": "Arată mai puțin",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "Anterior",
+      "next": "Următoarea",
+      "page": "Pagină",
+      "of": "din"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Copiază link-ul",
+    "linkCopied": "Link copiat!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "Baza de cunoștințe",
+    "description": "Găsiți răspunsuri, tutoriale și ghiduri pentru a vă ajuta să beneficiați la maximum de experiența dvs. NodeByte.",
+    "searchPlaceholder": "Caută în baza de cunoștințe...",
+    "browseByCategory": "Răsfoiește după categorie",
+    "recentlyUpdated": "Recent actualizate",
+    "articles": "articole",
+    "minRead": "min de citit",
+    "updated": "Actualizat",
+    "onThisPage": "Pe această pagină",
+    "backTo": "Înapoi la",
+    "previous": "Anterior",
+    "next": "Următoarea",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Nici un rezultat găsit",
+      "description": "Încearcă diferite cuvinte cheie sau răsfoiește categorii",
+      "forQuery": "Nu s-au găsit rezultate pentru"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Nici un articol încă",
+      "description": "Această categorie nu are încă nici un articol. Verifică din nou în curând!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Mai ai nevoie de ajutor?",
+      "description": "Nu găsești ce cauți? Suntem aici să te ajutăm.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Comunitate Discord",
+        "description": "Alătură-te Discord nostru pentru suport live și ajutor din partea comunității.",
+        "button": "Alătură-te Discord"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Suport tichet",
+        "description": "Deschideți un bilet de asistență pentru conturi sau probleme de facturare.",
+        "button": "Deschide Bilet"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "Întrebări",
+        "description": "Verificați întrebările noastre frecvente pentru răspunsuri rapide.",
+        "button": "Vezi FAQ"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Caută baza de cunoștințe",
+      "button": "Caută"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
+    "toggle": "Deschide meniul temei",
+    "appearance": "Aspectul",
+    "light": "Lumină",
+    "dark": "Întunecat",
+    "system": "Sistem",
+    "coolTones": "Tone mișto",
+    "warmTones": "Tone calde",
+    "nature": "Natura",
+    "slate": "Întârziat",
+    "midnight": "Miezul nopţii",
     "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
+    "forest": "Pădure",
+    "sunset": "Amortizor",
+    "rose": "Trandafir",
+    "amber": "Chihlimbar",
+    "emerald": "Smarald",
+    "teal": "Turcoaz",
+    "sky": "Cer",
     "violet": "Violet"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
-    "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "title": "Găzduire server joc",
+    "description": "Serverul de joc de înaltă performanță găzduind cu configurare instantanee, panou de control puternic și suport 24/7 pentru experți.",
+    "startingAt": "Începând de la"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
+    "loading": "Încărcare",
+    "pagination": "paginare",
+    "previous": "Anterior",
+    "next": "Următoarea",
+    "morePages": "Mai multe pagini",
+    "previousSlide": "Diapozitivul anterior",
+    "nextSlide": "Următorul diapozitiv",
     "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "more": "Mai",
+    "toggleSidebar": "Comută bara laterală",
+    "goToSlide": "Mergi la slide"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "Despre NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Construit de Jocuri,",
+      "titleHighlight": "pentru Jocuri",
+      "description": "NodeByte a început ca un mic grup de ingineri de gameri şi de opere, care doreau găzduire rapidă, fiabilă şi uşor de gestionat. Azi, alimentăm servere de jocuri din întreaga lume.",
+      "joinCommunity": "Alătură-te comunității noastre",
+      "contactUs": "Contactează-ne"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Povestea noastră",
+      "title": "Cum a început acesta",
+      "paragraph1": "NodeByte s-a născut din frustrare. Ca jucători avizi pe noi înşine, am experimentat durerea de la sursă a serverelor lacrimogene, suport neajutorat, şi panouri de control complexe care au făcut ca managementul serverelor să fie un coşmar.",
+      "paragraph2": "În 2024, am decis că a fost suficient. Am adunat o echipă de jucători pasionați și am experimentat copii ingineri cu un singur scop: să construim platforma de găzduire a jocului pe care am dorit-o mereu.",
+      "paragraph3": "Astăzi, NodeByte alimentează serverele de joc de pe tot globul. Dar misiunea noastră rămâne aceeași: face serverul de jocuri să găzduiască rapid, fiabil și accesibil tuturor."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Valorile noastre",
+      "title": "Ce facem",
+      "titleHighlight": "Stand pentru",
+      "description": "Valorile noastre de bază ghidează tot ce facem, de la decizii privind infrastructura la suport pentru clienți.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Construit pentru jucători",
+        "description": "Infrastructura noastră acordă prioritate rutării cu latență scăzută, performanțelor previzibile și uptime-ului puternic, astfel încât comunitățile tale să rămână online și receptive."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Suport Comunitate & Mod",
+        "description": "Instalează mod fără probleme, suport instantaneu și instrumente comunitare pentru a te ajuta să rulezi lumi modificate și servere persistente cu efort minim."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Deschide prin Design",
+        "description": "Apreciem transparența din angajamente clare SLA pentru a deschide instrumente. Platforma noastră oferă API-uri și integrări pentru a automatiza fluxurile de lucru ale serverului."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "Actualizare SLA",
+      "latency": "Latență medie",
+      "support": "Suport",
+      "servers": "Servere active"
     },
     "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "badge": "Călătoria noastră",
+      "title": "Un scurt timp",
+      "titleHighlight": "Istoric",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "NodeByte găsit",
+        "description": "A început ca un proiect mic de către gameri care doreau o găzduire mai bună pentru comunitățile lor."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Creștere rapidă",
+        "description": "Infrastructura extinsă cu parteneriatul Fyfeweb, adăugând protecția întreprinderilor DDoS și centrele de date din Regatul Unit."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Extindere globală",
+        "description": "Lansează noi servicii, îmbunătățește panoul de control și continuă să crească comunitatea noastră globală."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "Echipa noastră",
+      "title": "Întâlnește cu",
+      "titleHighlight": "Echipă",
+      "description": "Oamenii pasionați din spatele NodeByte care lucrează neobosit pentru a oferi cea mai bună experiență de găzduire.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Fondator & Dezvoltator Leader"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Dezvoltator și antrenor de jocuri de noroc, care construiește infrastructura care alimentează NodeByte."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Gata pentru a începe?",
+      "description": "Alătură-te miilor de comunități de jocuri care au încredere în NodeByte pentru serverul lor de găzduire.",
+      "getStarted": "Vezi serverele jocului",
+      "joinDiscord": "Alătură-te Discord"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Pagina nu a fost găsită",
+    "description": "Pagina pe care o cauți nu există sau a fost mutată. Hai să te întoarcem pe drumul cel bun.",
+    "goHome": "Du-te înapoi",
+    "goBack": "Mergi înapoi",
+    "quickLinks": "Link-uri rapide",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
+      "home": "Acasă",
+      "games": "Jocuri",
+      "kb": "Baza de cunoștințe",
       "contact": "Contact"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Ceva greșit",
+    "description": "Am întâlnit o eroare neașteptată. Nu-ți face griji, echipa noastră a fost notificată și lucrează la ea.",
+    "errorCode": "Cod de eroare",
+    "tryAgain": "Încearcă din nou",
+    "goHome": "Du-te înapoi",
+    "needHelp": "Ai nevoie de ajutor?",
+    "helpDescription": "Dacă persistă această eroare, vă rugăm să contactați echipa noastră de asistență.",
+    "joinDiscord": "Alătură-te Discord",
+    "contactSupport": "Contactați asistența"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "Conectare în cont",
+      "description": "Pentru a continua, conectați-vă cu contul dvs. NodeByte.",
+      "emailLabel": "Adresa Email",
+      "emailPlaceholder": "tu@exemplu.com",
+      "passwordLabel": "Parolă",
+      "passwordPlaceholder": "Introduceți parola",
+      "loginButton": "Conectare în cont",
+      "loggingIn": "Se conectează...",
+      "forgotPassword": "Ți-ai uitat parola?",
+      "noAccount": "Nu ai un cont?",
+      "createAccount": "Creează unul",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "E-mail sau parolă incorecte. Vă rugăm să încercaţi din nou.",
+        "networkError": "Eroare de rețea. Verifică conexiunea și încearcă din nou.",
+        "generic": "A apărut o eroare în timpul conectării. Vă rugăm să încercați din nou."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "Creare cont",
+      "description": "Înregistrează-te pentru a-ți accesa serverele și serviciile de jocuri.",
+      "emailLabel": "Adresa Email",
+      "emailPlaceholder": "tu@exemplu.com",
+      "passwordLabel": "Parolă",
+      "passwordPlaceholder": "Creează o parolă",
+      "confirmPasswordLabel": "Confirmare parolă",
+      "confirmPasswordPlaceholder": "Confirmați parola",
+      "registerButton": "Creare cont",
+      "registering": "Se creează contul...",
+      "alreadyHaveAccount": "Ai deja un cont?",
+      "signIn": "Autentificare",
+      "panelAccountRequired": "Este necesar contul Vechiului Panou",
+      "panelAccountRequiredDescription": "În timp ce lucrăm pentru a migra departe de sistemele noastre vechi, trebuie să aveți un cont existent pe panoul nostru de joc pentru a vă înregistra. Conturile panourilor sunt create atunci când achiziționați un serviciu prin sistemul nostru de facturare.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "Există deja un cont cu acest e-mail.",
+        "notInPanel": "Nu a fost găsit niciun cont de panou de joc cu acest e-mail. Vă rugăm să cumpărați mai întâi un serviciu pentru a crea un cont de panou.",
+        "panelAccountLinked": "Acest cont de panou este deja conectat la un alt cont NodeByte.",
+        "passwordsDontMatch": "Parolele nu se potrivesc.",
+        "passwordTooShort": "Parola trebuie să conțină cel puțin 8 caractere.",
+        "invalidEmail": "Te rog introdu o adresa de email valida.",
+        "networkError": "Eroare de rețea. Verifică conexiunea și încearcă din nou.",
+        "generic": "A aparut o eroare la inregistrare. Va rugam incercati iar."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Cont creat!",
+        "description": "Contul dvs. a fost creat cu succes. Acum vă puteți conecta."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Eroare la autentificare",
+      "description": "A apărut o eroare la semnarea ta.",
+      "configuration": "A apărut o eroare de configurare cu sistemul de autentificare.",
+      "accessDenied": "Nu aveți permisiunea de a accesa această resursă.",
+      "verification": "Link-ul de autentificare nu mai este valid.",
+      "default": "O eroare neașteptată a apărut în timpul conectării.",
+      "credentialsSignin": "Acreditări invalide. Vă rugăm să verificaţi adresa de e-mail şi parola.",
+      "tryAgain": "Încearcă din nou",
+      "goHome": "Du-te înapoi"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
+      "myAccount": "Contul Meu",
+      "viewPanel": "Vezi panou",
       "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "logout": "Deconectare",
+      "signIn": "Conectare în cont",
+      "loggingOut": "Se deconectează..."
+    }
+  },
+  "admin": {
+    "title": "Panou Admin",
+    "nav": {
+      "dashboard": "Panou",
+      "users": "Utilizatori",
+      "servers": "Servere",
+      "sync": "Sincronizare",
+      "settings": "Setări",
+      "backToSite": "Back to Site"
+    },
+    "status": {
+      "online": "Sistem online"
+    },
+    "dashboard": {
+      "title": "Panou",
+      "description": "Prezentare generală a datelor panoului Pterodactyl și a stării de sincronizare."
+    },
+    "stats": {
+      "users": "Total utilizatori",
+      "migratedCount": "{count} migrate",
+      "servers": "Servere",
+      "nodes": "Nodes",
+      "locations": "Locații",
+      "allocations": "Alocări",
+      "nests": "Cuib",
+      "eggs": "Ouă",
+      "eggVariables": "Variabile de ou",
+      "databases": "Baze"
+    },
+    "sync": {
+      "status": "Stare sincronizare",
+      "lastSync": "Ultima sincronizare",
+      "never": "Niciodată",
+      "idle": "Inactiv",
+      "syncing": "Sincronizare...",
+      "inProgress": "Sincronizare în curs",
+      "syncingTarget": "Se sincronizează datele {target} din pano...",
+      "complete": "complete",
+      "runFull": "Rulează complet sincronizarea",
+      "success": "Sincronizare terminată",
+      "completed": "Au fost sincronizate cu succes datele {target}.",
+      "error": "Sincronizare eșuată",
+      "quickActions": "Acțiuni sincronizare rapidă",
+      "quickActionsDescription": "Sincronizează tipurile de date individuale din panoul Pterodactil.",
+      "targets": {
+        "locations": "Locații",
+        "nodes": "Nodes",
+        "allocations": "Alocări",
+        "nests": "Nesturi și Ouă",
+        "servers": "Servere",
+        "databases": "Baze",
+        "users": "Utilizatori"
+      }
+    },
+    "actions": {
+      "refresh": "Împrospătează"
+    },
+    "error": {
+      "title": "Eroare",
+      "unauthorized": "Nu sunteți autorizat să accesați această pagină.",
+      "forbidden": "Necesită acces administrator."
     }
   }
 }

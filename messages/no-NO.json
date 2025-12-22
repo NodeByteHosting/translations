@@ -1,960 +1,1022 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Firma",
+    "services": "Tjenester",
+    "resources": "Ressurser",
     "extras": "Extras",
-    "contact": "Contact",
-    "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "contact": "Kontakt",
+    "discord": "Splid",
+    "joinDiscord": "Bli med i vår Discord",
+    "theme": "Tema",
+    "currency": "Valuta",
+    "language": "Språk",
+    "settings": "Innstillinger",
+    "menu": "Meny"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Kontakt oss",
+      "description": "Ta kontakt med vårt team"
     },
     "about": {
-      "title": "About Us",
-      "description": "Learn more about NodeByte"
+      "title": "Om oss",
+      "description": "Lær mer om NodeByte"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft servers with instant setup"
+      "title": "Minecraft-servering",
+      "description": "Minecraft servere med øyeblikkelig oppsett"
     },
     "rust": {
       "title": "Rust Hosting",
-      "description": "Rust servers with DDoS protection"
+      "description": "Rust servere med DDoS beskyttelse"
     },
     "hytale": {
       "title": "Hytale Hosting",
-      "description": "Hytale servers with DDoS protection"
+      "description": "Hytale servere med DDoS beskyttelse"
     },
     "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
+      "title": "Alle tjenester",
+      "description": "Utforsk alle våre hostingstjenester"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Client Area",
-      "description": "Manage billing, invoices, and account settings"
+      "title": "Klientområde",
+      "description": "Administrer innstillinger for regning, fakturaer og konto"
     },
     "gamePanel": {
-      "title": "Game Panel",
-      "description": "Control your game servers with our panel"
+      "title": "Spill Panel",
+      "description": "Kontroller spillserverne dine med panelet vårt"
     }
   },
   "extras": {
     "kb": {
-      "title": "Knowledge Base",
-      "description": "Guides, tutorials, and documentation"
+      "title": "Kunnskapsbase",
+      "description": "Veiledninger, opplæring og dokumentasjon"
     },
     "changelog": {
-      "title": "What's New",
-      "description": "Latest updates and features"
+      "title": "Hva er nytt",
+      "description": "Siste oppdateringer og funksjoner"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "USE CODE",
-      "suffix": "ON YOUR FIRST ORDER!"
+      "prefix": "BRUK KODE",
+      "suffix": "PÅ DEG FØRSTE ORDER!"
     },
-    "title": "Game Hosting",
-    "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
-    "getStarted": "Get Started",
-    "joinDiscord": "Join Discord",
-    "trustedBy": "Trusted by gaming communities worldwide",
-    "trustpilotReviews": "Trustpilot Reviews",
+    "title": "Spill-vert",
+    "titleHighlight": "Laget enkel",
+    "description": "Fast, pålitelig, og sikker webhotell for ditt spill samfunn. Start dedikerte servere med øyeblikkelig installering, DDoS-beskyttelse og støtte døgn.",
+    "getStarted": "Kom i gang",
+    "joinDiscord": "Bli med i Discord",
+    "trustedBy": "Betrodd av spillsamfunn over hele verden",
+    "trustpilotReviews": "Trustpilot anmeldelser",
     "stats": {
-      "uptime": "Uptime SLA",
-      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimized routing for low-latency gameplay.",
-      "support": "Support",
-      "supportDesc": "Expert help with installs, mods, and server ops."
+      "uptime": "SLA oppetid",
+      "uptimeDesc": "Enterprise redundancy å holde serverne på nett.",
+      "ping": "Gj.snittlig Ping",
+      "pingDesc": "Optimalisert ruting for spill med lav responstid.",
+      "support": "Brukerstøtte",
+      "supportDesc": "Ekspert hjelp med installasjoner, modifikasjoner og server opper."
     }
   },
   "features": {
-    "badge": "Infrastructure",
-    "title": "Built for",
-    "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
-    "viewPlans": "View Hosting Plans",
-    "startingFrom": "Starting from",
+    "badge": "Infrastruktur",
+    "title": "Bygget for",
+    "titleHighlight": "Ytelse",
+    "description": "Undergradert infrastruktur med gamerevennlig verktøy. Umiddelbare servere, lav latensruting og kraftfulle kontroller.",
+    "viewPlans": "Vis hosting planer",
+    "startingFrom": "Starter fra",
     "items": {
       "ddos": {
-        "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "title": "DYR Beskyttelse",
+        "description": "Enterprise-graving drevet av FyfeWeb med automatisk skrubbing for å holde servere online under angrep.",
         "highlights": {
-          "0": "FyfeWeb network protection",
-          "1": "Auto-scaling mitigation",
-          "2": "Real-time monitoring"
+          "0": "FyfeWeb nettverksbeskyttelse",
+          "1": "Auto-skalering av reduksjon",
+          "2": "Overvåking i sanntid"
         }
       },
       "latency": {
-        "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "title": "Nettverk for lav latens",
+        "description": "Optimaliserte ruter gjennom FyfeWebs britiske nettverk sammen med London POPs for minimal ping.",
         "highlights": {
-          "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
+          "0": "Under-50 ms avg latens",
+          "1": "Storbritanniabasert ruting",
           "2": "FyfeWeb peering"
         }
       },
       "setup": {
-        "title": "Instant Setup",
-        "description": "One-click server templates, automated mod installs, and fast provisioning.",
+        "title": "Øyeblikkelig oppsett",
+        "description": "Ett-klikks designmaler, automatiserte modifikasjonsinstallasjoner og rask regulering.",
         "highlights": {
-          "0": "60 second deploys",
-          "1": "Pre-built templates",
-          "2": "Auto configuration"
+          "0": "60 sekunders utplasseringer",
+          "1": "Forhåndsbygde maler",
+          "2": "Automatisk konfigurasjon"
         }
       },
       "locations": {
         "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "description": "Strategisk lokalisert i Storbritannia med London POPs drevet av FyfeWeb.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "London POP'er",
+          "1": "FyfeWeb nettverk",
+          "2": "Lav latens UK dekning"
         }
       },
       "panel": {
-        "title": "Control Panel",
-        "description": "A powerful UI for console access, file management, backups, and metrics.",
+        "title": "Kontrollpanel",
+        "description": "Et kraftig brukergrensesnitt for konsolltilgang og filstyring, sikkerhetskopier og måltall.",
         "highlights": {
-          "0": "Live console",
-          "1": "File manager",
-          "2": "Scheduled tasks"
+          "0": "Live konsoll",
+          "1": "Fil administrasjon",
+          "2": "Planlagte oppgaver"
         }
       },
       "support": {
-        "title": "24/7 Support",
-        "description": "Human-first support with expert ops available any time, for installs and troubleshooting.",
+        "title": "Døgnåpen støtte",
+        "description": "Human-first support med ekspertopper tilgjengelig når som helst, for installasjoner og feilsøking.",
         "highlights": {
-          "0": "Discord support",
-          "1": "Ticket system",
-          "2": "Knowledge base"
+          "0": "Discord støtte",
+          "1": "Saks system",
+          "2": "Kunnskapsbase"
         }
       }
     }
   },
   "about": {
-    "badge": "Our Story",
-    "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
-    "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
-    "joinCommunity": "Join Our Community",
+    "badge": "Vår historie",
+    "title": "Bygget av Spillere,",
+    "titleHighlight": "for spillere",
+    "paragraph1": "NodeByte startet som en liten gruppe gamere og ops-ingeniører som ønsket å ha vert for raske, pålitelige og enkle å håndtere. Vi har erfart den frustrasjonen av laggiske servere og upåfallende støtte firkant.",
+    "paragraph2": "Derfor har vi bygget infrastruktur spesielt for flerspillerspiller: lav latens ruting, robust DDoS-beskyttelse og midlertidig serverlevering, slik at du kan spille raskt.",
+    "joinCommunity": "Delta i vårt samfunn",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Bygget for spillere",
+        "description": "Vår infrastruktur prioriterer lav latensruting, forutsigbar prestasjon og sterk oppetid slik at lokalsamfunnene dine holder seg online og er lydløse."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Community & Mod brukerstøtte",
+        "description": "Sømløs mod-installasjon, støtte for snapshot-støtte, og verktøy for fellesskap for å hjelpe deg å kjøre modifikerte verdener og vedvarende servere med minimal innsats."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Åpnet av design",
+        "description": "Vi verdsetter gjennomsiktighet fra tydelige SLA-forpliktelser til åpen verktøy. Plattformen vår tilbyr APIer og integreringer til automatiske serverarbeidsflyter."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "SLA oppetid",
+      "latency": "Gj.snittlig forsinkelse",
+      "support": "Brukerstøtte",
+      "servers": "Aktive servere"
     }
   },
   "pricing": {
-    "badge": "Pricing",
-    "title": "Server Plans",
-    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-    "getStarted": "Get Started",
-    "viewAllPlans": "View All Plans",
-    "comingSoon": "Pricing Coming Soon",
-    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
-    "joinDiscord": "Join Discord",
-    "mostPopular": "Most Popular",
-    "customSolution": "Need a custom solution or have questions?",
-    "contactUs": "Contact us",
-    "perMonth": "month"
+    "badge": "Priser",
+    "title": "Server planer",
+    "description": "Fleksielle planer som passer dine behov. Alle planer inkluderer DDoS-beskyttelse, øyeblikkelig oppsett og støtte 24/7.",
+    "getStarted": "Kom i gang",
+    "viewAllPlans": "Vis alle planer",
+    "comingSoon": "Priser Kommer Snart",
+    "comingSoonDescription": "Vi jobber med å få deg den beste vertsopplevelsen. Bli med i vår Discord for å få beskjed når vi lanserer!",
+    "joinDiscord": "Bli med i Discord",
+    "mostPopular": "Mest populær",
+    "customSolution": "Trenger du en egendefinert løsning eller har spørsmål?",
+    "contactUs": "Kontakt oss",
+    "perMonth": "måned"
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "description": "Quick answers about NodeByte hosting, performance, and support.",
-    "searchPlaceholder": "Search questions...",
-    "noResults": "No results found. Try searching for \"DDoS\", \"mods\", or \"SLA\".",
-    "stillHaveQuestions": "Still have questions?",
-    "cantFind": "Can't find what you're looking for? Our support team is here to help.",
-    "contactSupport": "Contact Support",
-    "joinDiscord": "Join Discord",
+    "badge": "OSS",
+    "title": "Ofte stilte",
+    "titleHighlight": "Spørsmål",
+    "description": "Raske svar om NodeByte hosting, ytelse, og støtte.",
+    "searchPlaceholder": "Søk spørsmål...",
+    "noResults": "Fant ingen resultater. Prøv å søke etter \"DDoS\", \"mods\", eller \"SLA\".",
+    "stillHaveQuestions": "Har du fortsatt spørsmål?",
+    "cantFind": "Finner du ikke det du leter etter? Brukerstøtte vårt er her for å hjelpe.",
+    "contactSupport": "Kontakt kundestøtte",
+    "joinDiscord": "Bli med i Discord",
     "items": {
       "provision": {
-        "question": "How fast can I provision a server?",
-        "answer": "Most prebuilt server templates provision in under 60 seconds. Custom setups with large mods may take longer depending on mod install time."
+        "question": "Hvor fort kan jeg sette ut en server?",
+        "answer": "De fleste forhåndsutbygde servermaler finner du i under 60 sekunder. Egendefinerte oppsett med store mods kan ta lengre tid avhengig av mod-installeringstid."
       },
       "ddos": {
-        "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "question": "Gir du beskyttelse mot DDoS?",
+        "answer": "Ja, alle planer om nedbøting av foretakets DDoS drevet av FyfeWeb. Våre POPer i London tilbyr automatisk filtrering og skrubbing på nettkanten."
       },
       "locations": {
-        "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "question": "Hvor finnes datastyrkene?",
+        "answer": "Vi driver britiske datasentre med London POPs drevet av nettverkspartner FyfeWeb, og gir utmerket dekning i Storbritannia og Europa."
       },
       "mods": {
-        "question": "Can I run mods and custom maps?",
-        "answer": "Yes, our control panel and templates support common mod loaders (Forge, Fabric) and custom map uploads. Managed mod support is available on selected plans."
+        "question": "Kan jeg kjøre modifikasjoner og tilpassede kart?",
+        "answer": "Ja, kontrollpanelet og malene våre støtter vanlige mod loaders (Forge, Fabric) og egendefinerte kart opplastinger. Tilgang til disse er tilgjengelig på valgte planer."
       },
       "uptime": {
-        "question": "What is your uptime SLA?",
-        "answer": "We offer a 99.6% uptime SLA on production plans. See our terms for details and eligibility criteria."
+        "question": "Hva er oppetid SLA?",
+        "answer": "Vi tilbyr 99,6% oppetid SLA på produksjonsplaner. Se våre vilkår for detaljer og kvalifikasjonskriterier."
       },
       "trial": {
-        "question": "Can I get a trial before committing?",
-        "answer": "Yes, we offer free trials for new users to test our services before making a commitment. Visit our free trial page to see available options.",
-        "trialLink": "Start Free Trial"
+        "question": "Kan jeg få en prøveperiode før jeg gjør?",
+        "answer": "Ja, vi tilbyr gratis studier for nye brukere å teste tjenestene våre før de forplikter seg. Besøk vår gratis prøveversjon side for å se tilgjengelige alternativer.",
+        "trialLink": "Start gratis prøveversjon"
       }
     }
   },
   "games": {
-    "badge": "Game Servers",
-    "title": "Choose Your",
-    "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
-    "viewPlans": "View Plans",
-    "learnMore": "Learn More",
-    "comingSoon": "Coming Soon",
-    "customSolution": "Need a game server that's not listed?",
-    "contactUs": "Contact us",
-    "forCustom": "for custom solutions.",
-    "hosting": "Hosting",
-    "joinWaitlist": "Join Waitlist",
+    "badge": "Spillservere",
+    "title": "Velg din",
+    "titleHighlight": "Spill",
+    "description": "Kraftig, lav latens spillservere. Umiddelbar oppsett, intuitivt kontrollpanel, og 24/7 støtte for eksperter.",
+    "viewPlans": "Vis planer",
+    "learnMore": "Finn ut mer",
+    "comingSoon": "Kommer snart",
+    "customSolution": "Trenger du en spillserver som ikke er oppført?",
+    "contactUs": "Kontakt oss",
+    "forCustom": "for tilpassede løsninger.",
+    "hosting": "Vertsskap",
+    "joinWaitlist": "Bli med venteliste",
     "minecraft": {
-      "description": "Java & Bedrock servers with one click mod loaders, plugins, and full version support.",
-      "tag": "Most Popular",
+      "description": "Java & Bedrock servere med et klikk mod loaders, plugins, og full versjon støtte.",
+      "tag": "Mest populær",
       "features": {
-        "0": "Forge & Fabric support",
-        "1": "Plugin management",
-        "2": "Auto backups",
-        "3": "Custom JAR uploads"
+        "0": "Forge & Stoff støtte",
+        "1": "Administrasjon av programtillegg",
+        "2": "Automatisk sikkerhetskopiering",
+        "3": "Egendefinerte JAR-opplastinger"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfect for small servers and testing"
+          "description": "Perfekt for små servere og testing"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Great for growing communities"
+          "name": "Bliss",
+          "description": "Flott for voksende samfunn"
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "description": "Ideelt for mellomstore samfunn"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "storage": "{amount} GB Lagring",
+        "databases": "10 MySQL databaser",
+        "ddos": "FyfeWeb DDoS Beskyttelse",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
+        "jars": "Auto/pre-installerte jarer",
         "uptime": "99.6% Uptime SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Install Forge, Fabric, Paper, Spigot, and more with a single click from our control panel.",
+          "title": "En-klikk Mod Lastere",
+          "description": "Installer Forge, Fabric, Paper, Spigot, og mer med ett enkelt klikk fra kontrollpanelet.",
           "highlights": {
-            "0": "Forge & Fabric support",
-            "1": "Paper & Spigot servers",
+            "0": "Forge & Stoff støtte",
+            "1": "Paper & Spigot servere",
             "2": "Bukkit compatibility",
-            "3": "Custom JAR uploads"
+            "3": "Egendefinerte JAR-opplastinger"
           }
         },
         "hardware": {
-          "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "title": "Maskinvare med høy ytelse",
+          "description": "Enterprise grade AMD Ryzen prosessorer med NVMe-lagring for blazing fast ytelse.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
+            "0": "AMD Ryzen 9 prosessorer",
+            "1": "NVMe SSD lagring",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "Opp til 4,8 GHz klokkehastighet"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "title": "DYR Beskyttelse",
+          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb hold serveren din online selv når du angriper.",
           "highlights": {
-            "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
-            "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "0": "Lag 3/4/7-beskyttelse",
+            "1": "FyfeWeb nettverk filtrering",
+            "2": "Redusert tid med null",
+            "3": "UK London POPer"
           }
         },
         "instant": {
-          "title": "Instant Setup",
-          "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
+          "title": "Øyeblikkelig oppsett",
+          "description": "Serveren din blir distribuert i løpet av sekunder. Begynn å spille umiddelbart etter kjøp.",
           "highlights": {
-            "0": "Automated provisioning",
-            "1": "Pre-configured settings",
-            "2": "Ready in under 60 seconds",
-            "3": "No technical knowledge needed"
+            "0": "Automatisert midlertidig",
+            "1": "Forhåndskonfigurerte innstillinger",
+            "2": "Klar for mindre enn 60 sekunder",
+            "3": "Ingen teknisk kunnskap er nødvendig"
           }
         },
         "ftp": {
-          "title": "Full FTP Access",
-          "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
+          "title": "Full FTP-tilgang",
+          "description": "Fullfør filtilgang via FTP/SFTP. Last opp verdener, plugins, og konfigurasjoner med lett.",
           "highlights": {
-            "0": "SFTP file access",
-            "1": "Web-based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatic backups"
+            "0": "SFTP filtilgang",
+            "1": "Web-basert filbehandler",
+            "2": "Dra & slipp opplastinger",
+            "3": "Automatisk sikkerhetskopiering"
           }
         },
         "slots": {
-          "title": "Unlimited Slots",
-          "description": "No artificial player limits. Host as many players as your hardware can handle.",
+          "title": "Ubegrenset slot",
+          "description": "Ingen kunstig spiller begrensninger. Vert så mange spillere som din maskinvare kan håndtere.",
           "highlights": {
-            "0": "No slot restrictions",
-            "1": "Scalable resources",
-            "2": "Upgrade anytime",
-            "3": "Fair resource allocation"
+            "0": "Ingen sporrestriksjoner",
+            "1": "Skalable ressurser",
+            "2": "Oppgrader når som helst",
+            "3": "Rettferdig fordeling"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "What Minecraft versions do you support?",
-          "answer": "We support all Minecraft versions from 1.7.10 to the latest release, including snapshots. Both Java Edition and Bedrock Edition servers are available."
+          "question": "Hvilke Minecraftversjoner støtter du?",
+          "answer": "Vi støtter alle Minecraft-versjoner fra 1.7.10 til den nyeste versjonen, inkludert snapshots. Både Java Edition og Bedrock Edition servere er tilgjengelige."
         },
         "mods": {
-          "question": "Can I install mods and plugins?",
-          "answer": "Yes! We support all major mod loaders including Forge, Fabric, and NeoForge. For plugins, we support Paper, Spigot, Bukkit, and Purpur. You can also upload custom JARs."
+          "question": "Kan jeg installere mods og utvidelser?",
+          "answer": "Ja! Vi støtter alle større mod lastere inkludert Forge, Fabrics og 1st Forge. For plugins, vi støtter Paper, Spigot, Bukkit og Purpur. Du kan også laste opp egendefinerte JARs."
         },
         "upload": {
-          "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "question": "Hvordan laster jeg opp min eksisterende verden?",
+          "answer": "Du kan laste opp dine verdensfiler via vår nettbaserte filbehandler eller gjennom SFTP. Du kan enkelt dra og slippe mappen over hele verden og den vil være klar til bruk."
         },
         "playerLimit": {
-          "question": "Is there a player limit?",
-          "answer": "No, we don't impose artificial player limits. Your server can host as many players as your allocated resources can handle."
+          "question": "Er det en spillergrense?",
+          "answer": "Nei, vi legger ikke ut kunstige spillergrenser. Serveren din kan være vert for så mange spillere som de tildelte ressursene kan håndtere."
         },
         "upgrade": {
-          "question": "Can I upgrade my plan later?",
-          "answer": "Absolutely! You can upgrade or downgrade your plan at any time from our billing panel. Changes take effect immediately with no downtime."
+          "question": "Kan jeg oppgradere planen min senere?",
+          "answer": "utelatelse! Du kan oppgradere eller nedgradere planen din når som helst i faktureringspanelet. Endringer trer i kraft umiddelbart og uten nedetid."
         },
         "refunds": {
-          "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "question": "Tilbyr du refusjoner?",
+          "answer": "Ja, vi tilbyr en 48-timers pengene tilbake-garanti for alle nye kjøp. Hvis du ikke er fornøyd, kontakt support for en fullstendig refusjon."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "High Performance",
+      "description": "High-performance Rust server hosting med Oxide/uMod støtte og egendefinerte kartinnstillinger.",
+      "tag": "Høy ytelse",
       "features": {
-        "0": "Oxide/uMod support",
-        "1": "Custom maps",
-        "2": "Wipe scheduler",
-        "3": "RCON access"
+        "0": "Oksid/uMod støtte",
+        "1": "Egendefinerte kart",
+        "2": "Tøm planlegger",
+        "3": "RCON tilgang"
       },
       "plans": {
         "starter": {
-          "name": "Starter",
-          "description": "Recommended for 40 Players"
+          "name": "Begynner",
+          "description": "Anbefalt for 40 spillere"
         },
         "standard": {
-          "name": "Standard",
-          "description": "Recommended for 75 Players"
+          "name": "Vanlig",
+          "description": "Anbefalt for 75 spillere"
         },
         "performance": {
-          "name": "Performance",
-          "description": "Recommended for 100 Players"
+          "name": "Ytelse",
+          "description": "Anbefalt for 100 spillere"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "AMD RyzenTM 9 5900X",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
-        "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
-        "oxide": "Oxide/Umod Supported",
-        "rustplus": "Rust+ Supported",
+        "storage": "{amount}GB SSD lagring",
+        "ddos": "FyfeWeb DDoS Beskyttelse",
+        "location": "Newcastle, Storbritannia",
+        "databases": "10 MySQL databaser",
+        "panel": "BytePanel (Samme Panel)",
+        "oxide": "Oksid/Umod støttet",
+        "rustplus": "Rust+ Støttet",
         "uptime": "99.6% Uptime SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxide/uMod Support",
-          "description": "Full support for Oxide and uMod plugins. Install and manage plugins directly from our control panel.",
+          "title": "Kundestøtte for oksid/uMod",
+          "description": "Full støtte for Oxide og uMod utvidelser. Installer og administrer plugins direkte fra kontrollpanelet.",
           "highlights": {
-            "0": "One-click Oxide install",
-            "1": "Plugin manager",
-            "2": "Auto-updates available",
-            "3": "Permission management"
+            "0": "Ett-klikk Oxide installer",
+            "1": "Pluginbehandling",
+            "2": "Automatiske oppdateringer tilgjengelig",
+            "3": "Administrere tillatelser"
           }
         },
         "maps": {
-          "title": "Custom Maps",
-          "description": "Use procedurally generated maps or upload your own custom maps. Full map customization support.",
+          "title": "Egendefinerte kart",
+          "description": "Bruk prosedyregenererte kart eller last opp dine egne tilpassede kart. Full karttilpasningsstøtte.",
           "highlights": {
-            "0": "Procedural generation",
-            "1": "Custom map uploads",
-            "2": "Map size control",
-            "3": "Seed customization"
+            "0": "Opphopning av prosedyrer",
+            "1": "Egendefinerte kartopplasting",
+            "2": "Kartets størrelse kontroll",
+            "3": "Fakta om frøtilpasning"
           }
         },
         "performance": {
-          "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "title": "Høy ytelse",
+          "description": "Rust krever kraftig maskinvare. Våre servere bruker de nyeste AMD Ryzen CPUs og NVMe-lagring.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
-            "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
-            "3": "Low-latency networking"
+            "0": "AMD Ryzen 9 prosessorer",
+            "1": "NVMe SSD lagring",
+            "2": "Høy ytelse i én tråd",
+            "3": "Lav-latens nettverk"
           }
         },
         "ddos": {
-          "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "title": "DYR Beskyttelse",
+          "description": "FyfeWebs bedriftsgradient DDoS bords gjennom UK London POPs beskytter serveren din mot angrep 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
-            "2": "Layer 3/4/7 protection",
-            "3": "Zero downtime"
+            "0": "FyfeWeb nettverk filtrering",
+            "1": "UK London POPer",
+            "2": "Lag 3/4/7-beskyttelse",
+            "3": "Null nedetid"
           }
         },
         "wipe": {
-          "title": "Wipe Scheduler",
-          "description": "Automated wipe scheduling to keep your server fresh. Configure weekly, bi-weekly, or monthly wipes.",
+          "title": "Slett planlegger",
+          "description": "Automatisert ruteplanlegging for å holde serveren frisk. Konfigurer ukentlig, annenhver uke eller månedlig sletting.",
           "highlights": {
-            "0": "Automated wipes",
-            "1": "Blueprint wipe options",
-            "2": "Map wipe scheduling",
-            "3": "Discord notifications"
+            "0": "Automatiserte slettetårn",
+            "1": "Blåkopi wipe alternativer",
+            "2": "Kart-wipe planlegging",
+            "3": "Discord varsler"
           }
         },
         "rcon": {
-          "title": "Full RCON Access",
-          "description": "Complete remote console access for server management. Execute commands from anywhere.",
+          "title": "Full RCON tilgang",
+          "description": "Fullfør ekstern konsoll tilgang for serverbehandling. Utfør kommandoer fra hvor som helst.",
           "highlights": {
-            "0": "Web-based RCON",
-            "1": "Command scheduling",
-            "2": "Player management",
-            "3": "Real-time logs"
+            "0": "Nettbasert RCON",
+            "1": "Kommando planlegging",
+            "2": "Spiller administrasjon",
+            "3": "Sanntids logger"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Do you support Oxide/uMod plugins?",
-          "answer": "Yes! We fully support Oxide and uMod. You can install Oxide with one click from our control panel and manage plugins through our plugin manager or via FTP."
+          "question": "Støtter du Oxide/uMod plugins?",
+          "answer": "Ja! Vi støtter fullt ut Oxide og uMod. Du kan installere Oxide med ett klikk fra vårt kontrollpanel og administrere programtillegg gjennom vår plugin manager eller via FTP."
         },
         "maps": {
-          "question": "Can I use custom maps?",
-          "answer": "Absolutely! You can use procedurally generated maps with custom seeds and sizes, or upload your own custom map files via FTP."
+          "question": "Kan jeg bruke egendefinerte kart?",
+          "answer": "Absolutt ! Du kan bruke prosedyregenererte kart med egendefinerte frø og størrelser, eller laste opp dine egne kartfiler via FTP."
         },
         "wipe": {
-          "question": "How does the wipe scheduler work?",
-          "answer": "Our wipe scheduler lets you automate server wipes on a schedule you choose. You can configure map-only wipes or full blueprint wipes, and optionally send Discord notifications."
+          "question": "Hvordan virker topplinjen planleggeren?",
+          "answer": "Med våre tasteplanleggere kan du automatisere serversletting på en plan du velger. Du kan konfigurere kart-bare servietter eller full blåkopi-slette, og eventuelt sende Discord-varsler."
         },
         "tickRate": {
-          "question": "What's the server tick rate?",
-          "answer": "Our Rust servers run at the default 30 tick rate. Our high-performance hardware ensures consistent performance even with many players online."
+          "question": "Hva er server krysset pris?",
+          "answer": "Våre rust-servere kjører på standard 30 krysshastighet. Vår maskinvare med høy ytelse sikrer konsekvent ytelse selv med mange spillere på nett."
         },
         "rcon": {
-          "question": "Can I access RCON?",
-          "answer": "Yes, you get full RCON access. You can use our web-based RCON console or connect with any standard RCON client."
+          "question": "Kan jeg få tilgang til RCON?",
+          "answer": "Ja, du får full RCON-tilgang. Du kan bruke vår nettbaserte RCON-konsoll eller koble til en standard RCON-klient."
         },
         "modded": {
-          "question": "Do you support modded servers?",
-          "answer": "Yes, we support both vanilla and modded Rust servers. Install Oxide and add any plugins you need to create your perfect modded experience."
+          "question": "Støtter du modded servere?",
+          "answer": "Ja, vi støtter både vanlige og modifiserte Rust servere. Installer Oxide og legg til eventuelle plugins du trenger for å lage din perfekte modded opplevelse."
         }
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Hytale server hosting kommer snart! Bli med i vår Discord for å få tidlig tilgang til og oppdateringer.",
+      "tag": "Under utvikling",
       "features": {
-        "0": "Mod support",
-        "1": "Custom maps",
-        "2": "Easy configuration",
-        "3": "24/7 support"
+        "0": "Mod støtte",
+        "1": "Egendefinerte kart",
+        "2": "Enkel konfigurasjon",
+        "3": "Enkelt og sikkert"
       }
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Features",
-      "title": "Why Choose Our",
-      "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "badge": "Funksjoner",
+      "title": "Hvorfor velge vår",
+      "titleSuffix": "Vertsskap",
+      "description": "Grunnleggende infrastruktur i bedriftene tilpasset spesifikt for {game} servere."
     },
     "pricing": {
-      "badge": "Pricing",
-      "title": "Server Plans",
-      "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
-      "comingSoon": "Pricing Coming Soon",
-      "comingSoonDesc": "We're working on bringing you the best {game} hosting experience. Join our Discord to be notified when we launch!",
-      "joinDiscord": "Join Discord",
-      "mostPopular": "Most Popular",
-      "getStarted": "Get Started",
-      "viewAllPlans": "View All Plans",
-      "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "badge": "Priser",
+      "title": "Server planer",
+      "description": "Fleksielle planer som passer dine behov. Alle planer inkluderer DDoS-beskyttelse, øyeblikkelig oppsett og støtte 24/7.",
+      "comingSoon": "Priser Kommer Snart",
+      "comingSoonDesc": "Vi arbeider med å få deg den beste {game} hosting opplevelsen. Bli med vår Discord for å få beskjed når vi lanserer!",
+      "joinDiscord": "Bli med i Discord",
+      "mostPopular": "Mest populær",
+      "getStarted": "Kom i gang",
+      "viewAllPlans": "Vis alle planer",
+      "customSolution": "Trenger du en egendefinert løsning eller har spørsmål?",
+      "contactUs": "Kontakt oss"
     },
     "faq": {
-      "badge": "FAQ",
-      "title": "Questions",
-      "description": "Common questions about our {game} hosting service.",
-      "stillHaveQuestions": "Still have questions?",
-      "supportAvailable": "Our support team is available 24/7 to help you with any questions.",
-      "askOnDiscord": "Ask on Discord",
-      "contactSupport": "Contact Support"
+      "badge": "OSS",
+      "title": "Spørsmål",
+      "description": "Vanlige spørsmål om vår {game} hostingstjeneste.",
+      "stillHaveQuestions": "Har du fortsatt spørsmål?",
+      "supportAvailable": "Vårt support team er tilgjengelig 24/7 for å hjelpe deg med alle spørsmål.",
+      "askOnDiscord": "Spør på Discord",
+      "contactSupport": "Kontakt kundestøtte"
     },
     "hero": {
-      "joinWaitlist": "Join Waitlist",
-      "viewPlans": "View Plans",
-      "learnMore": "Learn More",
-      "comingSoon": "Coming Soon",
-      "joinDiscordForUpdates": "Join our Discord for updates"
+      "joinWaitlist": "Bli med venteliste",
+      "viewPlans": "Vis planer",
+      "learnMore": "Finn ut mer",
+      "comingSoon": "Kommer snart",
+      "joinDiscordForUpdates": "Bli med i vår Discord for oppdateringer"
     }
   },
   "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
+    "badge": "Ta kontakt",
+    "title": "Kontakt",
     "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
+    "description": "Vi er her for å hjelpe deg 24/7. Kom deg ut gjennom en av våre kanaler og vi kommer tilbake til deg så snart som mulig.",
+    "supportChannels": "Støtt Kanaler",
+    "copied": "Kopiert!",
+    "copiedDesc": "E-postadresse kopiert til utklippstavlen",
+    "copyFailed": "Kopiering feilet",
+    "copyFailedDesc": "Kan ikke kopiere til utklippstavlen",
     "discord": {
-      "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
-      "button": "Join Discord",
+      "title": "Discord fellesskap",
+      "description": "Bli med i vårt samfunn for øyeblikkelig støtte, kunngjøringer og chat med andre brukere.",
+      "button": "Bli med i Discord",
       "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
+        "0": "Øyeblikkelige svar",
+        "1": "Hjelp fra samfunnet",
+        "2": "Kunngjøringer"
       }
     },
     "github": {
       "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
+      "description": "Rapportere feil, foreslå funksjoner og bidra til våre open source prosjekter.",
       "button": "Open GitHub",
       "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
+        "0": "Feilrapporter",
+        "1": "Etterspurte funksjoner",
+        "2": "Åpen kildekode"
       }
     },
     "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "title": "Støtte sak",
+      "description": "Send inn en sak gjennom vårt faktureringspanel for tilknyttede problemer.",
+      "button": "Åpne sak"
     },
     "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
+      "badge": "E-post støtte",
+      "title": "Foretrekk e-post? Vi har glemt deg",
+      "responseTime": "Responstid: vanligvis innen 24 timer",
+      "departments": "Avdeling e-post",
+      "technical": "Teknisk støtte",
+      "technicalDesc": "Serverproblemer & teknisk hjelp",
+      "general": "Generell støtte",
+      "generalDesc": "Generelle spørsmål og bistand",
+      "account": "Konto problemer",
+      "accountDesc": "Innlogging og kontoproblemer",
+      "billing": "Fakturering forespørsler",
+      "billingDesc": "Betalinger & fakturaer"
     },
     "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
+      "title": "Følg oss",
+      "description": "Hold deg oppdatert med nyheter, tips og samfunnsoppdateringer"
     },
     "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+      "title": "Viktig melding",
+      "description": "Vi håndterer ikke fakturering eller kontorelatert støtte via Discord. For personvern og sikkerhet, vennligst kontakt oss på support@nodebyte.host for sensitive saker."
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
+    "tagline": "Sist, pålitelige, skalerbare og sikre vertstjenester for din spillopplevelse. Bygget for menneske. Drevet av Bytes.",
+    "getInTouch": "Ta kontakt",
+    "emailUs": "Send oss E-post",
+    "support": "Brukerstøtte",
+    "contactTeam": "Kontakt vårt team",
+    "quickLinks": "Raske lenker",
+    "legal": "Juridisk",
+    "status": "Alle systemer fungerer",
+    "copyright": "Med enerett.",
+    "builtWith": "Bygget med",
     "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "operational": "Alle systemer fungerer",
+      "degraded": "Nedsatt ytelse",
+      "maintenance": "Under vedlikehold"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
+      "minecraftHosting": "Minecraft-servering",
       "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "gamePanel": "Spill Panel",
+      "clientArea": "Klientområde"
     },
     "resources": {
       "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
+      "serviceStatus": "Tjeneste status",
+      "knowledgeBase": "Kunnskapsbase",
       "trustPilot": "Trustpilot"
     },
     "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
+      "terms": "Vilkår og betingelser",
+      "privacy": "Retningslinjer for personvern",
+      "refund": "Refundering Policy",
+      "legalHub": "Juridisk hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "aboutNodeByte": "Om NodeByte",
+      "contact": "Kontakt oss",
+      "companyInfo": "Firmaets informasjon",
+      "changes": "Endringslogg"
     },
     "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+      "reviews": "gjennomsyn",
+      "readReviews": "Les våre omtaler"
     }
   },
   "common": {
-    "loading": "Loading...",
-    "error": "Something went wrong",
-    "retry": "Try again",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "comingSoon": "Coming Soon"
+    "loading": "Laster...",
+    "error": "Noe gikk galt",
+    "retry": "Prøv igjen",
+    "learnMore": "Finn ut mer",
+    "getStarted": "Kom i gang",
+    "comingSoon": "Kommer snart"
   },
   "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
+    "badge": "Hva er nytt",
+    "title": "Endringslogg",
+    "titleHighlight": "& Oppdateringer",
+    "description": "Hold deg oppdatert om de siste utgavene, funksjonene og forbedringene på tvers av alle NodeByte-prosjekter.",
+    "searchPlaceholder": "Søkeutgivelser...",
     "filters": {
-      "all": "All Repositories",
-      "allTypes": "All Types",
-      "feature": "Feature",
-      "bugfix": "Bug Fix",
-      "improvement": "Improvement",
-      "breaking": "Breaking Change",
-      "security": "Security"
+      "all": "Alle repositories",
+      "allTypes": "Alle typer",
+      "feature": "Egenskap",
+      "bugfix": "Bug fiks",
+      "improvement": "Forbedring",
+      "breaking": "Ødelegger endring",
+      "security": "Sikkerhet"
     },
     "release": {
-      "viewOnGithub": "View on GitHub",
-      "publishedOn": "Published on",
-      "by": "by",
-      "assets": "Assets",
-      "downloadAsset": "Download",
-      "noAssets": "No assets available",
-      "preRelease": "Pre-release",
-      "latest": "Latest",
-      "draft": "Draft"
+      "viewOnGithub": "Vis på GitHub",
+      "publishedOn": "Publisert den",
+      "by": "av",
+      "assets": "Eiendeler",
+      "downloadAsset": "Nedlasting",
+      "noAssets": "Ingen eiendeler tilgjengelige",
+      "preRelease": "Forhåndsversjon",
+      "latest": "Siste",
+      "draft": "Utkast"
     },
     "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
-      "clearFilters": "Clear Filters"
+      "title": "Ingen utgivelser funnet",
+      "description": "Prøv å endre ditt søk eller ditt filter for å finne det du leter etter.",
+      "clearFilters": "Fjern filtre"
     },
     "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
+      "title": "Laster ut utgivelser...",
+      "description": "Henter de nyeste oppdateringene fra våre kodelagre."
     },
     "error": {
-      "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
-      "retry": "Try Again"
+      "title": "Kunne ikke laste utgivelser",
+      "description": "Det oppstod en feil ved henting av utgivelser. Vennligst prøv igjen senere.",
+      "retry": "Prøv igjen"
     },
     "stats": {
-      "totalReleases": "Total Releases",
-      "repositories": "Repositories",
-      "latestUpdate": "Latest Update"
+      "totalReleases": "Totalt antall utgivelser",
+      "repositories": "Depoter",
+      "latestUpdate": "Siste oppdatering"
     },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
+    "viewAll": "Vis alle utgivelser",
+    "showMore": "Vis mer",
+    "showLess": "Vis mindre",
     "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
+      "previous": "Forrige",
+      "next": "Neste",
+      "page": "Side",
+      "of": "av"
     },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+    "copyLink": "Kopier lenke",
+    "linkCopied": "Lenke kopiert!"
   },
   "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
+    "title": "Kunnskapsbase",
+    "description": "Finn svar, opplæringsprogrammer og guider som kan hjelpe deg å få mest mulig ut av din NodeByte-opplevelse.",
+    "searchPlaceholder": "Søk i kunnskapsbasen...",
+    "browseByCategory": "Bla gjennom etter kategori",
+    "recentlyUpdated": "Nylig oppdatert",
+    "articles": "artikler",
+    "minRead": "min. lest",
+    "updated": "Oppdatert",
+    "onThisPage": "På denne siden",
+    "backTo": "Tilbake til",
+    "previous": "Forrige",
+    "next": "Neste",
     "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
+      "title": "Ingen resultater funnet",
+      "description": "Prøv forskjellige nøkkelord eller bla gjennom kategorier",
+      "forQuery": "Ingen resultater funnet for"
     },
     "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
+      "title": "Ingen artikler ennå",
+      "description": "Denne kategorien har ikke noen artikler enda. Sjekk tilbake snart!"
     },
     "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
+      "title": "Trenger du fortsatt hjelp?",
+      "description": "Finner du ikke det du leter etter? Vi er her for å hjelpe.",
       "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
+        "title": "Discord fellesskap",
+        "description": "Bli med i vår Discord for livestøtte og samfunnshjelp.",
+        "button": "Bli med i Discord"
       },
       "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
+        "title": "Støtte sak",
+        "description": "Åpne en support sak for konto eller fakturering problemer.",
+        "button": "Åpne sak"
       },
       "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
+        "title": "OSS",
+        "description": "Sjekk våre ofte stilte spørsmål for raske svar.",
+        "button": "Se FAQ"
       }
     },
     "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
+      "dialogTitle": "Søk i Kunnskapsbase",
+      "button": "Søk"
     }
   },
   "theme": {
-    "toggle": "Open theme menu",
-    "appearance": "Appearance",
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System",
-    "coolTones": "Cool Tones",
-    "warmTones": "Warm Tones",
-    "nature": "Nature",
-    "slate": "Slate",
-    "midnight": "Midnight",
-    "ocean": "Ocean",
-    "forest": "Forest",
-    "sunset": "Sunset",
-    "rose": "Rose",
-    "amber": "Amber",
-    "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "toggle": "Åpne temameny",
+    "appearance": "Utseende",
+    "light": "Lys",
+    "dark": "Mørk",
+    "system": "Systemadministrasjon",
+    "coolTones": "Kul Toner",
+    "warmTones": "Varmhjertet Tone",
+    "nature": "Natur",
+    "slate": "Skråning",
+    "midnight": "Midnatt",
+    "ocean": "Hav",
+    "forest": "Skog",
+    "sunset": "Solnedgang",
+    "rose": "Rosa",
+    "amber": "Rav",
+    "emerald": "Smaragd",
+    "teal": "Blågrønn",
+    "sky": "Himmel",
+    "violet": "Fiolett"
   },
   "gamesPage": {
-    "title": "Game Server Hosting",
+    "title": "Spilltjener hosting",
     "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
-    "startingAt": "Starting at"
+    "startingAt": "Starter på"
   },
   "accessibility": {
-    "loading": "Loading",
-    "pagination": "pagination",
-    "previous": "Previous",
-    "next": "Next",
-    "morePages": "More pages",
-    "previousSlide": "Previous slide",
-    "nextSlide": "Next slide",
-    "breadcrumb": "breadcrumb",
-    "more": "More",
-    "toggleSidebar": "Toggle sidebar",
-    "goToSlide": "Go to slide"
+    "loading": "Laster",
+    "pagination": "paginering",
+    "previous": "Forrige",
+    "next": "Neste",
+    "morePages": "Flere sider",
+    "previousSlide": "Forrige side",
+    "nextSlide": "Neste side",
+    "breadcrumb": "brødsmuler",
+    "more": "Mer",
+    "toggleSidebar": "Vis/Skjul sidepanelet",
+    "goToSlide": "Gå til lysbilde"
   },
   "aboutPage": {
-    "badge": "About NodeByte",
+    "badge": "Om NodeByte",
     "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
+      "title": "Bygget av Spillere,",
+      "titleHighlight": "for spillere",
+      "description": "NodeByte startet som en liten gruppe gamere og ops-ingeniører som ønsket å ha vert for raske, pålitelige og enkle å håndtere. I dag driver vi spillservere over hele verden.",
+      "joinCommunity": "Delta i vårt samfunn",
+      "contactUs": "Kontakt oss"
     },
     "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "badge": "Vår historie",
+      "title": "Slik startet det",
+      "paragraph1": "NodeByte ble født av frustrasjon. Som avid gamere opplevde vi firkantet og smerten på laggiske servere, lydhørende støtte og kompliserte kontrollpaneler som gjorde serverstyring av et mareritt.",
+      "paragraph2": "I 2024 bestemte vi oss for at det skulle være nok. Vi satt sammen et team med lidenskapelige gamere og opplevde op-ingeniører med et mål: bygg spillvertsplattformen vi alltid ønsket eksisterer.",
+      "paragraph3": "I dag forener NodeByte spillservere over hele verden. Men vårt oppdrag er det samme: Gjør spillserveren hurtig, pålitelig og tilgjengelig for alle."
     },
     "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
+      "badge": "Våre verdier",
+      "title": "Hva vi",
+      "titleHighlight": "Stå til",
+      "description": "Vår kjerneverdiveiledning alt vi gjør, fra beslutninger om infrastruktur til kundestøtte.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Bygget for spillere",
+        "description": "Vår infrastruktur prioriterer lav latensruting, forutsigbar prestasjon og sterk oppetid slik at lokalsamfunnene dine holder seg online og er lydløse."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Community & Mod brukerstøtte",
+        "description": "Sømløs mod-installasjon, støtte for snapshot-støtte, og verktøy for fellesskap for å hjelpe deg å kjøre modifikerte verdener og vedvarende servere med minimal innsats."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
+        "title": "Åpnet av design",
+        "description": "Vi verdsetter gjennomsiktighet fra tydelige SLA-forpliktelser til åpen verktøy. Plattformen vår tilbyr APIer og integreringer til automatiske serverarbeidsflyter."
       }
     },
     "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
+      "uptime": "SLA oppetid",
+      "latency": "Gj.snittlig forsinkelse",
+      "support": "Brukerstøtte",
+      "servers": "Aktive servere"
     },
     "timeline": {
       "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
+      "title": "En kort",
+      "titleHighlight": "Historikk",
       "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
+        "title": "NodeByte grunngitt",
+        "description": "Startet som et lite prosjekt av gamere som ønsket å ha vert for bedre lokalsamfunn."
       },
       "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "title": "Hurtig vekst",
+        "description": "Utvidet infrastruktur med FyfeWeb partnerskap, tilføyelse av DDoS-beskyttelse og britiske datasentre."
       },
       "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
+        "title": "Global utvidelse",
+        "description": "Lanset nytt tjenester, forbedret kontrollpanel, og fortsetter å vokse vårt globale samfunn."
       }
     },
     "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "badge": "Vårt team",
+      "title": "Møt den",
+      "titleHighlight": "Lag",
+      "description": "lidenskapelig folk bak NodeByte som arbeider utrettelig for å gi den beste hodeopplevelsen.",
       "roles": {
-        "founder": "Founder & Lead Developer"
+        "founder": "Grunnlegger og hovedutvikler"
       },
       "members": {
-        "codemeapixel": "Full-stack developer and gaming enthusiast building the infrastructure that powers NodeByte."
+        "codemeapixel": "Fullstakkutvikler og gaming entusiast bygger opp infrastrukturen som forkjemper NodeByte."
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
-      "getStarted": "View Game Servers",
-      "joinDiscord": "Join Discord"
+      "title": "Klar til å komme i gang?",
+      "description": "Bli med tusenvis av gamingsamfunn som stoler på NodeByte for serverens hosting behov.",
+      "getStarted": "Vis spillservere",
+      "joinDiscord": "Bli med i Discord"
     }
   },
   "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
+    "title": "Side ikke funnet",
+    "description": "Siden du leter etter finnes ikke eller har blitt flyttet. La oss komme tilbake på sporet.",
+    "goHome": "Gå hjem",
+    "goBack": "Gå tilbake",
+    "quickLinks": "Raske lenker",
     "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
+      "home": "Hjem",
+      "games": "Spill",
+      "kb": "Kunnskapsbase",
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
+    "title": "Noe gikk galt",
+    "description": "Vi fikk en uventet feil. Ikke bekymre deg, teamet vårt har blitt varslet og jobber med det.",
+    "errorCode": "Feil kode",
+    "tryAgain": "Prøv igjen",
+    "goHome": "Gå hjem",
+    "needHelp": "Trenger du hjelp?",
+    "helpDescription": "Hvis denne feilen vedvarer, kontakt vår kundeservice.",
+    "joinDiscord": "Bli med i Discord",
+    "contactSupport": "Kontakt kundestøtte"
   },
   "auth": {
     "login": {
-      "title": "Sign In",
-      "description": "Sign in with your NodeByte account to continue.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Enter your password",
-      "loginButton": "Sign In",
-      "loggingIn": "Signing in...",
-      "forgotPassword": "Forgot your password?",
-      "noAccount": "Don't have an account?",
-      "createAccount": "Create one",
+      "title": "Logg inn",
+      "description": "Logg på med nodeByte kontoen for å fortsette.",
+      "emailLabel": "Epost Adresse",
+      "emailPlaceholder": "deg@eksempel.no",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "Angi ditt passord",
+      "loginButton": "Logg inn",
+      "loggingIn": "Logger inn...",
+      "forgotPassword": "Glemt passord?",
+      "noAccount": "Har du ikke en konto?",
+      "createAccount": "Opprett en",
       "errors": {
-        "invalid": "Invalid email or password. Please try again.",
-        "notMigrated": "Your account hasn't been set up yet. Please register to set your password.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "invalid": "Ugyldig e-post eller passord. Prøv på nytt.",
+        "networkError": "Nettverksfeil. Sjekk tilkoblingen og prøv på nytt.",
+        "generic": "En feil oppstod under pålogging. Prøv på nytt."
       }
     },
     "register": {
-      "title": "Create Account",
-      "description": "Register to access your game servers and services.",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "you@example.com",
-      "passwordLabel": "Password",
-      "passwordPlaceholder": "Create a password",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Confirm your password",
-      "registerButton": "Create Account",
-      "registering": "Creating account...",
-      "alreadyHaveAccount": "Already have an account?",
-      "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
+      "title": "Opprett konto",
+      "description": "Registrer deg for å få tilgang til dine spillservere og tjenester.",
+      "emailLabel": "Epost Adresse",
+      "emailPlaceholder": "deg@eksempel.no",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "Opprett passord",
+      "confirmPasswordLabel": "Bekreft passord",
+      "confirmPasswordPlaceholder": "Bekreft passordet ditt",
+      "registerButton": "Opprett konto",
+      "registering": "Oppretter konto...",
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "signIn": "Logg inn",
+      "panelAccountRequired": "Gammel panelkonto kreves",
+      "panelAccountRequiredDescription": "Når vi arbeider med å migrere bort fra våre gamle systemer, så må du ha en eksisterende konto i spillpanelet vårt for å registrere. Panel kontoer opprettes når du kjøper en tjeneste gjennom vårt faktureringssystem.",
       "errors": {
-        "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
-        "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
-        "passwordsDontMatch": "Passwords do not match.",
-        "passwordTooShort": "Password must be at least 8 characters.",
-        "invalidEmail": "Please enter a valid email address.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during registration. Please try again."
+        "emailExists": "En konto med denne e-postadressen finnes allerede.",
+        "notInPanel": "Ingen spill-panelkonto funnet med denne e-posten. Vennligst kjøp en tjeneste først for å opprette en panelkonto.",
+        "panelAccountLinked": "Denne panelkontoen er allerede koblet til en annen NodeByte konto.",
+        "passwordsDontMatch": "Passordene samsvarer ikke.",
+        "passwordTooShort": "Passordet må bestå av minst åtte tegn.",
+        "invalidEmail": "Vennligst skriv inn en gyldig e-postadresse.",
+        "networkError": "Nettverksfeil. Sjekk tilkoblingen og prøv på nytt.",
+        "generic": "Det oppstod en feil under registrering. Prøv på nytt."
       },
       "success": {
-        "title": "Account Created!",
-        "description": "Your account has been created successfully. You can now sign in."
+        "title": "Konto opprettet!",
+        "description": "Din konto er opprettet. Du kan nå logge på."
       }
     },
     "error": {
-      "title": "Authentication Error",
-      "description": "There was a problem signing you in.",
-      "configuration": "There is a configuration error with the authentication system.",
-      "accessDenied": "You do not have permission to access this resource.",
-      "verification": "The sign in link is no longer valid.",
-      "default": "An unexpected error occurred during sign in.",
-      "credentialsSignin": "Invalid credentials. Please check your email and password.",
-      "tryAgain": "Try Again",
-      "goHome": "Go Home"
+      "title": "Feil ved autentisering",
+      "description": "Det oppsto et problem ved innlogging.",
+      "configuration": "Det er en konfigurasjonsfeil med autentiseringssystemet.",
+      "accessDenied": "Du har ikke tilgang til denne ressursen.",
+      "verification": "Koblingen til innloggingen er ikke lenger gyldig.",
+      "default": "En uventet feil oppstod under pålogging.",
+      "credentialsSignin": "Ugyldig legitimasjon. Kontroller e-postadressen og passordet.",
+      "tryAgain": "Prøv igjen",
+      "goHome": "Gå hjem"
     },
     "userMenu": {
-      "myAccount": "My Account",
-      "viewPanel": "View Panel",
-      "admin": "Admin",
-      "logout": "Sign Out",
-      "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "myAccount": "Min konto",
+      "viewPanel": "Vis Panel",
+      "admin": "Administrator",
+      "logout": "Logg ut",
+      "signIn": "Logg inn",
+      "loggingOut": "Logger ut..."
+    }
+  },
+  "admin": {
+    "title": "Admin-panel",
+    "nav": {
+      "dashboard": "Kontrollpanel",
+      "users": "Brukere",
+      "servers": "Servere",
+      "sync": "Synkronisering",
+      "settings": "Innstillinger",
+      "backToSite": "Back to Site"
+    },
+    "status": {
+      "online": "System pålogget"
+    },
+    "dashboard": {
+      "title": "Kontrollpanel",
+      "description": "Oversikt over Pterodaktyl paneldata og synkroniser status."
+    },
+    "stats": {
+      "users": "Totalt antall brukere",
+      "migratedCount": "{count} migrert",
+      "servers": "Servere",
+      "nodes": "Nodes",
+      "locations": "Steder",
+      "allocations": "Tildeling",
+      "nests": "Nester",
+      "eggs": "Egg",
+      "eggVariables": "Egg variabler",
+      "databases": "Databaser"
+    },
+    "sync": {
+      "status": "Synk status",
+      "lastSync": "Sist synkronisert",
+      "never": "Aldri",
+      "idle": "Inaktiv",
+      "syncing": "Synkroniserer...",
+      "inProgress": "Synkronisering pågår",
+      "syncingTarget": "Synkroniserer {target} data fra panelet...",
+      "complete": "complete",
+      "runFull": "Kjør full synkronisering",
+      "success": "Synkronisering fullført",
+      "completed": "Successfully synced {target} data.",
+      "error": "Synk feilet",
+      "quickActions": "Hurtigsynkronisering handlinger",
+      "quickActionsDescription": "Synkroniser individuelle datatyper med Pterodaktyl panelet.",
+      "targets": {
+        "locations": "Steder",
+        "nodes": "Nodes",
+        "allocations": "Tildeling",
+        "nests": "Nester & egg",
+        "servers": "Servere",
+        "databases": "Databaser",
+        "users": "Brukere"
+      }
+    },
+    "actions": {
+      "refresh": "Oppdater"
+    },
+    "error": {
+      "title": "Feil",
+      "unauthorized": "Du har ikke adgang til denne siden.",
+      "forbidden": "Admin tilgang kreves."
     }
   }
 }
