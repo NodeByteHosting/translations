@@ -964,7 +964,7 @@
       "servers": "Servere",
       "sync": "Sincronizare",
       "settings": "Setări",
-      "backToSite": "Back to Site"
+      "backToSite": "Înapoi la site"
     },
     "status": {
       "online": "Sistem online"
@@ -1008,6 +1008,182 @@
         "servers": "Servere",
         "databases": "Baze",
         "users": "Utilizatori"
+      }
+    },
+    "users": {
+      "title": "Utilizatori",
+      "description": "Gestionați conturile și permisiunile utilizatorului.",
+      "stats": {
+        "total": "Total utilizatori",
+        "migrated": "Migrat",
+        "admins": "Administratori",
+        "active": "Activ"
+      },
+      "filters": {
+        "title": "Filtre",
+        "searchPlaceholder": "Căutare după nume sau e-mail...",
+        "all": "Toți utilizatorii",
+        "active": "Activ",
+        "inactive": "Inactiv",
+        "admin": "Administratori",
+        "migrated": "Migrat",
+        "notMigrated": "Fără migrare"
+      },
+      "table": {
+        "user": "Utilizator",
+        "email": "E-mail",
+        "status": "Status",
+        "pterodactyl": "ID panou",
+        "created": "Creat",
+        "lastLogin": "Ultima Autentificare"
+      },
+      "badges": {
+        "active": "Activ",
+        "inactive": "Inactiv",
+        "admin": "Admin",
+        "migrated": "Migrat"
+      },
+      "empty": {
+        "title": "Niciun utilizator găsit",
+        "searchHint": "Încercați să ajustați căutarea sau filtrele dvs."
+      },
+      "pagination": {
+        "showing": "Se afișează {from} pentru {to} de {total} utilizatori",
+        "previous": "Anterior",
+        "next": "Următoarea"
+      }
+    },
+    "servers": {
+      "title": "Servere",
+      "description": "Vizualizați și gestionați toate serverele jocului.",
+      "stats": {
+        "total": "Total Servere",
+        "running": "Rulează",
+        "offline": "Offline",
+        "suspended": "Suspendat"
+      },
+      "filters": {
+        "title": "Filtre",
+        "searchPlaceholder": "Căutare după nume sau UUID...",
+        "all": "Toate Serverele",
+        "running": "Rulează",
+        "offline": "Offline",
+        "suspended": "Suspendat",
+        "installing": "Instalare"
+      },
+      "table": {
+        "server": "Server",
+        "status": "Status",
+        "owner": "Proprietar",
+        "resources": "Resurse",
+        "node": "Nod",
+        "created": "Creat"
+      },
+      "status": {
+        "running": "Rulează",
+        "offline": "Offline",
+        "starting": "Pornire",
+        "stopping": "Oprire",
+        "installing": "Instalare",
+        "install_failed": "Eșuat",
+        "suspended": "Suspendat",
+        "restoring_backup": "Restaurare"
+      },
+      "resources": {
+        "memory": "Memorie",
+        "disk": "Disc",
+        "cpu": "procesor"
+      },
+      "empty": {
+        "title": "Niciun server găsit",
+        "searchHint": "Încercați să ajustați căutarea sau filtrele dvs."
+      },
+      "pagination": {
+        "showing": "Se afișează {from} la {to} de servere {total}",
+        "previous": "Anterior",
+        "next": "Următoarea"
+      }
+    },
+    "settings": {
+      "title": "Setări",
+      "description": "Configurați setările de sistem și conexiunile.",
+      "wip": {
+        "title": "Lucrări în curs",
+        "description": "Această pagină de setări este în curs de dezvoltare. În prezent, numai testarea conexiunii este funcțională. Alte funcții vor fi activate într-o actualizare viitoare."
+      },
+      "save": "Salvează modificările",
+      "saved": "Setări salvate",
+      "savedDesc": "Setările au fost salvate cu succes.",
+      "saveError": "Salvarea setarilor a esuat. Va rugam incercati din nou.",
+      "copyFailed": "Copierea în clipboard a eșuat",
+      "tabs": {
+        "connections": "Conexiuni",
+        "features": "Caracteristici",
+        "notifications": "Notificări",
+        "advanced": "Avansat"
+      },
+      "status": {
+        "connected": "Conectat",
+        "disconnected": "Deconectat"
+      },
+      "connection": {
+        "success": "Conexiune reușită",
+        "successDesc": "Conectat cu succes la {type}.",
+        "failed": "Conexiune eșuată",
+        "error": "Testarea conexiunii a eșuat."
+      },
+      "testConnection": "Testare conexiune",
+      "pterodactyl": {
+        "title": "Panou Pterodactil",
+        "description": "Configurați conexiunea la panoul Pterodactil.",
+        "url": "URL panou",
+        "apiKey": "Cheie API",
+        "apiKeyNote": "Cheia API este stocată ca o variabilă de mediu.",
+        "version": "Versiune panou"
+      },
+      "database": {
+        "title": "Baza de date",
+        "description": "Configurarea conexiunii bazei de date.",
+        "provider": "Furnizor",
+        "connectionString": "Șirul de conexiune",
+        "connectionStringNote": "URL-ul bazei de date este stocat ca o variabilă de mediu."
+      },
+      "features": {
+        "title": "Funcționare Comutare",
+        "description": "Activează sau dezactivează funcțiile de sistem.",
+        "registration": "Înregistrare utilizator",
+        "registrationDesc": "Permite noilor utilizatori să înregistreze conturi.",
+        "maintenance": "Mod de mentenanță",
+        "maintenanceDesc": "Activați modul de mentenanță pentru a bloca accesul la site.",
+        "autoSync": "Sincronizare automată",
+        "autoSyncDesc": "Sincronizează automat datele din panou periodic."
+      },
+      "notifications": {
+        "title": "Notificări",
+        "description": "Configurați setările de notificare.",
+        "email": "Notificări prin e-mail",
+        "emailDesc": "Trimite notificări prin e-mail pentru evenimente importante.",
+        "discord": "Notificări Discord",
+        "discordDesc": "Trimite notificări către un canal Discord.",
+        "webhook": "URL-ul Webhook-ului Discord",
+        "webhookDesc": "Introdu URL-ul tău de webhook Discord pentru a primi notificări."
+      },
+      "advanced": {
+        "title": "Setări avansate",
+        "description": "Opțiuni de configurare avansată.",
+        "cacheTimeout": "Pauză geocutie",
+        "cacheTimeoutDesc": "Cât timp se salvează răspunsurile API.",
+        "syncInterval": "Interval de sincronizare",
+        "syncIntervalDesc": "Cât de des se sincronizează automat datele din panou.",
+        "seconds": "secunde",
+        "minute": "minut",
+        "minutes": "minute",
+        "hour": "oră",
+        "hours": "ore",
+        "dangerZone": "Zonă de pericol",
+        "dangerZoneDesc": "Aceste acţiuni sunt ireversibile. Continuaţi cu prudenţă.",
+        "clearCache": "Curăță Cache",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
