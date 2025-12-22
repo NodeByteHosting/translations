@@ -1,22 +1,22 @@
 {
   "nav": {
-    "company": "Company",
-    "services": "Services",
-    "resources": "Resources",
+    "company": "Unternehmen",
+    "services": "Dienste",
+    "resources": "Ressourcen",
     "extras": "Extras",
-    "contact": "Contact",
+    "contact": "Kontakt",
     "discord": "Discord",
-    "joinDiscord": "Join our Discord",
-    "theme": "Theme",
-    "currency": "Currency",
-    "language": "Language",
-    "settings": "Settings",
-    "menu": "Menu"
+    "joinDiscord": "Tritt unserem Discord bei",
+    "theme": "Design",
+    "currency": "Währung",
+    "language": "Sprache",
+    "settings": "Einstellungen",
+    "menu": "Menü"
   },
   "company": {
     "contact": {
-      "title": "Contact Us",
-      "description": "Get in touch with our team"
+      "title": "Kontaktiere uns",
+      "description": "Nimm Kontakt mit unserem Team auf"
     },
     "about": {
       "title": "About Us",
