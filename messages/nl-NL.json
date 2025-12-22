@@ -964,7 +964,7 @@
       "servers": "Servers",
       "sync": "Synchroniseren",
       "settings": "Instellingen",
-      "backToSite": "Back to Site"
+      "backToSite": "Terug naar site"
     },
     "status": {
       "online": "Systeem Online"
@@ -1008,6 +1008,182 @@
         "servers": "Servers",
         "databases": "Databases",
         "users": "Gebruikers"
+      }
+    },
+    "users": {
+      "title": "Gebruikers",
+      "description": "Beheer gebruikersaccounts en rechten.",
+      "stats": {
+        "total": "Totaal aantal gebruikers",
+        "migrated": "Gemigreerd",
+        "admins": "Beheerders",
+        "active": "actief"
+      },
+      "filters": {
+        "title": "Filters",
+        "searchPlaceholder": "Zoek op naam of e-mail...",
+        "all": "Alle gebruikers",
+        "active": "actief",
+        "inactive": "Inactief",
+        "admin": "Beheerders",
+        "migrated": "Gemigreerd",
+        "notMigrated": "Niet Gemigreerd"
+      },
+      "table": {
+        "user": "Gebruiker",
+        "email": "E-mailadres",
+        "status": "status",
+        "pterodactyl": "Paneel ID",
+        "created": "Aangemaakt",
+        "lastLogin": "Laatste aanmelding"
+      },
+      "badges": {
+        "active": "actief",
+        "inactive": "Inactief",
+        "admin": "Beheerder",
+        "migrated": "Gemigreerd"
+      },
+      "empty": {
+        "title": "Geen gebruikers gevonden",
+        "searchHint": "Probeer uw zoekopdracht of filters aan te passen."
+      },
+      "pagination": {
+        "showing": "Toont {from} naar {to} van {total} gebruikers",
+        "previous": "named@@0",
+        "next": "Volgende"
+      }
+    },
+    "servers": {
+      "title": "Servers",
+      "description": "Bekijk en beheer alle spelservers.",
+      "stats": {
+        "total": "Totaal servers",
+        "running": "Lopend",
+        "offline": "Offline",
+        "suspended": "Gestopt"
+      },
+      "filters": {
+        "title": "Filters",
+        "searchPlaceholder": "Zoeken op naam of UUID...",
+        "all": "Alle servers",
+        "running": "Lopend",
+        "offline": "Offline",
+        "suspended": "Gestopt",
+        "installing": "Installeren"
+      },
+      "table": {
+        "server": "Server",
+        "status": "status",
+        "owner": "Eigenaar",
+        "resources": "Hulpmiddelen",
+        "node": "Knoop",
+        "created": "Aangemaakt"
+      },
+      "status": {
+        "running": "Lopend",
+        "offline": "Offline",
+        "starting": "Starten",
+        "stopping": "Stoppen",
+        "installing": "Installeren",
+        "install_failed": "Mislukt",
+        "suspended": "Gestopt",
+        "restoring_backup": "Herstellen"
+      },
+      "resources": {
+        "memory": "Geheugen",
+        "disk": "Schijf",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "Geen servers gevonden",
+        "searchHint": "Probeer uw zoekopdracht of filters aan te passen."
+      },
+      "pagination": {
+        "showing": "Toont {from} naar {to} van {total} servers",
+        "previous": "named@@0",
+        "next": "Volgende"
+      }
+    },
+    "settings": {
+      "title": "Instellingen",
+      "description": "Configureer systeeminstellingen en verbindingen.",
+      "wip": {
+        "title": "Werk in uitvoering",
+        "description": "Deze instellingenpagina is in ontwikkeling. Op dit moment is alleen een verbinding met de instellingen operationeel. Andere functies worden ingeschakeld bij een toekomstige update."
+      },
+      "save": "Wijzigingen opslaan",
+      "saved": "Instellingen Opgeslagen",
+      "savedDesc": "Uw instellingen zijn opgeslagen.",
+      "saveError": "Instellingen opslaan mislukt. Probeer het opnieuw.",
+      "copyFailed": "Kon niet naar klembord kopiëren",
+      "tabs": {
+        "connections": "Verbindingen",
+        "features": "Eigenschappen",
+        "notifications": "Notificaties",
+        "advanced": "Geavanceerd"
+      },
+      "status": {
+        "connected": "Verbonden",
+        "disconnected": "Losgekoppeld"
+      },
+      "connection": {
+        "success": "Verbinding Succesvol",
+        "successDesc": "Succesvol verbonden met {type}.",
+        "failed": "Verbinding maken mislukt",
+        "error": "Kan verbinding niet testen."
+      },
+      "testConnection": "Verbinding testen",
+      "pterodactyl": {
+        "title": "Pterodactyl paneel",
+        "description": "Configureer de verbinding met uw Pterodactyl paneel.",
+        "url": "URL paneel",
+        "apiKey": "API Sleutel",
+        "apiKeyNote": "API-sleutel wordt opgeslagen als omgevingsvariabele.",
+        "version": "Paneel versie"
+      },
+      "database": {
+        "title": "Database",
+        "description": "Database connectie configuratie.",
+        "provider": "Leverancier",
+        "connectionString": "Connectie String",
+        "connectionStringNote": "Database URL wordt opgeslagen als omgeving variabele."
+      },
+      "features": {
+        "title": "Feature schakelaars",
+        "description": "Systeemfuncties in- of uitschakelen.",
+        "registration": "Registratie gebruiker",
+        "registrationDesc": "Sta nieuwe gebruikers toe om accounts te registreren.",
+        "maintenance": "Onderhoudsmodus",
+        "maintenanceDesc": "Schakel de onderhoudsmodus in om de toegang tot de website te blokkeren.",
+        "autoSync": "Automatisch synchroniseren",
+        "autoSyncDesc": "Gegevens automatisch periodiek synchroniseren van het paneel."
+      },
+      "notifications": {
+        "title": "Notificaties",
+        "description": "Instellingen van meldingen configureren.",
+        "email": "E-mail notificaties",
+        "emailDesc": "Stuur e-mailnotificaties voor belangrijke evenementen.",
+        "discord": "Discord notificaties",
+        "discordDesc": "Stuur meldingen naar een Discord-kanaal.",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "Voer je Discord webhook URL in om meldingen te ontvangen."
+      },
+      "advanced": {
+        "title": "Geavanceerde instellingen",
+        "description": "Geavanceerde configuratieopties.",
+        "cacheTimeout": "Cache time-out",
+        "cacheTimeoutDesc": "Hoe lang te cachen API reacties.",
+        "syncInterval": "Synchroniseer Interval",
+        "syncIntervalDesc": "Hoe vaak de gegevens automatisch worden gesynchroniseerd vanaf het paneel.",
+        "seconds": "seconden",
+        "minute": "minuut",
+        "minutes": "minuten",
+        "hour": "uur",
+        "hours": "Uren",
+        "dangerZone": "Gevaarlijke zone",
+        "dangerZoneDesc": "Deze acties zijn onomkeerbaar. Wees voorzichtig.",
+        "clearCache": "Cache legen",
+        "resetSync": "Reset Sync"
       }
     },
     "actions": {
