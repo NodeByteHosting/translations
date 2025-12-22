@@ -1,186 +1,186 @@
 {
   "nav": {
-    "company": "Unternehmen",
-    "services": "Dienste",
-    "resources": "Ressourcen",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
     "extras": "Extras",
-    "contact": "Kontakt",
+    "contact": "Contact",
     "discord": "Discord",
-    "joinDiscord": "Tritt unserem Discord bei",
-    "theme": "Design",
-    "currency": "Währung",
-    "language": "Sprache",
-    "settings": "Einstellungen",
-    "menu": "Menü"
+    "joinDiscord": "Join our Discord",
+    "theme": "Theme",
+    "currency": "Currency",
+    "language": "Language",
+    "settings": "Settings",
+    "menu": "Menu"
   },
   "company": {
     "contact": {
-      "title": "Kontaktieren Sie uns",
-      "description": "Nehmen Sie Kontakt mit unserem Team auf"
+      "title": "Contact Us",
+      "description": "Get in touch with our team"
     },
     "about": {
-      "title": "Über uns",
-      "description": "Erfahren Sie mehr über NodeByte"
+      "title": "About Us",
+      "description": "Learn more about NodeByte"
     }
   },
   "services": {
     "minecraft": {
       "title": "Minecraft Hosting",
-      "description": "Minecraft-Server mit sofortiger Einrichtung"
+      "description": "Minecraft servers with instant setup"
     },
     "rust": {
       "title": "Rust Hosting",
-      "description": "Rust-Server mit DDoS-Schutz"
+      "description": "Rust servers with DDoS protection"
     },
     "hytale": {
       "title": "Hytale Hosting",
-      "description": "Hytale-Server mit DDoS-Schutz"
+      "description": "Hytale servers with DDoS protection"
     },
     "all": {
-      "title": "Alle Dienste",
-      "description": "Entdecken Sie alle unsere Hosting-Dienste"
+      "title": "All Services",
+      "description": "Explore all our hosting services"
     }
   },
   "resources": {
     "clientArea": {
-      "title": "Kundenbereich",
-      "description": "Rechnungen, Zahlungen und Kontoeinstellungen verwalten"
+      "title": "Client Area",
+      "description": "Manage billing, invoices, and account settings"
     },
     "gamePanel": {
-      "title": "Spielpanel",
-      "description": "Steuern Sie Ihre Spielserver mit unserem Panel"
+      "title": "Game Panel",
+      "description": "Control your game servers with our panel"
     }
   },
   "extras": {
     "kb": {
-      "title": "Wissensdatenbank",
-      "description": "Anleitungen, Tutorials und Dokumentation"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "Neuigkeiten",
-      "description": "Neueste Updates und Funktionen"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "VERWENDEN SIE DEN CODE",
-      "suffix": "BEI IHRER ERSTEN BESTELLUNG!"
+      "prefix": "USE CODE",
+      "suffix": "ON YOUR FIRST ORDER!"
     },
-    "title": "Spielehosting",
-    "titleHighlight": "Einfach gemacht",
-    "description": "Schnelles, zuverlässiges und sicheres Hosting für Ihre Gaming-Communities. Starten Sie dedizierte Server mit sofortiger Einrichtung, DDoS-Schutz und 24/7-Support.",
-    "getStarted": "Jetzt starten",
-    "joinDiscord": "Discord beitreten",
-    "trustedBy": "Von Gaming-Communities weltweit vertraut",
-    "trustpilotReviews": "Trustpilot Bewertungen",
+    "title": "Game Hosting",
+    "titleHighlight": "Made Simple",
+    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
+    "getStarted": "Get Started",
+    "joinDiscord": "Join Discord",
+    "trustedBy": "Trusted by gaming communities worldwide",
+    "trustpilotReviews": "Trustpilot Reviews",
     "stats": {
-      "uptime": "Verfügbarkeit SLA",
-      "uptimeDesc": "Enterprise-Redundanz hält Ihre Server online.",
-      "ping": "Durchschn. Ping",
-      "pingDesc": "Optimiertes Routing für latenzarmes Gameplay.",
+      "uptime": "Uptime SLA",
+      "uptimeDesc": "Enterprise redundancy keeping your servers online.",
+      "ping": "Avg. Ping",
+      "pingDesc": "Optimized routing for low-latency gameplay.",
       "support": "Support",
-      "supportDesc": "Expertenunterstützung bei Installationen, Mods und Server-Ops."
+      "supportDesc": "Expert help with installs, mods, and server ops."
     }
   },
   "features": {
-    "badge": "Funktionen",
-    "title": "Alles was Sie brauchen",
-    "titleHighlight": "um erfolgreich zu sein",
-    "description": "Unsere Plattform wurde von Grund auf entwickelt, um das bestmögliche Spielerlebnis für Sie und Ihre Spieler zu liefern."
+    "badge": "Features",
+    "title": "Everything You Need",
+    "titleHighlight": "to Succeed",
+    "description": "Our platform is built from the ground up to deliver the best possible gaming experience for you and your players."
   },
   "about": {
-    "badge": "Über uns",
-    "title": "Von Gamern gebaut,",
-    "titleHighlight": "für Gamer",
-    "description": "Wir verstehen, was Gamer brauchen, weil wir selbst Gamer sind. NodeByte wurde mit einer einfachen Mission gegründet: zuverlässiges, hochleistungsfähiges Spielhosting ohne Komplexität.",
+    "badge": "About Us",
+    "title": "Built by Gamers,",
+    "titleHighlight": "for Gamers",
+    "description": "We understand what gamers need because we are gamers. NodeByte was founded with a simple mission: provide reliable, high-performance game hosting without the complexity.",
     "stats": {
-      "uptime": "Verfügbarkeit SLA",
+      "uptime": "Uptime SLA",
       "support": "Support",
-      "setup": "Einrichtungszeit",
-      "customers": "Zufriedene Gamer"
+      "setup": "Setup Time",
+      "customers": "Happy Gamers"
     }
   },
   "pricing": {
-    "badge": "Preise",
-    "title": "Server-Pläne",
-    "description": "Flexible Pläne für Ihre Bedürfnisse. Alle Pläne beinhalten DDoS-Schutz, sofortige Einrichtung und 24/7-Support.",
-    "getStarted": "Jetzt starten",
-    "viewAllPlans": "Alle Pläne ansehen",
-    "comingSoon": "Preise demnächst verfügbar",
-    "comingSoonDescription": "Wir arbeiten daran, Ihnen das beste Hosting-Erlebnis zu bieten. Treten Sie unserem Discord bei, um benachrichtigt zu werden!",
-    "joinDiscord": "Discord beitreten",
-    "mostPopular": "Beliebteste",
-    "customSolution": "Benötigen Sie eine individuelle Lösung oder haben Fragen?",
-    "contactUs": "Kontaktieren Sie uns",
-    "perMonth": "Monat"
+    "badge": "Pricing",
+    "title": "Server Plans",
+    "description": "Flexible plans to match your needs. All plans include DDoS protection, instant setup, and 24/7 support.",
+    "getStarted": "Get Started",
+    "viewAllPlans": "View All Plans",
+    "comingSoon": "Pricing Coming Soon",
+    "comingSoonDescription": "We're working on bringing you the best hosting experience. Join our Discord to be notified when we launch!",
+    "joinDiscord": "Join Discord",
+    "mostPopular": "Most Popular",
+    "customSolution": "Need a custom solution or have questions?",
+    "contactUs": "Contact us",
+    "perMonth": "month"
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Häufig gestellte",
-    "titleHighlight": "Fragen",
-    "description": "Haben Sie Fragen? Wir haben Antworten. Wenn Sie nicht finden, was Sie suchen, wenden Sie sich gerne an unser Support-Team."
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "description": "Got questions? We've got answers. If you can't find what you're looking for, feel free to reach out to our support team."
   },
   "games": {
-    "badge": "Spielhosting",
-    "title": "Wählen Sie Ihr",
-    "titleHighlight": "Spiel",
-    "description": "Wählen Sie aus unserer Auswahl unterstützter Spiele. Jede Plattform ist für die bestmögliche Leistung optimiert.",
-    "viewPlans": "Pläne ansehen",
-    "learnMore": "Mehr erfahren",
-    "comingSoon": "Demnächst verfügbar"
+    "badge": "Game Hosting",
+    "title": "Choose Your",
+    "titleHighlight": "Game",
+    "description": "Select from our range of supported games. Each platform is optimized for the best possible performance.",
+    "viewPlans": "View Plans",
+    "learnMore": "Learn More",
+    "comingSoon": "Coming Soon"
   },
   "contact": {
-    "badge": "Kontakt",
-    "title": "Wie können wir",
-    "titleHighlight": "Ihnen helfen?",
-    "description": "Unser Team ist für Sie da. Wählen Sie unten Ihre bevorzugte Kontaktmethode.",
-    "supportChannels": "Support-Kanäle",
+    "badge": "Get in Touch",
+    "title": "How Can We",
+    "titleHighlight": "Help You?",
+    "description": "Our team is here to help. Choose your preferred method of contact below.",
+    "supportChannels": "Support Channels",
     "discord": {
-      "title": "Discord-Community",
-      "description": "Treten Sie unserem Discord für Echtzeit-Support und Community-Diskussionen bei.",
-      "button": "Discord beitreten"
+      "title": "Discord Community",
+      "description": "Join our Discord for real-time support and community discussions.",
+      "button": "Join Discord"
     },
     "ticket": {
-      "title": "Support-Ticket",
-      "description": "Erstellen Sie ein Ticket über unser Abrechnungsportal für kontobezogene Probleme.",
-      "button": "Ticket öffnen"
+      "title": "Support Ticket",
+      "description": "Submit a ticket through our billing panel for account-related issues.",
+      "button": "Open Ticket"
     },
     "email": {
-      "title": "E-Mail",
-      "description": "Senden Sie uns eine E-Mail und wir antworten innerhalb von 24 Stunden.",
-      "departments": "Abteilungs-E-Mails",
-      "general": "Allgemeine Anfragen",
-      "support": "Technischer Support",
-      "billing": "Abrechnungsfragen",
-      "partnerships": "Partnerschaften"
+      "title": "Email Us",
+      "description": "Send us an email and we'll respond within 24 hours.",
+      "departments": "Department Emails",
+      "general": "General Inquiries",
+      "support": "Technical Support",
+      "billing": "Billing Questions",
+      "partnerships": "Partnerships"
     },
     "social": {
-      "title": "Folgen Sie uns",
-      "description": "Bleiben Sie über die neuesten Nachrichten und Ankündigungen informiert."
+      "title": "Follow Us",
+      "description": "Stay updated with the latest news and announcements."
     },
     "warning": {
-      "title": "Wichtiger Hinweis",
-      "description": "Für die schnellste Antwort empfehlen wir Discord für Support. Unsere Community und Mitarbeiter sind dort am aktivsten."
+      "title": "Important Notice",
+      "description": "For the fastest response, we recommend using Discord for support. Our community and staff are most active there."
     }
   },
   "footer": {
-    "tagline": "Schnelles, zuverlässiges, skalierbares und sicheres Hosting für Ihr Spielerlebnis. Von Menschen gebaut. Angetrieben von Bytes.",
-    "getInTouch": "Kontakt aufnehmen",
-    "emailUs": "E-Mail senden",
+    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
+    "getInTouch": "Get in Touch",
+    "emailUs": "Email Us",
     "support": "Support",
-    "contactTeam": "Kontaktieren Sie unser Team",
-    "quickLinks": "Schnelllinks",
-    "legal": "Rechtliches",
-    "status": "Alle Systeme betriebsbereit",
-    "copyright": "Alle Rechte vorbehalten.",
-    "builtWith": "Erstellt mit"
+    "contactTeam": "Contact our team",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "status": "All Systems Operational",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with"
   },
   "common": {
-    "loading": "Wird geladen...",
-    "error": "Etwas ist schief gelaufen",
-    "retry": "Erneut versuchen",
-    "learnMore": "Mehr erfahren",
-    "getStarted": "Jetzt starten",
-    "comingSoon": "Demnächst verfügbar"
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "comingSoon": "Coming Soon"
   }
 }
