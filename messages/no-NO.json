@@ -546,7 +546,7 @@
     "copyFailedDesc": "Kan ikke kopiere til utklippstavlen",
     "discord": {
       "title": "Discord fellesskap",
-      "description": "Bli med i vårt samfunn for øyeblikkelig støtte, kunngjøringer og chat med andre brukere.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Bli med i Discord",
       "features": {
         "0": "Øyeblikkelige svar",
@@ -652,7 +652,7 @@
     "description": "Hold deg oppdatert om de siste utgavene, funksjonene og forbedringene på tvers av alle NodeByte-prosjekter.",
     "searchPlaceholder": "Søkeutgivelser...",
     "filters": {
-      "all": "Alle repositories",
+      "all": "All",
       "allTypes": "Alle typer",
       "feature": "Egenskap",
       "bugfix": "Bug fiks",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Ingen utgivelser funnet",
-      "description": "Prøv å endre ditt søk eller ditt filter for å finne det du leter etter.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Fjern filtre"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Kunne ikke laste utgivelser",
-      "description": "Det oppstod en feil ved henting av utgivelser. Vennligst prøv igjen senere.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Prøv igjen"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Vårt team",
       "title": "Møt den",
       "titleHighlight": "Lag",
-      "description": "lidenskapelig folk bak NodeByte som arbeider utrettelig for å gi den beste hodeopplevelsen.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Grunnlegger og hovedutvikler"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Klar til å komme i gang?",
-      "description": "Bli med tusenvis av gamingsamfunn som stoler på NodeByte for serverens hosting behov.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Vis spillservere",
       "joinDiscord": "Bli med i Discord"
     }
@@ -1107,10 +1107,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Arbeid i fremdrift",
-        "description": "Denne innstillingssiden er under utvikling. Foreløpig bare tilkoblingstesting er funksjonell. Andre funksjoner vil bli aktivert i en fremtidig oppdatering."
-      },
       "save": "Lagre endringer",
       "saved": "Innstillinger lagret",
       "savedDesc": "Dine innstillinger har blitt lagret.",
