@@ -1,3 +1,4 @@
 excluded/
 ./excluded/
 messages/
+./messages/*
