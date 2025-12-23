@@ -546,7 +546,7 @@
     "copyFailedDesc": "Échec de la copie dans le presse-papiers",
     "discord": {
       "title": "Communauté Discord",
-      "description": "Rejoignez notre communauté pour un support instantané, des annonces et des discussions avec d'autres utilisateurs.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Rejoindre Discord",
       "features": {
         "0": "Réponses instantanées",
@@ -652,7 +652,7 @@
     "description": "Restez à jour avec les dernières versions, fonctionnalités et améliorations pour tous les projets NodeByte.",
     "searchPlaceholder": "Rechercher des versions...",
     "filters": {
-      "all": "Tous les dépôts",
+      "all": "All",
       "allTypes": "Tous les types",
       "feature": "Fonctionnalités",
       "bugfix": "Correction de bugs",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Aucune version trouvée",
-      "description": "Essayez d'ajuster votre recherche ou vos filtres pour trouver ce que vous cherchez.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Effacer les filtres"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Impossible de charger les autorisations",
-      "description": "Une erreur s'est produite lors de la récupération des versions. Veuillez réessayer plus tard.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Réessayez"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Notre équipe",
       "title": "Rencontrez le",
       "titleHighlight": "Equipe",
-      "description": "Les passionnés derrière NodeByte qui travaillent sans relâche pour offrir la meilleure expérience d'hébergement.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Fondateur et développeur principal"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Prêt à commencer ?",
-      "description": "Rejoignez des milliers de communautés de joueurs qui font confiance à NodeByte pour leurs besoins d'hébergement de serveurs.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Voir les serveurs de jeu",
       "joinDiscord": "Rejoindre Discord"
     }
@@ -1107,10 +1107,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "En cours de travail",
-        "description": "Cette page de paramètres est en cours de développement. Actuellement, seuls les tests de connexion sont fonctionnels. D'autres fonctionnalités seront activées dans une prochaine mise à jour."
-      },
       "save": "Enregistrer les modifications",
       "saved": "Paramètres enregistrés",
       "savedDesc": "Vos paramètres ont été enregistrés avec succès.",
