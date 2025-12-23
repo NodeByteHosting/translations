@@ -1,309 +1,69 @@
 {
-  "contact": {
-    "badge": "Get in Touch",
-    "title": "Contact",
-    "titleHighlight": "NodeByte",
-    "description": "We're here to help 24/7. Reach out through any of our support channels and we'll get back to you as soon as possible.",
-    "supportChannels": "Support Channels",
-    "copied": "Copied!",
-    "copiedDesc": "Email address copied to clipboard",
-    "copyFailed": "Copy Failed",
-    "copyFailedDesc": "Failed to copy to clipboard",
-    "discord": {
-      "title": "Discord Community",
-      "description": "Get live support and help from our community and team members.",
-      "button": "Join Discord",
-      "features": {
-        "0": "Instant responses",
-        "1": "Community help",
-        "2": "Announcements"
-      }
-    },
-    "github": {
-      "title": "GitHub Discussions",
-      "description": "Report bugs, suggest features, and contribute to our open source projects.",
-      "button": "Open GitHub",
-      "features": {
-        "0": "Bug reports",
-        "1": "Feature requests",
-        "2": "Open source"
-      }
-    },
-    "ticket": {
-      "title": "Support Ticket",
-      "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
-    },
-    "email": {
-      "badge": "Email Support",
-      "title": "Prefer Email? We've Got You Covered",
-      "responseTime": "Response time: typically within 24 hours",
-      "departments": "Department Emails",
-      "technical": "Technical Support",
-      "technicalDesc": "Server issues & technical help",
-      "general": "General Support",
-      "generalDesc": "General questions & assistance",
-      "account": "Account Issues",
-      "accountDesc": "Login & account problems",
-      "billing": "Billing Inquiries",
-      "billingDesc": "Payments & invoices"
-    },
-    "social": {
-      "title": "Follow Us",
-      "description": "Stay updated with news, tips, and community updates"
-    },
-    "warning": {
-      "title": "Important Notice",
-      "description": "We do not handle billing or account-related support via Discord. For privacy and security, please contact us at support@nodebyte.host for sensitive matters."
+  "login": {
+    "title": "Войти",
+    "description": "Чтобы продолжить, войдите в свой аккаунт NodeByte.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "вы@example.com",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите ваш пароль",
+    "loginButton": "Войти",
+    "loggingIn": "Вход...",
+    "forgotPassword": "Забыли пароль?",
+    "noAccount": "У вас нет учетной записи?",
+    "createAccount": "Создать",
+    "errors": {
+      "invalid": "Неверный email или пароль. Пожалуйста, попробуйте еще раз.",
+      "networkError": "Ошибка сети. Проверьте подключение и повторите попытку.",
+      "generic": "Произошла ошибка при входе. Пожалуйста, попробуйте еще раз."
     }
   },
-  "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
-    "getInTouch": "Get in Touch",
-    "emailUs": "Email Us",
-    "support": "Support",
-    "contactTeam": "Contact our team",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "status": "All Systems Operational",
-    "copyright": "All rights reserved.",
-    "builtWith": "Built with",
-    "statusLabels": {
-      "operational": "All Systems Operational",
-      "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+  "register": {
+    "title": "Создать Аккаунт",
+    "description": "Зарегистрируйтесь для доступа к игровым серверам и сервисам.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "вы@example.com",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Создать пароль",
+    "confirmPasswordLabel": "Подтверждение пароля",
+    "confirmPasswordPlaceholder": "Подтвердите пароль",
+    "registerButton": "Создать Аккаунт",
+    "registering": "Создание учетной записи...",
+    "alreadyHaveAccount": "Уже зарегистрированы?",
+    "signIn": "Войти",
+    "panelAccountRequired": "Требуется старый аккаунт панели",
+    "panelAccountRequiredDescription": "Пока мы работаем над переездом из наших старых систем, вы должны иметь существующий аккаунт на нашей панели для регистрации. Панельные аккаунты создаются при покупке услуг через нашу систему биллинга.",
+    "errors": {
+      "emailExists": "Учетная запись с таким адресом электронной почты уже существует.",
+      "notInPanel": "Не найдено ни одного игрового аккаунта на этом email. Пожалуйста, сначала купите сервис, чтобы создать аккаунт в панели.",
+      "panelAccountLinked": "Этот аккаунт уже связан с другим аккаунтом NodeByte.",
+      "passwordsDontMatch": "Пароли не совпадают.",
+      "passwordTooShort": "Пароль должен содержать не менее 8 символов.",
+      "invalidEmail": "Пожалуйста, введите действительный адрес электронной почты.",
+      "networkError": "Ошибка сети. Проверьте подключение и повторите попытку.",
+      "generic": "Произошла ошибка при регистрации. Пожалуйста, попробуйте еще раз."
     },
-    "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
-      "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
-    },
-    "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
-      "knowledgeBase": "Knowledge Base",
-      "trustPilot": "Trustpilot"
-    },
-    "legalLinks": {
-      "terms": "Terms & Conditions",
-      "privacy": "Privacy Policy",
-      "refund": "Refund Policy",
-      "legalHub": "Legal Hub"
-    },
-    "company": {
-      "aboutNodeByte": "About NodeByte",
-      "contact": "Contact Us",
-      "companyInfo": "Company Info",
-      "changes": "Changelog"
-    },
-    "trustpilot": {
-      "reviews": "reviews",
-      "readReviews": "Read our reviews"
+    "success": {
+      "title": "Учетная запись создана!",
+      "description": "Ваша учетная запись успешно создана. Теперь вы можете войти."
     }
   },
-  "changelog": {
-    "badge": "What's New",
-    "title": "Changelog",
-    "titleHighlight": "& Updates",
-    "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
-    "searchPlaceholder": "Search releases...",
-    "filters": {
-      "all": "All",
-      "website": "Website",
-      "panel": "Panel",
-      "api": "API",
-      "infrastructure": "Infrastructure",
-      "security": "Security"
-    },
-    "release": {
-      "released": "Released",
-      "added": "Added",
-      "changed": "Changed",
-      "fixed": "Fixed",
-      "removed": "Removed",
-      "security": "Security",
-      "draft": "Draft"
-    },
-    "empty": {
-      "title": "No releases found",
-      "description": "Try adjusting your filters or search terms",
-      "clearFilters": "Clear Filters"
-    },
-    "loading": {
-      "title": "Loading releases...",
-      "description": "Fetching the latest updates from our repositories."
-    },
-    "error": {
-      "title": "Failed to load releases",
-      "description": "Please try again or contact support if the issue persists.",
-      "retry": "Try Again"
-    },
-    "stats": {
-      "totalReleases": "Total Releases",
-      "thisMonth": "This Month",
-      "latestUpdate": "Latest Update"
-    },
-    "viewAll": "View All Releases",
-    "showMore": "Show More",
-    "showLess": "Show Less",
-    "pagination": {
-      "previous": "Previous",
-      "next": "Next",
-      "page": "Page",
-      "of": "of"
-    },
-    "copyLink": "Copy link",
-    "linkCopied": "Link copied!"
+  "error": {
+    "title": "Ошибка аутентификации",
+    "description": "Возникла проблема с регистрацией.",
+    "configuration": "Ошибка конфигурации системы аутентификации.",
+    "accessDenied": "У вас нет разрешения на доступ к этому ресурсу.",
+    "verification": "Ссылка для входа больше не действительна.",
+    "default": "Во время входа произошла непредвиденная ошибка.",
+    "credentialsSignin": "Неверные учетные данные. Пожалуйста, проверьте ваш адрес электронной почты и пароль.",
+    "tryAgain": "Попробовать ещё раз",
+    "goHome": "Домой"
   },
-  "kb": {
-    "title": "Knowledge Base",
-    "description": "Find answers, tutorials, and guides to help you get the most out of your NodeByte experience.",
-    "searchPlaceholder": "Search knowledge base...",
-    "browseByCategory": "Browse by Category",
-    "recentlyUpdated": "Recently Updated",
-    "articles": "articles",
-    "minRead": "min read",
-    "updated": "Updated",
-    "onThisPage": "On this page",
-    "backTo": "Back to",
-    "previous": "Previous",
-    "next": "Next",
-    "noResults": {
-      "title": "No results found",
-      "description": "Try different keywords or browse categories",
-      "forQuery": "No results found for"
-    },
-    "empty": {
-      "title": "No articles yet",
-      "description": "This category doesn't have any articles yet. Check back soon!"
-    },
-    "help": {
-      "title": "Still need help?",
-      "description": "Can't find what you're looking for? We're here to help.",
-      "discord": {
-        "title": "Discord Community",
-        "description": "Join our Discord for live support and community help.",
-        "button": "Join Discord"
-      },
-      "ticket": {
-        "title": "Support Ticket",
-        "description": "Open a support ticket for account or billing issues.",
-        "button": "Open Ticket"
-      },
-      "faq": {
-        "title": "FAQ",
-        "description": "Check our frequently asked questions for quick answers.",
-        "button": "View FAQ"
-      }
-    },
-    "search": {
-      "dialogTitle": "Search Knowledge Base",
-      "button": "Search"
-    }
-  },
-  "notFound": {
-    "title": "Page Not Found",
-    "description": "The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
-    "goHome": "Go Home",
-    "goBack": "Go Back",
-    "quickLinks": "Quick Links",
-    "links": {
-      "home": "Home",
-      "games": "Games",
-      "kb": "Knowledge Base",
-      "contact": "Contact"
-    }
-  },
-  "errorPage": {
-    "title": "Something Went Wrong",
-    "description": "We encountered an unexpected error. Don't worry, our team has been notified and is working on it.",
-    "errorCode": "Error Code",
-    "tryAgain": "Try Again",
-    "goHome": "Go Home",
-    "needHelp": "Need Help?",
-    "helpDescription": "If this error persists, please reach out to our support team.",
-    "joinDiscord": "Join Discord",
-    "contactSupport": "Contact Support"
-  },
-  "aboutPage": {
-    "badge": "About NodeByte",
-    "hero": {
-      "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
-      "joinCommunity": "Join Our Community",
-      "contactUs": "Contact Us"
-    },
-    "story": {
-      "badge": "Our Story",
-      "title": "How It All Started",
-      "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
-    },
-    "values": {
-      "badge": "Our Values",
-      "title": "What We",
-      "titleHighlight": "Stand For",
-      "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
-      "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
-      },
-      "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
-      },
-      "open": {
-        "title": "Open by Design",
-        "description": "We value transparency from clear SLA commitments to open tooling. Our platform provides APIs and integrations to automate server workflows."
-      }
-    },
-    "stats": {
-      "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers"
-    },
-    "timeline": {
-      "badge": "Our Journey",
-      "title": "A Brief",
-      "titleHighlight": "History",
-      "founded": {
-        "title": "NodeByte Founded",
-        "description": "Started as a small project by gamers who wanted better hosting options for their communities."
-      },
-      "growth": {
-        "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
-      },
-      "expansion": {
-        "title": "Global Expansion",
-        "description": "Launched new services, enhanced control panel, and continue growing our global community."
-      }
-    },
-    "team": {
-      "badge": "Our Team",
-      "title": "Meet the",
-      "titleHighlight": "Team",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience."
-    },
-    "cta": {
-      "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "button": "View Game Plans",
-      "joinDiscord": "Join Discord"
-    }
-  },
-  "maintenance": {
-    "title": "We'll be right back",
-    "description": "We're currently performing scheduled maintenance to improve our services.",
-    "status": "Site Under Maintenance",
-    "estimatedTime": "We expect to be back online soon",
-    "contact": "If you have any urgent questions, please contact our support team",
-    "contactSupport": "Contact Support",
-    "followSuggestion": "Follow us on Discord for real time updates on maintenance status.",
-    "discordSuggestion": "Join Discord"
+  "userMenu": {
+    "myAccount": "Мой аккаунт",
+    "viewPanel": "Просмотр панели",
+    "admin": "Админ",
+    "logout": "Выйти",
+    "signIn": "Войти",
+    "loggingOut": "Выход..."
   }
 }
