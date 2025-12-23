@@ -546,7 +546,7 @@
     "copyFailedDesc": "Kon niet naar klembord kopiëren",
     "discord": {
       "title": "Discord gemeenschap",
-      "description": "Word lid van onze community voor directe ondersteuning, aankondigingen en chat met andere gebruikers.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Deelnemen aan Discord",
       "features": {
         "0": "Directe antwoorden",
@@ -652,7 +652,7 @@
     "description": "Blijf op de hoogte van de laatste releases, functies en verbeteringen voor alle NodeByte projecten.",
     "searchPlaceholder": "releases zoeken...",
     "filters": {
-      "all": "Alle opslagplaatsen",
+      "all": "All",
       "allTypes": "Alle typen",
       "feature": "Functie",
       "bugfix": "Bug fix",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Geen releases gevonden",
-      "description": "Probeer je zoekopdracht of filters aan te passen om te vinden wat je zoekt.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Filters wissen"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Fout bij het laden van releases",
-      "description": "Er is een fout opgetreden bij het ophalen van releases. Probeer het later opnieuw.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Probeer opnieuw"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Ons team",
       "title": "Ontmoet de",
       "titleHighlight": "Team",
-      "description": "De gepassioneerde mensen achter NodeByte die onvermoeibaar werken aan de beste hosting ervaring.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Oprichter & Hoofdontwikkelaar"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Klaar om te beginnen?",
-      "description": "Sluit u aan bij duizenden gaming-gemeenschappen die NodeByte vertrouwen voor hun server hosting behoeften.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Bekijk Spelservers",
       "joinDiscord": "Deelnemen aan Discord"
     }
@@ -1107,10 +1107,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Werk in uitvoering",
-        "description": "Deze instellingenpagina is in ontwikkeling. Op dit moment is alleen een verbinding met de instellingen operationeel. Andere functies worden ingeschakeld bij een toekomstige update."
-      },
       "save": "Wijzigingen opslaan",
       "saved": "Instellingen Opgeslagen",
       "savedDesc": "Uw instellingen zijn opgeslagen.",
