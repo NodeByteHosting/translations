@@ -546,7 +546,7 @@
     "copyFailedDesc": "Failed to copy to clipboard",
     "discord": {
       "title": "Discord Community",
-      "description": "Join our community for instant support, announcements, and chat with other users.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Join Discord",
       "features": {
         "0": "Instant responses",
@@ -652,7 +652,7 @@
     "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
     "searchPlaceholder": "Search releases...",
     "filters": {
-      "all": "All Repositories",
+      "all": "All",
       "allTypes": "All Types",
       "feature": "Feature",
       "bugfix": "Bug Fix",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "No releases found",
-      "description": "Try adjusting your search or filters to find what you're looking for.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Clear Filters"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Failed to load releases",
-      "description": "There was an error fetching releases. Please try again later.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Try Again"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Our Team",
       "title": "Meet the",
       "titleHighlight": "Team",
-      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Founder & Lead Developer"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "View Game Servers",
       "joinDiscord": "Join Discord"
     }
@@ -1107,10 +1107,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Work in Progress",
-        "description": "This settings page is under development. Currently, only connection testing is functional. Other features will be enabled in a future update."
-      },
       "save": "Save Changes",
       "saved": "Settings Saved",
       "savedDesc": "Your settings have been saved successfully.",
