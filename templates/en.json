@@ -1107,6 +1107,10 @@
     "settings": {
       "title": "Settings",
       "description": "Configure system settings and connections.",
+      "wip": {
+        "title": "Work in Progress",
+        "description": "This settings page is under development. Currently, only connection testing is functional. Other features will be enabled in a future update."
+      },
       "save": "Save Changes",
       "saved": "Settings Saved",
       "savedDesc": "Your settings have been saved successfully.",
