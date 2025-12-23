@@ -1,0 +1,1235 @@
+{
+  "nav": {
+    "company": "会社名",
+    "services": "サービス",
+    "resources": "リソース",
+    "extras": "Extras",
+    "contact": "お問い合わせ",
+    "discord": "Discord",
+    "joinDiscord": "Discordに参加する",
+    "theme": "テーマ",
+    "currency": "通貨",
+    "language": "言語",
+    "settings": "設定",
+    "menu": "メニュー"
+  },
+  "company": {
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "私たちのチームに連絡する"
+    },
+    "about": {
+      "title": "私たちについて",
+      "description": "NodeByteの詳細"
+    }
+  },
+  "services": {
+    "minecraft": {
+      "title": "Minecraft ホスティング",
+      "description": "Minecraft のサーバー"
+    },
+    "rust": {
+      "title": "Rust Hosting",
+      "description": "DDoS保護を備えたRustサーバー"
+    },
+    "hytale": {
+      "title": "Hytale Hosting",
+      "description": "DDoS保護機能を備えたHytale サーバー"
+    },
+    "all": {
+      "title": "すべてのサービス",
+      "description": "すべてのホスティングサービスをご覧ください"
+    }
+  },
+  "resources": {
+    "clientArea": {
+      "title": "取引先エリア",
+      "description": "請求書、請求書、アカウントの設定を管理する"
+    },
+    "gamePanel": {
+      "title": "ゲームパネル",
+      "description": "私たちのパネルでゲームサーバーを制御します"
+    }
+  },
+  "extras": {
+    "kb": {
+      "title": "ナレッジベース",
+      "description": "ガイド、チュートリアル、ドキュメント"
+    },
+    "changelog": {
+      "title": "新着情報",
+      "description": "最新のアップデートと機能"
+    }
+  },
+  "hero": {
+    "promo": {
+      "prefix": "コードを使用",
+      "suffix": "最初の注文で！"
+    },
+    "title": "ゲームホスティング",
+    "titleHighlight": "シンプルにしました",
+    "description": "迅速で信頼性の高いセキュアなホスティング。インスタントセットアップ、DDoS保護、24時間年中無休のサポートを備えた専用サーバーを起動します。",
+    "getStarted": "はじめよう",
+    "joinDiscord": "Discord に参加",
+    "trustedBy": "世界中のゲームコミュニティから信頼されています",
+    "trustpilotReviews": "Trustpilotレビュー",
+    "stats": {
+      "uptime": "稼働時間SLA",
+      "uptimeDesc": "サーバーをオンラインに保つ企業冗長性。",
+      "ping": "平均Ping",
+      "pingDesc": "低遅延のゲームプレイに最適化されたルーティング。",
+      "support": "サポート",
+      "supportDesc": "インストール、Mod、サーバーのopsに関する専門家のヘルプ。"
+    }
+  },
+  "features": {
+    "badge": "インフラストラクチャ",
+    "title": "ビルドされた",
+    "titleHighlight": "パフォーマンス",
+    "description": "ゲーマーに優しいツールを備えたエンタープライズグレードのインフラストラクチャ。インスタントサーバー、低遅延ルーティング、強力なコントロール。",
+    "viewPlans": "ホスティングプランを表示",
+    "startingFrom": "開始日",
+    "items": {
+      "ddos": {
+        "title": "DDoS保護",
+        "description": "FyfeWebを搭載したエンタープライズグレードの緩和と、サーバーをオンライン状態に保つ自動スクラブ機能を備えています。",
+        "highlights": {
+          "0": "FyfeWebネットワーク保護",
+          "1": "自動スケーリングによる緩和処理",
+          "2": "リアルタイム監視"
+        }
+      },
+      "latency": {
+        "title": "低遅延ネットワーク",
+        "description": "FyfeWebの英国ネットワークを経由して、ロンドンPOPで最小限のpingでルートを最適化しました。",
+        "highlights": {
+          "0": "Sub-50ms avg レイテンシー",
+          "1": "UKベースのルーティング",
+          "2": "FyfeWeb peering"
+        }
+      },
+      "setup": {
+        "title": "インスタントセットアップ",
+        "description": "ワンクリックサーバーテンプレート、自動化されたModインストール、および高速プロビジョニング。",
+        "highlights": {
+          "0": "60秒のデプロイ数",
+          "1": "ビルド済みのテンプレート",
+          "2": "自動設定"
+        }
+      },
+      "locations": {
+        "title": "UK データセンター",
+        "description": "FyfeWebを搭載したロンドンPOPで英国に戦略的に配置されました。",
+        "highlights": {
+          "0": "ロンドンPOPs",
+          "1": "FyfeWebネットワーク",
+          "2": "低レイテンシの英国の報道状況"
+        }
+      },
+      "panel": {
+        "title": "コントロール パネル",
+        "description": "コンソールアクセス、ファイル管理、バックアップ、メトリックのための強力なUI。",
+        "highlights": {
+          "0": "ライブコンソール",
+          "1": "ファイルマネージャー",
+          "2": "スケジュールされたタスク"
+        }
+      },
+      "support": {
+        "title": "24時間365日のサポート",
+        "description": "インストールとトラブルシューティングのために、いつでも利用可能なエキスパートオペを持つ人間初のサポート。",
+        "highlights": {
+          "0": "Discordサポート",
+          "1": "チケットシステム",
+          "2": "ナレッジベース"
+        }
+      }
+    }
+  },
+  "about": {
+    "badge": "私たちのストーリー",
+    "title": "ゲーマーによって構築されました",
+    "titleHighlight": "ゲーマー向け",
+    "paragraph1": "NodeByte は、高速で信頼性が高く、管理が容易なホスティングを望んでいたゲーマーやオプスのエンジニアの小さなグループとして始まりました。 私たちは、ラギーサーバーと応答しないサポートの不満を直接経験しました。",
+    "paragraph2": "そのため、マルチプレイヤー向けに特化したインフラストラクチャを構築しました。低遅延ルーティングです。 堅牢な DDoS 保護、およびインスタントサーバープロビジョニングにより、迅速に再生できます。",
+    "joinCommunity": "コミュニティに参加する",
+    "values": {
+      "players": {
+        "title": "プレイヤー向けに構築",
+        "description": "当社のインフラストラクチャは、低遅延ルーティング、予測可能なパフォーマンス、および強力な稼働時間を優先するため、コミュニティはオンラインでも反応性を維持できます。"
+      },
+      "community": {
+        "title": "コミュニティ & Mod サポート",
+        "description": "シームレスなModインストール、スナップショットサポート、コミュニティツールを使用して、モデリングされた世界と永続的なサーバーを最小限の労力で実行できます。"
+      },
+      "open": {
+        "title": "デザインで開く",
+        "description": "当社のプラットフォームは、明確なSLAのコミットメントからオープンツーリングまでの透明性を重視しており、サーバーワークフローを自動化するためのAPIと統合を提供しています。"
+      }
+    },
+    "stats": {
+      "uptime": "稼働時間SLA",
+      "latency": "平均遅延",
+      "support": "サポート",
+      "servers": "アクティブなサーバー"
+    }
+  },
+  "pricing": {
+    "badge": "価格",
+    "title": "サーバープラン",
+    "description": "ニーズに合わせた柔軟なプラン。すべてのプランには、DDoS保護、インスタントセットアップ、24時間年中無休のサポートが含まれます。",
+    "getStarted": "はじめよう",
+    "viewAllPlans": "すべてのプランを表示",
+    "comingSoon": "価格は近日公開予定です",
+    "comingSoonDescription": "私たちは最高のホスティング体験を提供するために取り組んでいます。Discordに参加して、起動時に通知を受け取りましょう！",
+    "joinDiscord": "Discord に参加",
+    "mostPopular": "最も人気",
+    "customSolution": "カスタムソリューションが必要ですか、質問がありますか？",
+    "contactUs": "お問い合わせ",
+    "perMonth": "月"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "よくある質問",
+    "titleHighlight": "質問",
+    "description": "NodeByteのホスティング、パフォーマンス、およびサポートに関する簡単な回答。",
+    "searchPlaceholder": "質問を検索...",
+    "noResults": "結果が見つかりませんでした。「DDoS」、「mods」、「SLA」を検索してみてください。",
+    "stillHaveQuestions": "まだ質問がありますか？",
+    "cantFind": "お探しの内容が見つかりませんか？サポートチームがお手伝いします。",
+    "contactSupport": "サポートに連絡",
+    "joinDiscord": "Discord に参加",
+    "items": {
+      "provision": {
+        "question": "どのくらいの速さでサーバーをプロビジョニングできますか?",
+        "answer": "ほとんどのビルド済みのサーバーテンプレートは60秒未満で提供されています。MODのインストール時間に応じて、大きなMODを使用するカスタム設定に時間がかかる場合があります。"
+      },
+      "ddos": {
+        "question": "DDoS保護を提供していますか?",
+        "answer": "はい、すべてのプランには、FyfeWebを搭載したエンタープライズグレードのDDoS緩和策が含まれます。私たちのロンドンPOPは、ネットワークエッジで自動フィルタリングとスクラブを提供します。"
+      },
+      "locations": {
+        "question": "データセンターはどこにありますか?",
+        "answer": "弊社は、弊社のネットワークパートナーである FyfeWeb を搭載した London POP を搭載し、英国およびヨーロッパ全域で優れたカバレッジを提供しています。"
+      },
+      "mods": {
+        "question": "MODやカスタムマップを実行できますか?",
+        "answer": "はい、当社のコントロールパネルとテンプレートは、一般的なModローダー(Forge、Fabric)とカスタムマップアップロードをサポートしています。管理されたMODサポートは、選択したプランで利用できます。"
+      },
+      "uptime": {
+        "question": "稼働時間のSLAは何ですか？",
+        "answer": "私たちは、生産計画について99.6%の稼働時間SLAを提供しています。"
+      },
+      "trial": {
+        "question": "コミットする前にトライアルを受けることはできますか?",
+        "answer": "はい、コミットする前に新しいユーザーがサービスをテストするための無料トライアルを提供しています。利用可能なオプションについては無料トライアルページをご覧ください。",
+        "trialLink": "無料トライアルを開始"
+      }
+    }
+  },
+  "games": {
+    "badge": "ゲームサーバー",
+    "title": "あなたを選択",
+    "titleHighlight": "ゲーム",
+    "description": "パワフルで低遅延のゲームサーバー。インスタントセットアップ、直感的なコントロールパネル、24時間年中無休のエキスパートサポート。",
+    "viewPlans": "プランを表示",
+    "learnMore": "もっと詳しく",
+    "comingSoon": "近日公開",
+    "customSolution": "表示されていないゲームサーバーが必要ですか？",
+    "contactUs": "お問い合わせ",
+    "forCustom": "を選択します。",
+    "hosting": "ホスティング",
+    "joinWaitlist": "ウェイトリストに参加",
+    "minecraft": {
+      "description": "1クリックでModローダー、プラグイン、およびフルバージョンをサポートするJavaとBedrockサーバー。",
+      "tag": "最も人気",
+      "features": {
+        "0": "Forge & Fabric のサポート",
+        "1": "プラグイン管理",
+        "2": "自動バックアップ",
+        "3": "カスタムJARアップロード"
+      },
+      "plans": {
+        "ember": {
+          "name": "Ember",
+          "description": "小規模なサーバーとテストに最適です"
+        },
+        "blaze": {
+          "name": "ブレイズ",
+          "description": "成長するコミュニティに最適です"
+        },
+        "inferno": {
+          "name": "インフェルノ",
+          "description": "中規模コミュニティに最適"
+        }
+      },
+      "planFeatures": {
+        "cpu": "AMD RyzenTM 9 5900X",
+        "ram": "{amount} GB DDR4 RAM",
+        "storage": "{amount} GB のストレージ",
+        "databases": "10 MySQL データベース",
+        "ddos": "FyfeWeb DDoS保護",
+        "panel": "BytePanel",
+        "jars": "自動/事前にインストールされた jar ファイル",
+        "uptime": "99.6%の稼働時間SLA"
+      },
+      "pageFeatures": {
+        "modLoaders": {
+          "title": "ワンクリックのModローダー",
+          "description": "Forge、Fabric、Paper、Spigotなどをコントロールパネルからワンクリックでインストールします。",
+          "highlights": {
+            "0": "Forge & Fabric のサポート",
+            "1": "紙とSpigot サーバー",
+            "2": "Bukkit compatibility",
+            "3": "カスタムJARアップロード"
+          }
+        },
+        "hardware": {
+          "title": "高性能ハードウェア",
+          "description": "エンタープライズグレードのNVMeストレージを備えたAMDのRyzenプロセッサは、高速なパフォーマンスを実現します。",
+          "highlights": {
+            "0": "AMD Ryzen 9 CPU",
+            "1": "NVMe SSDストレージ",
+            "2": "DDR4 ECC memory",
+            "3": "最大 4.8GHz のクロック速度"
+          }
+        },
+        "ddos": {
+          "title": "DDoS保護",
+          "description": "FyfeWebを利用したエンタープライズグレードのDDoS緩和は、攻撃時でもサーバーをオンラインに保ちます。",
+          "highlights": {
+            "0": "レイヤ 3/4/7 保護",
+            "1": "FyfeWebネットワークフィルタリング",
+            "2": "ゼロダウンタイムの削減",
+            "3": "UK London POP"
+          }
+        },
+        "instant": {
+          "title": "インスタントセットアップ",
+          "description": "サーバーは数秒以内に展開されます。購入後すぐにプレイを開始してください。",
+          "highlights": {
+            "0": "自動プロビジョニング",
+            "1": "事前設定された設定",
+            "2": "60秒以内に準備完了",
+            "3": "技術的な知識は必要ありません"
+          }
+        },
+        "ftp": {
+          "title": "完全な FTP アクセス",
+          "description": "FTP/SFTP経由でファイルアクセスを完了します。ワールド、プラグイン、設定を簡単にアップロードできます。",
+          "highlights": {
+            "0": "SFTP ファイルアクセス",
+            "1": "ウェブベースのファイルマネージャー",
+            "2": "ドラッグ＆ドロップによるアップロード",
+            "3": "自動バックアップ"
+          }
+        },
+        "slots": {
+          "title": "無制限のスロット",
+          "description": "人工的なプレーヤーの制限はありません。ハードウェアが処理できる数のプレーヤーをホストします。",
+          "highlights": {
+            "0": "スロット制限なし",
+            "1": "スケーラブルなリソース",
+            "2": "いつでもアップグレード",
+            "3": "公正な資源の割り当て"
+          }
+        }
+      },
+      "faqs": {
+        "versions": {
+          "question": "どのバージョンの Minecraft をサポートしていますか?",
+          "answer": "1.7.10からスナップショットを含む最新のリリースまで、すべてのMinecraftバージョンをサポートしています。Java EditionとBedrock Editionの両方のサーバーが利用可能です。"
+        },
+        "mods": {
+          "question": "Modやプラグインをインストールできますか?",
+          "answer": "はい！Forge、Fabric、NeoForgeなどの主要なModローダーをすべてサポートしています。 プラグインの場合、Paper, Spigot, Bukkit, Purpar をサポートしています。カスタム JAR をアップロードすることもできます。"
+        },
+        "upload": {
+          "question": "既存のワールドをアップロードするにはどうすればいいですか?",
+          "answer": "ウェブベースのファイルマネージャーまたはSFTP経由であなたのワールドファイルをアップロードすることができます。 ワールドフォルダをドラッグアンドドロップするだけで、すぐに使用できます。"
+        },
+        "playerLimit": {
+          "question": "制限はありますか?",
+          "answer": "いいえ、私たちは人工的なプレイヤー制限を課しません。あなたのサーバーは割り当てられたリソースが処理できる数のプレイヤーをホストできます。"
+        },
+        "upgrade": {
+          "question": "後でプランをアップグレードできますか？",
+          "answer": "もちろんです！プランをいつでも請求パネルからアップグレードまたはダウングレードできます。変更はダウンタイムなしですぐに有効になります。"
+        },
+        "refunds": {
+          "question": "払い戻しを提供しますか？",
+          "answer": "はい、私たちはすべての新しい購入に48時間の返金保証を提供しています。満足していない場合は、全額返金についてはサポートにお問い合わせください。"
+        }
+      }
+    },
+    "rust": {
+      "description": "Oxide/uModサポートとカスタムマップオプションを備えた高性能Rustサーバーホスティング。",
+      "tag": "高パフォーマンス",
+      "features": {
+        "0": "Oxide/uMod サポート",
+        "1": "カスタムマップ",
+        "2": "スケジューラの消去",
+        "3": "RCON アクセス"
+      },
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "description": "40人のプレイヤーにお勧めします"
+        },
+        "standard": {
+          "name": "標準",
+          "description": "75人のプレイヤーにおすすめです"
+        },
+        "performance": {
+          "name": "パフォーマンス",
+          "description": "100人のプレイヤーにおすすめです"
+        }
+      },
+      "planFeatures": {
+        "cpu": "AMD RyzenTM 9 5900X",
+        "ram": "{amount} GB DDR4 RAM",
+        "storage": "{amount}GB SSDストレージ",
+        "ddos": "FyfeWeb DDoS保護",
+        "location": "イギリスのニューカッスル州",
+        "databases": "10 MySQL データベース",
+        "panel": "BytePanel(ゲームパネル)",
+        "oxide": "Oxide/Umod対応",
+        "rustplus": "Rust+ サポート",
+        "uptime": "99.6%の稼働時間SLA"
+      },
+      "pageFeatures": {
+        "oxide": {
+          "title": "Oxide/uMod サポート",
+          "description": "Oxide プラグインと uMod プラグインを完全にサポートします。コントロールパネルから直接プラグインをインストールして管理します。",
+          "highlights": {
+            "0": "Oxide をワンクリックでインストール",
+            "1": "プラグインマネージャー",
+            "2": "利用可能な自動アップデートがあります",
+            "3": "権限管理"
+          }
+        },
+        "maps": {
+          "title": "カスタムマップ",
+          "description": "手続きによって生成された地図を使用するか、独自のカスタム地図をアップロードします。完全な地図カスタマイズをサポートします。",
+          "highlights": {
+            "0": "プロシージャル生成",
+            "1": "カスタムマップのアップロード",
+            "2": "マップサイズコントロール",
+            "3": "シードのカスタマイズ"
+          }
+        },
+        "performance": {
+          "title": "高パフォーマンス",
+          "description": "Rust は強力なハードウェアを必要とします。弊社のサーバーは最新の AMD Ryzen CPU と NVMe ストレージを使用しています。",
+          "highlights": {
+            "0": "AMD Ryzen 9 CPU",
+            "1": "NVMe SSDストレージ",
+            "2": "高単一スレッドのパフォーマンス",
+            "3": "低遅延ネットワーク"
+          }
+        },
+        "ddos": {
+          "title": "DDoS保護",
+          "description": "英国ロンドンPOPを通じたFyfeWebのエンタープライズグレードのDDoS緩和は、24時間年中無休の攻撃からサーバーを保護します。",
+          "highlights": {
+            "0": "FyfeWebネットワークフィルタリング",
+            "1": "UK London POP",
+            "2": "レイヤ 3/4/7 保護",
+            "3": "ダウンタイムゼロ時間"
+          }
+        },
+        "wipe": {
+          "title": "スケジューラの消去",
+          "description": "サーバーを新鮮に保つための自動ワイプスケジューリング。毎週、隔週、または毎月のワイプを設定します。",
+          "highlights": {
+            "0": "自動ワイプ",
+            "1": "ブループリントワイプオプション",
+            "2": "ワイプスケジューリングをマップする",
+            "3": "Discordの通知"
+          }
+        },
+        "rcon": {
+          "title": "完全な RCON アクセス",
+          "description": "サーバー管理のためのリモートコンソールアクセスを完了します。任意の場所からコマンドを実行します。",
+          "highlights": {
+            "0": "WebベースのRCON",
+            "1": "コマンドスケジュール",
+            "2": "プレイヤー管理",
+            "3": "リアルタイムログ"
+          }
+        }
+      },
+      "faqs": {
+        "oxide": {
+          "question": "Oxide/uModプラグインをサポートしていますか？",
+          "answer": "私たちは完全にサポート酸化物とuMod。 コントロールパネルからワンクリックでOxideをインストールし、プラグインマネージャまたはFTP経由でプラグインを管理できます。"
+        },
+        "maps": {
+          "question": "カスタムマップを使用できますか?",
+          "answer": "もちろんです! カスタムシードやサイズで手続き的に生成されたマップを使用したり、FTP 経由で独自のカスタムマップファイルをアップロードしたりできます。"
+        },
+        "wipe": {
+          "question": "ワイプスケジューラはどのように動作しますか?",
+          "answer": "当社のワイプスケジューラを使用すると、選択したスケジュールでサーバーワイプを自動化できます。 マップのみのワイプまたは完全なブループリントワイプを設定したり、必要に応じてDiscord通知を送信することができます。"
+        },
+        "tickRate": {
+          "question": "サーバーのティックレートは？",
+          "answer": "当社のRustサーバーはデフォルトの30ティックレートで動作します。当社の高性能ハードウェアは、オンラインの多くのプレイヤーでも一貫したパフォーマンスを保証します。"
+        },
+        "rcon": {
+          "question": "RCONにアクセスできますか?",
+          "answer": "はい、完全な RCON アクセスが可能です。当社の Web ベースの RCON コンソールを使用するか、標準の RCON クライアントに接続できます。"
+        },
+        "modded": {
+          "question": "moded サーバーをサポートしていますか？",
+          "answer": "はい、私たちはバニラとモッドのRustサーバーの両方をサポートしています。Oxideをインストールし、完璧なモッド体験を作成するために必要なプラグインを追加してください。"
+        }
+      }
+    },
+    "hytale": {
+      "description": "Hytale サーバーのホスティングはまもなく開始されます。Discordに参加して早期アクセスとアップデートをご利用ください。",
+      "tag": "開発中",
+      "features": {
+        "0": "Mod サポート",
+        "1": "カスタムマップ",
+        "2": "簡単な構成",
+        "3": "24時間年中無休のサポート"
+      }
+    }
+  },
+  "gamePage": {
+    "features": {
+      "badge": "特徴",
+      "title": "なぜ私たちを選ぶのか",
+      "titleSuffix": "ホスティング",
+      "description": "{game} サーバーに特化したエンタープライズグレードのインフラストラクチャ。"
+    },
+    "pricing": {
+      "badge": "価格",
+      "title": "サーバープラン",
+      "description": "ニーズに合わせた柔軟なプラン。すべてのプランには、DDoS保護、インスタントセットアップ、24時間年中無休のサポートが含まれます。",
+      "comingSoon": "価格は近日公開予定です",
+      "comingSoonDesc": "最高の {game} ホスティング体験を提供しようとしています。Discordに参加して、起動時に通知を受け取りましょう！",
+      "joinDiscord": "Discord に参加",
+      "mostPopular": "最も人気",
+      "getStarted": "はじめよう",
+      "viewAllPlans": "すべてのプランを表示",
+      "customSolution": "カスタムソリューションが必要ですか、質問がありますか？",
+      "contactUs": "お問い合わせ"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "質問",
+      "description": "{game} ホスティングサービスに関するよくある質問。",
+      "stillHaveQuestions": "まだ質問がありますか？",
+      "supportAvailable": "当社のサポートチームは24時間年中無休で対応しています。",
+      "askOnDiscord": "Discordで確認する",
+      "contactSupport": "サポートに連絡"
+    },
+    "hero": {
+      "joinWaitlist": "ウェイトリストに参加",
+      "viewPlans": "プランを表示",
+      "learnMore": "もっと詳しく",
+      "comingSoon": "近日公開",
+      "joinDiscordForUpdates": "Discordに参加してアップデートしよう"
+    }
+  },
+  "contact": {
+    "badge": "連絡を取る",
+    "title": "お問い合わせ",
+    "titleHighlight": "NodeByte",
+    "description": "私たちは24時間年中無休でサポートをいたします。サポートチャンネルを通じて、できるだけ早くご連絡いたします。",
+    "supportChannels": "サポートチャンネル",
+    "copied": "コピーしました！",
+    "copiedDesc": "メールアドレスをクリップボードにコピーしました",
+    "copyFailed": "コピーに失敗しました",
+    "copyFailedDesc": "クリップボードにコピーできませんでした",
+    "discord": {
+      "title": "Discordコミュニティ",
+      "description": "私たちのコミュニティに参加して、インスタントサポート、アナウンス、他のユーザーとチャットしましょう。",
+      "button": "Discord に参加",
+      "features": {
+        "0": "即時応答",
+        "1": "コミュニティヘルプ",
+        "2": "お知らせ"
+      }
+    },
+    "github": {
+      "title": "GitHub Discussions",
+      "description": "バグを報告し、機能を提案し、オープンソースプロジェクトに貢献します。",
+      "button": "Open GitHub",
+      "features": {
+        "0": "バグレポート",
+        "1": "機能のリクエスト",
+        "2": "オープンソース"
+      }
+    },
+    "ticket": {
+      "title": "サポートチケット",
+      "description": "アカウント関連の問題については、請求パネルからチケットを送信してください。",
+      "button": "チケットを開く"
+    },
+    "email": {
+      "badge": "メールサポート",
+      "title": "メールアドレスをご希望ですか？カバーされています。",
+      "responseTime": "応答時間:通常24時間以内",
+      "departments": "部署メール",
+      "technical": "技術サポート",
+      "technicalDesc": "サーバーの問題と技術的ヘルプ",
+      "general": "一般的なサポート",
+      "generalDesc": "一般的な質問とヘルプ",
+      "account": "アカウントの問題",
+      "accountDesc": "ログインとアカウントの問題",
+      "billing": "請求に関するお問い合わせ",
+      "billingDesc": "支払いと請求書"
+    },
+    "social": {
+      "title": "フォローしてください",
+      "description": "ニュース、ヒント、コミュニティの最新情報を常に更新する"
+    },
+    "warning": {
+      "title": "重要なお知らせ",
+      "description": "弊社はDiscordを通じた請求やアカウント関連のサポートは行いません。プライバシーとセキュリティについては、support@nodebyte.hostまでご連絡ください。"
+    }
+  },
+  "footer": {
+    "tagline": "あなたのゲーム体験のための高速で信頼性の高い、スケーラブルで安全なホスティングサービス。人間のために構築されたByteによって動作します。",
+    "getInTouch": "連絡を取る",
+    "emailUs": "メールでお問い合わせください",
+    "support": "サポート",
+    "contactTeam": "私たちのチームに連絡する",
+    "quickLinks": "クイックリンク",
+    "legal": "Legal",
+    "status": "すべてのシステム操作",
+    "copyright": "All rights reserved.",
+    "builtWith": "次で作成",
+    "statusLabels": {
+      "operational": "すべてのシステム操作",
+      "degraded": "パフォーマンスが低下しました",
+      "maintenance": "メンテナンス中"
+    },
+    "services": {
+      "minecraftHosting": "Minecraft ホスティング",
+      "rustHosting": "Rust Hosting",
+      "gamePanel": "ゲームパネル",
+      "clientArea": "取引先エリア"
+    },
+    "resources": {
+      "discordServer": "Discord サーバー",
+      "serviceStatus": "サービスステータス",
+      "knowledgeBase": "ナレッジベース",
+      "trustPilot": "Trustpilot"
+    },
+    "legalLinks": {
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー",
+      "refund": "払い戻しポリシー",
+      "legalHub": "Legal Hub"
+    },
+    "company": {
+      "aboutNodeByte": "NodeByteについて",
+      "contact": "お問い合わせ",
+      "companyInfo": "会社情報",
+      "changes": "更新履歴"
+    },
+    "trustpilot": {
+      "reviews": "レビュー",
+      "readReviews": "レビューを読む"
+    }
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "問題が発生しました",
+    "retry": "もう一度やり直してください",
+    "learnMore": "もっと詳しく",
+    "getStarted": "はじめよう",
+    "comingSoon": "近日公開"
+  },
+  "changelog": {
+    "badge": "新着情報",
+    "title": "更新履歴",
+    "titleHighlight": "& 更新",
+    "description": "すべての NodeByte プロジェクトの最新のリリース、機能、改善点について最新の情報をご確認ください。",
+    "searchPlaceholder": "リリースを検索...",
+    "filters": {
+      "all": "すべてのリポジトリ",
+      "allTypes": "すべてのタイプ",
+      "feature": "機能",
+      "bugfix": "バグ修正",
+      "improvement": "Melhoria",
+      "breaking": "破壊的な変更",
+      "security": "セキュリティ"
+    },
+    "release": {
+      "viewOnGithub": "GitHubで見る",
+      "publishedOn": "公開日時",
+      "by": "作成者:",
+      "assets": "アセット",
+      "downloadAsset": "ダウンロード",
+      "noAssets": "利用可能なアセットがありません",
+      "preRelease": "プレリリース",
+      "latest": "最新",
+      "draft": "ドラフト（下書き）"
+    },
+    "empty": {
+      "title": "リリースが見つかりませんでした",
+      "description": "検索またはフィルターを調整して、探しているものを見つけてください。",
+      "clearFilters": "フィルタをクリア"
+    },
+    "loading": {
+      "title": "リリースを読み込み中...",
+      "description": "リポジトリから最新の更新情報を取得しています。"
+    },
+    "error": {
+      "title": "リリースの読み込みに失敗しました",
+      "description": "リリースの取得中にエラーが発生しました。後でもう一度お試しください。",
+      "retry": "もう一度試す"
+    },
+    "stats": {
+      "totalReleases": "全リリース",
+      "repositories": "リポジトリ",
+      "latestUpdate": "最新のアップデート"
+    },
+    "viewAll": "すべてのリリースを表示",
+    "showMore": "詳細を表示",
+    "showLess": "縮小表示",
+    "pagination": {
+      "previous": "前",
+      "next": "次へ",
+      "page": "ページ",
+      "of": "/"
+    },
+    "copyLink": "リンクをコピー",
+    "linkCopied": "リンクをコピーしました！"
+  },
+  "kb": {
+    "title": "ナレッジベース",
+    "description": "NodeByteの体験を最大限に引き出すための解答、チュートリアル、ガイドをご覧ください。",
+    "searchPlaceholder": "ナレッジベースを検索...",
+    "browseByCategory": "カテゴリ別に参照",
+    "recentlyUpdated": "最近更新された",
+    "articles": "記事",
+    "minRead": "min read",
+    "updated": "更新日時",
+    "onThisPage": "このページ",
+    "backTo": "前に戻る",
+    "previous": "前",
+    "next": "次へ",
+    "noResults": {
+      "title": "結果が見つかりませんでした",
+      "description": "異なるキーワードを試すか、カテゴリを参照してください",
+      "forQuery": "結果が見つかりませんでした："
+    },
+    "empty": {
+      "title": "記事はまだありません",
+      "description": "このカテゴリにはまだ記事がありません。すぐに確認してください！"
+    },
+    "help": {
+      "title": "まだヘルプが必要ですか？",
+      "description": "お探しの内容が見つかりませんか？お手伝いいたします。",
+      "discord": {
+        "title": "Discordコミュニティ",
+        "description": "Discordに参加して、ライブサポートとコミュニティヘルプをご利用ください。",
+        "button": "Discord に参加"
+      },
+      "ticket": {
+        "title": "サポートチケット",
+        "description": "アカウントまたは請求の問題のためのサポート チケットを開きます。",
+        "button": "チケットを開く"
+      },
+      "faq": {
+        "title": "FAQ",
+        "description": "よくある質問を簡単に確認してください。",
+        "button": "FAQを見る"
+      }
+    },
+    "search": {
+      "dialogTitle": "ナレッジベースを検索",
+      "button": "検索"
+    }
+  },
+  "theme": {
+    "toggle": "テーマメニューを開く",
+    "appearance": "外観",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "coolTones": "クールな音",
+    "warmTones": "暖かい音",
+    "nature": "Nature",
+    "slate": "スレート",
+    "midnight": "ミッドナイト",
+    "ocean": "海",
+    "forest": "森",
+    "sunset": "日没",
+    "rose": "バラ",
+    "amber": "アンバー",
+    "emerald": "Emerald",
+    "teal": "ティール",
+    "sky": "空",
+    "violet": "バイオレット"
+  },
+  "gamesPage": {
+    "title": "ゲームサーバーホスティング",
+    "description": "インスタントセットアップ、強力なコントロールパネル、24時間年中無休のエキスパートサポートを備えた高性能ゲームサーバーホスティング。",
+    "startingAt": "開始日時"
+  },
+  "accessibility": {
+    "loading": "読み込み中",
+    "pagination": "pagination",
+    "previous": "前",
+    "next": "次へ",
+    "morePages": "その他のページ",
+    "previousSlide": "前のスライド",
+    "nextSlide": "次のスライド",
+    "breadcrumb": "breadcrunb",
+    "more": "もっと見る",
+    "toggleSidebar": "サイドバーの切り替え",
+    "goToSlide": "スライドに移動"
+  },
+  "aboutPage": {
+    "badge": "NodeByteについて",
+    "hero": {
+      "title": "ゲーマーによって構築されました",
+      "titleHighlight": "ゲーマー向け",
+      "description": "NodeByte は、高速で信頼性が高く、管理が容易なホスティングを望んでいたゲーマーやオプスのエンジニアの小さなグループとして始まりました。 今日、私たちは世界中のゲームサーバーにパワーを供給しています。",
+      "joinCommunity": "コミュニティに参加する",
+      "contactUs": "お問い合わせ"
+    },
+    "story": {
+      "badge": "私たちのストーリー",
+      "title": "全ての始まり方",
+      "paragraph1": "NodeByteは不満から生まれました。 私たちは熱心なゲーマーとして、ラギーサーバーの痛み、応答のないサポート、複雑なコントロールパネルを経験し、サーバー管理を悪夢にさせました。",
+      "paragraph2": "2024年には、私たちは十分であると判断しました。 私たちは情熱的なゲーマーと経験豊富なオプスエンジニアのチームを集めました:私たちが常に存在したいゲームホスティングプラットフォームを構築します。",
+      "paragraph3": "今日, NodeByte は世界中のゲームサーバーを強化します. しかし、私たちの使命は同じまま: 高速で信頼性の高い、誰もがアクセスできるゲームサーバーを作る."
+    },
+    "values": {
+      "badge": "私たちの価値",
+      "title": "私たちのもの",
+      "titleHighlight": "待機する",
+      "description": "インフラの決定からカスタマーサポートに至るまで、私たちが行うすべてのことをコアにしています。",
+      "players": {
+        "title": "プレイヤー向けに構築",
+        "description": "当社のインフラストラクチャは、低遅延ルーティング、予測可能なパフォーマンス、および強力な稼働時間を優先するため、コミュニティはオンラインでも反応性を維持できます。"
+      },
+      "community": {
+        "title": "コミュニティ & Mod サポート",
+        "description": "シームレスなModインストール、スナップショットサポート、コミュニティツールを使用して、モデリングされた世界と永続的なサーバーを最小限の労力で実行できます。"
+      },
+      "open": {
+        "title": "デザインで開く",
+        "description": "当社のプラットフォームは、明確なSLAのコミットメントからオープンツーリングまでの透明性を重視しており、サーバーワークフローを自動化するためのAPIと統合を提供しています。"
+      }
+    },
+    "stats": {
+      "uptime": "稼働時間SLA",
+      "latency": "平均遅延",
+      "support": "サポート",
+      "servers": "アクティブなサーバー"
+    },
+    "timeline": {
+      "badge": "私たちの旅",
+      "title": "簡単な",
+      "titleHighlight": "沿革",
+      "founded": {
+        "title": "NodeByte 設立済み",
+        "description": "コミュニティのためのより良いホスティングオプションを望んでいたゲーマーによって小さなプロジェクトとして開始されました。"
+      },
+      "growth": {
+        "title": "急速成長",
+        "description": "FyfeWebパートナーシップによりインフラストラクチャを拡大し、エンタープライズのDDoS保護と英国のデータセンターを追加しました。"
+      },
+      "expansion": {
+        "title": "グローバル拡張",
+        "description": "新しいサービス、強化されたコントロールパネルを立ち上げ、グローバルコミュニティの拡大を続けています。"
+      }
+    },
+    "team": {
+      "badge": "私たちのチーム",
+      "title": "以下を参照：",
+      "titleHighlight": "チーム",
+      "description": "最高のホスティング体験を提供するために精力的に働くNodeByteの背後にある情熱的な人々。",
+      "roles": {
+        "founder": "創設者＆主開発者"
+      },
+      "members": {
+        "codemeapixel": "NodeByteを動かすインフラストラクチャを構築するフルスタックの開発者とゲーム愛好家。"
+      }
+    },
+    "cta": {
+      "title": "始める準備はできましたか？",
+      "description": "サーバーホスティングニーズのためにNodeByteを信頼する何千ものゲームコミュニティに参加してください。",
+      "getStarted": "ゲームサーバーを表示",
+      "joinDiscord": "Discord に参加"
+    }
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動されています。元通りに戻しましょう。",
+    "goHome": "帰還する",
+    "goBack": "戻る",
+    "quickLinks": "クイックリンク",
+    "links": {
+      "home": "ホーム",
+      "games": "ゲーム",
+      "kb": "ナレッジベース",
+      "contact": "お問い合わせ"
+    }
+  },
+  "errorPage": {
+    "title": "問題が発生しました",
+    "description": "予期しないエラーが発生しました。ご心配なく、チームに通知され、対応中です。",
+    "errorCode": "エラーコード",
+    "tryAgain": "もう一度試す",
+    "goHome": "帰還する",
+    "needHelp": "ヘルプが必要ですか？",
+    "helpDescription": "このエラーが解決しない場合は、サポートチームにお問い合わせください。",
+    "joinDiscord": "Discord に参加",
+    "contactSupport": "サポートに連絡"
+  },
+  "auth": {
+    "login": {
+      "title": "サインイン",
+      "description": "NodeByte アカウントでサインインして続行してください。",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "パスワード",
+      "passwordPlaceholder": "パスワードを入力してください",
+      "loginButton": "サインイン",
+      "loggingIn": "サインイン中...",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "createAccount": "作成する",
+      "errors": {
+        "invalid": "メールアドレスまたはパスワードが無効です。もう一度やり直してください。",
+        "networkError": "ネットワークエラーが発生しました。接続を確認して、もう一度やり直してください。",
+        "generic": "サインイン中にエラーが発生しました。もう一度やり直してください。"
+      }
+    },
+    "register": {
+      "title": "アカウントを作成",
+      "description": "ゲームサーバーとサービスにアクセスするには登録してください。",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "パスワード",
+      "passwordPlaceholder": "パスワードを作成",
+      "confirmPasswordLabel": "パスワードの確認",
+      "confirmPasswordPlaceholder": "パスワードの確認",
+      "registerButton": "アカウントを作成",
+      "registering": "アカウントを作成しています...",
+      "alreadyHaveAccount": "既にアカウントをお持ちですか？",
+      "signIn": "サインイン",
+      "panelAccountRequired": "古いパネルアカウントが必要です",
+      "panelAccountRequiredDescription": "古いシステムからの移行に取り組んでいますが、登録するにはゲームパネルに既存のアカウントが必要です。 パネルアカウントは、請求システムを通じてサービスを購入する際に作成されます。",
+      "errors": {
+        "emailExists": "このメールアドレスのアカウントは既に存在します。",
+        "notInPanel": "このメールアドレスのゲームパネルアカウントが見つかりません。まずサービスを購入してパネルアカウントを作成してください。",
+        "panelAccountLinked": "このパネルアカウントは既に別のNodeByteアカウントにリンクされています。",
+        "passwordsDontMatch": "パスワードが一致しません。",
+        "passwordTooShort": "パスワードは8文字以上である必要があります。",
+        "invalidEmail": "有効なメールアドレスを入力してください。",
+        "networkError": "ネットワークエラーが発生しました。接続を確認して、もう一度やり直してください。",
+        "generic": "登録中にエラーが発生しました。もう一度やり直してください。"
+      },
+      "success": {
+        "title": "アカウントが作成されました！",
+        "description": "アカウントが正常に作成されました。今すぐサインインできます。"
+      }
+    },
+    "error": {
+      "title": "認証エラー",
+      "description": "サインイン中に問題が発生しました。",
+      "configuration": "認証システムに設定エラーがあります。",
+      "accessDenied": "このリソースにアクセスする権限がありません．",
+      "verification": "サインインリンクは無効になりました。",
+      "default": "ログイン中に予期しないエラーが発生しました。",
+      "credentialsSignin": "無効な資格情報です。メールアドレスとパスワードを確認してください。",
+      "tryAgain": "もう一度試す",
+      "goHome": "帰還する"
+    },
+    "userMenu": {
+      "myAccount": "マイアカウント",
+      "viewPanel": "パネルを表示",
+      "admin": "管理者",
+      "logout": "サインアウト",
+      "signIn": "サインイン",
+      "loggingOut": "サインアウトしています..."
+    }
+  },
+  "admin": {
+    "title": "管理パネル",
+    "nav": {
+      "dashboard": "ダッシュボード",
+      "users": "ユーザー",
+      "servers": "サーバー",
+      "sync": "同期",
+      "settings": "設定",
+      "backToSite": "サイトに戻る"
+    },
+    "status": {
+      "online": "オンラインのシステム"
+    },
+    "dashboard": {
+      "title": "ダッシュボード",
+      "description": "Pterodactyl パネルデータと同期状態の概要。"
+    },
+    "stats": {
+      "users": "合計ユーザー",
+      "migratedCount": "{count} が移行されました",
+      "servers": "サーバー",
+      "nodes": "Nodes",
+      "locations": "場所",
+      "allocations": "割り当て",
+      "nests": "巣の数",
+      "eggs": "卵",
+      "eggVariables": "卵変数",
+      "databases": "データベース"
+    },
+    "sync": {
+      "status": "同期状態",
+      "lastSync": "Last Sync",
+      "never": "一切なし",
+      "idle": "待機中",
+      "syncing": "同期中...",
+      "inProgress": "同期中",
+      "syncingTarget": "パネルから {target} データを同期中...",
+      "complete": "complete",
+      "runFull": "フル同期を実行",
+      "success": "同期完了",
+      "completed": "{target} データが正常に同期されました。",
+      "error": "同期に失敗しました",
+      "quickActions": "クイック同期アクション",
+      "quickActionsDescription": "Pterodactyl パネルから個々のデータタイプを同期します。",
+      "targets": {
+        "locations": "場所",
+        "nodes": "Nodes",
+        "allocations": "割り当て",
+        "nests": "巣と卵",
+        "servers": "サーバー",
+        "databases": "データベース",
+        "users": "ユーザー"
+      }
+    },
+    "users": {
+      "title": "ユーザー",
+      "description": "ユーザーアカウントと権限の管理。",
+      "stats": {
+        "total": "合計ユーザー",
+        "migrated": "移行",
+        "admins": "管理者",
+        "active": "アクティブ"
+      },
+      "filters": {
+        "title": "フィルタ",
+        "searchPlaceholder": "名前またはメールアドレスで検索...",
+        "all": "すべてのユーザー",
+        "active": "アクティブ",
+        "inactive": "非アクティブ",
+        "admin": "管理者",
+        "migrated": "移行",
+        "notMigrated": "移行しない"
+      },
+      "table": {
+        "user": "ユーザー",
+        "email": "Eメールアドレス",
+        "status": "ステータス",
+        "pterodactyl": "部品ID",
+        "created": "作成済み",
+        "lastLogin": "最終ログイン"
+      },
+      "badges": {
+        "active": "アクティブ",
+        "inactive": "非アクティブ",
+        "admin": "管理者",
+        "migrated": "移行"
+      },
+      "empty": {
+        "title": "ユーザーが見つかりませんでした",
+        "searchHint": "検索またはフィルターを調整してください。"
+      },
+      "pagination": {
+        "showing": "{from} ユーザーの {to} に {total} を表示",
+        "previous": "前",
+        "next": "次へ"
+      }
+    },
+    "servers": {
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
+      "stats": {
+        "total": "合計サーバー",
+        "running": "実行中",
+        "offline": "オフライン",
+        "suspended": "保留中"
+      },
+      "filters": {
+        "title": "フィルタ",
+        "searchPlaceholder": "名前またはUUIDで検索",
+        "all": "すべてのサーバー",
+        "running": "実行中",
+        "offline": "オフライン",
+        "suspended": "保留中",
+        "installing": "インストール中"
+      },
+      "table": {
+        "server": "サーバー",
+        "status": "ステータス",
+        "owner": "所有者",
+        "resources": "リソース",
+        "node": "ノード",
+        "created": "作成済み"
+      },
+      "status": {
+        "running": "実行中",
+        "offline": "オフライン",
+        "starting": "開始",
+        "stopping": "停止中",
+        "installing": "インストール中",
+        "install_failed": "失敗しました",
+        "suspended": "保留中",
+        "restoring_backup": "復元中"
+      },
+      "resources": {
+        "memory": "メモリ",
+        "disk": "ディスク",
+        "cpu": "CPU"
+      },
+      "empty": {
+        "title": "サーバーが見つかりません",
+        "searchHint": "検索またはフィルターを調整してください。"
+      },
+      "pagination": {
+        "showing": "{from} を {to} サーバーの {total} に表示",
+        "previous": "前",
+        "next": "次へ"
+      }
+    },
+    "settings": {
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
+      "wip": {
+        "title": "作業中",
+        "description": "この設定ページは開発中です。現在、接続テストのみが機能しています。今後のアップデートで他の機能が有効になります。"
+      },
+      "save": "変更を保存",
+      "saved": "設定を保存しました",
+      "savedDesc": "設定が正常に保存されました。",
+      "saveError": "設定の保存に失敗しました。もう一度やり直してください。",
+      "copyFailed": "クリップボードにコピーできませんでした",
+      "tabs": {
+        "connections": "コネクション",
+        "features": "特徴",
+        "notifications": "通知",
+        "advanced": "高度な設定"
+      },
+      "status": {
+        "connected": "接続しました",
+        "disconnected": "切断されました"
+      },
+      "connection": {
+        "success": "接続成功",
+        "successDesc": "{type} に接続しました。",
+        "failed": "接続に失敗しました",
+        "error": "接続テストに失敗しました。"
+      },
+      "testConnection": "接続をテスト",
+      "pterodactyl": {
+        "title": "プテロダクティルパネル",
+        "description": "Pterodactyl パネルへの接続を設定します。",
+        "url": "パネル URL",
+        "apiKey": "API キー",
+        "apiKeyNote": "認証には、Pterodactyl パネル API キーを入力します。",
+        "apiUrl": "API URL",
+        "apiUrlNote": "プテロダチル API のベース URL (通常はパネル URL + /api)。",
+        "version": "パネルのバージョン"
+      },
+      "crowdin": {
+        "title": "Crowdin 翻訳管理",
+        "description": "自動翻訳管理のためにCrowdinの設定を構成します。",
+        "projectId": "プロジェクトID",
+        "personalToken": "個人トークン",
+        "personalTokenNote": "Crowdin の個人アクセストークン。これを安全に保管してください。"
+      },
+      "github": {
+        "title": "GitHub Configuration",
+        "description": "リリースノートと更新履歴の GitHub アクセスを設定します。",
+        "token": "GitHub Personal Access Token",
+        "tokenNote": "GitHub リポジトリからリリース情報を取得するために使用します。",
+        "warning": "⚠️ トークン保護",
+        "warningDesc": "一度設定すると、このトークンはUI経由で表示または変更できません。 更新するには、このパネルから新しいトークンをクリアして設定する必要があります。"
+      },
+      "database": {
+        "title": "データベース",
+        "description": "データベース接続の構成",
+        "provider": "プロバイダー",
+        "connectionString": "接続文字列",
+        "connectionStringNote": "データベース URL は環境変数として保存されます。",
+        "readOnly": "データベース接続文字列が環境変数によって管理されているのは明白な理由からですが、なぜここを見ているのでしょうか..."
+      },
+      "features": {
+        "title": "機能の切り替え",
+        "description": "システム機能を有効または無効にします。",
+        "registration": "ユーザー登録",
+        "registrationDesc": "新規ユーザーがアカウント登録できるようにします。",
+        "maintenance": "メンテナンスモード",
+        "maintenanceDesc": "メンテナンスモードを有効にしてサイトへのアクセスをブロックします。",
+        "autoSync": "自動同期",
+        "autoSyncDesc": "定期的にパネルからデータを自動的に同期します。"
+      },
+      "notifications": {
+        "title": "通知",
+        "description": "通知設定を構成します。",
+        "email": "メール通知",
+        "emailDesc": "送信を使用して重要なイベントの電子メール通知を送信します。",
+        "resendApiKey": "APIキーを再送信する",
+        "resendApiKeyNote": "メールを送信するためのAPIキーを再送信します。resend.comで入手してください",
+        "discord": "Discord通知",
+        "discordDesc": "Webhook経由でDiscordチャンネルに通知を送信します。",
+        "webhook": "Discord Webhook URL",
+        "webhookDesc": "通知を受け取るには、Discord WebhookのURLを入力してください。",
+        "webhooksList": "設定されたWebhooks",
+        "webhookName": "Webhook名",
+        "webhookNamePlaceholder": "例えば、サーバーの更新、アラート",
+        "webhookUrl": "Webhook URL",
+        "addWebhook": "Webhookを追加",
+        "noWebhooks": "Webhookが設定されていません。"
+      },
+      "advanced": {
+        "title": "詳細設定",
+        "description": "詳細設定オプション。",
+        "cacheTimeout": "キャッシュのタイムアウト",
+        "cacheTimeoutDesc": "APIレスポンスをキャッシュする期間。",
+        "syncInterval": "同期間隔",
+        "syncIntervalDesc": "自動的にパネルからデータを同期する頻度を設定します。",
+        "seconds": "秒",
+        "minute": "分",
+        "minutes": "分",
+        "hour": "時",
+        "hours": "時間",
+        "dangerZone": "危険ゾーン",
+        "dangerZoneDesc": "これらの操作は元に戻せません。慎重に行ってください。",
+        "clearCache": "キャッシュをクリア",
+        "resetSync": "Reset Sync"
+      },
+      "saveSettings": "設定を保存"
+    },
+    "actions": {
+      "refresh": "更新"
+    },
+    "error": {
+      "title": "エラー",
+      "unauthorized": "このページにアクセスする権限がありません。",
+      "forbidden": "管理者アクセスが必要です。"
+    },
+    "maintenance": {
+      "title": "すぐに戻ります",
+      "description": "現在、当社のサービスを向上させるため、定期的なメンテナンスを行っています。",
+      "status": "メンテナンス中",
+      "estimatedTime": "我々はすぐにオンラインになることを期待しています",
+      "contact": "ご不明な点がございましたら、サポートチームまでお問い合わせください。",
+      "contactSupport": "サポートに連絡",
+      "followSuggestion": "メンテナンス状況をリアルタイムで更新するため、Discordをフォローしてください。",
+      "discordSuggestion": "Discord に参加"
+    }
+  }
+}
