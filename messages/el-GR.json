@@ -546,7 +546,7 @@
     "copyFailedDesc": "Αποτυχία αντιγραφής στο πρόχειρο",
     "discord": {
       "title": "Κοινότητα Discord",
-      "description": "Γίνετε μέλος της κοινότητάς μας για άμεση υποστήριξη, ανακοινώσεις και συνομιλήστε με άλλους χρήστες.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Συμμετοχή Στο Discord",
       "features": {
         "0": "Άμεσες απαντήσεις",
@@ -652,7 +652,7 @@
     "description": "Μείνετε ενημερωμένοι με τις τελευταίες εκδόσεις, λειτουργίες και βελτιώσεις σε όλα τα έργα της NodeByte.",
     "searchPlaceholder": "Αναζήτηση εκδόσεων...",
     "filters": {
-      "all": "Όλοι Οι Χώροι Αποθήκευσης",
+      "all": "All",
       "allTypes": "Όλοι Οι Τύποι",
       "feature": "Χαρακτηριστικό",
       "bugfix": "Διόρθωση Σφάλματος",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Δεν βρέθηκαν εκδόσεις",
-      "description": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας για να βρείτε αυτό που ψάχνετε.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Εκκαθάριση Φίλτρων"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Αποτυχία φόρτωσης εκδόσεων",
-      "description": "Παρουσιάστηκε σφάλμα κατά την ανάκτηση εκδόσεων. Παρακαλώ προσπαθήστε ξανά αργότερα.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Δοκιμάστε Ξανά"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Η Ομάδα Μας",
       "title": "Γνωρίστε το",
       "titleHighlight": "Ομάδα",
-      "description": "Οι παθιασμένοι άνθρωποι πίσω από το NodeByte που εργάζονται ακούραστα για να προσφέρουν την καλύτερη εμπειρία φιλοξενίας.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Ιδρυτής & Επικεφαλής Προγραμματιστής"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Έτοιμο για να ξεκινήσει?",
-      "description": "Συμμετοχή σε χιλιάδες κοινότητες τυχερών παιχνιδιών που εμπιστεύονται NodeByte για τις ανάγκες φιλοξενίας του διακομιστή τους.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Προβολή Διακομιστών Παιχνιδιών",
       "joinDiscord": "Συμμετοχή Στο Discord"
     }
@@ -1107,10 +1107,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Εργασία σε εξέλιξη",
-        "description": "Αυτή η σελίδα ρυθμίσεων είναι υπό ανάπτυξη. Επί του παρόντος, μόνο ο έλεγχος σύνδεσης είναι λειτουργικός. Άλλες λειτουργίες θα είναι ενεργοποιημένες σε μια μελλοντική ενημέρωση."
-      },
       "save": "Αποθήκευση Αλλαγών",
       "saved": "Οι Ρυθμίσεις Αποθηκεύτηκαν",
       "savedDesc": "Οι ρυθμίσεις σας αποθηκεύτηκαν επιτυχώς.",
