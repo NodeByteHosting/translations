@@ -919,8 +919,6 @@
       "registering": "Creating account...",
       "alreadyHaveAccount": "Already have an account?",
       "signIn": "Sign in",
-      "panelAccountRequired": "Old Panel Account Required",
-      "panelAccountRequiredDescription": "While we work on migrating away from our old systems, you must have an existing account on our game panel to register. Panel accounts are created when you purchase a service through our billing system.",
       "errors": {
         "emailExists": "An account with this email already exists.",
         "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
