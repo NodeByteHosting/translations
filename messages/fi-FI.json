@@ -919,8 +919,6 @@
       "registering": "Luodaan tiliä...",
       "alreadyHaveAccount": "Onko sinulla jo tili?",
       "signIn": "Kirjaudu sisään",
-      "panelAccountRequired": "Vanha Paneelitili Vaaditaan",
-      "panelAccountRequiredDescription": "Samalla kun työskentelemme siirtymisessä pois vanhoista järjestelmistä, sinulla on oltava olemassa oleva tili meidän pelipaneelissa rekisteröidäksesi. Paneelitilit luodaan, kun ostat palvelun meidän laskutusjärjestelmämme kautta.",
       "errors": {
         "emailExists": "Tällä sähköpostiosoitteella on jo tili.",
         "notInPanel": "Tällä sähköpostilla ei löytynyt pelipaneelitiliä. Ole hyvä ja osta ensin palvelu luodaksesi paneelitilin.",
