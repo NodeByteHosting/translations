@@ -919,8 +919,6 @@
       "registering": "Creazione account...",
       "alreadyHaveAccount": "Hai già un account?",
       "signIn": "Accedi",
-      "panelAccountRequired": "Necessario Account Del Vecchio Pannello",
-      "panelAccountRequiredDescription": "Mentre lavoriamo per migrare lontano dai nostri vecchi sistemi, è necessario avere un account esistente sul nostro pannello di gioco per registrarsi. Gli account del pannello vengono creati quando si acquista un servizio attraverso il nostro sistema di fatturazione.",
       "errors": {
         "emailExists": "Esiste già un account con questa email.",
         "notInPanel": "Nessun account del pannello di gioco trovato con questa email. Si prega di acquistare un servizio prima di creare un account del pannello.",
