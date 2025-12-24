@@ -961,6 +961,7 @@
       "users": "用户",
       "servers": "服务器",
       "sync": "同步",
+      "syncLogs": "Sync Logs",
       "settings": "设置",
       "backToSite": "返回站点"
     },
@@ -1006,6 +1007,35 @@
         "servers": "服务器",
         "databases": "数据库",
         "users": "用户"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
