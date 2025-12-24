@@ -919,8 +919,6 @@
       "registering": "Se creează contul...",
       "alreadyHaveAccount": "Ai deja un cont?",
       "signIn": "Autentificare",
-      "panelAccountRequired": "Este necesar contul Vechiului Panou",
-      "panelAccountRequiredDescription": "În timp ce lucrăm pentru a migra departe de sistemele noastre vechi, trebuie să aveți un cont existent pe panoul nostru de joc pentru a vă înregistra. Conturile panourilor sunt create atunci când achiziționați un serviciu prin sistemul nostru de facturare.",
       "errors": {
         "emailExists": "Există deja un cont cu acest e-mail.",
         "notInPanel": "Nu a fost găsit niciun cont de panou de joc cu acest e-mail. Vă rugăm să cumpărați mai întâi un serviciu pentru a crea un cont de panou.",
