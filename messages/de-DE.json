@@ -919,8 +919,6 @@
       "registering": "Konto wird erstellt...",
       "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
       "signIn": "Anmelden",
-      "panelAccountRequired": "Altes Panel-Konto erforderlich",
-      "panelAccountRequiredDescription": "Während wir an der Migration von unseren alten Systemen arbeiten, müssen Sie einen bestehenden Account in unserem Spielfeld haben, um sich zu registrieren. Panel-Konten werden erstellt, wenn Sie einen Service über unser Abrechnungssystem kaufen.",
       "errors": {
         "emailExists": "Ein Konto mit dieser E-Mail existiert bereits.",
         "notInPanel": "Kein Spielfeldkonto mit dieser E-Mail gefunden. Bitte kaufe zuerst einen Service, um ein Panelkonto zu erstellen.",
