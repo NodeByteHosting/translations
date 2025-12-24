@@ -546,7 +546,7 @@
     "copyFailedDesc": "Не вдалося скопіювати в буфер обміну",
     "discord": {
       "title": "Спільнота Discord",
-      "description": "Приєднуйтесь до нашої спільноти для миттєвої підтримки, оголошень та спілкуйтеся з іншими користувачами.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Приєднатися до Discord",
       "features": {
         "0": "Миттєві відповіді",
@@ -652,7 +652,7 @@
     "description": "Будьте в курсі останніх випусків, функцій та покращень у всіх проектах NodeByt.",
     "searchPlaceholder": "Пошук релізів...",
     "filters": {
-      "all": "Всі репозиторії",
+      "all": "All",
       "allTypes": "Всі типи",
       "feature": "Особливість",
       "bugfix": "Виправлення помилок",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Релізів не знайдено",
-      "description": "Спробуйте налаштувати свої пошукові або фільтри, щоб знайти те, що ви шукаєте.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Скинути фільтри"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Не вдалося завантажити релізи",
-      "description": "Помилка при отриманні релізів. Будь ласка, спробуйте ще раз пізніше.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Спробуйте ще раз"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Наша команда",
       "title": "Познайомтеся з",
       "titleHighlight": "Команда",
-      "description": "Запеклих людей, які працюють невтомно, щоб доставити найкращий хостинг-досвід.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Засновник та провідний розробник"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Готові до запуску?",
-      "description": "Приєднуйтесь до тисяч ігрових спільнот, які довіряють NodeByte для задоволення потреб на сервері.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Переглянути ігрові сервери",
       "joinDiscord": "Приєднатися до Discord"
     }
