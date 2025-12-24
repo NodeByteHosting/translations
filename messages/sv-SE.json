@@ -919,8 +919,6 @@
       "registering": "Skapar konto...",
       "alreadyHaveAccount": "Har du redan ett konto?",
       "signIn": "Logga in",
-      "panelAccountRequired": "Gammalt panelkonto krävs",
-      "panelAccountRequiredDescription": "Medan vi arbetar med att migrera bort från våra gamla system, måste du ha ett befintligt konto på vår spelpanel för att registrera. Panelkonton skapas när du köper en tjänst via vårt faktureringssystem.",
       "errors": {
         "emailExists": "Ett konto med denna e-post finns redan.",
         "notInPanel": "Inget spelpanelkonto hittades med denna e-post. Vänligen köp en tjänst först för att skapa ett panelkonto.",
