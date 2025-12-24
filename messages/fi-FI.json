@@ -546,7 +546,7 @@
     "copyFailedDesc": "Kopiointi leikepöydälle epäonnistui",
     "discord": {
       "title": "Discord-yhteisö",
-      "description": "Liity yhteisöömme saadaksesi välittömän tuen, ilmoitukset ja juttele muiden käyttäjien kanssa.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Liity Discordiin",
       "features": {
         "0": "Välittömät vastaukset",
@@ -652,7 +652,7 @@
     "description": "Pysy ajan tasalla uusimmista julkaisuista, ominaisuuksista ja parannuksista kaikissa NodeByte projekteissa.",
     "searchPlaceholder": "Hae julkaisuja...",
     "filters": {
-      "all": "Kaikki Repot",
+      "all": "All",
       "allTypes": "Kaikki Tyypit",
       "feature": "Ominaisuus",
       "bugfix": "Vian Korjaus",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Julkaisuja ei löytynyt",
-      "description": "Yritä muuttaa hakuasi tai suodattimiasi löytääksesi etsimäsi.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Tyhjennä Suodattimet"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Julkaisujen lataaminen epäonnistui",
-      "description": "Julkaisujen haussa tapahtui virhe. Yritä myöhemmin uudelleen.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Yritä Uudelleen"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Tiimimme",
       "title": "Tapaa",
       "titleHighlight": "Tiimi",
-      "description": "NodeByten takana olevat intohimoiset ihmiset, jotka väsymättä tekevät työtä tarjotakseen parhaan hosting-kokemuksen.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Perustaja & Johtava Kehittäjä"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Oletko valmis aloittamaan?",
-      "description": "Liity tuhansiin pelaamista yhteisöihin, jotka luottavat NodeByte palvelimen hosting-tarpeisiin.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Näytä Pelipalvelimet",
       "joinDiscord": "Liity Discordiin"
     }
@@ -919,8 +919,6 @@
       "registering": "Luodaan tiliä...",
       "alreadyHaveAccount": "Onko sinulla jo tili?",
       "signIn": "Kirjaudu sisään",
-      "panelAccountRequired": "Vanha Paneelitili Vaaditaan",
-      "panelAccountRequiredDescription": "Samalla kun työskentelemme siirtymisessä pois vanhoista järjestelmistä, sinulla on oltava olemassa oleva tili meidän pelipaneelissa rekisteröidäksesi. Paneelitilit luodaan, kun ostat palvelun meidän laskutusjärjestelmämme kautta.",
       "errors": {
         "emailExists": "Tällä sähköpostiosoitteella on jo tili.",
         "notInPanel": "Tällä sähköpostilla ei löytynyt pelipaneelitiliä. Ole hyvä ja osta ensin palvelu luodaksesi paneelitilin.",
@@ -963,6 +961,7 @@
       "users": "Käyttäjät",
       "servers": "Palvelimet",
       "sync": "Synkronointi",
+      "syncLogs": "Sync Logs",
       "settings": "Asetukset",
       "backToSite": "Takaisin sivustolle"
     },
@@ -1008,6 +1007,35 @@
         "servers": "Palvelimet",
         "databases": "Tietokannat",
         "users": "Käyttäjät"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Käynnissä oleva työ",
-        "description": "Tämä asetussivu on kehitteillä. Tällä hetkellä vain yhteyden testaus on toiminnallista. Muut ominaisuudet otetaan käyttöön tulevassa päivityksessä."
-      },
       "save": "Tallenna Muutokset",
       "saved": "Asetukset Tallennettu",
       "savedDesc": "Asetukset on tallennettu onnistuneesti.",

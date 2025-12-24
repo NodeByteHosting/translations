@@ -546,7 +546,7 @@
     "copyFailedDesc": "Не вдалося скопіювати в буфер обміну",
     "discord": {
       "title": "Спільнота Discord",
-      "description": "Приєднуйтесь до нашої спільноти для миттєвої підтримки, оголошень та спілкуйтеся з іншими користувачами.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Приєднатися до Discord",
       "features": {
         "0": "Миттєві відповіді",
@@ -652,7 +652,7 @@
     "description": "Будьте в курсі останніх випусків, функцій та покращень у всіх проектах NodeByt.",
     "searchPlaceholder": "Пошук релізів...",
     "filters": {
-      "all": "Всі репозиторії",
+      "all": "All",
       "allTypes": "Всі типи",
       "feature": "Особливість",
       "bugfix": "Виправлення помилок",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Релізів не знайдено",
-      "description": "Спробуйте налаштувати свої пошукові або фільтри, щоб знайти те, що ви шукаєте.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Скинути фільтри"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Не вдалося завантажити релізи",
-      "description": "Помилка при отриманні релізів. Будь ласка, спробуйте ще раз пізніше.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Спробуйте ще раз"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Наша команда",
       "title": "Познайомтеся з",
       "titleHighlight": "Команда",
-      "description": "Запеклих людей, які працюють невтомно, щоб доставити найкращий хостинг-досвід.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Засновник та провідний розробник"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Готові до запуску?",
-      "description": "Приєднуйтесь до тисяч ігрових спільнот, які довіряють NodeByte для задоволення потреб на сервері.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Переглянути ігрові сервери",
       "joinDiscord": "Приєднатися до Discord"
     }
@@ -919,8 +919,6 @@
       "registering": "Створення облікового запису...",
       "alreadyHaveAccount": "Вже маєте обліковий запис?",
       "signIn": "Увійти",
-      "panelAccountRequired": "Потрібен старий обліковий запис панелі",
-      "panelAccountRequiredDescription": "Ми працюємо над тим, щоб відійти від старих систем, вам потрібно мати існуючий обліковий запис на нашій ігровій панелі, щоб зареєструватися. Коли ви купуєте сервіс через нашу платіжну систему створюються облікові записи.",
       "errors": {
         "emailExists": "Обліковий запис з цією електронною адресою вже існує.",
         "notInPanel": "Для створення облікового запису для гри не знайдено на цьому email. Будь ласка, придбайте послугу, спочатку щоб створити обліковий запис.",
@@ -963,6 +961,7 @@
       "users": "Спільноти",
       "servers": "Сервери",
       "sync": "Синхр",
+      "syncLogs": "Sync Logs",
       "settings": "Налаштування",
       "backToSite": "Повернутися на сайт"
     },
@@ -1008,6 +1007,35 @@
         "servers": "Сервери",
         "databases": "Бази даних",
         "users": "Спільноти"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Робота в процесі",
-        "description": "Ця сторінка налаштувань знаходиться у розробці. Зараз у майбутньому оновлення буде включено тільки тестування з'єднання."
-      },
       "save": "Зберегти зміни",
       "saved": "Налаштування збережено",
       "savedDesc": "Ваші налаштування було успішно збережено.",

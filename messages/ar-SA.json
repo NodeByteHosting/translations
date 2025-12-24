@@ -546,7 +546,7 @@
     "copyFailedDesc": "فشل النسخ إلى الحافظة",
     "discord": {
       "title": "مجتمع ديسكورد",
-      "description": "انضم إلى مجتمعنا للحصول على الدعم الفوري، الإعلانات، والمحادثة مع المستخدمين الآخرين.",
+      "description": "Get live support and help from our community and team members.",
       "button": "الانضمام إلى ديسكورد",
       "features": {
         "0": "الردود الفورية",
@@ -652,7 +652,7 @@
     "description": "ابقى على اطلاع على أحدث الإصدارات والمميزات والتحسينات في جميع مشاريع نوديبايت.",
     "searchPlaceholder": "البحث في الإصدار...",
     "filters": {
-      "all": "جميع المستودعات",
+      "all": "All",
       "allTypes": "جميع الأنواع",
       "feature": "الميزة",
       "bugfix": "إصلاح الأخطاء",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "لا توجد إصدارات",
-      "description": "حاول تعديل البحث أو الفلاتر الخاصة بك للعثور على ما تبحث عنه.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "مسح الفلاتر"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "فشل تحميل الإصدارات",
-      "description": "حدث خطأ أثناء جلب الإصدار. الرجاء المحاولة مرة أخرى لاحقاً.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "حاول مرة أخرى"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "فريقنا",
       "title": "مقابلة",
       "titleHighlight": "الفريق",
-      "description": "الناس المتحمسون وراء نودي بيتي الذين يعملون بلا كلل لتقديم أفضل تجربة الاستضافة.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "المؤسس والمطور الرئيسي"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "هل أنت مستعد للبدء؟",
-      "description": "انضم إلى آلاف مجتمعات الألعاب التي تثق في نوديبايت لاحتياجاتها من استضافة الخادم.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "عرض خوادم اللعبة",
       "joinDiscord": "الانضمام إلى ديسكورد"
     }
@@ -919,8 +919,6 @@
       "registering": "إنشاء الحساب...",
       "alreadyHaveAccount": "لديك حساب بالفعل؟",
       "signIn": "تسجيل الدخول",
-      "panelAccountRequired": "مطلوب حساب اللوحة القديمة",
-      "panelAccountRequiredDescription": "بينما نعمل على الهجرة بعيدا عن أنظمتنا القديمة، يجب أن يكون لديك حساب موجود في لوحة اللعبة الخاصة بنا للتسجيل. يتم إنشاء حسابات لوحة عند شراء خدمة من خلال نظام الفوترة لدينا.",
       "errors": {
         "emailExists": "يوجد بالفعل حساب بهذا البريد الإلكتروني.",
         "notInPanel": "لم يتم العثور على حساب لعبة بهذا البريد الإلكتروني. الرجاء شراء خدمة أولاً لإنشاء حساب لوحة.",
@@ -963,6 +961,7 @@
       "users": "المستخدمون",
       "servers": "خوادم",
       "sync": "مزامنة",
+      "syncLogs": "Sync Logs",
       "settings": "الإعدادات",
       "backToSite": "العودة إلى الموقع"
     },
@@ -1008,6 +1007,35 @@
         "servers": "خوادم",
         "databases": "قواعد البيانات",
         "users": "المستخدمون"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "العمل الجاري",
-        "description": "صفحة الإعدادات هذه قيد التطوير. حالياً، اختبار الاتصال فقط وظيفي. سيتم تمكين ميزات أخرى في تحديث المستقبل."
-      },
       "save": "حفظ التغييرات",
       "saved": "تم حفظ الإعدادات",
       "savedDesc": "تم حفظ الإعدادات الخاصة بك بنجاح.",

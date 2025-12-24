@@ -546,7 +546,7 @@
     "copyFailedDesc": "Не удалось скопировать в буфер обмена",
     "discord": {
       "title": "Сообщество Discord",
-      "description": "Присоединяйтесь к нашему сообществу для мгновенной поддержки, объявлений и общения с другими пользователями.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Присоединиться к Discord",
       "features": {
         "0": "Мгновенные ответы",
@@ -652,7 +652,7 @@
     "description": "Будьте в курсе последних версий, функций и улучшений во всех проектах NodeByte.",
     "searchPlaceholder": "Поиск релизов...",
     "filters": {
-      "all": "Все репозитории",
+      "all": "All",
       "allTypes": "Все типы",
       "feature": "Функция",
       "bugfix": "Исправление ошибок",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Релизы не найдены",
-      "description": "Попробуйте изменить поиск или фильтры, чтобы найти то, что вы ищете.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Очистить фильтры"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Не удалось загрузить релизы",
-      "description": "Произошла ошибка при получении релизов. Пожалуйста, повторите попытку позже.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Попробовать ещё раз"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Наша команда",
       "title": "Встречайте",
       "titleHighlight": "Команда",
-      "description": "Страстные люди за NodeByte, которые неустанно работают над тем, чтобы обеспечить лучший хостинг.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Основатель и ведущий разработчик"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Готовы начать?",
-      "description": "Присоединяйтесь к тысячам игровых сообществ, которые доверяют NodeByte своим потребностям хостинга на сервере.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Просмотр игровых серверов",
       "joinDiscord": "Присоединиться к Discord"
     }
@@ -919,8 +919,6 @@
       "registering": "Создание учетной записи...",
       "alreadyHaveAccount": "Уже зарегистрированы?",
       "signIn": "Войти",
-      "panelAccountRequired": "Требуется старый аккаунт панели",
-      "panelAccountRequiredDescription": "Пока мы работаем над переездом из наших старых систем, вы должны иметь существующий аккаунт на нашей панели для регистрации. Панельные аккаунты создаются при покупке услуг через нашу систему биллинга.",
       "errors": {
         "emailExists": "Учетная запись с таким адресом электронной почты уже существует.",
         "notInPanel": "Не найдено ни одного игрового аккаунта на этом email. Пожалуйста, сначала купите сервис, чтобы создать аккаунт в панели.",
@@ -963,6 +961,7 @@
       "users": "Пользователи",
       "servers": "Серверы",
       "sync": "Синхр.",
+      "syncLogs": "Sync Logs",
       "settings": "Настройки",
       "backToSite": "Вернуться на сайт"
     },
@@ -1008,6 +1007,35 @@
         "servers": "Серверы",
         "databases": "Базы данных",
         "users": "Пользователи"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Выполняется работа",
-        "description": "Эта страница настроек находится в разработке. В настоящее время работает только тестирование подключения. Другие функции будут включены в будущее обновление."
-      },
       "save": "Сохранить изменения",
       "saved": "Настройки сохранены",
       "savedDesc": "Ваши настройки успешно сохранены.",

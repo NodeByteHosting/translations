@@ -546,7 +546,7 @@
     "copyFailedDesc": "Fehler beim Kopieren in die Zwischenablage",
     "discord": {
       "title": "Discord Community",
-      "description": "Treten Sie unserer Community bei für sofortigen Support, Ankündigungen und Chat mit anderen Benutzern.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Trete Discord bei",
       "features": {
         "0": "Sofortige Antworten",
@@ -652,7 +652,7 @@
     "description": "Bleiben Sie auf dem Laufenden mit den neuesten Versionen, Funktionen und Verbesserungen in allen NodeByte-Projekten.",
     "searchPlaceholder": "Versionen suchen...",
     "filters": {
-      "all": "Alle Repositories",
+      "all": "All",
       "allTypes": "Alle Typen",
       "feature": "Feature",
       "bugfix": "Fehlerbehebung",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Keine Releases gefunden",
-      "description": "Stellen Sie Ihre Suche oder Ihre Filter so ein, dass sie das finden, was Sie suchen.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Filter löschen"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Fehler beim Laden der Releases",
-      "description": "Beim Abrufen der Releases ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Erneut versuchen"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Unser Team",
       "title": "Treffen Sie die",
       "titleHighlight": "Team",
-      "description": "Die leidenschaftlichen Leute hinter NodeByte, die unermüdlich daran arbeiten, das beste Hosting zu liefern.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Gründer & Lead Entwickler"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Bereit zum Starten?",
-      "description": "Treten Sie Tausenden von Gaming-Communities bei, die NodeByte für ihre Server-Hosting-Bedürfnisse vertrauen.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Spielserver anzeigen",
       "joinDiscord": "Trete Discord bei"
     }
@@ -919,8 +919,6 @@
       "registering": "Konto wird erstellt...",
       "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
       "signIn": "Anmelden",
-      "panelAccountRequired": "Altes Panel-Konto erforderlich",
-      "panelAccountRequiredDescription": "Während wir an der Migration von unseren alten Systemen arbeiten, müssen Sie einen bestehenden Account in unserem Spielfeld haben, um sich zu registrieren. Panel-Konten werden erstellt, wenn Sie einen Service über unser Abrechnungssystem kaufen.",
       "errors": {
         "emailExists": "Ein Konto mit dieser E-Mail existiert bereits.",
         "notInPanel": "Kein Spielfeldkonto mit dieser E-Mail gefunden. Bitte kaufe zuerst einen Service, um ein Panelkonto zu erstellen.",
@@ -963,6 +961,7 @@
       "users": "Benutzer",
       "servers": "Server",
       "sync": "Sync",
+      "syncLogs": "Sync Logs",
       "settings": "Einstellungen",
       "backToSite": "Zurück zur Seite"
     },
@@ -1008,6 +1007,35 @@
         "servers": "Server",
         "databases": "Datenbanken",
         "users": "Benutzer"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Arbeit läuft",
-        "description": "Diese Einstellungsseite ist in Entwicklung. Derzeit ist nur das Testen von Verbindungen funktional. Andere Funktionen werden in einem zukünftigen Update aktiviert."
-      },
       "save": "Änderungen speichern",
       "saved": "Einstellungen gespeichert",
       "savedDesc": "Ihre Einstellungen wurden erfolgreich gespeichert.",

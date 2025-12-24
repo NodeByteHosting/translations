@@ -546,7 +546,7 @@
     "copyFailedDesc": "Copierea în clipboard a eșuat",
     "discord": {
       "title": "Comunitate Discord",
-      "description": "Alătură-te comunității noastre pentru suport instant, anunțuri și conversații cu alți utilizatori.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Alătură-te Discord",
       "features": {
         "0": "Răspunsuri instantanee",
@@ -652,7 +652,7 @@
     "description": "Rămâneți la curent cu ultimele lansări, caracteristici și îmbunătățiri în toate proiectele NodeByte.",
     "searchPlaceholder": "Căutare lansări...",
     "filters": {
-      "all": "Toate repozitoriile",
+      "all": "All",
       "allTypes": "Toate tipurile",
       "feature": "Caracteristică",
       "bugfix": "Remediere eroare",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Nu s-au găsit Partajări",
-      "description": "Încercați să ajustați căutarea sau filtrele pentru a găsi ceea ce căutați.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Șterge filtrele"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Încărcarea partajărilor a eșuat",
-      "description": "A apărut o eroare la preluarea versiunilor. Vă rugăm să încercaţi din nou mai târziu.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Încearcă din nou"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Echipa noastră",
       "title": "Întâlnește cu",
       "titleHighlight": "Echipă",
-      "description": "Oamenii pasionați din spatele NodeByte care lucrează neobosit pentru a oferi cea mai bună experiență de găzduire.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Fondator & Dezvoltator Leader"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Gata pentru a începe?",
-      "description": "Alătură-te miilor de comunități de jocuri care au încredere în NodeByte pentru serverul lor de găzduire.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Vezi serverele jocului",
       "joinDiscord": "Alătură-te Discord"
     }
@@ -919,8 +919,6 @@
       "registering": "Se creează contul...",
       "alreadyHaveAccount": "Ai deja un cont?",
       "signIn": "Autentificare",
-      "panelAccountRequired": "Este necesar contul Vechiului Panou",
-      "panelAccountRequiredDescription": "În timp ce lucrăm pentru a migra departe de sistemele noastre vechi, trebuie să aveți un cont existent pe panoul nostru de joc pentru a vă înregistra. Conturile panourilor sunt create atunci când achiziționați un serviciu prin sistemul nostru de facturare.",
       "errors": {
         "emailExists": "Există deja un cont cu acest e-mail.",
         "notInPanel": "Nu a fost găsit niciun cont de panou de joc cu acest e-mail. Vă rugăm să cumpărați mai întâi un serviciu pentru a crea un cont de panou.",
@@ -963,6 +961,7 @@
       "users": "Utilizatori",
       "servers": "Servere",
       "sync": "Sincronizare",
+      "syncLogs": "Sync Logs",
       "settings": "Setări",
       "backToSite": "Înapoi la site"
     },
@@ -1008,6 +1007,35 @@
         "servers": "Servere",
         "databases": "Baze",
         "users": "Utilizatori"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Lucrări în curs",
-        "description": "Această pagină de setări este în curs de dezvoltare. În prezent, numai testarea conexiunii este funcțională. Alte funcții vor fi activate într-o actualizare viitoare."
-      },
       "save": "Salvează modificările",
       "saved": "Setări salvate",
       "savedDesc": "Setările au fost salvate cu succes.",

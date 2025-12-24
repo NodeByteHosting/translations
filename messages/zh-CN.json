@@ -546,7 +546,7 @@
     "copyFailedDesc": "复制到剪贴板失败",
     "discord": {
       "title": "Discord 社区",
-      "description": "加入我们的社区即时支持、通知和与其他用户聊天。",
+      "description": "Get live support and help from our community and team members.",
       "button": "加入Discord",
       "features": {
         "0": "即时回应",
@@ -652,7 +652,7 @@
     "description": "随时更新所有NodeByte项目的最新版本、功能和改进。",
     "searchPlaceholder": "搜索发布...",
     "filters": {
-      "all": "所有仓库",
+      "all": "All",
       "allTypes": "所有类型",
       "feature": "功能",
       "bugfix": "Bug 修复",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "未找到任何版本",
-      "description": "尝试调整您的搜索或过滤器以找到您想要的东西。",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "清除过滤器"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "加载发布失败",
-      "description": "获取版本时出错。请稍后再试。",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "再试一次"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "我们的团队",
       "title": "会见：",
       "titleHighlight": "团队",
-      "description": "NodeByte背后充满热情，他们不懈地努力提供最好的托管经验。",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "创始人和领先开发者"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "准备好开始吗？",
-      "description": "加入数以千计的游戏社区，他们信任NodeByte服务器托管需求。",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "查看游戏服务器",
       "joinDiscord": "加入Discord"
     }
@@ -919,8 +919,6 @@
       "registering": "正在创建帐户...",
       "alreadyHaveAccount": "已经有一个帐户？",
       "signIn": "登录",
-      "panelAccountRequired": "需要旧的面板账户",
-      "panelAccountRequiredDescription": "当我们从旧系统迁移的时候，你必须在我们的游戏面板上有一个现有的帐户才能注册。 当您通过我们的账单系统购买服务时，将创建面板帐户。",
       "errors": {
         "emailExists": "此电子邮件的帐户已存在。",
         "notInPanel": "未找到游戏面板帐户，请先购买服务创建面板帐户。",
@@ -963,6 +961,7 @@
       "users": "用户",
       "servers": "服务器",
       "sync": "同步",
+      "syncLogs": "Sync Logs",
       "settings": "设置",
       "backToSite": "返回站点"
     },
@@ -1008,6 +1007,35 @@
         "servers": "服务器",
         "databases": "数据库",
         "users": "用户"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "正在进行的工作",
-        "description": "此设置页面正在开发中。当前只有连接测试功能。其他功能将在未来的更新中启用。"
-      },
       "save": "保存更改",
       "saved": "设置已保存",
       "savedDesc": "您的设置已成功保存。",

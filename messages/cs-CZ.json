@@ -546,7 +546,7 @@
     "copyFailedDesc": "Kopírování do schránky se nezdařilo",
     "discord": {
       "title": "Discord komunita",
-      "description": "Připojte se k naší komunitě pro okamžitou podporu, oznámení a chatujte s ostatními uživateli.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Připojit se k Discordu",
       "features": {
         "0": "Okamžité odpovědi",
@@ -652,7 +652,7 @@
     "description": "Zůstaňte informováni o nejnovějších vydáních, funkcích a vylepšeních všech projektů NodeByte.",
     "searchPlaceholder": "Hledat verze...",
     "filters": {
-      "all": "Všechny repozitáře",
+      "all": "All",
       "allTypes": "Všechny typy",
       "feature": "Funkce",
       "bugfix": "Oprava chyb",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Nebyly nalezeny žádné verze",
-      "description": "Zkuste upravit vyhledávání nebo filtry pro nalezení toho, co hledáte.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Vymazat filtry"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Nepodařilo se načíst verze",
-      "description": "Při načítání vydání došlo k chybě. Opakujte akci později.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Zkuste to znovu"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Náš tým",
       "title": "Seznamte se s",
       "titleHighlight": "Tým",
-      "description": "Nadšení lidé za NodeByte, kteří neúnavně pracují na tom, aby přinesli nejlepší zkušenosti s hostováním.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Zakladatel a hlavní vývojář"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Jste připraveni začít?",
-      "description": "Připojte se k tisícům herních komunit, které důvěřují NodeByte za jejich potřeby serverového hostingu.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Zobrazit herní servery",
       "joinDiscord": "Připojit se k Discordu"
     }
@@ -919,8 +919,6 @@
       "registering": "Vytváření účtu...",
       "alreadyHaveAccount": "Již máte účet?",
       "signIn": "Přihlásit se",
-      "panelAccountRequired": "Vyžadován účet starého panelu",
-      "panelAccountRequiredDescription": "Zatímco pracujeme na migraci mimo naše staré systémy, musíte mít existující účet na našem herním panelu pro registraci. Účty panelů jsou vytvořeny při nákupu služby prostřednictvím našeho fakturačního systému.",
       "errors": {
         "emailExists": "Účet s tímto e-mailem již existuje.",
         "notInPanel": "Nebyl nalezen žádný účet v herním panelu s tímto e-mailem. Nejdříve si prosím zakupte službu pro vytvoření účtu v panelu.",
@@ -963,6 +961,7 @@
       "users": "Uživatelé",
       "servers": "Servery",
       "sync": "Synchronizovat",
+      "syncLogs": "Sync Logs",
       "settings": "Nastavení",
       "backToSite": "Zpět na stránku"
     },
@@ -1008,6 +1007,35 @@
         "servers": "Servery",
         "databases": "Databáze",
         "users": "Uživatelé"
+      }
+    },
+    "syncLogs": {
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
+      "status": {
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
@@ -1107,10 +1135,6 @@
     "settings": {
       "title": "System Settings",
       "description": "Configure global system settings and integrations.",
-      "wip": {
-        "title": "Probíhá práce",
-        "description": "Tato stránka s nastavením je ve vývoji. V současné době je funkční pouze testování připojení. Další funkce budou povoleny v budoucí aktualizaci."
-      },
       "save": "Uložit změny",
       "saved": "Nastavení uloženo",
       "savedDesc": "Vaše nastavení bylo úspěšně uloženo.",
