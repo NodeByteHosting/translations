@@ -546,7 +546,7 @@
     "copyFailedDesc": "Failed to copy to clipboard",
     "discord": {
       "title": "Discord Community",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Join our community for instant support, announcements, and chat with other users.",
       "button": "Join Discord",
       "features": {
         "0": "Instant responses",
@@ -652,7 +652,7 @@
     "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
     "searchPlaceholder": "Search releases...",
     "filters": {
-      "all": "All",
+      "all": "All Repositories",
       "allTypes": "All Types",
       "feature": "Feature",
       "bugfix": "Bug Fix",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "No releases found",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Try adjusting your search or filters to find what you're looking for.",
       "clearFilters": "Clear Filters"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Failed to load releases",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "There was an error fetching releases. Please try again later.",
       "retry": "Try Again"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Our Team",
       "title": "Meet the",
       "titleHighlight": "Team",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
       "roles": {
         "founder": "Founder & Lead Developer"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
+      "description": "Join thousands of gaming communities who trust NodeByte for their server hosting needs.",
       "getStarted": "View Game Servers",
       "joinDiscord": "Join Discord"
     }
@@ -900,10 +900,31 @@
       "forgotPassword": "Forgot your password?",
       "noAccount": "Don't have an account?",
       "createAccount": "Create one",
+      "step1": {
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
+      },
+      "step2": {
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+      },
+      "step3": {
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
+      },
       "errors": {
         "invalid": "Invalid email or password. Please try again.",
         "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "generic": "An error occurred during sign in. Please try again.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
@@ -932,6 +953,60 @@
       "success": {
         "title": "Account Created!",
         "description": "Your account has been created successfully. You can now sign in."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
+      "errors": {
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
       }
     },
     "error": {
@@ -986,7 +1061,7 @@
     },
     "sync": {
       "status": "Sync Status",
-      "lastSync": "Last Sync",
+      "lastSync": "Last sync",
       "never": "Never",
       "idle": "Idle",
       "syncing": "Syncing...",
@@ -1082,8 +1157,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servers",
+      "description": "View and manage all game servers.",
       "stats": {
         "total": "Total Servers",
         "running": "Running",
@@ -1133,8 +1208,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Settings",
+      "description": "Configure system settings and connections.",
       "save": "Save Changes",
       "saved": "Settings Saved",
       "savedDesc": "Your settings have been saved successfully.",
