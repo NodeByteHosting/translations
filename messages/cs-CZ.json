@@ -919,8 +919,6 @@
       "registering": "Vytváření účtu...",
       "alreadyHaveAccount": "Již máte účet?",
       "signIn": "Přihlásit se",
-      "panelAccountRequired": "Vyžadován účet starého panelu",
-      "panelAccountRequiredDescription": "Zatímco pracujeme na migraci mimo naše staré systémy, musíte mít existující účet na našem herním panelu pro registraci. Účty panelů jsou vytvořeny při nákupu služby prostřednictvím našeho fakturačního systému.",
       "errors": {
         "emailExists": "Účet s tímto e-mailem již existuje.",
         "notInPanel": "Nebyl nalezen žádný účet v herním panelu s tímto e-mailem. Nejdříve si prosím zakupte službu pro vytvoření účtu v panelu.",
