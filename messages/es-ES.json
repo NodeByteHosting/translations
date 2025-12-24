@@ -919,8 +919,6 @@
       "registering": "Creando cuenta...",
       "alreadyHaveAccount": "¿Ya tienes una cuenta?",
       "signIn": "Iniciar sesión",
-      "panelAccountRequired": "Se requiere una cuenta de panel anterior",
-      "panelAccountRequiredDescription": "Mientras trabajamos en migrar fuera de nuestros sistemas antiguos, debes tener una cuenta existente en nuestro panel del juego para registrarte. Las cuentas del panel se crean cuando usted compra un servicio a través de nuestro sistema de facturación.",
       "errors": {
         "emailExists": "Ya existe una cuenta con este correo electrónico.",
         "notInPanel": "No se ha encontrado una cuenta en el panel del juego con este correo electrónico. Por favor, compre un servicio primero para crear una cuenta del panel.",
