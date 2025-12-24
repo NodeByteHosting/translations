@@ -900,10 +900,31 @@
       "forgotPassword": "Forgot your password?",
       "noAccount": "Don't have an account?",
       "createAccount": "Create one",
+      "step1": {
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
+      },
+      "step2": {
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+      },
+      "step3": {
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
+      },
       "errors": {
         "invalid": "Invalid email or password. Please try again.",
         "networkError": "Network error. Please check your connection and try again.",
-        "generic": "An error occurred during sign in. Please try again."
+        "generic": "An error occurred during sign in. Please try again.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
