@@ -919,8 +919,6 @@
       "registering": "正在创建帐户...",
       "alreadyHaveAccount": "已经有一个帐户？",
       "signIn": "登录",
-      "panelAccountRequired": "需要旧的面板账户",
-      "panelAccountRequiredDescription": "当我们从旧系统迁移的时候，你必须在我们的游戏面板上有一个现有的帐户才能注册。 当您通过我们的账单系统购买服务时，将创建面板帐户。",
       "errors": {
         "emailExists": "此电子邮件的帐户已存在。",
         "notInPanel": "未找到游戏面板帐户，请先购买服务创建面板帐户。",
