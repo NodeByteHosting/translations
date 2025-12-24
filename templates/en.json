@@ -934,6 +934,60 @@
         "description": "Your account has been created successfully. You can now sign in."
       }
     },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
+      "errors": {
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
+      }
+    },
     "error": {
       "title": "Authentication Error",
       "description": "There was a problem signing you in.",
