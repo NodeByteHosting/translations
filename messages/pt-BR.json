@@ -919,8 +919,6 @@
       "registering": "Criando conta...",
       "alreadyHaveAccount": "Já possui uma conta?",
       "signIn": "Iniciar sessão",
-      "panelAccountRequired": "Conta antiga do Painel é necessária",
-      "panelAccountRequiredDescription": "Enquanto nós trabalhamos para migrar para longe dos nossos sistemas antigos, você deve ter uma conta existente no nosso painel de jogos para registrar. As contas de painel são criadas quando você compra um serviço por meio do nosso sistema de cobrança.",
       "errors": {
         "emailExists": "Já existe uma conta com este e-mail.",
         "notInPanel": "Nenhuma conta de painel do jogo foi encontrada com este e-mail. Por favor, compre um serviço primeiro para criar uma conta de painel.",
