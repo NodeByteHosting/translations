@@ -546,7 +546,7 @@
     "copyFailedDesc": "Kon niet naar klembord kopiëren",
     "discord": {
       "title": "Discord gemeenschap",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Word lid van onze community voor directe ondersteuning, aankondigingen en chat met andere gebruikers.",
       "button": "Deelnemen aan Discord",
       "features": {
         "0": "Directe antwoorden",
@@ -652,7 +652,7 @@
     "description": "Blijf op de hoogte van de laatste releases, functies en verbeteringen voor alle NodeByte projecten.",
     "searchPlaceholder": "releases zoeken...",
     "filters": {
-      "all": "All",
+      "all": "Alle opslagplaatsen",
       "allTypes": "Alle typen",
       "feature": "Functie",
       "bugfix": "Bug fix",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Geen releases gevonden",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Probeer je zoekopdracht of filters aan te passen om te vinden wat je zoekt.",
       "clearFilters": "Filters wissen"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Fout bij het laden van releases",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Er is een fout opgetreden bij het ophalen van releases. Probeer het later opnieuw.",
       "retry": "Probeer opnieuw"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Ons team",
       "title": "Ontmoet de",
       "titleHighlight": "Team",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "De gepassioneerde mensen achter NodeByte die onvermoeibaar werken aan de beste hosting ervaring.",
       "roles": {
         "founder": "Oprichter & Hoofdontwikkelaar"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Klaar om te beginnen?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
+      "description": "Sluit u aan bij duizenden gaming-gemeenschappen die NodeByte vertrouwen voor hun server hosting behoeften.",
       "getStarted": "Bekijk Spelservers",
       "joinDiscord": "Deelnemen aan Discord"
     }
@@ -900,10 +900,31 @@
       "forgotPassword": "Wachtwoord vergeten?",
       "noAccount": "Nog geen account?",
       "createAccount": "Maak er een",
+      "step1": {
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
+      },
+      "step2": {
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+      },
+      "step3": {
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
+      },
       "errors": {
         "invalid": "Ongeldig e-mailadres of wachtwoord. Probeer het opnieuw.",
         "networkError": "Netwerkfout. Controleer je verbinding en probeer het opnieuw.",
-        "generic": "Er is een fout opgetreden tijdens het inloggen. Probeer het opnieuw."
+        "generic": "Er is een fout opgetreden tijdens het inloggen. Probeer het opnieuw.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
@@ -932,6 +953,60 @@
       "success": {
         "title": "Account aangemaakt!",
         "description": "Uw account is aangemaakt. U kunt nu inloggen."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
+      "errors": {
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
       }
     },
     "error": {
@@ -986,7 +1061,7 @@
     },
     "sync": {
       "status": "Synchronisatie status",
-      "lastSync": "Last Sync",
+      "lastSync": "Laatste synchronisatie",
       "never": "Nooit",
       "idle": "Inactief",
       "syncing": "Synchroniseren...",
@@ -1082,8 +1157,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servers",
+      "description": "Bekijk en beheer alle spelservers.",
       "stats": {
         "total": "Totaal servers",
         "running": "Lopend",
@@ -1133,8 +1208,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Instellingen",
+      "description": "Configureer systeeminstellingen en verbindingen.",
       "save": "Wijzigingen opslaan",
       "saved": "Instellingen Opgeslagen",
       "savedDesc": "Uw instellingen zijn opgeslagen.",

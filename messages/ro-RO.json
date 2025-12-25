@@ -546,7 +546,7 @@
     "copyFailedDesc": "Copierea în clipboard a eșuat",
     "discord": {
       "title": "Comunitate Discord",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Alătură-te comunității noastre pentru suport instant, anunțuri și conversații cu alți utilizatori.",
       "button": "Alătură-te Discord",
       "features": {
         "0": "Răspunsuri instantanee",
@@ -652,7 +652,7 @@
     "description": "Rămâneți la curent cu ultimele lansări, caracteristici și îmbunătățiri în toate proiectele NodeByte.",
     "searchPlaceholder": "Căutare lansări...",
     "filters": {
-      "all": "All",
+      "all": "Toate repozitoriile",
       "allTypes": "Toate tipurile",
       "feature": "Caracteristică",
       "bugfix": "Remediere eroare",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Nu s-au găsit Partajări",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Încercați să ajustați căutarea sau filtrele pentru a găsi ceea ce căutați.",
       "clearFilters": "Șterge filtrele"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Încărcarea partajărilor a eșuat",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "A apărut o eroare la preluarea versiunilor. Vă rugăm să încercaţi din nou mai târziu.",
       "retry": "Încearcă din nou"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Echipa noastră",
       "title": "Întâlnește cu",
       "titleHighlight": "Echipă",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "Oamenii pasionați din spatele NodeByte care lucrează neobosit pentru a oferi cea mai bună experiență de găzduire.",
       "roles": {
         "founder": "Fondator & Dezvoltator Leader"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Gata pentru a începe?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
+      "description": "Alătură-te miilor de comunități de jocuri care au încredere în NodeByte pentru serverul lor de găzduire.",
       "getStarted": "Vezi serverele jocului",
       "joinDiscord": "Alătură-te Discord"
     }
@@ -900,10 +900,31 @@
       "forgotPassword": "Ți-ai uitat parola?",
       "noAccount": "Nu ai un cont?",
       "createAccount": "Creează unul",
+      "step1": {
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
+      },
+      "step2": {
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+      },
+      "step3": {
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
+      },
       "errors": {
         "invalid": "E-mail sau parolă incorecte. Vă rugăm să încercaţi din nou.",
         "networkError": "Eroare de rețea. Verifică conexiunea și încearcă din nou.",
-        "generic": "A apărut o eroare în timpul conectării. Vă rugăm să încercați din nou."
+        "generic": "A apărut o eroare în timpul conectării. Vă rugăm să încercați din nou.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
@@ -932,6 +953,60 @@
       "success": {
         "title": "Cont creat!",
         "description": "Contul dvs. a fost creat cu succes. Acum vă puteți conecta."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
+      "errors": {
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
       }
     },
     "error": {
@@ -986,7 +1061,7 @@
     },
     "sync": {
       "status": "Stare sincronizare",
-      "lastSync": "Last Sync",
+      "lastSync": "Ultima sincronizare",
       "never": "Niciodată",
       "idle": "Inactiv",
       "syncing": "Sincronizare...",
@@ -1082,8 +1157,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servere",
+      "description": "Vizualizați și gestionați toate serverele jocului.",
       "stats": {
         "total": "Total Servere",
         "running": "Rulează",
@@ -1133,8 +1208,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Setări",
+      "description": "Configurați setările de sistem și conexiunile.",
       "save": "Salvează modificările",
       "saved": "Setări salvate",
       "savedDesc": "Setările au fost salvate cu succes.",

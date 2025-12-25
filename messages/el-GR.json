@@ -546,7 +546,7 @@
     "copyFailedDesc": "Αποτυχία αντιγραφής στο πρόχειρο",
     "discord": {
       "title": "Κοινότητα Discord",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Γίνετε μέλος της κοινότητάς μας για άμεση υποστήριξη, ανακοινώσεις και συνομιλήστε με άλλους χρήστες.",
       "button": "Συμμετοχή Στο Discord",
       "features": {
         "0": "Άμεσες απαντήσεις",
@@ -652,7 +652,7 @@
     "description": "Μείνετε ενημερωμένοι με τις τελευταίες εκδόσεις, λειτουργίες και βελτιώσεις σε όλα τα έργα της NodeByte.",
     "searchPlaceholder": "Αναζήτηση εκδόσεων...",
     "filters": {
-      "all": "All",
+      "all": "Όλοι Οι Χώροι Αποθήκευσης",
       "allTypes": "Όλοι Οι Τύποι",
       "feature": "Χαρακτηριστικό",
       "bugfix": "Διόρθωση Σφάλματος",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Δεν βρέθηκαν εκδόσεις",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας για να βρείτε αυτό που ψάχνετε.",
       "clearFilters": "Εκκαθάριση Φίλτρων"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Αποτυχία φόρτωσης εκδόσεων",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Παρουσιάστηκε σφάλμα κατά την ανάκτηση εκδόσεων. Παρακαλώ προσπαθήστε ξανά αργότερα.",
       "retry": "Δοκιμάστε Ξανά"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Η Ομάδα Μας",
       "title": "Γνωρίστε το",
       "titleHighlight": "Ομάδα",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "Οι παθιασμένοι άνθρωποι πίσω από το NodeByte που εργάζονται ακούραστα για να προσφέρουν την καλύτερη εμπειρία φιλοξενίας.",
       "roles": {
         "founder": "Ιδρυτής & Επικεφαλής Προγραμματιστής"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Έτοιμο για να ξεκινήσει?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
+      "description": "Συμμετοχή σε χιλιάδες κοινότητες τυχερών παιχνιδιών που εμπιστεύονται NodeByte για τις ανάγκες φιλοξενίας του διακομιστή τους.",
       "getStarted": "Προβολή Διακομιστών Παιχνιδιών",
       "joinDiscord": "Συμμετοχή Στο Discord"
     }
@@ -900,10 +900,31 @@
       "forgotPassword": "Ξεχάσατε τον κωδικό σας?",
       "noAccount": "Δεν έχετε λογαριασμό?",
       "createAccount": "Δημιουργία ενός",
+      "step1": {
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
+      },
+      "step2": {
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+      },
+      "step3": {
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
+      },
       "errors": {
         "invalid": "Μη έγκυρο email ή κωδικός πρόσβασης. Παρακαλώ προσπαθήστε ξανά.",
         "networkError": "Σφάλμα δικτύου. Παρακαλώ ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.",
-        "generic": "Παρουσιάστηκε σφάλμα κατά τη διάρκεια της σύνδεσης. Παρακαλώ προσπαθήστε ξανά."
+        "generic": "Παρουσιάστηκε σφάλμα κατά τη διάρκεια της σύνδεσης. Παρακαλώ προσπαθήστε ξανά.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
@@ -932,6 +953,60 @@
       "success": {
         "title": "Ο Λογαριασμός Δημιουργήθηκε!",
         "description": "Ο λογαριασμός σας δημιουργήθηκε επιτυχώς. Μπορείτε τώρα να εισέλθετε."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
+      "errors": {
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
+      }
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
+      "errors": {
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
       }
     },
     "error": {
@@ -986,7 +1061,7 @@
     },
     "sync": {
       "status": "Κατάσταση Συγχρονισμού",
-      "lastSync": "Last Sync",
+      "lastSync": "Τελευταίος συγχρονισμός",
       "never": "Ποτέ",
       "idle": "Αδρανής",
       "syncing": "Συγχρονισμός...",
@@ -1082,8 +1157,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Διακομιστές",
+      "description": "Προβολή και διαχείριση όλων των διακομιστών παιχνιδιών.",
       "stats": {
         "total": "Σύνολο Εξυπηρετητών",
         "running": "Εκτελείται",
@@ -1133,8 +1208,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Ρυθμίσεις",
+      "description": "Ρύθμιση ρυθμίσεων συστήματος και συνδέσεων.",
       "save": "Αποθήκευση Αλλαγών",
       "saved": "Οι Ρυθμίσεις Αποθηκεύτηκαν",
       "savedDesc": "Οι ρυθμίσεις σας αποθηκεύτηκαν επιτυχώς.",
