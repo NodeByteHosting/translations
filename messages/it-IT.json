@@ -546,7 +546,7 @@
     "copyFailedDesc": "Impossibile copiare negli appunti",
     "discord": {
       "title": "Comunità Di Discord",
-      "description": "Unisciti alla nostra community per il supporto istantaneo, gli annunci e chattare con altri utenti.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Unisciti A Discord",
       "features": {
         "0": "Risposte istantanee",
@@ -652,7 +652,7 @@
     "description": "Rimani aggiornato con le ultime versioni, funzionalità e miglioramenti in tutti i progetti NodeByte.",
     "searchPlaceholder": "Cerca rilasci...",
     "filters": {
-      "all": "Tutti I Repository",
+      "all": "All",
       "allTypes": "Tutti I Tipi",
       "feature": "Caratteristica",
       "bugfix": "Correzione Bug",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Nessuna release trovata",
-      "description": "Prova a modificare la tua ricerca o i tuoi filtri per trovare quello che stai cercando.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Cancella Filtri"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Impossibile caricare le liberatorie",
-      "description": "Si è verificato un errore nel recupero delle versioni. Riprova più tardi.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Prova Di Nuovo"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Il Nostro Team",
       "title": "Incontra il",
       "titleHighlight": "Squadra",
-      "description": "Le persone appassionate di NodeByte che lavorano instancabilmente per offrire la migliore esperienza di hosting.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Fondatore & Sviluppatore Principale"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Pronto per iniziare?",
-      "description": "Unisciti a migliaia di comunità di gioco che si fidano di NodeByte per le loro esigenze di hosting di server.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Visualizza Server Di Gioco",
       "joinDiscord": "Unisciti A Discord"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",
@@ -1061,7 +1063,7 @@
     },
     "sync": {
       "status": "Stato Sincronizzazione",
-      "lastSync": "Ultima sincronizzazione",
+      "lastSync": "Last Sync",
       "never": "Mai",
       "idle": "Inattivo",
       "syncing": "Sincronizzazione...",
@@ -1157,8 +1159,8 @@
       }
     },
     "servers": {
-      "title": "Server",
-      "description": "Visualizza e gestisci tutti i server di gioco.",
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
       "stats": {
         "total": "Server Totali",
         "running": "Esecuzione",
@@ -1208,8 +1210,8 @@
       }
     },
     "settings": {
-      "title": "Impostazioni",
-      "description": "Configurare le impostazioni e le connessioni di sistema.",
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
       "save": "Salva Modifiche",
       "saved": "Impostazioni Salvate",
       "savedDesc": "Le impostazioni sono state salvate con successo.",
