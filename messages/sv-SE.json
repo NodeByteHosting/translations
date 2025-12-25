@@ -546,7 +546,7 @@
     "copyFailedDesc": "Det gick inte att kopiera till urklipp",
     "discord": {
       "title": "Discords gemenskap",
-      "description": "Gå med i vår community för omedelbar support, meddelanden och chatta med andra användare.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Anslut till Discord",
       "features": {
         "0": "Omedelbara svar",
@@ -652,7 +652,7 @@
     "description": "Håll dig uppdaterad med de senaste versionerna, funktionerna och förbättringarna i alla NodeByte-projekt.",
     "searchPlaceholder": "Sök utgåvor...",
     "filters": {
-      "all": "Alla förråd",
+      "all": "All",
       "allTypes": "Alla typer",
       "feature": "Funktion",
       "bugfix": "Felrättning",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Inga utgåvor hittades",
-      "description": "Försök att justera din sökning eller filter för att hitta det du letar efter.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Rensa filter"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Det gick inte att ladda utgåvor",
-      "description": "Det gick inte att hämta utgåvor. Försök igen senare.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Försök igen"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Vårt team",
       "title": "Möt",
       "titleHighlight": "Lag",
-      "description": "De passionerade personerna bakom NodeByte som outtröttligt arbetar för att leverera den bästa webbhotellsupplevelsen.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Grundare & Ledande Utvecklare"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Redo att börja?",
-      "description": "Gå med i tusentals spelgemenskaper som litar på NodeByte för deras server hosting behov.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Visa spelservrar",
       "joinDiscord": "Anslut till Discord"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",

@@ -546,7 +546,7 @@
     "copyFailedDesc": "Αποτυχία αντιγραφής στο πρόχειρο",
     "discord": {
       "title": "Κοινότητα Discord",
-      "description": "Γίνετε μέλος της κοινότητάς μας για άμεση υποστήριξη, ανακοινώσεις και συνομιλήστε με άλλους χρήστες.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Συμμετοχή Στο Discord",
       "features": {
         "0": "Άμεσες απαντήσεις",
@@ -652,7 +652,7 @@
     "description": "Μείνετε ενημερωμένοι με τις τελευταίες εκδόσεις, λειτουργίες και βελτιώσεις σε όλα τα έργα της NodeByte.",
     "searchPlaceholder": "Αναζήτηση εκδόσεων...",
     "filters": {
-      "all": "Όλοι Οι Χώροι Αποθήκευσης",
+      "all": "All",
       "allTypes": "Όλοι Οι Τύποι",
       "feature": "Χαρακτηριστικό",
       "bugfix": "Διόρθωση Σφάλματος",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Δεν βρέθηκαν εκδόσεις",
-      "description": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας για να βρείτε αυτό που ψάχνετε.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Εκκαθάριση Φίλτρων"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Αποτυχία φόρτωσης εκδόσεων",
-      "description": "Παρουσιάστηκε σφάλμα κατά την ανάκτηση εκδόσεων. Παρακαλώ προσπαθήστε ξανά αργότερα.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Δοκιμάστε Ξανά"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Η Ομάδα Μας",
       "title": "Γνωρίστε το",
       "titleHighlight": "Ομάδα",
-      "description": "Οι παθιασμένοι άνθρωποι πίσω από το NodeByte που εργάζονται ακούραστα για να προσφέρουν την καλύτερη εμπειρία φιλοξενίας.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Ιδρυτής & Επικεφαλής Προγραμματιστής"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Έτοιμο για να ξεκινήσει?",
-      "description": "Συμμετοχή σε χιλιάδες κοινότητες τυχερών παιχνιδιών που εμπιστεύονται NodeByte για τις ανάγκες φιλοξενίας του διακομιστή τους.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Προβολή Διακομιστών Παιχνιδιών",
       "joinDiscord": "Συμμετοχή Στο Discord"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",
@@ -1061,7 +1063,7 @@
     },
     "sync": {
       "status": "Κατάσταση Συγχρονισμού",
-      "lastSync": "Τελευταίος συγχρονισμός",
+      "lastSync": "Last Sync",
       "never": "Ποτέ",
       "idle": "Αδρανής",
       "syncing": "Συγχρονισμός...",
@@ -1157,8 +1159,8 @@
       }
     },
     "servers": {
-      "title": "Διακομιστές",
-      "description": "Προβολή και διαχείριση όλων των διακομιστών παιχνιδιών.",
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
       "stats": {
         "total": "Σύνολο Εξυπηρετητών",
         "running": "Εκτελείται",
@@ -1208,8 +1210,8 @@
       }
     },
     "settings": {
-      "title": "Ρυθμίσεις",
-      "description": "Ρύθμιση ρυθμίσεων συστήματος και συνδέσεων.",
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
       "save": "Αποθήκευση Αλλαγών",
       "saved": "Οι Ρυθμίσεις Αποθηκεύτηκαν",
       "savedDesc": "Οι ρυθμίσεις σας αποθηκεύτηκαν επιτυχώς.",
