@@ -546,7 +546,7 @@
     "copyFailedDesc": "Не удалось скопировать в буфер обмена",
     "discord": {
       "title": "Сообщество Discord",
-      "description": "Присоединяйтесь к нашему сообществу для мгновенной поддержки, объявлений и общения с другими пользователями.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Присоединиться к Discord",
       "features": {
         "0": "Мгновенные ответы",
@@ -652,7 +652,7 @@
     "description": "Будьте в курсе последних версий, функций и улучшений во всех проектах NodeByte.",
     "searchPlaceholder": "Поиск релизов...",
     "filters": {
-      "all": "Все репозитории",
+      "all": "All",
       "allTypes": "Все типы",
       "feature": "Функция",
       "bugfix": "Исправление ошибок",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Релизы не найдены",
-      "description": "Попробуйте изменить поиск или фильтры, чтобы найти то, что вы ищете.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Очистить фильтры"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Не удалось загрузить релизы",
-      "description": "Произошла ошибка при получении релизов. Пожалуйста, повторите попытку позже.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Попробовать ещё раз"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Наша команда",
       "title": "Встречайте",
       "titleHighlight": "Команда",
-      "description": "Страстные люди за NodeByte, которые неустанно работают над тем, чтобы обеспечить лучший хостинг.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Основатель и ведущий разработчик"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Готовы начать?",
-      "description": "Присоединяйтесь к тысячам игровых сообществ, которые доверяют NodeByte своим потребностям хостинга на сервере.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Просмотр игровых серверов",
       "joinDiscord": "Присоединиться к Discord"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",
@@ -1061,7 +1063,7 @@
     },
     "sync": {
       "status": "Состояние синхронизации",
-      "lastSync": "Последняя синхронизация",
+      "lastSync": "Last Sync",
       "never": "Никогда",
       "idle": "Простой",
       "syncing": "Синхронизация...",
@@ -1157,8 +1159,8 @@
       }
     },
     "servers": {
-      "title": "Серверы",
-      "description": "Просмотр и управление игровыми серверами.",
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
       "stats": {
         "total": "Всего серверов",
         "running": "Выполняется",
@@ -1208,8 +1210,8 @@
       }
     },
     "settings": {
-      "title": "Настройки",
-      "description": "Настройка системных настроек и подключений.",
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
       "save": "Сохранить изменения",
       "saved": "Настройки сохранены",
       "savedDesc": "Ваши настройки успешно сохранены.",
