@@ -546,7 +546,7 @@
     "copyFailedDesc": "Kopírování do schránky se nezdařilo",
     "discord": {
       "title": "Discord komunita",
-      "description": "Připojte se k naší komunitě pro okamžitou podporu, oznámení a chatujte s ostatními uživateli.",
+      "description": "Get live support and help from our community and team members.",
       "button": "Připojit se k Discordu",
       "features": {
         "0": "Okamžité odpovědi",
@@ -652,7 +652,7 @@
     "description": "Zůstaňte informováni o nejnovějších vydáních, funkcích a vylepšeních všech projektů NodeByte.",
     "searchPlaceholder": "Hledat verze...",
     "filters": {
-      "all": "Všechny repozitáře",
+      "all": "All",
       "allTypes": "Všechny typy",
       "feature": "Funkce",
       "bugfix": "Oprava chyb",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "Nebyly nalezeny žádné verze",
-      "description": "Zkuste upravit vyhledávání nebo filtry pro nalezení toho, co hledáte.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "Vymazat filtry"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "Nepodařilo se načíst verze",
-      "description": "Při načítání vydání došlo k chybě. Opakujte akci později.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "Zkuste to znovu"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "Náš tým",
       "title": "Seznamte se s",
       "titleHighlight": "Tým",
-      "description": "Nadšení lidé za NodeByte, kteří neúnavně pracují na tom, aby přinesli nejlepší zkušenosti s hostováním.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "Zakladatel a hlavní vývojář"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "Jste připraveni začít?",
-      "description": "Připojte se k tisícům herních komunit, které důvěřují NodeByte za jejich potřeby serverového hostingu.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "Zobrazit herní servery",
       "joinDiscord": "Připojit se k Discordu"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",
@@ -1061,7 +1063,7 @@
     },
     "sync": {
       "status": "Stav synchronizace",
-      "lastSync": "Poslední synchronizace",
+      "lastSync": "Last Sync",
       "never": "Nikdy",
       "idle": "Nečinný",
       "syncing": "Synchronizace...",
@@ -1157,8 +1159,8 @@
       }
     },
     "servers": {
-      "title": "Servery",
-      "description": "Zobrazit a spravovat všechny herní servery.",
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
       "stats": {
         "total": "Celkem serverů",
         "running": "Běh",
@@ -1208,8 +1210,8 @@
       }
     },
     "settings": {
-      "title": "Nastavení",
-      "description": "Konfigurace nastavení a připojení systému.",
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
       "save": "Uložit změny",
       "saved": "Nastavení uloženo",
       "savedDesc": "Vaše nastavení bylo úspěšně uloženo.",
