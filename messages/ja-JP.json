@@ -546,7 +546,7 @@
     "copyFailedDesc": "クリップボードにコピーできませんでした",
     "discord": {
       "title": "Discordコミュニティ",
-      "description": "私たちのコミュニティに参加して、インスタントサポート、アナウンス、他のユーザーとチャットしましょう。",
+      "description": "Get live support and help from our community and team members.",
       "button": "Discord に参加",
       "features": {
         "0": "即時応答",
@@ -652,7 +652,7 @@
     "description": "すべての NodeByte プロジェクトの最新のリリース、機能、改善点について最新の情報をご確認ください。",
     "searchPlaceholder": "リリースを検索...",
     "filters": {
-      "all": "すべてのリポジトリ",
+      "all": "All",
       "allTypes": "すべてのタイプ",
       "feature": "機能",
       "bugfix": "バグ修正",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "リリースが見つかりませんでした",
-      "description": "検索またはフィルターを調整して、探しているものを見つけてください。",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "フィルタをクリア"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "リリースの読み込みに失敗しました",
-      "description": "リリースの取得中にエラーが発生しました。後でもう一度お試しください。",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "もう一度試す"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "私たちのチーム",
       "title": "以下を参照：",
       "titleHighlight": "チーム",
-      "description": "最高のホスティング体験を提供するために精力的に働くNodeByteの背後にある情熱的な人々。",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "創設者＆主開発者"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "始める準備はできましたか？",
-      "description": "サーバーホスティングニーズのためにNodeByteを信頼する何千ものゲームコミュニティに参加してください。",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "ゲームサーバーを表示",
       "joinDiscord": "Discord に参加"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",
@@ -1061,7 +1063,7 @@
     },
     "sync": {
       "status": "同期状態",
-      "lastSync": "最終同期",
+      "lastSync": "Last Sync",
       "never": "一切なし",
       "idle": "待機中",
       "syncing": "同期中...",
@@ -1157,8 +1159,8 @@
       }
     },
     "servers": {
-      "title": "サーバー",
-      "description": "すべてのゲームサーバーを表示および管理します。",
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
       "stats": {
         "total": "合計サーバー",
         "running": "実行中",
@@ -1208,8 +1210,8 @@
       }
     },
     "settings": {
-      "title": "設定",
-      "description": "システム設定と接続を構成します。",
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
       "save": "変更を保存",
       "saved": "設定を保存しました",
       "savedDesc": "設定が正常に保存されました。",

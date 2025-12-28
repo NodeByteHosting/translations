@@ -546,7 +546,7 @@
     "copyFailedDesc": "فشل النسخ إلى الحافظة",
     "discord": {
       "title": "مجتمع ديسكورد",
-      "description": "انضم إلى مجتمعنا للحصول على الدعم الفوري، الإعلانات، والمحادثة مع المستخدمين الآخرين.",
+      "description": "Get live support and help from our community and team members.",
       "button": "الانضمام إلى ديسكورد",
       "features": {
         "0": "الردود الفورية",
@@ -652,7 +652,7 @@
     "description": "ابقى على اطلاع على أحدث الإصدارات والمميزات والتحسينات في جميع مشاريع نوديبايت.",
     "searchPlaceholder": "البحث في الإصدار...",
     "filters": {
-      "all": "جميع المستودعات",
+      "all": "All",
       "allTypes": "جميع الأنواع",
       "feature": "الميزة",
       "bugfix": "إصلاح الأخطاء",
@@ -673,7 +673,7 @@
     },
     "empty": {
       "title": "لا توجد إصدارات",
-      "description": "حاول تعديل البحث أو الفلاتر الخاصة بك للعثور على ما تبحث عنه.",
+      "description": "Try adjusting your filters or search terms",
       "clearFilters": "مسح الفلاتر"
     },
     "loading": {
@@ -682,7 +682,7 @@
     },
     "error": {
       "title": "فشل تحميل الإصدارات",
-      "description": "حدث خطأ أثناء جلب الإصدار. الرجاء المحاولة مرة أخرى لاحقاً.",
+      "description": "Please try again or contact support if the issue persists.",
       "retry": "حاول مرة أخرى"
     },
     "stats": {
@@ -848,7 +848,7 @@
       "badge": "فريقنا",
       "title": "مقابلة",
       "titleHighlight": "الفريق",
-      "description": "الناس المتحمسون وراء نودي بيتي الذين يعملون بلا كلل لتقديم أفضل تجربة الاستضافة.",
+      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
       "roles": {
         "founder": "المؤسس والمطور الرئيسي"
       },
@@ -858,7 +858,7 @@
     },
     "cta": {
       "title": "هل أنت مستعد للبدء؟",
-      "description": "انضم إلى آلاف مجتمعات الألعاب التي تثق في نوديبايت لاحتياجاتها من استضافة الخادم.",
+      "description": "Join thousands of gaming communities already hosting with NodeByte.",
       "getStarted": "عرض خوادم اللعبة",
       "joinDiscord": "الانضمام إلى ديسكورد"
     }
@@ -911,7 +911,9 @@
         "passwordOption": "Password",
         "passwordDescription": "Use your password to sign in",
         "magicLinkOption": "Magic Link",
-        "magicLinkDescription": "We'll send you a secure link via email. No password needed!"
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
         "passwordTitle": "Enter Your Password",
@@ -1061,7 +1063,7 @@
     },
     "sync": {
       "status": "حالة المزامنة",
-      "lastSync": "آخر مزامنة",
+      "lastSync": "Last Sync",
       "never": "لا",
       "idle": "الخمول",
       "syncing": "مزامنة...",
@@ -1157,8 +1159,8 @@
       }
     },
     "servers": {
-      "title": "خوادم",
-      "description": "عرض وإدارة جميع خوادم اللعبة.",
+      "title": "Game Servers",
+      "description": "Manage game servers and allocations.",
       "stats": {
         "total": "مجموع الخوادم",
         "running": "تشغيل",
@@ -1208,8 +1210,8 @@
       }
     },
     "settings": {
-      "title": "الإعدادات",
-      "description": "تهيئة إعدادات النظام واتصالاته.",
+      "title": "System Settings",
+      "description": "Configure global system settings and integrations.",
       "save": "حفظ التغييرات",
       "saved": "تم حفظ الإعدادات",
       "savedDesc": "تم حفظ الإعدادات الخاصة بك بنجاح.",
