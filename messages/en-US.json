@@ -171,7 +171,10 @@
       "uptime": "Uptime SLA",
       "latency": "Avg Latency",
       "support": "Support",
-      "servers": "Active Servers"
+      "servers": "Active Servers",
+      "activeUsers": "Active Users",
+      "allocations": "Allocations",
+      "users": "Total Users"
     }
   },
   "pricing": {
