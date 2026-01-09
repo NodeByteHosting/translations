@@ -171,7 +171,10 @@
       "uptime": "Käyttöaika SLA",
       "latency": "Keskim. Latenssi",
       "support": "Tuki",
-      "servers": "Aktiiviset Palvelimet"
+      "servers": "Aktiiviset Palvelimet",
+      "users": "Total Users",
+      "activeUsers": "Active Users",
+      "allocations": "Allocations"
     }
   },
   "pricing": {
@@ -546,7 +549,7 @@
     "copyFailedDesc": "Kopiointi leikepöydälle epäonnistui",
     "discord": {
       "title": "Discord-yhteisö",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Liity yhteisöömme saadaksesi välittömän tuen, ilmoitukset ja juttele muiden käyttäjien kanssa.",
       "button": "Liity Discordiin",
       "features": {
         "0": "Välittömät vastaukset",
@@ -652,7 +655,7 @@
     "description": "Pysy ajan tasalla uusimmista julkaisuista, ominaisuuksista ja parannuksista kaikissa NodeByte projekteissa.",
     "searchPlaceholder": "Hae julkaisuja...",
     "filters": {
-      "all": "All",
+      "all": "Kaikki Repot",
       "allTypes": "Kaikki Tyypit",
       "feature": "Ominaisuus",
       "bugfix": "Vian Korjaus",
@@ -673,7 +676,7 @@
     },
     "empty": {
       "title": "Julkaisuja ei löytynyt",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Yritä muuttaa hakuasi tai suodattimiasi löytääksesi etsimäsi.",
       "clearFilters": "Tyhjennä Suodattimet"
     },
     "loading": {
@@ -682,7 +685,7 @@
     },
     "error": {
       "title": "Julkaisujen lataaminen epäonnistui",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Julkaisujen haussa tapahtui virhe. Yritä myöhemmin uudelleen.",
       "retry": "Yritä Uudelleen"
     },
     "stats": {
@@ -848,7 +851,7 @@
       "badge": "Tiimimme",
       "title": "Tapaa",
       "titleHighlight": "Tiimi",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "NodeByten takana olevat intohimoiset ihmiset, jotka väsymättä tekevät työtä tarjotakseen parhaan hosting-kokemuksen.",
       "roles": {
         "founder": "Perustaja & Johtava Kehittäjä"
       },
@@ -858,7 +861,7 @@
     },
     "cta": {
       "title": "Oletko valmis aloittamaan?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
+      "description": "Liity tuhansiin pelaamista yhteisöihin, jotka luottavat NodeByte palvelimen hosting-tarpeisiin.",
       "getStarted": "Näytä Pelipalvelimet",
       "joinDiscord": "Liity Discordiin"
     }
@@ -1024,11 +1027,170 @@
     },
     "userMenu": {
       "myAccount": "Oma Tili",
+      "dashboard": "Dashboard",
       "viewPanel": "Näytä Paneeli",
       "admin": "Ylläpitäjä",
       "logout": "Kirjaudu Ulos",
       "signIn": "Kirjaudu Sisään",
       "loggingOut": "Kirjaudutaan ulos..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
@@ -1063,7 +1225,7 @@
     },
     "sync": {
       "status": "Synkronoinnin Tila",
-      "lastSync": "Last Sync",
+      "lastSync": "Viimeisin synkronointi",
       "never": "Ei Koskaan",
       "idle": "Jouten",
       "syncing": "Synkronoi...",
@@ -1159,8 +1321,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Palvelimet",
+      "description": "Tarkastele ja hallitse kaikkia pelipalvelimia.",
       "stats": {
         "total": "Palvelimet Yhteensä",
         "running": "Käynnissä",
@@ -1210,8 +1372,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Asetukset",
+      "description": "Määritä järjestelmän asetukset ja yhteydet.",
       "save": "Tallenna Muutokset",
       "saved": "Asetukset Tallennettu",
       "savedDesc": "Asetukset on tallennettu onnistuneesti.",
@@ -1240,6 +1402,8 @@
         "url": "Paneelin URL",
         "apiKey": "Api Avain",
         "apiKeyNote": "Syötä Pterodactyl paneelin API avain todentamiseen.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl panel Client API key for authentication.",
         "apiUrl": "API URL",
         "apiUrlNote": "Pterodactyl API:n perusosoite (yleensä paneelin URL + /api).",
         "version": "Paneelin Versio"

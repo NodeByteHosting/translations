@@ -171,7 +171,10 @@
       "uptime": "SLA oppetid",
       "latency": "Gj.snittlig forsinkelse",
       "support": "Brukerstøtte",
-      "servers": "Aktive servere"
+      "servers": "Aktive servere",
+      "users": "Total Users",
+      "activeUsers": "Active Users",
+      "allocations": "Allocations"
     }
   },
   "pricing": {
@@ -546,7 +549,7 @@
     "copyFailedDesc": "Kan ikke kopiere til utklippstavlen",
     "discord": {
       "title": "Discord fellesskap",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Bli med i vårt samfunn for øyeblikkelig støtte, kunngjøringer og chat med andre brukere.",
       "button": "Bli med i Discord",
       "features": {
         "0": "Øyeblikkelige svar",
@@ -652,7 +655,7 @@
     "description": "Hold deg oppdatert om de siste utgavene, funksjonene og forbedringene på tvers av alle NodeByte-prosjekter.",
     "searchPlaceholder": "Søkeutgivelser...",
     "filters": {
-      "all": "All",
+      "all": "Alle repositories",
       "allTypes": "Alle typer",
       "feature": "Egenskap",
       "bugfix": "Bug fiks",
@@ -673,7 +676,7 @@
     },
     "empty": {
       "title": "Ingen utgivelser funnet",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Prøv å endre ditt søk eller ditt filter for å finne det du leter etter.",
       "clearFilters": "Fjern filtre"
     },
     "loading": {
@@ -682,7 +685,7 @@
     },
     "error": {
       "title": "Kunne ikke laste utgivelser",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Det oppstod en feil ved henting av utgivelser. Vennligst prøv igjen senere.",
       "retry": "Prøv igjen"
     },
     "stats": {
@@ -848,7 +851,7 @@
       "badge": "Vårt team",
       "title": "Møt den",
       "titleHighlight": "Lag",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "lidenskapelig folk bak NodeByte som arbeider utrettelig for å gi den beste hodeopplevelsen.",
       "roles": {
         "founder": "Grunnlegger og hovedutvikler"
       },
@@ -858,7 +861,7 @@
     },
     "cta": {
       "title": "Klar til å komme i gang?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
+      "description": "Bli med tusenvis av gamingsamfunn som stoler på NodeByte for serverens hosting behov.",
       "getStarted": "Vis spillservere",
       "joinDiscord": "Bli med i Discord"
     }
@@ -1024,11 +1027,170 @@
     },
     "userMenu": {
       "myAccount": "Min konto",
+      "dashboard": "Dashboard",
       "viewPanel": "Vis Panel",
       "admin": "Administrator",
       "logout": "Logg ut",
       "signIn": "Logg inn",
       "loggingOut": "Logger ut..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
@@ -1063,7 +1225,7 @@
     },
     "sync": {
       "status": "Synk status",
-      "lastSync": "Last Sync",
+      "lastSync": "Sist synkronisert",
       "never": "Aldri",
       "idle": "Inaktiv",
       "syncing": "Synkroniserer...",
@@ -1159,8 +1321,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servere",
+      "description": "Se og administrer alle spillservere.",
       "stats": {
         "total": "Totalt antall servere",
         "running": "Kjører",
@@ -1210,8 +1372,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Innstillinger",
+      "description": "Konfigurere systeminnstillinger og -tilkoblinger.",
       "save": "Lagre endringer",
       "saved": "Innstillinger lagret",
       "savedDesc": "Dine innstillinger har blitt lagret.",
@@ -1240,6 +1402,8 @@
         "url": "Panel URL",
         "apiKey": "API-nøkkel (Automatic Translation)",
         "apiKeyNote": "Skriv inn ditt Pterodactyl panelpanel API-nøkkel for autentisering.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl panel Client API key for authentication.",
         "apiUrl": "API URL",
         "apiUrlNote": "Basiswebadressen for Pterodactyl API (vanligvis panel URL + /api).",
         "version": "Panel Versjon"
