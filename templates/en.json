@@ -1402,6 +1402,8 @@
         "url": "Panel URL",
         "apiKey": "API Key",
         "apiKeyNote": "Enter your Pterodactyl panel API key for authentication.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl panel Client API key for authentication.",
         "apiUrl": "API URL",
         "apiUrlNote": "The base URL for the Pterodactyl API (usually panel URL + /api).",
         "version": "Panel Version"
