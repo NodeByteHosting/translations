@@ -491,7 +491,7 @@
     },
     "hytale": {
       "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "tag": "Day 1 Support",
       "features": {
         "0": "Mod support",
         "1": "Custom maps",
@@ -828,7 +828,10 @@
       "uptime": "Uptime SLA",
       "latency": "Avg Latency",
       "support": "Support",
-      "servers": "Active Servers"
+      "servers": "Total Servers",
+      "users": "Total Users",
+      "activeUsers": "Active Users",
+      "allocations": "Allocations"
     },
     "timeline": {
       "badge": "Our Journey",
@@ -1197,9 +1200,13 @@
     "title": "Admin Panel",
     "nav": {
       "dashboard": "Dashboard",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Settings",
       "backToSite": "Back to Site"
@@ -1233,12 +1240,15 @@
       "syncingTarget": "Syncing {target} data from panel...",
       "complete": "complete",
       "runFull": "Run Full Sync",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Sync Completed",
       "completed": "Successfully synced {target} data.",
       "error": "Sync Failed",
       "quickActions": "Quick Sync Actions",
       "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Locations",
         "nodes": "Nodes",
         "allocations": "Allocations",
@@ -1402,6 +1412,8 @@
         "url": "Panel URL",
         "apiKey": "API Key",
         "apiKeyNote": "Enter your Pterodactyl panel API key for authentication.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "The base URL for the Pterodactyl API (usually panel URL + /api).",
         "version": "Panel Version"
