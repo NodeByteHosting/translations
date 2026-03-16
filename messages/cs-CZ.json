@@ -1,9 +1,9 @@
 {
   "nav": {
-    "company": "Společnost",
+    "company": "Článek 2",
     "services": "Služby",
     "resources": "Zdroje",
-    "extras": "Doplňky",
+    "extras": "Extras",
     "contact": "Kontakt",
     "discord": "Discord",
     "joinDiscord": "Připojte se k našemu Discordu",
@@ -11,7 +11,7 @@
     "currency": "Měna",
     "language": "Jazyk",
     "settings": "Nastavení",
-    "menu": "Nabídka"
+    "menu": "Menu"
   },
   "company": {
     "contact": {
@@ -25,52 +25,59 @@
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Servery Minecraft s okamžitým nastavením"
+      "title": "Minecraft hosting",
+      "description": "Minecraft servery s okamžitým nastavením"
     },
     "rust": {
       "title": "Rust Hosting",
-      "description": "Rust servery s ochranou proti DDoS"
+      "description": "Důvěryhodné servery s ochranou DDoS"
     },
     "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Servery Hytale s ochranou proti DDoS"
-    },
-    "all": {
-      "title": "Všechny služby",
-      "description": "Prozkoumejte všechny naše hostingové služby"
+      "title": "Hytale hosting",
+      "description": "Hytale servery s ochranou DDoS"
     },
     "gameServers": {
-      "title": "Herní servery",
-      "description": "Procházet všechny možnosti hostování her"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
-      "title": "VPS SPOLEČNOSTI AMD",
-      "description": "Vysoce výkonné virtuální servery poháněné společností AMD"
+      "title": "AMD VPS",
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Spolehlivé virtuální servery s procesory Intel"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "Servery VPS",
-      "description": "Procházet všechny možnosti hostingu VPS"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
-      "title": "Klientská oblast",
-      "description": "Správa vyúčtování, faktur a nastavení účtu"
+      "title": "Oblast klienta",
+      "description": "Správa fakturace, faktur a nastavení účtu"
     },
     "gamePanel": {
       "title": "Herní panel",
-      "description": "Ovládejte herní servery pomocí našeho panelu"
+      "description": "Ovládejte své herní servery pomocí našeho panelu"
     }
   },
   "extras": {
     "kb": {
       "title": "Znalostní báze",
-      "description": "Průvodci, výukové programy a dokumentace"
+      "description": "Návody, návody a dokumentace"
     },
     "changelog": {
       "title": "Co je nového",
@@ -79,84 +86,84 @@
   },
   "hero": {
     "promo": {
-      "prefix": "POUŽITÍ KÓDU",
-      "suffix": "NA PRVNÍ OBJEDNÁVKU!"
+      "prefix": "POUŽITÍ KÓD",
+      "suffix": "K VAŠE PRVNÍMU VAŠÍM!"
     },
-    "title": "Hostování serverů",
-    "titleHighlight": "Zjednodušeně",
-    "description": "Rychlý, spolehlivý a bezpečný hosting pro herní komunity a firmy. Spusťte herní servery nebo instance VPS s okamžitým nastavením, ochranou proti DDoS a nepřetržitou podporou.",
+    "title": "Server Hosting",
+    "titleHighlight": "Vyrobeno jednoduše",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Začněte",
-    "joinDiscord": "Připojte se k Discordu",
-    "trustedBy": "Důvěra herních komunit po celém světě",
-    "trustpilotReviews": "Recenze Trustpilot",
+    "joinDiscord": "Připojit se k Discordu",
+    "trustedBy": "Důvěryhodné herními komunitami po celém světě",
+    "trustpilotReviews": "Důvěryhodná hodnocení",
     "stats": {
-      "uptime": "Smlouva o provozuschopnosti SLA",
-      "uptimeDesc": "Podniková redundance udržující vaše servery online.",
-      "ping": "Průměrná hodnota. Ping",
-      "pingDesc": "Optimalizované směrování pro hraní s nízkou latencí.",
+      "uptime": "Doba provozu SLA",
+      "uptimeDesc": "Propuštění podniků udržuje vaše servery online.",
+      "ping": "Prům. Ping",
+      "pingDesc": "Optimalizované směrování pro hrací hry s nízkou latencí.",
       "support": "Podpora",
-      "supportDesc": "Odborná pomoc s instalacemi, mody a provozem serveru."
+      "supportDesc": "Odborná pomoc s instalacemi, mody a servery."
     }
   },
   "features": {
     "badge": "Infrastruktura",
-    "title": "Vytvořeno pro",
+    "title": "Postaveno pro",
     "titleHighlight": "Výkon",
-    "description": "Infrastruktura podnikové třídy postavená na výkon a spolehlivost. Okamžité poskytování, směrování s nízkou latencí a výkonné ovládání herních serverů i VPS.",
+    "description": "Enterprise-grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Zobrazit plány hostingu",
-    "startingFrom": "Počínaje",
+    "startingFrom": "Začíná od",
     "items": {
       "ddos": {
-        "title": "Ochrana před útoky DDoS",
-        "description": "Zmírnění na podnikové úrovni s automatickým čištěním provozu, které udrží vaše servery online při jakémkoli útoku.",
+        "title": "Ochrana DDoS",
+        "description": "Enterprise-grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Ochrana podnikové sítě",
-          "1": "Zmírnění automatického škálování",
+          "0": "Enterprise network protection",
+          "1": "Automatická změna měřítka",
           "2": "Monitorování v reálném čase"
         }
       },
       "latency": {
-        "title": "Síť s nízkou latencí",
-        "description": "Optimalizované směrování přes více síťových POP pro minimální ping a konzistentní výkon.",
+        "title": "Nízká odezva sítě",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
-          "0": "Průměrná latence pod 50 ms",
-          "1": "Optimalizované směrování",
+          "0": "Průměrná latence do 50 ms",
+          "1": "Optimized routing",
           "2": "Premium peering"
         }
       },
       "setup": {
         "title": "Okamžité nastavení",
-        "description": "Šablony serverů na jedno kliknutí, automatické instalace modů a rychlé poskytování služeb.",
+        "description": "Šablony serveru jedním kliknutím, automatizované instalace módů a rychlé poskytování.",
         "highlights": {
-          "0": "nasazení za 60 sekund",
-          "1": "Předpřipravené šablony",
+          "0": "60 sekund nasazení",
+          "1": "Předsestavené šablony",
           "2": "Automatická konfigurace"
         }
       },
       "locations": {
-        "title": "Více datových center",
-        "description": "Strategicky rozmístěné v různých regionech s globálními POPy pro nejlepší pokrytí, ať už jsou vaši hráči nebo uživatelé kdekoli.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "Globální perzistentní organické znečišťující látky",
-          "1": "Síť úrovně 1",
-          "2": "Globální pokrytí s nízkou latencí"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
         "title": "Ovládací panel",
-        "description": "Výkonné uživatelské rozhraní pro přístup ke konzoli, správu souborů, zálohování a měření.",
+        "description": "Výkonné uživatelské rozhraní pro přístup do konzoly, správu souborů, zálohování a metriky.",
         "highlights": {
           "0": "Živá konzole",
           "1": "Správce souborů",
-          "2": "Naplánované úlohy"
+          "2": "Plánované úkoly"
         }
       },
       "support": {
-        "title": "podpora 24/7",
-        "description": "Lidská podpora s odbornými operátory, kteří jsou kdykoli k dispozici pro instalace a řešení problémů.",
+        "title": "Podpora 24/7",
+        "description": "Lidská první podpora s expertní opci dostupná kdykoliv pro instalace a řešení problémů.",
         "highlights": {
-          "0": "Podpora služby Discord",
-          "1": "Systém vstupenek",
+          "0": "Discord podpora",
+          "1": "Ticket systém",
           "2": "Znalostní báze"
         }
       }
@@ -164,235 +171,237 @@
   },
   "about": {
     "badge": "Náš příběh",
-    "title": "Vytvořeno hráči,",
-    "titleHighlight": "pro každého",
-    "paragraph1": "Společnost NodeByte vznikla jako malá skupina hráčů a provozních inženýrů, kteří chtěli rychlý, spolehlivý a snadno spravovatelný hosting. Na vlastní kůži jsme zažili frustraci z lagujících serverů a nereagující podpory.",
-    "paragraph2": "Proto jsme vytvořili infrastrukturu vyladěnou pro herní i firemní zátěž: směrování s nízkou latencí, robustní ochrana proti DDoS a okamžité poskytování serverů, abyste mohli trávit méně času správou a více času prací.",
+    "title": "Built by Gamers,",
+    "titleHighlight": "for Everyone",
+    "paragraph1": "NodeByte začal jako malá skupina hráčů a optických inženýrů, kteří chtěli hostit, že byl rychlý, spolehlivý a snadno zvládnutelný. Zažili jsme frustraci serverů laggy a neresponzivní podporu firsthand.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Připojte se k naší komunitě",
     "values": {
       "players": {
-        "title": "Vytvořeno pro vás",
-        "description": "Naše infrastruktura upřednostňuje směrování s nízkou latencí, předvídatelný výkon a vysokou dostupnost, takže vaše služby zůstanou online a budou reagovat - ať už se jedná o herní server nebo VPS."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Nejdříve komunita",
-        "description": "Nabízíme vám nástroje, které vám umožní vytvořit a spravovat přesně to, co potřebujete, s minimálním úsilím - od instalací modů a podpory snapshotů až po vlastní zásobníky aplikací."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
-        "title": "Open by Design",
-        "description": "Oceňujeme transparentnost od jasných závazků SLA až po otevřené nástroje. Naše platforma poskytuje rozhraní API a integrace pro automatizaci pracovních postupů serveru."
+        "title": "Otevřít podle designu",
+        "description": "Oceňujeme transparentnost od jasných závazků SLA k otevřenému nástroji. Naše platforma poskytuje API a integrace pro automatizaci serverových pracovních postupů."
       }
     },
     "stats": {
-      "uptime": "Smlouva o provozuschopnosti SLA",
-      "latency": "Průměrná latence",
-      "support": "Podpora",
-      "servers": "Aktivní servery",
-      "users": "Celkový počet uživatelů",
-      "activeUsers": "Aktivní uživatelé",
-      "allocations": "Přidělení prostředků"
+      "uptime": "Doba provozu SLA",
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     }
   },
   "pricing": {
-    "badge": "Stanovení cen",
-    "title": "Plány serverů",
-    "description": "Flexibilní plány podle vašich potřeb. Všechny plány zahrnují ochranu proti DDoS, okamžité nastavení a nepřetržitou podporu.",
+    "badge": "Ceník",
+    "title": "Plány serveru",
+    "description": "Flexibilní plány odpovídají vašim potřebám. Všechny plány zahrnují ochranu DDoS, okamžité nastavení a podporu 24/7.",
     "getStarted": "Začněte",
     "viewAllPlans": "Zobrazit všechny plány",
     "comingSoon": "Ceny již brzy",
-    "comingSoonDescription": "Pracujeme na tom, abychom vám poskytli co nejlepší hostingové služby. Připojte se k našemu Discordu, abyste byli informováni o našem spuštění!",
-    "joinDiscord": "Připojte se k Discordu",
-    "mostPopular": "Nejoblíbenější",
-    "customSolution": "Potřebujete vlastní řešení nebo máte dotazy?",
+    "comingSoonDescription": "Pracujeme na tom, abychom ti přinesli nejlepší zážitek s hostováním. Připoj se k našemu Discordu a budeš upozorněni, když začneme!",
+    "joinDiscord": "Připojit se k Discordu",
+    "mostPopular": "Nejpopulárnější",
+    "customSolution": "Potřebujete vlastní řešení nebo máte otázky?",
     "contactUs": "Kontaktujte nás",
     "perMonth": "měsíc"
   },
   "faq": {
-    "badge": "ČASTO KLADENÉ DOTAZY",
-    "title": "Často kladené otázky",
+    "badge": "Nejčastější dotazy",
+    "title": "Často kladené",
     "titleHighlight": "Otázky",
-    "description": "Rychlé odpovědi o hostingu, výkonu a podpoře NodeByte.",
-    "searchPlaceholder": "Vyhledávací otázky...",
-    "noResults": "Nebyly nalezeny žádné výsledky. Zkuste hledat \"DDoS\", \"mods\" nebo \"SLA\".",
-    "stillHaveQuestions": "Máte ještě otázky?",
-    "cantFind": "Nemůžete najít, co hledáte? Náš tým podpory vám pomůže.",
+    "description": "Rychlé odpovědi o hostingu, výkonnosti a podpoře NodeByte.",
+    "searchPlaceholder": "Hledat otázky...",
+    "noResults": "Nebyly nalezeny žádné výsledky. Zkuste vyhledat \"DDoS\", \"mods\" nebo \"SLA\".",
+    "stillHaveQuestions": "Stále máte otázky?",
+    "cantFind": "Nemůžete najít to, co hledáte? Náš tým podpory je tady, aby vám pomohl.",
     "contactSupport": "Kontaktovat podporu",
-    "joinDiscord": "Připojte se k Discordu",
+    "joinDiscord": "Připojit se k Discordu",
     "items": {
       "provision": {
-        "question": "Jak rychle mohu zajistit server?",
-        "answer": "Většina předpřipravených šablon serverů se vytvoří do 60 sekund. Vlastní nastavení s velkými mody může trvat déle v závislosti na době instalace modů."
+        "question": "Jak rychle mohu poskytnout server?",
+        "answer": "Většina předkompilovaných šablon serveru během 60 sekund. Vlastní nastavení s velkými mody mohou trvat déle v závislosti na čase instalace módu."
       },
       "ddos": {
-        "question": "Nabízíte ochranu proti DDoS?",
-        "answer": "Ano, všechny plány zahrnují zmírňování DDoS na podnikové úrovni s automatickým filtrováním a čištěním provozu na okraji sítě, aby vaše služby zůstaly online."
+        "question": "Nabízíte ochranu DDoS?",
+        "answer": "Yes, all plans include enterprise-grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
-        "question": "Kde se nacházejí vaše datová centra?",
-        "answer": "Pracujeme ve více datových centrech, abychom zajistili nízkou latenci a spolehlivost vašich služeb. Konkrétní umístění jsou uvedena při objednávce."
+        "question": "Kde jsou vaše datová centra nalezena?",
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
-        "question": "Mohu používat mody a vlastní mapy?",
-        "answer": "Ano, náš ovládací panel a šablony podporují běžné mod loadery (Forge, Fabric) a nahrávání vlastních map. U vybraných plánů je k dispozici podpora spravovaných modů."
+        "question": "Mohu spustit mody a vlastní mapy?",
+        "answer": "Ano, náš ovládací panel a šablony podporují běžné zavaděče módů (Forge, Fabric) a vlastní nahrávání map. Podpora módů je k dispozici na vybraných plánech."
       },
       "uptime": {
-        "question": "Jaká je vaše smlouva o provozuschopnosti?",
-        "answer": "U produkčních plánů nabízíme 99,6% SLA na provozuschopnost. Podrobnosti a kritéria způsobilosti najdete v našich podmínkách."
+        "question": "Jaká je vaše aktuální SLA?",
+        "answer": "Nabízíme 99,6% předškolní SLA ve výrobních plánech. Viz podmínky pro detaily a kritéria způsobilosti."
       },
       "trial": {
-        "question": "Mohu si ho před závazkem vyzkoušet?",
-        "answer": "Ano, novým uživatelům nabízíme bezplatné zkušební verze, aby si mohli naše služby vyzkoušet, než se k nim zavážou. Navštivte naši stránku s bezplatnými zkušebními verzemi a prohlédněte si dostupné možnosti.",
-        "trialLink": "Zahájení bezplatné zkušební verze"
+        "question": "Dokážu se před spácháním soudního řízení zúčastnit?",
+        "answer": "Ano, nabízíme bezplatné zkušební verze pro nové uživatele, aby otestovali naše služby před závazkem. Navštivte naši zkušební stránku a uvidíte dostupné možnosti.",
+        "trialLink": "Začít zkušební verzi zdarma"
       }
     }
   },
   "games": {
     "badge": "Herní servery",
-    "title": "Vyberte si svůj",
+    "title": "Vyberte si",
     "titleHighlight": "Hra",
-    "description": "Výkonné herní servery s nízkou latencí. Okamžité nastavení, intuitivní ovládací panel a nepřetržitá odborná podpora.",
+    "description": "Výkonné herní servery s nízkou latencí. Okamžité nastavení, intuitivní ovládací panel, a 24/7 odborná podpora.",
     "viewPlans": "Zobrazit plány",
-    "learnMore": "Dozvědět se více",
+    "learnMore": "Zjistit více",
     "comingSoon": "Již brzy",
-    "customSolution": "Potřebujete herní server, který není v seznamu?",
+    "customSolution": "Potřebujete herní server, který není uveden?",
     "contactUs": "Kontaktujte nás",
-    "forCustom": "pro řešení na míru.",
+    "forCustom": "pro vlastní řešení.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Hostování",
-    "joinWaitlist": "Připojte se k čekací listině",
+    "joinWaitlist": "Připojit se do fronty",
     "minecraft": {
-      "description": "Servery Java a Bedrock s mod loadery na jedno kliknutí, pluginy a plnou podporou verzí.",
-      "tag": "Nejoblíbenější",
+      "description": "Servery Java & Bedrock s jedním kliknutím na Modd loaders, pluginy a podporu plné verze.",
+      "tag": "Nejpopulárnější",
       "features": {
-        "0": "Podpora kováren a tkanin",
-        "1": "Správa zásuvných modulů",
+        "0": "Forge & Fabric podpora",
+        "1": "Správa pluginů",
         "2": "Automatické zálohování",
-        "3": "Vlastní nahrávání souborů JAR"
+        "3": "Vlastní nahrání JAR"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Ideální pro malé servery a testování"
+          "description": "Perfektní pro malé servery a testování"
         },
         "blaze": {
           "name": "Blaze",
-          "description": "Skvělé pro rostoucí komunity"
+          "description": "Pěstitelské komunity velké"
         },
         "inferno": {
-          "name": "Inferno",
-          "description": "Ideální pro středně velké komunity"
+          "name": "Příklad",
+          "description": "Ideální pro střední komunity"
         }
       },
       "planFeatures": {
-        "cpu": "Vysoce výkonný procesor",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Úložiště",
-        "databases": "10 databází MySQL",
-        "ddos": "Ochrana před útoky DDoS",
-        "panel": "BytePanel",
-        "jars": "Automatické/předinstalované sklenice",
-        "uptime": "99.6% Uptime SLA"
+        "storage": "Úložiště {amount} GB",
+        "databases": "10 MySQL databáze",
+        "ddos": "DDoS Protection",
+        "panel": "Obetepanel",
+        "jars": "Automaticky / předem nainstalované jary",
+        "uptime": "99,6% Prodloužení SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "Nahrávače modů jedním kliknutím",
-          "description": "Nainstalujte si aplikace Forge, Fabric, Paper, Spigot a další jediným kliknutím z našeho ovládacího panelu.",
+          "title": "Nahrávače jednoho kliknutí Mod",
+          "description": "Nainstalujte Forge, Fabric, Paper, Spigot a více jedním kliknutím z našeho ovládacího panelu.",
           "highlights": {
-            "0": "Podpora kováren a tkanin",
-            "1": "Servery Paper & Spigot",
-            "2": "Kompatibilita se sadou Bukkit",
-            "3": "Vlastní nahrávání souborů JAR"
+            "0": "Forge & Fabric podpora",
+            "1": "Server papíru a Spigot",
+            "2": "Bukkit compatibility",
+            "3": "Vlastní nahrání JAR"
           }
         },
         "hardware": {
           "title": "Vysoce výkonný hardware",
-          "description": "Procesory podnikové třídy s úložištěm NVMe pro bleskový výkon.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "Vysoce výkonné procesory",
-            "1": "Úložiště NVMe SSD",
-            "2": "Paměť DDR4 ECC",
-            "3": "Procesory s vysokou taktovací frekvencí"
+            "0": "High performance CPUs",
+            "1": "NVMe SSD úložiště",
+            "2": "DDR4 ECC memory",
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
-          "title": "Ochrana před útoky DDoS",
-          "description": "Zmírňování DDoS na podnikové úrovni udrží váš server online i při těch největších útocích.",
+          "title": "Ochrana DDoS",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
-            "0": "Ochrana ve vrstvě 3/4/7",
-            "1": "Filtrování podnikových sítí",
-            "2": "Nulové zmírnění prostojů",
-            "3": "Podnikové POP"
+            "0": "Ochrana vrstvy 3/4/7",
+            "1": "Enterprise network filtering",
+            "2": "Nulové omezení výpadku",
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
           "title": "Okamžité nastavení",
-          "description": "Váš server je nasazen během několika sekund. Začněte hrát ihned po zakoupení.",
+          "description": "Váš server je nasazen do sekund. Spustit přehrávání ihned po nákupu.",
           "highlights": {
-            "0": "Automatizované zajišťování",
-            "1": "Předkonfigurovaná nastavení",
+            "0": "Automatizované poskytování",
+            "1": "Přednastavená nastavení",
             "2": "Připraveno za méně než 60 sekund",
-            "3": "Nejsou potřeba žádné technické znalosti"
+            "3": "Nejsou potřebné žádné technické znalosti"
           }
         },
         "ftp": {
-          "title": "Úplný přístup k FTP",
-          "description": "Kompletní přístup k souborům prostřednictvím FTP/SFTP. Snadné nahrávání světů, zásuvných modulů a konfigurací.",
+          "title": "Úplný přístup FTP",
+          "description": "Dokončete přístup k souborům prostřednictvím FTP/SFTP. Nahrávejte světy, pluginy a konfigurace snadné.",
           "highlights": {
-            "0": "Přístup k souborům SFTP",
+            "0": "Přístup k souboru SFTP",
             "1": "Webový správce souborů",
-            "2": "Nahrávání přetažením a upuštěním",
-            "3": "Automatické zálohování"
+            "2": "Přetažení nahrávání",
+            "3": "Automatické zálohy"
           }
         },
         "slots": {
-          "title": "Neomezené sloty",
-          "description": "Žádná umělá omezení hráčů. Hostujte tolik hráčů, kolik váš hardware zvládne.",
+          "title": "Neomezený počet slotů",
+          "description": "Žádné omezení umělého přehrávače. Hostujte tolik hráčů, kolik může váš hardware zvládnout.",
           "highlights": {
-            "0": "Žádná omezení slotů",
+            "0": "Žádná omezení slotu",
             "1": "Škálovatelné zdroje",
-            "2": "Upgrade kdykoli",
+            "2": "Kdykoli aktualizujte",
             "3": "Spravedlivé přidělování zdrojů"
           }
         }
       },
       "faqs": {
         "versions": {
-          "question": "Jaké verze Minecraftu podporujete?",
-          "answer": "Podporujeme všechny verze Minecraftu od 1.7.10 až po nejnovější verzi, včetně snapshotů. K dispozici jsou servery Java Edition i Bedrock Edition."
+          "question": "Jaké Minecraft verze podporujete?",
+          "answer": "Podporujeme všechny verze Minecraftu od 1.7.10 do nejnovějšího vydání, včetně snapshots. Java Edition i Bedrock Edition jsou k dispozici."
         },
         "mods": {
-          "question": "Mohu instalovat mody a pluginy?",
-          "answer": "Ano! Podporujeme všechny hlavní mod loadery včetně Forge, Fabric a NeoForge. Ze zásuvných modulů podporujeme Paper, Spigot, Bukkit a Purpur. Můžete také nahrát vlastní soubory JAR."
+          "question": "Mohu nainstalovat mody a pluginy?",
+          "answer": "Ano! Podporujeme všechny velké nakladače módů včetně Forge, Fabric a NeoForge. Pro pluginy podporujeme dokument, Spigot, Bukkit a Purpur. Můžete také nahrát vlastní JAR."
         },
         "upload": {
-          "question": "Jak nahraji svůj stávající svět?",
-          "answer": "Soubory světa můžete nahrát prostřednictvím našeho webového správce souborů nebo přes SFTP. Jednoduše přetáhněte složku světa a bude připravena k použití."
+          "question": "Jak nahrát svůj existující svět?",
+          "answer": "Soubory světa můžete nahrát prostřednictvím našeho webového správce souborů nebo prostřednictvím SFTP. Jednoduše přetáhněte složku světa a bude připravena k použití."
         },
         "playerLimit": {
-          "question": "Je stanoven limit hráčů?",
-          "answer": "Ne, nezavádíme umělé limity pro hráče. Váš server může hostit tolik hráčů, kolik přidělených zdrojů zvládne."
+          "question": "Existuje limit hráčů?",
+          "answer": "Ne, neukládáme umělé limity hráčů. Váš server může hostit tolik hráčů, kolik může tvé přidělené zdroje zvládnout."
         },
         "upgrade": {
-          "question": "Mohu svůj tarif později upgradovat?",
-          "answer": "Rozhodně! Svůj tarif můžete kdykoli upgradovat nebo downgradovat z našeho fakturačního panelu. Změny se projeví okamžitě a bez výpadku."
+          "question": "Mohu povýšit svůj plán později?",
+          "answer": "Naprosto! Plán můžete kdykoli upgradovat nebo snižovat z našeho fakturačního panelu. Změny se projeví okamžitě bez odstávky."
         },
         "refunds": {
           "question": "Nabízíte vrácení peněz?",
-          "answer": "Ano, na všechny nové nákupy poskytujeme 48hodinovou záruku vrácení peněz. Pokud nejste spokojeni, kontaktujte podporu a dostanete zpět peníze v plné výši."
+          "answer": "Ano, nabízíme 48-hodinovou záruku vrácení peněz u všech nových nákupů. Pokud nejste spokojeni, kontaktujte podporu pro vrácení peněz."
         }
       }
     },
     "rust": {
-      "description": "Vysoce výkonný hosting serveru Rust s podporou Oxide/uMod a možnostmi vlastních map.",
+      "description": "Vysoce výkonný server musí hostovat s podporou Oxide/uMod a možností vlastní mapy.",
       "tag": "Vysoký výkon",
       "features": {
-        "0": "Podpora Oxide/uMod",
+        "0": "Podpora oxidu/uMod",
         "1": "Vlastní mapy",
-        "2": "Plánovač vymazání",
-        "3": "Přístup do RCON"
+        "2": "Smazat plánovač",
+        "3": "Přístup RCON"
       },
       "plans": {
         "starter": {
-          "name": "Startér",
+          "name": "Počáteční",
           "description": "Doporučeno pro 40 hráčů"
         },
         "standard": {
@@ -405,257 +414,248 @@
         }
       },
       "planFeatures": {
-        "cpu": "Vysoce výkonný procesor",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Úložiště",
-        "ddos": "Ochrana před útoky DDoS",
-        "location": "Více lokalit",
-        "databases": "10 databází MySQL",
+        "storage": "Úložiště SSD {amount}GB",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
+        "databases": "10 MySQL databáze",
         "panel": "BytePanel (Herní panel)",
-        "oxide": "Podporované oxidy/Umod",
-        "rustplus": "Podporovaná technologie Rust+",
-        "uptime": "99.6% Uptime SLA"
+        "oxide": "Oxid/Umod podporován",
+        "rustplus": "Rust+ podporován",
+        "uptime": "99,6% Prodloužení SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Podpora Oxide/uMod",
-          "description": "Plná podpora pluginů Oxide a uMod. Instalace a správa zásuvných modulů přímo z našeho ovládacího panelu.",
+          "title": "Podpora oxidu/uMod",
+          "description": "Plná podpora pluginů pro Oxid a uMod instalujte a spravujte pluginy přímo z našeho ovládacího panelu.",
           "highlights": {
-            "0": "Instalace oxidu jedním kliknutím",
-            "1": "Správce zásuvných modulů",
-            "2": "K dispozici jsou automatické aktualizace",
+            "0": "Instalace jedním kliknutím na Oxid",
+            "1": "Správce pluginů",
+            "2": "Dostupné automatické aktualizace",
             "3": "Správa oprávnění"
           }
         },
         "maps": {
           "title": "Vlastní mapy",
-          "description": "Použijte procedurálně generované mapy nebo nahrajte vlastní mapy. Plná podpora přizpůsobení map.",
+          "description": "Použijte procedurálně vygenerované mapy nebo nahrajte vlastní mapy. Plná podpora přizpůsobení mapy.",
           "highlights": {
-            "0": "Generování procedur",
+            "0": "Procesní výroba",
             "1": "Vlastní nahrávání map",
-            "2": "Kontrola velikosti mapy",
-            "3": "Přizpůsobení osiva"
+            "2": "Nastavení velikosti mapy",
+            "3": "Přizpůsobení seedu"
           }
         },
         "performance": {
           "title": "Vysoký výkon",
-          "description": "Rez vyžaduje výkonný hardware. Naše servery používají výkonné procesory a úložiště NVMe, které zajišťují plynulý chod.",
+          "description": "Rust demands powerful hardware. Our servers use high-performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "Vysoce výkonné procesory",
-            "1": "Úložiště NVMe SSD",
-            "2": "Vysoký jednovláknový výkon",
-            "3": "Síť s nízkou latencí"
+            "0": "High performance CPUs",
+            "1": "NVMe SSD úložiště",
+            "2": "Vysoký výkon na jedno vlákno",
+            "3": "Nízká latentní síť"
           }
         },
         "ddos": {
-          "title": "Ochrana před útoky DDoS",
-          "description": "Zmírňování DDoS na podnikové úrovni prostřednictvím několika síťových POP chrání váš server před útoky 24 hodin denně, 7 dní v týdnu.",
+          "title": "Ochrana DDoS",
+          "description": "Enterprise-grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "Filtrování podnikových sítí",
-            "1": "Globální perzistentní organické znečišťující látky",
-            "2": "Ochrana ve vrstvě 3/4/7",
-            "3": "Nulové prostoje"
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
+            "2": "Ochrana vrstvy 3/4/7",
+            "3": "Nulový výpadek"
           }
         },
         "wipe": {
-          "title": "Plánovač vymazání",
-          "description": "Automatizované plánování mazání pro udržení čerstvosti serveru. Konfigurujte týdenní, dvoutýdenní nebo měsíční mazání.",
+          "title": "Vymazat plánovač",
+          "description": "Automaticky vymazat plánování, aby váš server zůstal čerstvý. Nakonfigurujte každý týden, každý týden nebo měsíční vymazání.",
           "highlights": {
-            "0": "Automatické utěrky",
-            "1": "Možnosti vymazání modrotisku",
-            "2": "Plánování stírání mapy",
-            "3": "Oznámení Discord"
+            "0": "Automatizované vymazání",
+            "1": "Možnosti vymazání plánu",
+            "2": "Vymazání mapy",
+            "3": "Discord oznámení"
           }
         },
         "rcon": {
-          "title": "Úplný přístup do RCON",
-          "description": "Kompletní vzdálený konzolový přístup pro správu serveru. Spouštění příkazů odkudkoli.",
+          "title": "Úplný přístup RCON",
+          "description": "Dokončete přístup k vzdálené konzoli pro správu serverů. Proveďte příkazy odkudkoliv.",
           "highlights": {
-            "0": "Webový RCON",
+            "0": "RCON na internetu",
             "1": "Plánování příkazů",
-            "2": "Správa hráčů",
-            "3": "Protokoly v reálném čase"
+            "2": "Správa přehrávače",
+            "3": "Záznamy v reálném čase"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Podporujete pluginy Oxide/uMod?",
-          "answer": "Ano! Plně podporujeme Oxide a uMod. Oxide můžete nainstalovat jedním kliknutím z našeho ovládacího panelu a spravovat pluginy prostřednictvím našeho správce pluginů nebo přes FTP."
+          "question": "Podporujete pluginy Oxid/uMod?",
+          "answer": "Ano! Plně podporujeme oxid a uMod. Můžete nainstalovat Oxid jedním kliknutím z našeho ovládacího panelu a spravovat pluginy prostřednictvím našeho správce pluginů nebo prostřednictvím FTP."
         },
         "maps": {
-          "question": "Mohu používat vlastní mapy?",
-          "answer": "Rozhodně! Můžete použít procedurálně generované mapy s vlastními semínky a velikostmi nebo nahrát vlastní soubory map přes FTP."
+          "question": "Mohu použít vlastní mapy?",
+          "answer": "Naprosto! Můžete použít procedurálně generované mapy s vlastním seedem a velikostí nebo nahrát vlastní mapové soubory přes FTP."
         },
         "wipe": {
-          "question": "Jak funguje plánovač mazání?",
-          "answer": "Náš plánovač mazání umožňuje automatizovat mazání serverů podle vámi zvoleného plánu. Můžete nakonfigurovat vymazání pouze mapy nebo kompletní vymazání modrotisku a volitelně odesílat oznámení na Discord."
+          "question": "Jak funguje mazací plánovač?",
+          "answer": "Náš plánovač pro vymazání vám umožní automatizovat vymazání serveru podle plánu, který si vyberete. Můžete nakonfigurovat vymazání mapy nebo úplné vymazání plánů a volitelně odesílat Discord oznámení."
         },
         "tickRate": {
-          "question": "Jaká je míra zaškrtnutí serveru?",
-          "answer": "Naše servery Rust běží s výchozí frekvencí 30 tiků. Náš vysoce výkonný hardware zajišťuje konzistentní výkon i při velkém počtu hráčů online."
+          "question": "Jaká je rychlost ticků na serveru?",
+          "answer": "Naše Rust servery běží ve výchozím tempu 30 ticků. Náš vysoce výkonný hardware zajišťuje konzistentní výkon i u mnoha hráčů online."
         },
         "rcon": {
-          "question": "Mohu získat přístup do RCON?",
-          "answer": "Ano, získáte plný přístup do RCON. Můžete použít naši webovou konzoli RCON nebo se připojit pomocí libovolného standardního klienta RCON."
+          "question": "Mám přístup k RCON?",
+          "answer": "Ano, máte plný přístup k RCON. Můžete použít webovou konzoli RCON nebo se spojit s jakýmkoli standardním RCON klientem."
         },
         "modded": {
-          "question": "Podporujete modifikované servery?",
-          "answer": "Ano, podporujeme jak vanilla, tak modifikované servery Rust. Nainstalujte si Oxide a přidejte všechny pluginy, které potřebujete, abyste si vytvořili dokonalý modovaný zážitek."
+          "question": "Podporujete moddované servery?",
+          "answer": "Ano, podporujeme vanilla i modded Rust servery. Nainstalujte oxid a přidejte pluginy, které potřebujete k vytvoření perfektního moderovaného zážitku."
         }
       }
     },
     "hytale": {
-      "description": "Spusťte svůj server Hytale ještě dnes. Plná podpora modifikací, okamžité nastavení a nepřetržitá odborná podpora od prvního dne.",
-      "tag": "Předčasný přístup",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
-        "0": "Podpora modifikací",
+        "0": "Podpora modů",
         "1": "Vlastní mapy",
-        "2": "Snadná konfigurace",
-        "3": "podpora 24/7"
+        "2": "Jednoduchá konfigurace",
+        "3": "Podpora 24/7"
       }
-    },
-    "vpsCta": {
-      "title": "Potřebujete také VPS hosting?",
-      "description": "Úplný přístup s právy roota, úložiště NVMe SSD a ochrana proti DDoS v podnikovém prostředí. Vyberte si z virtuálních serverů s procesory AMD nebo Intel.",
-      "button": "Zobrazit plány VPS"
     }
   },
   "gamePage": {
     "features": {
-      "badge": "Funkce",
-      "title": "Proč si vybrat naše",
+      "badge": "Vlastnosti",
+      "title": "Proč si vybrat naši",
       "titleSuffix": "Hostování",
-      "description": "Infrastruktura podnikové třídy přizpůsobená speciálně pro servery {game}."
+      "description": "Podniková infrastruktura šitá speciálně na míru serverům {game}."
     },
     "pricing": {
-      "badge": "Stanovení cen",
-      "title": "Plány serverů",
-      "description": "Flexibilní plány podle vašich potřeb. Všechny plány zahrnují ochranu proti DDoS, okamžité nastavení a nepřetržitou podporu.",
+      "badge": "Ceník",
+      "title": "Plány serveru",
+      "description": "Flexibilní plány odpovídají vašim potřebám. Všechny plány zahrnují ochranu DDoS, okamžité nastavení a podporu 24/7.",
       "comingSoon": "Ceny již brzy",
-      "comingSoonDesc": "Pracujeme na tom, abychom vám přinesli nejlepší zkušenosti s hostingem {game}. Připojte se k našemu Discordu, abyste byli informováni o našem spuštění!",
-      "joinDiscord": "Připojte se k Discordu",
-      "mostPopular": "Nejoblíbenější",
+      "comingSoonDesc": "Pracujeme na tom, abychom ti přinesli nejlepší zážitek z hostování {game} . Připojte se k našemu Discordu a buďte upozorněni, když začneme!",
+      "joinDiscord": "Připojit se k Discordu",
+      "mostPopular": "Nejpopulárnější",
       "getStarted": "Začněte",
       "viewAllPlans": "Zobrazit všechny plány",
-      "customSolution": "Potřebujete vlastní řešení nebo máte dotazy?",
+      "customSolution": "Potřebujete vlastní řešení nebo máte otázky?",
       "contactUs": "Kontaktujte nás"
     },
     "faq": {
-      "badge": "ČASTO KLADENÉ DOTAZY",
+      "badge": "Nejčastější dotazy",
       "title": "Otázky",
-      "description": "Časté dotazy týkající se naší hostingové služby {game}.",
-      "stillHaveQuestions": "Máte ještě otázky?",
-      "supportAvailable": "Náš tým podpory je vám k dispozici 24 hodin denně, 7 dní v týdnu a pomůže vám s jakýmikoli dotazy.",
-      "askOnDiscord": "Zeptejte se na Discordu",
+      "description": "Společné dotazy k naší {game} hostingové službě.",
+      "stillHaveQuestions": "Stále máte otázky?",
+      "supportAvailable": "Náš tým podpory je k dispozici 24/7, který vám pomůže s případnými dotazy.",
+      "askOnDiscord": "Zeptat se na Discord",
       "contactSupport": "Kontaktovat podporu"
     },
     "hero": {
-      "joinWaitlist": "Připojte se k čekací listině",
+      "joinWaitlist": "Připojit se do fronty",
       "viewPlans": "Zobrazit plány",
-      "learnMore": "Dozvědět se více",
+      "learnMore": "Zjistit více",
       "comingSoon": "Již brzy",
       "joinDiscordForUpdates": "Připojte se k našemu Discordu pro aktualizace"
     }
   },
   "contact": {
-    "badge": "Spojte se s námi",
+    "badge": "Stáhněte se dotykem",
     "title": "Kontakt",
     "titleHighlight": "NodeByte",
-    "description": "Jsme tu pro vás 24 hodin denně, 7 dní v týdnu. Obraťte se na nás prostřednictvím některého z našich kanálů podpory a my se vám co nejdříve ozveme.",
-    "supportChannels": "Kanály podpory",
+    "description": "Jsme tady, abychom pomohli 24/7. Vydejte se prostřednictvím jakýchkoliv našich kanálů podpory a vrátíme se vám co nejdříve.",
+    "supportChannels": "Podpůrné kanály",
     "copied": "Zkopírováno!",
-    "copiedDesc": "E-mailová adresa zkopírovaná do schránky",
-    "copyFailed": "Kopírování se nezdařilo",
-    "copyFailedDesc": "Nepodařilo se zkopírovat do schránky",
+    "copiedDesc": "E-mailová adresa zkopírována do schránky",
+    "copyFailed": "Kopírování selhalo",
+    "copyFailedDesc": "Kopírování do schránky se nezdařilo",
     "discord": {
-      "title": "Komunita Discord",
-      "description": "Připojte se k naší komunitě a získejte okamžitou podporu, oznámení a chat s ostatními uživateli.",
-      "button": "Připojte se k Discordu",
+      "title": "Discord komunita",
+      "description": "Připojte se k naší komunitě pro okamžitou podporu, oznámení a chatujte s ostatními uživateli.",
+      "button": "Připojit se k Discordu",
       "features": {
-        "0": "Okamžité reakce",
-        "1": "Pomoc Společenství",
+        "0": "Okamžité odpovědi",
+        "1": "Komunitní pomoc",
         "2": "Oznámení"
       }
     },
     "github": {
-      "title": "Diskuse na GitHubu",
-      "description": "Nahlašujte chyby, navrhujte funkce a přispívejte do našich open source projektů.",
-      "button": "Otevřený GitHub",
+      "title": "GitHub Discussions",
+      "description": "Nahlásit chyby, navrhnout funkce a přispět k našim open source projektům.",
+      "button": "Open GitHub",
       "features": {
         "0": "Hlášení chyb",
         "1": "Požadavky na funkce",
-        "2": "Otevřený zdroj"
+        "2": "Open source"
       }
     },
     "ticket": {
-      "title": "Podpůrný lístek",
-      "description": "V případě problémů souvisejících s účtem můžete odeslat tiket prostřednictvím našeho panelu pro fakturaci.",
-      "button": "Otevřený lístek"
+      "title": "Tiket podpory",
+      "description": "Odešlete letenku přes náš fakturační panel pro problémy spojené s účtem.",
+      "button": "Otevřít ticket"
     },
     "email": {
       "badge": "E-mailová podpora",
-      "title": "Preferujete e-mail? Máme pro vás řešení",
+      "title": "Preferovat e-mail? Nedostali jsme Vám pokrýt",
       "responseTime": "Doba odezvy: obvykle do 24 hodin",
       "departments": "E-maily oddělení",
       "technical": "Technická podpora",
-      "technicalDesc": "Problémy se serverem a technická pomoc",
+      "technicalDesc": "Problémy serveru a technická pomoc",
       "general": "Obecná podpora",
-      "generalDesc": "Obecné dotazy a pomoc",
-      "account": "Problémy s účtem",
-      "accountDesc": "Problémy s přihlášením a účtem",
+      "generalDesc": "Obecné otázky a pomoc",
+      "account": "Problémy účtu",
+      "accountDesc": "Problémy při přihlášení a účtu",
       "billing": "Fakturační dotazy",
       "billingDesc": "Platby a faktury"
     },
     "social": {
       "title": "Sledujte nás",
-      "description": "Sledujte novinky, tipy a aktualizace komunity"
+      "description": "Zůstaňte aktualizováni s novinkami, tipy a komunitními aktualizacemi"
     },
     "warning": {
-      "title": "Důležité upozornění",
-      "description": "Prostřednictvím služby Discord neřešíme fakturaci ani podporu související s účtem. V zájmu ochrany soukromí a bezpečnosti nás v citlivých záležitostech kontaktujte na adrese support@nodebyte.host."
+      "title": "Důležité oznámení",
+      "description": "Prostřednictvím Discordu nezpracováváme podporu související s fakturací nebo účtem. Pro ochranu soukromí a bezpečnosti nás prosím kontaktujte na support@nodebyte.host."
     }
   },
   "footer": {
-    "tagline": "Rychlé, spolehlivé, škálovatelné a bezpečné hostingové služby pro hry a podnikání. Herní servery, VPS hosting a další. Vytvořeno pro lidi. Powered by Bytes.",
-    "getInTouch": "Spojte se s námi",
-    "emailUs": "Pošlete nám e-mail",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
+    "getInTouch": "Stáhněte se dotykem",
+    "emailUs": "Napište nám",
     "support": "Podpora",
     "contactTeam": "Kontaktujte náš tým",
     "quickLinks": "Rychlé odkazy",
-    "legal": "Právní",
-    "status": "Všechny systémy v provozu",
+    "legal": "Právní předpisy",
+    "status": "Všechny systémy fungují",
     "copyright": "Všechna práva vyhrazena.",
     "builtWith": "Postaveno s",
     "statusLabels": {
-      "operational": "Všechny systémy v provozu",
-      "degraded": "Snížený výkon",
-      "maintenance": "V rámci údržby"
+      "operational": "Všechny systémy fungují",
+      "degraded": "Zhoršený výkon",
+      "maintenance": "Probíhá údržba"
     },
     "services": {
-      "minecraftHosting": "Minecraft hosting",
-      "rustHosting": "Rust Hosting",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Herní panel",
-      "clientArea": "Oblast klienta",
-      "gameServers": "Hostování her",
-      "vpsServers": "Hosting VPS",
-      "vpsPanel": "Panel VPS"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
-      "discordServer": "Server Discord",
+      "discordServer": "Discord server",
       "serviceStatus": "Stav služby",
       "knowledgeBase": "Znalostní báze",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Fakturační panel"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
-      "terms": "Podmínky a pravidla",
-      "privacy": "Zásady ochrany osobních údajů",
-      "refund": "Zásady vracení peněz",
-      "legalHub": "Právní centrum"
+      "terms": "Pravidla & Podmínky",
+      "privacy": "Ochrana osobních údajů",
+      "refund": "Zásady vrácení peněz",
+      "legalHub": "Zákonné rozhraní"
     },
     "company": {
-      "aboutNodeByte": "O službě NodeByte",
+      "aboutNodeByte": "O NodeByte",
       "contact": "Kontaktujte nás",
       "companyInfo": "Informace o společnosti",
       "changes": "Seznam změn"
@@ -666,10 +666,10 @@
     }
   },
   "common": {
-    "loading": "Načítání...",
+    "loading": "Načítám...",
     "error": "Něco se pokazilo",
     "retry": "Zkuste to znovu",
-    "learnMore": "Dozvědět se více",
+    "learnMore": "Zjistit více",
     "getStarted": "Začněte",
     "comingSoon": "Již brzy"
   },
@@ -677,48 +677,48 @@
     "badge": "Co je nového",
     "title": "Seznam změn",
     "titleHighlight": "& Aktualizace",
-    "description": "Mějte přehled o nejnovějších verzích, funkcích a vylepšeních všech projektů NodeByte.",
-    "searchPlaceholder": "Vyhledávací verze...",
+    "description": "Zůstaňte informováni o nejnovějších vydáních, funkcích a vylepšeních všech projektů NodeByte.",
+    "searchPlaceholder": "Hledat verze...",
     "filters": {
-      "all": "Všechna úložiště",
+      "all": "Všechny repozitáře",
       "allTypes": "Všechny typy",
       "feature": "Funkce",
       "bugfix": "Oprava chyb",
       "improvement": "Zlepšení",
-      "breaking": "Zlomová změna",
+      "breaking": "Změna zlomu",
       "security": "Zabezpečení"
     },
     "release": {
-      "viewOnGithub": "Zobrazit na GitHubu",
-      "publishedOn": "Zveřejněno dne",
-      "by": "podle",
-      "assets": "Majetek",
+      "viewOnGithub": "Zobrazit na GitHub",
+      "publishedOn": "Publikováno dne",
+      "by": "od",
+      "assets": "Aktiva",
       "downloadAsset": "Stáhnout",
-      "noAssets": "Žádná aktiva nejsou k dispozici",
-      "preRelease": "Před vydáním",
+      "noAssets": "Žádné dostupné položky",
+      "preRelease": "Předběžné vydání",
       "latest": "Nejnovější",
-      "draft": "Návrh"
+      "draft": "Koncept"
     },
     "empty": {
-      "title": "Nebyla nalezena žádná vydání",
-      "description": "Zkuste upravit vyhledávání nebo filtry, abyste našli to, co hledáte.",
+      "title": "Nebyly nalezeny žádné verze",
+      "description": "Zkuste upravit vyhledávání nebo filtry pro nalezení toho, co hledáte.",
       "clearFilters": "Vymazat filtry"
     },
     "loading": {
-      "title": "Načítání novinek...",
-      "description": "Získávání nejnovějších aktualizací z našich úložišť."
+      "title": "Načítání verzí...",
+      "description": "Načítání nejnovějších aktualizací z našich repozitářů."
     },
     "error": {
       "title": "Nepodařilo se načíst verze",
-      "description": "Při načítání verzí došlo k chybě. Zkuste to prosím později.",
+      "description": "Při načítání vydání došlo k chybě. Opakujte akci později.",
       "retry": "Zkuste to znovu"
     },
     "stats": {
-      "totalReleases": "Celkový počet uvolnění",
-      "repositories": "Úložiště",
+      "totalReleases": "Celkově verze",
+      "repositories": "Repozitáře",
       "latestUpdate": "Poslední aktualizace"
     },
-    "viewAll": "Zobrazit všechny zprávy",
+    "viewAll": "Zobrazit všechny vydání",
     "showMore": "Zobrazit více",
     "showLess": "Zobrazit méně",
     "pagination": {
@@ -732,10 +732,10 @@
   },
   "kb": {
     "title": "Znalostní báze",
-    "description": "Najděte odpovědi, návody a průvodce, které vám pomohou získat co nejvíce zkušeností s NodeByte.",
-    "searchPlaceholder": "Vyhledávání ve znalostní bázi...",
-    "browseByCategory": "Procházet podle kategorie",
-    "recentlyUpdated": "Nedávno aktualizované",
+    "description": "Najděte odpovědi, výukové kurzy a návody, které vám pomohou získat co nejvíce z vašeho zážitku z NodeByte.",
+    "searchPlaceholder": "Hledat znalostní základnu...",
+    "browseByCategory": "Procházet podle kategorií",
+    "recentlyUpdated": "Nedávno aktualizováno",
     "articles": "články",
     "minRead": "min čtení",
     "updated": "Aktualizováno",
@@ -750,239 +750,241 @@
     },
     "empty": {
       "title": "Zatím žádné články",
-      "description": "Tato kategorie zatím nemá žádné články. Brzy se na ni podívejte!"
+      "description": "Tato kategorie ještě nemá žádné články. Brzy se vraťte!"
     },
     "help": {
       "title": "Stále potřebujete pomoc?",
-      "description": "Nemůžete najít, co hledáte? Jsme tu, abychom vám pomohli.",
+      "description": "Nemůžete najít to, co hledáte? Jsme tady, abychom pomohli.",
       "discord": {
-        "title": "Komunita Discord",
-        "description": "Připojte se k našemu Discordu a získejte živou podporu a komunitní pomoc.",
-        "button": "Připojte se k Discordu"
+        "title": "Discord komunita",
+        "description": "Připojte se k našemu Discordu pro živou podporu a pomoc s komunitou.",
+        "button": "Připojit se k Discordu"
       },
       "ticket": {
-        "title": "Podpůrný lístek",
-        "description": "Otevřete lístek podpory pro problémy s účtem nebo fakturací.",
-        "button": "Otevřený lístek"
+        "title": "Tiket podpory",
+        "description": "Otevřete požadavek podpory pro účet nebo problémy s platbou.",
+        "button": "Otevřít ticket"
       },
       "faq": {
-        "title": "ČASTO KLADENÉ DOTAZY",
-        "description": "Podívejte se na naše často kladené otázky a získejte rychlé odpovědi.",
-        "button": "Zobrazit nejčastější dotazy"
+        "title": "Nejčastější dotazy",
+        "description": "Podívejte se na naše často kladené otázky pro rychlé odpovědi.",
+        "button": "Zobrazit FAQ"
       }
     },
     "search": {
-      "dialogTitle": "Vyhledávání v databázi znalostí",
-      "button": "Vyhledávání"
+      "dialogTitle": "Hledat znalostní databázi",
+      "button": "Hledat"
     }
   },
   "theme": {
-    "toggle": "Otevření nabídky tématu",
+    "toggle": "Otevřít nabídku motivu",
     "appearance": "Vzhled",
-    "light": "Světlo",
-    "dark": "Dark",
+    "light": "Světlý",
+    "dark": "Tmavý",
     "system": "Systém",
-    "coolTones": "Chladné tóny",
+    "coolTones": "Chladné role",
     "warmTones": "Teplé tóny",
     "nature": "Příroda",
     "slate": "Břidlice",
-    "midnight": "Půlnoc",
-    "ocean": "Ocean",
-    "forest": "Forest",
+    "midnight": "půlnoc",
+    "ocean": "Oceán",
+    "forest": "Lesy",
     "sunset": "Západ slunce",
-    "rose": "Rose",
-    "amber": "Amber",
+    "rose": "Celer bulvový",
+    "amber": "Jantarový",
     "emerald": "Emerald",
-    "teal": "Teal",
-    "sky": "Sky",
-    "violet": "Violet"
+    "teal": "Modrozelený",
+    "sky": "Nebe",
+    "violet": "Fialové"
   },
   "gamesPage": {
-    "title": "Hosting herního serveru",
-    "description": "Vysoce výkonný hosting herních serverů s okamžitým nastavením, výkonným ovládacím panelem a nepřetržitou odbornou podporou.",
-    "startingAt": "Od"
+    "title": "Hostování herních serverů",
+    "description": "Vysoce výkonný herní server s okamžitým nastavením, výkonným ovládacím panelem a 24/7 expertní podporou.",
+    "startingAt": "Začíná v"
+  },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
   },
   "accessibility": {
     "loading": "Načítání",
     "pagination": "stránkování",
     "previous": "Předchozí",
     "next": "Další",
-    "morePages": "Více stránek",
+    "morePages": "Další stránky",
     "previousSlide": "Předchozí snímek",
     "nextSlide": "Další snímek",
-    "breadcrumb": "drobeček",
-    "more": "Více na",
-    "toggleSidebar": "Přepínání postranního panelu",
+    "breadcrumb": "breadcrumb",
+    "more": "Více",
+    "toggleSidebar": "Přepnout postranní panel",
     "goToSlide": "Přejít na snímek"
   },
   "aboutPage": {
-    "badge": "O službě NodeByte",
+    "badge": "O NodeByte",
     "hero": {
-      "title": "Vytvořeno hráči,",
-      "titleHighlight": "pro každého",
-      "description": "Společnost NodeByte vznikla jako malá skupina hráčů a provozních inženýrů, kteří chtěli rychlý, spolehlivý a snadno spravovatelný hosting. Dnes provozujeme herní servery a instance VPS po celém světě.",
+      "title": "Built by Gamers,",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Připojte se k naší komunitě",
       "contactUs": "Kontaktujte nás"
     },
     "story": {
       "badge": "Náš příběh",
-      "title": "Jak to všechno začalo",
-      "paragraph1": "NodeByte se zrodil z frustrace. Jako vášniví hráči jsme na vlastní kůži poznali, jak nás trápí zpožděné servery, nereagující podpora a složité ovládací panely, které ze správy serveru dělají noční můru.",
-      "paragraph2": "V roce 2024 jsme se rozhodli, že už toho bylo dost. Sestavili jsme tým vášnivých hráčů a zkušených operačních inženýrů s jediným cílem: vybudovat platformu pro hosting her, kterou jsme si vždycky přáli.",
-      "paragraph3": "Dnes společnost NodeByte provozuje herní servery a instance VPS po celém světě. Naše poslání však zůstává stejné: zajistit rychlý, spolehlivý a dostupný hosting pro každého."
+      "title": "Jak vše začalo",
+      "paragraph1": "NodeByte se narodil z frustrace. Jako avid herci sami jsme zažili firmu bolesti laggy serverů, neresponzivní podporu a komplexní kontrolní panely, které učinily z řízení serveru noční můru.",
+      "paragraph2": "V roce 2024 jsme rozhodli o tom, že stačí dost. Sestavili jsme tým vášnivých hráčů a zkušení opční inženýři s jedním cílem: stavět herní hostingovou platformu, kterou jsme si vždy přáli.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. But our mission remains the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Naše hodnoty",
-      "title": "Co jsme",
-      "titleHighlight": "Stojan pro",
-      "description": "Naše základní hodnoty jsou vodítkem pro všechno, co děláme, od rozhodování o infrastruktuře až po zákaznickou podporu.",
+      "title": "Co my",
+      "titleHighlight": "Sázka pro",
+      "description": "Naše základní hodnoty určují vše, co děláme, od rozhodování o infrastruktuře až po zákaznickou podporu.",
       "players": {
-        "title": "Vytvořeno pro vás",
-        "description": "Naše infrastruktura upřednostňuje směrování s nízkou latencí, předvídatelný výkon a vysokou dostupnost, takže vaše služby zůstanou online a budou reagovat - ať už se jedná o herní server nebo VPS."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Nejdříve komunita",
-        "description": "Nabízíme vám nástroje, které vám umožní vytvořit a spravovat přesně to, co potřebujete, s minimálním úsilím - od instalací modů a podpory snapshotů až po vlastní zásobníky aplikací."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
-        "title": "Otevřeno podle designu",
-        "description": "Oceňujeme transparentnost od jasných závazků SLA až po otevřené nástroje. Naše platforma poskytuje rozhraní API a integrace pro automatizaci pracovních postupů serveru."
+        "title": "Otevřít podle designu",
+        "description": "Oceňujeme transparentnost od jasných závazků SLA k otevřenému nástroji. Naše platforma poskytuje API a integrace pro automatizaci serverových pracovních postupů."
       }
     },
     "stats": {
-      "uptime": "Smlouva o provozuschopnosti SLA",
-      "latency": "Průměrná latence",
-      "support": "Podpora",
-      "servers": "Servery celkem",
-      "users": "Celkový počet uživatelů",
-      "activeUsers": "Aktivní uživatelé",
-      "allocations": "Přidělení prostředků"
+      "uptime": "Doba provozu SLA",
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
-      "badge": "Naše cesta",
-      "title": "Stručný přehled",
+      "badge": "Naše jízda",
+      "title": "Stručný",
       "titleHighlight": "Historie",
       "founded": {
-        "title": "NodeByte Založeno",
-        "description": "Začal jako malý projekt hráčů, kteří chtěli lepší možnosti hostingu pro své komunity."
+        "title": "NodeByte nalezeno",
+        "description": "Začalo jako malý projekt hráčů, kteří chtěli lepší možnosti hostování pro své komunity."
       },
       "growth": {
         "title": "Rychlý růst",
-        "description": "Rozšíření infrastruktury, přidání podnikové ochrany proti DDoS a spuštění provozu ve více datových centrech."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
-        "title": "Globální expanze",
-        "description": "Spustili jsme nové služby, vylepšili ovládací panel a pokračujeme v rozšiřování naší globální komunity."
+        "title": "Globální rozšíření",
+        "description": "Založily nové služby, posílily kontrolní panel a pokračovaly v růstu naší globální komunity."
       }
     },
     "team": {
       "badge": "Náš tým",
       "title": "Seznamte se s",
       "titleHighlight": "Tým",
-      "description": "Za NodeByte stojí nadšení lidé, kteří neúnavně pracují na poskytování nejlepšího hostingu.",
+      "description": "Nadšení lidé za NodeByte, kteří neúnavně pracují na tom, aby přinesli nejlepší zkušenosti s hostováním.",
       "roles": {
         "founder": "Zakladatel a hlavní vývojář"
       },
       "members": {
-        "codemeapixel": "Full-stack vývojář a herní nadšenec budující infrastrukturu, která pohání NodeByte."
+        "codemeapixel": "Full-stack developer a herní nadšenec budování infrastruktury, která má moc NodeByte."
       }
     },
     "cta": {
       "title": "Jste připraveni začít?",
-      "description": "Připojte se k tisícům komunit a firem, které důvěřují společnosti NodeByte v oblasti hostingu.",
-      "getStarted": "Zobrazit všechny služby",
-      "joinDiscord": "Připojte se k Discordu"
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
+      "joinDiscord": "Připojit se k Discordu"
     }
   },
   "notFound": {
-    "title": "Stránka nebyla nalezena",
-    "description": "Hledaná stránka neexistuje nebo byla přesunuta. Vrátíme vás zpět na cestu.",
-    "goHome": "Jdi domů",
+    "title": "Stránka nenalezena",
+    "description": "Stránka, kterou hledáte, neexistuje nebo byla přesunuta. Pojďme tě vrátit na cestu.",
+    "goHome": "Návrat domů",
     "goBack": "Zpět",
     "quickLinks": "Rychlé odkazy",
     "links": {
-      "home": "Home",
-      "games": "Herní servery",
+      "home": "Domů",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Znalostní báze",
-      "contact": "Kontakt",
-      "vps": "Hosting VPS"
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
     "title": "Něco se pokazilo",
-    "description": "Došlo k neočekávané chybě. Nebojte se, náš tým byl informován a pracuje na tom.",
-    "errorCode": "Kód chyby",
+    "description": "Zaznamenali jsme neočekávanou chybu. Nebojte se, náš tým byl informován a pracuje na ní.",
+    "errorCode": "Chybový kód",
     "tryAgain": "Zkuste to znovu",
-    "goHome": "Jdi domů",
+    "goHome": "Návrat domů",
     "needHelp": "Potřebujete pomoc?",
-    "helpDescription": "Pokud tato chyba přetrvává, obraťte se na náš tým podpory.",
-    "joinDiscord": "Připojte se k Discordu",
+    "helpDescription": "Pokud tato chyba přetrvává, kontaktujte prosím náš tým podpory.",
+    "joinDiscord": "Připojit se k Discordu",
     "contactSupport": "Kontaktovat podporu"
   },
   "auth": {
     "login": {
       "title": "Přihlásit se",
-      "description": "Pro pokračování se přihlaste pomocí účtu NodeByte.",
+      "description": "Chcete-li pokračovat, přihlaste se pomocí svého účtu NodeByte.",
       "emailLabel": "E-mailová adresa",
-      "emailPlaceholder": "you@example.com",
+      "emailPlaceholder": "vy@priklad.com",
       "passwordLabel": "Heslo",
       "passwordPlaceholder": "Zadejte své heslo",
       "loginButton": "Přihlásit se",
-      "loggingIn": "Přihlášení...",
+      "loggingIn": "Přihlašování...",
       "forgotPassword": "Zapomněli jste heslo?",
       "noAccount": "Nemáte účet?",
-      "createAccount": "Vytvořit jeden",
+      "createAccount": "Vytvořit",
       "step1": {
-        "title": "Vítejte zpět",
-        "description": "Pro pokračování zadejte svou e-mailovou adresu",
-        "continueButton": "Pokračovat"
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
       },
       "step2": {
-        "title": "Jak se chcete přihlásit?",
-        "description": "Zvolte preferovanou metodu ověřování",
-        "passwordOption": "Heslo",
-        "passwordDescription": "Pro přihlášení použijte své heslo",
-        "magicLinkOption": "Magický odkaz",
-        "magicLinkDescription": "Zabezpečený odkaz vám zašleme e-mailem. Žádné heslo není potřeba!",
-        "usePassword": "Použití hesla",
-        "useMagicLink": "Odeslat kouzelný odkaz"
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
-        "passwordTitle": "Zadejte své heslo",
-        "passwordDescription": "Zadejte své heslo a bezpečně se přihlaste",
-        "loginButton": "Přihlásit se",
-        "loggingIn": "Přihlášení...",
-        "forgotPassword": "Zapomněli jste heslo?"
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
       },
       "errors": {
         "invalid": "Neplatný e-mail nebo heslo. Zkuste to prosím znovu.",
-        "networkError": "Chyba sítě. Zkontrolujte prosím připojení a zkuste to znovu.",
-        "generic": "Při přihlašování došlo k chybě. Zkuste to prosím znovu.",
-        "invalidEmail": "Zadejte prosím platnou e-mailovou adresu."
+        "networkError": "Chyba sítě. Zkontrolujte připojení a zkuste to znovu.",
+        "generic": "Při přihlášení došlo k chybě. Zkuste to prosím znovu.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
       "title": "Vytvořit účet",
-      "description": "Zaregistrujte se pro přístup k herním serverům a službám.",
+      "description": "Zaregistrujte se pro přístup ke svým herním serverům a službám.",
       "emailLabel": "E-mailová adresa",
-      "emailPlaceholder": "you@example.com",
+      "emailPlaceholder": "vy@priklad.com",
       "passwordLabel": "Heslo",
-      "passwordPlaceholder": "Vytvoření hesla",
+      "passwordPlaceholder": "Vytvořit heslo",
       "confirmPasswordLabel": "Potvrzení hesla",
-      "confirmPasswordPlaceholder": "Potvrzení hesla",
+      "confirmPasswordPlaceholder": "Potvrďte své heslo",
       "registerButton": "Vytvořit účet",
-      "registering": "Vytvoření účtu...",
-      "alreadyHaveAccount": "Už máte účet?",
+      "registering": "Vytváření účtu...",
+      "alreadyHaveAccount": "Již máte účet?",
       "signIn": "Přihlásit se",
       "errors": {
         "emailExists": "Účet s tímto e-mailem již existuje.",
-        "notInPanel": "U tohoto e-mailu nebyl nalezen žádný účet herního panelu. Nejprve si prosím zakupte službu a vytvořte si panelový účet.",
-        "panelAccountLinked": "Tento účet panelu je již propojen s jiným účtem NodeByte.",
+        "notInPanel": "Nebyl nalezen žádný účet v herním panelu s tímto e-mailem. Nejdříve si prosím zakupte službu pro vytvoření účtu v panelu.",
+        "panelAccountLinked": "Tento panel je již propojen s jiným NodeByte účtem.",
         "passwordsDontMatch": "Hesla se neshodují.",
         "passwordTooShort": "Heslo musí mít alespoň 8 znaků.",
         "invalidEmail": "Zadejte prosím platnou e-mailovou adresu.",
-        "networkError": "Chyba sítě. Zkontrolujte prosím připojení a zkuste to znovu.",
-        "generic": "Při registraci došlo k chybě. Zkuste to prosím znovu."
+        "networkError": "Chyba sítě. Zkontrolujte připojení a zkuste to znovu.",
+        "generic": "Došlo k chybě při registraci. Zkuste to prosím znovu."
       },
       "success": {
         "title": "Účet vytvořen!",
@@ -990,195 +992,353 @@
       }
     },
     "forgotPassword": {
-      "title": "Zapomněli jste heslo?",
-      "description": "Zadejte svou e-mailovou adresu a my vám zašleme odkaz pro obnovení hesla.",
-      "emailLabel": "E-mailová adresa",
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
       "emailPlaceholder": "your@email.com",
-      "submitButton": "Odeslat odkaz na obnovení",
-      "submitting": "Odeslání...",
-      "successTitle": "Zkontrolujte svůj e-mail",
-      "successDescription": "Na vaši e-mailovou adresu jsme odeslali pokyny k obnovení hesla.",
-      "backToLogin": "Zpět na přihlášení",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
       "errors": {
-        "emailRequired": "Je vyžadována e-mailová adresa",
-        "invalidEmail": "Zadejte prosím platnou e-mailovou adresu",
-        "notFound": "S touto e-mailovou adresou nebyl nalezen žádný účet",
-        "networkError": "Nepodařilo se odeslat odkaz na resetování. Zkuste to prosím znovu.",
-        "generic": "Došlo k chybě. Zkuste to prosím znovu."
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
       }
     },
     "resetPassword": {
-      "title": "Obnovení hesla",
-      "description": "Zadejte nové heslo k účtu",
-      "passwordLabel": "Nové heslo",
-      "passwordPlaceholder": "--------",
-      "confirmLabel": "Potvrzení hesla",
-      "confirmPlaceholder": "--------",
-      "submitButton": "Obnovení hesla",
-      "submitting": "Resetování...",
-      "successTitle": "Úspěšné obnovení hesla",
-      "successDescription": "Vaše heslo bylo aktualizováno. Přesměrování na přihlášení...",
-      "backToLogin": "Zpět na přihlášení",
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
       "errors": {
-        "passwordRequired": "Heslo je vyžadováno",
-        "passwordTooShort": "Heslo musí mít alespoň 8 znaků",
-        "passwordsDontMatch": "Hesla se neshodují",
-        "invalidToken": "Neplatný nebo neplatný odkaz pro resetování",
-        "tokenExpired": "Platnost odkazu na obnovení vypršela. Vyžádejte si prosím nový.",
-        "networkError": "Nepodařilo se obnovit heslo. Zkuste to prosím znovu.",
-        "generic": "Došlo k chybě. Zkuste to prosím znovu."
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
       }
     },
     "verifyEmail": {
-      "title": "Ověření e-mailu",
-      "verifying": "Ověření e-mailu...",
-      "successTitle": "Ověřený e-mail!",
-      "successDescription": "Váš e-mail byl úspěšně ověřen. Přesměrování na přihlášení...",
-      "backToLogin": "Zpět na přihlášení",
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
       "errors": {
-        "invalidToken": "Neplatný nebo neplatný ověřovací odkaz",
-        "tokenExpired": "Platnost ověřovacího odkazu vypršela. Vyžádejte si prosím nový.",
-        "alreadyVerified": "Váš e-mail je již ověřen",
-        "networkError": "Nepodařilo se ověřit e-mail. Zkuste to prosím znovu.",
-        "generic": "Při ověřování vašeho e-mailu došlo k chybě."
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
       }
     },
     "error": {
       "title": "Chyba ověření",
-      "description": "Při přihlašování došlo k problému.",
-      "configuration": "V systému ověřování došlo k chybě konfigurace.",
-      "accessDenied": "K přístupu k tomuto zdroji nemáte oprávnění.",
-      "verification": "Odkaz na přihlášení již není platný.",
-      "default": "Při přihlašování došlo k neočekávané chybě.",
-      "credentialsSignin": "Neplatné pověření. Zkontrolujte prosím svůj e-mail a heslo.",
+      "description": "Při přihlášení došlo k chybě.",
+      "configuration": "Došlo k chybě konfigurace s ověřovacím systémem.",
+      "accessDenied": "Nemáte oprávnění k přístupu k tomuto zdroji.",
+      "verification": "Přihlašovací odkaz již není platný.",
+      "default": "Při přihlášení došlo k neočekávané chybě.",
+      "credentialsSignin": "Neplatné přihlašovací údaje. Zkontrolujte prosím svůj e-mail a heslo.",
       "tryAgain": "Zkuste to znovu",
-      "goHome": "Jdi domů"
+      "goHome": "Návrat domů"
     },
     "userMenu": {
       "myAccount": "Můj účet",
+      "dashboard": "Dashboard",
       "viewPanel": "Zobrazit panel",
       "admin": "Admin",
       "logout": "Odhlásit se",
       "signIn": "Přihlásit se",
-      "loggingOut": "Odhlášení...",
-      "dashboard": "Přístrojová deska"
+      "loggingOut": "Odhlašování..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
-    "title": "Panel správce",
+    "title": "Admin panel",
     "nav": {
-      "dashboard": "Přístrojová deska",
-      "users": "Všichni uživatelé",
-      "servers": "Všechny servery",
-      "sync": "Akce synchronizace",
-      "syncLogs": "Synchronizační protokoly",
+      "dashboard": "Nástěnka",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
+      "syncLogs": "Sync Logs",
       "settings": "Nastavení",
-      "backToSite": "Zpět na stránky",
-      "nodes": "Uzly serveru",
-      "locations": "Lokality",
-      "allocations": "Přidělení prostředků",
-      "eggs": "Hnízda a vejce"
+      "backToSite": "Zpět na stránku"
     },
     "status": {
       "online": "Systém online"
     },
     "dashboard": {
-      "title": "Přístrojová deska",
-      "description": "Přehled dat a stavu synchronizace panelu Pterodactyl."
+      "title": "Nástěnka",
+      "description": "Přehled vašich dat z Pterodactylu panelu a stav synchronizace."
     },
     "stats": {
-      "users": "Celkový počet uživatelů",
-      "migratedCount": "{count} migroval",
+      "users": "Celkem uživatelů",
+      "migratedCount": "{count} migrován",
       "servers": "Servery",
-      "nodes": "Uzly",
-      "locations": "Lokality",
-      "allocations": "Přidělení prostředků",
-      "nests": "Hnízda",
+      "nodes": "Nodes",
+      "locations": "Místa",
+      "allocations": "Přidělování",
+      "nests": "Nohy",
       "eggs": "Vejce",
-      "eggVariables": "Proměnné pro vejce",
+      "eggVariables": "Vejce proměnné",
       "databases": "Databáze"
     },
     "sync": {
       "status": "Stav synchronizace",
       "lastSync": "Poslední synchronizace",
       "never": "Nikdy",
-      "idle": "Nečinnost",
+      "idle": "Nečinný",
       "syncing": "Synchronizace...",
-      "inProgress": "Probíhající synchronizace",
-      "syncingTarget": "Synchronizace dat {target} z panelu...",
-      "complete": "kompletní",
-      "runFull": "Spuštění úplné synchronizace",
+      "inProgress": "Probíhá synchronizace",
+      "syncingTarget": "Synchronizace {target} dat z panelu...",
+      "complete": "complete",
+      "runFull": "Spustit plnou synchronizaci",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Synchronizace dokončena",
-      "completed": "Data {target} byla úspěšně synchronizována.",
+      "completed": "Synchronizace {target} byla úspěšná.",
       "error": "Synchronizace se nezdařila",
       "quickActions": "Akce rychlé synchronizace",
-      "quickActionsDescription": "Synchronizujte jednotlivé typy dat z panelu Pterodactyl.",
+      "quickActionsDescription": "Synchronizujte jednotlivé datové typy z panelu Pterodactyl.",
       "targets": {
-        "locations": "Lokality",
-        "nodes": "Uzly",
-        "allocations": "Přidělení prostředků",
-        "nests": "Hnízda a vejce",
+        "full": "Full Sync",
+        "locations": "Místa",
+        "nodes": "Nodes",
+        "allocations": "Přidělování",
+        "nests": "Nests & Vejce",
         "servers": "Servery",
         "databases": "Databáze",
-        "users": "Uživatelé",
-        "full": "Úplná synchronizace"
-      },
-      "started": "Zahájení synchronizace",
-      "running": "Synchronizace dat z panelu. To může chvíli trvat."
+        "users": "Uživatelé"
+      }
     },
     "syncLogs": {
-      "title": "Synchronizační protokoly",
-      "description": "Protokol auditu synchronizace a stav plánovače",
-      "scheduler": "Plánovač",
-      "running": "Běh",
-      "idle": "Nečinnost",
-      "startedAt": "začal {time}",
-      "autoSync": "Automatická synchronizace",
-      "intervalSeconds": "Interval (sekundy)",
-      "save": "Uložit",
-      "saving": "Úspora...",
-      "refresh": "Obnovit",
-      "refreshing": "Osvěžující...",
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
       "audit": "Audit",
-      "auditDescription": "Poslední spuštění synchronizace (nejnovější jako první)",
-      "searchPlaceholder": "Vyhledávejte zprávy nebo zadejte...",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
       "limitPlaceholder": "Limit",
-      "noEntries": "Žádné záznamy v protokolu",
-      "items": "Položky",
-      "failed": "Neúspěšný",
-      "loadMore": "Načíst více",
-      "noMoreEntries": "Žádné další položky",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
       "status": {
-        "running": "Běh",
-        "completed": "Dokončeno",
-        "failed": "Neúspěšný",
-        "pending": "Čeká se na"
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
       "title": "Uživatelé",
       "description": "Správa uživatelských účtů a oprávnění.",
       "stats": {
-        "total": "Celkový počet uživatelů",
-        "migrated": "Migrace",
-        "admins": "Administrátoři",
+        "total": "Celkem uživatelů",
+        "migrated": "Migrováno",
+        "admins": "Správci",
         "active": "Aktivní"
       },
       "filters": {
         "title": "Filtry",
-        "searchPlaceholder": "Vyhledávání podle jména nebo e-mailu...",
+        "searchPlaceholder": "Hledat podle jména nebo e-mailu...",
         "all": "Všichni uživatelé",
         "active": "Aktivní",
         "inactive": "Neaktivní",
-        "admin": "Administrátoři",
-        "migrated": "Migrace",
-        "notMigrated": "Nepřemístěno"
+        "admin": "Správci",
+        "migrated": "Migrováno",
+        "notMigrated": "Nemigrováno"
       },
       "table": {
         "user": "Uživatel",
-        "email": "E-mail",
+        "email": "E-mailová adresa",
         "status": "Stav",
-        "pterodactyl": "ID panelu",
+        "pterodactyl": "ID dílce",
         "created": "Vytvořeno",
         "lastLogin": "Poslední přihlášení"
       },
@@ -1186,40 +1346,40 @@
         "active": "Aktivní",
         "inactive": "Neaktivní",
         "admin": "Admin",
-        "migrated": "Migrace"
+        "migrated": "Migrováno"
       },
       "empty": {
-        "title": "Nebyli nalezeni žádní uživatelé",
+        "title": "Nenalezeni žádní uživatelé",
         "searchHint": "Zkuste upravit vyhledávání nebo filtry."
       },
       "pagination": {
-        "showing": "Zobrazení {from} až {to} uživatelů {total}",
+        "showing": "Zobrazeno {from} až {to} uživatelů {total}",
         "previous": "Předchozí",
         "next": "Další"
       }
     },
     "servers": {
       "title": "Servery",
-      "description": "Zobrazení a správa všech herních serverů.",
+      "description": "Zobrazit a spravovat všechny herní servery.",
       "stats": {
-        "total": "Servery celkem",
+        "total": "Celkem serverů",
         "running": "Běh",
         "offline": "Offline",
         "suspended": "Pozastaveno"
       },
       "filters": {
         "title": "Filtry",
-        "searchPlaceholder": "Vyhledávání podle názvu nebo UUID...",
+        "searchPlaceholder": "Hledat podle jména nebo UUID...",
         "all": "Všechny servery",
         "running": "Běh",
         "offline": "Offline",
         "suspended": "Pozastaveno",
-        "installing": "Instalace stránek"
+        "installing": "Instalace"
       },
       "table": {
         "server": "Server",
         "status": "Stav",
-        "owner": "Majitel",
+        "owner": "Vlastník",
         "resources": "Zdroje",
         "node": "Uzel",
         "created": "Vytvořeno"
@@ -1227,10 +1387,10 @@
       "status": {
         "running": "Běh",
         "offline": "Offline",
-        "starting": "Začínáme na adrese",
-        "stopping": "Zastavení",
-        "installing": "Instalace stránek",
-        "install_failed": "Neúspěšný",
+        "starting": "Začíná",
+        "stopping": "Zastavování",
+        "installing": "Instalace",
+        "install_failed": "Selhalo",
         "suspended": "Pozastaveno",
         "restoring_backup": "Obnovení"
       },
@@ -1244,106 +1404,106 @@
         "searchHint": "Zkuste upravit vyhledávání nebo filtry."
       },
       "pagination": {
-        "showing": "Zobrazeno {from} až {to} serverů {total}",
+        "showing": "Zobrazeno {from} na {to} serverů {total}",
         "previous": "Předchozí",
         "next": "Další"
       }
     },
     "settings": {
       "title": "Nastavení",
-      "description": "Konfigurace nastavení systému a připojení.",
-      "save": "Uložení změn",
-      "saved": "Uložená nastavení",
+      "description": "Konfigurace nastavení a připojení systému.",
+      "save": "Uložit změny",
+      "saved": "Nastavení uloženo",
       "savedDesc": "Vaše nastavení bylo úspěšně uloženo.",
       "saveError": "Nepodařilo se uložit nastavení. Zkuste to prosím znovu.",
-      "copyFailed": "Nepodařilo se zkopírovat do schránky",
+      "copyFailed": "Kopírování do schránky se nezdařilo",
       "tabs": {
-        "connections": "Připojení",
-        "features": "Funkce",
+        "connections": "Kontakty",
+        "features": "Vlastnosti",
         "notifications": "Oznámení",
-        "advanced": "Pokročilé"
+        "advanced": "Rozšířené"
       },
       "status": {
         "connected": "Připojeno",
-        "disconnected": "Odpojení"
+        "disconnected": "Odpojeno"
       },
       "connection": {
-        "success": "Úspěšné připojení",
-        "successDesc": "Úspěšné připojení k {type}.",
+        "success": "Připojení bylo úspěšné",
+        "successDesc": "Úspěšně připojeno k {type}.",
         "failed": "Připojení se nezdařilo",
         "error": "Nepodařilo se otestovat připojení."
       },
-      "testConnection": "Testovací připojení",
+      "testConnection": "Testovat připojení",
       "pterodactyl": {
-        "title": "Pterodaktyl Panel",
-        "description": "Nakonfigurujte připojení k panelu Pterodactyl.",
-        "url": "Adresa URL panelu",
-        "apiKey": "Klíč API",
-        "apiKeyNote": "Zadejte svůj klíč API panelu Pterodactyl pro ověření.",
-        "apiUrl": "ADRESA URL ROZHRANÍ API",
-        "apiUrlNote": "Základní adresa URL pro rozhraní Pterodactyl API (obvykle panel URL + /api).",
-        "version": "Verze panelu",
-        "apiKeyclient": "Klientský klíč API",
-        "apiKeyNoteclient": "Zadejte klíč API klienta Pterodactyl. Ten je nutný pro synchronizaci serveru a uživatelských dat z klientského API."
+        "title": "Pterodactyl Panel",
+        "description": "Konfigurace připojení k panelu Pterodactyl.",
+        "url": "URL panelu",
+        "apiKey": "API klíč",
+        "apiKeyNote": "Zadejte API klíč Pterodactyl panelu pro autentizaci.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
+        "apiUrl": "API URL",
+        "apiUrlNote": "Základní URL pro Pterodactyl API (obvykle panel URL + /api).",
+        "version": "Verze panelu"
       },
       "crowdin": {
         "title": "Správa překladů Crowdin",
-        "description": "Konfigurace nastavení služby Crowdin pro automatickou správu překladů.",
+        "description": "Konfigurace nastavení Crowdin pro automatickou správu překladů.",
         "projectId": "ID projektu",
-        "personalToken": "Osobní žeton",
-        "personalTokenNote": "Váš osobní přístupový token Crowdin. Udržujte ho v bezpečí."
+        "personalToken": "Osobní token",
+        "personalTokenNote": "Váš Crowdin osobní přístupový token. Uchovávejte v bezpečí."
       },
       "github": {
-        "title": "Konfigurace služby GitHub",
-        "description": "Konfigurace přístupu ke službě GitHub pro aktualizace poznámek k vydání a seznamu změn.",
-        "token": "Osobní přístupový token GitHub",
-        "tokenNote": "Slouží k načítání informací o vydání z úložišť GitHub.",
+        "title": "GitHub Configuration",
+        "description": "Konfigurace přístupu na GitHub pro poznámky k vydání a aktualizace seznamu změn.",
+        "token": "GitHub Personal Access Token",
+        "tokenNote": "Načítá se informace o vydání z vašich GitHub repozitářů.",
         "warning": "⚠️ Ochrana tokenů",
-        "warningDesc": "Po nastavení nelze tento token zobrazit ani změnit prostřednictvím uživatelského rozhraní. Chcete-li jej aktualizovat, musíte vymazat a nastavit nový token z tohoto panelu."
+        "warningDesc": "Po nastavení nelze tento token zobrazit nebo změnit prostřednictvím uživatelského rozhraní. Chcete-li jej aktualizovat, musíte vymazat a nastavit nový token z tohoto panelu."
       },
       "database": {
         "title": "Databáze",
-        "description": "Konfigurace připojení k databázi.",
+        "description": "Nastavení připojení k databázi.",
         "provider": "Poskytovatel",
-        "connectionString": "Připojovací řetězec",
-        "connectionStringNote": "Adresa URL databáze je uložena jako proměnná prostředí.",
-        "readOnly": "Z pochopitelných důvodů je náš řetězec připojení k databázi spravován prostřednictvím proměnných prostředí, proč byste se sem vůbec dívali.... Mluvím k vám RIZON!"
+        "connectionString": "Řetězec připojení",
+        "connectionStringNote": "URL databáze je uložena jako proměnná prostředí.",
+        "readOnly": "Z pochopitelných důvodů je spojovací řetězec databáze spravován prostřednictvím proměnných prostředí, proč byste se mohli podívat i zde.... Mluvím s Vámi RIZON!"
       },
       "features": {
         "title": "Přepínače funkcí",
-        "description": "Povolení nebo zakázání funkcí systému.",
+        "description": "Povolit nebo zakázat systémové funkce.",
         "registration": "Registrace uživatele",
-        "registrationDesc": "Umožnit novým uživatelům registrovat účty.",
+        "registrationDesc": "Povolit novým uživatelům registrovat účty.",
         "maintenance": "Režim údržby",
-        "maintenanceDesc": "Povolením režimu údržby zablokujete přístup k webu.",
+        "maintenanceDesc": "Povolte režim údržby pro blokování přístupu k webu.",
         "autoSync": "Automatická synchronizace",
-        "autoSyncDesc": "Automatická pravidelná synchronizace dat z panelu."
+        "autoSyncDesc": "Automaticky pravidelně synchronizovat data z panelu."
       },
       "notifications": {
         "title": "Oznámení",
-        "description": "Konfigurace nastavení oznámení.",
+        "description": "Konfigurovat nastavení oznámení.",
         "email": "E-mailová oznámení",
-        "emailDesc": "Odesílání e-mailových upozornění na důležité události pomocí funkce Resend.",
-        "resendApiKey": "Opětovné odeslání klíče API",
-        "resendApiKeyNote": "Váš klíč API Resend pro odesílání e-mailů. Získejte ho na adrese resend.com",
-        "discord": "Oznámení Discord",
-        "discordDesc": "Odesílání oznámení do kanálů Discord prostřednictvím webových háčků.",
-        "webhook": "Adresa URL webhooku Discord",
-        "webhookDesc": "Zadejte adresu URL webhooku služby Discord, abyste mohli dostávat oznámení.",
-        "webhooksList": "Nakonfigurované webové háčky",
+        "emailDesc": "Odeslat e-mailová oznámení pro důležité události pomocí opětovného odesílání.",
+        "resendApiKey": "Znovu odeslat API klíč",
+        "resendApiKeyNote": "Váš API klíč znovu odeslat pro odesílání e-mailů. Získejte ho na resend.com",
+        "discord": "Discord oznámení",
+        "discordDesc": "Odeslat oznámení do Discord kanálů pomocí webhooků.",
+        "webhook": "URL Discord Webhook",
+        "webhookDesc": "Zadejte URL tvého Discord webhook pro příjem oznámení.",
+        "webhooksList": "Konfigurované webové háčky",
         "webhookName": "Název webhooku",
-        "webhookNamePlaceholder": "např. aktualizace serveru, upozornění",
-        "webhookUrl": "Adresa URL webhooku",
+        "webhookNamePlaceholder": "např. aktualizace serverů, Upozornění",
+        "webhookUrl": "URL webového háčku",
         "addWebhook": "Přidat webový háček",
         "noWebhooks": "Zatím nejsou nakonfigurovány žádné webové háčky."
       },
       "advanced": {
-        "title": "Rozšířená nastavení",
-        "description": "Rozšířené možnosti konfigurace.",
-        "cacheTimeout": "Časový limit mezipaměti",
-        "cacheTimeoutDesc": "Jak dlouho mají být odpovědi API ukládány do mezipaměti.",
+        "title": "Pokročilá nastavení",
+        "description": "Pokročilé nastavení",
+        "cacheTimeout": "Časový limit keše",
+        "cacheTimeoutDesc": "Jak dlouho reaguje API mezipaměti.",
         "syncInterval": "Interval synchronizace",
-        "syncIntervalDesc": "Jak často automaticky synchronizovat data z panelu.",
+        "syncIntervalDesc": "Jak často se automaticky synchronizovat data z panelu.",
         "seconds": "sekundy",
         "minute": "minuta",
         "minutes": "minuty",
@@ -1352,485 +1512,311 @@
         "dangerZone": "Nebezpečná zóna",
         "dangerZoneDesc": "Tyto akce jsou nevratné. Postupujte opatrně.",
         "clearCache": "Vymazat mezipaměť",
-        "resetSync": "Obnovení synchronizace"
+        "resetSync": "Reset Sync"
       },
       "saveSettings": "Uložit nastavení"
     },
     "actions": {
-      "refresh": "Obnovit"
+      "refresh": "Aktualizovat"
     },
     "error": {
       "title": "Chyba",
-      "unauthorized": "Nejste oprávněni k přístupu na tuto stránku.",
-      "forbidden": "Je vyžadován přístup správce."
+      "unauthorized": "Nemáte oprávnění k přístupu na tuto stránku.",
+      "forbidden": "Vyžadován přístup administrátora."
     },
     "maintenance": {
-      "title": "Hned se vrátíme",
-      "description": "V současné době provádíme plánovanou údržbu s cílem zlepšit naše služby.",
-      "status": "Stránky v údržbě",
-      "estimatedTime": "Očekáváme, že budeme brzy opět online",
-      "contact": "Pokud máte naléhavé dotazy, obraťte se na náš tým podpory",
+      "title": "Budeme zpátky",
+      "description": "V současné době provádíme plánovanou údržbu pro vylepšení našich služeb.",
+      "status": "Údržba webu",
+      "estimatedTime": "Očekáváme, že brzy budeme opět online",
+      "contact": "Pokud máte nějaké naléhavé dotazy, kontaktujte prosím náš tým podpory",
       "contactSupport": "Kontaktovat podporu",
-      "followSuggestion": "Sledujte nás na Discordu a získejte aktuální informace o stavu údržby v reálném čase.",
-      "discordSuggestion": "Připojte se k Discordu"
-    }
-  },
-  "servicesHome": {
-    "badge": "Co nabízíme",
-    "title": "Vše, co potřebujete,",
-    "titleHighlight": "jedno místo",
-    "description": "Herní servery a VPS hosting postavené na výkon. Okamžité nastavení, ochrana proti DDoS a nepřetržitá odborná podpora.",
-    "browsePlans": "Procházet plány",
-    "startingFrom": "Z",
-    "customSolution": "Potřebujete něco, co nemáme v seznamu?",
-    "contactUs": "Kontaktujte nás",
-    "forCustom": "a my najdeme to pravé."
-  },
-  "vpsPage": {
-    "title": "Hosting VPS",
-    "description": "Vysoce výkonné virtuální privátní servery s plným root přístupem, úložištěm NVMe SSD, ochranou proti DDoS a nepřetržitou odbornou podporou.",
-    "startingAt": "Od"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Přehled",
-      "servers": "Servery",
-      "billing": "Fakturace",
-      "support": "Podpora",
-      "account": "Účet",
-      "backToSite": "Zpět na stránky",
-      "gamePanel": "Herní panel",
-      "helpCenter": "Centrum nápovědy"
-    },
-    "greeting": {
-      "morning": "Dobré ráno",
-      "afternoon": "Dobré odpoledne",
-      "evening": "Dobrý večer"
-    },
-    "subtitle": "Podívejte se, co se děje s vašimi servery",
-    "welcome": {
-      "title": "Vítejte!",
-      "magicLinkSuccess": "Úspěšně jste se přihlásili pomocí kouzelného odkazu. Vítejte na svém ovládacím panelu!"
-    },
-    "stats": {
-      "totalServers": "Servery celkem",
-      "activeServers": "Aktivní servery",
-      "accountBalance": "Zůstatek na účtu",
-      "openTickets": "Otevřené vstupenky",
-      "online": "online",
-      "activeDescription": "V současné době běží",
-      "balanceDescription": "Dostupný úvěr",
-      "ticketsDescription": "Čekáme na odpověď"
-    },
-    "actions": {
-      "openPanel": "Otevřený panel",
-      "newServer": "Nový server"
-    },
-    "recentServers": {
-      "title": "Nedávné servery",
-      "description": "Vaše servery, ke kterým jste naposledy přistupovali",
-      "viewAll": "Zobrazit vše",
-      "empty": {
-        "title": "Zatím žádné servery",
-        "description": "Zatím nemáte žádné herní servery. Začněte vytvořením svého prvního serveru.",
-        "action": "Vytvořit server"
-      }
-    },
-    "quickActions": {
-      "title": "Rychlé akce",
-      "minecraft": "Server Minecraft",
-      "minecraftDesc": "Nasazení nového serveru Minecraft",
-      "rust": "Rust Server",
-      "rustDesc": "Nasazení nového serveru Rust",
-      "support": "Otevřený lístek",
-      "supportDesc": "Získejte pomoc od našeho týmu",
-      "knowledgeBase": "Znalostní báze",
-      "knowledgeBaseDesc": "Procházet články nápovědy"
-    },
-    "servers": {
-      "title": "Moje servery",
-      "description": "Správa a monitorování herních serverů",
-      "status": {
-        "running": "Běh",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Začínáme na adrese",
-        "stopping": "Zastavení",
-        "suspended": "Pozastaveno",
-        "installing": "Instalace stránek"
-      },
-      "resources": {
-        "memory": "Paměť",
-        "cpu": "CPU",
-        "disk": "Disk"
-      },
-      "actions": {
-        "newServer": "Nový server",
-        "refresh": "Obnovit",
-        "console": "Konzole",
-        "files": "Soubory",
-        "databases": "Databáze",
-        "openPanel": "Otevřít v panelu"
-      },
-      "filters": {
-        "searchPlaceholder": "Vyhledávací servery...",
-        "status": "Stav",
-        "allStatuses": "Všechny stavy"
-      },
-      "pagination": {
-        "showing": "Zobrazeno {from} až {to} z {total}",
-        "previous": "Předchozí",
-        "next": "Další"
-      },
-      "empty": {
-        "title": "Nebyly nalezeny žádné servery",
-        "description": "Zatím nemáte žádné herní servery. Vytvořte si svůj první server a začněte.",
-        "action": "Vytvořit server"
-      }
-    },
-    "account": {
-      "title": "Nastavení účtu",
-      "description": "Správa profilu a nastavení zabezpečení",
-      "tabs": {
-        "profile": "Profil",
-        "security": "Zabezpečení"
-      },
-      "profile": {
-        "overview": "Přehled účtů",
-        "overviewDescription": "Informace o vašem účtu a jeho stavu",
-        "verified": "Ověřeno",
-        "unverified": "Neověřené",
-        "personalInfo": "Osobní údaje",
-        "personalInfoDescription": "Aktualizujte své osobní údaje",
-        "firstName": "Jméno",
-        "firstNamePlaceholder": "John",
-        "lastName": "Příjmení",
-        "lastNamePlaceholder": "Doe",
-        "username": "Uživatelské jméno",
-        "usernamePlaceholder": "johndoe",
-        "email": "E-mailová adresa",
-        "emailNote": "Kontaktujte podporu a změňte svou e-mailovou adresu",
-        "phoneNumber": "Telefonní číslo",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Název společnosti",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Fakturační e-mail",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Uložení změn",
-        "success": "Aktualizovaný profil",
-        "successDescription": "Váš profil byl úspěšně aktualizován.",
-        "error": "Aktualizace se nezdařila",
-        "errorDescription": "Nepodařilo se aktualizovat váš profil. Zkuste to prosím znovu."
-      },
-      "security": {
-        "changePassword": "Změna hesla",
-        "changePasswordDescription": "Aktualizujte své heslo, aby byl váš účet bezpečný",
-        "currentPassword": "Aktuální heslo",
-        "newPassword": "Nové heslo",
-        "confirmPassword": "Potvrzení nového hesla",
-        "passwordRequirements": "Heslo musí mít alespoň 8 znaků",
-        "updatePassword": "Aktualizace hesla",
-        "passwordMismatch": "Hesla se neshodují",
-        "passwordMismatchDescription": "Zadaná nová hesla se neshodují.",
-        "passwordTooShort": "Příliš krátké heslo",
-        "passwordTooShortDescription": "Heslo musí mít alespoň 8 znaků.",
-        "passwordChanged": "Změna hesla",
-        "passwordChangedDescription": "Vaše heslo bylo úspěšně aktualizováno.",
-        "error": "Aktualizace se nezdařila",
-        "errorDescription": "Nepodařilo se aktualizovat heslo. Zkuste to prosím znovu.",
-        "emailNotVerified": "E-mail není ověřen",
-        "emailNotVerifiedDescription": "Vaše e-mailová adresa nebyla ověřena.",
-        "resendVerification": "Opětovné odeslání ověřovacího e-mailu",
-        "accountInfo": "Informace o účtu",
-        "accountInfoDescription": "Další podrobnosti o vašem účtu",
-        "accountCreated": "Vytvořený účet",
-        "lastLogin": "Poslední přihlášení",
-        "accountId": "ID účtu"
-      }
+      "followSuggestion": "Sledujte nás na Discordu pro aktualizace stavu údržby v reálném čase.",
+      "discordSuggestion": "Připojit se k Discordu"
     }
   },
   "vps": {
-    "badge": "Servery VPS",
-    "title": "Vyberte si svůj",
-    "titleHighlight": "Plán VPS",
-    "description": "Virtuální privátní servery s plným ovládáním a podnikovým hardwarem. Kořenový přístup, úložiště NVMe, ochrana proti DDoS a okamžité nasazení.",
-    "hosting": "Hostování",
-    "learnMore": "Dozvědět se více",
-    "viewPlans": "Zobrazit plány",
-    "customSolution": "Potřebujete vlastní řešení VPS nebo máte dotazy?",
-    "contactUs": "Kontaktujte nás",
-    "forCustom": "a my najdeme to pravé.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
+    "hosting": "Hosting",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
     "highlights": {
       "deploy": {
-        "title": "Okamžité nasazení",
-        "description": "Váš VPS je připraven do 60 sekund po zakoupení."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Úplný přístup ke kořenovému systému",
-        "description": "Úplná kontrola nad serverem s root přístupem SSH a výběrem operačního systému."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Podnikový hardware",
-        "description": "Procesory podnikové třídy s úložištěm NVMe SSD a pamětí ECC RAM ve všech plánech."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise-grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Vysoce výkonné VPS KVM na podnikovém hardwaru AMD. Ideální pro náročné úlohy, webové aplikace a herní backendy.",
-      "heroDescription": "VPS KVM podnikové třídy na hardwaru AMD s úložištěm NVMe SSD, plným přístupem ke kořenovému adresáři a podnikovou ochranou proti DDoS. Nasazení během několika sekund.",
-      "tag": "Poháněno společností AMD",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise-grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "Podnikové procesory AMD",
-        "1": "Úložiště NVMe SSD",
-        "2": "Plný přístup root / SSH",
-        "3": "Ochrana před útoky DDoS"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Úplný přístup ke kořenovému systému",
-        "1": "Virtualizace KVM",
-        "2": "SSD NVMe",
-        "3": "Ochrana před útoky DDoS"
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
+        "2": "NVMe SSD",
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "Startér",
-          "description": "Ideální pro malé projekty a testování"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
-          "name": "Standardní",
-          "description": "Skvělé pro rostoucí aplikace"
+          "name": "Standard",
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Výkon",
-          "description": "Ideální pro pracovní zátěže s vysokým provozem"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Šířka pásma",
-        "bandwidthUnmetered": "Neměřená šířka pásma",
-        "ddos": "Ochrana před útoky DDoS",
-        "ipv4": "Vyhrazená adresa IPv4",
-        "rootAccess": "Úplný přístup ke kořenovému serveru / SSH",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
         "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Podnikový hardware AMD",
-          "description": "Je vybaven hardwarem AMD podnikové třídy, který poskytuje výjimečný vícevláknový výkon pro náročné pracovní úlohy.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise-grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "Podnikové procesory AMD",
-            "1": "Vysoký počet jader",
-            "2": "Velká mezipaměť L3",
-            "3": "Vysoké taktovací frekvence"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Úložiště NVMe SSD",
-          "description": "Ultrarychlé SSD úložiště NVMe s rychlostí sekvenčního čtení přesahující 3 000 MB/s pro rychlý přístup k datům.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "SSD disky NVMe Gen 3/4",
-            "1": "rychlost čtení 3 000+ MB/s",
-            "2": "Nízká latence I/O",
-            "3": "Redundance RAID"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Ochrana před útoky DDoS",
-          "description": "Zmírňování DDoS na podnikové úrovni udrží váš VPS online i během rozsáhlých útoků.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Filtrování ve vrstvě 3/4/7",
-            "1": "Automatizované čištění hran",
-            "2": "Nulové zmírnění prostojů",
-            "3": "Globální perzistentní organické znečišťující látky"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Vysokorychlostní síť",
-          "description": "1Gb/s uplink se směrováním s nízkou latencí pro optimální připojení, ať jsou uživatelé kdekoli.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
             "0": "1Gbps uplink",
-            "1": "Směrování s nízkou latencí",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Podpora IPv4 a IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Úplný přístup ke kořenovému systému",
-          "description": "Úplná kontrola nad prostředím serveru. Nainstalujte libovolný software, nakonfigurujte libovolnou službu a spusťte libovolný operační systém.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Úplný přístup SSH root",
-            "1": "Výběr distribuce Linuxu",
-            "2": "Virtualizace KVM",
-            "3": "Vlastní podpora ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "odborná podpora 24/7",
-          "description": "Náš tým je nepřetržitě k dispozici a pomůže vám s nastavením serveru, optimalizací a řešením problémů.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Podpora služby Discord",
-            "1": "Systém vstupenek",
-            "2": "Znalostní báze",
-            "3": "Pomoc při migraci serveru"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Získám k VPS plný root přístup?",
-          "answer": "Ano, všechny plány VPS AMD zahrnují plný přístup k účtu root přes SSH. Máte tak úplnou kontrolu nad prostředím serveru včetně operačního systému, softwaru a konfigurace."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Které operační systémy jsou k dispozici?",
-          "answer": "Podporujeme oblíbené distribuce Linuxu včetně Ubuntu, Debianu, CentOS, AlmaLinuxu a Rocky Linuxu. Můžete také nahrát vlastní ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Mohu svůj plán VPS později upgradovat?",
-          "answer": "Ano, svůj plán VPS můžete kdykoli upgradovat z našeho fakturačního panelu. Navýšení prostředků se provádí s minimálními prostoji."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Co se stane, když překročím limit šířky pásma?",
-          "answer": "U tarifů s měřeným tarifem vás upozorníme, než dosáhnete svého limitu. Kdykoli si můžete dokoupit další šířku pásma nebo přejít na tarif bez měření."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Je součástí ochrana proti DDoS?",
-          "answer": "Ano, všechny plány VPS AMD zahrnují zmírnění DDoS na podnikové úrovni. Ta chrání váš server před útoky na 3., 4. a 7. vrstvě s nulovou dobou výpadku."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Nabízíte vrácení peněz?",
-          "answer": "Ano, na všechny nové nákupy VPS nabízíme 48hodinovou záruku vrácení peněz. Kontaktujte podporu do 48 hodin od nákupu a získejte zpět peníze v plné výši."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     },
     "intel": {
-      "description": "Spolehlivé VPS KVM na podnikovém hardwaru Intel. Vynikající jednovláknový výkon pro webhosting, databáze a aplikační servery.",
-      "heroDescription": "Solidní VPS KVM na hardwaru Intel s úložištěm NVMe SSD, plným přístupem root a podnikovou ochranou proti DDoS. Nasazení během několika sekund.",
-      "tag": "Poháněno společností Intel",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "Podnikové procesory Intel",
-        "1": "Úložiště NVMe SSD",
-        "2": "Plný přístup root / SSH",
-        "3": "Ochrana před útoky DDoS"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Úplný přístup ke kořenovému systému",
-        "1": "Virtualizace KVM",
-        "2": "SSD NVMe",
-        "3": "Ochrana před útoky DDoS"
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
+        "2": "NVMe SSD",
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Jádro",
-          "description": "Ideální pro malé projekty a webhosting"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Skvělé pro výrobní aplikace"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Podnik",
-          "description": "Ideální pro služby s vysokou poptávkou"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Šířka pásma",
-        "bandwidthUnmetered": "Neměřená šířka pásma",
-        "ddos": "Ochrana před útoky DDoS",
-        "ipv4": "Vyhrazená adresa IPv4",
-        "rootAccess": "Úplný přístup ke kořenovému serveru / SSH",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
         "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Podnikový hardware Intel",
-          "description": "Postaven na hardwaru Intel podnikové třídy s vysokým jednovláknovým výkonem pro webové servery, databáze a aplikace.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise-grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Podnikové procesory Intel",
-            "1": "Silný jednovláknový výkon",
-            "2": "Velké velikosti mezipaměti",
-            "3": "Vysoké taktovací frekvence"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Úložiště NVMe SSD",
-          "description": "Ultrarychlé SSD úložiště NVMe s vysokým počtem IOPS a nízkou latencí pro aplikace náročné na vstupy a výstupy.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "SSD disky NVMe Gen 3/4",
-            "1": "Vysoký výkon IOPS",
-            "2": "Nízká latence I/O",
-            "3": "Redundance RAID"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Ochrana před útoky DDoS",
-          "description": "Zmírňování DDoS na podnikové úrovni udrží váš VPS online i během rozsáhlých útoků.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Filtrování ve vrstvě 3/4/7",
-            "1": "Automatizované čištění hran",
-            "2": "Nulové zmírnění prostojů",
-            "3": "Globální perzistentní organické znečišťující látky"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Vysokorychlostní síť",
-          "description": "1Gb/s uplink se směrováním s nízkou latencí pro optimální připojení, ať jsou uživatelé kdekoli.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
             "0": "1Gbps uplink",
-            "1": "Směrování s nízkou latencí",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Podpora IPv4 a IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Úplný přístup ke kořenovému systému",
-          "description": "Úplná kontrola nad prostředím serveru. Nainstalujte libovolný software, nakonfigurujte libovolnou službu a spusťte libovolný operační systém.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Úplný přístup SSH root",
-            "1": "Výběr distribuce Linuxu",
-            "2": "Virtualizace KVM",
-            "3": "Vlastní podpora ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "odborná podpora 24/7",
-          "description": "Náš tým je nepřetržitě k dispozici a pomůže vám s nastavením serveru, optimalizací a řešením problémů.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Podpora služby Discord",
-            "1": "Systém vstupenek",
-            "2": "Znalostní báze",
-            "3": "Pomoc při migraci serveru"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Získám k VPS plný root přístup?",
-          "answer": "Ano, všechny plány Intel VPS zahrnují plný přístup k účtu root přes SSH. Máte úplnou kontrolu nad prostředím serveru včetně operačního systému, softwaru a konfigurace."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Které operační systémy jsou k dispozici?",
-          "answer": "Podporujeme oblíbené distribuce Linuxu včetně Ubuntu, Debianu, CentOS, AlmaLinux a Rocky Linux. Můžete také nahrát vlastní ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Mohu svůj plán VPS později upgradovat?",
-          "answer": "Ano, svůj plán VPS můžete kdykoli upgradovat z našeho fakturačního panelu. Navýšení prostředků se provádí s minimálními prostoji."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Co se stane, když překročím limit šířky pásma?",
-          "answer": "U tarifů s měřeným tarifem vás upozorníme, než dosáhnete svého limitu. Kdykoli si můžete dokoupit další šířku pásma nebo přejít na tarif bez měření."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Je součástí ochrana proti DDoS?",
-          "answer": "Ano, všechny plány Intel VPS zahrnují zmírnění DDoS na podnikové úrovni. Ta chrání váš server před útoky na 3., 4. a 7. vrstvě s nulovou dobou výpadku."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Nabízíte vrácení peněz?",
-          "answer": "Ano, na všechny nové nákupy VPS nabízíme 48hodinovou záruku vrácení peněz. Kontaktujte podporu do 48 hodin od nákupu a získejte zpět peníze v plné výši."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     }

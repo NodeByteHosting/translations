@@ -36,26 +36,33 @@
       "title": "Hosting Hytale",
       "description": "Serwery Hytale z ochroną DDoS"
     },
-    "all": {
-      "title": "Wszystkie usługi",
-      "description": "Odkryj wszystkie nasze usługi hostingowe"
-    },
     "gameServers": {
-      "title": "Serwery gier",
-      "description": "Przeglądaj wszystkie opcje hostingu gier"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Wysokowydajne serwery wirtualne zasilane przez AMD"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Niezawodne serwery wirtualne z procesorami Intel"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "Serwery VPS",
-      "description": "Przeglądaj wszystkie opcje hostingu VPS"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -82,9 +89,9 @@
       "prefix": "KOD UŻYTKOWNIKA",
       "suffix": "NA TWOJEJ PIERWSZEJ ORDER!"
     },
-    "title": "Hosting gry",
+    "title": "Server Hosting",
     "titleHighlight": "Wykonano proste",
-    "description": "Szybki, niezawodny i bezpieczny hosting dla społeczności grających. Uruchom dedykowane serwery z natychmiastową konfiguracją, ochroną DDoS i obsługą 24/7.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Zacznij",
     "joinDiscord": "Dołącz do Discorda",
     "trustedBy": "Zaufały się społecznościami grającymi na całym świecie",
@@ -102,26 +109,26 @@
     "badge": "Infrastruktura",
     "title": "Zbudowane dla",
     "titleHighlight": "Efektywność",
-    "description": "Infrastruktura firmy z narzędziami przyjaznymi dla gracza. Natychmiastowe serwery, przekierowywanie niskich opóźnień i potężne sterowanie.",
+    "description": "Enterprise-grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Zobacz plany hostingu",
     "startingFrom": "Począwszy od",
     "items": {
       "ddos": {
         "title": "Ochrona DDoS",
-        "description": "Łagodzenie skutków dla przedsiębiorstw napędzane przez FyfeWeb z automatycznym oczyszczaniem, aby serwery były atakowane online.",
+        "description": "Enterprise-grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Ochrona sieci FyfeWeb",
+          "0": "Enterprise network protection",
           "1": "Automatyczne ograniczanie skali",
           "2": "Monitorowanie w czasie rzeczywistym"
         }
       },
       "latency": {
         "title": "Sieć o niskim opóźnieniu",
-        "description": "Zoptymalizowano trasy przez brytyjską sieć FyfeWeg z londyńskimi OPs do minimalnego pingu.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Średnie opóźnienie sub50ms",
-          "1": "Przekierowywanie oparte na Wielkiej Brytanii",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +141,12 @@
         }
       },
       "locations": {
-        "title": "Brytyjskie Centrum Danych",
-        "description": "Strategicznie zlokalizowany w Zjednoczonym Królestwie z londyńskimi programami operacyjnymi wspieranymi przez FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "Londyńskie TZO",
-          "1": "Sieć FyfeWeb",
-          "2": "Niskie opóźnienie brytyjskie"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +172,18 @@
   "about": {
     "badge": "Nasza Opowieść",
     "title": "Zbudowane przez graczy",
-    "titleHighlight": "dla graczy",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte zaczął być małą grupą graczy, którzy chcieli hostingu, który był szybki, niezawodny i łatwy w zarządzaniu. Doświadczyliśmy frustracji serwerów laggy i nieelastycznego wsparcia.",
-    "paragraph2": "Dlatego zbudowaliśmy infrastrukturę specjalnie dostosowaną do gier wieloosobowych: przekierowywanie niskich opóźnień, solidna ochrona DDoS i natychmiastowe zaopatrzenie serwera, dzięki czemu będziesz mógł szybko grać.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Dołącz do naszej społeczności",
     "values": {
       "players": {
-        "title": "Zbudowane dla Graczy",
-        "description": "Nasza infrastruktura priorytetuje przekierowywanie opóźnień, przewidywalną wydajność i silny czas pracy, tak aby twoje społeczności pozostały online i reagowały."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Wsparcie Społeczności i Moda",
-        "description": "Bezproblemowe instalowanie modów, wsparcie dla migawek i narzędzia społecznościowe, aby pomóc Ci w obsłudze zmodyfikowanych światów i trwałych serwerów przy minimalnym wysiłku."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Otwórz przez projekt",
@@ -185,12 +192,9 @@
     },
     "stats": {
       "uptime": "SLA czasu pracy",
-      "latency": "Śr. opóźnienie",
-      "support": "Wsparcie",
-      "servers": "Aktywne serwery",
-      "users": "Całkowita liczba użytkowników",
-      "activeUsers": "Aktywni użytkownicy",
-      "allocations": "Przydziały"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     }
   },
   "pricing": {
@@ -225,11 +229,11 @@
       },
       "ddos": {
         "question": "Czy oferujesz ochronę DDoS?",
-        "answer": "Tak, wszystkie plany obejmują łagodzenie DDoS klasy przedsiębiorstw napędzane przez FyfeWeb. Nasze londyńskie OPP zapewniają automatyczne filtrowanie i oczyszczanie na krawędzi sieci."
+        "answer": "Yes, all plans include enterprise-grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Gdzie znajdują się twoje centra danych?",
-        "answer": "Prowadzimy brytyjskie ośrodki danych z londyńskimi OP wspieranymi przez naszego partnera sieciowego FyfeWeb, zapewniając doskonały zasięg w całej Wielkiej Brytanii i Europie."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Czy mogę uruchomić modyfikacje i niestandardowe mapy?",
@@ -257,6 +261,11 @@
     "customSolution": "Potrzebujesz serwera gry, który nie jest na liście?",
     "contactUs": "Skontaktuj się z nami",
     "forCustom": "dla niestandardowych rozwiązań.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Hosting",
     "joinWaitlist": "Dołącz do listy oczekiwania",
     "minecraft": {
@@ -283,11 +292,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB przestrzeni dyskowej",
         "databases": "10 baz danych MySQL",
-        "ddos": "Ochrona FyfeWeb DDoS",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
         "jars": "Auto/wstępnie zainstalowane słoje",
         "uptime": "SLA z 99,6%"
@@ -305,22 +314,22 @@
         },
         "hardware": {
           "title": "Sprzęt o wysokiej wydajności",
-          "description": "Procesory AMD Ryzen o klasie przedsiębiorczej z magazynem NVMe przeznaczone do mieszania z szybką wydajnością.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "Pamięć NVMe SSD",
             "2": "DDR4 ECC memory",
-            "3": "Prędkość zegara do 4,8 GHz"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "Ochrona DDoS",
-          "description": "Ładowanie DDoS klasy Enterprise zasilane przez FyfeWeb utrzymuje Twój serwer online nawet podczas ataków.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Ochrona warstwy 3/4/7",
-            "1": "Filtrowanie sieci FyfeWeb",
+            "1": "Enterprise network filtering",
             "2": "Ograniczanie zerowego czasu przestoju",
-            "3": "UK London POPs"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -405,11 +414,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}GB przestrzeni SSD",
-        "ddos": "Ochrona FyfeWeb DDoS",
-        "location": "Newcastle, Zjednoczone Królestwo",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 baz danych MySQL",
         "panel": "BytePanel (Game Panel)",
         "oxide": "Obsługiwane utlenianie/modyfikacje",
@@ -439,9 +448,9 @@
         },
         "performance": {
           "title": "Wysoka wydajność",
-          "description": "Rust wymaga potężnego sprzętu. Nasze serwery używają najnowszych procesorów AMD Ryzen i pamięci NVMe.",
+          "description": "Rust demands powerful hardware. Our servers use high-performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "Pamięć NVMe SSD",
             "2": "Wysoka wydajność pojedynczego wątku",
             "3": "Tworzenie sieci o niskim opóźnieniu"
@@ -449,10 +458,10 @@
         },
         "ddos": {
           "title": "Ochrona DDoS",
-          "description": "Łagodzenie DDoS klasy firmy FyfeWeb, poprzez brytyjskie OPP chroni Twój serwer przed atakami 24/7.",
+          "description": "Enterprise-grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "Filtrowanie sieci FyfeWeb",
-            "1": "UK London POPs",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Ochrona warstwy 3/4/7",
             "3": "Zero czasu przestoju"
           }
@@ -506,19 +515,14 @@
       }
     },
     "hytale": {
-      "description": "Serwer Hytale już wkrótce! Dołącz do naszego Discorda, aby uzyskać szybki dostęp i aktualizacje.",
-      "tag": "W rozwoju",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Obsługa modyfikacji",
         "1": "Niestandardowe mapy",
         "2": "Łatwa konfiguracja",
         "3": "Wsparcie 24/7"
       }
-    },
-    "vpsCta": {
-      "title": "Potrzebujesz również hostingu VPS?",
-      "description": "Pełny dostęp root, pamięć masowa NVMe SSD i ochrona DDoS klasy korporacyjnej. Do wyboru są serwery wirtualne z procesorami AMD lub Intel.",
-      "button": "Zobacz plany VPS"
     }
   },
   "gamePage": {
@@ -570,7 +574,7 @@
     "copyFailedDesc": "Nie udało się skopiować do schowka",
     "discord": {
       "title": "Społeczność Discorda",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Dołącz do naszej społeczności dla natychmiastowego wsparcia, ogłoszeń i czatu z innymi użytkownikami.",
       "button": "Dołącz do Discorda",
       "features": {
         "0": "Natychmiastowe odpowiedzi",
@@ -617,7 +621,7 @@
     }
   },
   "footer": {
-    "tagline": "Szybkie, niezawodne, skalowalne i bezpieczne usługi hostingowe dla Twojego doświadczenia w grze. Zbudowane dla ludzi. Wspierane przez Bajty.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Dotknij",
     "emailUs": "Wyślij do nas",
     "support": "Wsparcie",
@@ -633,20 +637,16 @@
       "maintenance": "W trakcie konserwacji"
     },
     "services": {
-      "minecraftHosting": "Hosting Minecraft",
-      "rustHosting": "Hosting Rust",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Panel gry",
-      "clientArea": "Obszar klienta",
-      "gameServers": "Hosting gier",
-      "vpsServers": "Hosting VPS",
-      "vpsPanel": "Panel VPS"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Serwer Discorda",
       "serviceStatus": "Status usługi",
       "knowledgeBase": "Baza wiedzy",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Panel rozliczeniowy"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Regulamin",
@@ -680,7 +680,7 @@
     "description": "Bądź na bieżąco z najnowszymi wersjami, funkcjami i ulepszeniami we wszystkich projektach NodeByte.",
     "searchPlaceholder": "Szukaj wydań...",
     "filters": {
-      "all": "All",
+      "all": "Wszystkie repozytoria",
       "allTypes": "Wszystkie typy",
       "feature": "Funkcja",
       "bugfix": "Napraw błąd",
@@ -701,7 +701,7 @@
     },
     "empty": {
       "title": "Nie znaleziono wydań",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Spróbuj dostosować wyszukiwanie lub filtry, aby znaleźć to, czego szukasz.",
       "clearFilters": "Wyczyść filtry"
     },
     "loading": {
@@ -710,7 +710,7 @@
     },
     "error": {
       "title": "Nie udało się załadować wydań",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Wystąpił błąd podczas pobierania wydań. Spróbuj ponownie później.",
       "retry": "Spróbuj ponownie"
     },
     "stats": {
@@ -802,6 +802,11 @@
     "description": "Wysoko wydajny hosting serwera gier z natychmiastową konfiguracją, potężnym panelem sterowania i obsługą ekspertów 24/7.",
     "startingAt": "Począwszy od"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Ładowanie",
     "pagination": "stronicowanie",
@@ -819,8 +824,8 @@
     "badge": "O NodeByte",
     "hero": {
       "title": "Zbudowane przez graczy",
-      "titleHighlight": "dla graczy",
-      "description": "NodeByte zaczął być małą grupą graczy, którzy chcieli hostingu, który był szybki, niezawodny i łatwy w zarządzaniu. Dziś zasilamy serwery gier na całym świecie.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Dołącz do naszej społeczności",
       "contactUs": "Skontaktuj się z nami"
     },
@@ -829,7 +834,7 @@
       "title": "Jak to wszystko zaczęło się",
       "paragraph1": "NodeByte urodziły się z frustracji. Jako sami luźni gracze doświadczyliśmy silnego bólu opóźnień serwerów, niereagowania i złożonych paneli sterowania, które sprawiły, że zarządzanie serwerem stało się koszmarem.",
       "paragraph2": "W 2024 roku podjęliśmy decyzję wystarczająco dużo. Zainstalowaliśmy zespół pasjonatów i doświadczonych inżynierów kupujących w jednym celu: stwórz platformę hostingu gry, którą zawsze chcieliśmy, istniało.",
-      "paragraph3": "Dziś NodeByte potęgują serwery gier na całym świecie. Nasze zadania pozostają jednak takie same: spraw, aby serwer gier był szybki, niezawodny i dostępny dla wszystkich."
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. But our mission remains the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Nasze wartości",
@@ -837,12 +842,12 @@
       "titleHighlight": "Staw na",
       "description": "Nasze podstawowe wartości kierują się wszystkim, co robimy, od decyzji dotyczących infrastruktury po wsparcie klientów.",
       "players": {
-        "title": "Zbudowane dla Graczy",
-        "description": "Nasza infrastruktura priorytetuje przekierowywanie opóźnień, przewidywalną wydajność i silny czas pracy, tak aby twoje społeczności pozostały online i reagowały."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Wsparcie Społeczności i Moda",
-        "description": "Bezproblemowe instalowanie modów, wsparcie dla migawek i narzędzia społecznościowe, aby pomóc Ci w obsłudze zmodyfikowanych światów i trwałych serwerów przy minimalnym wysiłku."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Otwórz przez projekt",
@@ -851,12 +856,9 @@
     },
     "stats": {
       "uptime": "SLA czasu pracy",
-      "latency": "Śr. opóźnienie",
-      "support": "Wsparcie",
-      "servers": "Aktywne serwery",
-      "users": "Całkowita liczba użytkowników",
-      "activeUsers": "Aktywni użytkownicy",
-      "allocations": "Przydziały"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Nasza podróż",
@@ -868,7 +870,7 @@
       },
       "growth": {
         "title": "Szybki wzrost",
-        "description": "Rozszerzona infrastruktura dzięki partnerstwu FyfeWeb, dodając przedsiębiorstwom ochronę DDoS i brytyjskie centra danych."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Rozszerzenie globalne",
@@ -879,7 +881,7 @@
       "badge": "Nasz zespół",
       "title": "Poznaj",
       "titleHighlight": "Drużyna",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "Pasjonują ludzi stojących za NodeByte, którzy niestrudzenie pracują w celu zapewnienia najlepszego doświadczenia z hostingiem.",
       "roles": {
         "founder": "Założyciel i wiodący programista"
       },
@@ -889,8 +891,8 @@
     },
     "cta": {
       "title": "Gotowy do rozpoczęcia?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Zobacz serwery gier",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Dołącz do Discorda"
     }
   },
@@ -902,10 +904,10 @@
     "quickLinks": "Szybkie linki",
     "links": {
       "home": "Strona główna",
-      "games": "Gry",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Baza wiedzy",
-      "contact": "Kontakt",
-      "vps": "Hosting VPS"
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
@@ -1056,28 +1058,186 @@
     },
     "userMenu": {
       "myAccount": "Moje konto",
+      "dashboard": "Dashboard",
       "viewPanel": "Zobacz panel",
       "admin": "Administrator",
       "logout": "Wyloguj się",
       "signIn": "Zaloguj się",
-      "loggingOut": "Wylogowywanie...",
-      "dashboard": "Pulpit nawigacyjny"
+      "loggingOut": "Wylogowywanie..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Panel administracyjny",
     "nav": {
       "dashboard": "Pulpit",
-      "users": "Użytkownicy",
-      "servers": "Serwery",
-      "sync": "Synchronizacja",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Ustawienia",
-      "backToSite": "Powrót do witryny",
-      "nodes": "Węzły serwera",
-      "locations": "Lokalizacje",
-      "allocations": "Przydziały",
-      "eggs": "Gniazda i jaja"
+      "backToSite": "Powrót do witryny"
     },
     "status": {
       "online": "System online"
@@ -1100,7 +1260,7 @@
     },
     "sync": {
       "status": "Status synchronizacji",
-      "lastSync": "Last Sync",
+      "lastSync": "Ostatnia synchronizacja",
       "never": "Nigdy",
       "idle": "Bezczynny",
       "syncing": "Synchronizacja...",
@@ -1108,23 +1268,23 @@
       "syncingTarget": "Synchronizuję dane {target} z panelu...",
       "complete": "complete",
       "runFull": "Uruchom pełną synchronizację",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Synchronizacja zakończona",
       "completed": "Pomyślnie zsynchronizowano dane {target}.",
       "error": "Synchronizacja nie powiodła się",
       "quickActions": "Akcje szybkiej synchronizacji",
       "quickActionsDescription": "Synchronizuj poszczególne typy danych z panelu Pterodaktylu.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Lokalizacje",
         "nodes": "Nodes",
         "allocations": "Przydziały",
         "nests": "Gniazda i Jajka",
         "servers": "Serwery",
         "databases": "Bazy danych",
-        "users": "Użytkownicy",
-        "full": "Pełna synchronizacja"
-      },
-      "started": "Synchronizacja rozpoczęta",
-      "running": "Synchronizacja danych z panelu. Może to chwilę potrwać."
+        "users": "Użytkownicy"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1359,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Serwery",
+      "description": "Przeglądaj i zarządzaj wszystkimi serwerami gry.",
       "stats": {
         "total": "Wszystkie serwery",
         "running": "Uruchamianie",
@@ -1250,8 +1410,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Ustawienia",
+      "description": "Skonfiguruj ustawienia systemowe i połączenia.",
       "save": "Zapisz zmiany",
       "saved": "Ustawienia zapisane",
       "savedDesc": "Twoje ustawienia zostały pomyślnie zapisane.",
@@ -1280,11 +1440,11 @@
         "url": "URL panelu",
         "apiKey": "Klucz API",
         "apiKeyNote": "Wprowadź swój klucz API panelu Pterodactyl do uwierzytelniania.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "Podstawowy adres URL interfejsu API Pterodactyl (zwykle panel URL + /api).",
-        "version": "Wersja panelu",
-        "apiKeyclient": "Klucz API klienta",
-        "apiKeyNoteclient": "Wprowadź klucz API klienta Pterodactyl. Jest on wymagany do synchronizacji danych serwera i użytkownika z API klienta."
+        "version": "Wersja panelu"
       },
       "crowdin": {
         "title": "Zarządzanie tłumaczeniami Crowdin",
@@ -1375,462 +1535,288 @@
       "discordSuggestion": "Dołącz do Discorda"
     }
   },
-  "servicesHome": {
-    "badge": "Co oferujemy",
-    "title": "Wszystko, czego potrzebujesz,",
-    "titleHighlight": "jedno miejsce",
-    "description": "Serwery gier i hosting VPS stworzone z myślą o wydajności. Błyskawiczna konfiguracja, ochrona DDoS i wsparcie ekspertów 24/7.",
-    "browsePlans": "Przeglądaj plany",
-    "startingFrom": "Od",
-    "customSolution": "Potrzebujesz czegoś, czego nie ma na liście?",
-    "contactUs": "Skontaktuj się z nami",
-    "forCustom": "a my znajdziemy odpowiednie rozwiązanie."
-  },
-  "vpsPage": {
-    "title": "Hosting VPS",
-    "description": "Wysokowydajne wirtualne serwery prywatne z pełnym dostępem root, pamięcią masową NVMe SSD, ochroną DDoS i wsparciem ekspertów 24/7.",
-    "startingAt": "Począwszy od"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Przegląd",
-      "servers": "Serwery",
-      "billing": "Fakturowanie",
-      "support": "Wsparcie",
-      "account": "Konto",
-      "backToSite": "Powrót do strony",
-      "gamePanel": "Panel gry",
-      "helpCenter": "Centrum pomocy"
-    },
-    "greeting": {
-      "morning": "Dzień dobry",
-      "afternoon": "Dzień dobry",
-      "evening": "Dobry wieczór"
-    },
-    "subtitle": "Oto, co dzieje się z serwerami",
-    "welcome": {
-      "title": "Witamy!",
-      "magicLinkSuccess": "Pomyślnie zalogowano się za pomocą magicznego łącza. Witamy na pulpicie nawigacyjnym!"
-    },
-    "stats": {
-      "totalServers": "Serwery ogółem",
-      "activeServers": "Aktywne serwery",
-      "accountBalance": "Saldo konta",
-      "openTickets": "Otwarte bilety",
-      "online": "online",
-      "activeDescription": "Obecnie uruchomiony",
-      "balanceDescription": "Dostępny kredyt",
-      "ticketsDescription": "Oczekiwanie na odpowiedź"
-    },
-    "actions": {
-      "openPanel": "Panel otwarty",
-      "newServer": "Nowy serwer"
-    },
-    "recentServers": {
-      "title": "Ostatnie serwery",
-      "description": "Ostatnio używane serwery",
-      "viewAll": "Wyświetl wszystko",
-      "empty": {
-        "title": "Nie ma jeszcze serwerów",
-        "description": "Nie masz jeszcze żadnych serwerów gier. Zacznij od stworzenia swojego pierwszego serwera.",
-        "action": "Utwórz serwer"
-      }
-    },
-    "quickActions": {
-      "title": "Szybkie akcje",
-      "minecraft": "Serwer Minecraft",
-      "minecraftDesc": "Wdrożenie nowego serwera Minecraft",
-      "rust": "Serwer Rust",
-      "rustDesc": "Wdrożenie nowego serwera Rust",
-      "support": "Bilet otwarty",
-      "supportDesc": "Uzyskaj pomoc od naszego zespołu",
-      "knowledgeBase": "Baza wiedzy",
-      "knowledgeBaseDesc": "Przeglądaj artykuły pomocy"
-    },
-    "servers": {
-      "title": "Moje serwery",
-      "description": "Zarządzanie i monitorowanie serwerów gier",
-      "status": {
-        "running": "Bieganie",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Rozpoczęcie",
-        "stopping": "Zatrzymanie",
-        "suspended": "Zawieszony",
-        "installing": "Instalacja"
-      },
-      "resources": {
-        "memory": "Pamięć",
-        "cpu": "CPU",
-        "disk": "Dysk"
-      },
-      "actions": {
-        "newServer": "Nowy serwer",
-        "refresh": "Odświeżanie",
-        "console": "Konsola",
-        "files": "Pliki",
-        "databases": "Bazy danych",
-        "openPanel": "Otwórz w panelu"
-      },
-      "filters": {
-        "searchPlaceholder": "Serwery wyszukiwania...",
-        "status": "Status",
-        "allStatuses": "Wszystkie statusy"
-      },
-      "pagination": {
-        "showing": "Wyświetlanie {from} do {to} z {total}",
-        "previous": "Poprzedni",
-        "next": "Następny"
-      },
-      "empty": {
-        "title": "Nie znaleziono serwerów",
-        "description": "Nie masz jeszcze żadnych serwerów gier. Stwórz swój pierwszy serwer, aby zacząć.",
-        "action": "Utwórz serwer"
-      }
-    },
-    "account": {
-      "title": "Ustawienia konta",
-      "description": "Zarządzanie profilem i ustawieniami zabezpieczeń",
-      "tabs": {
-        "profile": "Profil",
-        "security": "Bezpieczeństwo"
-      },
-      "profile": {
-        "overview": "Przegląd konta",
-        "overviewDescription": "Informacje o koncie i jego status",
-        "verified": "Zweryfikowano",
-        "unverified": "Niezweryfikowany",
-        "personalInfo": "Dane osobowe",
-        "personalInfoDescription": "Zaktualizuj swoje dane osobowe",
-        "firstName": "Imię",
-        "firstNamePlaceholder": "John",
-        "lastName": "Nazwisko",
-        "lastNamePlaceholder": "Doe",
-        "username": "Nazwa użytkownika",
-        "usernamePlaceholder": "johndoe",
-        "email": "Adres e-mail",
-        "emailNote": "Skontaktuj się z pomocą techniczną, aby zmienić adres e-mail",
-        "phoneNumber": "Numer telefonu",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Nazwa firmy",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "E-mail rozliczeniowy",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Zapisz zmiany",
-        "success": "Aktualizacja profilu",
-        "successDescription": "Twój profil został pomyślnie zaktualizowany.",
-        "error": "Aktualizacja nie powiodła się",
-        "errorDescription": "Nie udało się zaktualizować profilu. Spróbuj ponownie."
-      },
-      "security": {
-        "changePassword": "Zmień hasło",
-        "changePasswordDescription": "Zaktualizuj hasło, aby zapewnić bezpieczeństwo konta",
-        "currentPassword": "Bieżące hasło",
-        "newPassword": "Nowe hasło",
-        "confirmPassword": "Potwierdź nowe hasło",
-        "passwordRequirements": "Hasło musi składać się z co najmniej 8 znaków",
-        "updatePassword": "Zaktualizuj hasło",
-        "passwordMismatch": "Hasła nie pasują do siebie",
-        "passwordMismatchDescription": "Wprowadzone nowe hasła nie są zgodne.",
-        "passwordTooShort": "Zbyt krótkie hasło",
-        "passwordTooShortDescription": "Hasło musi składać się z co najmniej 8 znaków.",
-        "passwordChanged": "Zmieniono hasło",
-        "passwordChangedDescription": "Hasło zostało pomyślnie zaktualizowane.",
-        "error": "Aktualizacja nie powiodła się",
-        "errorDescription": "Nie udało się zaktualizować hasła. Spróbuj ponownie.",
-        "emailNotVerified": "Email nie został zweryfikowany",
-        "emailNotVerifiedDescription": "Twój adres e-mail nie został zweryfikowany.",
-        "resendVerification": "Wyślij ponownie weryfikacyjną wiadomość e-mail",
-        "accountInfo": "Informacje o koncie",
-        "accountInfoDescription": "Dodatkowe informacje o koncie",
-        "accountCreated": "Utworzone konto",
-        "lastLogin": "Ostatnie logowanie",
-        "accountId": "Identyfikator konta"
-      }
-    }
-  },
   "vps": {
-    "badge": "Serwery VPS",
-    "title": "Wybierz swój",
-    "titleHighlight": "Plan VPS",
-    "description": "W pełni kontrolowane wirtualne serwery prywatne oparte na sprzęcie klasy korporacyjnej. Dostęp root, pamięć masowa NVMe, ochrona DDoS i natychmiastowe wdrożenie.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
     "hosting": "Hosting",
-    "learnMore": "Dowiedz się więcej",
-    "viewPlans": "Wyświetl plany",
-    "customSolution": "Potrzebujesz niestandardowego rozwiązania VPS lub masz pytania?",
-    "contactUs": "Skontaktuj się z nami",
-    "forCustom": "a my znajdziemy odpowiednie rozwiązanie.",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
     "highlights": {
       "deploy": {
-        "title": "Natychmiastowe wdrożenie",
-        "description": "Serwer VPS jest dostarczany i gotowy w mniej niż 60 sekund po zakupie."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Pełny dostęp do roota",
-        "description": "Pełna kontrola nad serwerem z dostępem root SSH i wyborem systemu operacyjnego."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Sprzęt dla przedsiębiorstw",
-        "description": "Procesory klasy korporacyjnej z pamięcią masową NVMe SSD i pamięcią RAM ECC we wszystkich planach."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise-grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Wysokowydajny KVM VPS na sprzęcie AMD klasy korporacyjnej. Idealny do wymagających obciążeń, aplikacji internetowych i backendów gier.",
-      "heroDescription": "KVM VPS klasy korporacyjnej na sprzęcie AMD z pamięcią masową NVMe SSD, pełnym dostępem root i ochroną DDoS klasy korporacyjnej. Wdrożenie w kilka sekund.",
-      "tag": "Zasilany przez AMD",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise-grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "Procesory AMD klasy korporacyjnej",
-        "1": "Pamięć masowa NVMe SSD",
-        "2": "Pełny dostęp root / SSH",
-        "3": "Ochrona przed atakami DDoS"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Pełny dostęp do roota",
-        "1": "Wirtualizacja KVM",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "Ochrona przed atakami DDoS"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
           "name": "Starter",
-          "description": "Idealny do małych projektów i testowania"
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
           "name": "Standard",
-          "description": "Doskonałe rozwiązanie dla rozwijających się aplikacji"
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Wydajność",
-          "description": "Idealny do obciążeń o dużym natężeniu ruchu"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Przepustowość",
-        "bandwidthUnmetered": "Niezmierzona przepustowość",
-        "ddos": "Ochrona przed atakami DDoS",
-        "ipv4": "Dedykowany adres IPv4",
-        "rootAccess": "Pełny dostęp do roota / SSH",
-        "uptime": "99.9% Umowa SLA dotycząca dostępności"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Sprzęt AMD dla przedsiębiorstw",
-          "description": "Zasilany przez sprzęt AMD klasy korporacyjnej, zapewniający wyjątkową wydajność wielowątkową dla wymagających obciążeń.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise-grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "Procesory AMD klasy korporacyjnej",
-            "1": "Duża liczba rdzeni",
-            "2": "Duża pamięć podręczna L3",
-            "3": "Wysokie częstotliwości taktowania"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Pamięć masowa NVMe SSD",
-          "description": "Ultraszybka półprzewodnikowa pamięć masowa NVMe o prędkości sekwencyjnego odczytu przekraczającej 3000 MB/s zapewnia szybki dostęp do danych.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "Dyski SSD NVMe Gen 3/4",
-            "1": "prędkości odczytu ponad 3000 MB/s",
-            "2": "Niskie opóźnienia we/wy",
-            "3": "Nadmiarowość RAID"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Ochrona przed atakami DDoS",
-          "description": "Ochrona przed atakami DDoS klasy korporacyjnej utrzymuje VPS online nawet podczas ataków na dużą skalę.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Filtrowanie warstwy 3/4/7",
-            "1": "Zautomatyzowane szorowanie krawędzi",
-            "2": "Ograniczenie przestojów do zera",
-            "3": "Globalne TZO"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Szybka sieć",
-          "description": "łącze uplink o przepustowości 1 Gb/s z routingiem o niskich opóźnieniach zapewnia optymalną łączność niezależnie od tego, gdzie znajdują się użytkownicy.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "łącze uplink 1 Gb/s",
-            "1": "Routing o niskim opóźnieniu",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Obsługa protokołów IPv4 i IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Pełny dostęp do roota",
-          "description": "Pełna kontrola nad środowiskiem serwerowym. Zainstaluj dowolne oprogramowanie, skonfiguruj dowolną usługę i uruchom dowolny system operacyjny.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Pełny dostęp SSH root",
-            "1": "Wybierz dystrybucję systemu Linux",
-            "2": "Wirtualizacja KVM",
-            "3": "Niestandardowa obsługa ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "wsparcie ekspertów 24/7",
-          "description": "Nasz zespół jest dostępny przez całą dobę, aby pomóc w konfiguracji serwera, optymalizacji i rozwiązywaniu problemów.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Obsługa Discorda",
-            "1": "System biletów",
-            "2": "Baza wiedzy",
-            "3": "Pomoc w migracji serwera"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Czy otrzymam pełny dostęp root do mojego VPS?",
-          "answer": "Tak, wszystkie plany AMD VPS obejmują pełny dostęp root przez SSH. Masz pełną kontrolę nad środowiskiem serwera, w tym systemem operacyjnym, oprogramowaniem i konfiguracją."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Jakie systemy operacyjne są dostępne?",
-          "answer": "Obsługujemy popularne dystrybucje Linuksa, w tym Ubuntu, Debian, CentOS, AlmaLinux i Rocky Linux. Możesz również przesłać własne ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Czy mogę później ulepszyć mój plan VPS?",
-          "answer": "Tak, możesz uaktualnić swój plan VPS w dowolnym momencie z naszego panelu rozliczeniowego. Zwiększenie zasobów odbywa się przy minimalnym czasie przestoju."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Co się stanie, jeśli przekroczę limit przepustowości?",
-          "answer": "W przypadku planów taryfowych powiadomimy Cię przed osiągnięciem limitu. W każdej chwili możesz dokupić dodatkową przepustowość lub przejść na plan nielimitowany."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Czy ochrona DDoS jest wliczona w cenę?",
-          "answer": "Tak, wszystkie plany AMD VPS obejmują ochronę przed atakami DDoS klasy korporacyjnej. Chroni to serwer przed atakami warstwy 3, 4 i 7 z zerowym czasem przestoju."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Czy oferujecie zwrot pieniędzy?",
-          "answer": "Tak, oferujemy 48-godzinną gwarancję zwrotu pieniędzy na wszystkie nowe zakupy VPS. Skontaktuj się z pomocą techniczną w ciągu 48 godzin od zakupu, aby uzyskać pełny zwrot pieniędzy."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     },
     "intel": {
-      "description": "Niezawodny KVM VPS na sprzęcie Intel klasy korporacyjnej. Doskonała wydajność jednowątkowa dla hostingu WWW, baz danych i serwerów aplikacji.",
-      "heroDescription": "Solidny KVM VPS na sprzęcie Intel z pamięcią masową NVMe SSD, pełnym dostępem root i ochroną DDoS klasy korporacyjnej. Wdrożenie w kilka sekund.",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
       "tag": "Intel Powered",
       "features": {
-        "0": "Procesory Intel klasy korporacyjnej",
-        "1": "Pamięć masowa NVMe SSD",
-        "2": "Pełny dostęp root / SSH",
-        "3": "Ochrona przed atakami DDoS"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Pełny dostęp do roota",
-        "1": "Wirtualizacja KVM",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "Ochrona przed atakami DDoS"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Rdzeń",
-          "description": "Idealny do małych projektów i hostingu"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
-          "name": "Zawodowiec",
-          "description": "Doskonały do zastosowań produkcyjnych"
+          "name": "Pro",
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Przedsiębiorstwo",
-          "description": "Idealny dla usług o wysokim zapotrzebowaniu"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Przepustowość",
-        "bandwidthUnmetered": "Niezmierzona przepustowość",
-        "ddos": "Ochrona przed atakami DDoS",
-        "ipv4": "Dedykowany adres IPv4",
-        "rootAccess": "Pełny dostęp do roota / SSH",
-        "uptime": "99.9% Umowa SLA dotycząca dostępności"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Sprzęt Intel dla przedsiębiorstw",
-          "description": "Zbudowany na sprzęcie Intel klasy korporacyjnej z wysoką wydajnością jednowątkową dla serwerów internetowych, baz danych i aplikacji.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise-grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Procesory Intel klasy korporacyjnej",
-            "1": "Wysoka wydajność jednowątkowa",
-            "2": "Duże rozmiary pamięci podręcznej",
-            "3": "Wysokie częstotliwości taktowania"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Pamięć masowa NVMe SSD",
-          "description": "Ultraszybka półprzewodnikowa pamięć masowa NVMe zapewnia wysoką liczbę operacji wejścia/wyjścia na sekundę i niskie opóźnienia dla aplikacji intensywnie korzystających z operacji wejścia/wyjścia.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "Dyski SSD NVMe Gen 3/4",
-            "1": "Wysoka wydajność IOPS",
-            "2": "Niskie opóźnienia we/wy",
-            "3": "Nadmiarowość RAID"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Ochrona przed atakami DDoS",
-          "description": "Ochrona przed atakami DDoS klasy korporacyjnej utrzymuje VPS online nawet podczas ataków na dużą skalę.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Filtrowanie warstwy 3/4/7",
-            "1": "Zautomatyzowane szorowanie krawędzi",
-            "2": "Ograniczenie przestojów do zera",
-            "3": "Globalne TZO"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Szybka sieć",
-          "description": "łącze uplink o przepustowości 1 Gb/s z routingiem o niskich opóźnieniach zapewnia optymalną łączność niezależnie od tego, gdzie znajdują się użytkownicy.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "łącze uplink 1 Gb/s",
-            "1": "Routing o niskim opóźnieniu",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Obsługa protokołów IPv4 i IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Pełny dostęp do roota",
-          "description": "Pełna kontrola nad środowiskiem serwerowym. Zainstaluj dowolne oprogramowanie, skonfiguruj dowolną usługę i uruchom dowolny system operacyjny.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Pełny dostęp SSH root",
-            "1": "Wybierz dystrybucję systemu Linux",
-            "2": "Wirtualizacja KVM",
-            "3": "Niestandardowa obsługa ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "wsparcie ekspertów 24/7",
-          "description": "Nasz zespół jest dostępny przez całą dobę, aby pomóc w konfiguracji serwera, optymalizacji i rozwiązywaniu problemów.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Obsługa Discorda",
-            "1": "System biletów",
-            "2": "Baza wiedzy",
-            "3": "Pomoc w migracji serwera"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Czy otrzymam pełny dostęp root do mojego VPS?",
-          "answer": "Tak, wszystkie plany Intel VPS obejmują pełny dostęp root przez SSH. Masz pełną kontrolę nad środowiskiem serwera, w tym systemem operacyjnym, oprogramowaniem i konfiguracją."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Jakie systemy operacyjne są dostępne?",
-          "answer": "Obsługujemy popularne dystrybucje Linuksa, w tym Ubuntu, Debian, CentOS, AlmaLinux i Rocky Linux. Możesz również przesłać własne ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Czy mogę później ulepszyć mój plan VPS?",
-          "answer": "Tak, możesz uaktualnić swój plan VPS w dowolnym momencie z naszego panelu rozliczeniowego. Zwiększenie zasobów odbywa się przy minimalnym czasie przestoju."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Co się stanie, jeśli przekroczę limit przepustowości?",
-          "answer": "W przypadku planów taryfowych powiadomimy Cię przed osiągnięciem limitu. W każdej chwili możesz dokupić dodatkową przepustowość lub przejść na plan nielimitowany."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Czy ochrona DDoS jest wliczona w cenę?",
-          "answer": "Tak, wszystkie plany Intel VPS obejmują ochronę przed atakami DDoS klasy korporacyjnej. Chroni to serwer przed atakami warstwy 3, 4 i 7 z zerowym czasem przestoju."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Czy oferujecie zwrot pieniędzy?",
-          "answer": "Tak, oferujemy 48-godzinną gwarancję zwrotu pieniędzy na wszystkie nowe zakupy VPS. Skontaktuj się z pomocą techniczną w ciągu 48 godzin od zakupu, aby uzyskać pełny zwrot pieniędzy."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     }

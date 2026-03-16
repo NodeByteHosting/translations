@@ -36,26 +36,33 @@
       "title": "Hytale Hosting",
       "description": "Hytale-palvelimet joissa DDoS suojaus"
     },
-    "all": {
-      "title": "Kaikki Palvelut",
-      "description": "Tutustu kaikkiin hosting-palveluihimme"
-    },
     "gameServers": {
-      "title": "Pelipalvelimet",
-      "description": "Selaa kaikkia pelin hosting-vaihtoehtoja"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Suorituskykyiset AMD:n virtuaalipalvelimet"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Luotettavat Intel-käyttöjärjestelmällä varustetut virtuaalipalvelimet"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPS-palvelimet",
-      "description": "Selaa kaikkia VPS hosting vaihtoehtoja"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -82,9 +89,9 @@
       "prefix": "KÄYTÄ KOODI",
       "suffix": "OVAT ENSIMMÄINEN TIEDOSSI!"
     },
-    "title": "Pelin Palvelin",
+    "title": "Server Hosting",
     "titleHighlight": "Valmistettu Yksinkertaisesti",
-    "description": "Nopea, luotettava ja turvallinen hosting pelaamista yhteisöille. Käynnistä omistettu palvelimet pikaasetukset, DDoS suojaus ja 24/7 tuki.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Aloita Alusta",
     "joinDiscord": "Liity Discordiin",
     "trustedBy": "Luota peliyhteisöihin kaikkialla maailmassa",
@@ -102,26 +109,26 @@
     "badge": "Infrastruktuuri",
     "title": "Rakennettu kohteelle",
     "titleHighlight": "Suorituskyky",
-    "description": "Yritys-luokan infrastruktuuri, jossa on gamer-ystävällinen työkalu. Pikapalvelimet, matala latenssi reititys ja tehokas ohjaus.",
+    "description": "Enterprise-grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Näytä Hosting-suunnitelmat",
     "startingFrom": "Alkaen alkaen",
     "items": {
       "ddos": {
         "title": "DDoS Suojaus",
-        "description": "Yritysluokan lieventäminen powered by FyfeWeb automaattinen pesu pitää palvelimet verkossa hyökkäyksessä.",
+        "description": "Enterprise-grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "FyfeWeb verkon suojaus",
+          "0": "Enterprise network protection",
           "1": "Skaalaus automaattisesti",
           "2": "Reaaliaikainen seuranta"
         }
       },
       "latency": {
         "title": "Matalan Latenssin Verkko",
-        "description": "Optimoidut reitit FyfeWebin Ison-Britannian verkon kautta Lontoon POPs minimiin ping.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Sub50ms avg latenssi",
-          "1": "UK-pohjainen reititys",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +141,12 @@
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategisesti sijaitsee Yhdistyneessä kuningaskunnassa Lontoon POPs powered by FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "Lontoon POP-yhdisteet",
-          "1": "FyfeWeb verkko",
-          "2": "Yhdistyneen kuningaskunnan vähäinen latenssi"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +172,18 @@
   "about": {
     "badge": "Meidän Tarina",
     "title": "Rakenna pelaajien toimesta,",
-    "titleHighlight": "pelaajille",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte aloitti pienen joukon pelaajia ja ops insinöörejä, jotka halusivat hosting, joka oli nopea, luotettava ja helppo hallita. Olemme kokeneet turhautumista laggy servers ja reagoimaton tuki ensin.",
-    "paragraph2": "Siksi rakennettiin erityisesti moninpeliin sopiva infrastruktuuri : alhainen latenssi reititys, vankka DDoS suojaus, ja instant palvelimen varauksia, jotta voit saada pelaa nopeasti.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Liity Yhteisöömme",
     "values": {
       "players": {
-        "title": "Rakennettu pelaajille",
-        "description": "Infrastruktuurimme priorisoi alhaisen latenssireitityksen, ennustettavan suorituskyvyn ja vahvan käytettävyyden, jotta yhteisösi pysyvät verkossa ja reagoivina."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Yhteisön & Modien Tuki",
-        "description": "Saumaton modi asentaa, tilannekuvan tuki ja yhteisön työkalu, joiden avulla voit ajaa moderoituja maailmoja ja pysyviä palvelimia mahdollisimman vähän."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Avaa ulkoasun mukaan",
@@ -185,12 +192,9 @@
     },
     "stats": {
       "uptime": "Käyttöaika SLA",
-      "latency": "Keskim. Latenssi",
-      "support": "Tuki",
-      "servers": "Aktiiviset Palvelimet",
-      "users": "Käyttäjiä yhteensä",
-      "activeUsers": "Aktiiviset käyttäjät",
-      "allocations": "Määrärahat"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     }
   },
   "pricing": {
@@ -225,11 +229,11 @@
       },
       "ddos": {
         "question": "Tarjoatteko DDoS suojausta?",
-        "answer": "Kyllä, kaikki suunnitelmat sisältävät yritysluokan DDoS lieventäminen powered by FyfeWeb. Meidän Lontoon POPs tarjoaa automaattisen suodatus ja puhdistus verkon reunalla."
+        "answer": "Yes, all plans include enterprise-grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Missä ovat tietokeskuksenne?",
-        "answer": "Käytämme UK-pohjaisia datakeskuksia London POPs powered by our network partner FyfeWeb, joka tarjoaa erinomaisen kattavuuden kaikkialla Yhdistyneessä kuningaskunnassa ja Euroopassa."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Voinko ajaa modeja ja mukautettuja karttoja?",
@@ -257,6 +261,11 @@
     "customSolution": "Tarvitsetko pelipalvelimen, jota ei ole listattu?",
     "contactUs": "Ota yhteyttä",
     "forCustom": "mukautettuja ratkaisuja.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Palvelin",
     "joinWaitlist": "Liity Jonotuslistaan",
     "minecraft": {
@@ -283,11 +292,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} Gt Tallennustila",
         "databases": "10 MySQL-tietokantaa",
-        "ddos": "FyfeWeb DDoS Suojaus",
+        "ddos": "DDoS Protection",
         "panel": "BytePaneeli",
         "jars": "Automaattinen/Esiasennetut purkit",
         "uptime": "99,6% Uptime SLA"
@@ -305,22 +314,22 @@
         },
         "hardware": {
           "title": "Korkean Suorituskyvyn Laitteisto",
-          "description": "Yritysluokan AMD Ryzen prosessorit, joissa on NVMe-tallennustila nopeaa suorituskykyä varten.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 Suorittimet",
+            "0": "High performance CPUs",
             "1": "NVMe SSD tallennustila",
             "2": "DDR4 ECC memory",
-            "3": "Enintään 4,8GHz kellotaajuus"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "DDoS Suojaus",
-          "description": "Enterprise grade DDoS lieventäminen powered by FyfeWeb pitää palvelimen verkossa jopa hyökkäyksissä.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Tason 3/4/7 suojaus",
-            "1": "FyfeWeb-verkon suodatus",
+            "1": "Enterprise network filtering",
             "2": "Nollaa seisokkien vähentämistä",
-            "3": "UK London POPs"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -405,11 +414,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}Gt Ssd Tallennustila",
-        "ddos": "FyfeWeb DDoS Suojaus",
-        "location": "Newcastle, Yhdistynyt Kuningaskunta",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL-tietokantaa",
         "panel": "BytePanel (nimipaneeli)",
         "oxide": "Tuetut Happi/Umod",
@@ -439,9 +448,9 @@
         },
         "performance": {
           "title": "Korkea Suorituskyky",
-          "description": "Rust vaatii tehokkaita laitteita. Palvelimemme käyttävät uusinta AMD Ryzen -suoritinta ja NVMe -tallennustilaa.",
+          "description": "Rust demands powerful hardware. Our servers use high-performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 Suorittimet",
+            "0": "High performance CPUs",
             "1": "NVMe SSD tallennustila",
             "2": "Korkea yksisuuntainen suorituskyky",
             "3": "Matalan latenssin verkostoituminen"
@@ -449,10 +458,10 @@
         },
         "ddos": {
           "title": "DDoS Suojaus",
-          "description": "FyfeWebin yritysluokan DDoS hillitseminen UK London POPs suojaa palvelinta hyökkäyksiltä 24/7.",
+          "description": "Enterprise-grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "FyfeWeb-verkon suodatus",
-            "1": "UK London POPs",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Tason 3/4/7 suojaus",
             "3": "Nolla seisokkeja"
           }
@@ -506,19 +515,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale palvelin hosting tulossa pian! Liity Discordiin saadaksesi varhaisen pääsyn ja päivitykset.",
-      "tag": "Kehitystyössä",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Modin tuki",
         "1": "Mukautetut kartat",
         "2": "Helppo konfigurointi",
         "3": "24/7 tuki"
       }
-    },
-    "vpsCta": {
-      "title": "Tarvitsetko myös VPS-hostingia?",
-      "description": "Täysi pääkäyttäjäoikeus, NVMe SSD -tallennus ja DDoS-suojaus. Valitse AMD- tai Intel-käyttöjärjestelmällä varustettu virtuaalipalvelin.",
-      "button": "Näytä VPS-paketit"
     }
   },
   "gamePage": {
@@ -570,7 +574,7 @@
     "copyFailedDesc": "Kopiointi leikepöydälle epäonnistui",
     "discord": {
       "title": "Discord-yhteisö",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Liity yhteisöömme saadaksesi välittömän tuen, ilmoitukset ja juttele muiden käyttäjien kanssa.",
       "button": "Liity Discordiin",
       "features": {
         "0": "Välittömät vastaukset",
@@ -617,7 +621,7 @@
     }
   },
   "footer": {
-    "tagline": "Nopeat, luotettavat, skaalautuvat ja turvalliset hosting-palvelut pelikokemuksellesi. Rakennettu ihmisille. Powered by Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Hanki kosketus",
     "emailUs": "Lähetä Meille Sähköpostia",
     "support": "Tuki",
@@ -633,20 +637,16 @@
       "maintenance": "Kunnossapidon Alla"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Pelin Paneeli",
-      "clientArea": "Asiakkaan Alue",
-      "gameServers": "Pelin isännöinti",
-      "vpsServers": "VPS-hosting",
-      "vpsPanel": "VPS-paneeli"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discord-palvelin",
       "serviceStatus": "Palvelun Tila",
       "knowledgeBase": "Tietämyskanta",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Laskutuspaneeli"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Ehdot Ja Ehdot",
@@ -680,7 +680,7 @@
     "description": "Pysy ajan tasalla uusimmista julkaisuista, ominaisuuksista ja parannuksista kaikissa NodeByte projekteissa.",
     "searchPlaceholder": "Hae julkaisuja...",
     "filters": {
-      "all": "All",
+      "all": "Kaikki Repot",
       "allTypes": "Kaikki Tyypit",
       "feature": "Ominaisuus",
       "bugfix": "Vian Korjaus",
@@ -701,7 +701,7 @@
     },
     "empty": {
       "title": "Julkaisuja ei löytynyt",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Yritä muuttaa hakuasi tai suodattimiasi löytääksesi etsimäsi.",
       "clearFilters": "Tyhjennä Suodattimet"
     },
     "loading": {
@@ -710,7 +710,7 @@
     },
     "error": {
       "title": "Julkaisujen lataaminen epäonnistui",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Julkaisujen haussa tapahtui virhe. Yritä myöhemmin uudelleen.",
       "retry": "Yritä Uudelleen"
     },
     "stats": {
@@ -802,6 +802,11 @@
     "description": "Korkean suorituskyvyn pelipalvelimen isännöinti pikaasetuksella, tehokkaalla ohjauspaneelilla ja 24/7 asiantuntijatuella.",
     "startingAt": "Aloitetaan klo"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Ladataan",
     "pagination": "sivutus",
@@ -819,8 +824,8 @@
     "badge": "Tietoja NodeByte",
     "hero": {
       "title": "Rakenna pelaajien toimesta,",
-      "titleHighlight": "pelaajille",
-      "description": "NodeByte aloitti pienen joukon pelaajia ja ops insinöörejä, jotka halusivat hosting, joka oli nopea, luotettava ja helppo hallita. Tänään, me valtapeli palvelimia maailmanlaajuisesti.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Liity Yhteisöömme",
       "contactUs": "Ota Yhteyttä"
     },
@@ -829,7 +834,7 @@
       "title": "Miten Kaikki Alkoi",
       "paragraph1": "NodeByte syntyi turhautuneisuudesta. Kuten innokas pelaajat itse, koimme ensin kivun laggy serverit, reagoimaton tuki, ja monimutkaisia ohjauspaneelit, jotka tekivät palvelimen hallinta painajainen.",
       "paragraph2": "Vuonna 2024 päätimme tarpeeksi. Koottiin joukko intohimoisia pelaajia ja kokeneita ops insinöörejä yksi tavoite: rakentaa peli hosting foorumi me aina toivoimme.",
-      "paragraph3": "Tänään, NodeByte valtuuttaa peli palvelimia ympäri maailmaa. Mutta tehtävämme on edelleen sama: tehdä pelipalvelimen hosting nopea, luotettava, ja kaikkien saatavilla."
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. But our mission remains the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Meidän Arvot",
@@ -837,12 +842,12 @@
       "titleHighlight": "Seisokaa",
       "description": "Keskeiset arvomme ohjaavat kaikkea mitä teemme, infrastruktuuripäätöksistä aina asiakastukeen.",
       "players": {
-        "title": "Rakennettu pelaajille",
-        "description": "Infrastruktuurimme priorisoi alhaisen latenssireitityksen, ennustettavan suorituskyvyn ja vahvan käytettävyyden, jotta yhteisösi pysyvät verkossa ja reagoivina."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Yhteisön & Modien Tuki",
-        "description": "Saumaton modi asentaa, tilannekuvan tuki ja yhteisön työkalu, joiden avulla voit ajaa moderoituja maailmoja ja pysyviä palvelimia mahdollisimman vähän."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Avaa ulkoasun mukaan",
@@ -851,12 +856,9 @@
     },
     "stats": {
       "uptime": "Käyttöaika SLA",
-      "latency": "Keskim. Latenssi",
-      "support": "Tuki",
-      "servers": "Aktiiviset Palvelimet",
-      "users": "Käyttäjiä yhteensä",
-      "activeUsers": "Aktiiviset käyttäjät",
-      "allocations": "Määrärahat"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Meidän Matkamme",
@@ -868,7 +870,7 @@
       },
       "growth": {
         "title": "Nopea Kasvu",
-        "description": "Laajennettu infrastruktuuri FyfeWeb-kumppanuus, lisäämällä yrityksen DDoS suoja ja UK datakeskukset."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Yleinen Laajennus",
@@ -879,7 +881,7 @@
       "badge": "Tiimimme",
       "title": "Tapaa",
       "titleHighlight": "Tiimi",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "NodeByten takana olevat intohimoiset ihmiset, jotka väsymättä tekevät työtä tarjotakseen parhaan hosting-kokemuksen.",
       "roles": {
         "founder": "Perustaja & Johtava Kehittäjä"
       },
@@ -889,8 +891,8 @@
     },
     "cta": {
       "title": "Oletko valmis aloittamaan?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Näytä Pelipalvelimet",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Liity Discordiin"
     }
   },
@@ -902,10 +904,10 @@
     "quickLinks": "Nopeat Linkit",
     "links": {
       "home": "Koti",
-      "games": "Pelit",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Tietämyskanta",
-      "contact": "Yhteystieto",
-      "vps": "VPS-hosting"
+      "contact": "Yhteystieto"
     }
   },
   "errorPage": {
@@ -1056,28 +1058,186 @@
     },
     "userMenu": {
       "myAccount": "Oma Tili",
+      "dashboard": "Dashboard",
       "viewPanel": "Näytä Paneeli",
       "admin": "Ylläpitäjä",
       "logout": "Kirjaudu Ulos",
       "signIn": "Kirjaudu Sisään",
-      "loggingOut": "Kirjaudutaan ulos...",
-      "dashboard": "Kojelauta"
+      "loggingOut": "Kirjaudutaan ulos..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Ylläpito Paneeli",
     "nav": {
       "dashboard": "Hallintapaneeli",
-      "users": "Käyttäjät",
-      "servers": "Palvelimet",
-      "sync": "Synkronointi",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Asetukset",
-      "backToSite": "Takaisin sivustolle",
-      "nodes": "Palvelinsolmut",
-      "locations": "Toimipaikat",
-      "allocations": "Määrärahat",
-      "eggs": "Pesät ja munat"
+      "backToSite": "Takaisin sivustolle"
     },
     "status": {
       "online": "Järjestelmä Verkossa"
@@ -1100,7 +1260,7 @@
     },
     "sync": {
       "status": "Synkronoinnin Tila",
-      "lastSync": "Last Sync",
+      "lastSync": "Viimeisin synkronointi",
       "never": "Ei Koskaan",
       "idle": "Jouten",
       "syncing": "Synkronoi...",
@@ -1108,23 +1268,23 @@
       "syncingTarget": "Synkronoidaan {target} dataa paneelista...",
       "complete": "complete",
       "runFull": "Suorita Täysi Synkronointi",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Synkronointi Valmis",
       "completed": "{target} datan synkronointi onnistui.",
       "error": "Synkronointi Epäonnistui",
       "quickActions": "Nopea Synkronointi Toiminnot",
       "quickActionsDescription": "Synkronoi Pterodactyl -paneelin yksittäiset tietotyypit.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Sijainnit",
         "nodes": "Nodes",
         "allocations": "Määrärahat",
         "nests": "Nisät Ja Munat",
         "servers": "Palvelimet",
         "databases": "Tietokannat",
-        "users": "Käyttäjät",
-        "full": "Täysi synkronointi"
-      },
-      "started": "Synkronointi aloitettu",
-      "running": "Paneelin tietojen synkronointi. Tämä voi kestää hetken."
+        "users": "Käyttäjät"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1359,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Palvelimet",
+      "description": "Tarkastele ja hallitse kaikkia pelipalvelimia.",
       "stats": {
         "total": "Palvelimet Yhteensä",
         "running": "Käynnissä",
@@ -1250,8 +1410,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Asetukset",
+      "description": "Määritä järjestelmän asetukset ja yhteydet.",
       "save": "Tallenna Muutokset",
       "saved": "Asetukset Tallennettu",
       "savedDesc": "Asetukset on tallennettu onnistuneesti.",
@@ -1280,11 +1440,11 @@
         "url": "Paneelin URL",
         "apiKey": "Api Avain",
         "apiKeyNote": "Syötä Pterodactyl paneelin API avain todentamiseen.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "Pterodactyl API:n perusosoite (yleensä paneelin URL + /api).",
-        "version": "Paneelin Versio",
-        "apiKeyclient": "Asiakkaan API-avain",
-        "apiKeyNoteclient": "Syötä Pterodactyl-asiakkaan API-avain. Tätä tarvitaan palvelin- ja käyttäjätietojen synkronointiin asiakas-API:stä."
+        "version": "Paneelin Versio"
       },
       "crowdin": {
         "title": "Crowdin Käännösten Hallinta",
@@ -1375,462 +1535,288 @@
       "discordSuggestion": "Liity Discordiin"
     }
   },
-  "servicesHome": {
-    "badge": "Mitä me tarjoamme",
-    "title": "Kaikki mitä tarvitset,",
-    "titleHighlight": "yksi paikka",
-    "description": "Pelipalvelimet ja VPS-hosting, jotka on rakennettu suorituskykyä varten. Välitön asennus, DDoS-suojaus ja 24/7 asiantuntijatuki.",
-    "browsePlans": "Selaa suunnitelmia",
-    "startingFrom": "Osoitteesta",
-    "customSolution": "Tarvitsetko jotain, mitä emme ole listanneet?",
-    "contactUs": "Ota yhteyttä",
-    "forCustom": "ja me löydämme sopivan vaihtoehdon."
-  },
-  "vpsPage": {
-    "title": "VPS-hosting",
-    "description": "Suorituskykyiset virtuaaliset yksityispalvelimet, joissa on täysi pääkäyttäjäoikeus, NVMe SSD -tallennus, DDoS-suojaus ja 24/7-asiantuntijatuki.",
-    "startingAt": "Alkaen"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Yleiskatsaus",
-      "servers": "Palvelimet",
-      "billing": "Laskutus",
-      "support": "Tuki",
-      "account": "Tili",
-      "backToSite": "Takaisin sivustolle",
-      "gamePanel": "Peli-paneeli",
-      "helpCenter": "Ohjekeskus"
-    },
-    "greeting": {
-      "morning": "Hyvää huomenta",
-      "afternoon": "Hyvää iltapäivää",
-      "evening": "Hyvää iltaa"
-    },
-    "subtitle": "Palvelimillesi tapahtuu seuraavaa",
-    "welcome": {
-      "title": "Tervetuloa!",
-      "magicLinkSuccess": "Olet onnistuneesti kirjautunut sisään maagisella linkilläsi. Tervetuloa kojelautaan!"
-    },
-    "stats": {
-      "totalServers": "Palvelimet yhteensä",
-      "activeServers": "Aktiiviset palvelimet",
-      "accountBalance": "Tilin saldo",
-      "openTickets": "Avoimet liput",
-      "online": "online",
-      "activeDescription": "Tällä hetkellä käynnissä",
-      "balanceDescription": "Käytettävissä oleva luotto",
-      "ticketsDescription": "Odotetaan vastausta"
-    },
-    "actions": {
-      "openPanel": "Avoin paneeli",
-      "newServer": "Uusi palvelin"
-    },
-    "recentServers": {
-      "title": "Viimeisimmät palvelimet",
-      "description": "Viimeksi käytetyt palvelimet",
-      "viewAll": "Näytä kaikki",
-      "empty": {
-        "title": "Ei palvelimia vielä",
-        "description": "Sinulla ei ole vielä yhtään pelipalvelinta. Aloita luomalla ensimmäinen palvelimesi.",
-        "action": "Luo palvelin"
-      }
-    },
-    "quickActions": {
-      "title": "Pikatoiminnot",
-      "minecraft": "Minecraft-palvelin",
-      "minecraftDesc": "Uuden Minecraft-palvelimen käyttöönotto",
-      "rust": "Rust-palvelin",
-      "rustDesc": "Uuden Rust-palvelimen käyttöönotto",
-      "support": "Avoin lippu",
-      "supportDesc": "Hanki apua tiimiltämme",
-      "knowledgeBase": "Tietopohja",
-      "knowledgeBaseDesc": "Selaa ohjeartikkeleita"
-    },
-    "servers": {
-      "title": "Palvelimeni",
-      "description": "Hallitse ja valvo pelipalvelimia",
-      "status": {
-        "running": "Running",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Alkaen",
-        "stopping": "Pysäyttäminen",
-        "suspended": "Keskeytetty",
-        "installing": "Asennus"
-      },
-      "resources": {
-        "memory": "Muisti",
-        "cpu": "CPU",
-        "disk": "Levy"
-      },
-      "actions": {
-        "newServer": "Uusi palvelin",
-        "refresh": "Päivitä",
-        "console": "Konsoli",
-        "files": "Tiedostot",
-        "databases": "Tietokannat",
-        "openPanel": "Avaa paneelissa"
-      },
-      "filters": {
-        "searchPlaceholder": "Etsi palvelimia...",
-        "status": "Tila",
-        "allStatuses": "Kaikki tilat"
-      },
-      "pagination": {
-        "showing": "Näytetään {from}:n {to}:n {total}:n {to}:lle",
-        "previous": "Edellinen",
-        "next": "Seuraava"
-      },
-      "empty": {
-        "title": "Palvelimia ei löytynyt",
-        "description": "Sinulla ei ole vielä yhtään pelipalvelinta. Luo ensimmäinen palvelimesi päästäksesi alkuun.",
-        "action": "Luo palvelin"
-      }
-    },
-    "account": {
-      "title": "Tilin asetukset",
-      "description": "Hallitse profiiliasi ja suojausasetuksiasi",
-      "tabs": {
-        "profile": "Profiili",
-        "security": "Turvallisuus"
-      },
-      "profile": {
-        "overview": "Tilin yleiskatsaus",
-        "overviewDescription": "Tilisi tiedot ja tila",
-        "verified": "Vahvistettu",
-        "unverified": "Vahvistamaton",
-        "personalInfo": "Henkilökohtaiset tiedot",
-        "personalInfoDescription": "Päivitä henkilötietosi",
-        "firstName": "Etunimi",
-        "firstNamePlaceholder": "John",
-        "lastName": "Sukunimi",
-        "lastNamePlaceholder": "Doe",
-        "username": "Käyttäjätunnus",
-        "usernamePlaceholder": "johndoe",
-        "email": "Sähköpostiosoite",
-        "emailNote": "Ota yhteyttä asiakaspalveluun vaihtaaksesi sähköpostiosoitteesi",
-        "phoneNumber": "Puhelinnumero",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Yrityksen nimi",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Laskutus sähköpostiosoite",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Tallenna muutokset",
-        "success": "Profiili päivitetty",
-        "successDescription": "Profiilisi on päivitetty onnistuneesti.",
-        "error": "Päivitys epäonnistui",
-        "errorDescription": "Profiilin päivittäminen epäonnistui. Yritä uudelleen."
-      },
-      "security": {
-        "changePassword": "Vaihda salasana",
-        "changePasswordDescription": "Päivitä salasanasi, jotta tilisi pysyy turvassa",
-        "currentPassword": "Nykyinen salasana",
-        "newPassword": "Uusi salasana",
-        "confirmPassword": "Vahvista uusi salasana",
-        "passwordRequirements": "Salasanan on oltava vähintään 8 merkkiä",
-        "updatePassword": "Päivitä salasana",
-        "passwordMismatch": "Salasanat eivät täsmää",
-        "passwordMismatchDescription": "Syöttämäsi uudet salasanat eivät täsmää.",
-        "passwordTooShort": "Salasana liian lyhyt",
-        "passwordTooShortDescription": "Salasanan on oltava vähintään 8 merkkiä pitkä.",
-        "passwordChanged": "Salasana muutettu",
-        "passwordChangedDescription": "Salasanasi on päivitetty onnistuneesti.",
-        "error": "Päivitys epäonnistui",
-        "errorDescription": "Salasanan päivittäminen epäonnistui. Yritä uudelleen.",
-        "emailNotVerified": "Sähköposti ei vahvistettu",
-        "emailNotVerifiedDescription": "Sähköpostiosoitettasi ei ole vahvistettu.",
-        "resendVerification": "Lähetä vahvistussähköposti uudelleen",
-        "accountInfo": "Tilin tiedot",
-        "accountInfoDescription": "Lisätietoja tilistäsi",
-        "accountCreated": "Tili luotu",
-        "lastLogin": "Viimeisin kirjautuminen",
-        "accountId": "Tilin tunnus"
-      }
-    }
-  },
   "vps": {
-    "badge": "VPS-palvelimet",
-    "title": "Valitse",
-    "titleHighlight": "VPS-suunnitelma",
-    "description": "Yrityslaitteiston käyttämät, täysin hallittavissa olevat virtuaaliset yksityiset palvelimet. Root-käyttöoikeus, NVMe-tallennus, DDoS-suojaus ja välitön käyttöönotto.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
     "hosting": "Hosting",
-    "learnMore": "Lue lisää",
-    "viewPlans": "Näytä suunnitelmat",
-    "customSolution": "Tarvitsetko mukautetun VPS-ratkaisun tai onko sinulla kysyttävää?",
-    "contactUs": "Ota yhteyttä",
-    "forCustom": "ja me löydämme sopivan vaihtoehdon.",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
     "highlights": {
       "deploy": {
-        "title": "Välitön käyttöönotto",
-        "description": "VPS-palvelimesi on käyttöönotettu ja valmis alle 60 sekunnissa oston jälkeen."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Täysi pääsy juuriin",
-        "description": "Täydellinen hallinta palvelimellesi SSH-oikeuksilla ja valitsemallasi käyttöjärjestelmällä."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Yrityslaitteisto",
-        "description": "Yritystason prosessorit, NVMe SSD -tallennus ja ECC RAM-muisti kaikissa suunnitelmissa."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise-grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Suorituskykyinen KVM VPS yrityksen AMD-laitteistolla. Ihanteellinen vaativiin työtehtäviin, verkkosovelluksiin ja pelien taustajärjestelmiin.",
-      "heroDescription": "Yritystason KVM VPS AMD-laitteistolla, jossa on NVMe SSD -tallennus, täysi pääkäyttäjäoikeus ja DDoS-suojaus. Ota käyttöön sekunneissa.",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise-grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
       "tag": "AMD Powered",
       "features": {
-        "0": "AMD:n yritysprosessorit",
-        "1": "NVMe SSD-tallennus",
-        "2": "Täydellinen pääkäyttäjän / SSH-käyttöoikeus",
-        "3": "DDoS-suojaus"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Täysi pääsy juuriin",
-        "1": "KVM-virtualisointi",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-suojaus"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "Käynnistin",
-          "description": "Täydellinen pieniin projekteihin ja testaukseen"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
-          "name": "Standardi",
-          "description": "Sopii erinomaisesti kasvaviin sovelluksiin"
+          "name": "Standard",
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Suorituskyky",
-          "description": "Ihanteellinen suuren liikennemäärän työmäärille"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
-        "ram": "{amount} GB DDR4 ECC-MUISTIA",
+        "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Kaistanleveys",
-        "bandwidthUnmetered": "Mittaamaton kaistanleveys",
-        "ddos": "DDoS-suojaus",
-        "ipv4": "Kiinteä IPv4-osoite",
-        "rootAccess": "Täysi Root / SSH-käyttöoikeus",
-        "uptime": "99.9 % käytettävyys SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Yritysten AMD-laitteisto",
-          "description": "Yritystason AMD-laitteisto tarjoaa poikkeuksellisen monisäikeisen suorituskyvyn vaativiin työtehtäviin.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise-grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "AMD:n yritysprosessorit",
-            "1": "Korkea ydinlukumäärä",
-            "2": "Suuri L3-välimuisti",
-            "3": "Korkeat kellotaajuudet"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-tallennustila",
-          "description": "Erittäin nopea NVMe-tallennustietokanta, jonka peräkkäinen lukunopeus on yli 3 000 MB/s nopeaa tiedonsaantia varten.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-levyt",
-            "1": "3,000+ MB/s lukunopeus",
-            "2": "Alhainen viive I/O",
-            "3": "RAID-redundanssi"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-suojaus",
-          "description": "Yritystason DDoS-suojaus pitää VPS-palvelimesi verkossa myös laajamittaisten hyökkäysten aikana.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Kerroksen 3/4/7 suodatus",
-            "1": "Automatisoitu reunojen pesu",
-            "2": "Nollakatkosten vähentäminen",
-            "3": "Globaalit POP-yhdisteet"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Suurnopeusverkko",
-          "description": "1 Gbps:n nousulinkki ja matalan viiveen reititys optimaalista yhteyttä varten, missä tahansa käyttäjät ovatkin.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps uplink",
-            "1": "Matala viiveinen reititys",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "IPv4- ja IPv6-tuki"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Täysi pääsy juuriin",
-          "description": "Palvelinympäristön täydellinen hallinta. Asenna mikä tahansa ohjelmisto, määritä mikä tahansa palvelu ja käytä mitä tahansa käyttöjärjestelmää.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Täysi SSH-käyttäjäoikeus",
-            "1": "Valitse Linux-distro",
-            "2": "KVM-virtualisointi",
-            "3": "Mukautettu ISO-tuki"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 asiantuntijatuki",
-          "description": "Tiimimme on käytettävissä ympäri vuorokauden ja auttaa palvelimen asennuksessa, optimoinnissa ja vianmäärityksessä.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Discord-tuki",
-            "1": "Lippujärjestelmä",
-            "2": "Tietopohja",
-            "3": "Apua palvelimen siirtymiseen"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Saanko täyden pääkäyttäjäoikeuden VPS:ääni?",
-          "answer": "Kyllä, kaikki AMD:n VPS-paketit sisältävät täyden pääkäyttäjäoikeuden SSH:n kautta. Sinulla on täysi hallintaoikeus palvelinympäristöösi, mukaan lukien käyttöjärjestelmä, ohjelmistot ja kokoonpano."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Mitä käyttöjärjestelmiä on saatavilla?",
-          "answer": "Tuemme suosittuja Linux-jakeluja, kuten Ubuntua, Debiania, CentOSia, AlmaLinuxia ja Rocky Linuxia. Voit myös ladata oman mukautetun ISO:n."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Voinko päivittää VPS-pakettini myöhemmin?",
-          "answer": "Kyllä, voit päivittää VPS-pakettisi milloin tahansa laskutuspaneelistamme. Resurssien lisäykset toteutetaan minimaalisella seisokkiajalla."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Mitä tapahtuu, jos kaistanleveysraja ylittyy?",
-          "answer": "Mittaroitujen pakettien osalta ilmoitamme sinulle, ennen kuin saavutat rajasi. Voit milloin tahansa ostaa lisää kaistanleveyttä tai päivittää mittaroimattomaan suunnitelmaan."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Sisältyykö DDoS-suojaus?",
-          "answer": "Kyllä, kaikki AMD:n VPS-paketit sisältävät yritystason DDoS-suojauksen. Tämä suojaa palvelimesi Layer 3, 4 ja 7 -hyökkäyksiltä nollapudotuksen avulla."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Tarjoatteko hyvityksiä?",
-          "answer": "Kyllä, tarjoamme 48 tunnin rahat takaisin -takuun kaikille uusille VPS-ostoksille. Ota yhteyttä asiakaspalveluun 48 tunnin kuluessa ostosta ja saat täyden hyvityksen."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     },
     "intel": {
-      "description": "Luotettava KVM VPS Intelin yrityslaitteistolla. Erinomainen yhden säikeen suorituskyky web-hostingille, tietokannoille ja sovelluspalvelimille.",
-      "heroDescription": "Intel-laitteistolla varustettu vankka KVM-VPS, jossa on NVMe SSD -tallennus, täysi pääkäyttäjäoikeus ja DDoS-suojaus. Ota käyttöön sekunneissa.",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
       "tag": "Intel Powered",
       "features": {
-        "0": "Intelin yritysprosessorit",
-        "1": "NVMe SSD-tallennus",
-        "2": "Täydellinen pääkäyttäjän / SSH-käyttöoikeus",
-        "3": "DDoS-suojaus"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Täysi pääsy juuriin",
-        "1": "KVM-virtualisointi",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-suojaus"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Ydin",
-          "description": "Täydellinen pieniin projekteihin ja web-hostingiin"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Soveltuu erinomaisesti tuotantosovelluksiin"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Yritys",
-          "description": "Ihanteellinen korkean kysynnän palveluille"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
-        "ram": "{amount} GB DDR4 ECC-MUISTIA",
+        "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Kaistanleveys",
-        "bandwidthUnmetered": "Mittaamaton kaistanleveys",
-        "ddos": "DDoS-suojaus",
-        "ipv4": "Kiinteä IPv4-osoite",
-        "rootAccess": "Täysi Root / SSH-käyttöoikeus",
-        "uptime": "99.9 % käytettävyys SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Enterprise Intel -laitteisto",
-          "description": "Rakennettu yritystason Intel-laitteistoon, jossa on vahva yhden säikeen suorituskyky verkkopalvelimille, tietokannoille ja sovelluksille.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise-grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Intelin yritysprosessorit",
-            "1": "Vahva yhden säikeen suorituskyky",
-            "2": "Suuret välimuistin koot",
-            "3": "Korkeat kellotaajuudet"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-tallennustila",
-          "description": "Äärimmäisen nopea NVMe-tallennustietokone, joka tarjoaa suuria IOPS-arvoja ja alhaisen viiveen I/O-intensiivisille sovelluksille.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-levyt",
-            "1": "Korkea IOPS-suorituskyky",
-            "2": "Alhainen viive I/O",
-            "3": "RAID-redundanssi"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-suojaus",
-          "description": "Yritystason DDoS-suojaus pitää VPS-palvelimesi verkossa myös laajamittaisten hyökkäysten aikana.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Kerroksen 3/4/7 suodatus",
-            "1": "Automatisoitu reunojen pesu",
-            "2": "Nollakatkosten vähentäminen",
-            "3": "Globaalit POP-yhdisteet"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Suurnopeusverkko",
-          "description": "1 Gbps:n nousulinkki ja matalan viiveen reititys optimaalista yhteyttä varten, missä tahansa käyttäjät ovatkin.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps uplink",
-            "1": "Matala viiveinen reititys",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "IPv4- ja IPv6-tuki"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Täysi pääsy juuriin",
-          "description": "Palvelinympäristön täydellinen hallinta. Asenna mikä tahansa ohjelmisto, määritä mikä tahansa palvelu ja käytä mitä tahansa käyttöjärjestelmää.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Täysi SSH-käyttäjäoikeus",
-            "1": "Valitse Linux-distro",
-            "2": "KVM-virtualisointi",
-            "3": "Mukautettu ISO-tuki"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 asiantuntijatuki",
-          "description": "Tiimimme on käytettävissä ympäri vuorokauden ja auttaa palvelimen asennuksessa, optimoinnissa ja vianmäärityksessä.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Discord-tuki",
-            "1": "Lippujärjestelmä",
-            "2": "Tietopohja",
-            "3": "Apua palvelimen siirtymiseen"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Saanko täyden pääkäyttäjäoikeuden VPS:ääni?",
-          "answer": "Kyllä, kaikki Intelin VPS-paketit sisältävät täyden pääkäyttäjäoikeuden SSH:n kautta. Sinulla on täysi hallintaoikeus palvelinympäristöösi, mukaan lukien käyttöjärjestelmä, ohjelmistot ja kokoonpano."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Mitä käyttöjärjestelmiä on saatavilla?",
-          "answer": "Tuemme suosittuja Linux-jakeluja, kuten Ubuntua, Debiania, CentOSia, AlmaLinuxia ja Rocky Linuxia. Voit myös ladata oman mukautetun ISO:n."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Voinko päivittää VPS-pakettini myöhemmin?",
-          "answer": "Kyllä, voit päivittää VPS-pakettisi milloin tahansa laskutuspaneelistamme. Resurssien lisäykset toteutetaan minimaalisella seisokkiajalla."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Mitä tapahtuu, jos kaistanleveysraja ylittyy?",
-          "answer": "Mittaripaketeissa ilmoitamme sinulle, ennen kuin saavutat rajasi. Voit milloin tahansa ostaa lisää kaistanleveyttä tai päivittää mittaroimattomaan suunnitelmaan."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Sisältyykö DDoS-suojaus?",
-          "answer": "Kyllä, kaikki Intelin VPS-paketit sisältävät yritystason DDoS-suojauksen. Tämä suojaa palvelimesi Layer 3, 4 ja 7 -hyökkäyksiltä nollapudotuksen avulla."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Tarjoatteko hyvityksiä?",
-          "answer": "Kyllä, tarjoamme 48 tunnin rahat takaisin -takuun kaikille uusille VPS-ostoksille. Ota yhteyttä asiakaspalveluun 48 tunnin kuluessa ostosta ja saat täyden hyvityksen."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     }

@@ -36,26 +36,33 @@
       "title": "Хостинг Hytale",
       "description": "Серверы Hytale с защитой DDoS"
     },
-    "all": {
-      "title": "Все сервисы",
-      "description": "Изучите все наши услуги хостинга"
-    },
     "gameServers": {
-      "title": "Игровые серверы",
-      "description": "Просмотреть все варианты размещения игр"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Высокопроизводительные виртуальные серверы на базе AMD"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Надежные виртуальные серверы на базе Intel"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "Серверы VPS",
-      "description": "Просмотреть все варианты VPS-хостинга"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -82,9 +89,9 @@
       "prefix": "ИСПОЛЬЗОВАТЬ КОД",
       "suffix": "НА ВАШЕМ ПЕРВЫЙ ОРДЕ!"
     },
-    "title": "Хостинг игры",
+    "title": "Server Hosting",
     "titleHighlight": "Простой",
-    "description": "Быстрый, надежный и безопасный хостинг для ваших игровых сообществ. Запустите выделенные серверы с мгновенной установкой, защитой DDoS и круглосуточной поддержкой.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Начать работу",
     "joinDiscord": "Присоединиться к Discord",
     "trustedBy": "Доверие игровых сообществ по всему миру",
@@ -102,26 +109,26 @@
     "badge": "Инфраструктура",
     "title": "Создано для",
     "titleHighlight": "Производительность",
-    "description": "Инфраструктура корпоративного класса с удобным в игре инструментальным оборудованием.",
+    "description": "Enterprise-grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Планы хостинга",
     "startingFrom": "Начиная с",
     "items": {
       "ddos": {
         "title": "Защита DDoS",
-        "description": "Смягчение корпоративного уровня при помощи FyfeWeb с автоматическим скрубом, чтобы держать серверы в режиме онлайн под атакой.",
+        "description": "Enterprise-grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Защита сети FyfeWeb",
+          "0": "Enterprise network protection",
           "1": "Автомасштабирование",
           "2": "Мониторинг в реальном времени"
         }
       },
       "latency": {
         "title": "Сеть с низкой задержкой",
-        "description": "Оптимизированные маршруты через сеть FyfeWeb's UK с СОЗ для минимального пинга.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Под50 мс средней задержки",
-          "1": "Маршрутизация в Великобритании",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +141,12 @@
         }
       },
       "locations": {
-        "title": "Центры данных Великобритании",
-        "description": "Стратегически расположен в Соединенном Королевстве с СОЗ Лондона при поддержке FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "Лондонские POPs",
-          "1": "FyfeWeb сеть",
-          "2": "Низкая задержка покрытия Великобритании"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +172,18 @@
   "about": {
     "badge": "Наша история",
     "title": "Построено геймерами,",
-    "titleHighlight": "для игроков",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte начал свою деятельность как небольшая группа геймеров и инженеров ops, которые хотели хостинг, который был быстрым, надежным и легко управляемым. Мы испытывали разочарование отсталых серверов и безотзывную поддержку фирмы.",
-    "paragraph2": "Вот почему мы создали инфраструктуру, настроенную специально для игры в мультиплеер: низкая задержка, маршрутизация надежная защита DDoS и мгновенная подготовка к серверу, чтобы вы могли быстро играть.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Присоединяйтесь к нашему сообществу",
     "values": {
       "players": {
-        "title": "Создано для игроков",
-        "description": "Наша инфраструктура приоритизирует низкий маршрут задержки, предсказуемую производительность и сильное время ожидания для того, чтобы ваши сообщества оставались в сети и реагировали."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Сообщество и поддержка модов",
-        "description": "Установки модов, поддержка снимков и утилита сообщества, которые помогут вам запускать модные миры и постоянные серверы с минимальными усилиями."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Открыть по дизайну",
@@ -185,12 +192,9 @@
     },
     "stats": {
       "uptime": "Аптайм SLA",
-      "latency": "Средняя Задержка",
-      "support": "Поддержка",
-      "servers": "Активные серверы",
-      "users": "Всего пользователей",
-      "activeUsers": "Активные пользователи",
-      "allocations": "Распределение"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     }
   },
   "pricing": {
@@ -225,11 +229,11 @@
       },
       "ddos": {
         "question": "Вы предлагаете защиту DDoS?",
-        "answer": "Да, все планы включают в себя утилизацию DDoS на предприятии FyfeWeb."
+        "answer": "Yes, all plans include enterprise-grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Где находятся ваши дата-центры?",
-        "answer": "Мы работаем на базе британских центров обработки данных с лондонскими СОЗ при поддержке нашего сетевого партнера FyfeWeb, что обеспечивает отличный охват по всей Великобритании и Европе."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Могу ли я запускать моды и пользовательские карты?",
@@ -257,6 +261,11 @@
     "customSolution": "Нужен игровой сервер, которого нет в списке?",
     "contactUs": "Свяжитесь с нами",
     "forCustom": "для пользовательских решений.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Хостинг",
     "joinWaitlist": "Присоединиться к Очереди",
     "minecraft": {
@@ -283,11 +292,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} ГБ хранилища",
         "databases": "10 баз данных MySQL",
-        "ddos": "Защита от FyfeWeb DDoS",
+        "ddos": "DDoS Protection",
         "panel": "Байт-Панель",
         "jars": "Авто/Предварительно установленные jars",
         "uptime": "99,6% выше SLA"
@@ -305,22 +314,22 @@
         },
         "hardware": {
           "title": "Высокопроизводительное оборудование",
-          "description": "Корпоративный класс процессоров AMD Ryzen с накопителем NVMe для быстрой производительности.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "NVMe SSD накопитель",
             "2": "DDR4 ECC memory",
-            "3": "Скорость до 4,8 ГГц"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "Защита DDoS",
-          "description": "Смягчение DDoS корпоративного уровня на основе FyfeWeb обеспечивает ваш сервер онлайн даже во время атаки.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Защита уровня 3/4/7",
-            "1": "Фильтрация сети FyfeWeb",
+            "1": "Enterprise network filtering",
             "2": "Уменьшение времени простоя",
-            "3": "СОЗ в Лондоне"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -405,11 +414,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}ГБ SSD хранилища",
-        "ddos": "Защита от FyfeWeb DDoS",
-        "location": "Newcastle, United Kingdom",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 баз данных MySQL",
         "panel": "BytePanel (панель)",
         "oxide": "Окисл/Umod поддерживается",
@@ -439,9 +448,9 @@
         },
         "performance": {
           "title": "Высокая производительность",
-          "description": "Rust требует мощного оборудования. Наши серверы используют последние процессоры AMD Ryzen и NVMe хранилища.",
+          "description": "Rust demands powerful hardware. Our servers use high-performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "NVMe SSD накопитель",
             "2": "Высокая однопоточная производительность",
             "3": "Сеть с низкой задержкой"
@@ -449,10 +458,10 @@
         },
         "ddos": {
           "title": "Защита DDoS",
-          "description": "Смягчение DDoS на предприятии FyfeWeb, используя СОЗ в Великобритании Лондоне, защищает ваш сервер от атак 24/7.",
+          "description": "Enterprise-grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "Фильтрация сети FyfeWeb",
-            "1": "СОЗ в Лондоне",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Защита уровня 3/4/7",
             "3": "Нулевое время понижения"
           }
@@ -506,19 +515,14 @@
       }
     },
     "hytale": {
-      "description": "Сервер Hytale скоро будет размещен! Присоединяйтесь к нашему Discord, чтобы получить ранний доступ и обновления.",
-      "tag": "В разработке",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Поддержка модов",
         "1": "Пользовательские карты",
         "2": "Простая конфигурация",
         "3": "Поддержка 24/7"
       }
-    },
-    "vpsCta": {
-      "title": "Также нужен VPS-хостинг?",
-      "description": "Полный root-доступ, SSD-хранилище NVMe и корпоративная защита от DDoS. Выбирайте виртуальные серверы на базе AMD или Intel.",
-      "button": "Посмотреть планы VPS"
     }
   },
   "gamePage": {
@@ -570,7 +574,7 @@
     "copyFailedDesc": "Не удалось скопировать в буфер обмена",
     "discord": {
       "title": "Сообщество Discord",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Присоединяйтесь к нашему сообществу для мгновенной поддержки, объявлений и общения с другими пользователями.",
       "button": "Присоединиться к Discord",
       "features": {
         "0": "Мгновенные ответы",
@@ -617,7 +621,7 @@
     }
   },
   "footer": {
-    "tagline": "Быстрое, надежное, масштабируемое и безопасное хостинг для вашего игрового опыта. Строительство для людей. Работает на байтах.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Присоединиться",
     "emailUs": "Напишите нам",
     "support": "Поддержка",
@@ -633,20 +637,16 @@
       "maintenance": "При обслуживании"
     },
     "services": {
-      "minecraftHosting": "Хостинг Minecraft",
-      "rustHosting": "Хостинг Ржавчины",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Панель игр",
-      "clientArea": "Клиентская область",
-      "gameServers": "Хостинг игр",
-      "vpsServers": "VPS-хостинг",
-      "vpsPanel": "Панель VPS"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Сервер Discord",
       "serviceStatus": "Состояние сервиса",
       "knowledgeBase": "База знаний",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Биллинговая панель"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Условия использования",
@@ -680,7 +680,7 @@
     "description": "Будьте в курсе последних версий, функций и улучшений во всех проектах NodeByte.",
     "searchPlaceholder": "Поиск релизов...",
     "filters": {
-      "all": "All",
+      "all": "Все репозитории",
       "allTypes": "Все типы",
       "feature": "Функция",
       "bugfix": "Исправление ошибок",
@@ -701,7 +701,7 @@
     },
     "empty": {
       "title": "Релизы не найдены",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Попробуйте изменить поиск или фильтры, чтобы найти то, что вы ищете.",
       "clearFilters": "Очистить фильтры"
     },
     "loading": {
@@ -710,7 +710,7 @@
     },
     "error": {
       "title": "Не удалось загрузить релизы",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Произошла ошибка при получении релизов. Пожалуйста, повторите попытку позже.",
       "retry": "Попробовать ещё раз"
     },
     "stats": {
@@ -802,6 +802,11 @@
     "description": "Высокопроизводительный хостинг игрового сервера с мгновенной установкой, мощной панелью управления и круглосуточной поддержкой экспертов.",
     "startingAt": "Начиная с"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Загрузка",
     "pagination": "пагинация",
@@ -819,8 +824,8 @@
     "badge": "О NodeByte",
     "hero": {
       "title": "Построено геймерами,",
-      "titleHighlight": "для игроков",
-      "description": "NodeByte начал свою деятельность как небольшая группа геймеров и инженеров ops, которые хотели хостинг, который был быстрым, надежным и легко управляемым. Сегодня мы управляем игровыми серверами по всему миру.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Присоединяйтесь к нашему сообществу",
       "contactUs": "Свяжитесь с нами"
     },
@@ -829,7 +834,7 @@
       "title": "Как все началось",
       "paragraph1": "NodeByte родился от разочарования. Будучи зловещими геймерами, мы сами испытывали на себе боль с медленными серверами, несанкционированной поддержкой и сложными панелями управления, которые сделали управление сервером кошмаром.",
       "paragraph2": "В 2024 году мы решили, что достаточно. Мы собрали команду страстных геймеров и опытных инженеров с одной целью: создать хостинг-платформу для игр мы всегда хотели.",
-      "paragraph3": "Сегодня NodeByte powers - игровые серверы по всему миру, но наша миссия остается прежним: сделать хостинг игрового сервера быстрым, надежным и доступным для всех."
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. But our mission remains the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Наши ценности",
@@ -837,12 +842,12 @@
       "titleHighlight": "Стоит для",
       "description": "Наши основные ценности определяют все, что мы делаем, от решения по инфраструктуре до поддержки клиентов.",
       "players": {
-        "title": "Создано для игроков",
-        "description": "Наша инфраструктура приоритизирует низкий маршрут задержки, предсказуемую производительность и сильное время ожидания для того, чтобы ваши сообщества оставались в сети и реагировали."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive — whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Сообщество и поддержка модов",
-        "description": "Установки модов, поддержка снимков и утилита сообщества, которые помогут вам запускать модные миры и постоянные серверы с минимальными усилиями."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Открыть по дизайну",
@@ -851,12 +856,9 @@
     },
     "stats": {
       "uptime": "Аптайм SLA",
-      "latency": "Средняя Задержка",
-      "support": "Поддержка",
-      "servers": "Активные серверы",
-      "users": "Всего пользователей",
-      "activeUsers": "Активные пользователи",
-      "allocations": "Распределение"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Наш Путешествие",
@@ -868,7 +870,7 @@
       },
       "growth": {
         "title": "Быстрый рост",
-        "description": "Расширенная инфраструктура с партнерством Fyfeweb, добавляя корпоративную DDoS защиту и центры обработки данных в Великобритании."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Глобальное расширение",
@@ -879,7 +881,7 @@
       "badge": "Наша команда",
       "title": "Встречайте",
       "titleHighlight": "Команда",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "Страстные люди за NodeByte, которые неустанно работают над тем, чтобы обеспечить лучший хостинг.",
       "roles": {
         "founder": "Основатель и ведущий разработчик"
       },
@@ -889,8 +891,8 @@
     },
     "cta": {
       "title": "Готовы начать?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Просмотр игровых серверов",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Присоединиться к Discord"
     }
   },
@@ -902,10 +904,10 @@
     "quickLinks": "Быстрые ссылки",
     "links": {
       "home": "Домашний",
-      "games": "Игры",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "База знаний",
-      "contact": "Контакт",
-      "vps": "VPS-хостинг"
+      "contact": "Контакт"
     }
   },
   "errorPage": {
@@ -1056,28 +1058,186 @@
     },
     "userMenu": {
       "myAccount": "Мой аккаунт",
+      "dashboard": "Dashboard",
       "viewPanel": "Просмотр панели",
       "admin": "Админ",
       "logout": "Выйти",
       "signIn": "Войти",
-      "loggingOut": "Выход...",
-      "dashboard": "Приборная панель"
+      "loggingOut": "Выход..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Панель администратора",
     "nav": {
       "dashboard": "Панель",
-      "users": "Пользователи",
-      "servers": "Серверы",
-      "sync": "Синхр.",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Настройки",
-      "backToSite": "Вернуться на сайт",
-      "nodes": "Узлы сервера",
-      "locations": "Места",
-      "allocations": "Распределение",
-      "eggs": "Гнезда и яйца"
+      "backToSite": "Вернуться на сайт"
     },
     "status": {
       "online": "Система онлайн"
@@ -1100,7 +1260,7 @@
     },
     "sync": {
       "status": "Состояние синхронизации",
-      "lastSync": "Last Sync",
+      "lastSync": "Последняя синхронизация",
       "never": "Никогда",
       "idle": "Простой",
       "syncing": "Синхронизация...",
@@ -1108,23 +1268,23 @@
       "syncingTarget": "Синхронизация данных {target} с панели...",
       "complete": "complete",
       "runFull": "Запустить полную синхронизацию",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Синхронизация завершена",
       "completed": "Данные {target} успешно синхронизированы.",
       "error": "Сбой синхронизации",
       "quickActions": "Действия Быстрой синхронизации",
       "quickActionsDescription": "Синхронизация отдельных типов данных с панели Pterodactyl.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Места",
         "nodes": "Nodes",
         "allocations": "Размещения",
         "nests": "Гнезда и яйца",
         "servers": "Серверы",
         "databases": "Базы данных",
-        "users": "Пользователи",
-        "full": "Полная синхронизация"
-      },
-      "started": "Начало синхронизации",
-      "running": "Синхронизация данных с панели. Это может занять некоторое время."
+        "users": "Пользователи"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1359,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Серверы",
+      "description": "Просмотр и управление игровыми серверами.",
       "stats": {
         "total": "Всего серверов",
         "running": "Выполняется",
@@ -1250,8 +1410,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Настройки",
+      "description": "Настройка системных настроек и подключений.",
       "save": "Сохранить изменения",
       "saved": "Настройки сохранены",
       "savedDesc": "Ваши настройки успешно сохранены.",
@@ -1280,11 +1440,11 @@
         "url": "URL панели",
         "apiKey": "Ключ API",
         "apiKeyNote": "Введите ваш API-ключ панели Pterodactyl для аутентификации.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "Базовый URL для Pterodactyl API (обычно панель URL + /api).",
-        "version": "Версия панели",
-        "apiKeyclient": "Ключ API клиента",
-        "apiKeyNoteclient": "Введите свой API-ключ клиента Pterodactyl. Он необходим для синхронизации данных сервера и пользователей с клиентским API."
+        "version": "Версия панели"
       },
       "crowdin": {
         "title": "Управление переводами Crowdin",
@@ -1375,462 +1535,288 @@
       "discordSuggestion": "Присоединиться к Discord"
     }
   },
-  "servicesHome": {
-    "badge": "Что мы предлагаем",
-    "title": "Все, что вам нужно,",
-    "titleHighlight": "одно место",
-    "description": "Игровые серверы и VPS-хостинг, созданные для повышения производительности. Мгновенная настройка, защита от DDoS-атак и круглосуточная поддержка специалистов.",
-    "browsePlans": "Просмотреть планы",
-    "startingFrom": "С сайта",
-    "customSolution": "Вам нужно что-то, чего нет в нашем списке?",
-    "contactUs": "Свяжитесь с нами",
-    "forCustom": "и мы подберем подходящий вариант."
-  },
-  "vpsPage": {
-    "title": "VPS-хостинг",
-    "description": "Высокопроизводительные виртуальные частные серверы с полным root-доступом, SSD-накопителями NVMe, защитой от DDoS-атак и круглосуточной экспертной поддержкой.",
-    "startingAt": "Начиная с"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Обзор",
-      "servers": "Серверы",
-      "billing": "Выставление счетов",
-      "support": "Поддержка",
-      "account": "Счет",
-      "backToSite": "Вернуться на сайт",
-      "gamePanel": "Игровая панель",
-      "helpCenter": "Центр помощи"
-    },
-    "greeting": {
-      "morning": "Доброе утро",
-      "afternoon": "Добрый день",
-      "evening": "Добрый вечер"
-    },
-    "subtitle": "Вот что происходит с вашими серверами",
-    "welcome": {
-      "title": "Добро пожаловать!",
-      "magicLinkSuccess": "Вы успешно вошли в систему, используя свою волшебную ссылку. Добро пожаловать на вашу приборную панель!"
-    },
-    "stats": {
-      "totalServers": "Всего серверов",
-      "activeServers": "Активные серверы",
-      "accountBalance": "Остаток на счете",
-      "openTickets": "Открытые билеты",
-      "online": "онлайн",
-      "activeDescription": "В настоящее время работает",
-      "balanceDescription": "Доступный кредит",
-      "ticketsDescription": "Ожидание ответа"
-    },
-    "actions": {
-      "openPanel": "Открытая панель",
-      "newServer": "Новый сервер"
-    },
-    "recentServers": {
-      "title": "Последние серверы",
-      "description": "Ваши серверы с последним доступом",
-      "viewAll": "Смотреть все",
-      "empty": {
-        "title": "Серверов пока нет",
-        "description": "У вас еще нет ни одного игрового сервера. Начните с создания своего первого сервера.",
-        "action": "Создать сервер"
-      }
-    },
-    "quickActions": {
-      "title": "Быстрые действия",
-      "minecraft": "Сервер Minecraft",
-      "minecraftDesc": "Разверните новый сервер Minecraft",
-      "rust": "Сервер Rust",
-      "rustDesc": "Развертывание нового сервера Rust",
-      "support": "Открытый билет",
-      "supportDesc": "Получите помощь от нашей команды",
-      "knowledgeBase": "База знаний",
-      "knowledgeBaseDesc": "Просмотр справочных статей"
-    },
-    "servers": {
-      "title": "Мои серверы",
-      "description": "Управление и мониторинг игровых серверов",
-      "status": {
-        "running": "Бег",
-        "online": "Онлайн",
-        "offline": "Offline",
-        "starting": "Начало",
-        "stopping": "Остановка",
-        "suspended": "Приостановлено",
-        "installing": "Установка"
-      },
-      "resources": {
-        "memory": "Память",
-        "cpu": "CPU",
-        "disk": "Диск"
-      },
-      "actions": {
-        "newServer": "Новый сервер",
-        "refresh": "Обновить",
-        "console": "Консоль",
-        "files": "Файлы",
-        "databases": "Базы данных",
-        "openPanel": "Открыть в панели"
-      },
-      "filters": {
-        "searchPlaceholder": "Поисковые серверы...",
-        "status": "Статус",
-        "allStatuses": "Все статусы"
-      },
-      "pagination": {
-        "showing": "Показывая {from} - {to} {total}",
-        "previous": "Предыдущий",
-        "next": "Следующий"
-      },
-      "empty": {
-        "title": "Серверы не найдены",
-        "description": "У вас еще нет ни одного игрового сервера. Создайте свой первый сервер, чтобы начать.",
-        "action": "Создать сервер"
-      }
-    },
-    "account": {
-      "title": "Настройки учетной записи",
-      "description": "Управление профилем и настройками безопасности",
-      "tabs": {
-        "profile": "Профиль",
-        "security": "Безопасность"
-      },
-      "profile": {
-        "overview": "Обзор счета",
-        "overviewDescription": "Информация о вашем счете и его состоянии",
-        "verified": "Проверено",
-        "unverified": "Непроверенные",
-        "personalInfo": "Личная информация",
-        "personalInfoDescription": "Обновите свои личные данные",
-        "firstName": "Имя",
-        "firstNamePlaceholder": "Джон",
-        "lastName": "Фамилия",
-        "lastNamePlaceholder": "Доу",
-        "username": "Имя пользователя",
-        "usernamePlaceholder": "johndoe",
-        "email": "Адрес электронной почты",
-        "emailNote": "Свяжитесь со службой поддержки, чтобы изменить свой адрес электронной почты",
-        "phoneNumber": "Номер телефона",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Название компании",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Электронная почта для выставления счетов",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Сохранить изменения",
-        "success": "Обновление профиля",
-        "successDescription": "Ваш профиль был успешно обновлен.",
-        "error": "Обновление не удалось",
-        "errorDescription": "Не удалось обновить ваш профиль. Пожалуйста, попробуйте еще раз."
-      },
-      "security": {
-        "changePassword": "Изменить пароль",
-        "changePasswordDescription": "Обновите пароль, чтобы обеспечить безопасность вашей учетной записи",
-        "currentPassword": "Текущий пароль",
-        "newPassword": "Новый пароль",
-        "confirmPassword": "Подтвердите новый пароль",
-        "passwordRequirements": "Пароль должен состоять не менее чем из 8 символов",
-        "updatePassword": "Обновить пароль",
-        "passwordMismatch": "Пароли не совпадают",
-        "passwordMismatchDescription": "Введенные вами новые пароли не совпадают.",
-        "passwordTooShort": "Слишком короткий пароль",
-        "passwordTooShortDescription": "Пароль должен состоять не менее чем из 8 символов.",
-        "passwordChanged": "Пароль изменен",
-        "passwordChangedDescription": "Ваш пароль был успешно обновлен.",
-        "error": "Обновление не удалось",
-        "errorDescription": "Не удалось обновить пароль. Пожалуйста, попробуйте еще раз.",
-        "emailNotVerified": "Электронная почта не проверена",
-        "emailNotVerifiedDescription": "Ваш адрес электронной почты не был проверен.",
-        "resendVerification": "Повторная отправка сообщения электронной почты для проверки",
-        "accountInfo": "Информация о счете",
-        "accountInfoDescription": "Дополнительные сведения о вашей учетной записи",
-        "accountCreated": "Созданный счет",
-        "lastLogin": "Последний вход в систему",
-        "accountId": "Идентификатор счета"
-      }
-    }
-  },
   "vps": {
-    "badge": "Серверы VPS",
-    "title": "Выберите свой",
-    "titleHighlight": "План VPS",
-    "description": "Виртуальные частные серверы с полным контролем на базе корпоративного оборудования. Корневой доступ, хранилище NVMe, защита от DDoS и мгновенное развертывание.",
-    "hosting": "Хостинг",
-    "learnMore": "Узнать больше",
-    "viewPlans": "Просмотр планов",
-    "customSolution": "Вам нужно индивидуальное решение для VPS или есть вопросы?",
-    "contactUs": "Свяжитесь с нами",
-    "forCustom": "и мы подберем подходящий вариант.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
+    "hosting": "Hosting",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
     "highlights": {
       "deploy": {
-        "title": "Мгновенное развертывание",
-        "description": "Ваш VPS будет готов к работе менее чем через 60 секунд после покупки."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Полный Root-доступ",
-        "description": "Полный контроль над сервером с корневым SSH-доступом и возможностью выбора ОС."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Оборудование для предприятий",
-        "description": "Процессоры корпоративного класса с SSD-накопителями NVMe и оперативной памятью ECC во всех тарифных планах."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise-grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Высокопроизводительный KVM VPS на корпоративном оборудовании AMD. Идеально подходит для требовательных рабочих нагрузок, веб-приложений и игровых бэкендов.",
-      "heroDescription": "KVM VPS корпоративного уровня на оборудовании AMD с SSD-накопителем NVMe, полным root-доступом и корпоративной защитой от DDoS. Развертывание за считанные секунды.",
-      "tag": "Питание от AMD",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise-grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "Процессоры AMD корпоративного класса",
-        "1": "Твердотельные накопители NVMe",
-        "2": "Полный корневой доступ / SSH",
-        "3": "Защита от DDoS-атак"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Полный Root-доступ",
-        "1": "Виртуализация KVM",
-        "2": "Твердотельные накопители NVMe",
-        "3": "Защита от DDoS-атак"
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
+        "2": "NVMe SSD",
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "Стартер",
-          "description": "Идеально подходит для небольших проектов и тестирования"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
-          "name": "Стандарт",
-          "description": "Отлично подходит для растущих приложений"
+          "name": "Standard",
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Производительность",
-          "description": "Идеально подходит для рабочих нагрузок с высоким трафиком"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
-        "storage": "Твердотельный накопитель NVMe {amount} ГБ",
-        "bandwidth": "{amount} TB Полоса пропускания",
-        "bandwidthUnmetered": "Неизмеряемая полоса пропускания",
-        "ddos": "Защита от DDoS-атак",
-        "ipv4": "Выделенный адрес IPv4",
-        "rootAccess": "Полный Root / SSH доступ",
-        "uptime": "99.sLA на 9% по безотказности"
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Корпоративное оборудование AMD",
-          "description": "Аппаратное обеспечение AMD корпоративного уровня, обеспечивающее исключительную многопоточную производительность для требовательных рабочих нагрузок.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise-grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "Процессоры AMD корпоративного класса",
-            "1": "Большое количество сердечников",
-            "2": "Большой кэш L3",
-            "3": "Высокая тактовая частота"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Твердотельные накопители NVMe",
-          "description": "Сверхбыстрый твердотельный накопитель NVMe со скоростью последовательного чтения более 3 000 МБ/с для быстрого доступа к данным.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "Твердотельные накопители NVMe Gen 3/4",
-            "1": "скорость чтения 3 000+ МБ/с",
-            "2": "Ввод/вывод с низкой задержкой",
-            "3": "Избыточность RAID-массива"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Защита от DDoS-атак",
-          "description": "Система защиты от DDoS корпоративного уровня поддерживает работу вашего VPS даже во время масштабных атак.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Фильтрация на уровне 3/4/7",
-            "1": "Автоматизированная очистка краев",
-            "2": "Снижение времени простоя до нуля",
-            "3": "Глобальные СОЗ"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Высокоскоростная сеть",
-          "description": "восходящий канал 1 Гбит/с с маршрутизацией с низкой задержкой для оптимального подключения, где бы ни находились ваши пользователи.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "восходящий канал 1 Гбит/с",
-            "1": "Маршрутизация с низкой задержкой",
-            "2": "Премиальный пиринг",
-            "3": "Поддержка IPv4 и IPv6"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Полный Root-доступ",
-          "description": "Полный контроль над серверной средой. Установите любое программное обеспечение, настройте любую службу и запустите любую ОС.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Полный корневой доступ SSH",
-            "1": "Выберите дистрибутив Linux",
-            "2": "Виртуализация KVM",
-            "3": "Поддержка пользовательских ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "круглосуточная экспертная поддержка",
-          "description": "Наша команда круглосуточно готова помочь с настройкой сервера, оптимизацией и устранением неполадок.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Поддержка Discord",
-            "1": "Билетная система",
-            "2": "База знаний",
-            "3": "Помощь в переносе сервера"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Получу ли я полный root-доступ к своему VPS?",
-          "answer": "Да, все тарифные планы AMD VPS включают полный root-доступ по SSH. Вы получаете полный контроль над своим серверным окружением, включая ОС, программное обеспечение и конфигурацию."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Какие операционные системы доступны?",
-          "answer": "Мы поддерживаем популярные дистрибутивы Linux, включая Ubuntu, Debian, CentOS, AlmaLinux и Rocky Linux. Вы также можете загрузить свой собственный ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Могу ли я позже повысить тарифный план VPS?",
-          "answer": "Да, вы можете обновить свой тарифный план VPS в любое время из нашей биллинговой панели. Увеличение ресурсов происходит с минимальным временем простоя."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Что произойдет, если я превышу лимит пропускной способности?",
-          "answer": "На тарифных планах с дозированной пропускной способностью мы уведомим вас о превышении лимита. В любой момент вы можете приобрести дополнительную пропускную способность или перейти на тарифный план без учета."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Включена ли защита от DDoS?",
-          "answer": "Да, все тарифные планы AMD VPS включают защиту от DDoS-атак корпоративного уровня. Это защищает ваш сервер от атак 3, 4 и 7 уровней с нулевым временем простоя."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Предлагаете ли вы возврат денег?",
-          "answer": "Да, мы предлагаем 48-часовую гарантию возврата денег на все новые VPS. Обратитесь в службу поддержки в течение 48 часов после покупки, чтобы получить полный возврат средств."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     },
     "intel": {
-      "description": "Надежный KVM VPS на корпоративном оборудовании Intel. Отличная однопоточная производительность для веб-хостинга, баз данных и серверов приложений.",
-      "heroDescription": "Надежный KVM VPS на оборудовании Intel с SSD-накопителем NVMe, полным корневым доступом и корпоративной защитой от DDoS. Развертывание за считанные секунды.",
-      "tag": "Питание от Intel",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "Корпоративные процессоры Intel",
-        "1": "Твердотельные накопители NVMe",
-        "2": "Полный корневой доступ / SSH",
-        "3": "Защита от DDoS-атак"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Полный Root-доступ",
-        "1": "Виртуализация KVM",
-        "2": "Твердотельные накопители NVMe",
-        "3": "Защита от DDoS-атак"
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
+        "2": "NVMe SSD",
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Ядро",
-          "description": "Идеально подходит для небольших проектов и веб-хостинга"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
-          "name": "Про",
-          "description": "Отлично подходит для производственных целей"
+          "name": "Pro",
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Предприятие",
-          "description": "Идеально подходит для услуг с высоким спросом"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
-        "storage": "Твердотельный накопитель NVMe {amount} ГБ",
-        "bandwidth": "{amount} TB Полоса пропускания",
-        "bandwidthUnmetered": "Неизмеряемая полоса пропускания",
-        "ddos": "Защита от DDoS-атак",
-        "ipv4": "Выделенный адрес IPv4",
-        "rootAccess": "Полный Root / SSH доступ",
-        "uptime": "99.sLA на 9% по безотказности"
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Корпоративное оборудование Intel",
-          "description": "Построен на аппаратном обеспечении Intel корпоративного класса и обладает высокой однопоточной производительностью для веб-серверов, баз данных и приложений.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise-grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Корпоративные процессоры Intel",
-            "1": "Сильная однопоточная производительность",
-            "2": "Большие размеры кэша",
-            "3": "Высокая тактовая частота"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Твердотельные накопители NVMe",
-          "description": "Сверхскоростное твердотельное хранилище NVMe, обеспечивающее высокую скорость ввода-вывода и низкую задержку для приложений с интенсивным вводом-выводом.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "Твердотельные накопители NVMe Gen 3/4",
-            "1": "Высокая производительность IOPS",
-            "2": "Ввод/вывод с низкой задержкой",
-            "3": "Избыточность RAID-массива"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Защита от DDoS-атак",
-          "description": "Система защиты от DDoS корпоративного уровня поддерживает работу вашего VPS даже во время масштабных атак.",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Фильтрация на уровне 3/4/7",
-            "1": "Автоматизированная очистка краев",
-            "2": "Снижение времени простоя до нуля",
-            "3": "Глобальные СОЗ"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Высокоскоростная сеть",
-          "description": "восходящий канал 1 Гбит/с с маршрутизацией с низкой задержкой для оптимального подключения, где бы ни находились ваши пользователи.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "восходящий канал 1 Гбит/с",
-            "1": "Маршрутизация с низкой задержкой",
-            "2": "Премиальный пиринг",
-            "3": "Поддержка IPv4 и IPv6"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Полный Root-доступ",
-          "description": "Полный контроль над серверной средой. Установите любое программное обеспечение, настройте любую службу и запустите любую ОС.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Полный корневой доступ SSH",
-            "1": "Выберите дистрибутив Linux",
-            "2": "Виртуализация KVM",
-            "3": "Поддержка пользовательских ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "круглосуточная экспертная поддержка",
-          "description": "Наша команда круглосуточно готова помочь с настройкой сервера, оптимизацией и устранением неполадок.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Поддержка Discord",
-            "1": "Билетная система",
-            "2": "База знаний",
-            "3": "Помощь в переносе сервера"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Получу ли я полный root-доступ к своему VPS?",
-          "answer": "Да, все тарифные планы Intel VPS включают полный root-доступ по SSH. Вы получаете полный контроль над своим серверным окружением, включая ОС, программное обеспечение и конфигурацию."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Какие операционные системы доступны?",
-          "answer": "Мы поддерживаем популярные дистрибутивы Linux, включая Ubuntu, Debian, CentOS, AlmaLinux и Rocky Linux. Вы также можете загрузить свой собственный ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Могу ли я позже повысить тарифный план VPS?",
-          "answer": "Да, вы можете обновить свой тарифный план VPS в любое время из нашей биллинговой панели. Увеличение ресурсов происходит с минимальным временем простоя."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Что произойдет, если я превышу лимит пропускной способности?",
-          "answer": "На тарифных планах с дозированной пропускной способностью мы уведомим вас о превышении лимита. В любой момент вы можете приобрести дополнительную пропускную способность или перейти на тарифный план без учета."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Включена ли защита от DDoS?",
-          "answer": "Да, все тарифные планы Intel VPS включают защиту от DDoS-атак корпоративного уровня. Это защищает ваш сервер от атак 3, 4 и 7 уровней с очисткой без простоя."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise-grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Предлагаете ли вы возврат денег?",
-          "answer": "Да, мы предлагаем 48-часовую гарантию возврата денег на все новые VPS. Обратитесь в службу поддержки в течение 48 часов после покупки, чтобы получить полный возврат средств."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
         }
       }
     }
