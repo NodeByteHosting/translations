@@ -39,6 +39,22 @@
     "all": {
       "title": "All Services",
       "description": "Explore all our hosting services"
+    },
+    "gameServers": {
+      "title": "Játék szerverek",
+      "description": "Böngésszen az összes játék hosting opció között"
+    },
+    "vpsAmd": {
+      "title": "AMD VPS",
+      "description": "Nagy teljesítményű AMD-alapú virtuális szerverek"
+    },
+    "vpsIntel": {
+      "title": "Intel VPS",
+      "description": "Megbízható Intel-üzemű virtuális szerverek"
+    },
+    "allVps": {
+      "title": "VPS szerverek",
+      "description": "Böngésszen az összes VPS hosting lehetőség között"
     }
   },
   "resources": {
@@ -171,7 +187,10 @@
       "uptime": "Uptime SLA",
       "latency": "Avg Latency",
       "support": "Support",
-      "servers": "Active Servers"
+      "servers": "Active Servers",
+      "users": "Összes felhasználó",
+      "activeUsers": "Aktív felhasználók",
+      "allocations": "Kiutalások"
     }
   },
   "pricing": {
@@ -495,6 +514,11 @@
         "2": "Easy configuration",
         "3": "24/7 support"
       }
+    },
+    "vpsCta": {
+      "title": "VPS tárhelyre is szüksége van?",
+      "description": "Teljes körű root hozzáférés, NVMe SSD tároló és vállalati DDoS-védelem. Válasszon AMD vagy Intel meghajtású virtuális szerverek közül.",
+      "button": "VPS-csomagok megtekintése"
     }
   },
   "gamePage": {
@@ -612,13 +636,17 @@
       "minecraftHosting": "Minecraft Hosting",
       "rustHosting": "Rust Hosting",
       "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "clientArea": "Client Area",
+      "gameServers": "Játék tárhely",
+      "vpsServers": "VPS tárhely",
+      "vpsPanel": "VPS panel"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "trustPilot": "Trustpilot"
+      "trustPilot": "Trustpilot",
+      "billingPanel": "Számlázási panel"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",
@@ -825,7 +853,10 @@
       "uptime": "Uptime SLA",
       "latency": "Avg Latency",
       "support": "Support",
-      "servers": "Active Servers"
+      "servers": "Active Servers",
+      "users": "Összes felhasználó",
+      "activeUsers": "Aktív felhasználók",
+      "allocations": "Kiutalások"
     },
     "timeline": {
       "badge": "Our Journey",
@@ -873,7 +904,8 @@
       "home": "Home",
       "games": "Games",
       "kb": "Knowledge Base",
-      "contact": "Contact"
+      "contact": "Contact",
+      "vps": "VPS tárhely"
     }
   },
   "errorPage": {
@@ -1028,7 +1060,8 @@
       "admin": "Admin",
       "logout": "Sign Out",
       "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "loggingOut": "Signing out...",
+      "dashboard": "Műszerfal"
     }
   },
   "admin": {
@@ -1040,7 +1073,11 @@
       "sync": "Sync",
       "syncLogs": "Sync Logs",
       "settings": "Settings",
-      "backToSite": "Back to Site"
+      "backToSite": "Back to Site",
+      "nodes": "Kiszolgáló csomópontok",
+      "locations": "Helyszínek",
+      "allocations": "Kiutalások",
+      "eggs": "Fészkek és tojások"
     },
     "status": {
       "online": "System Online"
@@ -1083,8 +1120,11 @@
         "nests": "Nests & Eggs",
         "servers": "Servers",
         "databases": "Databases",
-        "users": "Users"
-      }
+        "users": "Users",
+        "full": "Teljes szinkronizálás"
+      },
+      "started": "Szinkronizálás megkezdve",
+      "running": "A panel adatainak szinkronizálása. Ez eltarthat egy darabig."
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1242,7 +1282,9 @@
         "apiKeyNote": "Enter your Pterodactyl panel API key for authentication.",
         "apiUrl": "API URL",
         "apiUrlNote": "The base URL for the Pterodactyl API (usually panel URL + /api).",
-        "version": "Panel Version"
+        "version": "Panel Version",
+        "apiKeyclient": "Ügyfél API-kulcs",
+        "apiKeyNoteclient": "Adja meg a Pterodactyl ügyfél API-kulcsát. Erre a szerver és a felhasználói adatok szinkronizálásához van szükség az ügyfél API-ból."
       },
       "crowdin": {
         "title": "Crowdin Translation Management",
@@ -1331,6 +1373,466 @@
       "contactSupport": "Contact Support",
       "followSuggestion": "Follow us on Discord for real time updates on maintenance status.",
       "discordSuggestion": "Join Discord"
+    }
+  },
+  "servicesHome": {
+    "badge": "Mit kínálunk",
+    "title": "Minden, amire szüksége van,",
+    "titleHighlight": "egy helyen",
+    "description": "Játékszerverek és VPS hosting a teljesítményre építve. Azonnali telepítés, DDoS-védelem és 24/7 szakértői támogatás.",
+    "browsePlans": "Tervek böngészése",
+    "startingFrom": "A  címről",
+    "customSolution": "Szüksége van valamire, ami nincs a listánkon?",
+    "contactUs": "Kapcsolatfelvétel",
+    "forCustom": "és mi megtaláljuk a megfelelőt."
+  },
+  "vpsPage": {
+    "title": "VPS tárhely",
+    "description": "Nagy teljesítményű virtuális privát szerverek teljes root hozzáféréssel, NVMe SSD tárolóval, DDoS védelemmel és 24/7 szakértői támogatással.",
+    "startingAt": "Kezdődik a"
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Áttekintés",
+      "servers": "Szerverek",
+      "billing": "Számlázás",
+      "support": "Támogatás",
+      "account": "Számla",
+      "backToSite": "Vissza az oldalra",
+      "gamePanel": "Játék panel",
+      "helpCenter": "Súgóközpont"
+    },
+    "greeting": {
+      "morning": "Jó reggelt!",
+      "afternoon": "Jó napot!",
+      "evening": "Jó estét!"
+    },
+    "subtitle": "A következő történik a szervereiddel",
+    "welcome": {
+      "title": "Üdvözöljük!",
+      "magicLinkSuccess": "Sikeresen bejelentkeztél a mágikus linkeddel. Üdvözöljük a műszerfalon!"
+    },
+    "stats": {
+      "totalServers": "Szerverek összesen",
+      "activeServers": "Aktív szerverek",
+      "accountBalance": "Számlaegyenleg",
+      "openTickets": "Nyitott jegyek",
+      "online": "online",
+      "activeDescription": "Jelenleg fut",
+      "balanceDescription": "Rendelkezésre álló hitel",
+      "ticketsDescription": "Válaszra várva"
+    },
+    "actions": {
+      "openPanel": "Nyitott panel",
+      "newServer": "Új szerver"
+    },
+    "recentServers": {
+      "title": "Legutóbbi szerverek",
+      "description": "Az Ön által legutóbb elért szerverek",
+      "viewAll": "Minden megtekintése",
+      "empty": {
+        "title": "Még nincsenek szerverek",
+        "description": "Még nincsenek játékszerverek. Kezdd el az első szerver létrehozásával.",
+        "action": "Kiszolgáló létrehozása"
+      }
+    },
+    "quickActions": {
+      "title": "Gyors akciók",
+      "minecraft": "Minecraft szerver",
+      "minecraftDesc": "Új Minecraft szerver telepítése",
+      "rust": "Rozsdaszerver",
+      "rustDesc": "Új Rust-kiszolgáló telepítése",
+      "support": "Nyitott jegy",
+      "supportDesc": "Kérjen segítséget csapatunktól",
+      "knowledgeBase": "Tudásbázis",
+      "knowledgeBaseDesc": "Böngésszen a segédcikkek között"
+    },
+    "servers": {
+      "title": "A szervereim",
+      "description": "Játékszerverek kezelése és felügyelete",
+      "status": {
+        "running": "Futás",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Indulás",
+        "stopping": "A  megállítása",
+        "suspended": "Felfüggesztett",
+        "installing": "A  telepítése"
+      },
+      "resources": {
+        "memory": "Memória",
+        "cpu": "CPU",
+        "disk": "Lemez"
+      },
+      "actions": {
+        "newServer": "Új szerver",
+        "refresh": "Frissítés",
+        "console": "Konzol",
+        "files": "Fájlok",
+        "databases": "Adatbázisok",
+        "openPanel": "Megnyitás a panelben"
+      },
+      "filters": {
+        "searchPlaceholder": "Kiszolgálók keresése...",
+        "status": "Állapot",
+        "allStatuses": "Minden státusz"
+      },
+      "pagination": {
+        "showing": "Az {from} és az {to} közötti {total} mutatása",
+        "previous": "Előző",
+        "next": "Következő"
+      },
+      "empty": {
+        "title": "Nem találtak szervert",
+        "description": "Még nincsenek játékszerverek. Hozzátok létre az első szervert, hogy elkezdhessétek.",
+        "action": "Kiszolgáló létrehozása"
+      }
+    },
+    "account": {
+      "title": "Fiókbeállítások",
+      "description": "Profil és biztonsági beállítások kezelése",
+      "tabs": {
+        "profile": "Profil",
+        "security": "Biztonság"
+      },
+      "profile": {
+        "overview": "Számla áttekintés",
+        "overviewDescription": "Az Ön számlainformációi és státusza",
+        "verified": "Ellenőrzött",
+        "unverified": "Ellenőrizetlen",
+        "personalInfo": "Személyes információk",
+        "personalInfoDescription": "Személyes adatainak frissítése",
+        "firstName": "Keresztnév",
+        "firstNamePlaceholder": "John",
+        "lastName": "Vezetéknév",
+        "lastNamePlaceholder": "Doe",
+        "username": "Felhasználónév",
+        "usernamePlaceholder": "johndoe",
+        "email": "E-mail cím",
+        "emailNote": "Kapcsolatfelvétel az ügyfélszolgálattal az e-mail cím megváltoztatásához",
+        "phoneNumber": "Telefonszám",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Cégnév",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Számlázási e-mail",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Változások mentése",
+        "success": "Profil frissítve",
+        "successDescription": "A profilodat sikeresen frissítettük.",
+        "error": "Frissítés sikertelen",
+        "errorDescription": "Nem sikerült frissíteni a profilját. Kérjük, próbálja meg újra."
+      },
+      "security": {
+        "changePassword": "Jelszó módosítása",
+        "changePasswordDescription": "Frissítse jelszavát, hogy fiókja biztonságban maradjon",
+        "currentPassword": "Jelenlegi jelszó",
+        "newPassword": "Új jelszó",
+        "confirmPassword": "Új jelszó megerősítése",
+        "passwordRequirements": "A jelszónak legalább 8 karakterből kell állnia",
+        "updatePassword": "Jelszó frissítése",
+        "passwordMismatch": "A jelszavak nem egyeznek",
+        "passwordMismatchDescription": "A megadott új jelszavak nem egyeznek.",
+        "passwordTooShort": "Túl rövid jelszó",
+        "passwordTooShortDescription": "A jelszónak legalább 8 karakter hosszúnak kell lennie.",
+        "passwordChanged": "Megváltozott jelszó",
+        "passwordChangedDescription": "Jelszavát sikeresen frissítettük.",
+        "error": "Frissítés sikertelen",
+        "errorDescription": "Nem sikerült frissíteni a jelszavát. Kérjük, próbálja meg újra.",
+        "emailNotVerified": "Email nem ellenőrzött",
+        "emailNotVerifiedDescription": "Az Ön e-mail címe nem került ellenőrzésre.",
+        "resendVerification": "Ellenőrző e-mail újraküldése",
+        "accountInfo": "Számlainformációk",
+        "accountInfoDescription": "További részletek a számlájáról",
+        "accountCreated": "Létrehozott számla",
+        "lastLogin": "Utolsó bejelentkezés",
+        "accountId": "Számlaazonosító"
+      }
+    }
+  },
+  "vps": {
+    "badge": "VPS szerverek",
+    "title": "Válassza ki a",
+    "titleHighlight": "VPS terv",
+    "description": "Teljes körű felügyeletet biztosító virtuális privát szerverek vállalati hardverrel. Root hozzáférés, NVMe tároló, DDoS védelem és azonnali telepítés.",
+    "hosting": "Hosting",
+    "learnMore": "Tudjon meg többet",
+    "viewPlans": "Tervek megtekintése",
+    "customSolution": "Egyedi VPS megoldásra van szüksége vagy kérdése van?",
+    "contactUs": "Kapcsolatfelvétel",
+    "forCustom": "és mi megtaláljuk a megfelelőt.",
+    "highlights": {
+      "deploy": {
+        "title": "Azonnali telepítés",
+        "description": "VPS-ed a vásárlást követően kevesebb mint 60 másodperc alatt készen áll."
+      },
+      "control": {
+        "title": "Teljes gyökér hozzáférés",
+        "description": "Teljes kontroll a szerver felett root SSH hozzáféréssel és az Ön által választott operációs rendszerrel."
+      },
+      "hardware": {
+        "title": "Vállalati hardver",
+        "description": "Vállalati szintű processzorok NVMe SSD tárolóval és ECC RAM-mal minden tervezetben."
+      }
+    },
+    "amd": {
+      "description": "Nagy teljesítményű KVM VPS vállalati AMD hardveren. Ideális igényes munkaterhelésekhez, webes alkalmazásokhoz és játék backendekhez.",
+      "heroDescription": "Vállalati szintű KVM VPS AMD hardveren, NVMe SSD tárolóval, teljes root hozzáféréssel és vállalati DDoS védelemmel. Telepítés másodpercek alatt.",
+      "tag": "AMD meghajtású",
+      "features": {
+        "0": "Vállalati AMD processzorok",
+        "1": "NVMe SSD tároló",
+        "2": "Teljes root / SSH hozzáférés",
+        "3": "DDoS védelem"
+      },
+      "heroFeatures": {
+        "0": "Teljes gyökér hozzáférés",
+        "1": "KVM virtualizáció",
+        "2": "NVMe SSD",
+        "3": "DDoS védelem"
+      },
+      "plans": {
+        "starter": {
+          "name": "Indító",
+          "description": "Tökéletes kis projektekhez és teszteléshez"
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Kiválóan alkalmas növekvő alkalmazásokhoz"
+        },
+        "performance": {
+          "name": "Teljesítmény",
+          "description": "Ideális nagy forgalmú munkaterhelésekhez"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Sávszélesség",
+        "bandwidthUnmetered": "Mérő nélküli sávszélesség",
+        "ddos": "DDoS védelem",
+        "ipv4": "Dedikált IPv4-cím",
+        "rootAccess": "Teljes Root / SSH hozzáférés",
+        "uptime": "99.9% üzemidő SLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Vállalati AMD hardver",
+          "description": "A vállalati szintű AMD hardver kivételes többszálú teljesítményt nyújt az igényes munkaterhelésekhez.",
+          "highlights": {
+            "0": "Vállalati AMD processzorok",
+            "1": "Magas magszám",
+            "2": "Nagy L3 gyorsítótár",
+            "3": "Magas órajelek"
+          }
+        },
+        "storage": {
+          "title": "NVMe SSD tároló",
+          "description": "Ultragyors NVMe szilárdtest-tároló 3000 MB/s-ot meghaladó szekvenciális olvasási sebességgel a gyors adatelérés érdekében.",
+          "highlights": {
+            "0": "NVMe Gen 3/4 SSD-k",
+            "1": "3,000+ MB/s olvasási sebesség",
+            "2": "Alacsony késleltetésű I/O",
+            "3": "RAID redundancia"
+          }
+        },
+        "ddos": {
+          "title": "DDoS védelem",
+          "description": "A vállalati szintű DDoS-csökkentés még nagyszabású támadások esetén is online tartja VPS-ét.",
+          "highlights": {
+            "0": "Réteg 3/4/7 szűrés",
+            "1": "Automatizált élsúrolás",
+            "2": "Nulla leállási idő csökkentése",
+            "3": "Globális POP-ok"
+          }
+        },
+        "network": {
+          "title": "Nagysebességű hálózat",
+          "description": "1 Gbps uplink alacsony késleltetésű útválasztással az optimális kapcsolatért, bárhol is legyenek a felhasználók.",
+          "highlights": {
+            "0": "1 Gbps uplink",
+            "1": "Alacsony késleltetésű útválasztás",
+            "2": "Prémium peering",
+            "3": "IPv4 és IPv6 támogatás"
+          }
+        },
+        "access": {
+          "title": "Teljes gyökér hozzáférés",
+          "description": "Teljes ellenőrzés a kiszolgálói környezet felett. Telepítsen bármilyen szoftvert, konfiguráljon bármilyen szolgáltatást, és futtasson bármilyen operációs rendszert.",
+          "highlights": {
+            "0": "Teljes SSH root hozzáférés",
+            "1": "Válassza ki a Linux disztribúciót",
+            "2": "KVM virtualizáció",
+            "3": "Egyedi ISO-támogatás"
+          }
+        },
+        "support": {
+          "title": "24/7 szakértői támogatás",
+          "description": "Csapatunk éjjel-nappal rendelkezésre áll, hogy segítsen a szerver beállításában, optimalizálásában és hibaelhárításában.",
+          "highlights": {
+            "0": "Discord támogatás",
+            "1": "Jegyrendszer",
+            "2": "Tudásbázis",
+            "3": "Szerver migrációs segítség"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "Teljes root hozzáférést kapok a VPS-emhez?",
+          "answer": "Igen, minden AMD VPS-csomag tartalmaz teljes körű root hozzáférést SSH-n keresztül. Teljes körű ellenőrzést kap a szerverkörnyezet felett, beleértve az operációs rendszert, a szoftvereket és a konfigurációt."
+        },
+        "os": {
+          "question": "Milyen operációs rendszerek állnak rendelkezésre?",
+          "answer": "Támogatjuk a népszerű Linux disztribúciókat, beleértve az Ubuntut, a Debiant, a CentOS-t, az AlmaLinuxot és a Rocky Linuxot. Saját egyéni ISO-t is feltölthet."
+        },
+        "upgrade": {
+          "question": "Frissíthetem később a VPS csomagomat?",
+          "answer": "Igen, bármikor frissítheti VPS-csomagját a számlázási panelen keresztül. Az erőforrás-növelés minimális leállási idővel történik."
+        },
+        "bandwidth": {
+          "question": "Mi történik, ha túllépem a sávszélesség-korlátot?",
+          "answer": "A fogyasztásmérős csomagok esetében értesítjük Önt, mielőtt elérné a limitet. Bármikor vásárolhat további sávszélességet vagy frissíthet nem mérős csomagra."
+        },
+        "ddos": {
+          "question": "Tartalmazza a DDoS-védelmet?",
+          "answer": "Igen, minden AMD VPS-csomag vállalati szintű DDoS-védelemmel rendelkezik. Ez megvédi a szerverét a 3., 4. és 7. rétegű támadásoktól, zéró leállási idejű törléssel."
+        },
+        "refunds": {
+          "question": "Visszatérítést nyújtanak?",
+          "answer": "Igen, 48 órás pénzvisszafizetési garanciát kínálunk minden új VPS-vásárlásra. A vásárlást követő 48 órán belül lépjen kapcsolatba az ügyfélszolgálattal a teljes visszatérítésért."
+        }
+      }
+    },
+    "intel": {
+      "description": "Megbízható KVM VPS vállalati Intel hardveren. Kiváló egyszálas teljesítmény webtárhelyekhez, adatbázisokhoz és alkalmazásszerverekhez.",
+      "heroDescription": "Sziklaszilárd KVM VPS Intel hardveren, NVMe SSD tárolóval, teljes root hozzáféréssel és vállalati DDoS védelemmel. Telepítés másodpercek alatt.",
+      "tag": "Intel Powered",
+      "features": {
+        "0": "Vállalati Intel processzorok",
+        "1": "NVMe SSD tároló",
+        "2": "Teljes root / SSH hozzáférés",
+        "3": "DDoS védelem"
+      },
+      "heroFeatures": {
+        "0": "Teljes gyökér hozzáférés",
+        "1": "KVM virtualizáció",
+        "2": "NVMe SSD",
+        "3": "DDoS védelem"
+      },
+      "plans": {
+        "core": {
+          "name": "Core",
+          "description": "Tökéletes kis projektekhez és web hostinghoz"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "Kiválóan alkalmas termelési alkalmazásokhoz"
+        },
+        "enterprise": {
+          "name": "Vállalat",
+          "description": "Ideális a nagy igényű szolgáltatásokhoz"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Sávszélesség",
+        "bandwidthUnmetered": "Mérő nélküli sávszélesség",
+        "ddos": "DDoS védelem",
+        "ipv4": "Dedikált IPv4-cím",
+        "rootAccess": "Teljes Root / SSH hozzáférés",
+        "uptime": "99.9% üzemidő SLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Vállalati Intel hardver",
+          "description": "Vállalati szintű Intel hardverre épül, erős egyszálas teljesítményt nyújt webszerverek, adatbázisok és alkalmazások számára.",
+          "highlights": {
+            "0": "Vállalati Intel processzorok",
+            "1": "Erős egyszálas teljesítmény",
+            "2": "Nagyméretű gyorsítótár",
+            "3": "Magas órajelek"
+          }
+        },
+        "storage": {
+          "title": "NVMe SSD tároló",
+          "description": "Ultragyors NVMe szilárdtest-tároló, amely magas IOPS-értéket és alacsony késleltetést biztosít az I/O-intenzív alkalmazások számára.",
+          "highlights": {
+            "0": "NVMe Gen 3/4 SSD-k",
+            "1": "Nagy IOPS teljesítmény",
+            "2": "Alacsony késleltetésű I/O",
+            "3": "RAID redundancia"
+          }
+        },
+        "ddos": {
+          "title": "DDoS védelem",
+          "description": "A vállalati szintű DDoS-csökkentés még nagyszabású támadások esetén is online tartja VPS-ét.",
+          "highlights": {
+            "0": "Réteg 3/4/7 szűrés",
+            "1": "Automatizált élsúrolás",
+            "2": "Nulla leállási idő csökkentése",
+            "3": "Globális POP-ok"
+          }
+        },
+        "network": {
+          "title": "Nagysebességű hálózat",
+          "description": "1 Gbps uplink alacsony késleltetésű útválasztással az optimális kapcsolatért, bárhol is legyenek a felhasználók.",
+          "highlights": {
+            "0": "1 Gbps uplink",
+            "1": "Alacsony késleltetésű útválasztás",
+            "2": "Prémium peering",
+            "3": "IPv4 és IPv6 támogatás"
+          }
+        },
+        "access": {
+          "title": "Teljes gyökér hozzáférés",
+          "description": "Teljes ellenőrzés a kiszolgálói környezet felett. Telepítsen bármilyen szoftvert, konfiguráljon bármilyen szolgáltatást, és futtasson bármilyen operációs rendszert.",
+          "highlights": {
+            "0": "Teljes SSH root hozzáférés",
+            "1": "Válassza ki a Linux disztribúciót",
+            "2": "KVM virtualizáció",
+            "3": "Egyedi ISO-támogatás"
+          }
+        },
+        "support": {
+          "title": "24/7 szakértői támogatás",
+          "description": "Csapatunk éjjel-nappal rendelkezésre áll, hogy segítsen a szerver beállításában, optimalizálásában és hibaelhárításában.",
+          "highlights": {
+            "0": "Discord támogatás",
+            "1": "Jegyrendszer",
+            "2": "Tudásbázis",
+            "3": "Szerver migrációs segítség"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "Teljes root hozzáférést kapok a VPS-emhez?",
+          "answer": "Igen, minden Intel VPS-csomag tartalmaz teljes körű root hozzáférést SSH-n keresztül. Teljes körű ellenőrzést kap a szerverkörnyezet felett, beleértve az operációs rendszert, a szoftvereket és a konfigurációt."
+        },
+        "os": {
+          "question": "Milyen operációs rendszerek állnak rendelkezésre?",
+          "answer": "Támogatjuk a népszerű Linux disztribúciókat, beleértve az Ubuntut, a Debiant, a CentOS-t, az AlmaLinuxot és a Rocky Linuxot. Saját egyéni ISO-t is feltölthet."
+        },
+        "upgrade": {
+          "question": "Frissíthetem később a VPS csomagomat?",
+          "answer": "Igen, bármikor frissítheti VPS-csomagját a számlázási panelen keresztül. Az erőforrás-növelés minimális leállási idővel történik."
+        },
+        "bandwidth": {
+          "question": "Mi történik, ha túllépem a sávszélesség-korlátot?",
+          "answer": "A fogyasztásmérős csomagok esetében értesítjük Önt, mielőtt elérné a limitet. Bármikor vásárolhat további sávszélességet vagy frissíthet nem mérős csomagra."
+        },
+        "ddos": {
+          "question": "Tartalmazza a DDoS-védelmet?",
+          "answer": "Igen, minden Intel VPS-csomag vállalati szintű DDoS-védelemmel rendelkezik. Ez megvédi a szerverét a 3., 4. és 7. rétegű támadásoktól, zéró leállási idejű törléssel."
+        },
+        "refunds": {
+          "question": "Visszatérítést nyújtanak?",
+          "answer": "Igen, 48 órás pénzvisszafizetési garanciát kínálunk minden új VPS-vásárlásra. A vásárlást követő 48 órán belül lépjen kapcsolatba az ügyfélszolgálattal a teljes visszatérítésért."
+        }
+      }
     }
   }
 }

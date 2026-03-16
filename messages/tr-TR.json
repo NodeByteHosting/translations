@@ -39,6 +39,22 @@
     "all": {
       "title": "All Services",
       "description": "Explore all our hosting services"
+    },
+    "gameServers": {
+      "title": "Oyun Sunucuları",
+      "description": "Tüm oyun barındırma seçeneklerine göz atın"
+    },
+    "vpsAmd": {
+      "title": "AMD VPS",
+      "description": "Yüksek performanslı AMD destekli sanal sunucular"
+    },
+    "vpsIntel": {
+      "title": "Intel VPS",
+      "description": "Güvenilir Intel destekli sanal sunucular"
+    },
+    "allVps": {
+      "title": "VPS Sunucular",
+      "description": "Tüm VPS hosting seçeneklerine göz atın"
     }
   },
   "resources": {
@@ -171,7 +187,10 @@
       "uptime": "Uptime SLA",
       "latency": "Avg Latency",
       "support": "Support",
-      "servers": "Active Servers"
+      "servers": "Active Servers",
+      "users": "Toplam Kullanıcı",
+      "activeUsers": "Aktif Kullanıcılar",
+      "allocations": "Tahsisler"
     }
   },
   "pricing": {
@@ -495,6 +514,11 @@
         "2": "Easy configuration",
         "3": "24/7 support"
       }
+    },
+    "vpsCta": {
+      "title": "Ayrıca VPS Hosting'e mi ihtiyacınız var?",
+      "description": "Tam kök erişimi, NVMe SSD depolama ve kurumsal DDoS koruması. AMD veya Intel destekli sanal sunucular arasından seçim yapın.",
+      "button": "VPS Planlarını Görüntüle"
     }
   },
   "gamePage": {
@@ -612,13 +636,17 @@
       "minecraftHosting": "Minecraft Hosting",
       "rustHosting": "Rust Hosting",
       "gamePanel": "Game Panel",
-      "clientArea": "Client Area"
+      "clientArea": "Client Area",
+      "gameServers": "Oyun Barındırma",
+      "vpsServers": "VPS Hosting",
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "trustPilot": "Trustpilot"
+      "trustPilot": "Trustpilot",
+      "billingPanel": "Faturalandırma Paneli"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",
@@ -825,7 +853,10 @@
       "uptime": "Uptime SLA",
       "latency": "Avg Latency",
       "support": "Support",
-      "servers": "Active Servers"
+      "servers": "Active Servers",
+      "users": "Toplam Kullanıcı",
+      "activeUsers": "Aktif Kullanıcılar",
+      "allocations": "Tahsisler"
     },
     "timeline": {
       "badge": "Our Journey",
@@ -873,7 +904,8 @@
       "home": "Home",
       "games": "Games",
       "kb": "Knowledge Base",
-      "contact": "Contact"
+      "contact": "Contact",
+      "vps": "VPS Hosting"
     }
   },
   "errorPage": {
@@ -1028,7 +1060,8 @@
       "admin": "Admin",
       "logout": "Sign Out",
       "signIn": "Sign In",
-      "loggingOut": "Signing out..."
+      "loggingOut": "Signing out...",
+      "dashboard": "Gösterge Tablosu"
     }
   },
   "admin": {
@@ -1040,7 +1073,11 @@
       "sync": "Sync",
       "syncLogs": "Sync Logs",
       "settings": "Settings",
-      "backToSite": "Back to Site"
+      "backToSite": "Back to Site",
+      "nodes": "Sunucu Düğümleri",
+      "locations": "Konumlar",
+      "allocations": "Tahsisler",
+      "eggs": "Yuvalar ve Yumurtalar"
     },
     "status": {
       "online": "System Online"
@@ -1083,8 +1120,11 @@
         "nests": "Nests & Eggs",
         "servers": "Servers",
         "databases": "Databases",
-        "users": "Users"
-      }
+        "users": "Users",
+        "full": "Tam Senkronizasyon"
+      },
+      "started": "Senkronizasyon Başlatıldı",
+      "running": "Panelden veri senkronize ediliyor. Bu işlem biraz zaman alabilir."
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1242,7 +1282,9 @@
         "apiKeyNote": "Enter your Pterodactyl panel API key for authentication.",
         "apiUrl": "API URL",
         "apiUrlNote": "The base URL for the Pterodactyl API (usually panel URL + /api).",
-        "version": "Panel Version"
+        "version": "Panel Version",
+        "apiKeyclient": "İstemci API Anahtarı",
+        "apiKeyNoteclient": "Pterodactyl istemci API anahtarınızı girin. Bu, sunucu ve kullanıcı verilerini istemci API'sinden senkronize etmek için gereklidir."
       },
       "crowdin": {
         "title": "Crowdin Translation Management",
@@ -1331,6 +1373,466 @@
       "contactSupport": "Contact Support",
       "followSuggestion": "Follow us on Discord for real time updates on maintenance status.",
       "discordSuggestion": "Join Discord"
+    }
+  },
+  "servicesHome": {
+    "badge": "Ne Sunuyoruz",
+    "title": "İhtiyacınız olan her şey,",
+    "titleHighlight": "bir yer",
+    "description": "Performans için oluşturulmuş oyun sunucuları ve VPS hosting. Anında kurulum, DDoS koruması ve 7/24 uzman desteği.",
+    "browsePlans": "Planlara Gözat",
+    "startingFrom": "Kimden",
+    "customSolution": "Listede olmayan bir şeye mi ihtiyacınız var?",
+    "contactUs": "Bize ulaşın",
+    "forCustom": "ve doğru uyumu bulacağız."
+  },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "Tam kök erişimi, NVMe SSD depolama, DDoS koruması ve 7/24 uzman desteği ile yüksek performanslı sanal özel sunucular.",
+    "startingAt": "Şuradan başlıyor"
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Genel Bakış",
+      "servers": "Sunucular",
+      "billing": "Faturalandırma",
+      "support": "Destek",
+      "account": "Hesap",
+      "backToSite": "Siteye Geri Dön",
+      "gamePanel": "Oyun Paneli",
+      "helpCenter": "Yardım Merkezi"
+    },
+    "greeting": {
+      "morning": "Günaydın",
+      "afternoon": "İyi günler",
+      "evening": "İyi akşamlar"
+    },
+    "subtitle": "İşte sunucularınıza neler olduğu",
+    "welcome": {
+      "title": "Hoş geldiniz!",
+      "magicLinkSuccess": "Sihirli bağlantınızla başarıyla giriş yaptınız. Kontrol panelinize hoş geldiniz!"
+    },
+    "stats": {
+      "totalServers": "Toplam Sunucular",
+      "activeServers": "Aktif Sunucular",
+      "accountBalance": "Hesap Bakiyesi",
+      "openTickets": "Açık Biletler",
+      "online": "çevrimiçi",
+      "activeDescription": "Şu anda çalışıyor",
+      "balanceDescription": "Mevcut kredi",
+      "ticketsDescription": "Yanıt bekleniyor"
+    },
+    "actions": {
+      "openPanel": "Açık Panel",
+      "newServer": "Yeni Sunucu"
+    },
+    "recentServers": {
+      "title": "Son Sunucular",
+      "description": "En son eriştiğiniz sunucular",
+      "viewAll": "Tümünü Görüntüle",
+      "empty": {
+        "title": "Henüz sunucu yok",
+        "description": "Henüz hiç oyun sunucunuz yok. İlk sunucunuzu oluşturarak başlayın.",
+        "action": "Sunucu Oluştur"
+      }
+    },
+    "quickActions": {
+      "title": "Hızlı Eylemler",
+      "minecraft": "Minecraft Sunucusu",
+      "minecraftDesc": "Yeni bir Minecraft sunucusu dağıtma",
+      "rust": "Rust Sunucu",
+      "rustDesc": "Yeni bir Rust sunucusu dağıtın",
+      "support": "Açık Bilet",
+      "supportDesc": "Ekibimizden yardım alın",
+      "knowledgeBase": "Bilgi Bankası",
+      "knowledgeBaseDesc": "Yardım makalelerine göz atın"
+    },
+    "servers": {
+      "title": "Sunucularım",
+      "description": "Oyun sunucularınızı yönetin ve izleyin",
+      "status": {
+        "running": "Koşmak",
+        "online": "Çevrimiçi",
+        "offline": "Çevrimdışı",
+        "starting": "Başlangıç",
+        "stopping": "Durdurma",
+        "suspended": "Askıya alındı",
+        "installing": "Yükleme"
+      },
+      "resources": {
+        "memory": "Hafıza",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "Yeni Sunucu",
+        "refresh": "Yenile",
+        "console": "Konsol",
+        "files": "Dosyalar",
+        "databases": "Veritabanları",
+        "openPanel": "Panelde Aç"
+      },
+      "filters": {
+        "searchPlaceholder": "Arama sunucuları...",
+        "status": "Durum",
+        "allStatuses": "Tüm Durumlar"
+      },
+      "pagination": {
+        "showing": "{total}'in {from} ila {to} arası gösteriliyor",
+        "previous": "Önceki",
+        "next": "Sonraki"
+      },
+      "empty": {
+        "title": "Sunucu bulunamadı",
+        "description": "Henüz herhangi bir oyun sunucunuz yok. Başlamak için ilk sunucunuzu oluşturun.",
+        "action": "Sunucu Oluştur"
+      }
+    },
+    "account": {
+      "title": "Hesap Ayarları",
+      "description": "Profilinizi ve güvenlik ayarlarınızı yönetin",
+      "tabs": {
+        "profile": "Profil",
+        "security": "Güvenlik"
+      },
+      "profile": {
+        "overview": "Hesaba Genel Bakış",
+        "overviewDescription": "Hesap bilgileriniz ve durumunuz",
+        "verified": "Doğrulandı",
+        "unverified": "Doğrulanmamış",
+        "personalInfo": "Kişisel Bilgiler",
+        "personalInfoDescription": "Kişisel bilgilerinizi güncelleyin",
+        "firstName": "İlk İsim",
+        "firstNamePlaceholder": "John",
+        "lastName": "Soyadı",
+        "lastNamePlaceholder": "Doe",
+        "username": "Kullanıcı Adı",
+        "usernamePlaceholder": "johndoe",
+        "email": "E-posta Adresi",
+        "emailNote": "E-posta adresinizi değiştirmek için desteğe başvurun",
+        "phoneNumber": "Telefon Numarası",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Şirket Adı",
+        "companyNamePlaceholder": "Acme A.Ş.",
+        "billingEmail": "Fatura E-postası",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Değişiklikleri Kaydet",
+        "success": "Profil Güncellendi",
+        "successDescription": "Profiliniz başarıyla güncellendi.",
+        "error": "Güncelleme Başarısız",
+        "errorDescription": "Profiliniz güncellenemedi. Lütfen tekrar deneyin."
+      },
+      "security": {
+        "changePassword": "Şifre Değiştir",
+        "changePasswordDescription": "Hesabınızı güvende tutmak için şifrenizi güncelleyin",
+        "currentPassword": "Geçerli Şifre",
+        "newPassword": "Yeni Şifre",
+        "confirmPassword": "Yeni Şifreyi Onayla",
+        "passwordRequirements": "Şifre en az 8 karakterden oluşmalıdır",
+        "updatePassword": "Şifreyi Güncelle",
+        "passwordMismatch": "Şifreler Eşleşmiyor",
+        "passwordMismatchDescription": "Girdiğiniz yeni parolalar eşleşmiyor.",
+        "passwordTooShort": "Şifre Çok Kısa",
+        "passwordTooShortDescription": "Şifre en az 8 karakter uzunluğunda olmalıdır.",
+        "passwordChanged": "Şifre Değiştirildi",
+        "passwordChangedDescription": "Parolanız başarıyla güncellendi.",
+        "error": "Güncelleme Başarısız",
+        "errorDescription": "Şifrenizi güncelleyemediniz. Lütfen tekrar deneyin.",
+        "emailNotVerified": "E-posta Doğrulanmadı",
+        "emailNotVerifiedDescription": "E-posta adresiniz doğrulanmadı.",
+        "resendVerification": "Doğrulama e-postasını yeniden gönder",
+        "accountInfo": "Hesap Bilgileri",
+        "accountInfoDescription": "Hesabınız hakkında ek ayrıntılar",
+        "accountCreated": "Hesap Oluşturuldu",
+        "lastLogin": "Son Giriş",
+        "accountId": "Hesap Kimliği"
+      }
+    }
+  },
+  "vps": {
+    "badge": "VPS Sunucular",
+    "title": "Seçiminizi Yapın",
+    "titleHighlight": "VPS Planı",
+    "description": "Kurumsal donanım tarafından desteklenen tam kontrollü sanal özel sunucular. Kök erişimi, NVMe depolama, DDoS koruması ve anında dağıtım.",
+    "hosting": "Barındırma",
+    "learnMore": "Daha Fazla Bilgi",
+    "viewPlans": "Planları Görüntüle",
+    "customSolution": "Özel bir VPS çözümüne mi ihtiyacınız var veya sorularınız mı var?",
+    "contactUs": "Bize ulaşın",
+    "forCustom": "ve doğru uyumu bulacağız.",
+    "highlights": {
+      "deploy": {
+        "title": "Anında Dağıtım",
+        "description": "VPS'niz satın alındıktan sonra 60 saniyeden kısa bir süre içinde hazır hale gelir."
+      },
+      "control": {
+        "title": "Tam Kök Erişimi",
+        "description": "Kök SSH erişimi ve seçtiğiniz işletim sistemi ile sunucunuz üzerinde tam kontrol."
+      },
+      "hardware": {
+        "title": "Kurumsal Donanım",
+        "description": "Tüm planlarda NVMe SSD depolama ve ECC RAM'e sahip kurumsal sınıf işlemciler."
+      }
+    },
+    "amd": {
+      "description": "Kurumsal AMD donanımı üzerinde yüksek performanslı KVM VPS. Zorlu iş yükleri, web uygulamaları ve oyun arka uçları için idealdir.",
+      "heroDescription": "NVMe SSD depolama, tam kök erişimi ve kurumsal DDoS koruması ile AMD donanımında kurumsal düzeyde KVM VPS. Saniyeler içinde dağıtın.",
+      "tag": "AMD Destekli",
+      "features": {
+        "0": "Kurumsal AMD işlemciler",
+        "1": "NVMe SSD depolama",
+        "2": "Tam kök / SSH erişimi",
+        "3": "DDoS Koruması"
+      },
+      "heroFeatures": {
+        "0": "Tam Kök Erişimi",
+        "1": "KVM Sanallaştırma",
+        "2": "NVMe SSD",
+        "3": "DDoS Koruması"
+      },
+      "plans": {
+        "starter": {
+          "name": "Başlangıç",
+          "description": "Küçük projeler ve testler için mükemmel"
+        },
+        "standard": {
+          "name": "Standart",
+          "description": "Büyüyen uygulamalar için harika"
+        },
+        "performance": {
+          "name": "Performans",
+          "description": "Yüksek trafikli iş yükleri için ideal"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Bant Genişliği",
+        "bandwidthUnmetered": "Ölçülmemiş Bant Genişliği",
+        "ddos": "DDoS Koruması",
+        "ipv4": "Ayrılmış IPv4 Adresi",
+        "rootAccess": "Tam Kök / SSH Erişimi",
+        "uptime": "99.9 Uptime SLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Kurumsal AMD Donanımı",
+          "description": "Zorlu iş yükleri için olağanüstü çok iş parçacıklı performans sunan kurumsal sınıf AMD donanımı ile güçlendirilmiştir.",
+          "highlights": {
+            "0": "Kurumsal AMD işlemciler",
+            "1": "Yüksek çekirdek sayıları",
+            "2": "Büyük L3 önbellek",
+            "3": "Yüksek saat hızları"
+          }
+        },
+        "storage": {
+          "title": "NVMe SSD Depolama",
+          "description": "Hızlı veri erişimi için 3.000 MB/sn'yi aşan sıralı okuma hızlarına sahip ultra hızlı NVMe katı hal depolama.",
+          "highlights": {
+            "0": "NVMe Gen 3/4 SSD'ler",
+            "1": "3.000 MB/sn'den fazla okuma hızı",
+            "2": "Düşük gecikmeli I/O",
+            "3": "RAID yedekliliği"
+          }
+        },
+        "ddos": {
+          "title": "DDoS Koruması",
+          "description": "Kurumsal düzeyde DDoS azaltma, büyük ölçekli saldırılar sırasında bile VPS'nizi çevrimiçi tutar.",
+          "highlights": {
+            "0": "Katman 3/4/7 filtreleme",
+            "1": "Otomatik kenar fırçalama",
+            "2": "Sıfır kesinti süresi azaltma",
+            "3": "Küresel KOK'lar"
+          }
+        },
+        "network": {
+          "title": "Yüksek Hızlı Ağ",
+          "description": "kullanıcılarınız nerede olursa olsun optimum bağlantı için düşük gecikmeli yönlendirme ile 1Gbps yukarı bağlantı.",
+          "highlights": {
+            "0": "1Gbps yukarı bağlantı",
+            "1": "Düşük gecikmeli yönlendirme",
+            "2": "Premium eşleştirme",
+            "3": "IPv4 ve IPv6 desteği"
+          }
+        },
+        "access": {
+          "title": "Tam Kök Erişimi",
+          "description": "Sunucu ortamınız üzerinde tam kontrol. İstediğiniz yazılımı yükleyin, istediğiniz hizmeti yapılandırın ve istediğiniz işletim sistemini çalıştırın.",
+          "highlights": {
+            "0": "Tam SSH kök erişimi",
+            "1": "Linux dağıtımınızı seçin",
+            "2": "KVM sanallaştırma",
+            "3": "Özel ISO desteği"
+          }
+        },
+        "support": {
+          "title": "7/24 Uzman Desteği",
+          "description": "Ekibimiz, sunucu kurulumu, optimizasyonu ve sorun giderme konularında yardımcı olmak için günün her saati hizmetinizdedir.",
+          "highlights": {
+            "0": "Discord desteği",
+            "1": "Bilet sistemi",
+            "2": "Bilgi tabanı",
+            "3": "Sunucu taşıma yardımı"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "VPS'ime tam root erişimi alabilir miyim?",
+          "answer": "Evet, tüm AMD VPS planları SSH üzerinden tam kök erişimi içerir. İşletim sistemi, yazılım ve yapılandırma dahil olmak üzere sunucu ortamınız üzerinde tam kontrole sahip olursunuz."
+        },
+        "os": {
+          "question": "Hangi işletim sistemleri mevcut?",
+          "answer": "Ubuntu, Debian, CentOS, AlmaLinux ve Rocky Linux gibi popüler Linux dağıtımlarını destekliyoruz. Ayrıca kendi özel ISO'nuzu da yükleyebilirsiniz."
+        },
+        "upgrade": {
+          "question": "VPS planımı daha sonra yükseltebilir miyim?",
+          "answer": "Evet, VPS planınızı istediğiniz zaman faturalandırma panelimizden yükseltebilirsiniz. Kaynak artışları minimum kesinti süresiyle uygulanır."
+        },
+        "bandwidth": {
+          "question": "Bant genişliği limitimi aşarsam ne olur?",
+          "answer": "Ölçülü planlarda, limitinize ulaşmadan önce sizi bilgilendireceğiz. İstediğiniz zaman ek bant genişliği satın alabilir veya ölçülmemiş bir plana yükseltebilirsiniz."
+        },
+        "ddos": {
+          "question": "DDoS koruması dahil mi?",
+          "answer": "Evet, tüm AMD VPS planları kurumsal düzeyde DDoS azaltma içerir. Bu, sunucunuzu sıfır kesinti süresiyle Katman 3, 4 ve 7 saldırılarına karşı korur."
+        },
+        "refunds": {
+          "question": "Para iadesi yapıyor musunuz?",
+          "answer": "Evet, tüm yeni VPS satın alımlarında 48 saatlik para iade garantisi sunuyoruz. Tam para iadesi için satın aldıktan sonraki 48 saat içinde destek ekibiyle iletişime geçin."
+        }
+      }
+    },
+    "intel": {
+      "description": "Kurumsal Intel donanımı üzerinde güvenilir KVM VPS. Web barındırma, veritabanları ve uygulama sunucuları için mükemmel tek iş parçacıklı performans.",
+      "heroDescription": "NVMe SSD depolama, tam kök erişimi ve kurumsal DDoS koruması ile Intel donanım üzerinde sağlam KVM VPS. Saniyeler içinde dağıtın.",
+      "tag": "Intel Destekli",
+      "features": {
+        "0": "Kurumsal Intel işlemciler",
+        "1": "NVMe SSD depolama",
+        "2": "Tam kök / SSH erişimi",
+        "3": "DDoS Koruması"
+      },
+      "heroFeatures": {
+        "0": "Tam Kök Erişimi",
+        "1": "KVM Sanallaştırma",
+        "2": "NVMe SSD",
+        "3": "DDoS Koruması"
+      },
+      "plans": {
+        "core": {
+          "name": "Çekirdek",
+          "description": "Küçük projeler ve web barındırma için mükemmel"
+        },
+        "pro": {
+          "name": "Profesyonel",
+          "description": "Üretim uygulamaları için ideal"
+        },
+        "enterprise": {
+          "name": "Kurumsal",
+          "description": "Yüksek talep gören hizmetler için ideal"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Bant Genişliği",
+        "bandwidthUnmetered": "Ölçülmemiş Bant Genişliği",
+        "ddos": "DDoS Koruması",
+        "ipv4": "Ayrılmış IPv4 Adresi",
+        "rootAccess": "Tam Kök / SSH Erişimi",
+        "uptime": "99.9 Uptime SLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Kurumsal Intel Donanımı",
+          "description": "Web sunucuları, veritabanları ve uygulamalar için güçlü tek iş parçacıklı performansa sahip kurumsal sınıf Intel donanımı üzerine inşa edilmiştir.",
+          "highlights": {
+            "0": "Kurumsal Intel işlemciler",
+            "1": "Güçlü tek iş parçacığı performansı",
+            "2": "Büyük önbellek boyutları",
+            "3": "Yüksek saat hızları"
+          }
+        },
+        "storage": {
+          "title": "NVMe SSD Depolama",
+          "description": "G/Ç yoğun uygulamalar için yüksek IOPS ve düşük gecikme süresi sunan ultra hızlı NVMe katı hal depolama.",
+          "highlights": {
+            "0": "NVMe Gen 3/4 SSD'ler",
+            "1": "Yüksek IOPS performansı",
+            "2": "Düşük gecikmeli I/O",
+            "3": "RAID yedekliliği"
+          }
+        },
+        "ddos": {
+          "title": "DDoS Koruması",
+          "description": "Kurumsal düzeyde DDoS azaltma, büyük ölçekli saldırılar sırasında bile VPS'nizi çevrimiçi tutar.",
+          "highlights": {
+            "0": "Katman 3/4/7 filtreleme",
+            "1": "Otomatik kenar fırçalama",
+            "2": "Sıfır kesinti süresi azaltma",
+            "3": "Küresel KOK'lar"
+          }
+        },
+        "network": {
+          "title": "Yüksek Hızlı Ağ",
+          "description": "kullanıcılarınız nerede olursa olsun optimum bağlantı için düşük gecikmeli yönlendirme ile 1Gbps yukarı bağlantı.",
+          "highlights": {
+            "0": "1Gbps yukarı bağlantı",
+            "1": "Düşük gecikmeli yönlendirme",
+            "2": "Premium eşleştirme",
+            "3": "IPv4 ve IPv6 desteği"
+          }
+        },
+        "access": {
+          "title": "Tam Kök Erişimi",
+          "description": "Sunucu ortamınız üzerinde tam kontrol. İstediğiniz yazılımı yükleyin, istediğiniz hizmeti yapılandırın ve istediğiniz işletim sistemini çalıştırın.",
+          "highlights": {
+            "0": "Tam SSH kök erişimi",
+            "1": "Linux dağıtımınızı seçin",
+            "2": "KVM sanallaştırma",
+            "3": "Özel ISO desteği"
+          }
+        },
+        "support": {
+          "title": "7/24 Uzman Desteği",
+          "description": "Ekibimiz, sunucu kurulumu, optimizasyonu ve sorun giderme konularında yardımcı olmak için günün her saati hizmetinizdedir.",
+          "highlights": {
+            "0": "Discord desteği",
+            "1": "Bilet sistemi",
+            "2": "Bilgi tabanı",
+            "3": "Sunucu taşıma yardımı"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "VPS'ime tam root erişimi alabilir miyim?",
+          "answer": "Evet, tüm Intel VPS planları SSH üzerinden tam kök erişimi içerir. İşletim sistemi, yazılım ve yapılandırma dahil olmak üzere sunucu ortamınız üzerinde tam kontrole sahip olursunuz."
+        },
+        "os": {
+          "question": "Hangi işletim sistemleri mevcut?",
+          "answer": "Ubuntu, Debian, CentOS, AlmaLinux ve Rocky Linux gibi popüler Linux dağıtımlarını destekliyoruz. Ayrıca kendi özel ISO'nuzu da yükleyebilirsiniz."
+        },
+        "upgrade": {
+          "question": "VPS planımı daha sonra yükseltebilir miyim?",
+          "answer": "Evet, VPS planınızı istediğiniz zaman faturalandırma panelimizden yükseltebilirsiniz. Kaynak artışları minimum kesinti süresiyle uygulanır."
+        },
+        "bandwidth": {
+          "question": "Bant genişliği limitimi aşarsam ne olur?",
+          "answer": "Ölçülü planlarda, limitinize ulaşmadan önce sizi bilgilendireceğiz. İstediğiniz zaman ek bant genişliği satın alabilir veya ölçülmemiş bir plana yükseltebilirsiniz."
+        },
+        "ddos": {
+          "question": "DDoS koruması dahil mi?",
+          "answer": "Evet, tüm Intel VPS planları kurumsal düzeyde DDoS azaltma içerir. Bu, sunucunuzu sıfır kesinti süresiyle Katman 3, 4 ve 7 saldırılarına karşı korur."
+        },
+        "refunds": {
+          "question": "Para iadesi yapıyor musunuz?",
+          "answer": "Evet, tüm yeni VPS satın alımlarında 48 saatlik para iade garantisi sunuyoruz. Tam para iadesi için satın aldıktan sonraki 48 saat içinde destek ekibiyle iletişime geçin."
+        }
+      }
     }
   }
 }

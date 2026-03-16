@@ -39,6 +39,22 @@
     "all": {
       "title": "Tous les services",
       "description": "Explorez tous nos services d'hébergement"
+    },
+    "gameServers": {
+      "title": "Serveurs de jeux",
+      "description": "Parcourir toutes les options d'hébergement de jeux"
+    },
+    "vpsAmd": {
+      "title": "VPS AMD",
+      "description": "Serveurs virtuels haute performance alimentés par AMD"
+    },
+    "vpsIntel": {
+      "title": "Intel VPS",
+      "description": "Serveurs virtuels fiables alimentés par Intel"
+    },
+    "allVps": {
+      "title": "Serveurs VPS",
+      "description": "Voir toutes les options d'hébergement VPS"
     }
   },
   "resources": {
@@ -171,7 +187,10 @@
       "uptime": "SLA de disponibilité",
       "latency": "Latence moyenne",
       "support": "Soutien",
-      "servers": "Serveurs actifs"
+      "servers": "Serveurs actifs",
+      "users": "Total des utilisateurs",
+      "activeUsers": "Utilisateurs actifs",
+      "allocations": "Allocations"
     }
   },
   "pricing": {
@@ -495,6 +514,11 @@
         "2": "Configuration facile",
         "3": "Support 24/7"
       }
+    },
+    "vpsCta": {
+      "title": "Besoin d'un hébergement VPS ?",
+      "description": "Accès complet à la racine, stockage SSD NVMe et protection DDoS d'entreprise. Choisissez parmi les serveurs virtuels alimentés par AMD ou Intel.",
+      "button": "Voir les plans VPS"
     }
   },
   "gamePage": {
@@ -612,13 +636,17 @@
       "minecraftHosting": "Hébergement Minecraft",
       "rustHosting": "Hébergement en rouille",
       "gamePanel": "Panneau de jeu",
-      "clientArea": "Espace client"
+      "clientArea": "Espace client",
+      "gameServers": "Hébergement de jeux",
+      "vpsServers": "Hébergement VPS",
+      "vpsPanel": "Panel VPS"
     },
     "resources": {
       "discordServer": "Serveur Discord",
       "serviceStatus": "Statut du service",
       "knowledgeBase": "Base de connaissances",
-      "trustPilot": "Trustpilot"
+      "trustPilot": "Trustpilot",
+      "billingPanel": "Panneau de facturation"
     },
     "legalLinks": {
       "terms": "Termes et Conditions",
@@ -825,7 +853,10 @@
       "uptime": "SLA de disponibilité",
       "latency": "Latence moyenne",
       "support": "Soutien",
-      "servers": "Serveurs actifs"
+      "servers": "Serveurs actifs",
+      "users": "Total des utilisateurs",
+      "activeUsers": "Utilisateurs actifs",
+      "allocations": "Allocations"
     },
     "timeline": {
       "badge": "Notre voyage",
@@ -873,7 +904,8 @@
       "home": "Domicile",
       "games": "Jeu",
       "kb": "Base de connaissances",
-      "contact": "Contacter"
+      "contact": "Contacter",
+      "vps": "Hébergement VPS"
     }
   },
   "errorPage": {
@@ -1028,7 +1060,8 @@
       "admin": "Administrateur",
       "logout": "Déconnexion",
       "signIn": "Se connecter",
-      "loggingOut": "Déconnexion..."
+      "loggingOut": "Déconnexion...",
+      "dashboard": "Tableau de bord"
     }
   },
   "admin": {
@@ -1040,7 +1073,11 @@
       "sync": "Synchroniser",
       "syncLogs": "Sync Logs",
       "settings": "Réglages",
-      "backToSite": "Retour au site"
+      "backToSite": "Retour au site",
+      "nodes": "Nœuds de serveur",
+      "locations": "Localisation des sites",
+      "allocations": "Allocations",
+      "eggs": "Nids et œufs"
     },
     "status": {
       "online": "Système en ligne"
@@ -1083,8 +1120,11 @@
         "nests": "Nid & Oeufs",
         "servers": "Serveurs",
         "databases": "Bases de données",
-        "users": "Utilisateurs"
-      }
+        "users": "Utilisateurs",
+        "full": "Synchronisation complète"
+      },
+      "started": "Synchronisation commencée",
+      "running": "Synchronisation des données du tableau de bord. Cette opération peut prendre un certain temps."
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1242,7 +1282,9 @@
         "apiKeyNote": "Entrez votre clé API Pterodactyl panel pour l'authentification.",
         "apiUrl": "API URL",
         "apiUrlNote": "L'URL de base de l'API Pterodactyl (généralement le panneau URL + /api).",
-        "version": "Version du panneau"
+        "version": "Version du panneau",
+        "apiKeyclient": "Clé API du client",
+        "apiKeyNoteclient": "Saisissez votre clé API client Pterodactyl. Cette clé est nécessaire pour synchroniser les données du serveur et de l'utilisateur à partir de l'API client."
       },
       "crowdin": {
         "title": "Gestion de la traduction Crowdin",
@@ -1331,6 +1373,466 @@
       "contactSupport": "Contacter le support technique",
       "followSuggestion": "Suivez-nous sur Discord pour des mises à jour en temps réel sur l'état de maintenance.",
       "discordSuggestion": "Rejoindre Discord"
+    }
+  },
+  "servicesHome": {
+    "badge": "Ce que nous offrons",
+    "title": "Tout ce dont vous avez besoin,",
+    "titleHighlight": "une place",
+    "description": "Serveurs de jeux et hébergement VPS conçus pour la performance. Installation instantanée, protection DDoS et support d'experts 24/7.",
+    "browsePlans": "Parcourir les plans",
+    "startingFrom": "De",
+    "customSolution": "Vous avez besoin d'un produit que nous ne proposons pas ?",
+    "contactUs": "Contactez nous",
+    "forCustom": "et nous trouverons la bonne solution."
+  },
+  "vpsPage": {
+    "title": "Hébergement VPS",
+    "description": "Serveurs privés virtuels haute performance avec accès racine complet, stockage NVMe SSD, protection DDoS et assistance d'experts 24 heures sur 24 et 7 jours sur 7.",
+    "startingAt": "A partir de"
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Vue d'ensemble",
+      "servers": "Serveurs",
+      "billing": "Facturation",
+      "support": "Soutien",
+      "account": "Compte",
+      "backToSite": "Retour au site",
+      "gamePanel": "Panel de jeu",
+      "helpCenter": "Centre d'aide"
+    },
+    "greeting": {
+      "morning": "Bonjour",
+      "afternoon": "Bonjour à tous",
+      "evening": "Bonsoir à tous"
+    },
+    "subtitle": "Voici ce qui se passe avec vos serveurs",
+    "welcome": {
+      "title": "Bienvenue !",
+      "magicLinkSuccess": "Vous vous êtes connecté avec votre lien magique. Bienvenue dans votre tableau de bord !"
+    },
+    "stats": {
+      "totalServers": "Total des serveurs",
+      "activeServers": "Serveurs actifs",
+      "accountBalance": "Solde du compte",
+      "openTickets": "Billets ouverts",
+      "online": "en ligne",
+      "activeDescription": "En cours",
+      "balanceDescription": "Crédit disponible",
+      "ticketsDescription": "En attente de réponse"
+    },
+    "actions": {
+      "openPanel": "Panneau ouvert",
+      "newServer": "Nouveau serveur"
+    },
+    "recentServers": {
+      "title": "Serveurs récents",
+      "description": "Vos derniers serveurs consultés",
+      "viewAll": "Voir tout",
+      "empty": {
+        "title": "Pas encore de serveurs",
+        "description": "Vous n'avez pas encore de serveurs de jeu. Commencez par créer votre premier serveur.",
+        "action": "Créer un serveur"
+      }
+    },
+    "quickActions": {
+      "title": "Actions rapides",
+      "minecraft": "Serveur Minecraft",
+      "minecraftDesc": "Déployer un nouveau serveur Minecraft",
+      "rust": "Serveur Rust",
+      "rustDesc": "Déployer un nouveau serveur Rust",
+      "support": "Billet ouvert",
+      "supportDesc": "Obtenir l'aide de notre équipe",
+      "knowledgeBase": "Base de connaissances",
+      "knowledgeBaseDesc": "Parcourir les articles d'aide"
+    },
+    "servers": {
+      "title": "Mes serveurs",
+      "description": "Gérez et surveillez vos serveurs de jeu",
+      "status": {
+        "running": "La course à pied",
+        "online": "En ligne",
+        "offline": "Hors ligne",
+        "starting": "Démarrage",
+        "stopping": "Arrêter",
+        "suspended": "Suspendu",
+        "installing": "Installation"
+      },
+      "resources": {
+        "memory": "Mémoire",
+        "cpu": "UNITÉ CENTRALE",
+        "disk": "Disque"
+      },
+      "actions": {
+        "newServer": "Nouveau serveur",
+        "refresh": "Rafraîchir",
+        "console": "Console",
+        "files": "Dossiers",
+        "databases": "Bases de données",
+        "openPanel": "Ouvrir dans le panneau"
+      },
+      "filters": {
+        "searchPlaceholder": "Recherche de serveurs...",
+        "status": "Statut",
+        "allStatuses": "Tous les statuts"
+      },
+      "pagination": {
+        "showing": "Montrer {from} à {to} de {total}",
+        "previous": "Précédent",
+        "next": "Suivant"
+      },
+      "empty": {
+        "title": "Aucun serveur trouvé",
+        "description": "Vous n'avez pas encore de serveurs de jeu. Créez votre premier serveur pour commencer.",
+        "action": "Créer un serveur"
+      }
+    },
+    "account": {
+      "title": "Paramètres du compte",
+      "description": "Gérer votre profil et vos paramètres de sécurité",
+      "tabs": {
+        "profile": "Profil",
+        "security": "Sécurité"
+      },
+      "profile": {
+        "overview": "Aperçu du compte",
+        "overviewDescription": "Informations et état de votre compte",
+        "verified": "Vérifié",
+        "unverified": "Non vérifié",
+        "personalInfo": "Informations personnelles",
+        "personalInfoDescription": "Mise à jour de vos données personnelles",
+        "firstName": "Prénom",
+        "firstNamePlaceholder": "Jean",
+        "lastName": "Nom de famille",
+        "lastNamePlaceholder": "Doe",
+        "username": "Nom d'utilisateur",
+        "usernamePlaceholder": "johndoe",
+        "email": "Adresse électronique",
+        "emailNote": "Contactez l'assistance pour modifier votre adresse électronique",
+        "phoneNumber": "Numéro de téléphone",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Nom de l'entreprise",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Email de facturation",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Enregistrer les modifications",
+        "success": "Profil mis à jour",
+        "successDescription": "Votre profil a été mis à jour avec succès.",
+        "error": "Échec de la mise à jour",
+        "errorDescription": "La mise à jour de votre profil a échoué. Veuillez réessayer."
+      },
+      "security": {
+        "changePassword": "Modifier le mot de passe",
+        "changePasswordDescription": "Mettez à jour votre mot de passe pour sécuriser votre compte",
+        "currentPassword": "Mot de passe actuel",
+        "newPassword": "Nouveau mot de passe",
+        "confirmPassword": "Confirmer le nouveau mot de passe",
+        "passwordRequirements": "Le mot de passe doit comporter au moins 8 caractères",
+        "updatePassword": "Mise à jour du mot de passe",
+        "passwordMismatch": "Les mots de passe ne correspondent pas",
+        "passwordMismatchDescription": "Les nouveaux mots de passe que vous avez saisis ne correspondent pas.",
+        "passwordTooShort": "Mot de passe trop court",
+        "passwordTooShortDescription": "Le mot de passe doit comporter au moins 8 caractères.",
+        "passwordChanged": "Mot de passe modifié",
+        "passwordChangedDescription": "Votre mot de passe a été mis à jour avec succès.",
+        "error": "Échec de la mise à jour",
+        "errorDescription": "La mise à jour de votre mot de passe a échoué. Veuillez réessayer.",
+        "emailNotVerified": "Email non vérifié",
+        "emailNotVerifiedDescription": "Votre adresse électronique n'a pas été vérifiée.",
+        "resendVerification": "Renvoyer l'e-mail de vérification",
+        "accountInfo": "Informations sur le compte",
+        "accountInfoDescription": "Détails supplémentaires sur votre compte",
+        "accountCreated": "Compte créé",
+        "lastLogin": "Dernière connexion",
+        "accountId": "ID du compte"
+      }
+    }
+  },
+  "vps": {
+    "badge": "Serveurs VPS",
+    "title": "Choisissez votre",
+    "titleHighlight": "Plan VPS",
+    "description": "Serveurs privés virtuels à contrôle total alimentés par du matériel d'entreprise. Accès à la racine, stockage NVMe, protection DDoS et déploiement instantané.",
+    "hosting": "Hébergement",
+    "learnMore": "En savoir plus",
+    "viewPlans": "Voir les plans",
+    "customSolution": "Vous avez besoin d'une solution VPS personnalisée ou vous avez des questions ?",
+    "contactUs": "Contactez nous",
+    "forCustom": "et nous trouverons la bonne solution.",
+    "highlights": {
+      "deploy": {
+        "title": "Déploiement instantané",
+        "description": "Votre VPS est provisionné et prêt en moins de 60 secondes après l'achat."
+      },
+      "control": {
+        "title": "Accès total à la racine",
+        "description": "Contrôle total sur votre serveur avec un accès SSH root et votre choix de système d'exploitation."
+      },
+      "hardware": {
+        "title": "Matériel d'entreprise",
+        "description": "Processeurs de niveau entreprise avec stockage SSD NVMe et RAM ECC dans tous les plans."
+      }
+    },
+    "amd": {
+      "description": "Serveur virtuel KVM haute performance sur du matériel AMD d'entreprise. Idéal pour les charges de travail exigeantes, les applications web et les backends de jeux.",
+      "heroDescription": "VPS KVM de niveau entreprise sur matériel AMD avec stockage SSD NVMe, accès racine complet et protection DDoS d'entreprise. Déployez en quelques secondes.",
+      "tag": "Alimenté par AMD",
+      "features": {
+        "0": "Processeurs d'entreprise AMD",
+        "1": "Stockage SSD NVMe",
+        "2": "Accès complet à la racine / SSH",
+        "3": "Protection contre les attaques DDoS"
+      },
+      "heroFeatures": {
+        "0": "Accès total à la racine",
+        "1": "Virtualisation KVM",
+        "2": "SSD NVMe",
+        "3": "Protection contre les attaques DDoS"
+      },
+      "plans": {
+        "starter": {
+          "name": "Démarrage",
+          "description": "Parfait pour les petits projets et les tests"
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Idéal pour les applications en croissance"
+        },
+        "performance": {
+          "name": "Performance",
+          "description": "Idéal pour les charges de travail à fort trafic"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} Go NVMe SSD",
+        "bandwidth": "{amount} Bande passante TB",
+        "bandwidthUnmetered": "Largeur de bande non mesurée",
+        "ddos": "Protection contre les attaques DDoS",
+        "ipv4": "Adresse IPv4 dédiée",
+        "rootAccess": "Accès complet à la racine / SSH",
+        "uptime": "99.9 % de temps de disponibilité"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Matériel d'entreprise AMD",
+          "description": "Doté d'un matériel AMD de qualité professionnelle, il offre des performances multithread exceptionnelles pour les charges de travail exigeantes.",
+          "highlights": {
+            "0": "Processeurs d'entreprise AMD",
+            "1": "Nombre élevé de noyaux",
+            "2": "Cache L3 de grande taille",
+            "3": "Vitesses d'horloge élevées"
+          }
+        },
+        "storage": {
+          "title": "Stockage SSD NVMe",
+          "description": "Stockage à semi-conducteurs NVMe ultra-rapide avec des vitesses de lecture séquentielle supérieures à 3 000 Mo/s pour un accès rapide aux données.",
+          "highlights": {
+            "0": "SSD NVMe Gen 3/4",
+            "1": "vitesses de lecture de plus de 3 000 Mo/s",
+            "2": "E/S à faible latence",
+            "3": "Redondance RAID"
+          }
+        },
+        "ddos": {
+          "title": "Protection contre les attaques DDoS",
+          "description": "L'atténuation DDoS de niveau entreprise maintient votre VPS en ligne même en cas d'attaques à grande échelle.",
+          "highlights": {
+            "0": "Filtrage des couches 3/4/7",
+            "1": "Nettoyage automatisé des bords",
+            "2": "Atténuation des temps d'arrêt",
+            "3": "POP mondiaux"
+          }
+        },
+        "network": {
+          "title": "Réseau à haut débit",
+          "description": "liaison montante de 1 Gbps avec routage à faible latence pour une connectivité optimale où que soient vos utilisateurs.",
+          "highlights": {
+            "0": "liaison montante 1Gbps",
+            "1": "Routage à faible latence",
+            "2": "Peering premium",
+            "3": "Prise en charge des protocoles IPv4 et IPv6"
+          }
+        },
+        "access": {
+          "title": "Accès total à la racine",
+          "description": "Contrôle total de votre environnement serveur. Installez n'importe quel logiciel, configurez n'importe quel service et exécutez n'importe quel système d'exploitation.",
+          "highlights": {
+            "0": "Accès SSH complet à la racine",
+            "1": "Choisissez votre distribution Linux",
+            "2": "Virtualisation KVM",
+            "3": "Support ISO personnalisé"
+          }
+        },
+        "support": {
+          "title": "assistance d'un expert 24 heures sur 24, 7 jours sur 7",
+          "description": "Notre équipe est disponible 24 heures sur 24 pour vous aider à configurer votre serveur, à l'optimiser et à le dépanner.",
+          "highlights": {
+            "0": "Support Discord",
+            "1": "Système de tickets",
+            "2": "Base de connaissances",
+            "3": "Aide à la migration des serveurs"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "Est-ce que j'ai un accès complet à mon VPS ?",
+          "answer": "Oui, tous les plans AMD VPS comprennent un accès racine complet via SSH. Vous avez un contrôle total sur l'environnement de votre serveur, y compris le système d'exploitation, les logiciels et la configuration."
+        },
+        "os": {
+          "question": "Quels sont les systèmes d'exploitation disponibles ?",
+          "answer": "Nous prenons en charge les distributions Linux les plus courantes, notamment Ubuntu, Debian, CentOS, AlmaLinux et Rocky Linux. Vous pouvez également télécharger votre propre ISO personnalisé."
+        },
+        "upgrade": {
+          "question": "Puis-je modifier mon plan VPS ultérieurement ?",
+          "answer": "Oui, vous pouvez mettre à niveau votre plan VPS à tout moment à partir de notre panneau de facturation. Les augmentations de ressources sont appliquées avec un minimum de temps d'arrêt."
+        },
+        "bandwidth": {
+          "question": "Que se passe-t-il si je dépasse ma limite de bande passante ?",
+          "answer": "Pour les plans avec compteur, nous vous avertissons avant que vous n'atteigniez votre limite. Vous pouvez à tout moment acheter de la bande passante supplémentaire ou passer à un plan sans compteur."
+        },
+        "ddos": {
+          "question": "La protection contre les attaques DDoS est-elle incluse ?",
+          "answer": "Oui, tous les plans AMD VPS incluent une atténuation DDoS de niveau entreprise. Cela protège votre serveur contre les attaques des couches 3, 4 et 7 avec un nettoyage sans temps d'arrêt."
+        },
+        "refunds": {
+          "question": "Offrez-vous des remboursements ?",
+          "answer": "Oui, nous offrons une garantie de remboursement de 48 heures pour tous les nouveaux achats de VPS. Contactez le support dans les 48 heures suivant l'achat pour un remboursement complet."
+        }
+      }
+    },
+    "intel": {
+      "description": "SPV KVM fiable sur du matériel Intel d'entreprise. Excellentes performances pour l'hébergement web, les bases de données et les serveurs d'application.",
+      "heroDescription": "VPS KVM solide comme le roc sur du matériel Intel avec stockage SSD NVMe, accès racine complet et protection DDoS d'entreprise. Déployez en quelques secondes.",
+      "tag": "Alimenté par Intel",
+      "features": {
+        "0": "Processeurs Intel pour entreprises",
+        "1": "Stockage SSD NVMe",
+        "2": "Accès complet à la racine / SSH",
+        "3": "Protection contre les attaques DDoS"
+      },
+      "heroFeatures": {
+        "0": "Accès total à la racine",
+        "1": "Virtualisation KVM",
+        "2": "SSD NVMe",
+        "3": "Protection contre les attaques DDoS"
+      },
+      "plans": {
+        "core": {
+          "name": "Cœur de métier",
+          "description": "Parfait pour les petits projets et l'hébergement web"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "Idéal pour les applications de production"
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "description": "Idéal pour les services à forte demande"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} Go NVMe SSD",
+        "bandwidth": "{amount} Bande passante TB",
+        "bandwidthUnmetered": "Largeur de bande non mesurée",
+        "ddos": "Protection contre les attaques DDoS",
+        "ipv4": "Adresse IPv4 dédiée",
+        "rootAccess": "Accès complet à la racine / SSH",
+        "uptime": "99.9 % de temps de disponibilité"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Matériel d'entreprise Intel",
+          "description": "Construit sur du matériel Intel de qualité professionnelle, il offre d'excellentes performances pour les serveurs web, les bases de données et les applications.",
+          "highlights": {
+            "0": "Processeurs Intel pour entreprises",
+            "1": "Performances élevées en mode mono-thread",
+            "2": "Cache de grande taille",
+            "3": "Vitesses d'horloge élevées"
+          }
+        },
+        "storage": {
+          "title": "Stockage SSD NVMe",
+          "description": "Stockage à l'état solide NVMe ultra-rapide offrant des IOPS élevés et une faible latence pour les applications intensives en E/S.",
+          "highlights": {
+            "0": "SSD NVMe Gen 3/4",
+            "1": "Performances IOPS élevées",
+            "2": "E/S à faible latence",
+            "3": "Redondance RAID"
+          }
+        },
+        "ddos": {
+          "title": "Protection contre les attaques DDoS",
+          "description": "L'atténuation DDoS de niveau entreprise maintient votre VPS en ligne même en cas d'attaques à grande échelle.",
+          "highlights": {
+            "0": "Filtrage des couches 3/4/7",
+            "1": "Nettoyage automatisé des bords",
+            "2": "Atténuation des temps d'arrêt",
+            "3": "POP mondiaux"
+          }
+        },
+        "network": {
+          "title": "Réseau à haut débit",
+          "description": "liaison montante de 1 Gbps avec routage à faible latence pour une connectivité optimale où que soient vos utilisateurs.",
+          "highlights": {
+            "0": "liaison montante 1Gbps",
+            "1": "Routage à faible latence",
+            "2": "Peering premium",
+            "3": "Prise en charge des protocoles IPv4 et IPv6"
+          }
+        },
+        "access": {
+          "title": "Accès total à la racine",
+          "description": "Contrôle total de votre environnement serveur. Installez n'importe quel logiciel, configurez n'importe quel service et exécutez n'importe quel système d'exploitation.",
+          "highlights": {
+            "0": "Accès SSH complet à la racine",
+            "1": "Choisissez votre distribution Linux",
+            "2": "Virtualisation KVM",
+            "3": "Support ISO personnalisé"
+          }
+        },
+        "support": {
+          "title": "assistance d'un expert 24 heures sur 24, 7 jours sur 7",
+          "description": "Notre équipe est disponible 24 heures sur 24 pour vous aider à configurer votre serveur, à l'optimiser et à le dépanner.",
+          "highlights": {
+            "0": "Support Discord",
+            "1": "Système de tickets",
+            "2": "Base de connaissances",
+            "3": "Aide à la migration des serveurs"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "Est-ce que je dispose d'un accès root complet à mon VPS ?",
+          "answer": "Oui, tous les plans Intel VPS comprennent un accès racine complet via SSH. Vous avez un contrôle total sur l'environnement de votre serveur, y compris le système d'exploitation, les logiciels et la configuration."
+        },
+        "os": {
+          "question": "Quels sont les systèmes d'exploitation disponibles ?",
+          "answer": "Nous prenons en charge les distributions Linux les plus courantes, notamment Ubuntu, Debian, CentOS, AlmaLinux et Rocky Linux. Vous pouvez également télécharger votre propre ISO personnalisé."
+        },
+        "upgrade": {
+          "question": "Puis-je modifier mon plan VPS ultérieurement ?",
+          "answer": "Oui, vous pouvez mettre à niveau votre plan VPS à tout moment à partir de notre panneau de facturation. Les augmentations de ressources sont appliquées avec un minimum de temps d'arrêt."
+        },
+        "bandwidth": {
+          "question": "Que se passe-t-il si je dépasse ma limite de bande passante ?",
+          "answer": "Pour les plans avec compteur, nous vous avertissons avant que vous n'atteigniez votre limite. Vous pouvez à tout moment acheter de la bande passante supplémentaire ou passer à un plan sans compteur."
+        },
+        "ddos": {
+          "question": "La protection contre les attaques DDoS est-elle incluse ?",
+          "answer": "Oui, tous les plans Intel VPS incluent une atténuation DDoS de niveau entreprise. Cela protège votre serveur contre les attaques des couches 3, 4 et 7 avec un nettoyage sans temps d'arrêt."
+        },
+        "refunds": {
+          "question": "Offrez-vous des remboursements ?",
+          "answer": "Oui, nous offrons une garantie de remboursement de 48 heures pour tous les nouveaux achats de VPS. Contactez le support dans les 48 heures suivant l'achat pour un remboursement complet."
+        }
+      }
     }
   }
 }

@@ -39,6 +39,22 @@
     "all": {
       "title": "Toate serviciile",
       "description": "Explorează toate serviciile noastre de găzduire"
+    },
+    "gameServers": {
+      "title": "Servere de jocuri",
+      "description": "Răsfoiți toate opțiunile de găzduire a jocurilor"
+    },
+    "vpsAmd": {
+      "title": "AMD VPS",
+      "description": "Servere virtuale de înaltă performanță echipate cu AMD"
+    },
+    "vpsIntel": {
+      "title": "Intel VPS",
+      "description": "Servere virtuale fiabile cu procesor Intel"
+    },
+    "allVps": {
+      "title": "Servere VPS",
+      "description": "Răsfoiți toate opțiunile de găzduire VPS"
     }
   },
   "resources": {
@@ -171,7 +187,10 @@
       "uptime": "Actualizare SLA",
       "latency": "Latență medie",
       "support": "Suport",
-      "servers": "Servere active"
+      "servers": "Servere active",
+      "users": "Total utilizatori",
+      "activeUsers": "Utilizatori activi",
+      "allocations": "Alocări"
     }
   },
   "pricing": {
@@ -495,6 +514,11 @@
         "2": "Configurare ușoară",
         "3": "Suport 24/7"
       }
+    },
+    "vpsCta": {
+      "title": "Aveți nevoie și de găzduire VPS?",
+      "description": "Acces complet la rădăcină, stocare NVMe SSD și protecție DDoS pentru întreprinderi. Alegeți dintre servere virtuale echipate cu AMD sau Intel.",
+      "button": "Vezi planurile VPS"
     }
   },
   "gamePage": {
@@ -612,13 +636,17 @@
       "minecraftHosting": "Găzduire Minecraft",
       "rustHosting": "Găzduire cu Rust",
       "gamePanel": "Panou de jocuri",
-      "clientArea": "Zona clientului"
+      "clientArea": "Zona clientului",
+      "gameServers": "Găzduire jocuri",
+      "vpsServers": "Gazduire VPS",
+      "vpsPanel": "Panou VPS"
     },
     "resources": {
       "discordServer": "Server Discord",
       "serviceStatus": "Starea serviciului",
       "knowledgeBase": "Baza de cunoștințe",
-      "trustPilot": "Trustpilot"
+      "trustPilot": "Trustpilot",
+      "billingPanel": "Panou de facturare"
     },
     "legalLinks": {
       "terms": "Termeni & Condiții",
@@ -825,7 +853,10 @@
       "uptime": "Actualizare SLA",
       "latency": "Latență medie",
       "support": "Suport",
-      "servers": "Servere active"
+      "servers": "Servere active",
+      "users": "Total utilizatori",
+      "activeUsers": "Utilizatori activi",
+      "allocations": "Alocări"
     },
     "timeline": {
       "badge": "Călătoria noastră",
@@ -873,7 +904,8 @@
       "home": "Acasă",
       "games": "Jocuri",
       "kb": "Baza de cunoștințe",
-      "contact": "Contact"
+      "contact": "Contact",
+      "vps": "Gazduire VPS"
     }
   },
   "errorPage": {
@@ -1028,7 +1060,8 @@
       "admin": "Admin",
       "logout": "Deconectare",
       "signIn": "Conectare în cont",
-      "loggingOut": "Se deconectează..."
+      "loggingOut": "Se deconectează...",
+      "dashboard": "Tablou de bord"
     }
   },
   "admin": {
@@ -1040,7 +1073,11 @@
       "sync": "Sincronizare",
       "syncLogs": "Sync Logs",
       "settings": "Setări",
-      "backToSite": "Înapoi la site"
+      "backToSite": "Înapoi la site",
+      "nodes": "Noduri server",
+      "locations": "Locații",
+      "allocations": "Alocări",
+      "eggs": "Cuiburi și ouă"
     },
     "status": {
       "online": "Sistem online"
@@ -1083,8 +1120,11 @@
         "nests": "Nesturi și Ouă",
         "servers": "Servere",
         "databases": "Baze",
-        "users": "Utilizatori"
-      }
+        "users": "Utilizatori",
+        "full": "Sincronizare completă"
+      },
+      "started": "Sincronizare începută",
+      "running": "Sincronizarea datelor din panou. Acest lucru poate dura un moment."
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1242,7 +1282,9 @@
         "apiKeyNote": "Introduceți Pterodactyl panel API key pentru autentificare.",
         "apiUrl": "API URL",
         "apiUrlNote": "URL-ul de bază pentru Pterodactyl API (de obicei URL panou + /api).",
-        "version": "Versiune panou"
+        "version": "Versiune panou",
+        "apiKeyclient": "Cheie API client",
+        "apiKeyNoteclient": "Introduceți cheia API a clientului Pterodactyl. Aceasta este necesară pentru sincronizarea datelor serverului și ale utilizatorului din API-ul clientului."
       },
       "crowdin": {
         "title": "Managementul traducerii Crowdin",
@@ -1331,6 +1373,466 @@
       "contactSupport": "Contactați asistența",
       "followSuggestion": "Urmărește-ne pe Discord pentru actualizări în timp real privind starea de mentenanță.",
       "discordSuggestion": "Alătură-te Discord"
+    }
+  },
+  "servicesHome": {
+    "badge": "Ce oferim",
+    "title": "Tot ce ai nevoie,",
+    "titleHighlight": "un loc",
+    "description": "Servere de jocuri și găzduire VPS construite pentru performanță. Configurare instantanee, protecție DDoS și asistență de specialitate 24/7.",
+    "browsePlans": "Răsfoiește planurile",
+    "startingFrom": "De la",
+    "customSolution": "Aveți nevoie de ceva ce nu avem pe listă?",
+    "contactUs": "Contactați-ne",
+    "forCustom": "și vom găsi potrivirea potrivită."
+  },
+  "vpsPage": {
+    "title": "Gazduire VPS",
+    "description": "Servere virtuale private de înaltă performanță cu acces complet la rădăcină, stocare NVMe SSD, protecție DDoS și asistență de specialitate 24/7.",
+    "startingAt": "Începând de la"
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Prezentare generală",
+      "servers": "Servere",
+      "billing": "Facturare",
+      "support": "Sprijin",
+      "account": "Cont",
+      "backToSite": "Înapoi la site",
+      "gamePanel": "Panou de joc",
+      "helpCenter": "Centrul de ajutor"
+    },
+    "greeting": {
+      "morning": "Bună dimineața",
+      "afternoon": "Bună ziua",
+      "evening": "Bună seara"
+    },
+    "subtitle": "Iată ce se întâmplă cu serverele dvs",
+    "welcome": {
+      "title": "Bine ați venit!",
+      "magicLinkSuccess": "V-ați conectat cu succes cu link-ul dvs. magic. Bine ați venit în tabloul dvs. de bord!"
+    },
+    "stats": {
+      "totalServers": "Total servere",
+      "activeServers": "Servere active",
+      "accountBalance": "Soldul contului",
+      "openTickets": "Bilete deschise",
+      "online": "online",
+      "activeDescription": "Funcționează în prezent",
+      "balanceDescription": "Credit disponibil",
+      "ticketsDescription": "În așteptarea unui răspuns"
+    },
+    "actions": {
+      "openPanel": "Panou deschis",
+      "newServer": "Server nou"
+    },
+    "recentServers": {
+      "title": "Servere recente",
+      "description": "Serverele accesate cel mai recent",
+      "viewAll": "Vezi toate",
+      "empty": {
+        "title": "Nu există servere încă",
+        "description": "Nu aveți încă niciun server de jocuri. Începeți prin a vă crea primul server.",
+        "action": "Crearea serverului"
+      }
+    },
+    "quickActions": {
+      "title": "Acțiuni rapide",
+      "minecraft": "Server Minecraft",
+      "minecraftDesc": "Deplasați un nou server Minecraft",
+      "rust": "Server Rust",
+      "rustDesc": "Implementați un nou server Rust",
+      "support": "Bilet deschis",
+      "supportDesc": "Obțineți ajutor de la echipa noastră",
+      "knowledgeBase": "Baza de cunoștințe",
+      "knowledgeBaseDesc": "Răsfoiți articolele de ajutor"
+    },
+    "servers": {
+      "title": "Serverele mele",
+      "description": "Gestionați și monitorizați serverele dvs. de jocuri",
+      "status": {
+        "running": "Alergare",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Start",
+        "stopping": "Oprirea",
+        "suspended": "Suspendat",
+        "installing": "Instalare"
+      },
+      "resources": {
+        "memory": "Memorie",
+        "cpu": "CPU",
+        "disk": "Disc"
+      },
+      "actions": {
+        "newServer": "Server nou",
+        "refresh": "Reîmprospătare",
+        "console": "Consolă",
+        "files": "Fișiere",
+        "databases": "Baze de date",
+        "openPanel": "Deschidere în panou"
+      },
+      "filters": {
+        "searchPlaceholder": "Servere de căutare...",
+        "status": "Statut",
+        "allStatuses": "Toate statusurile"
+      },
+      "pagination": {
+        "showing": "Afișarea {from} la {to} de {total}",
+        "previous": "Articolul precedent",
+        "next": "Următorul"
+      },
+      "empty": {
+        "title": "Nu s-au găsit servere",
+        "description": "Nu aveți încă niciun server de joc. Creați primul dvs. server pentru a începe.",
+        "action": "Crearea serverului"
+      }
+    },
+    "account": {
+      "title": "Setări cont",
+      "description": "Gestionați-vă profilul și setările de securitate",
+      "tabs": {
+        "profile": "Profil",
+        "security": "Securitate"
+      },
+      "profile": {
+        "overview": "Prezentare generală a contului",
+        "overviewDescription": "Informațiile și starea contului dvs",
+        "verified": "Verificat",
+        "unverified": "Neverificat",
+        "personalInfo": "Informații personale",
+        "personalInfoDescription": "Actualizați-vă datele personale",
+        "firstName": "Numele și prenumele",
+        "firstNamePlaceholder": "Ioan",
+        "lastName": "Numele de familie",
+        "lastNamePlaceholder": "Doe",
+        "username": "Nume utilizator",
+        "usernamePlaceholder": "johndoe",
+        "email": "Adresă de e-mail",
+        "emailNote": "Contactați asistența pentru a vă schimba adresa de e-mail",
+        "phoneNumber": "Număr de telefon",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Numele companiei",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "E-mail de facturare",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Salvați modificările",
+        "success": "Profil actualizat",
+        "successDescription": "Profilul dvs. a fost actualizat cu succes.",
+        "error": "Actualizare eșuată",
+        "errorDescription": "Nu ați reușit să vă actualizați profilul. Vă rugăm să încercați din nou."
+      },
+      "security": {
+        "changePassword": "Schimbare parolă",
+        "changePasswordDescription": "Actualizați-vă parola pentru a vă păstra contul în siguranță",
+        "currentPassword": "Parolă curentă",
+        "newPassword": "Parolă nouă",
+        "confirmPassword": "Confirmați parola nouă",
+        "passwordRequirements": "Parola trebuie să aibă cel puțin 8 caractere",
+        "updatePassword": "Actualizare parolă",
+        "passwordMismatch": "Parolele nu se potrivesc",
+        "passwordMismatchDescription": "Noile parole pe care le-ați introdus nu se potrivesc.",
+        "passwordTooShort": "Parolă prea scurtă",
+        "passwordTooShortDescription": "Parola trebuie să conțină cel puțin 8 caractere.",
+        "passwordChanged": "Parolă schimbată",
+        "passwordChangedDescription": "Parola dvs. a fost actualizată cu succes.",
+        "error": "Actualizare eșuată",
+        "errorDescription": "Nu ați reușit să vă actualizați parola. Vă rugăm să încercați din nou.",
+        "emailNotVerified": "E-mail neverificat",
+        "emailNotVerifiedDescription": "Adresa dvs. de e-mail nu a fost verificată.",
+        "resendVerification": "Trimiteți din nou un e-mail de verificare",
+        "accountInfo": "Informații despre cont",
+        "accountInfoDescription": "Detalii suplimentare despre contul dvs",
+        "accountCreated": "Cont creat",
+        "lastLogin": "Ultima autentificare",
+        "accountId": "ID cont"
+      }
+    }
+  },
+  "vps": {
+    "badge": "Servere VPS",
+    "title": "Alegeți-vă",
+    "titleHighlight": "Plan VPS",
+    "description": "Servere private virtuale cu control total, alimentate de hardware enterprise. Acces rădăcină, stocare NVMe, protecție DDoS și implementare instantanee.",
+    "hosting": "Găzduire",
+    "learnMore": "Aflați mai multe",
+    "viewPlans": "Vezi planurile",
+    "customSolution": "Aveți nevoie de o soluție VPS personalizată sau aveți întrebări?",
+    "contactUs": "Contactați-ne",
+    "forCustom": "și vom găsi potrivirea potrivită.",
+    "highlights": {
+      "deploy": {
+        "title": "Implementare instantanee",
+        "description": "VPS-ul dvs. este provizionat și gata în mai puțin de 60 de secunde de la cumpărare."
+      },
+      "control": {
+        "title": "Acces complet la rădăcină",
+        "description": "Control complet asupra serverului dvs. cu acces SSH root și sistem de operare la alegerea dvs."
+      },
+      "hardware": {
+        "title": "Hardware pentru întreprinderi",
+        "description": "Procesoare de nivel enterprise cu stocare SSD NVMe și memorie RAM ECC în toate planurile."
+      }
+    },
+    "amd": {
+      "description": "VPS KVM de înaltă performanță pe hardware AMD enterprise. Ideal pentru sarcini de lucru solicitante, aplicații web și back-end-uri de jocuri.",
+      "heroDescription": "VPS KVM de nivel enterprise pe hardware AMD cu stocare NVMe SSD, acces root complet și protecție DDoS enterprise. Implementare în câteva secunde.",
+      "tag": "Motorizat AMD",
+      "features": {
+        "0": "Procesoare AMD pentru întreprinderi",
+        "1": "Stocare NVMe SSD",
+        "2": "Acces complet root / SSH",
+        "3": "Protecție DDoS"
+      },
+      "heroFeatures": {
+        "0": "Acces complet la rădăcină",
+        "1": "Virtualizarea KVM",
+        "2": "SSD NVMe",
+        "3": "Protecție DDoS"
+      },
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "description": "Perfect pentru proiecte mici și testare"
+        },
+        "standard": {
+          "name": "Standard",
+          "description": "Ideală pentru aplicații în creștere"
+        },
+        "performance": {
+          "name": "Performanță",
+          "description": "Ideal pentru volumele de lucru cu trafic ridicat"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB SSD NVMe",
+        "bandwidth": "{amount} TB Lățime de bandă",
+        "bandwidthUnmetered": "Lățime de bandă nemăsurată",
+        "ddos": "Protecție DDoS",
+        "ipv4": "Adresă IPv4 dedicată",
+        "rootAccess": "Acces complet la rădăcină / SSH",
+        "uptime": "99.9% Uptime SLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Hardware AMD pentru întreprinderi",
+          "description": "Propulsat de hardware AMD de nivel enterprise care oferă performanțe excepționale multi-threaded pentru sarcini de lucru solicitante.",
+          "highlights": {
+            "0": "Procesoare AMD pentru întreprinderi",
+            "1": "Număr mare de nuclee",
+            "2": "Cache L3 mare",
+            "3": "Viteze de ceas ridicate"
+          }
+        },
+        "storage": {
+          "title": "Stocare SSD NVMe",
+          "description": "Stocare ultra-rapidă NVMe solid-state cu viteze de citire secvențială de peste 3.000 MB/s pentru acces rapid la date.",
+          "highlights": {
+            "0": "SSD-uri NVMe Gen 3/4",
+            "1": "viteze de citire de peste 3.000 MB/s",
+            "2": "I/O cu latență redusă",
+            "3": "Redundanță RAID"
+          }
+        },
+        "ddos": {
+          "title": "Protecție DDoS",
+          "description": "Atenuarea DDoS de nivel enterprise vă menține VPS-ul online chiar și în timpul atacurilor pe scară largă.",
+          "highlights": {
+            "0": "Filtrare strat 3/4/7",
+            "1": "Curățarea automată a marginilor",
+            "2": "Reducerea zero a timpilor morți",
+            "3": "POP la nivel mondial"
+          }
+        },
+        "network": {
+          "title": "Rețea de mare viteză",
+          "description": "uplink de 1 Gbps cu rutare cu latență redusă pentru conectivitate optimă oriunde se află utilizatorii dvs.",
+          "highlights": {
+            "0": "1Gbps uplink",
+            "1": "Rutare cu latență redusă",
+            "2": "Peering premium",
+            "3": "Suport IPv4 și IPv6"
+          }
+        },
+        "access": {
+          "title": "Acces complet la rădăcină",
+          "description": "Control complet asupra mediului dvs. de server. Instalați orice software, configurați orice serviciu și rulați orice sistem de operare.",
+          "highlights": {
+            "0": "Acces SSH root complet",
+            "1": "Alegeți-vă distribuția Linux",
+            "2": "Virtualizarea KVM",
+            "3": "Suport ISO personalizat"
+          }
+        },
+        "support": {
+          "title": "asistență de specialitate 24/7",
+          "description": "Echipa noastră este disponibilă non-stop pentru a vă ajuta cu configurarea, optimizarea și depanarea serverului.",
+          "highlights": {
+            "0": "Suport Discord",
+            "1": "Sistemul de bilete",
+            "2": "Baza de cunoștințe",
+            "3": "Ajutor pentru migrarea serverului"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "Primesc acces root complet la VPS-ul meu?",
+          "answer": "Da, toate planurile AMD VPS includ acces root complet prin SSH. Aveți control complet asupra mediului serverului dvs., inclusiv asupra sistemului de operare, software și configurare."
+        },
+        "os": {
+          "question": "Ce sisteme de operare sunt disponibile?",
+          "answer": "Suportăm distribuții Linux populare, inclusiv Ubuntu, Debian, CentOS, AlmaLinux și Rocky Linux. De asemenea, puteți încărca propriul ISO personalizat."
+        },
+        "upgrade": {
+          "question": "Pot să-mi actualizez ulterior planul VPS?",
+          "answer": "Da, vă puteți actualiza planul VPS în orice moment din panoul nostru de facturare. Creșterile de resurse sunt aplicate cu un timp minim de nefuncționare."
+        },
+        "bandwidth": {
+          "question": "Ce se întâmplă dacă îmi depășesc limita de lățime de bandă?",
+          "answer": "În cazul planurilor cu contor, vă vom anunța înainte să atingeți limita. Puteți achiziționa oricând lățime de bandă suplimentară sau puteți face upgrade la un plan fără contor."
+        },
+        "ddos": {
+          "question": "Este inclusă protecția DDoS?",
+          "answer": "Da, toate planurile AMD VPS includ atenuare DDoS de nivel enterprise. Aceasta protejează serverul dvs. de atacurile de nivel 3, 4 și 7 cu curățare fără timp de nefuncționare."
+        },
+        "refunds": {
+          "question": "Oferiți rambursări?",
+          "answer": "Da, oferim o garanție de returnare a banilor în 48 de ore pentru toate achizițiile de VPS-uri noi. Contactați asistența în termen de 48 de ore de la cumpărare pentru o rambursare completă."
+        }
+      }
+    },
+    "intel": {
+      "description": "VPS KVM fiabil pe hardware Intel de întreprindere. Performanță excelentă cu un singur fir pentru găzduire web, baze de date și servere de aplicații.",
+      "heroDescription": "VPS KVM solid pe hardware Intel cu stocare NVMe SSD, acces complet la rădăcină și protecție DDoS pentru întreprinderi. Implementare în câteva secunde.",
+      "tag": "Intel Powered",
+      "features": {
+        "0": "Procesoare Intel pentru întreprinderi",
+        "1": "Stocare NVMe SSD",
+        "2": "Acces complet root / SSH",
+        "3": "Protecție DDoS"
+      },
+      "heroFeatures": {
+        "0": "Acces complet la rădăcină",
+        "1": "Virtualizarea KVM",
+        "2": "SSD NVMe",
+        "3": "Protecție DDoS"
+      },
+      "plans": {
+        "core": {
+          "name": "Nucleu",
+          "description": "Perfect pentru proiecte mici și găzduire web"
+        },
+        "pro": {
+          "name": "Pro",
+          "description": "Ideală pentru aplicații de producție"
+        },
+        "enterprise": {
+          "name": "Întreprindere",
+          "description": "Ideal pentru servicii la cerere ridicată"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB SSD NVMe",
+        "bandwidth": "{amount} TB Lățime de bandă",
+        "bandwidthUnmetered": "Lățime de bandă nemăsurată",
+        "ddos": "Protecție DDoS",
+        "ipv4": "Adresă IPv4 dedicată",
+        "rootAccess": "Acces complet la rădăcină / SSH",
+        "uptime": "99.9% Uptime SLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "Hardware Intel pentru întreprinderi",
+          "description": "Construit pe hardware Intel de nivel enterprise cu performanțe puternice pentru servere web, baze de date și aplicații.",
+          "highlights": {
+            "0": "Procesoare Intel pentru întreprinderi",
+            "1": "Performanță puternică pe un singur fir",
+            "2": "Dimensiuni mari ale cache-ului",
+            "3": "Viteze de ceas ridicate"
+          }
+        },
+        "storage": {
+          "title": "Stocare SSD NVMe",
+          "description": "Stocare ultra-rapidă NVMe pe solid care oferă IOPS ridicate și latență redusă pentru aplicații I/O-intensive.",
+          "highlights": {
+            "0": "SSD-uri NVMe Gen 3/4",
+            "1": "Performanță IOPS ridicată",
+            "2": "I/O cu latență redusă",
+            "3": "Redundanță RAID"
+          }
+        },
+        "ddos": {
+          "title": "Protecție DDoS",
+          "description": "Atenuarea DDoS de nivel enterprise vă menține VPS-ul online chiar și în timpul atacurilor pe scară largă.",
+          "highlights": {
+            "0": "Filtrare strat 3/4/7",
+            "1": "Curățarea automată a marginilor",
+            "2": "Reducerea zero a timpilor morți",
+            "3": "POP la nivel mondial"
+          }
+        },
+        "network": {
+          "title": "Rețea de mare viteză",
+          "description": "uplink de 1 Gbps cu rutare cu latență redusă pentru conectivitate optimă oriunde se află utilizatorii dvs.",
+          "highlights": {
+            "0": "1Gbps uplink",
+            "1": "Rutare cu latență redusă",
+            "2": "Peering premium",
+            "3": "Suport IPv4 și IPv6"
+          }
+        },
+        "access": {
+          "title": "Acces complet la rădăcină",
+          "description": "Control complet asupra mediului dvs. de server. Instalați orice software, configurați orice serviciu și rulați orice sistem de operare.",
+          "highlights": {
+            "0": "Acces SSH root complet",
+            "1": "Alegeți-vă distribuția Linux",
+            "2": "Virtualizarea KVM",
+            "3": "Suport ISO personalizat"
+          }
+        },
+        "support": {
+          "title": "asistență de specialitate 24/7",
+          "description": "Echipa noastră este disponibilă non-stop pentru a vă ajuta cu configurarea, optimizarea și depanarea serverului.",
+          "highlights": {
+            "0": "Suport Discord",
+            "1": "Sistemul de bilete",
+            "2": "Baza de cunoștințe",
+            "3": "Ajutor pentru migrarea serverului"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "Primesc acces root complet la VPS-ul meu?",
+          "answer": "Da, toate planurile Intel VPS includ acces root complet prin SSH. Aveți control complet asupra mediului serverului dvs., inclusiv asupra sistemului de operare, software și configurare."
+        },
+        "os": {
+          "question": "Ce sisteme de operare sunt disponibile?",
+          "answer": "Suportăm distribuții Linux populare, inclusiv Ubuntu, Debian, CentOS, AlmaLinux și Rocky Linux. De asemenea, puteți încărca propriul ISO personalizat."
+        },
+        "upgrade": {
+          "question": "Pot să-mi actualizez ulterior planul VPS?",
+          "answer": "Da, vă puteți actualiza planul VPS în orice moment din panoul nostru de facturare. Creșterile de resurse sunt aplicate cu un timp minim de nefuncționare."
+        },
+        "bandwidth": {
+          "question": "Ce se întâmplă dacă îmi depășesc limita de lățime de bandă?",
+          "answer": "În cazul planurilor cu contor, vă vom notifica înainte de a vă atinge limita. Puteți achiziționa oricând lățime de bandă suplimentară sau puteți face upgrade la un plan fără contor."
+        },
+        "ddos": {
+          "question": "Este inclusă protecția DDoS?",
+          "answer": "Da, toate planurile Intel VPS includ atenuare DDoS de nivel enterprise. Acest lucru vă protejează serverul de atacurile de nivel 3, 4 și 7 cu curățare în timp zero."
+        },
+        "refunds": {
+          "question": "Oferiți rambursări?",
+          "answer": "Da, oferim o garanție de returnare a banilor în 48 de ore pentru toate achizițiile de VPS-uri noi. Contactați asistența în termen de 48 de ore de la cumpărare pentru o rambursare completă."
+        }
+      }
     }
   }
 }

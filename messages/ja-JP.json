@@ -39,6 +39,22 @@
     "all": {
       "title": "すべてのサービス",
       "description": "すべてのホスティングサービスをご覧ください"
+    },
+    "gameServers": {
+      "title": "ゲームサーバー",
+      "description": "すべてのゲームホスティングオプションを見る"
+    },
+    "vpsAmd": {
+      "title": "AMD VPS",
+      "description": "高性能AMD搭載仮想サーバー"
+    },
+    "vpsIntel": {
+      "title": "インテルVPS",
+      "description": "信頼性の高いインテル製仮想サーバー"
+    },
+    "allVps": {
+      "title": "VPSサーバー",
+      "description": "すべてのVPSホスティングオプションを見る"
     }
   },
   "resources": {
@@ -171,7 +187,10 @@
       "uptime": "稼働時間SLA",
       "latency": "平均遅延",
       "support": "サポート",
-      "servers": "アクティブなサーバー"
+      "servers": "アクティブなサーバー",
+      "users": "総ユーザー数",
+      "activeUsers": "アクティブユーザー",
+      "allocations": "割り当て"
     }
   },
   "pricing": {
@@ -495,6 +514,11 @@
         "2": "簡単な構成",
         "3": "24時間年中無休のサポート"
       }
+    },
+    "vpsCta": {
+      "title": "VPSホスティングも必要ですか？",
+      "description": "フルルートアクセス、NVMe SSDストレージ、エンタープライズDDoS保護。AMDまたはIntel搭載の仮想サーバーからお選びいただけます。",
+      "button": "VPSプランを見る"
     }
   },
   "gamePage": {
@@ -612,13 +636,17 @@
       "minecraftHosting": "Minecraft ホスティング",
       "rustHosting": "Rust Hosting",
       "gamePanel": "ゲームパネル",
-      "clientArea": "取引先エリア"
+      "clientArea": "取引先エリア",
+      "gameServers": "ゲームホスティング",
+      "vpsServers": "VPSホスティング",
+      "vpsPanel": "VPSパネル"
     },
     "resources": {
       "discordServer": "Discord サーバー",
       "serviceStatus": "サービスステータス",
       "knowledgeBase": "ナレッジベース",
-      "trustPilot": "Trustpilot"
+      "trustPilot": "Trustpilot",
+      "billingPanel": "請求パネル"
     },
     "legalLinks": {
       "terms": "利用規約",
@@ -825,7 +853,10 @@
       "uptime": "稼働時間SLA",
       "latency": "平均遅延",
       "support": "サポート",
-      "servers": "アクティブなサーバー"
+      "servers": "アクティブなサーバー",
+      "users": "総ユーザー数",
+      "activeUsers": "アクティブユーザー",
+      "allocations": "割り当て"
     },
     "timeline": {
       "badge": "私たちの旅",
@@ -873,7 +904,8 @@
       "home": "ホーム",
       "games": "ゲーム",
       "kb": "ナレッジベース",
-      "contact": "お問い合わせ"
+      "contact": "お問い合わせ",
+      "vps": "VPSホスティング"
     }
   },
   "errorPage": {
@@ -1028,7 +1060,8 @@
       "admin": "管理者",
       "logout": "サインアウト",
       "signIn": "サインイン",
-      "loggingOut": "サインアウトしています..."
+      "loggingOut": "サインアウトしています...",
+      "dashboard": "ダッシュボード"
     }
   },
   "admin": {
@@ -1040,7 +1073,11 @@
       "sync": "同期",
       "syncLogs": "Sync Logs",
       "settings": "設定",
-      "backToSite": "サイトに戻る"
+      "backToSite": "サイトに戻る",
+      "nodes": "サーバー・ノード",
+      "locations": "所在地",
+      "allocations": "割り当て",
+      "eggs": "巣と卵"
     },
     "status": {
       "online": "オンラインのシステム"
@@ -1083,8 +1120,11 @@
         "nests": "巣と卵",
         "servers": "サーバー",
         "databases": "データベース",
-        "users": "ユーザー"
-      }
+        "users": "ユーザー",
+        "full": "フルシンク"
+      },
+      "started": "同期開始",
+      "running": "パネルからデータを同期する。少し時間がかかるかもしれません。"
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1242,7 +1282,9 @@
         "apiKeyNote": "認証には、Pterodactyl パネル API キーを入力します。",
         "apiUrl": "API URL",
         "apiUrlNote": "プテロダチル API のベース URL (通常はパネル URL + /api)。",
-        "version": "パネルのバージョン"
+        "version": "パネルのバージョン",
+        "apiKeyclient": "クライアントAPIキー",
+        "apiKeyNoteclient": "PterodactylクライアントAPIキーを入力します。これは、クライアントAPIからサーバーとユーザーデータを同期するために必要です。"
       },
       "crowdin": {
         "title": "Crowdin 翻訳管理",
@@ -1331,6 +1373,466 @@
       "contactSupport": "サポートに連絡",
       "followSuggestion": "メンテナンス状況をリアルタイムで更新するため、Discordをフォローしてください。",
       "discordSuggestion": "Discord に参加"
+    }
+  },
+  "servicesHome": {
+    "badge": "サービス内容",
+    "title": "必要なものはすべて揃っている、",
+    "titleHighlight": "一箇所",
+    "description": "パフォーマンスのために構築されたゲームサーバーとVPSホスティング。即座のセットアップ、DDoS保護、24時間365日のエキスパートサポート。",
+    "browsePlans": "プラン一覧",
+    "startingFrom": "より",
+    "customSolution": "リストにないものをお探しですか？",
+    "contactUs": "お問い合わせ",
+    "forCustom": "そして、私たちはあなたにぴったり合うものを見つけるでしょう。"
+  },
+  "vpsPage": {
+    "title": "VPSホスティング",
+    "description": "フルルートアクセス、NVMe SSDストレージ、DDoS保護、24時間365日のエキスパートサポートを備えた高性能な仮想プライベートサーバーです。",
+    "startingAt": "からスタートする。"
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "概要",
+      "servers": "サーバー",
+      "billing": "請求",
+      "support": "サポート",
+      "account": "アカウント",
+      "backToSite": "サイトへ戻る",
+      "gamePanel": "ゲームパネル",
+      "helpCenter": "ヘルプセンター"
+    },
+    "greeting": {
+      "morning": "おはよう",
+      "afternoon": "こんにちは",
+      "evening": "こんばんは"
+    },
+    "subtitle": "あなたのサーバーで何が起きているのか、以下に示す。",
+    "welcome": {
+      "title": "ようこそ！",
+      "magicLinkSuccess": "マジックリンクでサインインに成功しました。ダッシュボードへようこそ！"
+    },
+    "stats": {
+      "totalServers": "総サーバー数",
+      "activeServers": "アクティブサーバー",
+      "accountBalance": "口座残高",
+      "openTickets": "オープン・チケット",
+      "online": "オンライン",
+      "activeDescription": "現在実行中",
+      "balanceDescription": "利用可能なクレジット",
+      "ticketsDescription": "回答待ち"
+    },
+    "actions": {
+      "openPanel": "オープンパネル",
+      "newServer": "新サーバー"
+    },
+    "recentServers": {
+      "title": "最近のサーバー",
+      "description": "最近アクセスしたサーバー",
+      "viewAll": "全てを見る",
+      "empty": {
+        "title": "サーバーはまだない",
+        "description": "あなたはまだゲームサーバーを持っていません。最初のサーバーを作成して始めましょう。",
+        "action": "サーバーの作成"
+      }
+    },
+    "quickActions": {
+      "title": "クイックアクション",
+      "minecraft": "マインクラフトサーバー",
+      "minecraftDesc": "新しい Minecraft サーバーをデプロイする",
+      "rust": "ラストサーバー",
+      "rustDesc": "新しいRustサーバをデプロイする",
+      "support": "オープンチケット",
+      "supportDesc": "チームからのサポート",
+      "knowledgeBase": "ナレッジ・ベース",
+      "knowledgeBaseDesc": "ヘルプ記事を見る"
+    },
+    "servers": {
+      "title": "マイサーバー",
+      "description": "ゲームサーバーの管理と監視",
+      "status": {
+        "running": "ランニング",
+        "online": "オンライン",
+        "offline": "オフライン",
+        "starting": "スタート",
+        "stopping": "停止",
+        "suspended": "中断",
+        "installing": "インストール"
+      },
+      "resources": {
+        "memory": "メモリー",
+        "cpu": "CPU",
+        "disk": "ディスク"
+      },
+      "actions": {
+        "newServer": "新サーバー",
+        "refresh": "リフレッシュ",
+        "console": "コンソール",
+        "files": "ファイル",
+        "databases": "データベース",
+        "openPanel": "パネルで開く"
+      },
+      "filters": {
+        "searchPlaceholder": "検索サーバー...",
+        "status": "ステータス",
+        "allStatuses": "すべてのステータス"
+      },
+      "pagination": {
+        "showing": "{total}の{from}から{to}までを表示",
+        "previous": "前へ",
+        "next": "次のページ"
+      },
+      "empty": {
+        "title": "サーバーが見つかりません",
+        "description": "あなたはまだゲームサーバーを持っていません。最初のサーバーを作成して始めましょう。",
+        "action": "サーバーの作成"
+      }
+    },
+    "account": {
+      "title": "アカウント設定",
+      "description": "プロフィールとセキュリティ設定の管理",
+      "tabs": {
+        "profile": "プロフィール",
+        "security": "セキュリティ"
+      },
+      "profile": {
+        "overview": "アカウント概要",
+        "overviewDescription": "アカウント情報とステータス",
+        "verified": "確認済み",
+        "unverified": "未確認",
+        "personalInfo": "個人情報",
+        "personalInfoDescription": "個人情報の更新",
+        "firstName": "名前",
+        "firstNamePlaceholder": "ジョン",
+        "lastName": "ラストネーム",
+        "lastNamePlaceholder": "ドウ",
+        "username": "ユーザー名",
+        "usernamePlaceholder": "ジョンドゥ",
+        "email": "メールアドレス",
+        "emailNote": "サポートに連絡してメールアドレスを変更する",
+        "phoneNumber": "電話番号",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "会社名",
+        "companyNamePlaceholder": "株式会社アクメ",
+        "billingEmail": "請求先メールアドレス",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "変更を保存する",
+        "success": "プロフィール更新",
+        "successDescription": "プロフィールが更新されました。",
+        "error": "更新失敗",
+        "errorDescription": "プロフィールの更新に失敗しました。もう一度お試しください。"
+      },
+      "security": {
+        "changePassword": "パスワードの変更",
+        "changePasswordDescription": "パスワードを更新してアカウントを安全に保つ",
+        "currentPassword": "現在のパスワード",
+        "newPassword": "新しいパスワード",
+        "confirmPassword": "新しいパスワードの確認",
+        "passwordRequirements": "パスワードは8文字以上",
+        "updatePassword": "パスワードの更新",
+        "passwordMismatch": "パスワードが一致しない",
+        "passwordMismatchDescription": "入力した新しいパスワードが一致しません。",
+        "passwordTooShort": "短すぎるパスワード",
+        "passwordTooShortDescription": "パスワードは8文字以上でなければなりません。",
+        "passwordChanged": "パスワード変更",
+        "passwordChangedDescription": "パスワードは正常に更新されました。",
+        "error": "更新失敗",
+        "errorDescription": "パスワードの更新に失敗しました。もう一度お試しください。",
+        "emailNotVerified": "Eメール未確認",
+        "emailNotVerifiedDescription": "メールアドレスが確認されていません。",
+        "resendVerification": "認証メールを再送する",
+        "accountInfo": "口座情報",
+        "accountInfoDescription": "アカウントに関するその他の詳細",
+        "accountCreated": "アカウント作成",
+        "lastLogin": "最終ログイン",
+        "accountId": "アカウントID"
+      }
+    }
+  },
+  "vps": {
+    "badge": "VPSサーバー",
+    "title": "選択する",
+    "titleHighlight": "VPSプラン",
+    "description": "エンタープライズハードウェアによるフルコントロールの仮想プライベートサーバー。ルートアクセス、NVMeストレージ、DDoS保護、即時デプロイ。",
+    "hosting": "ホスティング",
+    "learnMore": "さらに詳しく",
+    "viewPlans": "プランを見る",
+    "customSolution": "カスタムVPSソリューションが必要ですか？",
+    "contactUs": "お問い合わせ",
+    "forCustom": "そして、私たちはあなたにぴったり合うものを見つけるでしょう。",
+    "highlights": {
+      "deploy": {
+        "title": "インスタント・デプロイメント",
+        "description": "VPSは購入後60秒以内にプロビジョニングされ、準備が整います。"
+      },
+      "control": {
+        "title": "フル・ルート・アクセス",
+        "description": "SSHのルートアクセスとOSの選択により、サーバーを完全にコントロールできます。"
+      },
+      "hardware": {
+        "title": "エンタープライズ・ハードウェア",
+        "description": "エンタープライズグレードのプロセッサー、NVMe SSDストレージ、ECC RAMを全プランに搭載。"
+      }
+    },
+    "amd": {
+      "description": "エンタープライズAMDハードウェア上の高性能KVM VPS。負荷の高いワークロード、Webアプリケーション、ゲームバックエンドに最適です。",
+      "heroDescription": "NVMe SSDストレージ、フルrootアクセス、エンタープライズDDoS保護を備えたAMDハードウェア上のエンタープライズグレードKVM VPS。数秒でデプロイ。",
+      "tag": "AMD搭載",
+      "features": {
+        "0": "エンタープライズAMDプロセッサー",
+        "1": "NVMe SSDストレージ",
+        "2": "フルルート/SSHアクセス",
+        "3": "DDoSプロテクション"
+      },
+      "heroFeatures": {
+        "0": "フル・ルート・アクセス",
+        "1": "KVM仮想化",
+        "2": "NVMe SSD",
+        "3": "DDoSプロテクション"
+      },
+      "plans": {
+        "starter": {
+          "name": "スターター",
+          "description": "小規模なプロジェクトやテストに最適"
+        },
+        "standard": {
+          "name": "スタンダード",
+          "description": "成長期のアプリケーションに最適"
+        },
+        "performance": {
+          "name": "パフォーマンス",
+          "description": "高トラフィックワークロードに最適"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 EC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB帯域幅",
+        "bandwidthUnmetered": "無制限帯域幅",
+        "ddos": "DDoSプロテクション",
+        "ipv4": "専用IPv4アドレス",
+        "rootAccess": "フルルート/SSHアクセス",
+        "uptime": "99.9%アップタイムSLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "エンタープライズAMDハードウェア",
+          "description": "エンタープライズ・グレードのAMDハードウェアを搭載し、要求の厳しいワークロードに対して卓越したマルチスレッド性能を発揮します。",
+          "highlights": {
+            "0": "エンタープライズAMDプロセッサー",
+            "1": "高いコア数",
+            "2": "大容量L3キャッシュ",
+            "3": "高速クロック"
+          }
+        },
+        "storage": {
+          "title": "NVMe SSDストレージ",
+          "description": "シーケンシャルリード速度が3,000 MB/秒を超える超高速NVMeソリッド・ステート・ストレージにより、高速データアクセスが可能。",
+          "highlights": {
+            "0": "NVMe Gen 3/4 SSD",
+            "1": "3,000MB/秒以上の読み取り速度",
+            "2": "低遅延I/O",
+            "3": "RAIDの冗長性"
+          }
+        },
+        "ddos": {
+          "title": "DDoSプロテクション",
+          "description": "エンタープライズグレードの DDoS ミティゲーションにより、大規模な攻撃を受けても VPS をオンラインに保ちます。",
+          "highlights": {
+            "0": "レイヤー3/4/7フィルタリング",
+            "1": "自動エッジスクラビング",
+            "2": "ダウンタイム削減",
+            "3": "グローバルPOPs"
+          }
+        },
+        "network": {
+          "title": "高速ネットワーク",
+          "description": "低遅延ルーティングによる1Gbpsアップリンクで、ユーザーがどこにいても最適な接続を実現します。",
+          "highlights": {
+            "0": "1Gbpsアップリンク",
+            "1": "低遅延ルーティング",
+            "2": "プレミアムピアリング",
+            "3": "IPv4 & IPv6対応"
+          }
+        },
+        "access": {
+          "title": "フル・ルート・アクセス",
+          "description": "サーバー環境を完全にコントロール。あらゆるソフトウェアをインストールし、あらゆるサービスを設定し、あらゆるOSを実行します。",
+          "highlights": {
+            "0": "SSHルートアクセス",
+            "1": "Linuxディストロを選ぶ",
+            "2": "KVM仮想化",
+            "3": "カスタムISOサポート"
+          }
+        },
+        "support": {
+          "title": "24時間365日のエキスパート・サポート",
+          "description": "当社のチームは、サーバーのセットアップ、最適化、トラブルシューティングを24時間体制でサポートします。",
+          "highlights": {
+            "0": "ディスコード・サポート",
+            "1": "チケットシステム",
+            "2": "知識ベース",
+            "3": "サーバー移行のヘルプ"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "VPSのフル・ルート・アクセスは可能ですか？",
+          "answer": "はい、すべてのAMD VPSプランにはSSHによるフルルートアクセスが含まれています。OS、ソフトウェア、設定を含むサーバー環境を完全にコントロールすることができます。"
+        },
+        "os": {
+          "question": "利用可能なOSは？",
+          "answer": "Ubuntu、Debian、CentOS、AlmaLinux、Rocky Linuxなど、人気のLinuxディストリビューションをサポートしています。また、独自のカスタムISOをアップロードすることもできます。"
+        },
+        "upgrade": {
+          "question": "VPSプランを後でアップグレードできますか？",
+          "answer": "はい、いつでも課金パネルからVPSプランをアップグレードできます。リソースの増加は最小限のダウンタイムで適用されます。"
+        },
+        "bandwidth": {
+          "question": "帯域幅の制限を超えた場合はどうなりますか？",
+          "answer": "従量制プランの場合、上限に達する前にお知らせします。いつでも帯域幅の追加購入や無制限プランへのアップグレードが可能です。"
+        },
+        "ddos": {
+          "question": "DDoS対策は含まれていますか？",
+          "answer": "すべてのAMD VPSプランには、エンタープライズグレードのDDoSミティゲーションが含まれています。これは、ダウンタイムなしのスクラビングにより、レイヤー3、4、および7の攻撃からサーバーを保護します。"
+        },
+        "refunds": {
+          "question": "返金はありますか？",
+          "answer": "はい、すべての新規VPS購入に対して48時間の返金保証を提供しています。購入後48時間以内にサポートにご連絡いただければ、全額返金いたします。"
+        }
+      }
+    },
+    "intel": {
+      "description": "エンタープライズIntelハードウェア上の信頼性の高いKVM VPS。ウェブホスティング、データベース、アプリケーションサーバー向けの優れたシングルスレッド性能。",
+      "heroDescription": "Intel ハードウェア上の堅牢な KVM VPS、NVMe SSD ストレージ、フル root アクセス、エンタープライズ DDoS プロテクション。数秒でデプロイ。",
+      "tag": "インテル・パワー",
+      "features": {
+        "0": "企業向けインテル・プロセッサー",
+        "1": "NVMe SSDストレージ",
+        "2": "フルルート/SSHアクセス",
+        "3": "DDoSプロテクション"
+      },
+      "heroFeatures": {
+        "0": "フル・ルート・アクセス",
+        "1": "KVM仮想化",
+        "2": "NVMe SSD",
+        "3": "DDoSプロテクション"
+      },
+      "plans": {
+        "core": {
+          "name": "コア",
+          "description": "小規模プロジェクトやウェブホスティングに最適"
+        },
+        "pro": {
+          "name": "プロ",
+          "description": "生産用途に最適"
+        },
+        "enterprise": {
+          "name": "エンタープライズ",
+          "description": "需要の高いサービスに最適"
+        }
+      },
+      "planFeatures": {
+        "cpu": "{cores} vCPU",
+        "ram": "{amount} GB DDR4 EC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB帯域幅",
+        "bandwidthUnmetered": "無制限帯域幅",
+        "ddos": "DDoSプロテクション",
+        "ipv4": "専用IPv4アドレス",
+        "rootAccess": "フルルート/SSHアクセス",
+        "uptime": "99.9%アップタイムSLA"
+      },
+      "pageFeatures": {
+        "hardware": {
+          "title": "エンタープライズ・インテル・ハードウェア",
+          "description": "エンタープライズグレードのIntelハードウェア上に構築され、ウェブサーバー、データベース、アプリケーション向けに強力なシングルスレッド性能を発揮します。",
+          "highlights": {
+            "0": "企業向けインテル・プロセッサー",
+            "1": "強力なシングルスレッド性能",
+            "2": "大きなキャッシュサイズ",
+            "3": "高速クロック"
+          }
+        },
+        "storage": {
+          "title": "NVMe SSDストレージ",
+          "description": "I/O集約型アプリケーション向けに高いIOPSと低レイテンシーを実現する超高速NVMeソリッド・ステート・ストレージ。",
+          "highlights": {
+            "0": "NVMe Gen 3/4 SSD",
+            "1": "高いIOPS性能",
+            "2": "低遅延I/O",
+            "3": "RAIDの冗長性"
+          }
+        },
+        "ddos": {
+          "title": "DDoSプロテクション",
+          "description": "エンタープライズグレードのDDoSミティゲーションは、大規模な攻撃時にもVPSをオンラインに保ちます。",
+          "highlights": {
+            "0": "レイヤー3/4/7フィルタリング",
+            "1": "自動エッジスクラビング",
+            "2": "ダウンタイム削減",
+            "3": "グローバルPOPs"
+          }
+        },
+        "network": {
+          "title": "高速ネットワーク",
+          "description": "低遅延ルーティングによる1Gbpsアップリンクで、ユーザーがどこにいても最適な接続を実現します。",
+          "highlights": {
+            "0": "1Gbpsアップリンク",
+            "1": "低遅延ルーティング",
+            "2": "プレミアムピアリング",
+            "3": "IPv4 & IPv6対応"
+          }
+        },
+        "access": {
+          "title": "フル・ルート・アクセス",
+          "description": "サーバー環境を完全にコントロール。あらゆるソフトウェアをインストールし、あらゆるサービスを設定し、あらゆるOSを実行します。",
+          "highlights": {
+            "0": "SSHルートアクセス",
+            "1": "Linuxディストロを選ぶ",
+            "2": "KVM仮想化",
+            "3": "カスタムISOサポート"
+          }
+        },
+        "support": {
+          "title": "24時間365日のエキスパート・サポート",
+          "description": "当社のチームは、サーバーのセットアップ、最適化、トラブルシューティングを24時間体制でサポートします。",
+          "highlights": {
+            "0": "ディスコード・サポート",
+            "1": "チケットシステム",
+            "2": "知識ベース",
+            "3": "サーバー移行のヘルプ"
+          }
+        }
+      },
+      "faqs": {
+        "rootAccess": {
+          "question": "VPSのフル・ルート・アクセスは可能ですか？",
+          "answer": "はい、すべてのインテル VPS プランには SSH によるフル root アクセスが含まれています。OS、ソフトウェア、設定を含むサーバー環境を完全にコントロールできます。"
+        },
+        "os": {
+          "question": "利用可能なOSは？",
+          "answer": "Ubuntu、Debian、CentOS、AlmaLinux、Rocky Linuxなど、人気のLinuxディストリビューションをサポートしています。また、独自のカスタムISOをアップロードすることもできます。"
+        },
+        "upgrade": {
+          "question": "VPSプランを後でアップグレードできますか？",
+          "answer": "はい、いつでも課金パネルからVPSプランをアップグレードできます。リソースの増加は最小限のダウンタイムで適用されます。"
+        },
+        "bandwidth": {
+          "question": "帯域幅の制限を超えた場合はどうなりますか？",
+          "answer": "従量制プランの場合、上限に達する前にお知らせします。いつでも帯域幅の追加購入や無制限プランへのアップグレードが可能です。"
+        },
+        "ddos": {
+          "question": "DDoS対策は含まれていますか？",
+          "answer": "はい、すべてのインテル® VPS プランにはエンタープライズグレードの DDoS ミティゲーションが含まれています。これは、ダウンタイムなしのスクラビングにより、レイヤー 3、4、および 7 の攻撃からサーバーを保護します。"
+        },
+        "refunds": {
+          "question": "返金はありますか？",
+          "answer": "はい、すべての新規VPS購入に対して48時間の返金保証を提供しています。購入後48時間以内にサポートにご連絡いただければ、全額返金いたします。"
+        }
+      }
     }
   }
 }
