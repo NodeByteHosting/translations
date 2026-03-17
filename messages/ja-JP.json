@@ -21,6 +21,14 @@
     "about": {
       "title": "私たちについて",
       "description": "NodeByteの詳細"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
@@ -36,26 +44,33 @@
       "title": "Hytale Hosting",
       "description": "DDoS保護機能を備えたHytale サーバー"
     },
-    "all": {
-      "title": "すべてのサービス",
-      "description": "すべてのホスティングサービスをご覧ください"
-    },
     "gameServers": {
-      "title": "ゲームサーバー",
-      "description": "すべてのゲームホスティングオプションを見る"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "高性能AMD搭載仮想サーバー"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
-      "title": "インテルVPS",
-      "description": "信頼性の高いインテル製仮想サーバー"
+      "title": "Intel VPS",
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPSサーバー",
-      "description": "すべてのVPSホスティングオプションを見る"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -65,16 +80,18 @@
     "gamePanel": {
       "title": "ゲームパネル",
       "description": "私たちのパネルでゲームサーバーを制御します"
-    }
-  },
-  "extras": {
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
-      "title": "ナレッジベース",
-      "description": "ガイド、チュートリアル、ドキュメント"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "新着情報",
-      "description": "最新のアップデートと機能"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
@@ -82,9 +99,9 @@
       "prefix": "コードを使用",
       "suffix": "最初の注文で！"
     },
-    "title": "ゲームホスティング",
+    "title": "Server Hosting",
     "titleHighlight": "シンプルにしました",
-    "description": "迅速で信頼性の高いセキュアなホスティング。インスタントセットアップ、DDoS保護、24時間年中無休のサポートを備えた専用サーバーを起動します。",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "はじめよう",
     "joinDiscord": "Discord に参加",
     "trustedBy": "世界中のゲームコミュニティから信頼されています",
@@ -102,26 +119,26 @@
     "badge": "インフラストラクチャ",
     "title": "ビルドされた",
     "titleHighlight": "パフォーマンス",
-    "description": "ゲーマーに優しいツールを備えたエンタープライズグレードのインフラストラクチャ。インスタントサーバー、低遅延ルーティング、強力なコントロール。",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "ホスティングプランを表示",
     "startingFrom": "開始日",
     "items": {
       "ddos": {
         "title": "DDoS保護",
-        "description": "FyfeWebを搭載したエンタープライズグレードの緩和と、サーバーをオンライン状態に保つ自動スクラブ機能を備えています。",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "FyfeWebネットワーク保護",
+          "0": "Enterprise network protection",
           "1": "自動スケーリングによる緩和処理",
           "2": "リアルタイム監視"
         }
       },
       "latency": {
         "title": "低遅延ネットワーク",
-        "description": "FyfeWebの英国ネットワークを経由して、ロンドンPOPで最小限のpingでルートを最適化しました。",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Sub-50ms avg レイテンシー",
-          "1": "UKベースのルーティング",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +151,12 @@
         }
       },
       "locations": {
-        "title": "UK データセンター",
-        "description": "FyfeWebを搭載したロンドンPOPで英国に戦略的に配置されました。",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "ロンドンPOPs",
-          "1": "FyfeWebネットワーク",
-          "2": "低レイテンシの英国の報道状況"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +182,18 @@
   "about": {
     "badge": "私たちのストーリー",
     "title": "ゲーマーによって構築されました",
-    "titleHighlight": "ゲーマー向け",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte は、高速で信頼性が高く、管理が容易なホスティングを望んでいたゲーマーやオプスのエンジニアの小さなグループとして始まりました。 私たちは、ラギーサーバーと応答しないサポートの不満を直接経験しました。",
-    "paragraph2": "そのため、マルチプレイヤー向けに特化したインフラストラクチャを構築しました。低遅延ルーティングです。 堅牢な DDoS 保護、およびインスタントサーバープロビジョニングにより、迅速に再生できます。",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "コミュニティに参加する",
     "values": {
       "players": {
-        "title": "プレイヤー向けに構築",
-        "description": "当社のインフラストラクチャは、低遅延ルーティング、予測可能なパフォーマンス、および強力な稼働時間を優先するため、コミュニティはオンラインでも反応性を維持できます。"
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "コミュニティ & Mod サポート",
-        "description": "シームレスなModインストール、スナップショットサポート、コミュニティツールを使用して、モデリングされた世界と永続的なサーバーを最小限の労力で実行できます。"
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "デザインで開く",
@@ -185,12 +202,9 @@
     },
     "stats": {
       "uptime": "稼働時間SLA",
-      "latency": "平均遅延",
-      "support": "サポート",
-      "servers": "アクティブなサーバー",
-      "users": "総ユーザー数",
-      "activeUsers": "アクティブユーザー",
-      "allocations": "割り当て"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
@@ -225,11 +239,11 @@
       },
       "ddos": {
         "question": "DDoS保護を提供していますか?",
-        "answer": "はい、すべてのプランには、FyfeWebを搭載したエンタープライズグレードのDDoS緩和策が含まれます。私たちのロンドンPOPは、ネットワークエッジで自動フィルタリングとスクラブを提供します。"
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "データセンターはどこにありますか?",
-        "answer": "弊社は、弊社のネットワークパートナーである FyfeWeb を搭載した London POP を搭載し、英国およびヨーロッパ全域で優れたカバレッジを提供しています。"
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "MODやカスタムマップを実行できますか?",
@@ -250,13 +264,18 @@
     "badge": "ゲームサーバー",
     "title": "あなたを選択",
     "titleHighlight": "ゲーム",
-    "description": "パワフルで低遅延のゲームサーバー。インスタントセットアップ、直感的なコントロールパネル、24時間年中無休のエキスパートサポート。",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
     "viewPlans": "プランを表示",
     "learnMore": "もっと詳しく",
     "comingSoon": "近日公開",
     "customSolution": "表示されていないゲームサーバーが必要ですか？",
     "contactUs": "お問い合わせ",
     "forCustom": "を選択します。",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "ホスティング",
     "joinWaitlist": "ウェイトリストに参加",
     "minecraft": {
@@ -279,17 +298,17 @@
         },
         "inferno": {
           "name": "インフェルノ",
-          "description": "中規模コミュニティに最適"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB のストレージ",
         "databases": "10 MySQL データベース",
-        "ddos": "FyfeWeb DDoS保護",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "自動/事前にインストールされた jar ファイル",
+        "jars": "Auto/Pre Installed jars",
         "uptime": "99.6%の稼働時間SLA"
       },
       "pageFeatures": {
@@ -305,22 +324,22 @@
         },
         "hardware": {
           "title": "高性能ハードウェア",
-          "description": "エンタープライズグレードのNVMeストレージを備えたAMDのRyzenプロセッサは、高速なパフォーマンスを実現します。",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "NVMe SSDストレージ",
             "2": "DDR4 ECC memory",
-            "3": "最大 4.8GHz のクロック速度"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "DDoS保護",
-          "description": "FyfeWebを利用したエンタープライズグレードのDDoS緩和は、攻撃時でもサーバーをオンラインに保ちます。",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "レイヤ 3/4/7 保護",
-            "1": "FyfeWebネットワークフィルタリング",
+            "1": "Enterprise network filtering",
             "2": "ゼロダウンタイムの削減",
-            "3": "UK London POP"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -328,7 +347,7 @@
           "description": "サーバーは数秒以内に展開されます。購入後すぐにプレイを開始してください。",
           "highlights": {
             "0": "自動プロビジョニング",
-            "1": "事前設定された設定",
+            "1": "Pre configured settings",
             "2": "60秒以内に準備完了",
             "3": "技術的な知識は必要ありません"
           }
@@ -338,7 +357,7 @@
           "description": "FTP/SFTP経由でファイルアクセスを完了します。ワールド、プラグイン、設定を簡単にアップロードできます。",
           "highlights": {
             "0": "SFTP ファイルアクセス",
-            "1": "ウェブベースのファイルマネージャー",
+            "1": "Web based file manager",
             "2": "ドラッグ＆ドロップによるアップロード",
             "3": "自動バックアップ"
           }
@@ -365,7 +384,7 @@
         },
         "upload": {
           "question": "既存のワールドをアップロードするにはどうすればいいですか?",
-          "answer": "ウェブベースのファイルマネージャーまたはSFTP経由であなたのワールドファイルをアップロードすることができます。 ワールドフォルダをドラッグアンドドロップするだけで、すぐに使用できます。"
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "制限はありますか?",
@@ -377,12 +396,12 @@
         },
         "refunds": {
           "question": "払い戻しを提供しますか？",
-          "answer": "はい、私たちはすべての新しい購入に48時間の返金保証を提供しています。満足していない場合は、全額返金についてはサポートにお問い合わせください。"
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "Oxide/uModサポートとカスタムマップオプションを備えた高性能Rustサーバーホスティング。",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "高パフォーマンス",
       "features": {
         "0": "Oxide/uMod サポート",
@@ -405,11 +424,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}GB SSDストレージ",
-        "ddos": "FyfeWeb DDoS保護",
-        "location": "イギリスのニューカッスル州",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL データベース",
         "panel": "BytePanel(ゲームパネル)",
         "oxide": "Oxide/Umod対応",
@@ -423,7 +442,7 @@
           "highlights": {
             "0": "Oxide をワンクリックでインストール",
             "1": "プラグインマネージャー",
-            "2": "利用可能な自動アップデートがあります",
+            "2": "Auto updates available",
             "3": "権限管理"
           }
         },
@@ -439,20 +458,20 @@
         },
         "performance": {
           "title": "高パフォーマンス",
-          "description": "Rust は強力なハードウェアを必要とします。弊社のサーバーは最新の AMD Ryzen CPU と NVMe ストレージを使用しています。",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "NVMe SSDストレージ",
-            "2": "高単一スレッドのパフォーマンス",
+            "2": "High single thread performance",
             "3": "低遅延ネットワーク"
           }
         },
         "ddos": {
           "title": "DDoS保護",
-          "description": "英国ロンドンPOPを通じたFyfeWebのエンタープライズグレードのDDoS緩和は、24時間年中無休の攻撃からサーバーを保護します。",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "FyfeWebネットワークフィルタリング",
-            "1": "UK London POP",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "レイヤ 3/4/7 保護",
             "3": "ダウンタイムゼロ時間"
           }
@@ -506,19 +525,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale サーバーのホスティングはまもなく開始されます。Discordに参加して早期アクセスとアップデートをご利用ください。",
-      "tag": "開発中",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Mod サポート",
         "1": "カスタムマップ",
         "2": "簡単な構成",
         "3": "24時間年中無休のサポート"
       }
-    },
-    "vpsCta": {
-      "title": "VPSホスティングも必要ですか？",
-      "description": "フルルートアクセス、NVMe SSDストレージ、エンタープライズDDoS保護。AMDまたはIntel搭載の仮想サーバーからお選びいただけます。",
-      "button": "VPSプランを見る"
     }
   },
   "gamePage": {
@@ -526,7 +540,7 @@
       "badge": "特徴",
       "title": "なぜ私たちを選ぶのか",
       "titleSuffix": "ホスティング",
-      "description": "{game} サーバーに特化したエンタープライズグレードのインフラストラクチャ。"
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
       "badge": "価格",
@@ -539,7 +553,19 @@
       "getStarted": "はじめよう",
       "viewAllPlans": "すべてのプランを表示",
       "customSolution": "カスタムソリューションが必要ですか、質問がありますか？",
-      "contactUs": "お問い合わせ"
+      "contactUs": "お問い合わせ",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "FAQ",
@@ -570,7 +596,7 @@
     "copyFailedDesc": "クリップボードにコピーできませんでした",
     "discord": {
       "title": "Discordコミュニティ",
-      "description": "Get live support and help from our community and team members.",
+      "description": "私たちのコミュニティに参加して、インスタントサポート、アナウンス、他のユーザーとチャットしましょう。",
       "button": "Discord に参加",
       "features": {
         "0": "即時応答",
@@ -617,7 +643,7 @@
     }
   },
   "footer": {
-    "tagline": "あなたのゲーム体験のための高速で信頼性の高い、スケーラブルで安全なホスティングサービス。人間のために構築されたByteによって動作します。",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "連絡を取る",
     "emailUs": "メールでお問い合わせください",
     "support": "サポート",
@@ -633,20 +659,16 @@
       "maintenance": "メンテナンス中"
     },
     "services": {
-      "minecraftHosting": "Minecraft ホスティング",
-      "rustHosting": "Rust Hosting",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "ゲームパネル",
-      "clientArea": "取引先エリア",
-      "gameServers": "ゲームホスティング",
-      "vpsServers": "VPSホスティング",
-      "vpsPanel": "VPSパネル"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discord サーバー",
       "serviceStatus": "サービスステータス",
       "knowledgeBase": "ナレッジベース",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "請求パネル"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "利用規約",
@@ -680,7 +702,7 @@
     "description": "すべての NodeByte プロジェクトの最新のリリース、機能、改善点について最新の情報をご確認ください。",
     "searchPlaceholder": "リリースを検索...",
     "filters": {
-      "all": "All",
+      "all": "すべてのリポジトリ",
       "allTypes": "すべてのタイプ",
       "feature": "機能",
       "bugfix": "バグ修正",
@@ -701,7 +723,7 @@
     },
     "empty": {
       "title": "リリースが見つかりませんでした",
-      "description": "Try adjusting your filters or search terms",
+      "description": "検索またはフィルターを調整して、探しているものを見つけてください。",
       "clearFilters": "フィルタをクリア"
     },
     "loading": {
@@ -710,7 +732,7 @@
     },
     "error": {
       "title": "リリースの読み込みに失敗しました",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "リリースの取得中にエラーが発生しました。後でもう一度お試しください。",
       "retry": "もう一度試す"
     },
     "stats": {
@@ -802,6 +824,11 @@
     "description": "インスタントセットアップ、強力なコントロールパネル、24時間年中無休のエキスパートサポートを備えた高性能ゲームサーバーホスティング。",
     "startingAt": "開始日時"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "読み込み中",
     "pagination": "pagination",
@@ -819,8 +846,8 @@
     "badge": "NodeByteについて",
     "hero": {
       "title": "ゲーマーによって構築されました",
-      "titleHighlight": "ゲーマー向け",
-      "description": "NodeByte は、高速で信頼性が高く、管理が容易なホスティングを望んでいたゲーマーやオプスのエンジニアの小さなグループとして始まりました。 今日、私たちは世界中のゲームサーバーにパワーを供給しています。",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "コミュニティに参加する",
       "contactUs": "お問い合わせ"
     },
@@ -828,8 +855,8 @@
       "badge": "私たちのストーリー",
       "title": "全ての始まり方",
       "paragraph1": "NodeByteは不満から生まれました。 私たちは熱心なゲーマーとして、ラギーサーバーの痛み、応答のないサポート、複雑なコントロールパネルを経験し、サーバー管理を悪夢にさせました。",
-      "paragraph2": "2024年には、私たちは十分であると判断しました。 私たちは情熱的なゲーマーと経験豊富なオプスエンジニアのチームを集めました:私たちが常に存在したいゲームホスティングプラットフォームを構築します。",
-      "paragraph3": "今日, NodeByte は世界中のゲームサーバーを強化します. しかし、私たちの使命は同じまま: 高速で信頼性の高い、誰もがアクセスできるゲームサーバーを作る."
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "私たちの価値",
@@ -837,12 +864,12 @@
       "titleHighlight": "待機する",
       "description": "インフラの決定からカスタマーサポートに至るまで、私たちが行うすべてのことをコアにしています。",
       "players": {
-        "title": "プレイヤー向けに構築",
-        "description": "当社のインフラストラクチャは、低遅延ルーティング、予測可能なパフォーマンス、および強力な稼働時間を優先するため、コミュニティはオンラインでも反応性を維持できます。"
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "コミュニティ & Mod サポート",
-        "description": "シームレスなModインストール、スナップショットサポート、コミュニティツールを使用して、モデリングされた世界と永続的なサーバーを最小限の労力で実行できます。"
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "デザインで開く",
@@ -851,12 +878,9 @@
     },
     "stats": {
       "uptime": "稼働時間SLA",
-      "latency": "平均遅延",
-      "support": "サポート",
-      "servers": "アクティブなサーバー",
-      "users": "総ユーザー数",
-      "activeUsers": "アクティブユーザー",
-      "allocations": "割り当て"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "私たちの旅",
@@ -868,18 +892,22 @@
       },
       "growth": {
         "title": "急速成長",
-        "description": "FyfeWebパートナーシップによりインフラストラクチャを拡大し、エンタープライズのDDoS保護と英国のデータセンターを追加しました。"
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "グローバル拡張",
         "description": "新しいサービス、強化されたコントロールパネルを立ち上げ、グローバルコミュニティの拡大を続けています。"
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "私たちのチーム",
       "title": "以下を参照：",
       "titleHighlight": "チーム",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "最高のホスティング体験を提供するために精力的に働くNodeByteの背後にある情熱的な人々。",
       "roles": {
         "founder": "創設者＆主開発者"
       },
@@ -889,8 +917,8 @@
     },
     "cta": {
       "title": "始める準備はできましたか？",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "ゲームサーバーを表示",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Discord に参加"
     }
   },
@@ -902,10 +930,10 @@
     "quickLinks": "クイックリンク",
     "links": {
       "home": "ホーム",
-      "games": "ゲーム",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "ナレッジベース",
-      "contact": "お問い合わせ",
-      "vps": "VPSホスティング"
+      "contact": "お問い合わせ"
     }
   },
   "errorPage": {
@@ -1056,28 +1084,186 @@
     },
     "userMenu": {
       "myAccount": "マイアカウント",
+      "dashboard": "Dashboard",
       "viewPanel": "パネルを表示",
       "admin": "管理者",
       "logout": "サインアウト",
       "signIn": "サインイン",
-      "loggingOut": "サインアウトしています...",
-      "dashboard": "ダッシュボード"
+      "loggingOut": "サインアウトしています..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "管理パネル",
     "nav": {
       "dashboard": "ダッシュボード",
-      "users": "ユーザー",
-      "servers": "サーバー",
-      "sync": "同期",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "設定",
-      "backToSite": "サイトに戻る",
-      "nodes": "サーバー・ノード",
-      "locations": "所在地",
-      "allocations": "割り当て",
-      "eggs": "巣と卵"
+      "backToSite": "サイトに戻る"
     },
     "status": {
       "online": "オンラインのシステム"
@@ -1100,7 +1286,7 @@
     },
     "sync": {
       "status": "同期状態",
-      "lastSync": "Last Sync",
+      "lastSync": "最終同期",
       "never": "一切なし",
       "idle": "待機中",
       "syncing": "同期中...",
@@ -1108,23 +1294,23 @@
       "syncingTarget": "パネルから {target} データを同期中...",
       "complete": "complete",
       "runFull": "フル同期を実行",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "同期完了",
       "completed": "{target} データが正常に同期されました。",
       "error": "同期に失敗しました",
       "quickActions": "クイック同期アクション",
       "quickActionsDescription": "Pterodactyl パネルから個々のデータタイプを同期します。",
       "targets": {
+        "full": "Full Sync",
         "locations": "場所",
         "nodes": "Nodes",
         "allocations": "割り当て",
         "nests": "巣と卵",
         "servers": "サーバー",
         "databases": "データベース",
-        "users": "ユーザー",
-        "full": "フルシンク"
-      },
-      "started": "同期開始",
-      "running": "パネルからデータを同期する。少し時間がかかるかもしれません。"
+        "users": "ユーザー"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1385,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "サーバー",
+      "description": "すべてのゲームサーバーを表示および管理します。",
       "stats": {
         "total": "合計サーバー",
         "running": "実行中",
@@ -1250,8 +1436,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "設定",
+      "description": "システム設定と接続を構成します。",
       "save": "変更を保存",
       "saved": "設定を保存しました",
       "savedDesc": "設定が正常に保存されました。",
@@ -1280,11 +1466,11 @@
         "url": "パネル URL",
         "apiKey": "API キー",
         "apiKeyNote": "認証には、Pterodactyl パネル API キーを入力します。",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "プテロダチル API のベース URL (通常はパネル URL + /api)。",
-        "version": "パネルのバージョン",
-        "apiKeyclient": "クライアントAPIキー",
-        "apiKeyNoteclient": "PterodactylクライアントAPIキーを入力します。これは、クライアントAPIからサーバーとユーザーデータを同期するために必要です。"
+        "version": "パネルのバージョン"
       },
       "crowdin": {
         "title": "Crowdin 翻訳管理",
@@ -1375,463 +1561,324 @@
       "discordSuggestion": "Discord に参加"
     }
   },
-  "servicesHome": {
-    "badge": "サービス内容",
-    "title": "必要なものはすべて揃っている、",
-    "titleHighlight": "一箇所",
-    "description": "パフォーマンスのために構築されたゲームサーバーとVPSホスティング。即座のセットアップ、DDoS保護、24時間365日のエキスパートサポート。",
-    "browsePlans": "プラン一覧",
-    "startingFrom": "より",
-    "customSolution": "リストにないものをお探しですか？",
-    "contactUs": "お問い合わせ",
-    "forCustom": "そして、私たちはあなたにぴったり合うものを見つけるでしょう。"
-  },
-  "vpsPage": {
-    "title": "VPSホスティング",
-    "description": "フルルートアクセス、NVMe SSDストレージ、DDoS保護、24時間365日のエキスパートサポートを備えた高性能な仮想プライベートサーバーです。",
-    "startingAt": "からスタートする。"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "概要",
-      "servers": "サーバー",
-      "billing": "請求",
-      "support": "サポート",
-      "account": "アカウント",
-      "backToSite": "サイトへ戻る",
-      "gamePanel": "ゲームパネル",
-      "helpCenter": "ヘルプセンター"
-    },
-    "greeting": {
-      "morning": "おはよう",
-      "afternoon": "こんにちは",
-      "evening": "こんばんは"
-    },
-    "subtitle": "あなたのサーバーで何が起きているのか、以下に示す。",
-    "welcome": {
-      "title": "ようこそ！",
-      "magicLinkSuccess": "マジックリンクでサインインに成功しました。ダッシュボードへようこそ！"
-    },
-    "stats": {
-      "totalServers": "総サーバー数",
-      "activeServers": "アクティブサーバー",
-      "accountBalance": "口座残高",
-      "openTickets": "オープン・チケット",
-      "online": "オンライン",
-      "activeDescription": "現在実行中",
-      "balanceDescription": "利用可能なクレジット",
-      "ticketsDescription": "回答待ち"
-    },
-    "actions": {
-      "openPanel": "オープンパネル",
-      "newServer": "新サーバー"
-    },
-    "recentServers": {
-      "title": "最近のサーバー",
-      "description": "最近アクセスしたサーバー",
-      "viewAll": "全てを見る",
-      "empty": {
-        "title": "サーバーはまだない",
-        "description": "あなたはまだゲームサーバーを持っていません。最初のサーバーを作成して始めましょう。",
-        "action": "サーバーの作成"
-      }
-    },
-    "quickActions": {
-      "title": "クイックアクション",
-      "minecraft": "マインクラフトサーバー",
-      "minecraftDesc": "新しい Minecraft サーバーをデプロイする",
-      "rust": "ラストサーバー",
-      "rustDesc": "新しいRustサーバをデプロイする",
-      "support": "オープンチケット",
-      "supportDesc": "チームからのサポート",
-      "knowledgeBase": "ナレッジ・ベース",
-      "knowledgeBaseDesc": "ヘルプ記事を見る"
-    },
-    "servers": {
-      "title": "マイサーバー",
-      "description": "ゲームサーバーの管理と監視",
-      "status": {
-        "running": "ランニング",
-        "online": "オンライン",
-        "offline": "オフライン",
-        "starting": "スタート",
-        "stopping": "停止",
-        "suspended": "中断",
-        "installing": "インストール"
-      },
-      "resources": {
-        "memory": "メモリー",
-        "cpu": "CPU",
-        "disk": "ディスク"
-      },
-      "actions": {
-        "newServer": "新サーバー",
-        "refresh": "リフレッシュ",
-        "console": "コンソール",
-        "files": "ファイル",
-        "databases": "データベース",
-        "openPanel": "パネルで開く"
-      },
-      "filters": {
-        "searchPlaceholder": "検索サーバー...",
-        "status": "ステータス",
-        "allStatuses": "すべてのステータス"
-      },
-      "pagination": {
-        "showing": "{total}の{from}から{to}までを表示",
-        "previous": "前へ",
-        "next": "次のページ"
-      },
-      "empty": {
-        "title": "サーバーが見つかりません",
-        "description": "あなたはまだゲームサーバーを持っていません。最初のサーバーを作成して始めましょう。",
-        "action": "サーバーの作成"
-      }
-    },
-    "account": {
-      "title": "アカウント設定",
-      "description": "プロフィールとセキュリティ設定の管理",
-      "tabs": {
-        "profile": "プロフィール",
-        "security": "セキュリティ"
-      },
-      "profile": {
-        "overview": "アカウント概要",
-        "overviewDescription": "アカウント情報とステータス",
-        "verified": "確認済み",
-        "unverified": "未確認",
-        "personalInfo": "個人情報",
-        "personalInfoDescription": "個人情報の更新",
-        "firstName": "名前",
-        "firstNamePlaceholder": "ジョン",
-        "lastName": "ラストネーム",
-        "lastNamePlaceholder": "ドウ",
-        "username": "ユーザー名",
-        "usernamePlaceholder": "ジョンドゥ",
-        "email": "メールアドレス",
-        "emailNote": "サポートに連絡してメールアドレスを変更する",
-        "phoneNumber": "電話番号",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "会社名",
-        "companyNamePlaceholder": "株式会社アクメ",
-        "billingEmail": "請求先メールアドレス",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "変更を保存する",
-        "success": "プロフィール更新",
-        "successDescription": "プロフィールが更新されました。",
-        "error": "更新失敗",
-        "errorDescription": "プロフィールの更新に失敗しました。もう一度お試しください。"
-      },
-      "security": {
-        "changePassword": "パスワードの変更",
-        "changePasswordDescription": "パスワードを更新してアカウントを安全に保つ",
-        "currentPassword": "現在のパスワード",
-        "newPassword": "新しいパスワード",
-        "confirmPassword": "新しいパスワードの確認",
-        "passwordRequirements": "パスワードは8文字以上",
-        "updatePassword": "パスワードの更新",
-        "passwordMismatch": "パスワードが一致しない",
-        "passwordMismatchDescription": "入力した新しいパスワードが一致しません。",
-        "passwordTooShort": "短すぎるパスワード",
-        "passwordTooShortDescription": "パスワードは8文字以上でなければなりません。",
-        "passwordChanged": "パスワード変更",
-        "passwordChangedDescription": "パスワードは正常に更新されました。",
-        "error": "更新失敗",
-        "errorDescription": "パスワードの更新に失敗しました。もう一度お試しください。",
-        "emailNotVerified": "Eメール未確認",
-        "emailNotVerifiedDescription": "メールアドレスが確認されていません。",
-        "resendVerification": "認証メールを再送する",
-        "accountInfo": "口座情報",
-        "accountInfoDescription": "アカウントに関するその他の詳細",
-        "accountCreated": "アカウント作成",
-        "lastLogin": "最終ログイン",
-        "accountId": "アカウントID"
-      }
-    }
-  },
   "vps": {
-    "badge": "VPSサーバー",
-    "title": "選択する",
-    "titleHighlight": "VPSプラン",
-    "description": "エンタープライズハードウェアによるフルコントロールの仮想プライベートサーバー。ルートアクセス、NVMeストレージ、DDoS保護、即時デプロイ。",
-    "hosting": "ホスティング",
-    "learnMore": "さらに詳しく",
-    "viewPlans": "プランを見る",
-    "customSolution": "カスタムVPSソリューションが必要ですか？",
-    "contactUs": "お問い合わせ",
-    "forCustom": "そして、私たちはあなたにぴったり合うものを見つけるでしょう。",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
+    "hosting": "Hosting",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "インスタント・デプロイメント",
-        "description": "VPSは購入後60秒以内にプロビジョニングされ、準備が整います。"
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "フル・ルート・アクセス",
-        "description": "SSHのルートアクセスとOSの選択により、サーバーを完全にコントロールできます。"
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "エンタープライズ・ハードウェア",
-        "description": "エンタープライズグレードのプロセッサー、NVMe SSDストレージ、ECC RAMを全プランに搭載。"
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "エンタープライズAMDハードウェア上の高性能KVM VPS。負荷の高いワークロード、Webアプリケーション、ゲームバックエンドに最適です。",
-      "heroDescription": "NVMe SSDストレージ、フルrootアクセス、エンタープライズDDoS保護を備えたAMDハードウェア上のエンタープライズグレードKVM VPS。数秒でデプロイ。",
-      "tag": "AMD搭載",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "エンタープライズAMDプロセッサー",
-        "1": "NVMe SSDストレージ",
-        "2": "フルルート/SSHアクセス",
-        "3": "DDoSプロテクション"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "フル・ルート・アクセス",
-        "1": "KVM仮想化",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoSプロテクション"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "スターター",
-          "description": "小規模なプロジェクトやテストに最適"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
-          "name": "スタンダード",
-          "description": "成長期のアプリケーションに最適"
+          "name": "Standard",
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "パフォーマンス",
-          "description": "高トラフィックワークロードに最適"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
-        "ram": "{amount} GB DDR4 EC RAM",
+        "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB帯域幅",
-        "bandwidthUnmetered": "無制限帯域幅",
-        "ddos": "DDoSプロテクション",
-        "ipv4": "専用IPv4アドレス",
-        "rootAccess": "フルルート/SSHアクセス",
-        "uptime": "99.9%アップタイムSLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "エンタープライズAMDハードウェア",
-          "description": "エンタープライズ・グレードのAMDハードウェアを搭載し、要求の厳しいワークロードに対して卓越したマルチスレッド性能を発揮します。",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "エンタープライズAMDプロセッサー",
-            "1": "高いコア数",
-            "2": "大容量L3キャッシュ",
-            "3": "高速クロック"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSDストレージ",
-          "description": "シーケンシャルリード速度が3,000 MB/秒を超える超高速NVMeソリッド・ステート・ストレージにより、高速データアクセスが可能。",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD",
-            "1": "3,000MB/秒以上の読み取り速度",
-            "2": "低遅延I/O",
-            "3": "RAIDの冗長性"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoSプロテクション",
-          "description": "エンタープライズグレードの DDoS ミティゲーションにより、大規模な攻撃を受けても VPS をオンラインに保ちます。",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "レイヤー3/4/7フィルタリング",
-            "1": "自動エッジスクラビング",
-            "2": "ダウンタイム削減",
-            "3": "グローバルPOPs"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "高速ネットワーク",
-          "description": "低遅延ルーティングによる1Gbpsアップリンクで、ユーザーがどこにいても最適な接続を実現します。",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1Gbpsアップリンク",
-            "1": "低遅延ルーティング",
-            "2": "プレミアムピアリング",
-            "3": "IPv4 & IPv6対応"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "フル・ルート・アクセス",
-          "description": "サーバー環境を完全にコントロール。あらゆるソフトウェアをインストールし、あらゆるサービスを設定し、あらゆるOSを実行します。",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "SSHルートアクセス",
-            "1": "Linuxディストロを選ぶ",
-            "2": "KVM仮想化",
-            "3": "カスタムISOサポート"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24時間365日のエキスパート・サポート",
-          "description": "当社のチームは、サーバーのセットアップ、最適化、トラブルシューティングを24時間体制でサポートします。",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "ディスコード・サポート",
-            "1": "チケットシステム",
-            "2": "知識ベース",
-            "3": "サーバー移行のヘルプ"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "VPSのフル・ルート・アクセスは可能ですか？",
-          "answer": "はい、すべてのAMD VPSプランにはSSHによるフルルートアクセスが含まれています。OS、ソフトウェア、設定を含むサーバー環境を完全にコントロールすることができます。"
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "利用可能なOSは？",
-          "answer": "Ubuntu、Debian、CentOS、AlmaLinux、Rocky Linuxなど、人気のLinuxディストリビューションをサポートしています。また、独自のカスタムISOをアップロードすることもできます。"
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "VPSプランを後でアップグレードできますか？",
-          "answer": "はい、いつでも課金パネルからVPSプランをアップグレードできます。リソースの増加は最小限のダウンタイムで適用されます。"
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "帯域幅の制限を超えた場合はどうなりますか？",
-          "answer": "従量制プランの場合、上限に達する前にお知らせします。いつでも帯域幅の追加購入や無制限プランへのアップグレードが可能です。"
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "DDoS対策は含まれていますか？",
-          "answer": "すべてのAMD VPSプランには、エンタープライズグレードのDDoSミティゲーションが含まれています。これは、ダウンタイムなしのスクラビングにより、レイヤー3、4、および7の攻撃からサーバーを保護します。"
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "返金はありますか？",
-          "answer": "はい、すべての新規VPS購入に対して48時間の返金保証を提供しています。購入後48時間以内にサポートにご連絡いただければ、全額返金いたします。"
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "エンタープライズIntelハードウェア上の信頼性の高いKVM VPS。ウェブホスティング、データベース、アプリケーションサーバー向けの優れたシングルスレッド性能。",
-      "heroDescription": "Intel ハードウェア上の堅牢な KVM VPS、NVMe SSD ストレージ、フル root アクセス、エンタープライズ DDoS プロテクション。数秒でデプロイ。",
-      "tag": "インテル・パワー",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "企業向けインテル・プロセッサー",
-        "1": "NVMe SSDストレージ",
-        "2": "フルルート/SSHアクセス",
-        "3": "DDoSプロテクション"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "フル・ルート・アクセス",
-        "1": "KVM仮想化",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoSプロテクション"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "コア",
-          "description": "小規模プロジェクトやウェブホスティングに最適"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
-          "name": "プロ",
-          "description": "生産用途に最適"
+          "name": "Pro",
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "エンタープライズ",
-          "description": "需要の高いサービスに最適"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
-        "ram": "{amount} GB DDR4 EC RAM",
+        "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB帯域幅",
-        "bandwidthUnmetered": "無制限帯域幅",
-        "ddos": "DDoSプロテクション",
-        "ipv4": "専用IPv4アドレス",
-        "rootAccess": "フルルート/SSHアクセス",
-        "uptime": "99.9%アップタイムSLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "エンタープライズ・インテル・ハードウェア",
-          "description": "エンタープライズグレードのIntelハードウェア上に構築され、ウェブサーバー、データベース、アプリケーション向けに強力なシングルスレッド性能を発揮します。",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "企業向けインテル・プロセッサー",
-            "1": "強力なシングルスレッド性能",
-            "2": "大きなキャッシュサイズ",
-            "3": "高速クロック"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSDストレージ",
-          "description": "I/O集約型アプリケーション向けに高いIOPSと低レイテンシーを実現する超高速NVMeソリッド・ステート・ストレージ。",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD",
-            "1": "高いIOPS性能",
-            "2": "低遅延I/O",
-            "3": "RAIDの冗長性"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoSプロテクション",
-          "description": "エンタープライズグレードのDDoSミティゲーションは、大規模な攻撃時にもVPSをオンラインに保ちます。",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "レイヤー3/4/7フィルタリング",
-            "1": "自動エッジスクラビング",
-            "2": "ダウンタイム削減",
-            "3": "グローバルPOPs"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "高速ネットワーク",
-          "description": "低遅延ルーティングによる1Gbpsアップリンクで、ユーザーがどこにいても最適な接続を実現します。",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1Gbpsアップリンク",
-            "1": "低遅延ルーティング",
-            "2": "プレミアムピアリング",
-            "3": "IPv4 & IPv6対応"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "フル・ルート・アクセス",
-          "description": "サーバー環境を完全にコントロール。あらゆるソフトウェアをインストールし、あらゆるサービスを設定し、あらゆるOSを実行します。",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "SSHルートアクセス",
-            "1": "Linuxディストロを選ぶ",
-            "2": "KVM仮想化",
-            "3": "カスタムISOサポート"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24時間365日のエキスパート・サポート",
-          "description": "当社のチームは、サーバーのセットアップ、最適化、トラブルシューティングを24時間体制でサポートします。",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "ディスコード・サポート",
-            "1": "チケットシステム",
-            "2": "知識ベース",
-            "3": "サーバー移行のヘルプ"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "VPSのフル・ルート・アクセスは可能ですか？",
-          "answer": "はい、すべてのインテル VPS プランには SSH によるフル root アクセスが含まれています。OS、ソフトウェア、設定を含むサーバー環境を完全にコントロールできます。"
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "利用可能なOSは？",
-          "answer": "Ubuntu、Debian、CentOS、AlmaLinux、Rocky Linuxなど、人気のLinuxディストリビューションをサポートしています。また、独自のカスタムISOをアップロードすることもできます。"
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "VPSプランを後でアップグレードできますか？",
-          "answer": "はい、いつでも課金パネルからVPSプランをアップグレードできます。リソースの増加は最小限のダウンタイムで適用されます。"
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "帯域幅の制限を超えた場合はどうなりますか？",
-          "answer": "従量制プランの場合、上限に達する前にお知らせします。いつでも帯域幅の追加購入や無制限プランへのアップグレードが可能です。"
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "DDoS対策は含まれていますか？",
-          "answer": "はい、すべてのインテル® VPS プランにはエンタープライズグレードの DDoS ミティゲーションが含まれています。これは、ダウンタイムなしのスクラビングにより、レイヤー 3、4、および 7 の攻撃からサーバーを保護します。"
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "返金はありますか？",
-          "answer": "はい、すべての新規VPS購入に対して48時間の返金保証を提供しています。購入後48時間以内にサポートにご連絡いただければ、全額返金いたします。"
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }

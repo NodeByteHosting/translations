@@ -21,6 +21,14 @@
     "about": {
       "title": "Om oss",
       "description": "Läs mer om NodeByte"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
@@ -36,26 +44,33 @@
       "title": "Hytale Värd",
       "description": "Hytale-servrar med DDoS-skydd"
     },
-    "all": {
-      "title": "Alla tjänster",
-      "description": "Utforska alla våra hostingtjänster"
-    },
     "gameServers": {
-      "title": "Spelservrar",
-      "description": "Bläddra bland alla alternativ för spelhosting"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "AMD-drivna virtuella servrar med hög prestanda"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Tillförlitliga Intel-drivna virtuella servrar"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPS-servrar",
-      "description": "Bläddra bland alla alternativ för VPS-hosting"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -65,16 +80,18 @@
     "gamePanel": {
       "title": "Spelpanelen",
       "description": "Kontrollera dina spelservrar med vår panel"
-    }
-  },
-  "extras": {
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
-      "title": "Kunskapsbas",
-      "description": "Guider, handledning och dokumentation"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "Vad är nytt",
-      "description": "Senaste uppdateringar och funktioner"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
@@ -82,9 +99,9 @@
       "prefix": "ANVÄND Kod",
       "suffix": "PÅ DIN FÖRSTA ORDEN!"
     },
-    "title": "Spel Hosting",
+    "title": "Server Hosting",
     "titleHighlight": "Gjord enkel",
-    "description": "Snabbt, tillförlitligt och säkert webbhotell för dina spelgemenskaper. Starta dedikerade servrar med omedelbar installation, DDoS-skydd och support dygnet runt.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Kom igång",
     "joinDiscord": "Anslut till Discord",
     "trustedBy": "Betrodd av spelgemenskaper över hela världen",
@@ -102,26 +119,26 @@
     "badge": "Infrastruktur",
     "title": "Byggd för",
     "titleHighlight": "Prestation",
-    "description": "Företagsklass infrastruktur med gamer-vänliga verktyg. Omedelbara servrar, låga latency-routing och kraftfulla kontroller.",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Visa värdplaner",
     "startingFrom": "Startar från",
     "items": {
       "ddos": {
         "title": "DDoS skydd",
-        "description": "Företagsklass lindring drivs av FyfeWeb med automatisk skrubbning för att hålla servrar online under attack.",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Skydd av FyfeWeb nätverk",
+          "0": "Enterprise network protection",
           "1": "Begränsning av automatisk skalning",
           "2": "Övervakning i realtid"
         }
       },
       "latency": {
         "title": "Låg latens nätverk",
-        "description": "Optimerade rutter genom FyfeWebs brittiska nätverk med POPs i London för minimal ping.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Sub-50ms genomsnittlig latens",
-          "1": "UK-baserad routing",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +151,12 @@
         }
       },
       "locations": {
-        "title": "Brittiska datacenter",
-        "description": "Strategiskt beläget i Storbritannien med London POPs som drivs av FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "POP:er i London",
-          "1": "FyfeWeb nätverk",
-          "2": "Låg latens brittisk täckning"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +182,18 @@
   "about": {
     "badge": "Vår berättelse",
     "title": "Byggd av spelare,",
-    "titleHighlight": "för spelare",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte började som en liten grupp av spelare och ops-ingenjörer som ville ha hosting som var snabb, tillförlitlig och lätt att hantera. Vi har upplevt frustrationen av laggy servrar och inte responsiv support i första hand.",
-    "paragraph2": "Det är därför vi byggt infrastruktur specifikt för flerspelarspelarspel: låg latens routing, robust DDoS-skydd och omedelbar serverhantering så att du kan få spela snabbt.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Gå med i vår gemenskap",
     "values": {
       "players": {
-        "title": "Byggd för spelare",
-        "description": "Vår infrastruktur prioriterar låg latensroutning, förutsägbar prestanda och stark drifttid så att dina samhällen stannar online och lyhörd."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Stöd för gemenskap & mod",
-        "description": "Sömlösa mod installationer, snapshot-stöd och community-verktyg som hjälper dig att köra moddade världar och ihållande servrar med minimal ansträngning."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Öppna efter design",
@@ -185,12 +202,9 @@
     },
     "stats": {
       "uptime": "Upptid SLA",
-      "latency": "Genomsnittlig latens",
-      "support": "Stöd",
-      "servers": "Aktiva servrar",
-      "users": "Totalt antal användare",
-      "activeUsers": "Aktiva användare",
-      "allocations": "Tilldelningar"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
@@ -225,11 +239,11 @@
       },
       "ddos": {
         "question": "Erbjuder du DDoS-skydd?",
-        "answer": "Ja, alla planer inkluderar DDoS-lindring av företagsklass som drivs av FyfeWeb. Våra LondonPOP:er tillhandahåller automatisk filtrering och skrubbning i nätverkskanten."
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Var finns dina datacenter?",
-        "answer": "Vi driver UK-baserade datacenter med POP:er från London som drivs av vår nätverkspartner FyfeWeb och ger utmärkt täckning över hela Storbritannien och Europa."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Kan jag köra moddar och anpassade kartor?",
@@ -250,13 +264,18 @@
     "badge": "Spelservrar",
     "title": "Välj din",
     "titleHighlight": "Spel",
-    "description": "Kraftfull, låg latens spelservrar. Omedelbar installation, intuitiv kontrollpanel och 24/7 expertstöd.",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
     "viewPlans": "Visa planer",
     "learnMore": "Läs mer",
     "comingSoon": "Kommer snart",
     "customSolution": "Behöver du en spelserver som inte är listad?",
     "contactUs": "Kontakta oss",
     "forCustom": "för anpassade lösningar.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Värd",
     "joinWaitlist": "Gå med i väntelistan",
     "minecraft": {
@@ -279,17 +298,17 @@
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Idealisk för medelstora samhällen"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB Lagring",
         "databases": "10 MySQL-databaser",
-        "ddos": "FyfeWeb DDoS-skydd",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "Auto/Förinstallerade burkar",
+        "jars": "Auto/Pre Installed jars",
         "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
@@ -305,22 +324,22 @@
         },
         "hardware": {
           "title": "Hårdvara med hög prestanda",
-          "description": "AMD Ryzen-processorer i företagsklass med NVMe-lagring för snabb prestanda.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 Processorer",
+            "0": "High performance CPUs",
             "1": "NVMe SSD-lagring",
             "2": "DDR4 ECC memory",
-            "3": "Upp till 4,8 GHz klockfrekvens"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "DDoS skydd",
-          "description": "DDoS-lindring som drivs av FyfeWeb håller din server online även under attacker.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Skydd för lager 3/4/7",
-            "1": "Filtrering av FyfeWeb nätverk",
+            "1": "Enterprise network filtering",
             "2": "Begränsning av noll driftstopp",
-            "3": "Brittiska POP:er i London"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -328,7 +347,7 @@
           "description": "Din server är distribuerad inom några sekunder. Börja spela direkt efter köp.",
           "highlights": {
             "0": "Automatiserad provisionering",
-            "1": "Förkonfigurerade inställningar",
+            "1": "Pre configured settings",
             "2": "Redo på under 60 sekunder",
             "3": "Ingen teknisk kunskap behövs"
           }
@@ -338,7 +357,7 @@
           "description": "Fullständig filåtkomst via FTP/SFTP. Ladda upp världar, plugins och konfigurationer med lätthet.",
           "highlights": {
             "0": "Åtkomst till SFTP-fil",
-            "1": "Webbaserad filhanterare",
+            "1": "Web based file manager",
             "2": "Dra och släpp uppladdningar",
             "3": "Automatiska säkerhetskopior"
           }
@@ -365,7 +384,7 @@
         },
         "upload": {
           "question": "Hur laddar jag upp min befintliga värld?",
-          "answer": "Du kan ladda upp dina världsfiler via vår webbaserade filhanterare eller via SFTP. Dra och släpp helt enkelt din världsmapp så kommer den att vara redo att användas."
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "Finns det en spelarbegränsning?",
@@ -377,12 +396,12 @@
         },
         "refunds": {
           "question": "Erbjuder du återbetalning?",
-          "answer": "Ja, vi erbjuder en 48 timmars pengarna-tillbaka-garanti på alla nya köp. Om du inte är nöjd, kontakta support för en fullständig återbetalning."
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "Högpresterande Rust server hosting med Oxide/uMod-stöd och anpassade kartalternativ.",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "Hög prestanda",
       "features": {
         "0": "Oxide/uMod-stöd",
@@ -405,11 +424,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}GB SSD-lagring",
-        "ddos": "FyfeWeb DDoS-skydd",
-        "location": "Newcastle, Storbritannien",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL-databaser",
         "panel": "BytePanel (Spelpanel)",
         "oxide": "Oxide/Umod stöds",
@@ -423,7 +442,7 @@
           "highlights": {
             "0": "Installera Oxide med ett klick",
             "1": "Plugin hanterare",
-            "2": "Auto-uppdateringar tillgängliga",
+            "2": "Auto updates available",
             "3": "Hantering av behörighet"
           }
         },
@@ -439,20 +458,20 @@
         },
         "performance": {
           "title": "Hög prestanda",
-          "description": "Rust kräver kraftfull hårdvara. Våra servrar använder de senaste AMD Ryzen-processorerna och NVMe lagring.",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 Processorer",
+            "0": "High performance CPUs",
             "1": "NVMe SSD-lagring",
-            "2": "Hög prestanda med en tråd",
+            "2": "High single thread performance",
             "3": "Nätverk med låg latens"
           }
         },
         "ddos": {
           "title": "DDoS skydd",
-          "description": "FyfeWebs DDoS-lindring i företagsklass genom London POPs i Storbritannien skyddar din server från attacker 24/7.",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "Filtrering av FyfeWeb nätverk",
-            "1": "Brittiska POP:er i London",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Skydd för lager 3/4/7",
             "3": "Noll stillestånd"
           }
@@ -506,19 +525,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale server hosting kommer snart! Gå med i vår Discord för att få tidig åtkomst och uppdateringar.",
-      "tag": "Under utveckling",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Mod stöd",
         "1": "Anpassade kartor",
         "2": "Enkel konfiguration",
         "3": "24/7 support"
       }
-    },
-    "vpsCta": {
-      "title": "Behöver du också VPS Hosting?",
-      "description": "Full root-åtkomst, NVMe SSD-lagring och DDoS-skydd för företag. Välj mellan virtuella servrar som drivs av AMD eller Intel.",
-      "button": "Visa VPS-planer"
     }
   },
   "gamePage": {
@@ -526,7 +540,7 @@
       "badge": "Funktioner",
       "title": "Varför välja vår",
       "titleSuffix": "Värd",
-      "description": "Företagsklass infrastruktur anpassad specifikt för {game} servrar."
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
       "badge": "Prissättning",
@@ -539,7 +553,19 @@
       "getStarted": "Kom igång",
       "viewAllPlans": "Visa alla planer",
       "customSolution": "Behöver du en anpassad lösning eller har du frågor?",
-      "contactUs": "Kontakta oss"
+      "contactUs": "Kontakta oss",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "Vanliga frågor",
@@ -570,7 +596,7 @@
     "copyFailedDesc": "Det gick inte att kopiera till urklipp",
     "discord": {
       "title": "Discords gemenskap",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Gå med i vår community för omedelbar support, meddelanden och chatta med andra användare.",
       "button": "Anslut till Discord",
       "features": {
         "0": "Omedelbara svar",
@@ -617,7 +643,7 @@
     }
   },
   "footer": {
-    "tagline": "Snabb, tillförlitlig, skalbar och säker webbhotell för din spelupplevelse. Byggd för människor. Drivs av Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Kom i beröring",
     "emailUs": "E-posta oss",
     "support": "Stöd",
@@ -633,20 +659,16 @@
       "maintenance": "Under Underhåll"
     },
     "services": {
-      "minecraftHosting": "Minecraft värd",
-      "rustHosting": "Rust Hosting",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Spelpanelen",
-      "clientArea": "Klient område",
-      "gameServers": "Hosting av spel",
-      "vpsServers": "VPS-hosting",
-      "vpsPanel": "VPS-panel"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discords server",
       "serviceStatus": "Tjänstens status",
       "knowledgeBase": "Kunskapsbas",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Faktureringspanel"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Regler & villkor",
@@ -680,7 +702,7 @@
     "description": "Håll dig uppdaterad med de senaste versionerna, funktionerna och förbättringarna i alla NodeByte-projekt.",
     "searchPlaceholder": "Sök utgåvor...",
     "filters": {
-      "all": "All",
+      "all": "Alla förråd",
       "allTypes": "Alla typer",
       "feature": "Funktion",
       "bugfix": "Felrättning",
@@ -701,7 +723,7 @@
     },
     "empty": {
       "title": "Inga utgåvor hittades",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Försök att justera din sökning eller filter för att hitta det du letar efter.",
       "clearFilters": "Rensa filter"
     },
     "loading": {
@@ -710,7 +732,7 @@
     },
     "error": {
       "title": "Det gick inte att ladda utgåvor",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Det gick inte att hämta utgåvor. Försök igen senare.",
       "retry": "Försök igen"
     },
     "stats": {
@@ -802,6 +824,11 @@
     "description": "Högpresterande spelserver värd med omedelbar inställning, kraftfull kontrollpanel och 24/7 expertstöd.",
     "startingAt": "Börjar på"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Laddar",
     "pagination": "sidnummer",
@@ -819,8 +846,8 @@
     "badge": "Om NodeByte",
     "hero": {
       "title": "Byggd av spelare,",
-      "titleHighlight": "för spelare",
-      "description": "NodeByte började som en liten grupp av spelare och ops-ingenjörer som ville ha hosting som var snabb, tillförlitlig och lätt att hantera. Idag driver vi spelservrar över hela världen.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Gå med i vår gemenskap",
       "contactUs": "Kontakta oss"
     },
@@ -828,8 +855,8 @@
       "badge": "Vår berättelse",
       "title": "Hur det hela började",
       "paragraph1": "NodeByte föddes ur frustration. Som ivriga spelare själva, har vi upplevt första smärtan av laggy servrar, responsiv support och komplexa kontrollpaneler som gjorde serverhantering en mardröm.",
-      "paragraph2": "År 2024 beslutade vi att tillräckligt var nog. Vi samlade ett team av passionerade spelare och erfarna op-ingenjörer med ett mål: bygga den spelvärd plattform vi alltid önskat fanns.",
-      "paragraph3": "Idag, NodeByte driver spelservrar över hela världen. Men vårt uppdrag förblir detsamma: göra spelservern värd snabbt, tillförlitligt och tillgängligt för alla."
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Våra värden",
@@ -837,12 +864,12 @@
       "titleHighlight": "Stå för",
       "description": "Våra kärnvärden vägleder allt vi gör, från infrastrukturbeslut till kundsupport.",
       "players": {
-        "title": "Byggd för spelare",
-        "description": "Vår infrastruktur prioriterar låg latensroutning, förutsägbar prestanda och stark drifttid så att dina samhällen stannar online och lyhörd."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Stöd för gemenskap & mod",
-        "description": "Sömlösa mod installationer, snapshot-stöd och community-verktyg som hjälper dig att köra moddade världar och ihållande servrar med minimal ansträngning."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Öppna efter design",
@@ -851,12 +878,9 @@
     },
     "stats": {
       "uptime": "Upptid SLA",
-      "latency": "Genomsnittlig latens",
-      "support": "Stöd",
-      "servers": "Aktiva servrar",
-      "users": "Totalt antal användare",
-      "activeUsers": "Aktiva användare",
-      "allocations": "Tilldelningar"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Vår resa",
@@ -868,18 +892,22 @@
       },
       "growth": {
         "title": "Snabb tillväxt",
-        "description": "Utökad infrastruktur med FyfeWeb-partnerskap, med DDoS-skydd och datacenter i Storbritannien."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Global expansion",
         "description": "Lanserade nya tjänster, förbättrad kontrollpanel och fortsätter att växa i vår globala gemenskap."
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "Vårt team",
       "title": "Möt",
       "titleHighlight": "Lag",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "De passionerade personerna bakom NodeByte som outtröttligt arbetar för att leverera den bästa webbhotellsupplevelsen.",
       "roles": {
         "founder": "Grundare & Ledande Utvecklare"
       },
@@ -889,8 +917,8 @@
     },
     "cta": {
       "title": "Redo att börja?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Visa spelservrar",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Anslut till Discord"
     }
   },
@@ -902,10 +930,10 @@
     "quickLinks": "Snabba länkar",
     "links": {
       "home": "Hem",
-      "games": "Spel",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Kunskapsbas",
-      "contact": "Kontakt",
-      "vps": "VPS-hosting"
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
@@ -1056,28 +1084,186 @@
     },
     "userMenu": {
       "myAccount": "Mitt konto",
+      "dashboard": "Dashboard",
       "viewPanel": "Visa panel",
       "admin": "Administratör",
       "logout": "Logga ut",
       "signIn": "Logga in",
-      "loggingOut": "Loggar ut...",
-      "dashboard": "Instrumentpanel"
+      "loggingOut": "Loggar ut..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Admin panel",
     "nav": {
       "dashboard": "Instrumentpanel",
-      "users": "Användare",
-      "servers": "Servrar",
-      "sync": "Synk",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Inställningar",
-      "backToSite": "Tillbaka till sajten",
-      "nodes": "Server-noder",
-      "locations": "Platser",
-      "allocations": "Tilldelningar",
-      "eggs": "Bo & ägg"
+      "backToSite": "Tillbaka till sajten"
     },
     "status": {
       "online": "System online"
@@ -1108,23 +1294,23 @@
       "syncingTarget": "Synkroniserar {target} data från panelen...",
       "complete": "complete",
       "runFull": "Kör full synkronisering",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Synkronisering slutförd",
       "completed": "Lyckad synkronisering av {target} data.",
       "error": "Synk misslyckades",
       "quickActions": "Snabb synkronisering åtgärder",
       "quickActionsDescription": "Synkronisera enskilda datatyper från Pterodactyl-panelen.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Platser",
         "nodes": "Nodes",
         "allocations": "Tilldelning",
         "nests": "Häst och ägg",
         "servers": "Servrar",
         "databases": "Databaser",
-        "users": "Användare",
-        "full": "Full synkronisering"
-      },
-      "started": "Synkronisering påbörjad",
-      "running": "Synkroniserar data från panelen. Detta kan ta en stund."
+        "users": "Användare"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1280,11 +1466,11 @@
         "url": "Panelens URL",
         "apiKey": "API nyckel",
         "apiKeyNote": "Ange din Pterodactyl-panel API-nyckel för autentisering.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "Bas-URL för Pterodactyl API (vanligtvis panel-URL + /api).",
-        "version": "Panelens version",
-        "apiKeyclient": "API-nyckel för klient",
-        "apiKeyNoteclient": "Ange din API-nyckel för Pterodactyl-klienten. Detta krävs för att synkronisera server- och användardata från klient-API:t."
+        "version": "Panelens version"
       },
       "crowdin": {
         "title": "Crowdin översättningshantering",
@@ -1375,463 +1561,324 @@
       "discordSuggestion": "Anslut till Discord"
     }
   },
-  "servicesHome": {
-    "badge": "Vad vi erbjuder",
-    "title": "Allt du behöver,",
-    "titleHighlight": "en plats",
-    "description": "Spelservrar och VPS-hosting byggda för prestanda. Omedelbar installation, DDoS-skydd och expertsupport dygnet runt.",
-    "browsePlans": "Bläddra bland planer",
-    "startingFrom": "Från",
-    "customSolution": "Behöver du något som vi inte har på listan?",
-    "contactUs": "Kontakta oss",
-    "forCustom": "så hittar vi rätt passform."
-  },
-  "vpsPage": {
-    "title": "VPS-hosting",
-    "description": "Högpresterande virtuella privata servrar med full root-åtkomst, NVMe SSD-lagring, DDoS-skydd och expertsupport dygnet runt.",
-    "startingAt": "Börjar på"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Översikt",
-      "servers": "Servrar",
-      "billing": "Fakturering",
-      "support": "Stöd",
-      "account": "Konto",
-      "backToSite": "Tillbaka till webbplatsen",
-      "gamePanel": "Spelpanel",
-      "helpCenter": "Hjälpcenter"
-    },
-    "greeting": {
-      "morning": "God morgon",
-      "afternoon": "God eftermiddag",
-      "evening": "God kväll"
-    },
-    "subtitle": "Det här händer med dina servrar",
-    "welcome": {
-      "title": "Välkommen!",
-      "magicLinkSuccess": "Du har framgångsrikt loggat in med din magiska länk. Välkommen till din instrumentpanel!"
-    },
-    "stats": {
-      "totalServers": "Totalt antal servrar",
-      "activeServers": "Aktiva servrar",
-      "accountBalance": "Saldo på konto",
-      "openTickets": "Öppna biljetter",
-      "online": "på nätet",
-      "activeDescription": "För närvarande pågår",
-      "balanceDescription": "Tillgänglig kredit",
-      "ticketsDescription": "Inväntar svar"
-    },
-    "actions": {
-      "openPanel": "Öppen panel",
-      "newServer": "Ny server"
-    },
-    "recentServers": {
-      "title": "Nya servrar",
-      "description": "Dina senast besökta servrar",
-      "viewAll": "Visa alla",
-      "empty": {
-        "title": "Inga servrar ännu",
-        "description": "Du har inga spelserver ännu. Kom igång genom att skapa din första server.",
-        "action": "Skapa server"
-      }
-    },
-    "quickActions": {
-      "title": "Snabba åtgärder",
-      "minecraft": "Minecraft Server",
-      "minecraftDesc": "Driftsättning av en ny Minecraft-server",
-      "rust": "Rust Server",
-      "rustDesc": "Distribuera en ny Rust-server",
-      "support": "Öppen biljett",
-      "supportDesc": "Få hjälp av vårt team",
-      "knowledgeBase": "Kunskapsbas",
-      "knowledgeBaseDesc": "Bläddra bland hjälpartiklar"
-    },
-    "servers": {
-      "title": "Mina servrar",
-      "description": "Hantera och övervaka dina spelservrar",
-      "status": {
-        "running": "Löpning",
-        "online": "På nätet",
-        "offline": "Offline",
-        "starting": "Startar",
-        "stopping": "Stoppar",
-        "suspended": "Upphävd",
-        "installing": "Installera"
-      },
-      "resources": {
-        "memory": "Minne",
-        "cpu": "CPU",
-        "disk": "Diskett"
-      },
-      "actions": {
-        "newServer": "Ny server",
-        "refresh": "Uppdatera",
-        "console": "Konsol",
-        "files": "Filer",
-        "databases": "Databaser",
-        "openPanel": "Öppna i panelen"
-      },
-      "filters": {
-        "searchPlaceholder": "Sök servrar...",
-        "status": "Status",
-        "allStatuses": "Alla statusar"
-      },
-      "pagination": {
-        "showing": "Visar {from} till {to} av {total}",
-        "previous": "Föregående",
-        "next": "Nästa"
-      },
-      "empty": {
-        "title": "Inga servrar hittades",
-        "description": "Du har inga spelservrar ännu. Skapa din första server för att komma igång.",
-        "action": "Skapa server"
-      }
-    },
-    "account": {
-      "title": "Kontoinställningar",
-      "description": "Hantera din profil och dina säkerhetsinställningar",
-      "tabs": {
-        "profile": "Profil",
-        "security": "Säkerhet"
-      },
-      "profile": {
-        "overview": "Översikt över konton",
-        "overviewDescription": "Din kontoinformation och status",
-        "verified": "Verifierad",
-        "unverified": "Overifierad",
-        "personalInfo": "Personlig information",
-        "personalInfoDescription": "Uppdatera din personliga information",
-        "firstName": "Förnamn",
-        "firstNamePlaceholder": "John",
-        "lastName": "Efternamn",
-        "lastNamePlaceholder": "Doe",
-        "username": "Användarnamn",
-        "usernamePlaceholder": "johndoe",
-        "email": "E-postadress",
-        "emailNote": "Kontakta support för att ändra din e-postadress",
-        "phoneNumber": "Telefonnummer",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Företagets namn",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "E-post för fakturering",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Spara ändringar",
-        "success": "Profilen uppdaterad",
-        "successDescription": "Din profil har uppdaterats framgångsrikt.",
-        "error": "Uppdateringen misslyckades",
-        "errorDescription": "Misslyckades med att uppdatera din profil. Vänligen försök igen."
-      },
-      "security": {
-        "changePassword": "Ändra lösenord",
-        "changePasswordDescription": "Uppdatera ditt lösenord för att hålla ditt konto säkert",
-        "currentPassword": "Aktuellt lösenord",
-        "newPassword": "Nytt lösenord",
-        "confirmPassword": "Bekräfta nytt lösenord",
-        "passwordRequirements": "Lösenordet måste innehålla minst 8 tecken",
-        "updatePassword": "Uppdatera lösenord",
-        "passwordMismatch": "Lösenorden stämmer inte överens",
-        "passwordMismatchDescription": "De nya lösenorden som du angav stämmer inte överens.",
-        "passwordTooShort": "Lösenord för kort",
-        "passwordTooShortDescription": "Lösenordet måste vara minst 8 tecken långt.",
-        "passwordChanged": "Ändrat lösenord",
-        "passwordChangedDescription": "Ditt lösenord har uppdaterats framgångsrikt.",
-        "error": "Uppdateringen misslyckades",
-        "errorDescription": "Misslyckades med att uppdatera ditt lösenord. Vänligen försök igen.",
-        "emailNotVerified": "E-post ej verifierad",
-        "emailNotVerifiedDescription": "Din e-postadress har inte verifierats.",
-        "resendVerification": "Skicka ett nytt verifieringsmeddelande",
-        "accountInfo": "Kontoinformation",
-        "accountInfoDescription": "Ytterligare information om ditt konto",
-        "accountCreated": "Konto skapat",
-        "lastLogin": "Senaste inloggning",
-        "accountId": "Konto ID"
-      }
-    }
-  },
   "vps": {
-    "badge": "VPS-servrar",
-    "title": "Välj din",
-    "titleHighlight": "VPS-plan",
-    "description": "Virtuella privata servrar med full kontroll som drivs av företagshårdvara. Root-åtkomst, NVMe-lagring, DDoS-skydd och omedelbar driftsättning.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
     "hosting": "Hosting",
-    "learnMore": "Lär dig mer",
-    "viewPlans": "Visa planer",
-    "customSolution": "Behöver du en anpassad VPS-lösning eller har du frågor?",
-    "contactUs": "Kontakta oss",
-    "forCustom": "så hittar vi rätt passform.",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "Omedelbar driftsättning",
-        "description": "Din VPS är förberedd och klar på mindre än 60 sekunder efter köpet."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Full root-åtkomst",
-        "description": "Fullständig kontroll över din server med root SSH-åtkomst och ditt val av operativsystem."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Hårdvara för företag",
-        "description": "Processorer i företagsklass med NVMe SSD-lagring och ECC RAM i alla abonnemang."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Högpresterande KVM VPS på AMD-hårdvara för företag. Perfekt för krävande arbetsbelastningar, webbapplikationer och backends för spel.",
-      "heroDescription": "KVM VPS i företagsklass på AMD-hårdvara med NVMe SSD-lagring, full root-åtkomst och DDoS-skydd för företag. Driftsätt på några sekunder.",
-      "tag": "AMD-driven",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "AMD-processorer för företag",
-        "1": "NVMe SSD-lagring",
-        "2": "Full root / SSH-åtkomst",
-        "3": "DDoS-skydd"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Full root-åtkomst",
-        "1": "KVM-virtualisering",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-skydd"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "Start",
-          "description": "Perfekt för små projekt och tester"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
           "name": "Standard",
-          "description": "Perfekt för växande applikationer"
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Prestanda",
-          "description": "Idealisk för arbetsbelastningar med hög trafik"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Bandbredd",
-        "bandwidthUnmetered": "Ouppmätt bandbredd",
-        "ddos": "DDoS-skydd",
-        "ipv4": "Dedikerad IPv4-adress",
-        "rootAccess": "Full root / SSH-åtkomst",
-        "uptime": "99.9% SLA för upptid"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "AMD-hårdvara för företag",
-          "description": "Drivs av AMD-hårdvara i företagsklass som ger exceptionell flertrådad prestanda för krävande arbetsbelastningar.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "AMD-processorer för företag",
-            "1": "Högt antal kärnor",
-            "2": "Stor L3-cache",
-            "3": "Höga klockhastigheter"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-lagring",
-          "description": "Ultrasnabb NVMe solid-state-lagring med sekventiella läshastigheter på över 3 000 MB/s för snabb dataåtkomst.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-enheter",
-            "1": "läshastigheter på över 3 000 MB/s",
-            "2": "I/O med låg latenstid",
-            "3": "RAID-redundans"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-skydd",
-          "description": "DDoS-skydd i företagsklass håller din VPS online även under storskaliga attacker.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Filtrering i lager 3/4/7",
-            "1": "Automatiserad kantrengöring",
-            "2": "Ingen begränsning av stilleståndstid",
-            "3": "Globala POP-ämnen"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Höghastighetsnätverk",
-          "description": "1 Gbps uplänk med routing med låg latens för optimal anslutning oavsett var dina användare befinner sig.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps upplänk",
-            "1": "Routning med låg latenstid",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Stöd för IPv4 och IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Full root-åtkomst",
-          "description": "Fullständig kontroll över din servermiljö. Installera valfri programvara, konfigurera valfri tjänst och kör valfritt operativsystem.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Full SSH root-åtkomst",
-            "1": "Välj din Linux-distro",
-            "2": "KVM-virtualisering",
-            "3": "Anpassat ISO-stöd"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "expertstöd 24/7",
-          "description": "Vårt team är tillgängligt dygnet runt för att hjälpa till med serverkonfiguration, optimering och felsökning.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Stöd för Discord",
-            "1": "Biljettsystem",
-            "2": "Kunskapsbas",
-            "3": "Hjälp med servermigrering"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Får jag full root-åtkomst till min VPS?",
-          "answer": "Ja, alla AMD VPS-abonnemang inkluderar full root-åtkomst via SSH. Du har fullständig kontroll över din servermiljö, inklusive operativsystem, programvara och konfiguration."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Vilka operativsystem finns tillgängliga?",
-          "answer": "Vi stöder populära Linux-distributioner som Ubuntu, Debian, CentOS, AlmaLinux och Rocky Linux. Du kan också ladda upp din egen anpassade ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kan jag uppgradera min VPS-plan senare?",
-          "answer": "Ja, du kan uppgradera din VPS-plan när som helst från vår faktureringspanel. Resursökningar tillämpas med minimal driftstoppstid."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Vad händer om jag överskrider min bandbreddsgräns?",
-          "answer": "För abonnemang med mätning meddelar vi dig innan du når din gräns. Du kan när som helst köpa ytterligare bandbredd eller uppgradera till en plan utan mätning."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Ingår DDoS-skydd?",
-          "answer": "Ja, alla AMD VPS-abonnemang inkluderar DDoS-mitigering i företagsklass. Detta skyddar din server från Layer 3-, 4- och 7-attacker med scrubbing utan nedtid."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Erbjuder du återbetalning?",
-          "answer": "Ja, vi erbjuder en 48-timmars pengarna-tillbaka-garanti på alla nya VPS-köp. Kontakta support inom 48 timmar efter köpet för att få full återbetalning."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "Pålitlig KVM VPS på Intel-hårdvara för företag. Utmärkt single-thread-prestanda för webbhotell, databaser och applikationsservrar.",
-      "heroDescription": "Robust KVM VPS på Intel-hårdvara med NVMe SSD-lagring, full root-åtkomst och DDoS-skydd för företag. Driftsätt på några sekunder.",
-      "tag": "Intel-driven",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "Intel-processorer för företag",
-        "1": "NVMe SSD-lagring",
-        "2": "Full root / SSH-åtkomst",
-        "3": "DDoS-skydd"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Full root-åtkomst",
-        "1": "KVM-virtualisering",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-skydd"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Kärnan",
-          "description": "Perfekt för små projekt och webbhotell"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Perfekt för produktionsapplikationer"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Företag",
-          "description": "Idealisk för tjänster med hög efterfrågan"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Bandbredd",
-        "bandwidthUnmetered": "Ouppmätt bandbredd",
-        "ddos": "DDoS-skydd",
-        "ipv4": "Dedikerad IPv4-adress",
-        "rootAccess": "Full root / SSH-åtkomst",
-        "uptime": "99.9% SLA för upptid"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Intel-hårdvara för företag",
-          "description": "Byggd på Intel-hårdvara i företagsklass med stark prestanda i en tråd för webbservrar, databaser och applikationer.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Intel-processorer för företag",
-            "1": "Stark prestanda i en enda tråd",
-            "2": "Stora cache-storlekar",
-            "3": "Höga klockhastigheter"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-lagring",
-          "description": "Ultrasnabb NVMe solid-state-lagring som ger hög IOPS och låg latens för I/O-intensiva applikationer.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-enheter",
-            "1": "Hög IOPS-prestanda",
-            "2": "I/O med låg latenstid",
-            "3": "RAID-redundans"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-skydd",
-          "description": "DDoS-skydd i företagsklass håller din VPS online även under storskaliga attacker.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Filtrering i lager 3/4/7",
-            "1": "Automatiserad kantrengöring",
-            "2": "Ingen begränsning av stilleståndstid",
-            "3": "Globala POP-ämnen"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Höghastighetsnätverk",
-          "description": "1 Gbps uplänk med routing med låg latens för optimal anslutning oavsett var dina användare befinner sig.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps upplänk",
-            "1": "Routning med låg latenstid",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Stöd för IPv4 och IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Full root-åtkomst",
-          "description": "Fullständig kontroll över din servermiljö. Installera valfri programvara, konfigurera valfri tjänst och kör valfritt operativsystem.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Full SSH root-åtkomst",
-            "1": "Välj din Linux-distro",
-            "2": "KVM-virtualisering",
-            "3": "Anpassat ISO-stöd"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "expertstöd 24/7",
-          "description": "Vårt team är tillgängligt dygnet runt för att hjälpa till med serverkonfiguration, optimering och felsökning.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Stöd för Discord",
-            "1": "Biljettsystem",
-            "2": "Kunskapsbas",
-            "3": "Hjälp med servermigrering"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Får jag full root-åtkomst till min VPS?",
-          "answer": "Ja, alla Intel VPS-abonnemang inkluderar full root-åtkomst via SSH. Du har fullständig kontroll över din servermiljö, inklusive operativsystem, programvara och konfiguration."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Vilka operativsystem finns tillgängliga?",
-          "answer": "Vi stöder populära Linux-distributioner som Ubuntu, Debian, CentOS, AlmaLinux och Rocky Linux. Du kan också ladda upp din egen anpassade ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kan jag uppgradera min VPS-plan senare?",
-          "answer": "Ja, du kan uppgradera din VPS-plan när som helst från vår faktureringspanel. Resursökningar tillämpas med minimal driftstoppstid."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Vad händer om jag överskrider min bandbreddsgräns?",
-          "answer": "För abonnemang med mätning meddelar vi dig innan du når din gräns. Du kan när som helst köpa ytterligare bandbredd eller uppgradera till en plan utan mätning."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Ingår DDoS-skydd?",
-          "answer": "Ja, alla Intel VPS-abonnemang inkluderar DDoS-begränsning i företagsklass. Detta skyddar din server från Layer 3-, 4- och 7-attacker med scrubbing utan nedtid."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Erbjuder du återbetalning?",
-          "answer": "Ja, vi erbjuder en 48-timmars pengarna-tillbaka-garanti på alla nya VPS-köp. Kontakta support inom 48 timmar efter köpet för att få full återbetalning."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }
