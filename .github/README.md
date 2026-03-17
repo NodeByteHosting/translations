@@ -49,7 +49,7 @@ The easiest way to contribute translations is through our Crowdin project:
 
 If your language isn't listed you can request it here:
 - [Open an issue](https://github.com/NodeByteHosting/translations/issues)
-- [Join our Discord](https://discord.gg/nodebyte)!
+- [Join our Discord](https://discord.gg/nodebyte)
 
 ## License
 
