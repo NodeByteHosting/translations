@@ -40,7 +40,7 @@ The easiest way to contribute translations is through our Crowdin project:
 
 ## How It Works
 
-1. **Source files**: `templates/en/*.json` are modular English sources maintained by the NodeByte team and community. 
+1. **Source files**: `templates/*.json` are modular English sources maintained by the NodeByte team and community. 
 2. **Crowdin sync**: When changes are pushed, Crowdin detects new/updated strings in all template files.
 3. **Community translation**: Translators contribute via Crowdin's web interface
 4. **Auto PR**: Crowdin automatically creates PRs with approved translations to `messages/` (with modular structure per locale)
