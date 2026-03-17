@@ -22,6 +22,10 @@
       "title": "私たちについて",
       "description": "NodeByteの詳細"
     },
+    "network": {
+      "title": "Network & Nodes",
+      "description": "Node and Location information"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -96,8 +100,9 @@
   },
   "hero": {
     "promo": {
-      "prefix": "コードを使用",
-      "suffix": "最初の注文で！"
+      "prefix": "VPS SERVERS",
+      "highlight": "AVAILABLE NOW",
+      "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
     "titleHighlight": "シンプルにしました",
@@ -202,7 +207,7 @@
     },
     "stats": {
       "uptime": "稼働時間SLA",
-      "locations": "Global Locations",
+      "locations": "Data Center Partners",
       "ddos": "DDoS Mitigation",
       "network": "Uplink per Node"
     }
@@ -243,7 +248,7 @@
       },
       "locations": {
         "question": "データセンターはどこにありますか?",
-        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Location selection is available during checkout."
       },
       "mods": {
         "question": "MODやカスタムマップを実行できますか?",
@@ -397,6 +402,10 @@
         "refunds": {
           "question": "払い戻しを提供しますか？",
           "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+        },
+        "location": {
+          "question": "Can I choose my server location?",
+          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
         }
       }
     },
@@ -521,6 +530,10 @@
         "modded": {
           "question": "moded サーバーをサポートしていますか？",
           "answer": "はい、私たちはバニラとモッドのRustサーバーの両方をサポートしています。Oxideをインストールし、完璧なモッド体験を作成するために必要なプラグインを追加してください。"
+        },
+        "location": {
+          "question": "Can I choose my server location?",
+          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
         }
       }
     },
@@ -532,6 +545,36 @@
         "1": "カスタムマップ",
         "2": "簡単な構成",
         "3": "24時間年中無休のサポート"
+      }
+    },
+    "fivem": {
+      "description": "Custom script support, txAdmin panel, OneSync Infinity, and enterprise DDoS protection for GTA roleplay communities.",
+      "tag": "Coming Soon",
+      "features": {
+        "0": "Custom script support",
+        "1": "txAdmin panel",
+        "2": "OneSync Infinity",
+        "3": "DDoS protection"
+      }
+    },
+    "redm": {
+      "description": "Full VORP/RedEM:R framework support, custom map and content streaming for Red Dead Redemption 2 roleplay communities.",
+      "tag": "Coming Soon",
+      "features": {
+        "0": "VORP/RedEM:R support",
+        "1": "Custom map streaming",
+        "2": "Custom peds & vehicles",
+        "3": "DDoS protection"
+      }
+    },
+    "palworld": {
+      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
+      "tag": "Coming Soon",
+      "features": {
+        "0": "Custom world config",
+        "1": "Mod support",
+        "2": "Auto backups",
+        "3": "DDoS protection"
       }
     }
   },
@@ -878,7 +921,7 @@
     },
     "stats": {
       "uptime": "稼働時間SLA",
-      "locations": "Global Locations",
+      "locations": "Data Center Partners",
       "ddos": "DDoS Mitigation",
       "network": "Network per Node"
     },
@@ -1256,6 +1299,7 @@
       "dashboard": "ダッシュボード",
       "users": "All Users",
       "servers": "All Servers",
+      "products": "All Products",
       "nodes": "Server Nodes",
       "locations": "Locations",
       "allocations": "Allocations",
@@ -1719,6 +1763,10 @@
         "windows": {
           "question": "Can I run Windows on my AMD VPS?",
           "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
+        },
+        "location": {
+          "question": "Can I choose my server location?",
+          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your users."
         }
       }
     },
@@ -1853,6 +1901,10 @@
         "windows": {
           "question": "Can I run Windows on my Intel VPS?",
           "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
+        },
+        "location": {
+          "question": "Can I choose my server location?",
+          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your users."
         }
       }
     },
@@ -1867,6 +1919,17 @@
       "customSolution": "Need something custom?",
       "unmetered": "Unmetered",
       "poweredBy": "Powered by {model}",
+      "specs": {
+        "vcpuSingle": "vCPU core",
+        "vcpuPlural": "vCPU cores",
+        "ram": "{amount} GB DDR4 ECC RAM",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} {unit} bandwidth",
+        "bandwidthUnmetered": "Unmetered bandwidth",
+        "uplink": "{amount} {unit} uplink",
+        "ddos": "{layers} DDoS protection",
+        "ddosAlwaysOn": "always-on"
+      },
       "filters": {
         "search": "Search plans...",
         "price": "Price",
