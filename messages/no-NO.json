@@ -21,6 +21,14 @@
     "about": {
       "title": "Om oss",
       "description": "Lær mer om NodeByte"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
@@ -36,26 +44,33 @@
       "title": "Hytale Hosting",
       "description": "Hytale servere med DDoS beskyttelse"
     },
-    "all": {
-      "title": "Alle tjenester",
-      "description": "Utforsk alle våre hostingstjenester"
-    },
     "gameServers": {
-      "title": "Spillservere",
-      "description": "Bla gjennom alle alternativene for spillhosting"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "AMD-drevne virtuelle servere med høy ytelse"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Pålitelige Intel-drevne virtuelle servere"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPS-servere",
-      "description": "Bla gjennom alle VPS-hostingalternativer"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -65,16 +80,18 @@
     "gamePanel": {
       "title": "Spill Panel",
       "description": "Kontroller spillserverne dine med panelet vårt"
-    }
-  },
-  "extras": {
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
-      "title": "Kunnskapsbase",
-      "description": "Veiledninger, opplæring og dokumentasjon"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "Hva er nytt",
-      "description": "Siste oppdateringer og funksjoner"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
@@ -82,9 +99,9 @@
       "prefix": "BRUK KODE",
       "suffix": "PÅ DEG FØRSTE ORDER!"
     },
-    "title": "Spill-vert",
+    "title": "Server Hosting",
     "titleHighlight": "Laget enkel",
-    "description": "Fast, pålitelig, og sikker webhotell for ditt spill samfunn. Start dedikerte servere med øyeblikkelig installering, DDoS-beskyttelse og støtte døgn.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Kom i gang",
     "joinDiscord": "Bli med i Discord",
     "trustedBy": "Betrodd av spillsamfunn over hele verden",
@@ -102,26 +119,26 @@
     "badge": "Infrastruktur",
     "title": "Bygget for",
     "titleHighlight": "Ytelse",
-    "description": "Undergradert infrastruktur med gamerevennlig verktøy. Umiddelbare servere, lav latensruting og kraftfulle kontroller.",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Vis hosting planer",
     "startingFrom": "Starter fra",
     "items": {
       "ddos": {
         "title": "DYR Beskyttelse",
-        "description": "Enterprise-graving drevet av FyfeWeb med automatisk skrubbing for å holde servere online under angrep.",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "FyfeWeb nettverksbeskyttelse",
+          "0": "Enterprise network protection",
           "1": "Auto-skalering av reduksjon",
           "2": "Overvåking i sanntid"
         }
       },
       "latency": {
         "title": "Nettverk for lav latens",
-        "description": "Optimaliserte ruter gjennom FyfeWebs britiske nettverk sammen med London POPs for minimal ping.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Under-50 ms avg latens",
-          "1": "Storbritanniabasert ruting",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +151,12 @@
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategisk lokalisert i Storbritannia med London POPs drevet av FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "London POP'er",
-          "1": "FyfeWeb nettverk",
-          "2": "Lav latens UK dekning"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +182,18 @@
   "about": {
     "badge": "Vår historie",
     "title": "Bygget av Spillere,",
-    "titleHighlight": "for spillere",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte startet som en liten gruppe gamere og ops-ingeniører som ønsket å ha vert for raske, pålitelige og enkle å håndtere. Vi har erfart den frustrasjonen av laggiske servere og upåfallende støtte firkant.",
-    "paragraph2": "Derfor har vi bygget infrastruktur spesielt for flerspillerspiller: lav latens ruting, robust DDoS-beskyttelse og midlertidig serverlevering, slik at du kan spille raskt.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Delta i vårt samfunn",
     "values": {
       "players": {
-        "title": "Bygget for spillere",
-        "description": "Vår infrastruktur prioriterer lav latensruting, forutsigbar prestasjon og sterk oppetid slik at lokalsamfunnene dine holder seg online og er lydløse."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Community & Mod brukerstøtte",
-        "description": "Sømløs mod-installasjon, støtte for snapshot-støtte, og verktøy for fellesskap for å hjelpe deg å kjøre modifikerte verdener og vedvarende servere med minimal innsats."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Åpnet av design",
@@ -185,12 +202,9 @@
     },
     "stats": {
       "uptime": "SLA oppetid",
-      "latency": "Gj.snittlig forsinkelse",
-      "support": "Brukerstøtte",
-      "servers": "Aktive servere",
-      "users": "Totalt antall brukere",
-      "activeUsers": "Aktive brukere",
-      "allocations": "Tildelinger"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
@@ -225,11 +239,11 @@
       },
       "ddos": {
         "question": "Gir du beskyttelse mot DDoS?",
-        "answer": "Ja, alle planer om nedbøting av foretakets DDoS drevet av FyfeWeb. Våre POPer i London tilbyr automatisk filtrering og skrubbing på nettkanten."
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Hvor finnes datastyrkene?",
-        "answer": "Vi driver britiske datasentre med London POPs drevet av nettverkspartner FyfeWeb, og gir utmerket dekning i Storbritannia og Europa."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Kan jeg kjøre modifikasjoner og tilpassede kart?",
@@ -250,13 +264,18 @@
     "badge": "Spillservere",
     "title": "Velg din",
     "titleHighlight": "Spill",
-    "description": "Kraftig, lav latens spillservere. Umiddelbar oppsett, intuitivt kontrollpanel, og 24/7 støtte for eksperter.",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
     "viewPlans": "Vis planer",
     "learnMore": "Finn ut mer",
     "comingSoon": "Kommer snart",
     "customSolution": "Trenger du en spillserver som ikke er oppført?",
     "contactUs": "Kontakt oss",
     "forCustom": "for tilpassede løsninger.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Vertsskap",
     "joinWaitlist": "Bli med venteliste",
     "minecraft": {
@@ -279,17 +298,17 @@
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Ideelt for mellomstore samfunn"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB Lagring",
         "databases": "10 MySQL databaser",
-        "ddos": "FyfeWeb DDoS Beskyttelse",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "Auto/pre-installerte jarer",
+        "jars": "Auto/Pre Installed jars",
         "uptime": "99.6% Uptime SLA"
       },
       "pageFeatures": {
@@ -305,22 +324,22 @@
         },
         "hardware": {
           "title": "Maskinvare med høy ytelse",
-          "description": "Enterprise grade AMD Ryzen prosessorer med NVMe-lagring for blazing fast ytelse.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 prosessorer",
+            "0": "High performance CPUs",
             "1": "NVMe SSD lagring",
             "2": "DDR4 ECC memory",
-            "3": "Opp til 4,8 GHz klokkehastighet"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "DYR Beskyttelse",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb hold serveren din online selv når du angriper.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Lag 3/4/7-beskyttelse",
-            "1": "FyfeWeb nettverk filtrering",
+            "1": "Enterprise network filtering",
             "2": "Redusert tid med null",
-            "3": "UK London POPer"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -328,7 +347,7 @@
           "description": "Serveren din blir distribuert i løpet av sekunder. Begynn å spille umiddelbart etter kjøp.",
           "highlights": {
             "0": "Automatisert midlertidig",
-            "1": "Forhåndskonfigurerte innstillinger",
+            "1": "Pre configured settings",
             "2": "Klar for mindre enn 60 sekunder",
             "3": "Ingen teknisk kunnskap er nødvendig"
           }
@@ -338,7 +357,7 @@
           "description": "Fullfør filtilgang via FTP/SFTP. Last opp verdener, plugins, og konfigurasjoner med lett.",
           "highlights": {
             "0": "SFTP filtilgang",
-            "1": "Web-basert filbehandler",
+            "1": "Web based file manager",
             "2": "Dra & slipp opplastinger",
             "3": "Automatisk sikkerhetskopiering"
           }
@@ -365,7 +384,7 @@
         },
         "upload": {
           "question": "Hvordan laster jeg opp min eksisterende verden?",
-          "answer": "Du kan laste opp dine verdensfiler via vår nettbaserte filbehandler eller gjennom SFTP. Du kan enkelt dra og slippe mappen over hele verden og den vil være klar til bruk."
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "Er det en spillergrense?",
@@ -377,12 +396,12 @@
         },
         "refunds": {
           "question": "Tilbyr du refusjoner?",
-          "answer": "Ja, vi tilbyr en 48-timers pengene tilbake-garanti for alle nye kjøp. Hvis du ikke er fornøyd, kontakt support for en fullstendig refusjon."
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting med Oxide/uMod støtte og egendefinerte kartinnstillinger.",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "Høy ytelse",
       "features": {
         "0": "Oksid/uMod støtte",
@@ -405,11 +424,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}GB SSD lagring",
-        "ddos": "FyfeWeb DDoS Beskyttelse",
-        "location": "Newcastle, Storbritannia",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL databaser",
         "panel": "BytePanel (Samme Panel)",
         "oxide": "Oksid/Umod støttet",
@@ -423,7 +442,7 @@
           "highlights": {
             "0": "Ett-klikk Oxide installer",
             "1": "Pluginbehandling",
-            "2": "Automatiske oppdateringer tilgjengelig",
+            "2": "Auto updates available",
             "3": "Administrere tillatelser"
           }
         },
@@ -439,20 +458,20 @@
         },
         "performance": {
           "title": "Høy ytelse",
-          "description": "Rust krever kraftig maskinvare. Våre servere bruker de nyeste AMD Ryzen CPUs og NVMe-lagring.",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 prosessorer",
+            "0": "High performance CPUs",
             "1": "NVMe SSD lagring",
-            "2": "Høy ytelse i én tråd",
+            "2": "High single thread performance",
             "3": "Lav-latens nettverk"
           }
         },
         "ddos": {
           "title": "DYR Beskyttelse",
-          "description": "FyfeWebs bedriftsgradient DDoS bords gjennom UK London POPs beskytter serveren din mot angrep 24/7.",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "FyfeWeb nettverk filtrering",
-            "1": "UK London POPer",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Lag 3/4/7-beskyttelse",
             "3": "Null nedetid"
           }
@@ -506,19 +525,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale server hosting kommer snart! Bli med i vår Discord for å få tidlig tilgang til og oppdateringer.",
-      "tag": "Under utvikling",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Mod støtte",
         "1": "Egendefinerte kart",
         "2": "Enkel konfigurasjon",
         "3": "Enkelt og sikkert"
       }
-    },
-    "vpsCta": {
-      "title": "Trenger du også VPS-hosting?",
-      "description": "Full root-tilgang, NVMe SSD-lagring og DDoS-beskyttelse for bedrifter. Velg mellom AMD- eller Intel-drevne virtuelle servere.",
-      "button": "Se VPS-planer"
     }
   },
   "gamePage": {
@@ -526,7 +540,7 @@
       "badge": "Funksjoner",
       "title": "Hvorfor velge vår",
       "titleSuffix": "Vertsskap",
-      "description": "Grunnleggende infrastruktur i bedriftene tilpasset spesifikt for {game} servere."
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
       "badge": "Priser",
@@ -539,7 +553,19 @@
       "getStarted": "Kom i gang",
       "viewAllPlans": "Vis alle planer",
       "customSolution": "Trenger du en egendefinert løsning eller har spørsmål?",
-      "contactUs": "Kontakt oss"
+      "contactUs": "Kontakt oss",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "OSS",
@@ -570,7 +596,7 @@
     "copyFailedDesc": "Kan ikke kopiere til utklippstavlen",
     "discord": {
       "title": "Discord fellesskap",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Bli med i vårt samfunn for øyeblikkelig støtte, kunngjøringer og chat med andre brukere.",
       "button": "Bli med i Discord",
       "features": {
         "0": "Øyeblikkelige svar",
@@ -617,7 +643,7 @@
     }
   },
   "footer": {
-    "tagline": "Sist, pålitelige, skalerbare og sikre vertstjenester for din spillopplevelse. Bygget for menneske. Drevet av Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Ta kontakt",
     "emailUs": "Send oss E-post",
     "support": "Brukerstøtte",
@@ -633,20 +659,16 @@
       "maintenance": "Under vedlikehold"
     },
     "services": {
-      "minecraftHosting": "Minecraft-servering",
-      "rustHosting": "Rust Hosting",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Spill Panel",
-      "clientArea": "Klientområde",
-      "gameServers": "Spillvertskap",
-      "vpsServers": "VPS-hosting",
-      "vpsPanel": "VPS-panel"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Tjeneste status",
       "knowledgeBase": "Kunnskapsbase",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Faktureringspanel"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Vilkår og betingelser",
@@ -680,7 +702,7 @@
     "description": "Hold deg oppdatert om de siste utgavene, funksjonene og forbedringene på tvers av alle NodeByte-prosjekter.",
     "searchPlaceholder": "Søkeutgivelser...",
     "filters": {
-      "all": "All",
+      "all": "Alle repositories",
       "allTypes": "Alle typer",
       "feature": "Egenskap",
       "bugfix": "Bug fiks",
@@ -701,7 +723,7 @@
     },
     "empty": {
       "title": "Ingen utgivelser funnet",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Prøv å endre ditt søk eller ditt filter for å finne det du leter etter.",
       "clearFilters": "Fjern filtre"
     },
     "loading": {
@@ -710,7 +732,7 @@
     },
     "error": {
       "title": "Kunne ikke laste utgivelser",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Det oppstod en feil ved henting av utgivelser. Vennligst prøv igjen senere.",
       "retry": "Prøv igjen"
     },
     "stats": {
@@ -802,6 +824,11 @@
     "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
     "startingAt": "Starter på"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Laster",
     "pagination": "paginering",
@@ -819,8 +846,8 @@
     "badge": "Om NodeByte",
     "hero": {
       "title": "Bygget av Spillere,",
-      "titleHighlight": "for spillere",
-      "description": "NodeByte startet som en liten gruppe gamere og ops-ingeniører som ønsket å ha vert for raske, pålitelige og enkle å håndtere. I dag driver vi spillservere over hele verden.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Delta i vårt samfunn",
       "contactUs": "Kontakt oss"
     },
@@ -828,8 +855,8 @@
       "badge": "Vår historie",
       "title": "Slik startet det",
       "paragraph1": "NodeByte ble født av frustrasjon. Som avid gamere opplevde vi firkantet og smerten på laggiske servere, lydhørende støtte og kompliserte kontrollpaneler som gjorde serverstyring av et mareritt.",
-      "paragraph2": "I 2024 bestemte vi oss for at det skulle være nok. Vi satt sammen et team med lidenskapelige gamere og opplevde op-ingeniører med et mål: bygg spillvertsplattformen vi alltid ønsket eksisterer.",
-      "paragraph3": "I dag forener NodeByte spillservere over hele verden. Men vårt oppdrag er det samme: Gjør spillserveren hurtig, pålitelig og tilgjengelig for alle."
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Våre verdier",
@@ -837,12 +864,12 @@
       "titleHighlight": "Stå til",
       "description": "Vår kjerneverdiveiledning alt vi gjør, fra beslutninger om infrastruktur til kundestøtte.",
       "players": {
-        "title": "Bygget for spillere",
-        "description": "Vår infrastruktur prioriterer lav latensruting, forutsigbar prestasjon og sterk oppetid slik at lokalsamfunnene dine holder seg online og er lydløse."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Community & Mod brukerstøtte",
-        "description": "Sømløs mod-installasjon, støtte for snapshot-støtte, og verktøy for fellesskap for å hjelpe deg å kjøre modifikerte verdener og vedvarende servere med minimal innsats."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Åpnet av design",
@@ -851,12 +878,9 @@
     },
     "stats": {
       "uptime": "SLA oppetid",
-      "latency": "Gj.snittlig forsinkelse",
-      "support": "Brukerstøtte",
-      "servers": "Aktive servere",
-      "users": "Totalt antall brukere",
-      "activeUsers": "Aktive brukere",
-      "allocations": "Tildelinger"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Our Journey",
@@ -868,18 +892,22 @@
       },
       "growth": {
         "title": "Hurtig vekst",
-        "description": "Utvidet infrastruktur med FyfeWeb partnerskap, tilføyelse av DDoS-beskyttelse og britiske datasentre."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Global utvidelse",
         "description": "Lanset nytt tjenester, forbedret kontrollpanel, og fortsetter å vokse vårt globale samfunn."
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "Vårt team",
       "title": "Møt den",
       "titleHighlight": "Lag",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "lidenskapelig folk bak NodeByte som arbeider utrettelig for å gi den beste hodeopplevelsen.",
       "roles": {
         "founder": "Grunnlegger og hovedutvikler"
       },
@@ -889,8 +917,8 @@
     },
     "cta": {
       "title": "Klar til å komme i gang?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Vis spillservere",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Bli med i Discord"
     }
   },
@@ -902,10 +930,10 @@
     "quickLinks": "Raske lenker",
     "links": {
       "home": "Hjem",
-      "games": "Spill",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Kunnskapsbase",
-      "contact": "Kontakt",
-      "vps": "VPS-hosting"
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
@@ -1056,28 +1084,186 @@
     },
     "userMenu": {
       "myAccount": "Min konto",
+      "dashboard": "Dashboard",
       "viewPanel": "Vis Panel",
       "admin": "Administrator",
       "logout": "Logg ut",
       "signIn": "Logg inn",
-      "loggingOut": "Logger ut...",
-      "dashboard": "Dashbord"
+      "loggingOut": "Logger ut..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Admin-panel",
     "nav": {
       "dashboard": "Kontrollpanel",
-      "users": "Brukere",
-      "servers": "Servere",
-      "sync": "Synkronisering",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Innstillinger",
-      "backToSite": "Tilbake til nettstedet",
-      "nodes": "Servernoder",
-      "locations": "Steder",
-      "allocations": "Tildelinger",
-      "eggs": "Reir og egg"
+      "backToSite": "Tilbake til nettstedet"
     },
     "status": {
       "online": "System pålogget"
@@ -1100,7 +1286,7 @@
     },
     "sync": {
       "status": "Synk status",
-      "lastSync": "Last Sync",
+      "lastSync": "Sist synkronisert",
       "never": "Aldri",
       "idle": "Inaktiv",
       "syncing": "Synkroniserer...",
@@ -1108,23 +1294,23 @@
       "syncingTarget": "Synkroniserer {target} data fra panelet...",
       "complete": "complete",
       "runFull": "Kjør full synkronisering",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Synkronisering fullført",
       "completed": "Successfully synced {target} data.",
       "error": "Synk feilet",
       "quickActions": "Hurtigsynkronisering handlinger",
       "quickActionsDescription": "Synkroniser individuelle datatyper med Pterodaktyl panelet.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Steder",
         "nodes": "Nodes",
         "allocations": "Tildeling",
         "nests": "Nester & egg",
         "servers": "Servere",
         "databases": "Databaser",
-        "users": "Brukere",
-        "full": "Full synkronisering"
-      },
-      "started": "Synkronisering startet",
-      "running": "Synkroniserer data fra panelet. Dette kan ta et øyeblikk."
+        "users": "Brukere"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1385,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servere",
+      "description": "Se og administrer alle spillservere.",
       "stats": {
         "total": "Totalt antall servere",
         "running": "Kjører",
@@ -1250,8 +1436,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Innstillinger",
+      "description": "Konfigurere systeminnstillinger og -tilkoblinger.",
       "save": "Lagre endringer",
       "saved": "Innstillinger lagret",
       "savedDesc": "Dine innstillinger har blitt lagret.",
@@ -1280,11 +1466,11 @@
         "url": "Panel URL",
         "apiKey": "API-nøkkel (Automatic Translation)",
         "apiKeyNote": "Skriv inn ditt Pterodactyl panelpanel API-nøkkel for autentisering.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "Basiswebadressen for Pterodactyl API (vanligvis panel URL + /api).",
-        "version": "Panel Versjon",
-        "apiKeyclient": "API-klientnøkkel",
-        "apiKeyNoteclient": "Skriv inn API-nøkkelen til Pterodactyl-klienten. Dette er nødvendig for å synkronisere server- og brukerdata fra klient-API-et."
+        "version": "Panel Versjon"
       },
       "crowdin": {
         "title": "Crowdin oversettelse Management",
@@ -1375,463 +1561,324 @@
       "discordSuggestion": "Bli med i Discord"
     }
   },
-  "servicesHome": {
-    "badge": "Hva vi tilbyr",
-    "title": "Alt du trenger,",
-    "titleHighlight": "ett sted",
-    "description": "Spillservere og VPS-hosting bygget for ytelse. Øyeblikkelig oppsett, DDoS-beskyttelse og ekspertstøtte døgnet rundt.",
-    "browsePlans": "Bla gjennom planer",
-    "startingFrom": "Fra",
-    "customSolution": "Trenger du noe vi ikke har på listen?",
-    "contactUs": "Kontakt oss",
-    "forCustom": "så finner vi den rette løsningen."
-  },
-  "vpsPage": {
-    "title": "VPS-hosting",
-    "description": "Virtuelle private servere med høy ytelse og full root-tilgang, NVMe SSD-lagring, DDoS-beskyttelse og ekspertstøtte døgnet rundt.",
-    "startingAt": "Fra og med"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Oversikt",
-      "servers": "Tjenere",
-      "billing": "Fakturering",
-      "support": "Støtte",
-      "account": "Konto",
-      "backToSite": "Tilbake til nettstedet",
-      "gamePanel": "Spillpanel",
-      "helpCenter": "Hjelpesenter"
-    },
-    "greeting": {
-      "morning": "God morgen",
-      "afternoon": "God ettermiddag",
-      "evening": "God kveld"
-    },
-    "subtitle": "Her er hva som skjer med serverne dine",
-    "welcome": {
-      "title": "Velkommen!",
-      "magicLinkSuccess": "Du har logget inn med den magiske lenken din. Velkommen til dashbordet ditt!"
-    },
-    "stats": {
-      "totalServers": "Totalt antall servere",
-      "activeServers": "Aktive servere",
-      "accountBalance": "Saldo på konto",
-      "openTickets": "Åpne billetter",
-      "online": "på nett",
-      "activeDescription": "Kjører for øyeblikket",
-      "balanceDescription": "Tilgjengelig kreditt",
-      "ticketsDescription": "Venter på svar"
-    },
-    "actions": {
-      "openPanel": "Åpent panel",
-      "newServer": "Ny server"
-    },
-    "recentServers": {
-      "title": "Nyere servere",
-      "description": "De sist brukte serverne dine",
-      "viewAll": "Se alle",
-      "empty": {
-        "title": "Ingen servere ennå",
-        "description": "Du har ingen spillservere ennå. Kom i gang ved å opprette din første server.",
-        "action": "Opprett server"
-      }
-    },
-    "quickActions": {
-      "title": "Raske handlinger",
-      "minecraft": "Minecraft Server",
-      "minecraftDesc": "Distribuere en ny Minecraft-server",
-      "rust": "Rust Server",
-      "rustDesc": "Distribuere en ny Rust-server",
-      "support": "Åpen billett",
-      "supportDesc": "Få hjelp fra teamet vårt",
-      "knowledgeBase": "Kunnskapsbase",
-      "knowledgeBaseDesc": "Bla gjennom hjelpeartikler"
-    },
-    "servers": {
-      "title": "Mine servere",
-      "description": "Administrer og overvåk spillserverne dine",
-      "status": {
-        "running": "Løping",
-        "online": "På nett",
-        "offline": "Frakoblet",
-        "starting": "Starter",
-        "stopping": "Stopper",
-        "suspended": "Suspendert",
-        "installing": "Installasjon"
-      },
-      "resources": {
-        "memory": "Hukommelse",
-        "cpu": "CPU",
-        "disk": "Diskett"
-      },
-      "actions": {
-        "newServer": "Ny server",
-        "refresh": "Oppdater",
-        "console": "Konsoll",
-        "files": "Filer",
-        "databases": "Databaser",
-        "openPanel": "Åpne i panelet"
-      },
-      "filters": {
-        "searchPlaceholder": "Søk på servere...",
-        "status": "Status",
-        "allStatuses": "Alle statuser"
-      },
-      "pagination": {
-        "showing": "Viser {from} til {to} av {total}",
-        "previous": "Tidligere",
-        "next": "Neste"
-      },
-      "empty": {
-        "title": "Ingen servere funnet",
-        "description": "Du har ingen spillservere ennå. Opprett din første server for å komme i gang.",
-        "action": "Opprett server"
-      }
-    },
-    "account": {
-      "title": "Kontoinnstillinger",
-      "description": "Administrer profil- og sikkerhetsinnstillingene dine",
-      "tabs": {
-        "profile": "Profil",
-        "security": "Sikkerhet"
-      },
-      "profile": {
-        "overview": "Kontooversikt",
-        "overviewDescription": "Kontoinformasjon og status for kontoen din",
-        "verified": "Verifisert",
-        "unverified": "Ikke verifisert",
-        "personalInfo": "Personlig informasjon",
-        "personalInfoDescription": "Oppdater dine personlige opplysninger",
-        "firstName": "Fornavn",
-        "firstNamePlaceholder": "John",
-        "lastName": "Etternavn",
-        "lastNamePlaceholder": "Doe",
-        "username": "Brukernavn",
-        "usernamePlaceholder": "johndoe",
-        "email": "E-postadresse",
-        "emailNote": "Kontakt kundestøtte for å endre e-postadressen din",
-        "phoneNumber": "Telefonnummer",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Selskapets navn",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Fakturerings-e-post",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Lagre endringer",
-        "success": "Profilen er oppdatert",
-        "successDescription": "Profilen din har blitt oppdatert.",
-        "error": "Oppdatering mislyktes",
-        "errorDescription": "Kunne ikke oppdatere profilen din. Vennligst prøv igjen."
-      },
-      "security": {
-        "changePassword": "Endre passord",
-        "changePasswordDescription": "Oppdater passordet ditt for å holde kontoen din sikker",
-        "currentPassword": "Gjeldende passord",
-        "newPassword": "Nytt passord",
-        "confirmPassword": "Bekreft nytt passord",
-        "passwordRequirements": "Passordet må bestå av minst 8 tegn",
-        "updatePassword": "Oppdater passord",
-        "passwordMismatch": "Passordene stemmer ikke overens",
-        "passwordMismatchDescription": "De nye passordene du skrev inn, stemmer ikke overens.",
-        "passwordTooShort": "For kort passord",
-        "passwordTooShortDescription": "Passordet må bestå av minst 8 tegn.",
-        "passwordChanged": "Endret passord",
-        "passwordChangedDescription": "Passordet ditt har blitt oppdatert.",
-        "error": "Oppdatering mislyktes",
-        "errorDescription": "Kunne ikke oppdatere passordet ditt. Vennligst prøv igjen.",
-        "emailNotVerified": "E-post ikke bekreftet",
-        "emailNotVerifiedDescription": "E-postadressen din er ikke bekreftet.",
-        "resendVerification": "Send bekreftelses-e-post på nytt",
-        "accountInfo": "Kontoinformasjon",
-        "accountInfoDescription": "Ytterligere informasjon om kontoen din",
-        "accountCreated": "Konto opprettet",
-        "lastLogin": "Siste innlogging",
-        "accountId": "Konto-ID"
-      }
-    }
-  },
   "vps": {
-    "badge": "VPS-servere",
-    "title": "Velg din",
-    "titleHighlight": "VPS-plan",
-    "description": "Virtuelle private servere med full kontroll, drevet av bedriftsmaskinvare. Root-tilgang, NVMe-lagring, DDoS-beskyttelse og umiddelbar distribusjon.",
-    "hosting": "Vertskap",
-    "learnMore": "Lær mer",
-    "viewPlans": "Vis planer",
-    "customSolution": "Trenger du en tilpasset VPS-løsning eller har du spørsmål?",
-    "contactUs": "Kontakt oss",
-    "forCustom": "så finner vi den rette løsningen.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
+    "hosting": "Hosting",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "Øyeblikkelig distribusjon",
-        "description": "VPS-en din er klargjort og klar på under 60 sekunder etter kjøpet."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Full root-tilgang",
-        "description": "Full kontroll over serveren din med root SSH-tilgang og valgfritt operativsystem."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Maskinvare for bedrifter",
-        "description": "Prosessorer i bedriftsklasse med NVMe SSD-lagring og ECC-RAM i alle abonnementer."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "KVM VPS med høy ytelse på AMD-maskinvare for bedrifter. Ideell for krevende arbeidsbelastninger, webapplikasjoner og spillbakender.",
-      "heroDescription": "KVM VPS i bedriftsklasse på AMD-maskinvare med NVMe SSD-lagring, full root-tilgang og DDoS-beskyttelse for bedrifter. Distribuer på sekunder.",
-      "tag": "AMD-drevet",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "AMD-prosessorer for bedrifter",
-        "1": "NVMe SSD-lagring",
-        "2": "Full root-/ SSH-tilgang",
-        "3": "DDoS-beskyttelse"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Full root-tilgang",
-        "1": "KVM-virtualisering",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-beskyttelse"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "Forrett",
-          "description": "Perfekt for små prosjekter og testing"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
           "name": "Standard",
-          "description": "Perfekt for voksende applikasjoner"
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Ytelse",
-          "description": "Ideell for arbeidsbelastninger med høy trafikk"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Båndbredde",
-        "bandwidthUnmetered": "Ubegrenset båndbredde",
-        "ddos": "DDoS-beskyttelse",
-        "ipv4": "Dedikert IPv4-adresse",
-        "rootAccess": "Full root-/ SSH-tilgang",
-        "uptime": "99.9 % oppetid SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "AMD-maskinvare for bedrifter",
-          "description": "Drives av AMD-maskinvare i bedriftsklassen som leverer eksepsjonell flertrådet ytelse for krevende arbeidsoppgaver.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "AMD-prosessorer for bedrifter",
-            "1": "Høyt antall kjerner",
-            "2": "Stor L3-cache",
-            "3": "Høye klokkehastigheter"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-lagring",
-          "description": "Ultrahurtig NVMe solid-state-lagring med sekvensielle lesehastigheter på over 3000 MB/s for rask datatilgang.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-er",
-            "1": "lesehastigheter på over 3 000 MB/s",
-            "2": "I/U med lav latenstid",
-            "3": "RAID-redundans"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-beskyttelse",
-          "description": "DDoS-reduksjon i bedriftsklasse holder VPS-en din på nett selv under storskalaangrep.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Lag 3/4/7-filtrering",
-            "1": "Automatisert skrubbing av kanter",
-            "2": "Reduksjon av nedetid til null",
-            "3": "Globale organiske miljøgifter"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Høyhastighetsnettverk",
-          "description": "1 Gbps uplink med ruting med lav latens for optimal tilkobling uansett hvor brukerne befinner seg.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps uplink",
-            "1": "Routing med lav latenstid",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Støtte for IPv4 og IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Full root-tilgang",
-          "description": "Fullstendig kontroll over servermiljøet ditt. Installer hvilken som helst programvare, konfigurer hvilken som helst tjeneste og kjør hvilket som helst operativsystem.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Full SSH root-tilgang",
-            "1": "Velg din Linux-distro",
-            "2": "KVM-virtualisering",
-            "3": "Tilpasset ISO-støtte"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "ekspertstøtte døgnet rundt",
-          "description": "Teamet vårt er tilgjengelig døgnet rundt for å hjelpe deg med serveroppsett, optimalisering og feilsøking.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Støtte for Discord",
-            "1": "Billettsystem",
-            "2": "Kunnskapsbase",
-            "3": "Hjelp til servermigrering"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Får jeg full root-tilgang til VPS-en min?",
-          "answer": "Ja, alle AMD VPS-planer inkluderer full root-tilgang via SSH. Du har full kontroll over servermiljøet ditt, inkludert operativsystem, programvare og konfigurasjon."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Hvilke operativsystemer er tilgjengelige?",
-          "answer": "Vi støtter populære Linux-distribusjoner, inkludert Ubuntu, Debian, CentOS, AlmaLinux og Rocky Linux. Du kan også laste opp din egen tilpassede ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kan jeg oppgradere VPS-abonnementet mitt senere?",
-          "answer": "Ja, du kan oppgradere VPS-abonnementet ditt når som helst fra faktureringspanelet vårt. Ressursøkninger gjennomføres med minimal nedetid."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Hva skjer hvis jeg overskrider båndbreddegrensen?",
-          "answer": "På abonnementer med måling varsler vi deg før du når grensen din. Du kan når som helst kjøpe ekstra båndbredde eller oppgradere til et abonnement uten måling."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Er DDoS-beskyttelse inkludert?",
-          "answer": "Ja, alle AMD VPS-abonnementer inkluderer DDoS-reduksjon i bedriftsklasse. Dette beskytter serveren din mot Layer 3-, 4- og 7-angrep med null nedetid."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Tilbyr dere refusjon?",
-          "answer": "Ja, vi tilbyr en 48-timers pengene-tilbake-garanti på alle nye VPS-kjøp. Kontakt kundestøtte innen 48 timer etter kjøpet for å få full refusjon."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "Pålitelig KVM VPS på Intel-maskinvare for bedrifter. Utmerket ytelse med én tråd for webhotell, databaser og applikasjonsservere.",
-      "heroDescription": "Bunnsolid KVM VPS på Intel-maskinvare med NVMe SSD-lagring, full root-tilgang og DDoS-beskyttelse for bedrifter. Distribuer på sekunder.",
-      "tag": "Intel-drevet",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "Intel-prosessorer for bedrifter",
-        "1": "NVMe SSD-lagring",
-        "2": "Full root-/ SSH-tilgang",
-        "3": "DDoS-beskyttelse"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Full root-tilgang",
-        "1": "KVM-virtualisering",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-beskyttelse"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Kjerne",
-          "description": "Perfekt for små prosjekter og webhotell"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Perfekt for produksjonsapplikasjoner"
+          "description": "Great for production applications"
         },
         "enterprise": {
           "name": "Enterprise",
-          "description": "Ideell for tjenester med høy etterspørsel"
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Båndbredde",
-        "bandwidthUnmetered": "Ubegrenset båndbredde",
-        "ddos": "DDoS-beskyttelse",
-        "ipv4": "Dedikert IPv4-adresse",
-        "rootAccess": "Full root-/ SSH-tilgang",
-        "uptime": "99.9 % oppetid SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Intel-maskinvare for bedrifter",
-          "description": "Bygget på Intel-maskinvare i bedriftsklassen med sterk ytelse med én tråd for webservere, databaser og applikasjoner.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Intel-prosessorer for bedrifter",
-            "1": "Sterk ytelse i én tråd",
-            "2": "Store bufferstørrelser",
-            "3": "Høye klokkehastigheter"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-lagring",
-          "description": "Ultrarask NVMe solid-state-lagring med høy IOPS og lav ventetid for I/U-intensive programmer.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-er",
-            "1": "Høy IOPS-ytelse",
-            "2": "I/U med lav latenstid",
-            "3": "RAID-redundans"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-beskyttelse",
-          "description": "DDoS-reduksjon i bedriftsklasse holder VPS-en din på nett selv under storskalaangrep.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Lag 3/4/7-filtrering",
-            "1": "Automatisert skrubbing av kanter",
-            "2": "Reduksjon av nedetid til null",
-            "3": "Globale organiske miljøgifter"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Høyhastighetsnettverk",
-          "description": "1 Gbps uplink med ruting med lav latens for optimal tilkobling uansett hvor brukerne befinner seg.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps uplink",
-            "1": "Routing med lav latenstid",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Støtte for IPv4 og IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Full root-tilgang",
-          "description": "Fullstendig kontroll over servermiljøet ditt. Installer hvilken som helst programvare, konfigurer hvilken som helst tjeneste og kjør hvilket som helst operativsystem.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Full SSH root-tilgang",
-            "1": "Velg din Linux-distro",
-            "2": "KVM-virtualisering",
-            "3": "Tilpasset ISO-støtte"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "ekspertstøtte døgnet rundt",
-          "description": "Teamet vårt er tilgjengelig døgnet rundt for å hjelpe deg med serveroppsett, optimalisering og feilsøking.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Støtte for Discord",
-            "1": "Billettsystem",
-            "2": "Kunnskapsbase",
-            "3": "Hjelp til servermigrering"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Får jeg full root-tilgang til VPS-en min?",
-          "answer": "Ja, alle Intel VPS-abonnementer inkluderer full root-tilgang via SSH. Du har full kontroll over servermiljøet ditt, inkludert operativsystem, programvare og konfigurasjon."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Hvilke operativsystemer er tilgjengelige?",
-          "answer": "Vi støtter populære Linux-distribusjoner, inkludert Ubuntu, Debian, CentOS, AlmaLinux og Rocky Linux. Du kan også laste opp din egen tilpassede ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kan jeg oppgradere VPS-abonnementet mitt senere?",
-          "answer": "Ja, du kan oppgradere VPS-abonnementet ditt når som helst fra faktureringspanelet vårt. Ressursøkninger gjennomføres med minimal nedetid."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Hva skjer hvis jeg overskrider båndbreddegrensen?",
-          "answer": "På abonnementer med måling varsler vi deg før du når grensen din. Du kan når som helst kjøpe ekstra båndbredde eller oppgradere til et abonnement uten måling."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Er DDoS-beskyttelse inkludert?",
-          "answer": "Ja, alle Intel VPS-abonnementer inkluderer DDoS-reduksjon i bedriftsklasse. Dette beskytter serveren din mot lag 3-, 4- og 7-angrep med rensing uten nedetid."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Tilbyr dere refusjon?",
-          "answer": "Ja, vi tilbyr en 48-timers pengene-tilbake-garanti på alle nye VPS-kjøp. Kontakt kundestøtte innen 48 timer etter kjøpet for å få full refusjon."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }

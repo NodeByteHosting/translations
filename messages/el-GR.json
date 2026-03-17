@@ -21,6 +21,14 @@
     "about": {
       "title": "Σχετικά Με Εμάς",
       "description": "Μάθετε περισσότερα για το NodeByte"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
@@ -36,26 +44,33 @@
       "title": "Hytale Hosting",
       "description": "Hytale servers με προστασία DDoS"
     },
-    "all": {
-      "title": "Όλες Οι Υπηρεσίες",
-      "description": "Εξερευνήστε όλες τις υπηρεσίες φιλοξενίας"
-    },
     "gameServers": {
-      "title": "Διακομιστές παιχνιδιών",
-      "description": "Αναζήτηση όλων των επιλογών φιλοξενίας παιχνιδιών"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Εικονικοί διακομιστές υψηλής απόδοσης με AMD"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Αξιόπιστοι εικονικοί διακομιστές Intel"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "Διακομιστές VPS",
-      "description": "Αναζήτηση όλων των επιλογών φιλοξενίας VPS"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -65,16 +80,18 @@
     "gamePanel": {
       "title": "Πλαίσιο Παιχνιδιού",
       "description": "Ελέγξτε τους διακομιστές παιχνιδιών σας με τον πίνακα μας"
-    }
-  },
-  "extras": {
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
-      "title": "Γνωσιακή Βάση",
-      "description": "Οδηγοί, οδηγοί και τεκμηρίωση"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "Τι Νέο Υπάρχει",
-      "description": "Τελευταίες ενημερώσεις και χαρακτηριστικά"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
@@ -82,9 +99,9 @@
       "prefix": "ΧΡΗΣΙΜΟΠΟΙΗΣΤΕ ΚΩΔΙΚΟ",
       "suffix": "ΣΧΕΤΙΚΑ ΜΕ ΤΟ ΠΡΩΤΟ ORDER ΣΑΣ!"
     },
-    "title": "Φιλοξενία Παιχνιδιών",
+    "title": "Server Hosting",
     "titleHighlight": "Απλό Κατασκευασμένο",
-    "description": "Γρήγορη, αξιόπιστη και ασφαλή φιλοξενία για τις κοινότητες τυχερών παιχνιδιών σας. Εκτελέστε αποκλειστικούς διακομιστές με άμεση εγκατάσταση, προστασία DDoS και υποστήριξη 24/7.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Ας Αρχίσουμε",
     "joinDiscord": "Συμμετοχή Στο Discord",
     "trustedBy": "Εμπιστοσύνη από κοινότητες τυχερών παιχνιδιών σε όλο τον κόσμο",
@@ -102,26 +119,26 @@
     "badge": "Υποδομή",
     "title": "Χτισμένο για",
     "titleHighlight": "Επιδόσεις",
-    "description": "Στιγμιαίοι διακομιστές, δρομολόγηση χαμηλής καθυστέρησης και ισχυροί έλεγχοι.",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Προβολή Προγραμμάτων Φιλοξενίας",
     "startingFrom": "Ξεκινώντας από",
     "items": {
       "ddos": {
         "title": "Προστασία DDoS",
-        "description": "Μέτρηση της επιχείρησης που τροφοδοτείται από FyfeWeb με αυτόματη τρίψιμο για να κρατήσει διακομιστές σε απευθείας σύνδεση υπό επίθεση.",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Προστασία δικτύου FyfeWeb",
+          "0": "Enterprise network protection",
           "1": "Μέτρηση αυτόματης κλιμάκωσης",
           "2": "Παρακολούθηση σε πραγματικό χρόνο"
         }
       },
       "latency": {
         "title": "Δίκτυο Χαμηλής Καθυστέρησης",
-        "description": "Βελτιστοποιημένες διαδρομές μέσω του δικτύου FyfeWeb στο Ηνωμένο Βασίλειο με POPs του Λονδίνου για ελάχιστο ping.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Υπο-50 ms avg λανθάνουσα κατάσταση",
-          "1": "δρομολόγηση με βάση το Ηνωμένο Βασίλειο",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +151,12 @@
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Στρατηγικά βρίσκεται στο Ηνωμένο Βασίλειο με το Λονδίνο POPs τροφοδοτείται από FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "POPs Λονδίνου",
-          "1": "Δίκτυο FyfeWeb",
-          "2": "Χαμηλή καθυστέρηση κάλυψη UK"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +182,18 @@
   "about": {
     "badge": "Η Ιστορία Μας",
     "title": "Κατασκευασμένο από παίκτες,",
-    "titleHighlight": "για παίκτες",
+    "titleHighlight": "for Everyone",
     "paragraph1": "Η NodeByte ξεκίνησε ως μια μικρή ομάδα gamers και ops engineers που ήθελαν φιλοξενία που ήταν γρήγορη, αξιόπιστη και εύκολη στη διαχείριση. Έχουμε βιώσει την απογοήτευση των καθυστερημένων διακομιστών και την αδιάκριτη υποστήριξη από πρώτο χέρι.",
-    "paragraph2": "Αυτός είναι ο λόγος για τον οποίο κατασκευάσαμε υποδομή συντονισμένη ειδικά για multiplayer gaming: δρομολόγηση χαμηλής καθυστέρησης, ισχυρή προστασία DDoS και άμεση παροχή διακομιστή, ώστε να μπορείτε να παίζετε γρήγορα.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Γίνετε Μέλος Της Κοινότητάς Μας",
     "values": {
       "players": {
-        "title": "Χτισμένο για παίκτες",
-        "description": "Η υποδομή μας δίνει προτεραιότητα στη δρομολόγηση χαμηλής καθυστέρησης, την προβλέψιμη απόδοση, και την ισχυρή ώρα λειτουργίας, έτσι ώστε οι κοινότητές σας να μένουν online και να ανταποκρίνονται."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Υποστήριξη Κοινότητας & Mod",
-        "description": "Απρόσκοπτη εγκατάσταση mod, υποστήριξη στιγμιότυπου και εργαλεία κοινότητας για να σας βοηθήσει να εκτελέσετε modded κόσμους και επίμονες διακομιστές με ελάχιστη προσπάθεια."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Άνοιγμα από το σχεδιασμό",
@@ -185,12 +202,9 @@
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Μέση Καθυστέρηση",
-      "support": "Υποστήριξη",
-      "servers": "Ενεργοί Διακομιστές",
-      "users": "Σύνολο χρηστών",
-      "activeUsers": "Ενεργοί χρήστες",
-      "allocations": "Κατανομές"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
@@ -225,11 +239,11 @@
       },
       "ddos": {
         "question": "Προσφέρετε προστασία DDoS?",
-        "answer": "Ναι, όλα τα σχέδια περιλαμβάνουν μετριασμό DDoS επιχειρηματικής ποιότητας που τροφοδοτείται από το FyfeWeb. Οι POPs του Λονδίνου μας παρέχουν αυτόματο φιλτράρισμα και καθαρισμό στην άκρη του δικτύου."
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Πού βρίσκονται τα κέντρα δεδομένων σας?",
-        "answer": "Λειτουργούμε data centers με βάση το Ηνωμένο Βασίλειο με POPs του Λονδίνου που τροφοδοτούνται από τον συνεργάτη δικτύου μας FyfeWeb, παρέχοντας εξαιρετική κάλυψη σε όλο το Ηνωμένο Βασίλειο και την Ευρώπη."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Μπορώ να εκτελέσω mods και προσαρμοσμένους χάρτες?",
@@ -250,13 +264,18 @@
     "badge": "Διακομιστές Παιχνιδιού",
     "title": "Επιλέξτε Σας",
     "titleHighlight": "Παιχνίδι",
-    "description": "Ισχυροί, χαμηλής καθυστέρησης διακομιστές παιχνιδιών. Άμεση εγκατάσταση, διαισθητικός πίνακας ελέγχου και υποστήριξη εμπειρογνωμόνων 24/7.",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
     "viewPlans": "Προβολή Προγραμμάτων",
     "learnMore": "Μάθετε Περισσότερα",
     "comingSoon": "Έρχεται Σύντομα",
     "customSolution": "Χρειάζεστε ένα διακομιστή παιχνιδιού που δεν είναι εισηγμένο?",
     "contactUs": "Επικοινωνήστε μαζί μας",
     "forCustom": "για προσαρμοσμένες λύσεις.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Φιλοξενία",
     "joinWaitlist": "Συμμετοχή Στη Λίστα Αναμονής",
     "minecraft": {
@@ -279,17 +298,17 @@
         },
         "inferno": {
           "name": "Κόλαση",
-          "description": "Ιδανικό για μεσαίου μεγέθους κοινότητες"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} Gb Αποθηκευτικός Χώρος",
         "databases": "10 Βάσεις Δεδομένων MySQL",
-        "ddos": "Προστασία FyfeWeb DDoS",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "Αυτόματο/Προ-εγκατεστημένες βάζες",
+        "jars": "Auto/Pre Installed jars",
         "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
@@ -305,22 +324,22 @@
         },
         "hardware": {
           "title": "Υλικό Υψηλής Απόδοσης",
-          "description": "Επεξεργαστές βαθμού AMD Ryzen με αποθήκευση NVMe για γρήγορη απόδοση.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "Αποθ. χώρος NVMe SSD",
             "2": "DDR4 ECC memory",
-            "3": "Ταχύτητα ρολογιού έως 4.8GHz"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "Προστασία DDoS",
-          "description": "Επιχείρηση βαθμού μετριασμού DDoS που τροφοδοτείται από FyfeWeb κρατά το διακομιστή σας online ακόμη και κατά τη διάρκεια επιθέσεων.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Προστασία 3/4/7 στρώματος",
-            "1": "Φιλτράρισμα δικτύου FyfeWeb",
+            "1": "Enterprise network filtering",
             "2": "Μείωση μηδενικού χρόνου διακοπής",
-            "3": "UK London POPs"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -328,7 +347,7 @@
           "description": "Ο διακομιστής σας αναπτύσσεται μέσα σε δευτερόλεπτα. Ξεκινήστε την αναπαραγωγή αμέσως μετά την αγορά.",
           "highlights": {
             "0": "Αυτοματοποιημένη παροχή",
-            "1": "Προρυθμισμένες ρυθμίσεις",
+            "1": "Pre configured settings",
             "2": "Έτοιμο σε λιγότερο από 60 δευτερόλεπτα",
             "3": "Δεν απαιτούνται τεχνικές γνώσεις"
           }
@@ -338,7 +357,7 @@
           "description": "Πλήρης πρόσβαση στο αρχείο μέσω FTP/SFTP. Ανεβάστε κόσμους, plugins και διαμορφώσεις με ευκολία.",
           "highlights": {
             "0": "Πρόσβαση αρχείου SFTP",
-            "1": "Διαχειριστής αρχείων βασισμένος στο διαδίκτυο",
+            "1": "Web based file manager",
             "2": "Μεταφορά & απόθεση μεταφορτώσεων",
             "3": "Αυτόματα αντίγραφα ασφαλείας"
           }
@@ -365,7 +384,7 @@
         },
         "upload": {
           "question": "Πώς μπορώ να ανεβάσω τον υπάρχοντα κόσμο μου?",
-          "answer": "Μπορείτε να ανεβάσετε τα αρχεία σας στον κόσμο μέσω του web based διαχειριστή αρχείων μας ή μέσω του SFTP. Απλά σύρετε και αφήστε το φάκελο του κόσμου σας και θα είναι έτοιμο για χρήση."
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "Υπάρχει ένα όριο παίκτη?",
@@ -377,12 +396,12 @@
         },
         "refunds": {
           "question": "Προσφέρετε επιστροφές?",
-          "answer": "Ναι, προσφέρουμε εγγύηση επιστροφής χρημάτων 48 ωρών σε όλες τις νέες αγορές. Αν δεν είστε ικανοποιημένοι, επικοινωνήστε με την υποστήριξη για πλήρη επιστροφή χρημάτων."
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "Υψηλής απόδοσης διακομιστή Rust φιλοξενίας με υποστήριξη Oxide/uMod και προσαρμοσμένες επιλογές χάρτη.",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "Υψηλή Απόδοση",
       "features": {
         "0": "Υποστήριξη οξειδίου/uMod",
@@ -405,11 +424,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}Gb SSD Αποθηκευτικός Χώρος",
-        "ddos": "Προστασία FyfeWeb DDoS",
-        "location": "Νιούκαστλ, Ηνωμένο Βασίλειο",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 Βάσεις Δεδομένων MySQL",
         "panel": "BytePanel (Πίνακας Παιχνιδιών)",
         "oxide": "Υποστηρίζεται Οξείδιο/Umod",
@@ -423,7 +442,7 @@
           "highlights": {
             "0": "Εγκατάσταση Oxide με ένα κλικ",
             "1": "Διαχειριστής προσθέτων",
-            "2": "Διαθέσιμες αυτόματες ενημερώσεις",
+            "2": "Auto updates available",
             "3": "Διαχείριση δικαιωμάτων"
           }
         },
@@ -439,20 +458,20 @@
         },
         "performance": {
           "title": "Υψηλή Απόδοση",
-          "description": "Οι διακομιστές μας χρησιμοποιούν την τελευταία αποθήκευση AMD Ryzen CPUs και NVMe .",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU",
+            "0": "High performance CPUs",
             "1": "Αποθ. χώρος NVMe SSD",
-            "2": "Υψηλή απόδοση ενός νήματος",
+            "2": "High single thread performance",
             "3": "Δίκτυο χαμηλής καθυστέρησης"
           }
         },
         "ddos": {
           "title": "Προστασία DDoS",
-          "description": "Ο μετριασμός DDoS βαθμού επιχείρησης της Fyfeud μέσω του UK London POPs προστατεύει το διακομιστή σας από επιθέσεις 24/7.",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "Φιλτράρισμα δικτύου FyfeWeb",
-            "1": "UK London POPs",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Προστασία 3/4/7 στρώματος",
             "3": "Μηδενικός χρόνος διακοπής"
           }
@@ -506,19 +525,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale server φιλοξενίας έρχεται σύντομα! Εγγραφείτε στο Discord μας για να αποκτήσετε έγκαιρη πρόσβαση και ενημερώσεις.",
-      "tag": "Στην Ανάπτυξη",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Υποστήριξη mod",
         "1": "Προσαρμοσμένοι χάρτες",
         "2": "Εύκολη διαμόρφωση",
         "3": "24/7 υποστήριξη"
       }
-    },
-    "vpsCta": {
-      "title": "Χρειάζεστε επίσης VPS Hosting",
-      "description": "Πλήρης πρόσβαση στο root, αποθήκευση NVMe SSD και επιχειρησιακή προστασία DDoS. Επιλέξτε ανάμεσα σε εικονικούς διακομιστές που λειτουργούν με AMD ή Intel.",
-      "button": "Προβολή πακέτων VPS"
     }
   },
   "gamePage": {
@@ -526,7 +540,7 @@
       "badge": "Χαρακτηριστικά",
       "title": "Γιατί Να Επιλέξετε Μας",
       "titleSuffix": "Φιλοξενία",
-      "description": "Υποδομή σε επίπεδο επιχείρησης ειδικά προσαρμοσμένη για τους διακομιστές {game}"
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
       "badge": "Τιμολόγηση",
@@ -539,7 +553,19 @@
       "getStarted": "Ας Αρχίσουμε",
       "viewAllPlans": "Προβολή Όλων Των Σχεδίων",
       "customSolution": "Χρειάζεστε μια προσαρμοσμένη λύση ή να έχουν ερωτήσεις?",
-      "contactUs": "Επικοινωνήστε μαζί μας"
+      "contactUs": "Επικοινωνήστε μαζί μας",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "Συχνές",
@@ -570,7 +596,7 @@
     "copyFailedDesc": "Αποτυχία αντιγραφής στο πρόχειρο",
     "discord": {
       "title": "Κοινότητα Discord",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Γίνετε μέλος της κοινότητάς μας για άμεση υποστήριξη, ανακοινώσεις και συνομιλήστε με άλλους χρήστες.",
       "button": "Συμμετοχή Στο Discord",
       "features": {
         "0": "Άμεσες απαντήσεις",
@@ -617,7 +643,7 @@
     }
   },
   "footer": {
-    "tagline": "Γρήγορες, αξιόπιστες, επεκτάσιμες και ασφαλείς υπηρεσίες φιλοξενίας για την εμπειρία του παιχνιδιού σας. Χτισμένο για Ανθρώπους. Τροφοδοτείται από Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Ελάτε σε επαφή",
     "emailUs": "Στείλε Μας Email",
     "support": "Υποστήριξη",
@@ -633,20 +659,16 @@
       "maintenance": "Υπό Συντήρηση"
     },
     "services": {
-      "minecraftHosting": "Φιλοξενία Minecraft",
-      "rustHosting": "Φιλοξενία Σκουριάς",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Πλαίσιο Παιχνιδιού",
-      "clientArea": "Περιοχή Πελάτη",
-      "gameServers": "Φιλοξενία παιχνιδιών",
-      "vpsServers": "Φιλοξενία VPS",
-      "vpsPanel": "Πίνακας VPS"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Διακομιστής Discord",
       "serviceStatus": "Κατάσταση Υπηρεσίας",
       "knowledgeBase": "Γνωσιακή Βάση",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Πίνακας χρέωσης"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Όροι & Προϋποθέσεις",
@@ -680,7 +702,7 @@
     "description": "Μείνετε ενημερωμένοι με τις τελευταίες εκδόσεις, λειτουργίες και βελτιώσεις σε όλα τα έργα της NodeByte.",
     "searchPlaceholder": "Αναζήτηση εκδόσεων...",
     "filters": {
-      "all": "All",
+      "all": "Όλοι Οι Χώροι Αποθήκευσης",
       "allTypes": "Όλοι Οι Τύποι",
       "feature": "Χαρακτηριστικό",
       "bugfix": "Διόρθωση Σφάλματος",
@@ -701,7 +723,7 @@
     },
     "empty": {
       "title": "Δεν βρέθηκαν εκδόσεις",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Δοκιμάστε να προσαρμόσετε την αναζήτηση ή τα φίλτρα σας για να βρείτε αυτό που ψάχνετε.",
       "clearFilters": "Εκκαθάριση Φίλτρων"
     },
     "loading": {
@@ -710,7 +732,7 @@
     },
     "error": {
       "title": "Αποτυχία φόρτωσης εκδόσεων",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Παρουσιάστηκε σφάλμα κατά την ανάκτηση εκδόσεων. Παρακαλώ προσπαθήστε ξανά αργότερα.",
       "retry": "Δοκιμάστε Ξανά"
     },
     "stats": {
@@ -802,6 +824,11 @@
     "description": "Υψηλής απόδοσης server παιχνίδι φιλοξενίας με άμεση ρύθμιση, ισχυρό πίνακα ελέγχου, και 24/7 υποστήριξη εμπειρογνωμόνων.",
     "startingAt": "Έναρξη στις"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Φόρτωση",
     "pagination": "σελιδοποίηση",
@@ -819,8 +846,8 @@
     "badge": "Σχετικά Με NodeByte",
     "hero": {
       "title": "Κατασκευασμένο από παίκτες,",
-      "titleHighlight": "για παίκτες",
-      "description": "Η NodeByte ξεκίνησε ως μια μικρή ομάδα gamers και ops engineers που ήθελαν φιλοξενία που ήταν γρήγορη, αξιόπιστη και εύκολη στη διαχείριση. Σήμερα, τροφοδοτούμε τους διακομιστές παιχνιδιών παγκοσμίως.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Γίνετε Μέλος Της Κοινότητάς Μας",
       "contactUs": "Επικοινωνήστε Μαζί Μας"
     },
@@ -828,8 +855,8 @@
       "badge": "Η Ιστορία Μας",
       "title": "Πώς Ξεκίνησε Όλα",
       "paragraph1": "Η NodeByte γεννήθηκε από απογοήτευση. Ως άπληστοι gamers οι ίδιοι, βιώσαμε από πρώτο χέρι τον πόνο των laggy servers, ανεύθυνη υποστήριξη και σύνθετους πίνακες ελέγχου που έκαναν τη διαχείριση του server εφιάλτη.",
-      "paragraph2": "Το 2024, αποφασίσαμε ότι ήταν αρκετό. Συγκεντρώσαμε μια ομάδα παθιασμένων gamers και έμπειρων μηχανικών ops με έναν στόχο: χτίσουμε την πλατφόρμα φιλοξενίας παιχνιδιών που ανέκαθεν επιθυμούσαμε.",
-      "paragraph3": "Σήμερα, NodeByte δυνάμεις διακομιστές παιχνιδιών σε όλο τον κόσμο. Αλλά η αποστολή μας παραμένει η ίδια: κάνει το παιχνίδι διακομιστή φιλοξενίας γρήγορη, αξιόπιστη και προσιτή σε όλους."
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Οι Τιμές Μας",
@@ -837,12 +864,12 @@
       "titleHighlight": "Στάση Για",
       "description": "Οι βασικές αξίες μας καθοδηγούν ό,τι κάνουμε, από τις αποφάσεις υποδομής έως την υποστήριξη πελατών.",
       "players": {
-        "title": "Χτισμένο για παίκτες",
-        "description": "Η υποδομή μας δίνει προτεραιότητα στη δρομολόγηση χαμηλής καθυστέρησης, την προβλέψιμη απόδοση, και την ισχυρή ώρα λειτουργίας, έτσι ώστε οι κοινότητές σας να μένουν online και να ανταποκρίνονται."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Υποστήριξη Κοινότητας & Mod",
-        "description": "Απρόσκοπτη εγκατάσταση mod, υποστήριξη στιγμιότυπου και εργαλεία κοινότητας για να σας βοηθήσει να εκτελέσετε modded κόσμους και επίμονες διακομιστές με ελάχιστη προσπάθεια."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Άνοιγμα από το σχεδιασμό",
@@ -851,12 +878,9 @@
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Μέση Καθυστέρηση",
-      "support": "Υποστήριξη",
-      "servers": "Ενεργοί Διακομιστές",
-      "users": "Σύνολο χρηστών",
-      "activeUsers": "Ενεργοί χρήστες",
-      "allocations": "Κατανομές"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Το Ταξίδι Μας",
@@ -868,18 +892,22 @@
       },
       "growth": {
         "title": "Ταχεία Ανάπτυξη",
-        "description": "Διευρυμένη υποδομή με τη συνεργασία FyfeWeb, προσθέτοντας την προστασία των επιχειρήσεων DDoS και τα data centers."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Παγκόσμια Επέκταση",
         "description": "Ξεκίνησε νέες υπηρεσίες, βελτιώθηκε ο πίνακας ελέγχου και συνέχισε να αναπτύσσει την παγκόσμια κοινότητά μας."
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "Η Ομάδα Μας",
       "title": "Γνωρίστε το",
       "titleHighlight": "Ομάδα",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "Οι παθιασμένοι άνθρωποι πίσω από το NodeByte που εργάζονται ακούραστα για να προσφέρουν την καλύτερη εμπειρία φιλοξενίας.",
       "roles": {
         "founder": "Ιδρυτής & Επικεφαλής Προγραμματιστής"
       },
@@ -889,8 +917,8 @@
     },
     "cta": {
       "title": "Έτοιμο για να ξεκινήσει?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Προβολή Διακομιστών Παιχνιδιών",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Συμμετοχή Στο Discord"
     }
   },
@@ -902,10 +930,10 @@
     "quickLinks": "Γρήγοροι Σύνδεσμοι",
     "links": {
       "home": "Αρχική",
-      "games": "Παιχνίδια",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Γνωσιακή Βάση",
-      "contact": "Επικοινωνία",
-      "vps": "Φιλοξενία VPS"
+      "contact": "Επικοινωνία"
     }
   },
   "errorPage": {
@@ -1056,28 +1084,186 @@
     },
     "userMenu": {
       "myAccount": "Ο Λογαριασμός Μου",
+      "dashboard": "Dashboard",
       "viewPanel": "Προβολή Πίνακα",
       "admin": "Διαχειριστής",
       "logout": "Αποσύνδεση",
       "signIn": "Είσοδος",
-      "loggingOut": "Αποσύνδεση...",
-      "dashboard": "Ταμπλό"
+      "loggingOut": "Αποσύνδεση..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Πίνακας Διαχειριστή",
     "nav": {
       "dashboard": "Ταμπλό",
-      "users": "Χρήστες",
-      "servers": "Διακομιστές",
-      "sync": "Συγχρονισμός",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Ρυθμίσεις",
-      "backToSite": "Πίσω στην ιστοσελίδα",
-      "nodes": "Κόμβοι διακομιστή",
-      "locations": "Τοποθεσίες",
-      "allocations": "Κατανομές",
-      "eggs": "Φωλιές & αυγά"
+      "backToSite": "Πίσω στην ιστοσελίδα"
     },
     "status": {
       "online": "Συνδεδεμένο Σύστημα"
@@ -1100,7 +1286,7 @@
     },
     "sync": {
       "status": "Κατάσταση Συγχρονισμού",
-      "lastSync": "Last Sync",
+      "lastSync": "Τελευταίος συγχρονισμός",
       "never": "Ποτέ",
       "idle": "Αδρανής",
       "syncing": "Συγχρονισμός...",
@@ -1108,23 +1294,23 @@
       "syncingTarget": "Syncing {target} data from panel...",
       "complete": "complete",
       "runFull": "Εκτέλεση Πλήρους Συγχρονισμού",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Ο Συγχρονισμός Ολοκληρώθηκε",
       "completed": "Successfully synced {target} data.",
       "error": "Αποτυχία Συγχρονισμού",
       "quickActions": "Ενέργειες Γρήγορου Συγχρονισμού",
       "quickActionsDescription": "Συγχρονισμός μεμονωμένων τύπων δεδομένων από τον πίνακα Pterodactyl.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Τοποθεσίες",
         "nodes": "Nodes",
         "allocations": "Κατανομές",
         "nests": "Φωλιές & Αυγά",
         "servers": "Διακομιστές",
         "databases": "Βάσεις δεδομένων",
-        "users": "Χρήστες",
-        "full": "Πλήρης συγχρονισμός"
-      },
-      "started": "Συγχρονισμός ξεκίνησε",
-      "running": "Συγχρονισμός δεδομένων από τον πίνακα. Αυτό μπορεί να πάρει λίγο χρόνο."
+        "users": "Χρήστες"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1385,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Διακομιστές",
+      "description": "Προβολή και διαχείριση όλων των διακομιστών παιχνιδιών.",
       "stats": {
         "total": "Σύνολο Εξυπηρετητών",
         "running": "Εκτελείται",
@@ -1250,8 +1436,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Ρυθμίσεις",
+      "description": "Ρύθμιση ρυθμίσεων συστήματος και συνδέσεων.",
       "save": "Αποθήκευση Αλλαγών",
       "saved": "Οι Ρυθμίσεις Αποθηκεύτηκαν",
       "savedDesc": "Οι ρυθμίσεις σας αποθηκεύτηκαν επιτυχώς.",
@@ -1280,11 +1466,11 @@
         "url": "URL Πίνακα",
         "apiKey": "Κλειδί API",
         "apiKeyNote": "Εισάγετε το κλειδί API του πίνακα Pterodactyl για έλεγχο ταυτότητας.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "Η βασική διεύθυνση URL για το Pterodactyl API (συνήθως URL πίνακα + /api).",
-        "version": "Έκδοση Πίνακα",
-        "apiKeyclient": "Κλειδί API πελάτη",
-        "apiKeyNoteclient": "Εισάγετε το κλειδί API του πελάτη Pterodactyl. Αυτό απαιτείται για το συγχρονισμό των δεδομένων διακομιστή και χρήστη από το API του πελάτη."
+        "version": "Έκδοση Πίνακα"
       },
       "crowdin": {
         "title": "Διαχείριση Μετάφρασης Crowdin",
@@ -1375,463 +1561,324 @@
       "discordSuggestion": "Συμμετοχή Στο Discord"
     }
   },
-  "servicesHome": {
-    "badge": "Τι προσφέρουμε",
-    "title": "Όλα όσα χρειάζεστε,",
-    "titleHighlight": "ένα μέρος",
-    "description": "Εξυπηρετητές παιχνιδιών και φιλοξενία VPS κατασκευασμένοι για υψηλές επιδόσεις. Άμεση εγκατάσταση, προστασία DDoS και υποστήριξη εμπειρογνωμόνων 24/7.",
-    "browsePlans": "Αναζήτηση σχεδίων",
-    "startingFrom": "Από το",
-    "customSolution": "Χρειάζεστε κάτι που δεν περιλαμβάνουμε στον κατάλογο",
-    "contactUs": "Επικοινωνήστε μαζί μας",
-    "forCustom": "και θα βρούμε την κατάλληλη λύση."
-  },
-  "vpsPage": {
-    "title": "Φιλοξενία VPS",
-    "description": "Εικονικοί ιδιωτικοί διακομιστές υψηλών επιδόσεων με πλήρη πρόσβαση root, αποθήκευση NVMe SSD, προστασία DDoS και υποστήριξη από ειδικούς 24/7.",
-    "startingAt": "Ξεκινώντας από"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Επισκόπηση",
-      "servers": "Servers",
-      "billing": "Τιμολόγηση",
-      "support": "Υποστήριξη",
-      "account": "Λογαριασμός",
-      "backToSite": "Επιστροφή στην ιστοσελίδα",
-      "gamePanel": "Πάνελ παιχνιδιού",
-      "helpCenter": "Κέντρο βοήθειας"
-    },
-    "greeting": {
-      "morning": "Καλημέρα",
-      "afternoon": "Καλησπέρα",
-      "evening": "Καλησπέρα"
-    },
-    "subtitle": "Ακούστε τι συμβαίνει με τους διακομιστές σας",
-    "welcome": {
-      "title": "Καλώς ήρθατε!",
-      "magicLinkSuccess": "Συνδεθήκατε επιτυχώς με τον μαγικό σας σύνδεσμο. Καλώς ήρθατε στο ταμπλό σας!"
-    },
-    "stats": {
-      "totalServers": "Σύνολο διακομιστών",
-      "activeServers": "Ενεργοί διακομιστές",
-      "accountBalance": "Υπόλοιπο λογαριασμού",
-      "openTickets": "Ανοιχτά εισιτήρια",
-      "online": "online",
-      "activeDescription": "Επί του παρόντος εκτελείται",
-      "balanceDescription": "Διαθέσιμη πίστωση",
-      "ticketsDescription": "Εν αναμονή απάντησης"
-    },
-    "actions": {
-      "openPanel": "Ανοιχτό πάνελ",
-      "newServer": "Νέος διακομιστής"
-    },
-    "recentServers": {
-      "title": "Πρόσφατοι διακομιστές",
-      "description": "Οι διακομιστές στους οποίους είχατε πιο πρόσφατη πρόσβαση",
-      "viewAll": "Προβολή όλων",
-      "empty": {
-        "title": "Δεν υπάρχουν διακομιστές ακόμα",
-        "description": "Δεν έχετε ακόμη διακομιστές παιχνιδιών. Ξεκινήστε δημιουργώντας τον πρώτο σας διακομιστή.",
-        "action": "Δημιουργία διακομιστή"
-      }
-    },
-    "quickActions": {
-      "title": "Γρήγορες ενέργειες",
-      "minecraft": "Διακομιστής Minecraft",
-      "minecraftDesc": "Ανάπτυξη ενός νέου διακομιστή Minecraft",
-      "rust": "Διακομιστής σκουριάς",
-      "rustDesc": "Ανάπτυξη ενός νέου διακομιστή Rust",
-      "support": "Ανοιχτό εισιτήριο",
-      "supportDesc": "Ζητήστε βοήθεια από την ομάδα μας",
-      "knowledgeBase": "Βάση γνώσεων",
-      "knowledgeBaseDesc": "Αναζήτηση άρθρων βοήθειας"
-    },
-    "servers": {
-      "title": "Οι διακομιστές μου",
-      "description": "Διαχειριστείτε και παρακολουθήστε τους διακομιστές παιχνιδιών σας",
-      "status": {
-        "running": "Τρέξιμο",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Ξεκινώντας",
-        "stopping": "Διακοπή",
-        "suspended": "Αναστολή",
-        "installing": "Εγκατάσταση του"
-      },
-      "resources": {
-        "memory": "Μνήμη",
-        "cpu": "CPU",
-        "disk": "Δίσκος"
-      },
-      "actions": {
-        "newServer": "Νέος διακομιστής",
-        "refresh": "Ανανέωση",
-        "console": "Κονσόλα",
-        "files": "Αρχεία",
-        "databases": "Βάσεις δεδομένων",
-        "openPanel": "Άνοιγμα στον πίνακα"
-      },
-      "filters": {
-        "searchPlaceholder": "Διακομιστές αναζήτησης...",
-        "status": "Κατάσταση",
-        "allStatuses": "Όλες οι καταστάσεις"
-      },
-      "pagination": {
-        "showing": "Εμφάνιση των {from} έως {to} του {total}",
-        "previous": "Προηγούμενο",
-        "next": "Επόμενο"
-      },
-      "empty": {
-        "title": "Δεν βρέθηκαν διακομιστές",
-        "description": "Δεν έχετε ακόμη διακομιστές παιχνιδιών. Δημιουργήστε τον πρώτο σας διακομιστή για να ξεκινήσετε.",
-        "action": "Δημιουργία διακομιστή"
-      }
-    },
-    "account": {
-      "title": "Ρυθμίσεις λογαριασμού",
-      "description": "Διαχείριση του προφίλ και των ρυθμίσεων ασφαλείας σας",
-      "tabs": {
-        "profile": "Προφίλ",
-        "security": "Ασφάλεια"
-      },
-      "profile": {
-        "overview": "Επισκόπηση λογαριασμού",
-        "overviewDescription": "Πληροφορίες και κατάσταση του λογαριασμού σας",
-        "verified": "Επαληθευμένο",
-        "unverified": "Μη επαληθευμένο",
-        "personalInfo": "Προσωπικές πληροφορίες",
-        "personalInfoDescription": "Ενημερώστε τα προσωπικά σας στοιχεία",
-        "firstName": "Όνομα",
-        "firstNamePlaceholder": "John",
-        "lastName": "Επώνυμο",
-        "lastNamePlaceholder": "Doe",
-        "username": "Όνομα χρήστη",
-        "usernamePlaceholder": "johndoe",
-        "email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
-        "emailNote": "Επικοινωνήστε με την υποστήριξη για να αλλάξετε τη διεύθυνση email σας",
-        "phoneNumber": "Αριθμός τηλεφώνου",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Όνομα εταιρείας",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Email χρέωσης",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Αποθήκευση αλλαγών",
-        "success": "Ενημέρωση προφίλ",
-        "successDescription": "Το προφίλ σας ενημερώθηκε με επιτυχία.",
-        "error": "Η ενημέρωση απέτυχε",
-        "errorDescription": "Απέτυχε η ενημέρωση του προφίλ σας. Προσπαθήστε ξανά."
-      },
-      "security": {
-        "changePassword": "Αλλαγή κωδικού πρόσβασης",
-        "changePasswordDescription": "Ενημερώστε τον κωδικό πρόσβασής σας για να διατηρήσετε τον λογαριασμό σας ασφαλή",
-        "currentPassword": "Τρέχων κωδικός πρόσβασης",
-        "newPassword": "Νέος κωδικός πρόσβασης",
-        "confirmPassword": "Επιβεβαίωση νέου κωδικού πρόσβασης",
-        "passwordRequirements": "Ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον 8 χαρακτήρες",
-        "updatePassword": "Ενημέρωση κωδικού πρόσβασης",
-        "passwordMismatch": "Οι κωδικοί πρόσβασης δεν ταιριάζουν",
-        "passwordMismatchDescription": "Οι νέοι κωδικοί πρόσβασης που εισαγάγατε δεν ταιριάζουν.",
-        "passwordTooShort": "Κωδικός πρόσβασης πολύ σύντομος",
-        "passwordTooShortDescription": "Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 8 χαρακτήρες.",
-        "passwordChanged": "Αλλαγή κωδικού πρόσβασης",
-        "passwordChangedDescription": "Ο κωδικός πρόσβασής σας ενημερώθηκε με επιτυχία.",
-        "error": "Η ενημέρωση απέτυχε",
-        "errorDescription": "Απέτυχε η ενημέρωση του κωδικού πρόσβασής σας. Προσπαθήστε ξανά.",
-        "emailNotVerified": "Email δεν επαληθεύτηκε",
-        "emailNotVerifiedDescription": "Η διεύθυνση ηλεκτρονικού ταχυδρομείου σας δεν έχει επαληθευτεί.",
-        "resendVerification": "Επαναποστολή email επαλήθευσης",
-        "accountInfo": "Πληροφορίες λογαριασμού",
-        "accountInfoDescription": "Πρόσθετες λεπτομέρειες σχετικά με το λογαριασμό σας",
-        "accountCreated": "Δημιουργήθηκε λογαριασμός",
-        "lastLogin": "Τελευταία σύνδεση",
-        "accountId": "Αναγνωριστικό λογαριασμού"
-      }
-    }
-  },
   "vps": {
-    "badge": "Διακομιστές VPS",
-    "title": "Επιλέξτε το",
-    "titleHighlight": "Σχέδιο VPS",
-    "description": "Εικονικοί ιδιωτικοί διακομιστές πλήρους ελέγχου που υποστηρίζονται από επιχειρησιακό υλικό. Πρόσβαση root, αποθήκευση NVMe, προστασία DDoS και άμεση ανάπτυξη.",
-    "hosting": "Φιλοξενία",
-    "learnMore": "Μάθετε περισσότερα",
-    "viewPlans": "Προβολή σχεδίων",
-    "customSolution": "Χρειάζεστε μια προσαρμοσμένη λύση VPS ή έχετε ερωτήσεις",
-    "contactUs": "Επικοινωνήστε μαζί μας",
-    "forCustom": "και θα βρούμε την κατάλληλη λύση.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
+    "hosting": "Hosting",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "Άμεση ανάπτυξη",
-        "description": "Το VPS σας είναι έτοιμο σε λιγότερο από 60 δευτερόλεπτα μετά την αγορά."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Πλήρης πρόσβαση στη ρίζα",
-        "description": "Πλήρης έλεγχος του διακομιστή σας με πρόσβαση root SSH και επιλογή του λειτουργικού σας συστήματος."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Επιχειρησιακό υλικό",
-        "description": "Επεξεργαστές επιχειρηματικής ποιότητας με αποθήκευση NVMe SSD και μνήμη RAM ECC σε όλα τα πακέτα."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "KVM VPS υψηλής απόδοσης σε επιχειρησιακό υλικό AMD. Ιδανικό για απαιτητικούς φόρτους εργασίας, εφαρμογές ιστού και backends παιχνιδιών.",
-      "heroDescription": "KVM VPS επιχειρηματικού επιπέδου σε υλικό AMD με αποθηκευτικό χώρο NVMe SSD, πλήρη πρόσβαση root και επιχειρησιακή προστασία DDoS. Ανάπτυξη σε δευτερόλεπτα.",
-      "tag": "Με τροφοδοσία AMD",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "Επιχειρηματικοί επεξεργαστές AMD",
-        "1": "Αποθήκευση NVMe SSD",
-        "2": "Πλήρης πρόσβαση root / SSH",
-        "3": "Προστασία DDoS"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Πλήρης πρόσβαση στη ρίζα",
-        "1": "Εικονικοποίηση KVM",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "Προστασία DDoS"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
           "name": "Starter",
-          "description": "Ιδανικό για μικρά έργα και δοκιμές"
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
-          "name": "Πρότυπο",
-          "description": "Ιδανικό για εφαρμογές ανάπτυξης"
+          "name": "Standard",
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Επιδόσεις",
-          "description": "Ιδανικό για φόρτους εργασίας υψηλής επισκεψιμότητας"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
-        "storage": "{amount} SSD NVMe GB",
-        "bandwidth": "Εύρος ζώνης {amount} TB",
-        "bandwidthUnmetered": "Εύρος ζώνης χωρίς μετρητή",
-        "ddos": "Προστασία DDoS",
-        "ipv4": "Αφιερωμένη διεύθυνση IPv4",
-        "rootAccess": "Πλήρης πρόσβαση Root / SSH",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
         "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Επιχειρησιακό υλικό AMD",
-          "description": "Υποστηρίζεται από υλικό AMD επιχειρησιακής ποιότητας που παρέχει εξαιρετικές επιδόσεις πολλαπλών νημάτων για απαιτητικούς φόρτους εργασίας.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "Επιχειρηματικοί επεξεργαστές AMD",
-            "1": "Υψηλός αριθμός πυρήνων",
-            "2": "Μεγάλη κρυφή μνήμη L3",
-            "3": "Υψηλές ταχύτητες ρολογιού"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Αποθήκευση NVMe SSD",
-          "description": "Εξαιρετικά γρήγορος αποθηκευτικός χώρος στερεάς κατάστασης NVMe με ταχύτητες διαδοχικής ανάγνωσης που ξεπερνούν τα 3.000 MB/s για ταχεία πρόσβαση στα δεδομένα.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "SSD NVMe Gen 3/4",
-            "1": "ταχύτητες ανάγνωσης 3.000+ MB/s",
-            "2": "Χαμηλή καθυστέρηση I/O",
-            "3": "RAID πλεονασμός"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Προστασία DDoS",
-          "description": "Ο επιχειρησιακού επιπέδου μετριασμός DDoS διατηρεί τον VPS σας σε λειτουργία ακόμη και κατά τη διάρκεια επιθέσεων μεγάλης κλίμακας.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Στρώμα 3/4/7 φιλτραρίσματος",
-            "1": "Αυτοματοποιημένο τρίψιμο άκρων",
-            "2": "Μηδενικός μετριασμός του χρόνου διακοπής λειτουργίας",
-            "3": "Παγκόσμια POPs"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Δίκτυο υψηλής ταχύτητας",
-          "description": "ανερχόμενη ζεύξη 1Gbps με δρομολόγηση χαμηλής καθυστέρησης για βέλτιστη συνδεσιμότητα όπου κι αν βρίσκονται οι χρήστες σας.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "ανερχόμενη ζεύξη 1Gbps",
-            "1": "Δρομολόγηση χαμηλής καθυστέρησης",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Υποστήριξη IPv4 & IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Πλήρης πρόσβαση στη ρίζα",
-          "description": "Πλήρης έλεγχος του περιβάλλοντος του διακομιστή σας. Εγκαταστήστε οποιοδήποτε λογισμικό, ρυθμίστε οποιαδήποτε υπηρεσία και εκτελέστε οποιοδήποτε λειτουργικό σύστημα.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Πλήρης πρόσβαση SSH root",
-            "1": "Επιλέξτε τη διανομή Linux σας",
-            "2": "Εικονικοποίηση KVM",
-            "3": "Προσαρμοσμένη υποστήριξη ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "υποστήριξη εμπειρογνωμόνων 24/7",
-          "description": "Η ομάδα μας είναι διαθέσιμη όλο το εικοσιτετράωρο για να σας βοηθήσει με τη ρύθμιση του διακομιστή, τη βελτιστοποίηση και την αντιμετώπιση προβλημάτων.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Υποστήριξη Discord",
-            "1": "Σύστημα εισιτηρίων",
-            "2": "Βάση γνώσεων",
-            "3": "Βοήθεια για τη μετάβαση σε διακομιστή"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Έχω πλήρη root πρόσβαση στο VPS μου",
-          "answer": "Ναι, όλα τα πακέτα AMD VPS περιλαμβάνουν πλήρη root πρόσβαση μέσω SSH. Έχετε πλήρη έλεγχο του περιβάλλοντος του διακομιστή σας, συμπεριλαμβανομένου του λειτουργικού συστήματος, του λογισμικού και της διαμόρφωσης."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Ποια λειτουργικά συστήματα είναι διαθέσιμα",
-          "answer": "Υποστηρίζουμε δημοφιλείς διανομές Linux, συμπεριλαμβανομένων των Ubuntu, Debian, CentOS, AlmaLinux και Rocky Linux. Μπορείτε επίσης να ανεβάσετε το δικό σας προσαρμοσμένο ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Μπορώ να αναβαθμίσω το πακέτο VPS μου αργότερα",
-          "answer": "Ναι, μπορείτε να αναβαθμίσετε το πακέτο VPS ανά πάσα στιγμή από τον πίνακα χρέωσης. Οι αυξήσεις πόρων εφαρμόζονται με ελάχιστο χρόνο διακοπής λειτουργίας."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Τι συμβαίνει αν υπερβώ το όριο εύρους ζώνης μου",
-          "answer": "Στα προγράμματα με μετρητή, θα σας ειδοποιήσουμε πριν φτάσετε στο όριό σας. Μπορείτε ανά πάσα στιγμή να αγοράσετε επιπλέον εύρος ζώνης ή να αναβαθμίσετε σε μη μετρημένο πρόγραμμα."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Περιλαμβάνεται προστασία DDoS",
-          "answer": "Ναι, όλα τα πακέτα AMD VPS περιλαμβάνουν μετριασμό DDoS επιχειρηματικού επιπέδου. Αυτό προστατεύει τον διακομιστή σας από επιθέσεις επιπέδου 3, 4 και 7 με μηδενικό χρόνο λειτουργίας."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Προσφέρετε επιστροφές χρημάτων",
-          "answer": "Ναι, προσφέρουμε εγγύηση επιστροφής χρημάτων 48 ωρών για όλες τις νέες αγορές VPS. Επικοινωνήστε με την υποστήριξη εντός 48 ωρών από την αγορά για πλήρη επιστροφή χρημάτων."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "Αξιόπιστο KVM VPS σε επιχειρησιακό υλικό Intel. Εξαιρετική απόδοση single-thread για web hosting, βάσεις δεδομένων και διακομιστές εφαρμογών.",
-      "heroDescription": "Σταθερό KVM VPS σε υλικό Intel με αποθηκευτικό χώρο NVMe SSD, πλήρη πρόσβαση root και επιχειρησιακή προστασία DDoS. Ανάπτυξη σε δευτερόλεπτα.",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
       "tag": "Intel Powered",
       "features": {
-        "0": "Επιχειρηματικοί επεξεργαστές Intel",
-        "1": "Αποθήκευση NVMe SSD",
-        "2": "Πλήρης πρόσβαση root / SSH",
-        "3": "Προστασία DDoS"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Πλήρης πρόσβαση στη ρίζα",
-        "1": "Εικονικοποίηση KVM",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "Προστασία DDoS"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Πυρήνας",
-          "description": "Ιδανικό για μικρά έργα και φιλοξενία ιστοσελίδων"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Ιδανικό για εφαρμογές παραγωγής"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Επιχείρηση",
-          "description": "Ιδανικό για υπηρεσίες υψηλής ζήτησης"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
-        "storage": "{amount} SSD NVMe GB",
-        "bandwidth": "Εύρος ζώνης {amount} TB",
-        "bandwidthUnmetered": "Εύρος ζώνης χωρίς μετρητή",
-        "ddos": "Προστασία DDoS",
-        "ipv4": "Αφιερωμένη διεύθυνση IPv4",
-        "rootAccess": "Πλήρης πρόσβαση Root / SSH",
+        "storage": "{amount} GB NVMe SSD",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
         "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
           "title": "Enterprise Intel Hardware",
-          "description": "Χτισμένο σε υλικό Intel επιχειρηματικής ποιότητας με ισχυρές επιδόσεις ενός νήματος για διακομιστές ιστού, βάσεις δεδομένων και εφαρμογές.",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Επιχειρηματικοί επεξεργαστές Intel",
-            "1": "Ισχυρό single-thread perf",
-            "2": "Μεγάλα μεγέθη cache",
-            "3": "Υψηλές ταχύτητες ρολογιού"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "Αποθήκευση NVMe SSD",
-          "description": "Εξαιρετικά γρήγορος αποθηκευτικός χώρος στερεάς κατάστασης NVMe που παρέχει υψηλά IOPS και χαμηλή καθυστέρηση για εφαρμογές έντασης εισόδου/εξόδου.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "SSD NVMe Gen 3/4",
-            "1": "Υψηλή απόδοση IOPS",
-            "2": "Χαμηλή καθυστέρηση I/O",
-            "3": "RAID πλεονασμός"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "Προστασία DDoS",
-          "description": "Ο επιχειρησιακού επιπέδου μετριασμός DDoS διατηρεί τον VPS σας σε λειτουργία ακόμη και κατά τη διάρκεια επιθέσεων μεγάλης κλίμακας.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Στρώμα 3/4/7 φιλτραρίσματος",
-            "1": "Αυτοματοποιημένο τρίψιμο άκρων",
-            "2": "Μηδενικός μετριασμός του χρόνου διακοπής λειτουργίας",
-            "3": "Παγκόσμια POPs"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Δίκτυο υψηλής ταχύτητας",
-          "description": "ανερχόμενη ζεύξη 1Gbps με δρομολόγηση χαμηλής καθυστέρησης για βέλτιστη συνδεσιμότητα όπου κι αν βρίσκονται οι χρήστες σας.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "ανερχόμενη ζεύξη 1Gbps",
-            "1": "Δρομολόγηση χαμηλής καθυστέρησης",
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Υποστήριξη IPv4 & IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Πλήρης πρόσβαση στη ρίζα",
-          "description": "Πλήρης έλεγχος του περιβάλλοντος του διακομιστή σας. Εγκαταστήστε οποιοδήποτε λογισμικό, ρυθμίστε οποιαδήποτε υπηρεσία και εκτελέστε οποιοδήποτε λειτουργικό σύστημα.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Πλήρης πρόσβαση SSH root",
-            "1": "Επιλέξτε τη διανομή Linux σας",
-            "2": "Εικονικοποίηση KVM",
-            "3": "Προσαρμοσμένη υποστήριξη ISO"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "υποστήριξη εμπειρογνωμόνων 24/7",
-          "description": "Η ομάδα μας είναι διαθέσιμη όλο το εικοσιτετράωρο για να σας βοηθήσει με τη ρύθμιση του διακομιστή, τη βελτιστοποίηση και την αντιμετώπιση προβλημάτων.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Υποστήριξη Discord",
-            "1": "Σύστημα εισιτηρίων",
-            "2": "Βάση γνώσεων",
-            "3": "Βοήθεια για τη μετάβαση σε διακομιστή"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Έχω πλήρη root πρόσβαση στο VPS μου",
-          "answer": "Ναι, όλα τα πακέτα Intel VPS περιλαμβάνουν πλήρη πρόσβαση root μέσω SSH. Έχετε πλήρη έλεγχο του περιβάλλοντος του διακομιστή σας, συμπεριλαμβανομένου του λειτουργικού συστήματος, του λογισμικού και της διαμόρφωσης."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Ποια λειτουργικά συστήματα είναι διαθέσιμα",
-          "answer": "Υποστηρίζουμε δημοφιλείς διανομές Linux, συμπεριλαμβανομένων των Ubuntu, Debian, CentOS, AlmaLinux και Rocky Linux. Μπορείτε επίσης να ανεβάσετε το δικό σας προσαρμοσμένο ISO."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Μπορώ να αναβαθμίσω το πακέτο VPS μου αργότερα",
-          "answer": "Ναι, μπορείτε να αναβαθμίσετε το πακέτο VPS ανά πάσα στιγμή από τον πίνακα χρέωσης. Οι αυξήσεις πόρων εφαρμόζονται με ελάχιστο χρόνο διακοπής λειτουργίας."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Τι συμβαίνει αν υπερβώ το όριο εύρους ζώνης μου",
-          "answer": "Στα προγράμματα με μετρητή, θα σας ειδοποιήσουμε πριν φτάσετε στο όριό σας. Μπορείτε ανά πάσα στιγμή να αγοράσετε επιπλέον εύρος ζώνης ή να αναβαθμίσετε σε μη μετρημένο πρόγραμμα."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Περιλαμβάνεται προστασία DDoS",
-          "answer": "Ναι, όλα τα πακέτα VPS της Intel περιλαμβάνουν μετριασμό DDoS επιχειρηματικού επιπέδου. Αυτό προστατεύει τον διακομιστή σας από επιθέσεις επιπέδου 3, 4 και 7 με μηδενικό χρόνο λειτουργίας."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Προσφέρετε επιστροφές χρημάτων",
-          "answer": "Ναι, προσφέρουμε εγγύηση επιστροφής χρημάτων 48 ωρών για όλες τις νέες αγορές VPS. Επικοινωνήστε με την υποστήριξη εντός 48 ωρών από την αγορά για πλήρη επιστροφή χρημάτων."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }

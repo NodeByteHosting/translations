@@ -21,6 +21,14 @@
     "about": {
       "title": "Over ons",
       "description": "Meer informatie over NodeByte"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
@@ -36,26 +44,33 @@
       "title": "Hytale gastheer",
       "description": "Hytale servers met DDoS bescherming"
     },
-    "all": {
-      "title": "Alle diensten",
-      "description": "Ontdek al onze hostingdiensten"
-    },
     "gameServers": {
-      "title": "Spelservers",
-      "description": "Bekijk alle gamehostingopties"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Krachtige virtuele AMD-servers"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Betrouwbare virtuele servers met Intel-technologie"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPS-servers",
-      "description": "Bekijk alle VPS hostingopties"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -65,16 +80,18 @@
     "gamePanel": {
       "title": "Spel paneel",
       "description": "Beheer je spelservers met ons paneel"
-    }
-  },
-  "extras": {
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
-      "title": "Kennisbank",
-      "description": "Handleidingen, tutorials en documentatie"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "Wat is nieuw",
-      "description": "Laatste updates en functies"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
@@ -82,9 +99,9 @@
       "prefix": "GEBRUIK CODE",
       "suffix": "OP UW EERSTE BESTELLING!"
     },
-    "title": "Spel Hosting",
+    "title": "Server Hosting",
     "titleHighlight": "Eenvoudig gemaakt",
-    "description": "Snel, betrouwbaar en veilig hosting voor jouw gaming gemeenschappen. Start toegewijde servers met onmiddellijke installatie, DDoS-bescherming en 24/7 ondersteuning.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Nu inschrijven",
     "joinDiscord": "Deelnemen aan Discord",
     "trustedBy": "Vertrouwd door gaming-gemeenschappen wereldwijd",
@@ -102,26 +119,26 @@
     "badge": "Infrastructuur",
     "title": "Gebouwd voor",
     "titleHighlight": "Prestaties",
-    "description": "Enterprise-grade infrastructuur met gamer-vriendelijke tooling. Instant servers, low-latency routing en krachtige besturingssystemen.",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Bekijk hostingplannen",
     "startingFrom": "Begint bij",
     "items": {
       "ddos": {
         "title": "DDoS bescherming",
-        "description": "Enterprise-grade mitigatie aangedreven door FyfeWeb met automatische uitwassen om servers online aangevallen te houden.",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Bescherming van het FyfeWeb netwerk",
+          "0": "Enterprise network protection",
           "1": "Auto-schalen mitigatie",
           "2": "Real-time monitoring"
         }
       },
       "latency": {
         "title": "Lage latency Netwerk",
-        "description": "Geoptimaliseerde routes via FyfeWeb's UK network met London POPs voor minimale ping.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Sub-50ms gem. latentie",
-          "1": "UK-gebaseerde routering",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +151,12 @@
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategisch gelegen in het Verenigd Koninkrijk met Londense POP’s aangedreven door FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "London POP's",
-          "1": "FyfeWeb netwerk",
-          "2": "Lage latency UK dekking"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +182,18 @@
   "about": {
     "badge": "Ons verhaal",
     "title": "Gebouwd door Gamers,",
-    "titleHighlight": "voor gamers",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte begon als een kleine groep gamers en ops ingenieurs die wilden hosting die snel, betrouwbaar en makkelijk te beheren was. We hebben de frustratie ervaren van trage servers en niet-ontvankelijke ondersteuning van harte.",
-    "paragraph2": "Dat is waarom we infrastructuur hebben gebouwd die specifiek is afgestemd voor multiplayerspellen: lage latency routing, robuuste DDoS bescherming en instant server provisioning zodat u snel kunt gaan spelen.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Word lid van onze gemeenschap",
     "values": {
       "players": {
-        "title": "Gebouwd voor spelers",
-        "description": "Onze infrastructuur geeft prioriteit aan lage latency routes, voorspelbare prestaties en sterke tijd zodat jouw gemeenschappen online blijven en reageren."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Community & Mod ondersteuning",
-        "description": "Naadloze mod installaties, snapshot ondersteuning en community tools om u te helpen modded worlds en persistente servers te runnen met minimale inspanning."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Openen door ontwerp",
@@ -185,12 +202,9 @@
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Gem. latentie",
-      "support": "Ondersteuning",
-      "servers": "Actieve servers",
-      "users": "Totaal gebruikers",
-      "activeUsers": "Actieve gebruikers",
-      "allocations": "Toewijzingen"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
@@ -225,11 +239,11 @@
       },
       "ddos": {
         "question": "Bieden jullie DDoS bescherming?",
-        "answer": "Ja, alle plannen omvatten mitigatie op ondernemingsniveau DDoS aangedreven door FyfeWeb. Onze London POP's zorgen voor automatische filtering en uitwassen aan de rand van het netwerk."
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Waar zijn uw datacenters locatie?",
-        "answer": "We opereren in het Verenigd Koninkrijk met behulp van POP’s uit Londen die worden aangedreven door onze netwerkpartner FyfeWeb, en bieden een uitstekende dekking in het Verenigd Koninkrijk en Europa."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Kan ik mods en aangepaste kaarten uitvoeren?",
@@ -250,13 +264,18 @@
     "badge": "Spel Servers",
     "title": "Kies je",
     "titleHighlight": "Wedstrijd",
-    "description": "Krachtige, low-latency spel servers. Instant setup, intuïtief controlepaneel en 24/7 deskundige ondersteuning.",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
     "viewPlans": "Bekijk abonnementen",
     "learnMore": "Meer informatie",
     "comingSoon": "Binnenkort beschikbaar",
     "customSolution": "Heb je een spelserver nodig die niet vermeld is?",
     "contactUs": "Contacteer ons",
     "forCustom": "voor aangepaste oplossingen.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Hosting",
     "joinWaitlist": "Join wachtlijst",
     "minecraft": {
@@ -279,17 +298,17 @@
         },
         "inferno": {
           "name": "Vuurhaard",
-          "description": "Ideaal voor middelgrote gemeenschappen"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB opslagruimte",
         "databases": "10 MySQL databases",
-        "ddos": "FyfeWeb DDoS bescherming",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "Auto/Vooraf geïnstalleerde jars",
+        "jars": "Auto/Pre Installed jars",
         "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
@@ -305,22 +324,22 @@
         },
         "hardware": {
           "title": "Hoge prestaties Hardware",
-          "description": "Enterprise grade AMD Ryzen processors met NVMe opslag voor het blazen van snelle prestaties.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU's",
+            "0": "High performance CPUs",
             "1": "NVMe SSD opslag",
             "2": "DDR4 ECC memory",
-            "3": "Tot 4.8GHz kloksnelheid"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "DDoS bescherming",
-          "description": "mitigatie van de Enterprise grade DDoS aangedreven door FyfeWeb houdt uw server online zelfs tijdens aanvallen.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Laag 3/4/7 bescherming",
-            "1": "FyfeWeb netwerk filteren",
+            "1": "Enterprise network filtering",
             "2": "Nul downtime mitigatie",
-            "3": "UK London POP's"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -328,7 +347,7 @@
           "description": "Uw server is binnen enkele seconden geïmplementeerd. Start direct afspelen na aankoop.",
           "highlights": {
             "0": "Geautomatiseerde provisioning",
-            "1": "Vooraf geconfigureerde instellingen",
+            "1": "Pre configured settings",
             "2": "Klaar in minder dan 60 seconden",
             "3": "Geen technische kennis nodig"
           }
@@ -338,7 +357,7 @@
           "description": "Voltooi bestandstoegang via FTP/SFTP. Upload werden, plugins en configuraties met gemak.",
           "highlights": {
             "0": "SFTP bestandstoegang",
-            "1": "Web-gebaseerde bestandsbeheer",
+            "1": "Web based file manager",
             "2": "Drag & drop uploads",
             "3": "Automatische back-ups"
           }
@@ -365,7 +384,7 @@
         },
         "upload": {
           "question": "Hoe upload ik mijn bestaande wereld?",
-          "answer": "U kunt wereldwijd bestanden uploaden via onze webgebaseerde bestandsbeheerder of via SFTP. Sleep en plaats je wereldmap en deze is klaar voor gebruik."
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "Is er een spelerslimiet?",
@@ -377,12 +396,12 @@
         },
         "refunds": {
           "question": "Bied je restituties aan?",
-          "answer": "Ja, we bieden een geld-terug-garantie van 48 uur aan voor alle nieuwe aankopen. Als je niet tevreden bent, neem dan contact op met support voor een volledige terugbetaling."
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "Hoogwaardige Rust server hosting met Oxide/uMod ondersteuning en aangepaste kaart opties.",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "Hoge prestaties",
       "features": {
         "0": "Oxide/uMod ondersteuning",
@@ -405,11 +424,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD RyzenTM 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}GB SSD Opslag",
-        "ddos": "FyfeWeb DDoS bescherming",
-        "location": "Newcastle, Verenigd Koninkrijk",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL databases",
         "panel": "BytePanel (Zelfde Panel)",
         "oxide": "Oxide/Umod ondersteund",
@@ -423,7 +442,7 @@
           "highlights": {
             "0": "One-click Oxide installatie",
             "1": "Plugin beheer",
-            "2": "Auto-updates beschikbaar",
+            "2": "Auto updates available",
             "3": "Toestemming beheer"
           }
         },
@@ -439,20 +458,20 @@
         },
         "performance": {
           "title": "Hoge prestaties",
-          "description": "Rust vereist krachtige hardware. Onze servers gebruiken de nieuwste AMD Ryzen CPU's en NVMe opslag.",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPU's",
+            "0": "High performance CPUs",
             "1": "NVMe SSD opslag",
-            "2": "Hoog draad prestatie",
+            "2": "High single thread performance",
             "3": "Laag latency netwerk"
           }
         },
         "ddos": {
           "title": "DDoS bescherming",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation via UK London POPs beschermt jouw server 24/7 tegen aanvallen.",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "FyfeWeb netwerk filteren",
-            "1": "UK London POP's",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Laag 3/4/7 bescherming",
             "3": "Nul tijd"
           }
@@ -506,19 +525,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale server hosting komt binnenkort! Sluit je aan bij onze Discord om snel toegang en updates te krijgen.",
-      "tag": "In ontwikkeling",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Mod ondersteuning",
         "1": "Aangepaste kaarten",
         "2": "Eenvoudige configuratie",
         "3": "24/7 ondersteuning"
       }
-    },
-    "vpsCta": {
-      "title": "Ook VPS Hosting nodig?",
-      "description": "Volledige root-toegang, NVMe SSD-opslag en DDoS-bescherming voor bedrijven. Kies uit virtuele servers met AMD- of Intel-motoren.",
-      "button": "Bekijk VPS-plannen"
     }
   },
   "gamePage": {
@@ -526,7 +540,7 @@
       "badge": "Eigenschappen",
       "title": "Waarom kiezen voor onze",
       "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructuur specifiek voor {game} servers."
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
       "badge": "Prijsstelling",
@@ -539,7 +553,19 @@
       "getStarted": "Nu inschrijven",
       "viewAllPlans": "Bekijk alle abonnementen",
       "customSolution": "Heb je een aangepaste oplossing nodig of heb je vragen?",
-      "contactUs": "Contacteer ons"
+      "contactUs": "Contacteer ons",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "FAQ",
@@ -570,7 +596,7 @@
     "copyFailedDesc": "Kon niet naar klembord kopiëren",
     "discord": {
       "title": "Discord gemeenschap",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Word lid van onze community voor directe ondersteuning, aankondigingen en chat met andere gebruikers.",
       "button": "Deelnemen aan Discord",
       "features": {
         "0": "Directe antwoorden",
@@ -617,7 +643,7 @@
     }
   },
   "footer": {
-    "tagline": "Snel, betrouwbare, schaalbare en veilige hosting diensten voor uw spelervaring. Gebouwd voor mensen. Aangedreven door Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Neem contact op",
     "emailUs": "E-mail ons",
     "support": "Ondersteuning",
@@ -633,20 +659,16 @@
       "maintenance": "In onderhoud"
     },
     "services": {
-      "minecraftHosting": "Minecraft hosting",
-      "rustHosting": "Rust hostingscherm",
-      "gamePanel": "Spel paneel",
-      "clientArea": "Klant gebied",
-      "gameServers": "Spel hosting",
+      "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
-      "vpsPanel": "VPS-paneel"
+      "gamePanel": "Spel paneel",
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discord server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Kennisbank",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Factureringspaneel"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Algemene Voorwaarden",
@@ -680,7 +702,7 @@
     "description": "Blijf op de hoogte van de laatste releases, functies en verbeteringen voor alle NodeByte projecten.",
     "searchPlaceholder": "releases zoeken...",
     "filters": {
-      "all": "All",
+      "all": "Alle opslagplaatsen",
       "allTypes": "Alle typen",
       "feature": "Functie",
       "bugfix": "Bug fix",
@@ -701,7 +723,7 @@
     },
     "empty": {
       "title": "Geen releases gevonden",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Probeer je zoekopdracht of filters aan te passen om te vinden wat je zoekt.",
       "clearFilters": "Filters wissen"
     },
     "loading": {
@@ -710,7 +732,7 @@
     },
     "error": {
       "title": "Fout bij het laden van releases",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "Er is een fout opgetreden bij het ophalen van releases. Probeer het later opnieuw.",
       "retry": "Probeer opnieuw"
     },
     "stats": {
@@ -802,6 +824,11 @@
     "description": "Goede spelhosting met onmiddellijke instelling, krachtig controlepaneel en 24/7 deskundige ondersteuning.",
     "startingAt": "Beginnen bij"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Laden...",
     "pagination": "paginering",
@@ -819,8 +846,8 @@
     "badge": "Over NodeByte",
     "hero": {
       "title": "Gebouwd door Gamers,",
-      "titleHighlight": "voor gamers",
-      "description": "NodeByte begon als een kleine groep gamers en ops ingenieurs die wilden hosting die snel, betrouwbaar en makkelijk te beheren was. Vandaag de dag kunnen we krachtige spelservers wereldwijd gebruiken.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Word lid van onze gemeenschap",
       "contactUs": "Contacteer ons"
     },
@@ -828,8 +855,8 @@
       "badge": "Ons verhaal",
       "title": "Hoe het allemaal begon",
       "paragraph1": "NodeByte is geboren uit frustratie. Als actieve gamers hebben we zelf ervaring gehad met de pijn van trage servers, niet-responsieve ondersteuning en complexe controlepanelen die van server een nachtmerrie maakten.",
-      "paragraph2": "In 2024 hebben we genoeg besloten, dat is genoeg. We hebben een team van gepassioneerde gamers en ervaren ops ingenieurs samengesteld met één doel: bouw het game-hosting platform dat we altijd wilden hebben.",
-      "paragraph3": "Vandaag NodeByte krachten spel servers over de hele wereld. Maar onze missie blijft hetzelfde: maak spelserver snel en betrouwbaar en voor iedereen toegankelijk."
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Onze waarden",
@@ -837,12 +864,12 @@
       "titleHighlight": "Standaard voor",
       "description": "Onze kernwaarden zijn de leidraad voor alles wat we doen, van infrastructuurbesluiten tot klantenondersteuning.",
       "players": {
-        "title": "Gebouwd voor spelers",
-        "description": "Onze infrastructuur geeft prioriteit aan lage latency routes, voorspelbare prestaties en sterke tijd zodat jouw gemeenschappen online blijven en reageren."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Community & Mod ondersteuning",
-        "description": "Naadloze mod installaties, snapshot ondersteuning en community tools om u te helpen modded worlds en persistente servers te runnen met minimale inspanning."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Openen door ontwerp",
@@ -851,12 +878,9 @@
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Gem. latentie",
-      "support": "Ondersteuning",
-      "servers": "Actieve servers",
-      "users": "Totaal gebruikers",
-      "activeUsers": "Actieve gebruikers",
-      "allocations": "Toewijzingen"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Onze reis",
@@ -868,18 +892,22 @@
       },
       "growth": {
         "title": "Snelle Groei",
-        "description": "Uitgebreide infrastructuur met FyfeWeb partnerschap, waarmee de bescherming van enterprise DDoS en UK datacentra worden toegevoegd."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Globale Uitbreiding",
         "description": "Er zijn nieuwe diensten in het leven geroepen, het controlepaneel is verbeterd en we blijven onze mondiale gemeenschap uitbreiden."
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "Ons team",
       "title": "Ontmoet de",
       "titleHighlight": "Team",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "De gepassioneerde mensen achter NodeByte die onvermoeibaar werken aan de beste hosting ervaring.",
       "roles": {
         "founder": "Oprichter & Hoofdontwikkelaar"
       },
@@ -889,8 +917,8 @@
     },
     "cta": {
       "title": "Klaar om te beginnen?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "Bekijk Spelservers",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Deelnemen aan Discord"
     }
   },
@@ -902,10 +930,10 @@
     "quickLinks": "Snelle links",
     "links": {
       "home": "Startpagina",
-      "games": "Spellen",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Kennisbank",
-      "contact": "Contactpersoon",
-      "vps": "VPS Hosting"
+      "contact": "Contactpersoon"
     }
   },
   "errorPage": {
@@ -1056,28 +1084,186 @@
     },
     "userMenu": {
       "myAccount": "Mijn account",
+      "dashboard": "Dashboard",
       "viewPanel": "Paneel weergeven",
       "admin": "Beheerder",
       "logout": "Log uit",
       "signIn": "Log in",
-      "loggingOut": "Bezig met afmelden...",
-      "dashboard": "Dashboard"
+      "loggingOut": "Bezig met afmelden..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Beheerder paneel",
     "nav": {
       "dashboard": "Dashboard",
-      "users": "Gebruikers",
-      "servers": "Servers",
-      "sync": "Synchroniseren",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Instellingen",
-      "backToSite": "Terug naar site",
-      "nodes": "Server knooppunten",
-      "locations": "Locaties",
-      "allocations": "Toewijzingen",
-      "eggs": "Nesten en eieren"
+      "backToSite": "Terug naar site"
     },
     "status": {
       "online": "Systeem Online"
@@ -1100,7 +1286,7 @@
     },
     "sync": {
       "status": "Synchronisatie status",
-      "lastSync": "Last Sync",
+      "lastSync": "Laatste synchronisatie",
       "never": "Nooit",
       "idle": "Inactief",
       "syncing": "Synchroniseren...",
@@ -1108,23 +1294,23 @@
       "syncingTarget": "{target} gegevens synchroniseren van het venster...",
       "complete": "complete",
       "runFull": "Volledige synchronisatie uitvoeren",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Synchronisatie voltooid",
       "completed": "Gegevens {target} succesvol gesynchroniseerd.",
       "error": "Synchronisatie mislukt",
       "quickActions": "Quick Sync Acties",
       "quickActionsDescription": "Synchroniseer individuele gegevenstypen vanuit het Pterodactyl paneel.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Locaties",
         "nodes": "Nodes",
         "allocations": "Toewijzingen",
         "nests": "Nesten & Eieren",
         "servers": "Servers",
         "databases": "Databases",
-        "users": "Gebruikers",
-        "full": "Volledige synchronisatie"
-      },
-      "started": "Synchronisatie gestart",
-      "running": "Gegevens van het paneel synchroniseren. Dit kan even duren."
+        "users": "Gebruikers"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1385,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servers",
+      "description": "Bekijk en beheer alle spelservers.",
       "stats": {
         "total": "Totaal servers",
         "running": "Lopend",
@@ -1250,8 +1436,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Instellingen",
+      "description": "Configureer systeeminstellingen en verbindingen.",
       "save": "Wijzigingen opslaan",
       "saved": "Instellingen Opgeslagen",
       "savedDesc": "Uw instellingen zijn opgeslagen.",
@@ -1280,11 +1466,11 @@
         "url": "URL paneel",
         "apiKey": "API Sleutel",
         "apiKeyNote": "Voer uw Pterodactyl panel API-sleutel in voor authenticatie.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "De basis-URL voor de Pterodactyl API (meestal paneel URL + /api).",
-        "version": "Paneel versie",
-        "apiKeyclient": "API-clientsleutel",
-        "apiKeyNoteclient": "Voer uw Pterodactyl API-clientsleutel in. Deze is nodig voor het synchroniseren van server- en gebruikersgegevens van de client-API."
+        "version": "Paneel versie"
       },
       "crowdin": {
         "title": "Crowdin Vertalingsbeheer",
@@ -1375,463 +1561,324 @@
       "discordSuggestion": "Deelnemen aan Discord"
     }
   },
-  "servicesHome": {
-    "badge": "Wat wij bieden",
-    "title": "Alles wat je nodig hebt,",
-    "titleHighlight": "één plaats",
-    "description": "Spelservers en VPS-hosting gebouwd voor prestaties. Directe installatie, DDoS-bescherming en 24/7 ondersteuning door experts.",
-    "browsePlans": "Bladeren door plannen",
-    "startingFrom": "Van",
-    "customSolution": "Heb je iets nodig dat we niet in de lijst hebben?",
-    "contactUs": "Neem contact met ons op",
-    "forCustom": "en we vinden de juiste oplossing."
-  },
-  "vpsPage": {
-    "title": "VPS Hosting",
-    "description": "Krachtige virtual private servers met volledige root-toegang, NVMe SSD-opslag, DDoS-bescherming en 24/7 ondersteuning door experts.",
-    "startingAt": "Vanaf"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Overzicht",
-      "servers": "Servers",
-      "billing": "Facturering",
-      "support": "Ondersteuning",
-      "account": "Account",
-      "backToSite": "Terug naar site",
-      "gamePanel": "Spel Paneel",
-      "helpCenter": "Helpcentrum"
-    },
-    "greeting": {
-      "morning": "Goedemorgen",
-      "afternoon": "Goedemiddag",
-      "evening": "Goedenavond"
-    },
-    "subtitle": "Dit is wat er met uw servers gebeurt",
-    "welcome": {
-      "title": "Welkom!",
-      "magicLinkSuccess": "Je bent succesvol aangemeld met je magische link. Welkom op je dashboard!"
-    },
-    "stats": {
-      "totalServers": "Totaal aantal servers",
-      "activeServers": "Actieve servers",
-      "accountBalance": "Saldo rekening",
-      "openTickets": "Open Tickets",
-      "online": "online",
-      "activeDescription": "Momenteel actief",
-      "balanceDescription": "Beschikbaar krediet",
-      "ticketsDescription": "In afwachting van antwoord"
-    },
-    "actions": {
-      "openPanel": "Open Paneel",
-      "newServer": "Nieuwe server"
-    },
-    "recentServers": {
-      "title": "Recente servers",
-      "description": "Uw meest recent bezochte servers",
-      "viewAll": "Alles bekijken",
-      "empty": {
-        "title": "Nog geen servers",
-        "description": "Je hebt nog geen gameservers. Begin met het maken van je eerste server.",
-        "action": "Server maken"
-      }
-    },
-    "quickActions": {
-      "title": "Snelle acties",
-      "minecraft": "Minecraft-server",
-      "minecraftDesc": "Een nieuwe Minecraft-server implementeren",
-      "rust": "Roest server",
-      "rustDesc": "Een nieuwe Rust-server implementeren",
-      "support": "Open Ticket",
-      "supportDesc": "Krijg hulp van ons team",
-      "knowledgeBase": "Kennisbank",
-      "knowledgeBaseDesc": "Hulpartikelen doorbladeren"
-    },
-    "servers": {
-      "title": "Mijn servers",
-      "description": "Beheer en bewaak je gameservers",
-      "status": {
-        "running": "Hardlopen",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Start",
-        "stopping": "Stoppen",
-        "suspended": "Geschorst",
-        "installing": "Installeren"
-      },
-      "resources": {
-        "memory": "Geheugen",
-        "cpu": "CPU",
-        "disk": "Schijf"
-      },
-      "actions": {
-        "newServer": "Nieuwe server",
-        "refresh": "Vernieuw",
-        "console": "Console",
-        "files": "Bestanden",
-        "databases": "Databases",
-        "openPanel": "Openen in paneel"
-      },
-      "filters": {
-        "searchPlaceholder": "Zoekservers...",
-        "status": "Status",
-        "allStatuses": "Alle statussen"
-      },
-      "pagination": {
-        "showing": "{from} tot {to} of {total} weergeven",
-        "previous": "Vorige",
-        "next": "Volgende"
-      },
-      "empty": {
-        "title": "Geen servers gevonden",
-        "description": "Je hebt nog geen gameservers. Maak je eerste server om te beginnen.",
-        "action": "Server maken"
-      }
-    },
-    "account": {
-      "title": "Accountinstellingen",
-      "description": "Beheer je profiel en beveiligingsinstellingen",
-      "tabs": {
-        "profile": "Profiel",
-        "security": "Beveiliging"
-      },
-      "profile": {
-        "overview": "Account Overzicht",
-        "overviewDescription": "Je accountgegevens en -status",
-        "verified": "Geverifieerd",
-        "unverified": "Niet geverifieerd",
-        "personalInfo": "Persoonlijke informatie",
-        "personalInfoDescription": "Uw persoonlijke gegevens bijwerken",
-        "firstName": "Voornaam",
-        "firstNamePlaceholder": "John",
-        "lastName": "Achternaam",
-        "lastNamePlaceholder": "Doe",
-        "username": "Gebruikersnaam",
-        "usernamePlaceholder": "johndoe",
-        "email": "E-mailadres",
-        "emailNote": "Neem contact op met support om uw e-mailadres te wijzigen",
-        "phoneNumber": "Telefoonnummer",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Bedrijfsnaam",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Facturering e-mail",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Wijzigingen opslaan",
-        "success": "Profiel bijgewerkt",
-        "successDescription": "Je profiel is succesvol bijgewerkt.",
-        "error": "Update mislukt",
-        "errorDescription": "Het is niet gelukt je profiel bij te werken. Probeer het opnieuw."
-      },
-      "security": {
-        "changePassword": "Wachtwoord wijzigen",
-        "changePasswordDescription": "Werk je wachtwoord bij om je account veilig te houden",
-        "currentPassword": "Huidig wachtwoord",
-        "newPassword": "Nieuw wachtwoord",
-        "confirmPassword": "Nieuw wachtwoord bevestigen",
-        "passwordRequirements": "Wachtwoord moet minstens 8 tekens bevatten",
-        "updatePassword": "Wachtwoord bijwerken",
-        "passwordMismatch": "Wachtwoorden komen niet overeen",
-        "passwordMismatchDescription": "De nieuwe wachtwoorden die je hebt ingevoerd komen niet overeen.",
-        "passwordTooShort": "Wachtwoord te kort",
-        "passwordTooShortDescription": "Het wachtwoord moet minstens 8 tekens lang zijn.",
-        "passwordChanged": "Wachtwoord gewijzigd",
-        "passwordChangedDescription": "Je wachtwoord is succesvol bijgewerkt.",
-        "error": "Update mislukt",
-        "errorDescription": "Het is niet gelukt je wachtwoord bij te werken. Probeer het opnieuw.",
-        "emailNotVerified": "E-mail niet geverifieerd",
-        "emailNotVerifiedDescription": "Uw e-mailadres is niet geverifieerd.",
-        "resendVerification": "Verificatiemail opnieuw verzenden",
-        "accountInfo": "Accountgegevens",
-        "accountInfoDescription": "Extra details over je account",
-        "accountCreated": "Account aangemaakt",
-        "lastLogin": "Laatste aanmelding",
-        "accountId": "Account-ID"
-      }
-    }
-  },
   "vps": {
-    "badge": "VPS-servers",
-    "title": "Kies uw",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
     "titleHighlight": "VPS Plan",
-    "description": "Volledige controle over virtuele private servers met enterprise hardware. Root-toegang, NVMe-opslag, DDoS-bescherming en onmiddellijke implementatie.",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
     "hosting": "Hosting",
-    "learnMore": "Meer leren",
-    "viewPlans": "Plannen bekijken",
-    "customSolution": "Heb je een VPS-oplossing op maat nodig of heb je vragen?",
-    "contactUs": "Neem contact met ons op",
-    "forCustom": "en we vinden de juiste oplossing.",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "Directe implementatie",
-        "description": "Uw VPS is binnen 60 seconden na aankoop klaar voor gebruik."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Volledige root-toegang",
-        "description": "Volledige controle over je server met root SSH-toegang en OS naar keuze."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Hardware voor ondernemingen",
-        "description": "Processors van enterprisekwaliteit met NVMe SSD-opslag en ECC RAM in alle plannen."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Krachtige KVM VPS op AMD enterprise hardware. Ideaal voor veeleisende werklasten, webapplicaties en game backends.",
-      "heroDescription": "KVM VPS op AMD hardware met NVMe SSD opslag, volledige root-toegang en DDoS-bescherming. Implementeer in seconden.",
-      "tag": "Aangedreven door AMD",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "AMD-processoren voor ondernemingen",
-        "1": "NVMe SSD-opslag",
-        "2": "Volledige root- / SSH-toegang",
-        "3": "DDoS-bescherming"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Volledige root-toegang",
-        "1": "KVM-virtualisatie",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-bescherming"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
           "name": "Starter",
-          "description": "Perfect voor kleine projecten en testen"
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
-          "name": "Standaard",
-          "description": "Geweldig voor groeiende toepassingen"
+          "name": "Standard",
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Prestaties",
-          "description": "Ideaal voor werklasten met veel verkeer"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Bandbreedte",
-        "bandwidthUnmetered": "Niet-bemeterde bandbreedte",
-        "ddos": "DDoS-bescherming",
-        "ipv4": "Specifiek IPv4-adres",
-        "rootAccess": "Volledige root- / SSH-toegang",
-        "uptime": "99.9% uptime SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "AMD-hardware voor ondernemingen",
-          "description": "Aangedreven door AMD-hardware van bedrijfsniveau die uitzonderlijke multi-threaded prestaties levert voor veeleisende werklasten.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "AMD-processoren voor ondernemingen",
-            "1": "Hoge kerntellingen",
-            "2": "Grote L3-cache",
-            "3": "Hoge kloksnelheden"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-opslag",
-          "description": "Ultrasnelle NVMe solid-state opslag met sequentiële leessnelheden van meer dan 3.000 MB/s voor snelle gegevenstoegang.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD's",
-            "1": "3.000+ MB/s leessnelheden",
-            "2": "I/O met lage latentie",
-            "3": "RAID-redundantie"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-bescherming",
-          "description": "DDoS-mitigatie op bedrijfsniveau houdt je VPS online, zelfs tijdens grootschalige aanvallen.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Laag 3/4/7 filtering",
-            "1": "Automatisch randen schrobben",
-            "2": "Geen uitvaltijd",
-            "3": "Wereldwijde POP's"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Netwerk met hoge snelheid",
-          "description": "1Gbps uplink met routing met lage latentie voor optimale connectiviteit, waar uw gebruikers zich ook bevinden.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
             "0": "1Gbps uplink",
-            "1": "Routing met lage latentie",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Ondersteuning voor IPv4 en IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Volledige root-toegang",
-          "description": "Volledige controle over je serveromgeving. Installeer elke software, configureer elke service en draai elk besturingssysteem.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Volledige SSH root-toegang",
-            "1": "Kies je Linux distro",
-            "2": "KVM-virtualisatie",
-            "3": "ISO-ondersteuning op maat"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 deskundige ondersteuning",
-          "description": "Ons team is 24 uur per dag beschikbaar om te helpen met serverinstallatie, optimalisatie en probleemoplossing.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Ondersteuning voor Discord",
-            "1": "Ticketsysteem",
-            "2": "Kennisbank",
-            "3": "Hulp bij servermigratie"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Krijg ik volledige root-toegang tot mijn VPS?",
-          "answer": "Ja, alle AMD VPS-plannen bevatten volledige root-toegang via SSH. U hebt volledige controle over uw serveromgeving, inclusief besturingssysteem, software en configuratie."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Welke besturingssystemen zijn beschikbaar?",
-          "answer": "We ondersteunen populaire Linux-distributies zoals Ubuntu, Debian, CentOS, AlmaLinux en Rocky Linux. Je kunt ook je eigen ISO uploaden."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kan ik mijn VPS-abonnement later upgraden?",
-          "answer": "Ja, u kunt uw VPS-plan op elk gewenst moment upgraden via ons factureringspaneel. Verhogingen van bronnen worden toegepast met minimale downtime."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Wat gebeurt er als ik mijn bandbreedtelimiet overschrijd?",
-          "answer": "Bij gedoseerde plannen laten we het je weten voordat je je limiet bereikt. Je kunt op elk moment extra bandbreedte kopen of upgraden naar een onbeperkt abonnement."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Is DDoS-bescherming inbegrepen?",
-          "answer": "Ja, alle AMD VPS-plannen bevatten DDoS-mitigatie op bedrijfsniveau. Dit beschermt uw server tegen Layer 3, 4 en 7 aanvallen met zero-downtime scrubbing."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Bieden jullie geld terug?",
-          "answer": "Ja, we bieden een 48-uurs geld-terug garantie op alle nieuwe VPS-aankopen. Neem binnen 48 uur na aankoop contact op met support voor een volledige terugbetaling."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "Betrouwbare KVM VPS op enterprise Intel hardware. Uitstekende single-thread prestaties voor webhosting, databases en applicatieservers.",
-      "heroDescription": "Solide KVM VPS op Intel hardware met NVMe SSD opslag, volledige root-toegang en DDoS-bescherming. Implementeer in seconden.",
-      "tag": "Intel",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "Intel-processoren voor ondernemingen",
-        "1": "NVMe SSD-opslag",
-        "2": "Volledige root- / SSH-toegang",
-        "3": "DDoS-bescherming"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Volledige root-toegang",
-        "1": "KVM-virtualisatie",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS-bescherming"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Kern",
-          "description": "Perfect voor kleine projecten en webhosting"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Zeer geschikt voor productietoepassingen"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Onderneming",
-          "description": "Ideaal voor services waar veel vraag naar is"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Bandbreedte",
-        "bandwidthUnmetered": "Niet-bemeterde bandbreedte",
-        "ddos": "DDoS-bescherming",
-        "ipv4": "Specifiek IPv4-adres",
-        "rootAccess": "Volledige root- / SSH-toegang",
-        "uptime": "99.9% uptime SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Intel-hardware voor ondernemingen",
-          "description": "Gebouwd op Intel-hardware van enterprisekwaliteit met sterke single-thread prestaties voor webservers, databases en applicaties.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Intel-processoren voor ondernemingen",
-            "1": "Sterke single-thread perf",
-            "2": "Grote cache-groottes",
-            "3": "Hoge kloksnelheden"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-opslag",
-          "description": "Ultrasnelle NVMe solid-state opslag met hoge IOPS en lage latentie voor I/O-intensieve toepassingen.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD's",
-            "1": "Hoge IOPS-prestaties",
-            "2": "I/O met lage latentie",
-            "3": "RAID-redundantie"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-bescherming",
-          "description": "DDoS-mitigatie op bedrijfsniveau houdt je VPS online, zelfs tijdens grootschalige aanvallen.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Laag 3/4/7 filtering",
-            "1": "Automatisch randen schrobben",
-            "2": "Geen uitvaltijd",
-            "3": "Wereldwijde POP's"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Netwerk met hoge snelheid",
-          "description": "1Gbps uplink met routing met lage latentie voor optimale connectiviteit, waar uw gebruikers zich ook bevinden.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
             "0": "1Gbps uplink",
-            "1": "Routing met lage latentie",
+            "1": "Low latency routing",
             "2": "Premium peering",
-            "3": "Ondersteuning voor IPv4 en IPv6"
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Volledige root-toegang",
-          "description": "Volledige controle over je serveromgeving. Installeer elke software, configureer elke service en draai elk besturingssysteem.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Volledige SSH root-toegang",
-            "1": "Kies je Linux distro",
-            "2": "KVM-virtualisatie",
-            "3": "ISO-ondersteuning op maat"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 deskundige ondersteuning",
-          "description": "Ons team is 24 uur per dag beschikbaar om te helpen met serverinstallatie, optimalisatie en probleemoplossing.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Ondersteuning voor Discord",
-            "1": "Ticketsysteem",
-            "2": "Kennisbank",
-            "3": "Hulp bij servermigratie"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Krijg ik volledige root-toegang tot mijn VPS?",
-          "answer": "Ja, alle Intel VPS plannen hebben volledige root toegang via SSH. Je hebt volledige controle over je serveromgeving inclusief OS, software en configuratie."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Welke besturingssystemen zijn beschikbaar?",
-          "answer": "We ondersteunen populaire Linux-distributies zoals Ubuntu, Debian, CentOS, AlmaLinux en Rocky Linux. Je kunt ook je eigen ISO uploaden."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kan ik mijn VPS-abonnement later upgraden?",
-          "answer": "Ja, u kunt uw VPS-plan op elk gewenst moment upgraden via ons factureringspaneel. Verhogingen van bronnen worden toegepast met minimale downtime."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Wat gebeurt er als ik mijn bandbreedtelimiet overschrijd?",
-          "answer": "Bij gedoseerde plannen laten we het je weten voordat je je limiet bereikt. Je kunt op elk moment extra bandbreedte kopen of upgraden naar een onbeperkt abonnement."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Is DDoS-bescherming inbegrepen?",
-          "answer": "Ja, alle Intel VPS plannen bevatten DDoS mitigatie op bedrijfsniveau. Dit beschermt je server tegen Layer 3, 4 en 7 aanvallen met zero-downtime scrubbing."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Bieden jullie geld terug?",
-          "answer": "Ja, we bieden een 48-uurs geld-terug garantie op alle nieuwe VPS-aankopen. Neem binnen 48 uur na aankoop contact op met support voor een volledige terugbetaling."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }

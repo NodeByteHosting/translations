@@ -21,6 +21,14 @@
     "about": {
       "title": "About Us",
       "description": "Learn more about NodeByte"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
@@ -36,26 +44,33 @@
       "title": "Hytale Hosting",
       "description": "Hytale servers with DDoS protection"
     },
-    "all": {
-      "title": "All Services",
-      "description": "Explore all our hosting services"
-    },
     "gameServers": {
-      "title": "Játék szerverek",
-      "description": "Böngésszen az összes játék hosting opció között"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Nagy teljesítményű AMD-alapú virtuális szerverek"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Megbízható Intel-üzemű virtuális szerverek"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPS szerverek",
-      "description": "Böngésszen az összes VPS hosting lehetőség között"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
@@ -65,9 +80,11 @@
     "gamePanel": {
       "title": "Game Panel",
       "description": "Control your game servers with our panel"
-    }
-  },
-  "extras": {
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
       "title": "Knowledge Base",
       "description": "Guides, tutorials, and documentation"
@@ -82,9 +99,9 @@
       "prefix": "USE CODE",
       "suffix": "ON YOUR FIRST ORDER!"
     },
-    "title": "Game Hosting",
+    "title": "Server Hosting",
     "titleHighlight": "Made Simple",
-    "description": "Fast, reliable, and secure hosting for your gaming communities. Launch dedicated servers with instant setup, DDoS protection, and 24/7 support.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Get Started",
     "joinDiscord": "Join Discord",
     "trustedBy": "Trusted by gaming communities worldwide",
@@ -102,26 +119,26 @@
     "badge": "Infrastructure",
     "title": "Built for",
     "titleHighlight": "Performance",
-    "description": "Enterprise-grade infrastructure with gamer-friendly tooling. Instant servers, low-latency routing, and powerful controls.",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "View Hosting Plans",
     "startingFrom": "Starting from",
     "items": {
       "ddos": {
         "title": "DDoS Protection",
-        "description": "Enterprise-grade mitigation powered by FyfeWeb with automatic scrubbing to keep servers online under attack.",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "FyfeWeb network protection",
+          "0": "Enterprise network protection",
           "1": "Auto-scaling mitigation",
           "2": "Real-time monitoring"
         }
       },
       "latency": {
         "title": "Low Latency Network",
-        "description": "Optimized routes through FyfeWeb's UK network with London POPs for minimal ping.",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
           "0": "Sub-50ms avg latency",
-          "1": "UK-based routing",
-          "2": "FyfeWeb peering"
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
@@ -134,12 +151,12 @@
         }
       },
       "locations": {
-        "title": "UK Data Centers",
-        "description": "Strategically located in the UK with London POPs powered by FyfeWeb.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "London POPs",
-          "1": "FyfeWeb network",
-          "2": "Low latency UK coverage"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
@@ -165,18 +182,18 @@
   "about": {
     "badge": "Our Story",
     "title": "Built by Gamers,",
-    "titleHighlight": "for Gamers",
+    "titleHighlight": "for Everyone",
     "paragraph1": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. We've experienced the frustration of laggy servers and unresponsive support firsthand.",
-    "paragraph2": "That's why we built infrastructure tuned specifically for multiplayer gaming: low latency routing, robust DDoS protection, and instant server provisioning so you can get playing fast.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
     "joinCommunity": "Join Our Community",
     "values": {
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Open by Design",
@@ -185,12 +202,9 @@
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers",
-      "users": "Összes felhasználó",
-      "activeUsers": "Aktív felhasználók",
-      "allocations": "Kiutalások"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
@@ -225,11 +239,11 @@
       },
       "ddos": {
         "question": "Do you offer DDoS protection?",
-        "answer": "Yes, all plans include enterprise-grade DDoS mitigation powered by FyfeWeb. Our London POPs provide automatic filtering and scrubbing at the network edge."
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Where are your data centers located?",
-        "answer": "We operate UK-based data centers with London POPs powered by our network partner FyfeWeb, providing excellent coverage across the UK and Europe."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
         "question": "Can I run mods and custom maps?",
@@ -250,13 +264,18 @@
     "badge": "Game Servers",
     "title": "Choose Your",
     "titleHighlight": "Game",
-    "description": "Powerful, low-latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
     "viewPlans": "View Plans",
     "learnMore": "Learn More",
     "comingSoon": "Coming Soon",
     "customSolution": "Need a game server that's not listed?",
     "contactUs": "Contact us",
     "forCustom": "for custom solutions.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Hosting",
     "joinWaitlist": "Join Waitlist",
     "minecraft": {
@@ -279,17 +298,17 @@
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Ideal for medium-sized communities"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB Storage",
         "databases": "10 MySQL Databases",
-        "ddos": "FyfeWeb DDoS Protection",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "Auto/Pre-Installed jars",
+        "jars": "Auto/Pre Installed jars",
         "uptime": "99.6% Uptime SLA"
       },
       "pageFeatures": {
@@ -305,22 +324,22 @@
         },
         "hardware": {
           "title": "High Performance Hardware",
-          "description": "Enterprise grade AMD Ryzen processors with NVMe storage for blazing fast performance.",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
+            "0": "High performance CPUs",
             "1": "NVMe SSD storage",
             "2": "DDR4 ECC memory",
-            "3": "Up to 4.8GHz clock speed"
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
           "title": "DDoS Protection",
-          "description": "Enterprise grade DDoS mitigation powered by FyfeWeb keeps your server online even during attacks.",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
             "0": "Layer 3/4/7 protection",
-            "1": "FyfeWeb network filtering",
+            "1": "Enterprise network filtering",
             "2": "Zero downtime mitigation",
-            "3": "UK London POPs"
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
@@ -328,7 +347,7 @@
           "description": "Your server is deployed within seconds. Start playing immediately after purchase.",
           "highlights": {
             "0": "Automated provisioning",
-            "1": "Pre-configured settings",
+            "1": "Pre configured settings",
             "2": "Ready in under 60 seconds",
             "3": "No technical knowledge needed"
           }
@@ -338,7 +357,7 @@
           "description": "Complete file access via FTP/SFTP. Upload worlds, plugins, and configurations with ease.",
           "highlights": {
             "0": "SFTP file access",
-            "1": "Web-based file manager",
+            "1": "Web based file manager",
             "2": "Drag & drop uploads",
             "3": "Automatic backups"
           }
@@ -365,7 +384,7 @@
         },
         "upload": {
           "question": "How do I upload my existing world?",
-          "answer": "You can upload your world files via our web-based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "Is there a player limit?",
@@ -377,12 +396,12 @@
         },
         "refunds": {
           "question": "Do you offer refunds?",
-          "answer": "Yes, we offer a 48-hour money-back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "High-performance Rust server hosting with Oxide/uMod support and custom map options.",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "High Performance",
       "features": {
         "0": "Oxide/uMod support",
@@ -405,11 +424,11 @@
         }
       },
       "planFeatures": {
-        "cpu": "AMD Ryzen™ 9 5900X",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount}GB SSD Storage",
-        "ddos": "FyfeWeb DDoS Protection",
-        "location": "Newcastle, United Kingdom",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL Databases",
         "panel": "BytePanel (Game Panel)",
         "oxide": "Oxide/Umod Supported",
@@ -423,7 +442,7 @@
           "highlights": {
             "0": "One-click Oxide install",
             "1": "Plugin manager",
-            "2": "Auto-updates available",
+            "2": "Auto updates available",
             "3": "Permission management"
           }
         },
@@ -439,20 +458,20 @@
         },
         "performance": {
           "title": "High Performance",
-          "description": "Rust demands powerful hardware. Our servers use the latest AMD Ryzen CPUs and NVMe storage.",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "AMD Ryzen 9 CPUs",
+            "0": "High performance CPUs",
             "1": "NVMe SSD storage",
-            "2": "High single-thread performance",
+            "2": "High single thread performance",
             "3": "Low-latency networking"
           }
         },
         "ddos": {
           "title": "DDoS Protection",
-          "description": "FyfeWeb's enterprise-grade DDoS mitigation through UK London POPs protects your server from attacks 24/7.",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "FyfeWeb network filtering",
-            "1": "UK London POPs",
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
             "2": "Layer 3/4/7 protection",
             "3": "Zero downtime"
           }
@@ -506,19 +525,14 @@
       }
     },
     "hytale": {
-      "description": "Hytale server hosting coming soon! Join our Discord to get early access and updates.",
-      "tag": "In Development",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Mod support",
         "1": "Custom maps",
         "2": "Easy configuration",
         "3": "24/7 support"
       }
-    },
-    "vpsCta": {
-      "title": "VPS tárhelyre is szüksége van?",
-      "description": "Teljes körű root hozzáférés, NVMe SSD tároló és vállalati DDoS-védelem. Válasszon AMD vagy Intel meghajtású virtuális szerverek közül.",
-      "button": "VPS-csomagok megtekintése"
     }
   },
   "gamePage": {
@@ -526,7 +540,7 @@
       "badge": "Features",
       "title": "Why Choose Our",
       "titleSuffix": "Hosting",
-      "description": "Enterprise-grade infrastructure tailored specifically for {game} servers."
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
       "badge": "Pricing",
@@ -539,7 +553,19 @@
       "getStarted": "Get Started",
       "viewAllPlans": "View All Plans",
       "customSolution": "Need a custom solution or have questions?",
-      "contactUs": "Contact us"
+      "contactUs": "Contact us",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "FAQ",
@@ -570,7 +596,7 @@
     "copyFailedDesc": "Failed to copy to clipboard",
     "discord": {
       "title": "Discord Community",
-      "description": "Get live support and help from our community and team members.",
+      "description": "Join our community for instant support, announcements, and chat with other users.",
       "button": "Join Discord",
       "features": {
         "0": "Instant responses",
@@ -617,7 +643,7 @@
     }
   },
   "footer": {
-    "tagline": "Fast, reliable, scalable and secure hosting services for your gaming experience. Built for Humans. Powered by Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Get in Touch",
     "emailUs": "Email Us",
     "support": "Support",
@@ -633,20 +659,16 @@
       "maintenance": "Under Maintenance"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Rust Hosting",
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
       "gamePanel": "Game Panel",
-      "clientArea": "Client Area",
-      "gameServers": "Játék tárhely",
-      "vpsServers": "VPS tárhely",
-      "vpsPanel": "VPS panel"
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Számlázási panel"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",
@@ -680,7 +702,7 @@
     "description": "Stay up to date with the latest releases, features, and improvements across all NodeByte projects.",
     "searchPlaceholder": "Search releases...",
     "filters": {
-      "all": "All",
+      "all": "All Repositories",
       "allTypes": "All Types",
       "feature": "Feature",
       "bugfix": "Bug Fix",
@@ -701,7 +723,7 @@
     },
     "empty": {
       "title": "No releases found",
-      "description": "Try adjusting your filters or search terms",
+      "description": "Try adjusting your search or filters to find what you're looking for.",
       "clearFilters": "Clear Filters"
     },
     "loading": {
@@ -710,7 +732,7 @@
     },
     "error": {
       "title": "Failed to load releases",
-      "description": "Please try again or contact support if the issue persists.",
+      "description": "There was an error fetching releases. Please try again later.",
       "retry": "Try Again"
     },
     "stats": {
@@ -802,6 +824,11 @@
     "description": "High-performance game server hosting with instant setup, powerful control panel, and 24/7 expert support.",
     "startingAt": "Starting at"
   },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
+  },
   "accessibility": {
     "loading": "Loading",
     "pagination": "pagination",
@@ -819,8 +846,8 @@
     "badge": "About NodeByte",
     "hero": {
       "title": "Built by Gamers,",
-      "titleHighlight": "for Gamers",
-      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers worldwide.",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
       "joinCommunity": "Join Our Community",
       "contactUs": "Contact Us"
     },
@@ -828,8 +855,8 @@
       "badge": "Our Story",
       "title": "How It All Started",
       "paragraph1": "NodeByte was born from frustration. As avid gamers ourselves, we experienced firsthand the pain of laggy servers, unresponsive support, and complex control panels that made server management a nightmare.",
-      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the game hosting platform we always wished existed.",
-      "paragraph3": "Today, NodeByte powers game servers across the globe. But our mission remains the same: make game server hosting fast, reliable, and accessible to everyone."
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Our Values",
@@ -837,12 +864,12 @@
       "titleHighlight": "Stand For",
       "description": "Our core values guide everything we do, from infrastructure decisions to customer support.",
       "players": {
-        "title": "Built for Players",
-        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your communities stay online and responsive."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Community & Mod Support",
-        "description": "Seamless mod installs, snapshot support, and community tooling to help you run modded worlds and persistent servers with minimal effort."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
         "title": "Open by Design",
@@ -851,12 +878,9 @@
     },
     "stats": {
       "uptime": "Uptime SLA",
-      "latency": "Avg Latency",
-      "support": "Support",
-      "servers": "Active Servers",
-      "users": "Összes felhasználó",
-      "activeUsers": "Aktív felhasználók",
-      "allocations": "Kiutalások"
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Our Journey",
@@ -868,18 +892,22 @@
       },
       "growth": {
         "title": "Rapid Growth",
-        "description": "Expanded infrastructure with FyfeWeb partnership, adding enterprise DDoS protection and UK data centers."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
         "title": "Global Expansion",
         "description": "Launched new services, enhanced control panel, and continue growing our global community."
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "Our Team",
       "title": "Meet the",
       "titleHighlight": "Team",
-      "description": "The talented people behind NodeByte, committed to providing the best game hosting experience.",
+      "description": "The passionate people behind NodeByte who work tirelessly to deliver the best hosting experience.",
       "roles": {
         "founder": "Founder & Lead Developer"
       },
@@ -889,8 +917,8 @@
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "description": "Join thousands of gaming communities already hosting with NodeByte.",
-      "getStarted": "View Game Servers",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
       "joinDiscord": "Join Discord"
     }
   },
@@ -902,10 +930,10 @@
     "quickLinks": "Quick Links",
     "links": {
       "home": "Home",
-      "games": "Games",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Knowledge Base",
-      "contact": "Contact",
-      "vps": "VPS tárhely"
+      "contact": "Contact"
     }
   },
   "errorPage": {
@@ -1056,28 +1084,186 @@
     },
     "userMenu": {
       "myAccount": "My Account",
+      "dashboard": "Dashboard",
       "viewPanel": "View Panel",
       "admin": "Admin",
       "logout": "Sign Out",
       "signIn": "Sign In",
-      "loggingOut": "Signing out...",
-      "dashboard": "Műszerfal"
+      "loggingOut": "Signing out..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
     "title": "Admin Panel",
     "nav": {
       "dashboard": "Dashboard",
-      "users": "Users",
-      "servers": "Servers",
-      "sync": "Sync",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
       "syncLogs": "Sync Logs",
       "settings": "Settings",
-      "backToSite": "Back to Site",
-      "nodes": "Kiszolgáló csomópontok",
-      "locations": "Helyszínek",
-      "allocations": "Kiutalások",
-      "eggs": "Fészkek és tojások"
+      "backToSite": "Back to Site"
     },
     "status": {
       "online": "System Online"
@@ -1100,7 +1286,7 @@
     },
     "sync": {
       "status": "Sync Status",
-      "lastSync": "Last Sync",
+      "lastSync": "Last sync",
       "never": "Never",
       "idle": "Idle",
       "syncing": "Syncing...",
@@ -1108,23 +1294,23 @@
       "syncingTarget": "Syncing {target} data from panel...",
       "complete": "complete",
       "runFull": "Run Full Sync",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
       "success": "Sync Completed",
       "completed": "Successfully synced {target} data.",
       "error": "Sync Failed",
       "quickActions": "Quick Sync Actions",
       "quickActionsDescription": "Sync individual data types from the Pterodactyl panel.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Locations",
         "nodes": "Nodes",
         "allocations": "Allocations",
         "nests": "Nests & Eggs",
         "servers": "Servers",
         "databases": "Databases",
-        "users": "Users",
-        "full": "Teljes szinkronizálás"
-      },
-      "started": "Szinkronizálás megkezdve",
-      "running": "A panel adatainak szinkronizálása. Ez eltarthat egy darabig."
+        "users": "Users"
+      }
     },
     "syncLogs": {
       "title": "Sync Logs",
@@ -1199,8 +1385,8 @@
       }
     },
     "servers": {
-      "title": "Game Servers",
-      "description": "Manage game servers and allocations.",
+      "title": "Servers",
+      "description": "View and manage all game servers.",
       "stats": {
         "total": "Total Servers",
         "running": "Running",
@@ -1250,8 +1436,8 @@
       }
     },
     "settings": {
-      "title": "System Settings",
-      "description": "Configure global system settings and integrations.",
+      "title": "Settings",
+      "description": "Configure system settings and connections.",
       "save": "Save Changes",
       "saved": "Settings Saved",
       "savedDesc": "Your settings have been saved successfully.",
@@ -1280,11 +1466,11 @@
         "url": "Panel URL",
         "apiKey": "API Key",
         "apiKeyNote": "Enter your Pterodactyl panel API key for authentication.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
         "apiUrl": "API URL",
         "apiUrlNote": "The base URL for the Pterodactyl API (usually panel URL + /api).",
-        "version": "Panel Version",
-        "apiKeyclient": "Ügyfél API-kulcs",
-        "apiKeyNoteclient": "Adja meg a Pterodactyl ügyfél API-kulcsát. Erre a szerver és a felhasználói adatok szinkronizálásához van szükség az ügyfél API-ból."
+        "version": "Panel Version"
       },
       "crowdin": {
         "title": "Crowdin Translation Management",
@@ -1375,463 +1561,324 @@
       "discordSuggestion": "Join Discord"
     }
   },
-  "servicesHome": {
-    "badge": "Mit kínálunk",
-    "title": "Minden, amire szüksége van,",
-    "titleHighlight": "egy helyen",
-    "description": "Játékszerverek és VPS hosting a teljesítményre építve. Azonnali telepítés, DDoS-védelem és 24/7 szakértői támogatás.",
-    "browsePlans": "Tervek böngészése",
-    "startingFrom": "A  címről",
-    "customSolution": "Szüksége van valamire, ami nincs a listánkon?",
-    "contactUs": "Kapcsolatfelvétel",
-    "forCustom": "és mi megtaláljuk a megfelelőt."
-  },
-  "vpsPage": {
-    "title": "VPS tárhely",
-    "description": "Nagy teljesítményű virtuális privát szerverek teljes root hozzáféréssel, NVMe SSD tárolóval, DDoS védelemmel és 24/7 szakértői támogatással.",
-    "startingAt": "Kezdődik a"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Áttekintés",
-      "servers": "Szerverek",
-      "billing": "Számlázás",
-      "support": "Támogatás",
-      "account": "Számla",
-      "backToSite": "Vissza az oldalra",
-      "gamePanel": "Játék panel",
-      "helpCenter": "Súgóközpont"
-    },
-    "greeting": {
-      "morning": "Jó reggelt!",
-      "afternoon": "Jó napot!",
-      "evening": "Jó estét!"
-    },
-    "subtitle": "A következő történik a szervereiddel",
-    "welcome": {
-      "title": "Üdvözöljük!",
-      "magicLinkSuccess": "Sikeresen bejelentkeztél a mágikus linkeddel. Üdvözöljük a műszerfalon!"
-    },
-    "stats": {
-      "totalServers": "Szerverek összesen",
-      "activeServers": "Aktív szerverek",
-      "accountBalance": "Számlaegyenleg",
-      "openTickets": "Nyitott jegyek",
-      "online": "online",
-      "activeDescription": "Jelenleg fut",
-      "balanceDescription": "Rendelkezésre álló hitel",
-      "ticketsDescription": "Válaszra várva"
-    },
-    "actions": {
-      "openPanel": "Nyitott panel",
-      "newServer": "Új szerver"
-    },
-    "recentServers": {
-      "title": "Legutóbbi szerverek",
-      "description": "Az Ön által legutóbb elért szerverek",
-      "viewAll": "Minden megtekintése",
-      "empty": {
-        "title": "Még nincsenek szerverek",
-        "description": "Még nincsenek játékszerverek. Kezdd el az első szerver létrehozásával.",
-        "action": "Kiszolgáló létrehozása"
-      }
-    },
-    "quickActions": {
-      "title": "Gyors akciók",
-      "minecraft": "Minecraft szerver",
-      "minecraftDesc": "Új Minecraft szerver telepítése",
-      "rust": "Rozsdaszerver",
-      "rustDesc": "Új Rust-kiszolgáló telepítése",
-      "support": "Nyitott jegy",
-      "supportDesc": "Kérjen segítséget csapatunktól",
-      "knowledgeBase": "Tudásbázis",
-      "knowledgeBaseDesc": "Böngésszen a segédcikkek között"
-    },
-    "servers": {
-      "title": "A szervereim",
-      "description": "Játékszerverek kezelése és felügyelete",
-      "status": {
-        "running": "Futás",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Indulás",
-        "stopping": "A  megállítása",
-        "suspended": "Felfüggesztett",
-        "installing": "A  telepítése"
-      },
-      "resources": {
-        "memory": "Memória",
-        "cpu": "CPU",
-        "disk": "Lemez"
-      },
-      "actions": {
-        "newServer": "Új szerver",
-        "refresh": "Frissítés",
-        "console": "Konzol",
-        "files": "Fájlok",
-        "databases": "Adatbázisok",
-        "openPanel": "Megnyitás a panelben"
-      },
-      "filters": {
-        "searchPlaceholder": "Kiszolgálók keresése...",
-        "status": "Állapot",
-        "allStatuses": "Minden státusz"
-      },
-      "pagination": {
-        "showing": "Az {from} és az {to} közötti {total} mutatása",
-        "previous": "Előző",
-        "next": "Következő"
-      },
-      "empty": {
-        "title": "Nem találtak szervert",
-        "description": "Még nincsenek játékszerverek. Hozzátok létre az első szervert, hogy elkezdhessétek.",
-        "action": "Kiszolgáló létrehozása"
-      }
-    },
-    "account": {
-      "title": "Fiókbeállítások",
-      "description": "Profil és biztonsági beállítások kezelése",
-      "tabs": {
-        "profile": "Profil",
-        "security": "Biztonság"
-      },
-      "profile": {
-        "overview": "Számla áttekintés",
-        "overviewDescription": "Az Ön számlainformációi és státusza",
-        "verified": "Ellenőrzött",
-        "unverified": "Ellenőrizetlen",
-        "personalInfo": "Személyes információk",
-        "personalInfoDescription": "Személyes adatainak frissítése",
-        "firstName": "Keresztnév",
-        "firstNamePlaceholder": "John",
-        "lastName": "Vezetéknév",
-        "lastNamePlaceholder": "Doe",
-        "username": "Felhasználónév",
-        "usernamePlaceholder": "johndoe",
-        "email": "E-mail cím",
-        "emailNote": "Kapcsolatfelvétel az ügyfélszolgálattal az e-mail cím megváltoztatásához",
-        "phoneNumber": "Telefonszám",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Cégnév",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "Számlázási e-mail",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Változások mentése",
-        "success": "Profil frissítve",
-        "successDescription": "A profilodat sikeresen frissítettük.",
-        "error": "Frissítés sikertelen",
-        "errorDescription": "Nem sikerült frissíteni a profilját. Kérjük, próbálja meg újra."
-      },
-      "security": {
-        "changePassword": "Jelszó módosítása",
-        "changePasswordDescription": "Frissítse jelszavát, hogy fiókja biztonságban maradjon",
-        "currentPassword": "Jelenlegi jelszó",
-        "newPassword": "Új jelszó",
-        "confirmPassword": "Új jelszó megerősítése",
-        "passwordRequirements": "A jelszónak legalább 8 karakterből kell állnia",
-        "updatePassword": "Jelszó frissítése",
-        "passwordMismatch": "A jelszavak nem egyeznek",
-        "passwordMismatchDescription": "A megadott új jelszavak nem egyeznek.",
-        "passwordTooShort": "Túl rövid jelszó",
-        "passwordTooShortDescription": "A jelszónak legalább 8 karakter hosszúnak kell lennie.",
-        "passwordChanged": "Megváltozott jelszó",
-        "passwordChangedDescription": "Jelszavát sikeresen frissítettük.",
-        "error": "Frissítés sikertelen",
-        "errorDescription": "Nem sikerült frissíteni a jelszavát. Kérjük, próbálja meg újra.",
-        "emailNotVerified": "Email nem ellenőrzött",
-        "emailNotVerifiedDescription": "Az Ön e-mail címe nem került ellenőrzésre.",
-        "resendVerification": "Ellenőrző e-mail újraküldése",
-        "accountInfo": "Számlainformációk",
-        "accountInfoDescription": "További részletek a számlájáról",
-        "accountCreated": "Létrehozott számla",
-        "lastLogin": "Utolsó bejelentkezés",
-        "accountId": "Számlaazonosító"
-      }
-    }
-  },
   "vps": {
-    "badge": "VPS szerverek",
-    "title": "Válassza ki a",
-    "titleHighlight": "VPS terv",
-    "description": "Teljes körű felügyeletet biztosító virtuális privát szerverek vállalati hardverrel. Root hozzáférés, NVMe tároló, DDoS védelem és azonnali telepítés.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
     "hosting": "Hosting",
-    "learnMore": "Tudjon meg többet",
-    "viewPlans": "Tervek megtekintése",
-    "customSolution": "Egyedi VPS megoldásra van szüksége vagy kérdése van?",
-    "contactUs": "Kapcsolatfelvétel",
-    "forCustom": "és mi megtaláljuk a megfelelőt.",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "Azonnali telepítés",
-        "description": "VPS-ed a vásárlást követően kevesebb mint 60 másodperc alatt készen áll."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Teljes gyökér hozzáférés",
-        "description": "Teljes kontroll a szerver felett root SSH hozzáféréssel és az Ön által választott operációs rendszerrel."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Vállalati hardver",
-        "description": "Vállalati szintű processzorok NVMe SSD tárolóval és ECC RAM-mal minden tervezetben."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Nagy teljesítményű KVM VPS vállalati AMD hardveren. Ideális igényes munkaterhelésekhez, webes alkalmazásokhoz és játék backendekhez.",
-      "heroDescription": "Vállalati szintű KVM VPS AMD hardveren, NVMe SSD tárolóval, teljes root hozzáféréssel és vállalati DDoS védelemmel. Telepítés másodpercek alatt.",
-      "tag": "AMD meghajtású",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "Vállalati AMD processzorok",
-        "1": "NVMe SSD tároló",
-        "2": "Teljes root / SSH hozzáférés",
-        "3": "DDoS védelem"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Teljes gyökér hozzáférés",
-        "1": "KVM virtualizáció",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS védelem"
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
-          "name": "Indító",
-          "description": "Tökéletes kis projektekhez és teszteléshez"
+          "name": "Starter",
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
           "name": "Standard",
-          "description": "Kiválóan alkalmas növekvő alkalmazásokhoz"
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Teljesítmény",
-          "description": "Ideális nagy forgalmú munkaterhelésekhez"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Sávszélesség",
-        "bandwidthUnmetered": "Mérő nélküli sávszélesség",
-        "ddos": "DDoS védelem",
-        "ipv4": "Dedikált IPv4-cím",
-        "rootAccess": "Teljes Root / SSH hozzáférés",
-        "uptime": "99.9% üzemidő SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Vállalati AMD hardver",
-          "description": "A vállalati szintű AMD hardver kivételes többszálú teljesítményt nyújt az igényes munkaterhelésekhez.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "Vállalati AMD processzorok",
-            "1": "Magas magszám",
-            "2": "Nagy L3 gyorsítótár",
-            "3": "Magas órajelek"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD tároló",
-          "description": "Ultragyors NVMe szilárdtest-tároló 3000 MB/s-ot meghaladó szekvenciális olvasási sebességgel a gyors adatelérés érdekében.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-k",
-            "1": "3,000+ MB/s olvasási sebesség",
-            "2": "Alacsony késleltetésű I/O",
-            "3": "RAID redundancia"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS védelem",
-          "description": "A vállalati szintű DDoS-csökkentés még nagyszabású támadások esetén is online tartja VPS-ét.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Réteg 3/4/7 szűrés",
-            "1": "Automatizált élsúrolás",
-            "2": "Nulla leállási idő csökkentése",
-            "3": "Globális POP-ok"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Nagysebességű hálózat",
-          "description": "1 Gbps uplink alacsony késleltetésű útválasztással az optimális kapcsolatért, bárhol is legyenek a felhasználók.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps uplink",
-            "1": "Alacsony késleltetésű útválasztás",
-            "2": "Prémium peering",
-            "3": "IPv4 és IPv6 támogatás"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Teljes gyökér hozzáférés",
-          "description": "Teljes ellenőrzés a kiszolgálói környezet felett. Telepítsen bármilyen szoftvert, konfiguráljon bármilyen szolgáltatást, és futtasson bármilyen operációs rendszert.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Teljes SSH root hozzáférés",
-            "1": "Válassza ki a Linux disztribúciót",
-            "2": "KVM virtualizáció",
-            "3": "Egyedi ISO-támogatás"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 szakértői támogatás",
-          "description": "Csapatunk éjjel-nappal rendelkezésre áll, hogy segítsen a szerver beállításában, optimalizálásában és hibaelhárításában.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Discord támogatás",
-            "1": "Jegyrendszer",
-            "2": "Tudásbázis",
-            "3": "Szerver migrációs segítség"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Teljes root hozzáférést kapok a VPS-emhez?",
-          "answer": "Igen, minden AMD VPS-csomag tartalmaz teljes körű root hozzáférést SSH-n keresztül. Teljes körű ellenőrzést kap a szerverkörnyezet felett, beleértve az operációs rendszert, a szoftvereket és a konfigurációt."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Milyen operációs rendszerek állnak rendelkezésre?",
-          "answer": "Támogatjuk a népszerű Linux disztribúciókat, beleértve az Ubuntut, a Debiant, a CentOS-t, az AlmaLinuxot és a Rocky Linuxot. Saját egyéni ISO-t is feltölthet."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Frissíthetem később a VPS csomagomat?",
-          "answer": "Igen, bármikor frissítheti VPS-csomagját a számlázási panelen keresztül. Az erőforrás-növelés minimális leállási idővel történik."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Mi történik, ha túllépem a sávszélesség-korlátot?",
-          "answer": "A fogyasztásmérős csomagok esetében értesítjük Önt, mielőtt elérné a limitet. Bármikor vásárolhat további sávszélességet vagy frissíthet nem mérős csomagra."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Tartalmazza a DDoS-védelmet?",
-          "answer": "Igen, minden AMD VPS-csomag vállalati szintű DDoS-védelemmel rendelkezik. Ez megvédi a szerverét a 3., 4. és 7. rétegű támadásoktól, zéró leállási idejű törléssel."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Visszatérítést nyújtanak?",
-          "answer": "Igen, 48 órás pénzvisszafizetési garanciát kínálunk minden új VPS-vásárlásra. A vásárlást követő 48 órán belül lépjen kapcsolatba az ügyfélszolgálattal a teljes visszatérítésért."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "Megbízható KVM VPS vállalati Intel hardveren. Kiváló egyszálas teljesítmény webtárhelyekhez, adatbázisokhoz és alkalmazásszerverekhez.",
-      "heroDescription": "Sziklaszilárd KVM VPS Intel hardveren, NVMe SSD tárolóval, teljes root hozzáféréssel és vállalati DDoS védelemmel. Telepítés másodpercek alatt.",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
       "tag": "Intel Powered",
       "features": {
-        "0": "Vállalati Intel processzorok",
-        "1": "NVMe SSD tároló",
-        "2": "Teljes root / SSH hozzáférés",
-        "3": "DDoS védelem"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Teljes gyökér hozzáférés",
-        "1": "KVM virtualizáció",
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
         "2": "NVMe SSD",
-        "3": "DDoS védelem"
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
           "name": "Core",
-          "description": "Tökéletes kis projektekhez és web hostinghoz"
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Kiválóan alkalmas termelési alkalmazásokhoz"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Vállalat",
-          "description": "Ideális a nagy igényű szolgáltatásokhoz"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB Sávszélesség",
-        "bandwidthUnmetered": "Mérő nélküli sávszélesség",
-        "ddos": "DDoS védelem",
-        "ipv4": "Dedikált IPv4-cím",
-        "rootAccess": "Teljes Root / SSH hozzáférés",
-        "uptime": "99.9% üzemidő SLA"
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
+        "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Vállalati Intel hardver",
-          "description": "Vállalati szintű Intel hardverre épül, erős egyszálas teljesítményt nyújt webszerverek, adatbázisok és alkalmazások számára.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Vállalati Intel processzorok",
-            "1": "Erős egyszálas teljesítmény",
-            "2": "Nagyméretű gyorsítótár",
-            "3": "Magas órajelek"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD tároló",
-          "description": "Ultragyors NVMe szilárdtest-tároló, amely magas IOPS-értéket és alacsony késleltetést biztosít az I/O-intenzív alkalmazások számára.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
-            "0": "NVMe Gen 3/4 SSD-k",
-            "1": "Nagy IOPS teljesítmény",
-            "2": "Alacsony késleltetésű I/O",
-            "3": "RAID redundancia"
+            "0": "NVMe Gen 3/4 SSDs",
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS védelem",
-          "description": "A vállalati szintű DDoS-csökkentés még nagyszabású támadások esetén is online tartja VPS-ét.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Réteg 3/4/7 szűrés",
-            "1": "Automatizált élsúrolás",
-            "2": "Nulla leállási idő csökkentése",
-            "3": "Globális POP-ok"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Nagysebességű hálózat",
-          "description": "1 Gbps uplink alacsony késleltetésű útválasztással az optimális kapcsolatért, bárhol is legyenek a felhasználók.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1 Gbps uplink",
-            "1": "Alacsony késleltetésű útválasztás",
-            "2": "Prémium peering",
-            "3": "IPv4 és IPv6 támogatás"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Teljes gyökér hozzáférés",
-          "description": "Teljes ellenőrzés a kiszolgálói környezet felett. Telepítsen bármilyen szoftvert, konfiguráljon bármilyen szolgáltatást, és futtasson bármilyen operációs rendszert.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Teljes SSH root hozzáférés",
-            "1": "Válassza ki a Linux disztribúciót",
-            "2": "KVM virtualizáció",
-            "3": "Egyedi ISO-támogatás"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 szakértői támogatás",
-          "description": "Csapatunk éjjel-nappal rendelkezésre áll, hogy segítsen a szerver beállításában, optimalizálásában és hibaelhárításában.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Discord támogatás",
-            "1": "Jegyrendszer",
-            "2": "Tudásbázis",
-            "3": "Szerver migrációs segítség"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Teljes root hozzáférést kapok a VPS-emhez?",
-          "answer": "Igen, minden Intel VPS-csomag tartalmaz teljes körű root hozzáférést SSH-n keresztül. Teljes körű ellenőrzést kap a szerverkörnyezet felett, beleértve az operációs rendszert, a szoftvereket és a konfigurációt."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Milyen operációs rendszerek állnak rendelkezésre?",
-          "answer": "Támogatjuk a népszerű Linux disztribúciókat, beleértve az Ubuntut, a Debiant, a CentOS-t, az AlmaLinuxot és a Rocky Linuxot. Saját egyéni ISO-t is feltölthet."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Frissíthetem később a VPS csomagomat?",
-          "answer": "Igen, bármikor frissítheti VPS-csomagját a számlázási panelen keresztül. Az erőforrás-növelés minimális leállási idővel történik."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Mi történik, ha túllépem a sávszélesség-korlátot?",
-          "answer": "A fogyasztásmérős csomagok esetében értesítjük Önt, mielőtt elérné a limitet. Bármikor vásárolhat további sávszélességet vagy frissíthet nem mérős csomagra."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Tartalmazza a DDoS-védelmet?",
-          "answer": "Igen, minden Intel VPS-csomag vállalati szintű DDoS-védelemmel rendelkezik. Ez megvédi a szerverét a 3., 4. és 7. rétegű támadásoktól, zéró leállási idejű törléssel."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Visszatérítést nyújtanak?",
-          "answer": "Igen, 48 órás pénzvisszafizetési garanciát kínálunk minden új VPS-vásárlásra. A vásárlást követő 48 órán belül lépjen kapcsolatba az ügyfélszolgálattal a teljes visszatérítésért."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }

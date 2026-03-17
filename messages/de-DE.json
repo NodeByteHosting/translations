@@ -1,12 +1,12 @@
 {
   "nav": {
-    "company": "Unternehmen",
-    "services": "Dienstleistungen",
+    "company": "Firma",
+    "services": "Dienste",
     "resources": "Ressourcen",
     "extras": "Extras",
     "contact": "Kontakt",
-    "discord": "Diskord",
-    "joinDiscord": "Unserem Discord beitreten",
+    "discord": "Discord",
+    "joinDiscord": "Trete unserem Discord bei",
     "theme": "Thema",
     "currency": "Währung",
     "language": "Sprache",
@@ -15,342 +15,361 @@
   },
   "company": {
     "contact": {
-      "title": "Kontakt",
-      "description": "Nehmen Sie Kontakt mit unserem Team auf"
+      "title": "Kontaktiere uns",
+      "description": "Kontaktieren Sie unser Team"
     },
     "about": {
       "title": "Über uns",
       "description": "Erfahren Sie mehr über NodeByte"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Explore our open source projects"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Join our community and get support"
     }
   },
   "services": {
     "minecraft": {
-      "title": "Minecraft-Hosting",
+      "title": "Minecraft Hosting",
       "description": "Minecraft-Server mit sofortiger Einrichtung"
     },
     "rust": {
-      "title": "Rust-Hosting",
-      "description": "Rostige Server mit DDoS-Schutz"
+      "title": "Roster Hosting",
+      "description": "Rust Server mit DDoS Schutz"
     },
     "hytale": {
       "title": "Hytale Hosting",
-      "description": "Hytale-Server mit DDoS-Schutz"
-    },
-    "all": {
-      "title": "Alle Dienste",
-      "description": "Entdecken Sie alle unsere Hosting-Dienste"
+      "description": "Hytale Server mit DDoS-Schutz"
     },
     "gameServers": {
-      "title": "Spiel-Server",
-      "description": "Alle Spiele-Hosting-Optionen durchsuchen"
+      "title": "Game Servers",
+      "description": "Browse all game hosting options"
     },
     "vpsAmd": {
       "title": "AMD VPS",
-      "description": "Leistungsstarke virtuelle Server mit AMD-Unterstützung"
+      "description": "High performance AMD-powered virtual servers"
     },
     "vpsIntel": {
       "title": "Intel VPS",
-      "description": "Zuverlässige virtuelle Server mit Intel-Prozessor"
+      "description": "Reliable Intel-powered virtual servers"
     },
     "allVps": {
-      "title": "VPS-Server",
-      "description": "Alle VPS-Hosting-Optionen durchsuchen"
+      "title": "VPS Servers",
+      "description": "Browse all VPS hosting options"
     }
+  },
+  "servicesHome": {
+    "badge": "What We Offer",
+    "title": "Everything you need,",
+    "titleHighlight": "one place",
+    "description": "Game servers and VPS hosting built for performance. Instant setup, DDoS protection, and 24/7 expert support.",
+    "browsePlans": "Browse Plans",
+    "startingFrom": "From",
+    "customSolution": "Need something we don't list?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit."
   },
   "resources": {
     "clientArea": {
       "title": "Kundenbereich",
-      "description": "Verwalten von Abrechnungen, Rechnungen und Kontoeinstellungen"
+      "description": "Rechnungen, Rechnungen und Kontoeinstellungen verwalten"
     },
     "gamePanel": {
-      "title": "Spiel-Panel",
-      "description": "Steuern Sie Ihre Spieleserver mit unserem Panel"
-    }
-  },
-  "extras": {
+      "title": "Spielfeld",
+      "description": "Steuere deine Gameserver mit unserem Panel"
+    },
+    "vpsPanel": {
+      "title": "VPS Panel",
+      "description": "Manage your VPS instances and settings"
+    },
     "kb": {
-      "title": "Wissensdatenbank",
-      "description": "Leitfäden, Tutorials und Dokumentation"
+      "title": "Knowledge Base",
+      "description": "Guides, tutorials, and documentation"
     },
     "changelog": {
-      "title": "Was gibt's Neues?",
-      "description": "Neueste Updates und Funktionen"
+      "title": "What's New",
+      "description": "Latest updates and features"
     }
   },
   "hero": {
     "promo": {
-      "prefix": "BENUTZUNGSCODE",
-      "suffix": "BEI IHRER ERSTEN BESTELLUNG!"
+      "prefix": "CODE BENUTZEN",
+      "suffix": "AUF IHREN ERSTEN ORDER!"
     },
-    "title": "Server-Hosting",
+    "title": "Server Hosting",
     "titleHighlight": "Einfach gemacht",
-    "description": "Schnelles, zuverlässiges und sicheres Hosting für Gaming-Communities und Unternehmen. Starten Sie Gameserver oder VPS-Instanzen mit sofortiger Einrichtung, DDoS-Schutz und 24/7-Support.",
+    "description": "Fast, reliable, and secure hosting for gaming communities and businesses. Launch game servers or VPS instances with instant setup, DDoS protection, and 24/7 support.",
     "getStarted": "Los geht's",
-    "joinDiscord": "Discord beitreten",
-    "trustedBy": "Weltweites Vertrauen in Gaming-Communities",
+    "joinDiscord": "Trete Discord bei",
+    "trustedBy": "Vertraut von Spielgemeinschaften weltweit",
     "trustpilotReviews": "Trustpilot-Bewertungen",
     "stats": {
-      "uptime": "Betriebszeit-SLA",
-      "uptimeDesc": "Unternehmensredundanz hält Ihre Server online.",
-      "ping": "Avg. Ping",
-      "pingDesc": "Optimiertes Routing für Spiele mit niedriger Latenzzeit.",
+      "uptime": "Laufzeit-SLA",
+      "uptimeDesc": "Enterprise-Redundanz hält Ihre Server online.",
+      "ping": "Durchschn. Ping",
+      "pingDesc": "Optimiertes Routing für Low-Latency Gameplay.",
       "support": "Unterstützung",
-      "supportDesc": "Expertenhilfe bei Installationen, Mods und Serverbetrieb."
+      "supportDesc": "Experte Hilfe bei Installationen, Mods und Serverops."
     }
   },
   "features": {
     "badge": "Infrastruktur",
-    "title": "Gebaut für",
+    "title": "Erstellt für",
     "titleHighlight": "Leistung",
-    "description": "Eine für Unternehmen geeignete Infrastruktur, die auf Leistung und Zuverlässigkeit ausgelegt ist. Sofortige Bereitstellung, Routing mit niedriger Latenz und leistungsstarke Kontrollen für Spieleserver und VPS gleichermaßen.",
+    "description": "Enterprise grade infrastructure built for performance and reliability. Instant provisioning, low-latency routing, and powerful controls for game servers and VPS alike.",
     "viewPlans": "Hosting-Pläne anzeigen",
-    "startingFrom": "Ausgehend von",
+    "startingFrom": "Beginnend von",
     "items": {
       "ddos": {
-        "title": "DDoS-Schutz",
-        "description": "Mitigation auf Unternehmensniveau mit automatischer Traffic-Scrubbing-Funktion, um Ihre Server bei jedem Angriff online zu halten.",
+        "title": "DDoS Schutz",
+        "description": "Enterprise grade mitigation with automatic traffic scrubbing to keep your servers online under any attack.",
         "highlights": {
-          "0": "Schutz von Unternehmensnetzwerken",
-          "1": "Abschwächung der automatischen Skalierung",
-          "2": "Überwachung in Echtzeit"
+          "0": "Enterprise network protection",
+          "1": "Automatische Skalierung der Abschwächung",
+          "2": "Echtzeit-Überwachung"
         }
       },
       "latency": {
-        "title": "Netzwerk mit niedriger Latenzzeit",
-        "description": "Optimiertes Routing über mehrere Netzwerk-POPs für minimale Ping-Zeiten und gleichbleibende Leistung.",
+        "title": "Niedriges Latenznetz",
+        "description": "Optimized routing through multiple network POPs for minimal ping and consistent performance.",
         "highlights": {
-          "0": "Durchschnittliche Latenzzeit unter 50 ms",
-          "1": "Optimierte Streckenführung",
-          "2": "Premium-Peering"
+          "0": "Sub-50ms Avg Latenz",
+          "1": "Optimized routing",
+          "2": "Premium peering"
         }
       },
       "setup": {
-        "title": "Sofortige Einrichtung",
-        "description": "Servervorlagen mit einem Klick, automatische Mod-Installationen und schnelle Bereitstellung.",
+        "title": "Soforteinrichtung",
+        "description": "Ein-Klick-Server-Vorlagen, automatisierte Mod-Installationen und schnelle Bereitstellung.",
         "highlights": {
-          "0": "60-Sekunden-Einsätze",
+          "0": "60 Sekunden Deploys",
           "1": "Vorgefertigte Vorlagen",
           "2": "Automatische Konfiguration"
         }
       },
       "locations": {
-        "title": "Mehrere Rechenzentren",
-        "description": "Strategische Standorte in mehreren Regionen mit globalen POPs für die beste Abdeckung, wo immer sich Ihre Spieler oder Nutzer befinden.",
+        "title": "Multiple Data Centers",
+        "description": "Strategically located across multiple regions with global POPs for the best coverage wherever your players or users are.",
         "highlights": {
-          "0": "Globale POPs",
-          "1": "Tier-1-Netz",
-          "2": "Globale Abdeckung mit niedriger Latenzzeit"
+          "0": "Global POPs",
+          "1": "Tier-1 network",
+          "2": "Low latency global coverage"
         }
       },
       "panel": {
-        "title": "Bedienfeld",
-        "description": "Eine leistungsstarke Benutzeroberfläche für Konsolenzugriff, Dateiverwaltung, Backups und Metriken.",
+        "title": "Verwaltungspanel",
+        "description": "Eine leistungsstarke Benutzeroberfläche für Konsolenzugriff, Dateiverwaltung, Sicherungen und Metriken.",
         "highlights": {
           "0": "Live-Konsole",
-          "1": "Dateimanager",
+          "1": "Datei-Manager",
           "2": "Geplante Aufgaben"
         }
       },
       "support": {
-        "title": "24/7 Unterstützung",
-        "description": "Support, bei dem der Mensch im Vordergrund steht, mit Experten, die jederzeit für Installationen und Fehlerbehebungen zur Verfügung stehen.",
+        "title": "24/7 Support",
+        "description": "Menschliche Erstunterstützung mit Expertenops, jederzeit für Installationen und Fehlerbehebung.",
         "highlights": {
-          "0": "Discord-Unterstützung",
+          "0": "Discord Unterstützung",
           "1": "Ticket-System",
-          "2": "Wissensbasis"
+          "2": "Wissensdatenbank"
         }
       }
     }
   },
   "about": {
     "badge": "Unsere Geschichte",
-    "title": "Von Gamern gebaut,",
-    "titleHighlight": "für alle",
-    "paragraph1": "NodeByte begann als eine kleine Gruppe von Spielern und Ops-Ingenieure, die Hosting, die schnell, zuverlässig und einfach zu verwalten war wollte. Wir haben die Frustration von laggy Servern und unresponsive Unterstützung aus erster Hand erlebt.",
-    "paragraph2": "Aus diesem Grund haben wir eine Infrastruktur entwickelt, die sowohl für Spiele als auch für geschäftliche Workloads geeignet ist: Routing mit geringer Latenz, robuster DDoS-Schutz und sofortige Serverbereitstellung, damit Sie weniger Zeit mit der Verwaltung und mehr mit der Ausführung von Aufgaben verbringen können.",
-    "joinCommunity": "Werden Sie Mitglied unserer Gemeinschaft",
+    "title": "Erstellt von Gamern,",
+    "titleHighlight": "for Everyone",
+    "paragraph1": "NodeByte begann als eine kleine Gruppe von Gamern und Ops Ingenieuren, die ein Hosting wünschten, das schnell, zuverlässig und einfach zu verwalten war. Wir haben die Frustration von laggy-Servern und mangelnder Unterstützung aus erster Hand erlebt.",
+    "paragraph2": "That's why we built infrastructure tuned for both gaming and business workloads: low latency routing, robust DDoS protection, and instant server provisioning so you can spend less time managing and more time doing.",
+    "joinCommunity": "Trete unserer Community bei",
     "values": {
       "players": {
-        "title": "Für Sie gebaut",
-        "description": "Unsere Infrastruktur legt den Schwerpunkt auf Routing mit geringer Latenz, vorhersehbare Leistung und hohe Verfügbarkeit, damit Ihre Dienste online und reaktionsschnell bleiben - egal ob es sich um einen Spieleserver oder einen VPS handelt."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Gemeinschaft zuerst",
-        "description": "Von Mod-Installationen und Snapshot-Unterstützung bis hin zu benutzerdefinierten Anwendungsstacks geben wir Ihnen die Werkzeuge an die Hand, mit denen Sie mit minimalem Aufwand genau das erstellen und verwalten können, was Sie benötigen."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
-        "title": "Offen durch Design",
-        "description": "Wir legen Wert auf Transparenz - von klaren SLA-Verpflichtungen bis hin zu offenen Tools. Unsere Plattform bietet APIs und Integrationen zur Automatisierung von Server-Workflows."
+        "title": "Nach Design öffnen",
+        "description": "Unsere Plattform bietet APIs und Integrationen zur Automatisierung von Serverabläufen."
       }
     },
     "stats": {
-      "uptime": "Betriebszeit-SLA",
-      "latency": "Durchschnittliche Latenzzeit",
-      "support": "Unterstützung",
-      "servers": "Aktive Server",
-      "users": "Benutzer insgesamt",
-      "activeUsers": "Aktive Benutzer",
-      "allocations": "Zuteilungen"
+      "uptime": "Laufzeit-SLA",
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Uplink per Node"
     }
   },
   "pricing": {
-    "badge": "Preisgestaltung",
-    "title": "Server-Pläne",
-    "description": "Flexible Tarife, die Ihren Anforderungen entsprechen. Alle Pläne beinhalten DDoS-Schutz, sofortige Einrichtung und 24/7-Support.",
+    "badge": "Preis",
+    "title": "Serverpläne",
+    "description": "Flexible Pläne für Ihre Bedürfnisse. Alle Pläne beinhalten DDoS-Schutz, sofortige Einrichtung und 24/7 Support.",
     "getStarted": "Los geht's",
-    "viewAllPlans": "Alle Pläne anzeigen",
-    "comingSoon": "Preisgestaltung demnächst",
-    "comingSoonDescription": "Wir arbeiten daran, Ihnen das beste Hosting-Erlebnis zu bieten. Treten Sie unserem Discord bei, um benachrichtigt zu werden, wenn wir starten!",
-    "joinDiscord": "Discord beitreten",
-    "mostPopular": "Am beliebtesten",
-    "customSolution": "Sie benötigen eine individuelle Lösung oder haben Fragen?",
-    "contactUs": "Kontakt",
+    "viewAllPlans": "Alle Tarife anzeigen",
+    "comingSoon": "Die Preise kommen bald",
+    "comingSoonDescription": "Wir arbeiten daran, dir das beste Hosting zu bieten. Trete unserer Discord bei, um benachrichtigt zu werden, wenn wir starten!",
+    "joinDiscord": "Trete Discord bei",
+    "mostPopular": "Beliebteste",
+    "customSolution": "Brauchen Sie eine individuelle Lösung oder haben Sie Fragen?",
+    "contactUs": "Kontaktiere uns",
     "perMonth": "monat"
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Häufig gestellte Fragen",
+    "title": "Häufig gefragt",
     "titleHighlight": "Fragen",
-    "description": "Schnelle Antworten über NodeByte-Hosting, Leistung und Support.",
+    "description": "Schnelle Antworten zu NodeByte Hosting, Performance und Support.",
     "searchPlaceholder": "Fragen suchen...",
-    "noResults": "Keine Ergebnisse gefunden. Versuchen Sie, nach \"DDoS\", \"mods\" oder \"SLA\" zu suchen.",
+    "noResults": "Keine Ergebnisse gefunden. Versuchen Sie nach \"DDoS\", \"mods\" oder \"SLA\" zu suchen.",
     "stillHaveQuestions": "Haben Sie noch Fragen?",
-    "cantFind": "Sie können nicht finden, wonach Sie suchen? Unser Support-Team hilft Ihnen gerne weiter.",
-    "contactSupport": "Kontakt zum Support",
-    "joinDiscord": "Discord beitreten",
+    "cantFind": "Du kannst nicht finden, was du suchst? Unser Support-Team ist hier, um zu helfen.",
+    "contactSupport": "Support kontaktieren",
+    "joinDiscord": "Trete Discord bei",
     "items": {
       "provision": {
         "question": "Wie schnell kann ich einen Server bereitstellen?",
-        "answer": "Die meisten vorgefertigten Servervorlagen werden in weniger als 60 Sekunden bereitgestellt. Benutzerdefinierte Setups mit umfangreichen Mods können je nach Mod-Installationszeit länger dauern."
+        "answer": "Die meisten vorgebauten Server-Vorlagen in weniger als 60 Sekunden. Benutzerdefinierte Setups mit großen Mods können länger dauern, abhängig von der Zeit der Mod-Installation."
       },
       "ddos": {
-        "question": "Bieten Sie DDoS-Schutz an?",
-        "answer": "Ja, alle Tarife beinhalten DDoS-Abwehr in Unternehmensqualität mit automatischer Verkehrsfilterung und Scrubbing am Netzwerkrand, damit Ihr Dienst online bleibt."
+        "question": "Bieten Sie DDoS Schutz an?",
+        "answer": "Yes, all plans include enterprise grade DDoS mitigation with automatic traffic filtering and scrubbing at the network edge to keep your service online."
       },
       "locations": {
         "question": "Wo befinden sich Ihre Rechenzentren?",
-        "answer": "Wir arbeiten in mehreren Rechenzentren, um niedrige Latenzzeiten und Zuverlässigkeit für Ihre Dienste zu gewährleisten. Die einzelnen Standorte werden während der Kaufabwicklung angezeigt."
+        "answer": "We operate across multiple data center locations to ensure low latency and reliability for your services. Specific locations are shown during checkout."
       },
       "mods": {
-        "question": "Kann ich Mods und benutzerdefinierte Karten verwenden?",
-        "answer": "Ja, unser Kontrollpanel und unsere Vorlagen unterstützen gängige Mod-Loader (Forge, Fabric) und benutzerdefinierte Karten-Uploads. Managed Mod Support ist für ausgewählte Pläne verfügbar."
+        "question": "Kann ich Mods und benutzerdefinierte Karten ausführen?",
+        "answer": "Ja, unsere Systemsteuerung und Vorlagen unterstützen gewöhnliche Mod-Loader (Forge, Stoff) und benutzerdefinierte Kartenuploads. Managed Mod-Unterstützung ist auf ausgewählten Plänen verfügbar."
       },
       "uptime": {
-        "question": "Wie hoch ist Ihr SLA für die Betriebszeit?",
-        "answer": "Wir bieten eine SLA von 99,6 % Betriebszeit für Produktionspläne. Einzelheiten und Zulassungskriterien finden Sie in unseren Bedingungen."
+        "question": "Was ist Ihre Uptime SLA?",
+        "answer": "Wir bieten Ihnen 99,6% Uptime SLA in den Produktionsplänen an."
       },
       "trial": {
-        "question": "Kann ich eine Testversion erhalten, bevor ich mich verpflichte?",
-        "answer": "Ja, wir bieten neuen Nutzern kostenlose Testversionen an, um unsere Dienste zu testen, bevor sie eine Verpflichtung eingehen. Besuchen Sie unsere Seite für kostenlose Tests, um die verfügbaren Optionen zu sehen.",
+        "question": "Kann ich vor der Begehung eine Probeversion erhalten?",
+        "answer": "Ja, wir bieten kostenlose Testversuche für neue Benutzer an, unsere Dienste zu testen, bevor wir eine Verpflichtung eingehen. Besuchen Sie unsere kostenlose Testseite um die verfügbaren Optionen zu sehen.",
         "trialLink": "Kostenlose Testversion starten"
       }
     }
   },
   "games": {
-    "badge": "Spiel-Server",
-    "title": "Wählen Sie Ihr",
+    "badge": "Spielserver",
+    "title": "Wählen Sie Ihre",
     "titleHighlight": "Spiel",
-    "description": "Leistungsstarke Spieleserver mit niedriger Latenz. Sofortige Einrichtung, intuitives Bedienfeld und 24/7 Experten-Support.",
-    "viewPlans": "Pläne ansehen",
+    "description": "Powerful, low latency game servers. Instant setup, intuitive control panel, and 24/7 expert support.",
+    "viewPlans": "Pläne anzeigen",
     "learnMore": "Mehr erfahren",
-    "comingSoon": "Demnächst verfügbar",
-    "customSolution": "Sie brauchen einen Spieleserver, der nicht aufgelistet ist?",
-    "contactUs": "Kontakt",
-    "forCustom": "für maßgeschneiderte Lösungen.",
+    "comingSoon": "Demnächst",
+    "customSolution": "Brauchen Sie einen Spieleserver, der nicht aufgelistet ist?",
+    "contactUs": "Kontaktiere uns",
+    "forCustom": "für benutzerdefinierte Lösungen.",
+    "vpsCta": {
+      "title": "Also Need VPS Hosting?",
+      "description": "Full root access, NVMe SSD storage, and enterprise DDoS protection. Choose from AMD or Intel powered virtual servers.",
+      "button": "View VPS Plans"
+    },
     "hosting": "Hosting",
-    "joinWaitlist": "Auf Warteliste setzen",
+    "joinWaitlist": "Warteliste beitreten",
     "minecraft": {
-      "description": "Java- und Bedrock-Server mit Mod-Loadern, Plugins und voller Versionsunterstützung mit einem Klick.",
-      "tag": "Am beliebtesten",
+      "description": "Java & Bedrock Server mit einem Klick Mod Loader, Plugins und Vollversionsunterstützung.",
+      "tag": "Beliebteste",
       "features": {
-        "0": "Unterstützung für Schmiede und Gewebe",
+        "0": "Forge & Stoff-Support",
         "1": "Plugin-Verwaltung",
-        "2": "Automatische Backups",
-        "3": "Benutzerdefinierte JAR-Uploads"
+        "2": "Automatische Sicherungen",
+        "3": "Eigene JAR-Uploads"
       },
       "plans": {
         "ember": {
           "name": "Ember",
-          "description": "Perfekt für kleine Server und Tests"
+          "description": "Perfekt für kleine Server und Testen"
         },
         "blaze": {
-          "name": "Blaze",
-          "description": "Ideal für wachsende Gemeinschaften"
+          "name": "Lohe",
+          "description": "Großartig für wachsende Gemeinschaften"
         },
         "inferno": {
           "name": "Inferno",
-          "description": "Ideal für mittelgroße Gemeinden"
+          "description": "Ideal for medium sized communities"
         }
       },
       "planFeatures": {
-        "cpu": "Leistungsstarke CPU",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
         "storage": "{amount} GB Speicher",
         "databases": "10 MySQL-Datenbanken",
-        "ddos": "DDoS-Schutz",
+        "ddos": "DDoS Protection",
         "panel": "BytePanel",
-        "jars": "Auto/Vorinstallierte Gläser",
-        "uptime": "99.6% Betriebszeit SLA"
+        "jars": "Auto/Pre Installed jars",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "modLoaders": {
-          "title": "Ein-Klick-Mod-Lader",
-          "description": "Installieren Sie Forge, Fabric, Paper, Spigot und mehr mit einem einzigen Klick über unser Bedienfeld.",
+          "title": "Ein-Klick-Mod-Loader",
+          "description": "Installieren Sie Forge, Stoff, Papier, Spigot und vieles mehr mit einem Klick aus unserem Bedienfeld.",
           "highlights": {
-            "0": "Unterstützung für Schmiede und Gewebe",
-            "1": "Papier & Zapfenserver",
-            "2": "Bukkit-Kompatibilität",
-            "3": "Benutzerdefinierte JAR-Uploads"
+            "0": "Forge & Stoff-Support",
+            "1": "Papier- & Spigot Server",
+            "2": "Bukkit compatibility",
+            "3": "Eigene JAR-Uploads"
           }
         },
         "hardware": {
-          "title": "Leistungsstarke Hardware",
-          "description": "Prozessoren der Enterprise-Klasse mit NVMe-Speicher für rasend schnelle Leistung.",
+          "title": "Hochleistungs-Hardware",
+          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
           "highlights": {
-            "0": "Leistungsstarke CPUs",
-            "1": "NVMe-SSD-Speicher",
-            "2": "DDR4 ECC-Speicher",
-            "3": "Prozessoren mit hoher Taktfrequenz"
+            "0": "High performance CPUs",
+            "1": "NVMe SSD-Speicher",
+            "2": "DDR4 ECC memory",
+            "3": "High clock speed processors"
           }
         },
         "ddos": {
-          "title": "DDoS-Schutz",
-          "description": "DDoS-Abwehr in Unternehmensqualität hält Ihren Server auch bei den größten Angriffen online.",
+          "title": "DDoS Schutz",
+          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
           "highlights": {
-            "0": "Schutz der Schichten 3/4/7",
-            "1": "Filterung von Unternehmensnetzwerken",
-            "2": "Minimierung von Ausfallzeiten",
-            "3": "Unternehmens-POPs"
+            "0": "Layer 3/4/7 Schutz",
+            "1": "Enterprise network filtering",
+            "2": "Null Ausfallzeitbegrenzung",
+            "3": "Enterprise POPs"
           }
         },
         "instant": {
-          "title": "Sofortige Einrichtung",
-          "description": "Ihr Server ist innerhalb von Sekunden einsatzbereit. Beginnen Sie sofort nach dem Kauf zu spielen.",
+          "title": "Soforteinrichtung",
+          "description": "Dein Server wird innerhalb von Sekunden bereitgestellt. Beginne sofort nach dem Kauf zu spielen.",
           "highlights": {
-            "0": "Automatisierte Bereitstellung",
-            "1": "Vorkonfigurierte Einstellungen",
-            "2": "Fertig in weniger als 60 Sekunden",
+            "0": "Automatische Bereitstellung",
+            "1": "Pre configured settings",
+            "2": "Bereit in unter 60 Sekunden",
             "3": "Keine technischen Kenntnisse erforderlich"
           }
         },
         "ftp": {
-          "title": "Vollständiger FTP-Zugang",
-          "description": "Vollständiger Dateizugriff über FTP/SFTP. Einfaches Hochladen von Welten, Plugins und Konfigurationen.",
+          "title": "Voller FTP-Zugriff",
+          "description": "Vollständiger Dateizugriff via FTP/SFTP. Lade Welten, Plugins und Konfigurationen einfach hoch.",
           "highlights": {
             "0": "SFTP-Dateizugriff",
-            "1": "Webbasierter Dateimanager",
+            "1": "Web based file manager",
             "2": "Drag & Drop Uploads",
-            "3": "Automatische Backups"
+            "3": "Automatische Sicherungen"
           }
         },
         "slots": {
-          "title": "Unbegrenzte Spielautomaten",
-          "description": "Keine künstlichen Spielergrenzen. Nehmen Sie so viele Spieler auf, wie Ihre Hardware bewältigen kann.",
+          "title": "Unbegrenzte Slots",
+          "description": "Keine künstlichen Spielerbeschränkungen. Hosten Sie so viele Spieler wie Ihre Hardware.",
           "highlights": {
-            "0": "Keine Steckplatzbeschränkungen",
+            "0": "Keine Slot-Einschränkungen",
             "1": "Skalierbare Ressourcen",
-            "2": "Upgrade jederzeit möglich",
-            "3": "Gerechte Ressourcenzuweisung"
+            "2": "Aktualisieren Sie jederzeit",
+            "3": "gerechte Ressourcenallokation"
           }
         }
       },
@@ -361,34 +380,34 @@
         },
         "mods": {
           "question": "Kann ich Mods und Plugins installieren?",
-          "answer": "Ja! Wir unterstützen alle wichtigen Mod-Loader wie Forge, Fabric und NeoForge. Für Plugins unterstützen wir Paper, Spigot, Bukkit und Purpur. Sie können auch eigene JARs hochladen."
+          "answer": "Ja! Wir unterstützen alle wichtigen Mod-Loader, einschließlich Forge, Stoff und NeoForge. Für Plugins unterstützen wir Paper, Spigot, Bukkit und Purpur. Du kannst auch benutzerdefinierte JARs hochladen."
         },
         "upload": {
-          "question": "Wie lade ich meine bestehende Welt hoch?",
-          "answer": "Sie können Ihre Weltdateien über unseren webbasierten Dateimanager oder über SFTP hochladen. Ziehen Sie Ihren Weltordner einfach per Drag & Drop und er ist sofort einsatzbereit."
+          "question": "Wie lade ich meine existierende Welt hoch?",
+          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
         },
         "playerLimit": {
           "question": "Gibt es ein Spielerlimit?",
-          "answer": "Nein, wir setzen keine künstlichen Spielergrenzen. Ihr Server kann so viele Spieler beherbergen, wie Ihre zugewiesenen Ressourcen bewältigen können."
+          "answer": "Nein, wir legen keine künstlichen Spielergrenzen fest. Dein Server kann so viele Spieler hosten, wie deine zugewiesenen Ressourcen handhaben können."
         },
         "upgrade": {
-          "question": "Kann ich meinen Tarif später erweitern?",
-          "answer": "Ganz genau! Sie können Ihren Plan jederzeit über unser Abrechnungspanel aktualisieren oder herabstufen. Die Änderungen werden sofort und ohne Ausfallzeit wirksam."
+          "question": "Kann ich mein Paket später upgraden?",
+          "answer": "Absolut! Sie können Ihren Tarif jederzeit über unser Abrechnungsfenster aktualisieren oder herabstufen. Änderungen treten sofort ohne Ausfallzeiten in Kraft."
         },
         "refunds": {
-          "question": "Bieten Sie Rückerstattungen an?",
-          "answer": "Ja, wir bieten eine 48-Stunden-Geld-zurück-Garantie für alle Neukäufe. Wenn Sie nicht zufrieden sind, kontaktieren Sie den Support und Sie erhalten eine volle Rückerstattung."
+          "question": "Bieten Sie Erstattungen an?",
+          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
         }
       }
     },
     "rust": {
-      "description": "Leistungsstarkes Rust-Server-Hosting mit Oxide/uMod-Unterstützung und eigenen Kartenoptionen.",
+      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
       "tag": "Hohe Leistung",
       "features": {
-        "0": "Oxid/uMod-Unterstützung",
+        "0": "Oxide/uMod Unterstützung",
         "1": "Benutzerdefinierte Karten",
-        "2": "Planer löschen",
-        "3": "RCON-Zugang"
+        "2": "Scheduler löschen",
+        "3": "RCON Zugriff"
       },
       "plans": {
         "starter": {
@@ -405,325 +424,328 @@
         }
       },
       "planFeatures": {
-        "cpu": "Leistungsstarke CPU",
+        "cpu": "High Performance CPU",
         "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD-Speicher",
-        "ddos": "DDoS-Schutz",
-        "location": "Mehrere Standorte",
+        "storage": "{amount}GB SSD Speicher",
+        "ddos": "DDoS Protection",
+        "location": "Multiple Locations",
         "databases": "10 MySQL-Datenbanken",
-        "panel": "BytePanel (Spielkonsole)",
-        "oxide": "Oxid/Umod Unterstützt",
-        "rustplus": "Rust+ Unterstützt",
-        "uptime": "99.6% Betriebszeit SLA"
+        "panel": "BytePanel (Game Panel)",
+        "oxide": "Oxid/Umod unterstützt",
+        "rustplus": "Rost+ unterstützt",
+        "uptime": "99,6% Uptime SLA"
       },
       "pageFeatures": {
         "oxide": {
-          "title": "Oxid/uMod-Unterstützung",
-          "description": "Volle Unterstützung für Oxide- und uMod-Plugins. Installieren und verwalten Sie Plugins direkt über unser Bedienfeld.",
+          "title": "Oxide/uMod Unterstützung",
+          "description": "Vollständige Unterstützung für Oxide und uMod Plugins. Installieren und verwalten Sie Plugins direkt aus unserem Bedienfeld.",
           "highlights": {
-            "0": "Oxid mit einem Klick installieren",
+            "0": "One-Click-Oxid-Installation",
             "1": "Plugin-Manager",
-            "2": "Auto-Updates verfügbar",
-            "3": "Verwaltung von Genehmigungen"
+            "2": "Auto updates available",
+            "3": "Berechtigungsverwaltung"
           }
         },
         "maps": {
           "title": "Benutzerdefinierte Karten",
-          "description": "Verwenden Sie prozedural generierte Karten oder laden Sie Ihre eigenen Karten hoch. Vollständige Unterstützung der Kartenanpassung.",
+          "description": "Verwenden Sie prozedural generierte Karten oder laden Sie Ihre eigenen Karten hoch. Volle Kartenanpassung wird unterstützt.",
           "highlights": {
-            "0": "Prozedurale Erzeugung",
-            "1": "Benutzerdefinierte Karten-Uploads",
-            "2": "Kontrolle der Kartengröße",
-            "3": "Anpassung des Saatguts"
+            "0": "Prozessgenerierung",
+            "1": "Benutzerdefinierte Kartenuploads",
+            "2": "Kartengrößenkontrolle",
+            "3": "Seed-Anpassung"
           }
         },
         "performance": {
           "title": "Hohe Leistung",
-          "description": "Rust erfordert leistungsstarke Hardware. Unsere Server verwenden leistungsstarke CPUs und NVMe-Speicher für ein reibungsloses Erlebnis.",
+          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
           "highlights": {
-            "0": "Leistungsstarke CPUs",
-            "1": "NVMe-SSD-Speicher",
-            "2": "Hohe Single-Thread-Leistung",
-            "3": "Netzwerke mit niedriger Latenzzeit"
+            "0": "High performance CPUs",
+            "1": "NVMe SSD-Speicher",
+            "2": "High single thread performance",
+            "3": "Netzwerk mit niedriger Latenz"
           }
         },
         "ddos": {
-          "title": "DDoS-Schutz",
-          "description": "DDoS-Abwehr auf Unternehmensniveau über mehrere Netzwerk-POPs schützt Ihren Server rund um die Uhr vor Angriffen.",
+          "title": "DDoS Schutz",
+          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
           "highlights": {
-            "0": "Filterung von Unternehmensnetzwerken",
-            "1": "Globale POPs",
-            "2": "Schutz der Schichten 3/4/7",
-            "3": "Keine Ausfallzeiten"
+            "0": "Enterprise network filtering",
+            "1": "Global POPs",
+            "2": "Layer 3/4/7 Schutz",
+            "3": "Keine Ausfallzeit"
           }
         },
         "wipe": {
-          "title": "Planer wischen",
-          "description": "Automatisierte Löschplanung, um Ihren Server frisch zu halten. Konfigurieren Sie wöchentliche, zweiwöchentliche oder monatliche Löschungen.",
+          "title": "Scheduler löschen",
+          "description": "Automatische Löschplanung, um den Server aktuell zu halten. Konfigurieren Sie wöchentliche, zweiwöchige oder monatliche Wische.",
           "highlights": {
-            "0": "Automatisierte Wischtücher",
-            "1": "Optionen zum Löschen von Blaupausen",
-            "2": "Zeitplan für das Wischen der Karte",
-            "3": "Discord-Benachrichtigungen"
+            "0": "Automatisierte Löschungen",
+            "1": "Blaupausenlösch-Optionen",
+            "2": "Karten-Löschplanung",
+            "3": "Discord Benachrichtigungen"
           }
         },
         "rcon": {
-          "title": "Vollständiger RCON-Zugang",
-          "description": "Vollständiger Fernzugriff auf die Konsole für die Serververwaltung. Führen Sie Befehle von überall aus.",
+          "title": "Voller RCON Zugriff",
+          "description": "Vollständige Remote-Konsolenzugriff für Serververwaltung. Führe Befehle von überall aus.",
           "highlights": {
-            "0": "Webbasierte RCON",
-            "1": "Zeitplanung für Befehle",
-            "2": "Verwaltung der Spieler",
-            "3": "Protokolle in Echtzeit"
+            "0": "Web-basierte RCON",
+            "1": "Befehlsplanung",
+            "2": "Spieler-Verwaltung",
+            "3": "Echtzeitprotokolle"
           }
         }
       },
       "faqs": {
         "oxide": {
-          "question": "Unterstützen Sie Oxide/uMod-Plugins?",
-          "answer": "Ja! Wir unterstützen Oxide und uMod vollständig. Sie können Oxide mit einem Klick von unserem Kontrollpanel aus installieren und Plugins über unseren Plugin-Manager oder per FTP verwalten."
+          "question": "Unterstützst du Oxide/uMod Plugins?",
+          "answer": "Ja! Wir unterstützen Oxide und uMod. Sie können Oxide mit einem Klick aus unserem Bedienfeld installieren und Plugins über unseren Plugin-Manager oder per FTP verwalten."
         },
         "maps": {
           "question": "Kann ich benutzerdefinierte Karten verwenden?",
-          "answer": "Aber sicher! Sie können prozedural generierte Karten mit eigenen Seeds und Größen verwenden oder Ihre eigenen Kartendateien per FTP hochladen."
+          "answer": "Absolut! Sie können prozedural generierte Karten mit benutzerdefinierten Seeds und Größen verwenden oder Ihre eigenen Kartendateien per FTP hochladen."
         },
         "wipe": {
-          "question": "Wie funktioniert der Wischzeitplaner?",
-          "answer": "Mit unserem Wipe-Scheduler können Sie Server-Löschungen nach einem von Ihnen gewählten Zeitplan automatisieren. Sie können Wipes konfigurieren, die sich nur auf die Karte beziehen, oder komplette Blaupausen wischen und optional Discord-Benachrichtigungen senden."
+          "question": "Wie funktioniert der Löschplaner?",
+          "answer": "Mit unserem Wischplaner können Sie Serverwischereien nach Ihren Wünschen automatisieren. Du kannst nur Kartenlöschungen oder komplette Blaupausenwischereien konfigurieren und wahlweise Discord-Benachrichtigungen senden."
         },
         "tickRate": {
-          "question": "Wie hoch ist die Tickrate des Servers?",
-          "answer": "Unsere Rust-Server laufen mit der Standard-Tickrate von 30. Unsere Hochleistungshardware sorgt für eine gleichbleibende Leistung, auch wenn viele Spieler online sind."
+          "question": "Was ist der Server-Tick-Rat?",
+          "answer": "Unsere Rust Server laufen mit der voreingestellten 30-Tick-Rate."
         },
         "rcon": {
-          "question": "Kann ich auf RCON zugreifen?",
-          "answer": "Ja, Sie erhalten vollen RCON-Zugang. Sie können unsere webbasierte RCON-Konsole verwenden oder sich mit einem beliebigen Standard-RCON-Client verbinden."
+          "question": "Kann ich auf RKO zugreifen?",
+          "answer": "Ja, Sie erhalten vollen RCON Zugriff. Sie können unsere Web-basierte RCON Konsole verwenden oder sich mit jedem RCON Client verbinden."
         },
         "modded": {
           "question": "Unterstützen Sie modifizierte Server?",
-          "answer": "Ja, wir unterstützen sowohl Vanilla- als auch modifizierte Rust-Server. Installieren Sie Oxide und fügen Sie alle Plugins, die Sie benötigen, um Ihre perfekte modded Erfahrung zu schaffen."
+          "answer": "Ja, wir unterstützen sowohl Vanilla als auch modded Rust Server. Installieren Sie Oxide und fügen Sie alle Plugins hinzu, die Sie benötigen, um Ihr perfektes modded Erlebnis zu erstellen."
         }
       }
     },
     "hytale": {
-      "description": "Starten Sie Ihren Hytale-Server noch heute. Volle Mod-Unterstützung, sofortige Einrichtung und 24/7 Experten-Support vom ersten Tag an.",
-      "tag": "Früher Zugang",
+      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
+      "tag": "Early Access",
       "features": {
         "0": "Mod-Unterstützung",
         "1": "Benutzerdefinierte Karten",
         "2": "Einfache Konfiguration",
-        "3": "24/7 Unterstützung"
+        "3": "24/7 Support"
       }
-    },
-    "vpsCta": {
-      "title": "Brauchen Sie auch VPS-Hosting?",
-      "description": "Vollständiger Root-Zugriff, NVMe-SSD-Speicher und DDoS-Schutz für Unternehmen. Wählen Sie zwischen AMD- und Intel-basierten virtuellen Servern.",
-      "button": "VPS-Pläne ansehen"
     }
   },
   "gamePage": {
     "features": {
       "badge": "Eigenschaften",
-      "title": "Warum wählen Sie unser",
+      "title": "Warum wählen Sie unsere",
       "titleSuffix": "Hosting",
-      "description": "Speziell auf {game}-Server zugeschnittene Infrastruktur der Unternehmensklasse."
+      "description": "Enterprise grade infrastructure tailored specifically for {game} servers."
     },
     "pricing": {
-      "badge": "Preisgestaltung",
-      "title": "Server-Pläne",
-      "description": "Flexible Tarife, die Ihren Anforderungen entsprechen. Alle Pläne beinhalten DDoS-Schutz, sofortige Einrichtung und 24/7-Support.",
-      "comingSoon": "Preisgestaltung demnächst",
-      "comingSoonDesc": "Wir arbeiten daran, Ihnen das beste {game}-Hosting-Erlebnis zu bieten. Treten Sie unserem Discord bei, um benachrichtigt zu werden, wenn wir starten!",
-      "joinDiscord": "Discord beitreten",
-      "mostPopular": "Am beliebtesten",
+      "badge": "Preis",
+      "title": "Serverpläne",
+      "description": "Flexible Pläne für Ihre Bedürfnisse. Alle Pläne beinhalten DDoS-Schutz, sofortige Einrichtung und 24/7 Support.",
+      "comingSoon": "Die Preise kommen bald",
+      "comingSoonDesc": "Wir arbeiten daran, dir das beste {game} Hosting-Erlebnis zu bieten. Trete unserer Discord bei, um benachrichtigt zu werden, wenn wir starten!",
+      "joinDiscord": "Trete Discord bei",
+      "mostPopular": "Beliebteste",
       "getStarted": "Los geht's",
-      "viewAllPlans": "Alle Pläne anzeigen",
-      "customSolution": "Sie benötigen eine individuelle Lösung oder haben Fragen?",
-      "contactUs": "Kontakt"
+      "viewAllPlans": "Alle Tarife anzeigen",
+      "customSolution": "Brauchen Sie eine individuelle Lösung oder haben Sie Fragen?",
+      "contactUs": "Kontaktiere uns",
+      "outOfStock": "Currently Out of Stock",
+      "outOfStockDesc": "{game} plans are temporarily out of stock. Join our Discord to be notified when stock is available!",
+      "outOfStockNote": "This only means we're out of stock on a specific node we can provision and boot additional nodes on request. Contact our team for more info!",
+      "filters": {
+        "search": "Search plans...",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
+      }
     },
     "faq": {
       "badge": "FAQ",
       "title": "Fragen",
-      "description": "Häufige Fragen zu unserem {game}-Hosting-Service.",
+      "description": "Häufige Fragen zu unserem {game} Hosting-Service.",
       "stillHaveQuestions": "Haben Sie noch Fragen?",
-      "supportAvailable": "Unser Support-Team steht Ihnen rund um die Uhr zur Verfügung, um Ihnen bei allen Fragen zu helfen.",
-      "askOnDiscord": "Auf Discord fragen",
-      "contactSupport": "Kontakt zum Support"
+      "supportAvailable": "Unser Support-Team steht Ihnen rund um die Uhr für Fragen zur Verfügung.",
+      "askOnDiscord": "Frage bei Discord",
+      "contactSupport": "Support kontaktieren"
     },
     "hero": {
-      "joinWaitlist": "Auf Warteliste setzen",
-      "viewPlans": "Pläne ansehen",
+      "joinWaitlist": "Warteliste beitreten",
+      "viewPlans": "Pläne anzeigen",
       "learnMore": "Mehr erfahren",
-      "comingSoon": "Demnächst verfügbar",
-      "joinDiscordForUpdates": "Treten Sie unserem Discord für Updates bei"
+      "comingSoon": "Demnächst",
+      "joinDiscordForUpdates": "Trete unserem Discord für Updates bei"
     }
   },
   "contact": {
     "badge": "Kontakt aufnehmen",
     "title": "Kontakt",
     "titleHighlight": "NodeByte",
-    "description": "Wir sind rund um die Uhr für Sie da. Wenden Sie sich über einen unserer Support-Kanäle an uns und wir melden uns so schnell wie möglich bei Ihnen.",
+    "description": "Wir sind hier, um rund um die Uhr zu helfen. Erreiche dich über jeden unserer Support-Kanäle und wir werden uns so schnell wie möglich bei dir melden.",
     "supportChannels": "Support-Kanäle",
     "copied": "Kopiert!",
-    "copiedDesc": "E-Mail Adresse in die Zwischenablage kopiert",
-    "copyFailed": "Kopie fehlgeschlagen",
-    "copyFailedDesc": "Kopieren in die Zwischenablage fehlgeschlagen",
+    "copiedDesc": "E-Mail-Adresse in Zwischenablage kopiert",
+    "copyFailed": "Kopieren fehlgeschlagen",
+    "copyFailedDesc": "Fehler beim Kopieren in die Zwischenablage",
     "discord": {
-      "title": "Discord-Gemeinschaft",
-      "description": "Treten Sie unserer Community bei, um sofortige Unterstützung, Ankündigungen und Chats mit anderen Nutzern zu erhalten.",
-      "button": "Discord beitreten",
+      "title": "Discord Community",
+      "description": "Treten Sie unserer Community bei für sofortigen Support, Ankündigungen und Chat mit anderen Benutzern.",
+      "button": "Trete Discord bei",
       "features": {
         "0": "Sofortige Antworten",
-        "1": "Hilfe der Gemeinschaft",
+        "1": "Gemeinschaftshilfe",
         "2": "Ankündigungen"
       }
     },
     "github": {
-      "title": "GitHub-Diskussionen",
-      "description": "Melden Sie Fehler, schlagen Sie Funktionen vor, und tragen Sie zu unseren Open-Source-Projekten bei.",
-      "button": "GitHub öffnen",
+      "title": "GitHub Discussions",
+      "description": "Melden Sie Fehler, schlagen Sie Funktionen vor und tragen Sie zu unseren Open-Source-Projekten bei.",
+      "button": "Open GitHub",
       "features": {
         "0": "Fehlerberichte",
         "1": "Feature-Anfragen",
-        "2": "Offene Quelle"
+        "2": "Quelle öffnen"
       }
     },
     "ticket": {
       "title": "Support-Ticket",
-      "description": "Senden Sie ein Ticket über unser Abrechnungspanel für kontobezogene Probleme.",
+      "description": "Senden Sie ein Ticket über unser Abrechnungsfeld für kontenbezogene Fragen.",
       "button": "Ticket öffnen"
     },
     "email": {
-      "badge": "E-Mail-Unterstützung",
-      "title": "Bevorzugen Sie E-Mail? Wir haben das Richtige für Sie",
-      "responseTime": "Reaktionszeit: in der Regel innerhalb von 24 Stunden",
+      "badge": "E-Mail Support",
+      "title": "E-Mail bevorzugen? Wir haben dich abgedeckt",
+      "responseTime": "Antwortzeit: Normalerweise innerhalb von 24 Stunden",
       "departments": "Abteilungs-E-Mails",
-      "technical": "Technische Unterstützung",
-      "technicalDesc": "Serverprobleme und technische Hilfe",
-      "general": "Allgemeine Unterstützung",
+      "technical": "Technischer Support",
+      "technicalDesc": "Server-Probleme & technische Hilfe",
+      "general": "Allgemeiner Support",
       "generalDesc": "Allgemeine Fragen & Hilfe",
-      "account": "Kontoprobleme",
-      "accountDesc": "Probleme mit Login und Konto",
-      "billing": "Anfragen zur Rechnungsstellung",
-      "billingDesc": "Zahlungen und Rechnungen"
+      "account": "Probleme des Kontos",
+      "accountDesc": "Anmelde- und Kontoprobleme",
+      "billing": "Zahlungsanfragen",
+      "billingDesc": "Zahlungen & Rechnungen"
     },
     "social": {
       "title": "Folgen Sie uns",
       "description": "Bleiben Sie auf dem Laufenden mit Neuigkeiten, Tipps und Community-Updates"
     },
     "warning": {
-      "title": "Wichtiger Hinweis",
-      "description": "Wir führen keine Abrechnungen oder kontobezogenen Support über Discord durch. Aus Gründen des Datenschutzes und der Sicherheit kontaktieren Sie uns bei sensiblen Angelegenheiten bitte unter support@nodebyte.host."
+      "title": "Wichtige Nachricht",
+      "description": "Wir behandeln keine Abrechnungs- oder kontenbezogenen Support via Discord. Für Privatsphäre und Sicherheit kontaktieren Sie uns bitte unter support@nodebyte.host für sensible Angelegenheiten."
     }
   },
   "footer": {
-    "tagline": "Schnelle, zuverlässige, skalierbare und sichere Hosting-Services für Spiele und Unternehmen. Spieleserver, VPS-Hosting und mehr. Gebaut für Menschen. Angetrieben von Bytes.",
+    "tagline": "Fast, reliable, scalable and secure hosting services for gaming and business. Game servers, VPS hosting, and more. Built for Humans. Powered by Bytes.",
     "getInTouch": "Kontakt aufnehmen",
-    "emailUs": "E-Mail",
+    "emailUs": "E-Mail uns",
     "support": "Unterstützung",
-    "contactTeam": "Kontakt zu unserem Team",
-    "quickLinks": "Schnelle Links",
-    "legal": "Rechtliches",
-    "status": "Alle Systeme einsatzbereit",
+    "contactTeam": "Kontaktieren Sie unser Team",
+    "quickLinks": "Schnelllinks",
+    "legal": "Rechtlich",
+    "status": "Alle Systeme operativ",
     "copyright": "Alle Rechte vorbehalten.",
-    "builtWith": "Gebaut mit",
+    "builtWith": "Erstellt mit",
     "statusLabels": {
-      "operational": "Alle Systeme einsatzbereit",
-      "degraded": "Verschlechterte Leistung",
-      "maintenance": "Unter Wartung"
+      "operational": "Alle Systeme operativ",
+      "degraded": "Degradierte Leistung",
+      "maintenance": "Wartungsarbeiten"
     },
     "services": {
-      "minecraftHosting": "Minecraft Hosting",
-      "rustHosting": "Roster Hosting",
-      "gamePanel": "Spiel-Panel",
-      "clientArea": "Kundenbereich",
-      "gameServers": "Spiel-Hosting",
-      "vpsServers": "VPS-Hosting",
-      "vpsPanel": "VPS-Panel"
+      "gameServers": "Game Hosting",
+      "vpsServers": "VPS Hosting",
+      "gamePanel": "Spielfeld",
+      "vpsPanel": "VPS Panel"
     },
     "resources": {
-      "discordServer": "Diskord-Server",
-      "serviceStatus": "Dienststatus",
+      "discordServer": "Discord Server",
+      "serviceStatus": "Service-Status",
       "knowledgeBase": "Wissensdatenbank",
-      "trustPilot": "Trustpilot",
-      "billingPanel": "Abrechnungspanel"
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
-      "terms": "Bedingungen und Konditionen",
-      "privacy": "Datenschutzbestimmungen",
-      "refund": "Erstattungspolitik",
-      "legalHub": "Juristische Drehscheibe"
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzerklärung",
+      "refund": "Erstattungsrichtlinie",
+      "legalHub": "Rechtlicher Hub"
     },
     "company": {
       "aboutNodeByte": "Über NodeByte",
-      "contact": "Kontakt",
-      "companyInfo": "Infos zum Unternehmen",
-      "changes": "Änderungsliste"
+      "contact": "Kontaktiere uns",
+      "companyInfo": "Firmeninfo",
+      "changes": "Changelog"
     },
     "trustpilot": {
-      "reviews": "bewertungen",
+      "reviews": "rezensionen",
       "readReviews": "Lesen Sie unsere Bewertungen"
     }
   },
   "common": {
-    "loading": "Laden...",
+    "loading": "Wird geladen...",
     "error": "Etwas ist schief gelaufen",
     "retry": "Erneut versuchen",
     "learnMore": "Mehr erfahren",
     "getStarted": "Los geht's",
-    "comingSoon": "Demnächst verfügbar"
+    "comingSoon": "Demnächst"
   },
   "changelog": {
-    "badge": "Was gibt's Neues?",
-    "title": "Änderungsliste",
-    "titleHighlight": "& Aktualisierungen",
-    "description": "Bleiben Sie auf dem Laufenden über die neuesten Versionen, Funktionen und Verbesserungen in allen NodeByte-Projekten.",
-    "searchPlaceholder": "Suche nach Veröffentlichungen...",
+    "badge": "Was ist neu",
+    "title": "Changelog",
+    "titleHighlight": "& Updates",
+    "description": "Bleiben Sie auf dem Laufenden mit den neuesten Versionen, Funktionen und Verbesserungen in allen NodeByte-Projekten.",
+    "searchPlaceholder": "Versionen suchen...",
     "filters": {
       "all": "Alle Repositories",
       "allTypes": "Alle Typen",
-      "feature": "Merkmal",
+      "feature": "Feature",
       "bugfix": "Fehlerbehebung",
       "improvement": "Verbesserung",
-      "breaking": "Umbruch",
+      "breaking": "Bruchänderung",
       "security": "Sicherheit"
     },
     "release": {
-      "viewOnGithub": "Ansicht auf GitHub",
+      "viewOnGithub": "Auf GitHub anzeigen",
       "publishedOn": "Veröffentlicht am",
       "by": "von",
-      "assets": "Vermögenswerte",
-      "downloadAsset": "Herunterladen",
-      "noAssets": "Keine Vermögenswerte verfügbar",
-      "preRelease": "Vorabveröffentlichung",
+      "assets": "Assets",
+      "downloadAsset": "Download",
+      "noAssets": "Keine Assets verfügbar",
+      "preRelease": "Pre-Release",
       "latest": "Neueste",
       "draft": "Entwurf"
     },
     "empty": {
-      "title": "Keine Freigaben gefunden",
-      "description": "Versuchen Sie, Ihre Suche oder Ihre Filter anzupassen, um das zu finden, was Sie suchen.",
+      "title": "Keine Releases gefunden",
+      "description": "Stellen Sie Ihre Suche oder Ihre Filter so ein, dass sie das finden, was Sie suchen.",
       "clearFilters": "Filter löschen"
     },
     "loading": {
-      "title": "Veröffentlichungen laden...",
-      "description": "Abruf der neuesten Updates aus unseren Repositories."
+      "title": "Lade Versionen...",
+      "description": "Die neuesten Updates werden aus unseren Repositories abgerufen."
     },
     "error": {
-      "title": "Fehler beim Laden von Veröffentlichungen",
-      "description": "Es ist ein Fehler beim Abrufen von Veröffentlichungen aufgetreten. Bitte versuchen Sie es später noch einmal.",
+      "title": "Fehler beim Laden der Releases",
+      "description": "Beim Abrufen der Releases ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
       "retry": "Erneut versuchen"
     },
     "stats": {
-      "totalReleases": "Freisetzungen insgesamt",
+      "totalReleases": "Gesamte Releases",
       "repositories": "Repositories",
-      "latestUpdate": "Letzte Aktualisierung"
+      "latestUpdate": "Neueste Aktualisierung"
     },
-    "viewAll": "Alle Veröffentlichungen anzeigen",
+    "viewAll": "Alle Versionen anzeigen",
     "showMore": "Mehr anzeigen",
     "showLess": "Weniger anzeigen",
     "pagination": {
       "previous": "Vorherige",
-      "next": "Weiter",
+      "next": "Nächste",
       "page": "Seite",
       "of": "von"
     },
@@ -732,55 +754,55 @@
   },
   "kb": {
     "title": "Wissensdatenbank",
-    "description": "Hier finden Sie Antworten, Tutorials und Anleitungen, die Ihnen helfen, das Beste aus Ihrer NodeByte-Erfahrung herauszuholen.",
+    "description": "Finde Antworten, Tutorials und Anleitungen, um dir zu helfen, das Beste aus deiner NodeByte-Erfahrung herauszuholen.",
     "searchPlaceholder": "Wissensdatenbank durchsuchen...",
     "browseByCategory": "Nach Kategorie suchen",
     "recentlyUpdated": "Kürzlich aktualisiert",
     "articles": "artikel",
-    "minRead": "min lesen",
+    "minRead": "min gelesen",
     "updated": "Aktualisiert",
     "onThisPage": "Auf dieser Seite",
     "backTo": "Zurück zu",
     "previous": "Vorherige",
-    "next": "Weiter",
+    "next": "Nächste",
     "noResults": {
       "title": "Keine Ergebnisse gefunden",
-      "description": "Probieren Sie verschiedene Schlüsselwörter aus oder durchsuchen Sie Kategorien",
+      "description": "Probieren Sie verschiedene Suchbegriffe oder Kategorien",
       "forQuery": "Keine Ergebnisse gefunden für"
     },
     "empty": {
       "title": "Noch keine Artikel",
-      "description": "In dieser Kategorie gibt es noch keine Artikel. Schauen Sie bald wieder vorbei!"
+      "description": "Diese Kategorie hat noch keine Artikel. Schauen Sie bald wieder!"
     },
     "help": {
       "title": "Brauchen Sie noch Hilfe?",
-      "description": "Sie können nicht finden, was Sie suchen? Wir sind hier, um zu helfen.",
+      "description": "Du kannst nicht finden, was du suchst? Wir sind hier, um zu helfen.",
       "discord": {
-        "title": "Discord-Gemeinschaft",
-        "description": "Treten Sie unserem Discord bei, um Live-Support und Hilfe von der Community zu erhalten.",
-        "button": "Discord beitreten"
+        "title": "Discord Community",
+        "description": "Trete unserer Discord bei für Live-Unterstützung und Hilfe aus der Gemeinschaft.",
+        "button": "Trete Discord bei"
       },
       "ticket": {
         "title": "Support-Ticket",
-        "description": "Eröffnen Sie ein Support-Ticket für Konto- oder Rechnungsprobleme.",
+        "description": "Öffnen Sie ein Support-Ticket für Account- oder Rechnungsprobleme.",
         "button": "Ticket öffnen"
       },
       "faq": {
         "title": "FAQ",
-        "description": "In unseren häufig gestellten Fragen finden Sie schnelle Antworten.",
-        "button": "FAQ anzeigen"
+        "description": "Lesen Sie unsere häufig gestellten Fragen für schnelle Antworten.",
+        "button": "FAQ ansehen"
       }
     },
     "search": {
       "dialogTitle": "Wissensdatenbank durchsuchen",
-      "button": "Suche"
+      "button": "Suchen"
     }
   },
   "theme": {
-    "toggle": "Themenmenü öffnen",
-    "appearance": "Erscheinungsbild",
-    "light": "Licht",
-    "dark": "Dunkelheit",
+    "toggle": "Theme-Menü öffnen",
+    "appearance": "Erscheinung",
+    "light": "Hell",
+    "dark": "Dunkel",
     "system": "System",
     "coolTones": "Kühle Töne",
     "warmTones": "Warme Töne",
@@ -791,196 +813,202 @@
     "forest": "Wald",
     "sunset": "Sonnenuntergang",
     "rose": "Rose",
-    "amber": "Bernstein",
+    "amber": "Bernhard",
     "emerald": "Smaragd",
-    "teal": "Türkisblau",
+    "teal": "Türkis",
     "sky": "Himmel",
     "violet": "Violett"
   },
   "gamesPage": {
-    "title": "Spiel-Server-Hosting",
-    "description": "Leistungsstarkes Gameserver-Hosting mit sofortiger Einrichtung, leistungsstarkem Control Panel und 24/7-Support durch Experten.",
-    "startingAt": "Beginnend bei"
+    "title": "Gameserver Hosting",
+    "description": "Hochleistungs-Game-Server-Hosting mit sofortiger Einrichtung, leistungsstarker Systemsteuerung und 24/7 Experten-Support.",
+    "startingAt": "Beginnend um"
+  },
+  "vpsPage": {
+    "title": "VPS Hosting",
+    "description": "High-performance virtual private servers with full root access, NVMe SSD storage, DDoS protection, and 24/7 expert support.",
+    "startingAt": "Starting at"
   },
   "accessibility": {
-    "loading": "Laden",
+    "loading": "Lädt",
     "pagination": "paginierung",
     "previous": "Vorherige",
-    "next": "Weiter",
-    "morePages": "Mehr Seiten",
-    "previousSlide": "Vorheriges Dia",
-    "nextSlide": "Nächstes Dia",
-    "breadcrumb": "brotkrümel",
+    "next": "Nächste",
+    "morePages": "Weitere Seiten",
+    "previousSlide": "Vorherige Folie",
+    "nextSlide": "Nächste Folie",
+    "breadcrumb": "Brotkrumen",
     "more": "Mehr",
     "toggleSidebar": "Seitenleiste umschalten",
-    "goToSlide": "Zum Dia gehen"
+    "goToSlide": "Zur Folie gehen"
   },
   "aboutPage": {
     "badge": "Über NodeByte",
     "hero": {
-      "title": "Von Gamern gebaut,",
-      "titleHighlight": "für alle",
-      "description": "NodeByte begann als eine kleine Gruppe von Gamern und Ops-Ingenieuren, die ein schnelles, zuverlässiges und einfach zu verwaltendes Hosting wollten. Heute betreiben wir weltweit Gameserver und VPS-Instanzen.",
-      "joinCommunity": "Werden Sie Mitglied unserer Gemeinschaft",
-      "contactUs": "Kontakt"
+      "title": "Erstellt von Gamern,",
+      "titleHighlight": "for Everyone",
+      "description": "NodeByte started as a small group of gamers and ops engineers who wanted hosting that was fast, reliable, and easy to manage. Today, we power game servers and VPS instances worldwide.",
+      "joinCommunity": "Trete unserer Community bei",
+      "contactUs": "Kontaktiere uns"
     },
     "story": {
       "badge": "Unsere Geschichte",
-      "title": "Wie alles anfing",
-      "paragraph1": "NodeByte wurde aus Frustration geboren. Als begeisterte Spieler selbst, erlebten wir aus erster Hand den Schmerz von laggy Servern, nicht reagierende Unterstützung, und komplexe Bedienfelder, die Server-Management ein Alptraum gemacht.",
-      "paragraph2": "Im Jahr 2024 haben wir beschlossen, dass wir genug haben. Wir stellten ein Team aus leidenschaftlichen Gamern und erfahrenen Ops-Ingenieuren mit einem Ziel zusammen: die Spiele-Hosting-Plattform zu bauen, die wir uns immer gewünscht haben.",
-      "paragraph3": "Heute betreibt NodeByte Gameserver und VPS-Instanzen auf der ganzen Welt. Aber unsere Mission bleibt die gleiche: machen Hosting schnell, zuverlässig und zugänglich für jedermann."
+      "title": "Wie alles angefangen hat",
+      "paragraph1": "NodeByte wurde aus Frustration geboren. Als begeisterte Gamer selbst erlebten wir aus erster Hand die Schmerzen von laggien Servern, mangelndem Support und komplexen Kontrollpanels, die das Servermanagement zu einem Alptraum machten.",
+      "paragraph2": "In 2024, we decided enough was enough. We assembled a team of passionate gamers and experienced ops engineers with one goal: build the hosting platform we always wished existed — starting with game servers and expanding from there.",
+      "paragraph3": "Today, NodeByte powers game servers and VPS instances across the globe. In March 2026 we launched our AMD and Intel VPS product line, giving developers and businesses full-root Linux virtual machines at competitive prices. Our mission stays the same: make hosting fast, reliable, and accessible to everyone."
     },
     "values": {
       "badge": "Unsere Werte",
       "title": "Was wir",
       "titleHighlight": "Stehen für",
-      "description": "Unsere Grundwerte sind die Richtschnur für alles, was wir tun - von Infrastrukturentscheidungen bis hin zur Kundenbetreuung.",
+      "description": "Unsere Kernwerte leiten alles, was wir tun, von der Infrastrukturentscheidung bis zum Kundendienst.",
       "players": {
-        "title": "Für Sie gebaut",
-        "description": "Unsere Infrastruktur legt den Schwerpunkt auf Routing mit geringer Latenz, vorhersehbare Leistung und hohe Verfügbarkeit, damit Ihre Dienste online und reaktionsschnell bleiben - egal ob es sich um einen Spieleserver oder einen VPS handelt."
+        "title": "Built for You",
+        "description": "Our infrastructure prioritizes low latency routing, predictable performance, and strong uptime so your services stay online and responsive whether it's a game server or a VPS."
       },
       "community": {
-        "title": "Gemeinschaft zuerst",
-        "description": "Von Mod-Installationen und Snapshot-Unterstützung bis hin zu benutzerdefinierten Anwendungsstacks geben wir Ihnen die Werkzeuge an die Hand, mit denen Sie mit minimalem Aufwand genau das erstellen und verwalten können, was Sie benötigen."
+        "title": "Community First",
+        "description": "From mod installs and snapshot support to custom application stacks, we give you the tools to build and manage exactly what you need with minimal effort."
       },
       "open": {
-        "title": "Offen durch Design",
-        "description": "Wir legen Wert auf Transparenz - von klaren SLA-Verpflichtungen bis hin zu offenen Tools. Unsere Plattform bietet APIs und Integrationen zur Automatisierung von Server-Workflows."
+        "title": "Nach Design öffnen",
+        "description": "Unsere Plattform bietet APIs und Integrationen zur Automatisierung von Serverabläufen."
       }
     },
     "stats": {
-      "uptime": "Betriebszeit-SLA",
-      "latency": "Durchschnittliche Latenzzeit",
-      "support": "Unterstützung",
-      "servers": "Server insgesamt",
-      "users": "Benutzer insgesamt",
-      "activeUsers": "Aktive Benutzer",
-      "allocations": "Zuteilungen"
+      "uptime": "Laufzeit-SLA",
+      "locations": "Global Locations",
+      "ddos": "DDoS Mitigation",
+      "network": "Network per Node"
     },
     "timeline": {
       "badge": "Unsere Reise",
-      "title": "Eine kurze",
-      "titleHighlight": "Geschichte",
+      "title": "Ein Brief",
+      "titleHighlight": "Verlauf",
       "founded": {
-        "title": "NodeByte Gegründet",
-        "description": "Es wurde als kleines Projekt von Spielern ins Leben gerufen, die bessere Hosting-Optionen für ihre Communities wollten."
+        "title": "Knotenbyte gefunden",
+        "description": "Begonnen als kleines Projekt von Spielern, die bessere Hosting-Optionen für ihre Gemeinschaften wollten."
       },
       "growth": {
         "title": "Schnelles Wachstum",
-        "description": "Erweiterung der Infrastruktur, Hinzufügen von DDoS-Schutz für Unternehmen und Einführung an mehreren Rechenzentrumsstandorten."
+        "description": "Expanded infrastructure, added enterprise DDoS protection, and launched across multiple data center locations."
       },
       "expansion": {
-        "title": "Globale Expansion",
-        "description": "Wir haben neue Dienste eingeführt, das Kontrollpanel verbessert und unsere globale Gemeinschaft weiter ausgebaut."
+        "title": "Globale Erweiterung",
+        "description": "Neue Dienste, verbesserte Systemsteuerung und die weitere Entwicklung unserer globalen Gemeinschaft."
+      },
+      "vpsLaunch": {
+        "title": "VPS Hosting Launch",
+        "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
       }
     },
     "team": {
       "badge": "Unser Team",
       "title": "Treffen Sie die",
       "titleHighlight": "Team",
-      "description": "Die leidenschaftlichen Menschen hinter NodeByte, die unermüdlich daran arbeiten, das beste Hosting-Erlebnis zu bieten.",
+      "description": "Die leidenschaftlichen Leute hinter NodeByte, die unermüdlich daran arbeiten, das beste Hosting zu liefern.",
       "roles": {
-        "founder": "Gründer & Chefentwickler"
+        "founder": "Gründer & Lead Entwickler"
       },
       "members": {
-        "codemeapixel": "Full-Stack-Entwickler und Gaming-Enthusiast, der die Infrastruktur für NodeByte aufbaut."
+        "codemeapixel": "Full Stack Entwickler und Gaming-Enthusiasten bauen die Infrastruktur, die NodeByte stärkt."
       }
     },
     "cta": {
-      "title": "Bereit für den Einstieg?",
-      "description": "Schließen Sie sich Tausenden von Gemeinschaften und Unternehmen an, die NodeByte für ihre Hosting-Anforderungen vertrauen.",
-      "getStarted": "Alle Dienste anzeigen",
-      "joinDiscord": "Discord beitreten"
+      "title": "Bereit zum Starten?",
+      "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
+      "getStarted": "View All Services",
+      "joinDiscord": "Trete Discord bei"
     }
   },
   "notFound": {
     "title": "Seite nicht gefunden",
-    "description": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Wir bringen Sie wieder auf den richtigen Weg.",
-    "goHome": "Nach Hause gehen",
-    "goBack": "Zurückgehen",
-    "quickLinks": "Schnelle Links",
+    "description": "Die Seite, die du suchst, existiert nicht oder wurde verschoben. Lass dich wieder auf Kurs bringen.",
+    "goHome": "Nach Hause",
+    "goBack": "Zurück",
+    "quickLinks": "Schnelllinks",
     "links": {
-      "home": "Startseite",
-      "games": "Spiel-Server",
+      "home": "Zuhause",
+      "games": "Game Servers",
+      "vps": "VPS Hosting",
       "kb": "Wissensdatenbank",
-      "contact": "Kontakt",
-      "vps": "VPS-Hosting"
+      "contact": "Kontakt"
     }
   },
   "errorPage": {
-    "title": "Etwas ist schief gelaufen",
-    "description": "Wir sind auf einen unerwarteten Fehler gestoßen. Machen Sie sich keine Sorgen, unser Team wurde benachrichtigt und arbeitet daran.",
+    "title": "Etwas ist schief",
+    "description": "Ein unerwarteter Fehler ist aufgetreten. Keine Sorge, unser Team wurde benachrichtigt und arbeitet daran.",
     "errorCode": "Fehlercode",
     "tryAgain": "Erneut versuchen",
-    "goHome": "Nach Hause gehen",
-    "needHelp": "Brauchen Sie Hilfe?",
+    "goHome": "Nach Hause",
+    "needHelp": "Brauchst du Hilfe?",
     "helpDescription": "Wenn dieser Fehler weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
-    "joinDiscord": "Discord beitreten",
-    "contactSupport": "Kontakt zum Support"
+    "joinDiscord": "Trete Discord bei",
+    "contactSupport": "Support kontaktieren"
   },
   "auth": {
     "login": {
-      "title": "Eintragen",
+      "title": "Anmelden",
       "description": "Melden Sie sich mit Ihrem NodeByte-Konto an, um fortzufahren.",
-      "emailLabel": "E-Mail Adresse",
-      "emailPlaceholder": "you@example.com",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "du@beispiel.de",
       "passwordLabel": "Passwort",
       "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
-      "loginButton": "Eintragen",
-      "loggingIn": "Einloggen...",
-      "forgotPassword": "Haben Sie Ihr Passwort vergessen?",
+      "loginButton": "Anmelden",
+      "loggingIn": "Anmelden...",
+      "forgotPassword": "Passwort vergessen?",
       "noAccount": "Sie haben noch kein Konto?",
-      "createAccount": "Eine erstellen",
+      "createAccount": "Erstelle eins",
       "step1": {
-        "title": "Willkommen zurück",
-        "description": "Geben Sie Ihre E-Mail-Adresse ein, um fortzufahren",
-        "continueButton": "Weiter"
+        "title": "Welcome Back",
+        "description": "Enter your email address to continue",
+        "continueButton": "Continue"
       },
       "step2": {
-        "title": "Wie möchten Sie sich anmelden?",
-        "description": "Wählen Sie Ihre bevorzugte Authentifizierungsmethode",
-        "passwordOption": "Passwort",
-        "passwordDescription": "Verwenden Sie Ihr Passwort zur Anmeldung",
-        "magicLinkOption": "Magische Verbindung",
-        "magicLinkDescription": "Wir senden Ihnen dann einen sicheren Link per E-Mail. Kein Passwort erforderlich!",
-        "usePassword": "Passwort verwenden",
-        "useMagicLink": "Magischen Link senden"
+        "title": "How would you like to sign in?",
+        "description": "Choose your preferred authentication method",
+        "passwordOption": "Password",
+        "passwordDescription": "Use your password to sign in",
+        "magicLinkOption": "Magic Link",
+        "magicLinkDescription": "We'll send you a secure link via email. No password needed!",
+        "usePassword": "Use Password",
+        "useMagicLink": "Send Magic Link"
       },
       "step3": {
-        "passwordTitle": "Ihr Passwort eingeben",
-        "passwordDescription": "Geben Sie Ihr Passwort ein, um sich sicher anzumelden",
-        "loginButton": "Eintragen",
-        "loggingIn": "Einloggen...",
-        "forgotPassword": "Haben Sie Ihr Passwort vergessen?"
+        "passwordTitle": "Enter Your Password",
+        "passwordDescription": "Enter your password to sign in securely",
+        "loginButton": "Sign In",
+        "loggingIn": "Signing in...",
+        "forgotPassword": "Forgot your password?"
       },
       "errors": {
-        "invalid": "Ungültige E-Mail oder ungültiges Passwort. Bitte versuchen Sie es erneut.",
+        "invalid": "Ungültige E-Mail oder Passwort. Bitte versuchen Sie es erneut.",
         "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
-        "generic": "Bei der Anmeldung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
-        "invalidEmail": "Bitte geben Sie eine gültige E-Mail Adresse ein."
+        "generic": "Beim Anmelden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "invalidEmail": "Please enter a valid email address."
       }
     },
     "register": {
       "title": "Konto erstellen",
-      "description": "Registrieren Sie sich, um auf Ihre Spieleserver und -dienste zuzugreifen.",
-      "emailLabel": "E-Mail Adresse",
-      "emailPlaceholder": "you@example.com",
+      "description": "Melden Sie sich an, um auf Ihre Gameserver und Dienste zuzugreifen.",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "du@beispiel.de",
       "passwordLabel": "Passwort",
-      "passwordPlaceholder": "Ein Passwort erstellen",
-      "confirmPasswordLabel": "Bestätigen Sie Ihr Passwort",
-      "confirmPasswordPlaceholder": "Bestätigen Sie Ihr Passwort",
+      "passwordPlaceholder": "Passwort erstellen",
+      "confirmPasswordLabel": "Passwort bestätigen",
+      "confirmPasswordPlaceholder": "Passwort bestätigen",
       "registerButton": "Konto erstellen",
-      "registering": "Konto erstellen...",
-      "alreadyHaveAccount": "Sie haben bereits ein Konto?",
-      "signIn": "Eintragen",
+      "registering": "Konto wird erstellt...",
+      "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
+      "signIn": "Anmelden",
       "errors": {
-        "emailExists": "Es existiert bereits ein Konto mit dieser E-Mail-Adresse.",
-        "notInPanel": "Für diese E-Mail wurde kein Spielkonsolen-Konto gefunden. Bitte erwerben Sie zuerst einen Service, um ein Panel-Konto zu erstellen.",
+        "emailExists": "Ein Konto mit dieser E-Mail existiert bereits.",
+        "notInPanel": "Kein Spielfeldkonto mit dieser E-Mail gefunden. Bitte kaufe zuerst einen Service, um ein Panelkonto zu erstellen.",
         "panelAccountLinked": "Dieses Panel-Konto ist bereits mit einem anderen NodeByte-Konto verknüpft.",
-        "passwordsDontMatch": "Die Kennwörter stimmen nicht überein.",
-        "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein.",
-        "invalidEmail": "Bitte geben Sie eine gültige E-Mail Adresse ein.",
+        "passwordsDontMatch": "Passwörter stimmen nicht überein.",
+        "passwordTooShort": "Passwort muss mindestens 8 Zeichen lang sein.",
+        "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
         "generic": "Bei der Registrierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
       },
@@ -990,109 +1018,267 @@
       }
     },
     "forgotPassword": {
-      "title": "Haben Sie Ihr Passwort vergessen?",
-      "description": "Geben Sie Ihre E-Mail-Adresse ein, damit wir Ihnen einen Link zum Zurücksetzen Ihres Passworts zusenden können.",
-      "emailLabel": "E-Mail Adresse",
+      "title": "Forgot your password?",
+      "description": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email address",
       "emailPlaceholder": "your@email.com",
-      "submitButton": "Reset-Link senden",
-      "submitting": "Ich schicke...",
-      "successTitle": "Prüfen Sie Ihre E-Mail",
-      "successDescription": "Wir haben Anweisungen zum Zurücksetzen des Passworts an Ihre E-Mail-Adresse gesendet.",
-      "backToLogin": "Zurück zur Anmeldung",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "We've sent password reset instructions to your email address.",
+      "backToLogin": "Back to login",
       "errors": {
-        "emailRequired": "E-Mail Adresse ist erforderlich",
-        "invalidEmail": "Bitte geben Sie eine gültige E-Mail Adresse ein",
-        "notFound": "Kein Konto mit dieser E-Mail-Adresse gefunden",
-        "networkError": "Der Link zum Zurücksetzen konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
-        "generic": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+        "emailRequired": "Email address is required",
+        "invalidEmail": "Please enter a valid email address",
+        "notFound": "No account found with this email address",
+        "networkError": "Failed to send reset link. Please try again.",
+        "generic": "An error occurred. Please try again."
       }
     },
     "resetPassword": {
-      "title": "Ihr Passwort zurücksetzen",
-      "description": "Geben Sie ein neues Passwort für Ihr Konto ein",
-      "passwordLabel": "Neues Passwort",
-      "passwordPlaceholder": "--------",
-      "confirmLabel": "Bestätigen Sie Ihr Passwort",
-      "confirmPlaceholder": "--------",
-      "submitButton": "Passwort zurücksetzen",
-      "submitting": "Zurücksetzen...",
-      "successTitle": "Passwort zurücksetzen erfolgreich",
-      "successDescription": "Ihr Passwort wurde aktualisiert. Weiterleitung zum Login...",
-      "backToLogin": "Zurück zur Anmeldung",
+      "title": "Reset Your Password",
+      "description": "Enter a new password for your account",
+      "passwordLabel": "New Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmLabel": "Confirm Password",
+      "confirmPlaceholder": "••••••••",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset successful",
+      "successDescription": "Your password has been updated. Redirecting to login...",
+      "backToLogin": "Back to login",
       "errors": {
-        "passwordRequired": "Passwort ist erforderlich",
-        "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein",
-        "passwordsDontMatch": "Passwörter stimmen nicht überein",
-        "invalidToken": "Ungültiger oder abgelaufener Reset-Link",
-        "tokenExpired": "Der Link zum Zurücksetzen ist abgelaufen. Bitte fordern Sie einen neuen an.",
-        "networkError": "Das Passwort konnte nicht zurückgesetzt werden. Bitte versuchen Sie es erneut.",
-        "generic": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDontMatch": "Passwords do not match",
+        "invalidToken": "Invalid or expired reset link",
+        "tokenExpired": "Reset link has expired. Please request a new one.",
+        "networkError": "Failed to reset password. Please try again.",
+        "generic": "An error occurred. Please try again."
       }
     },
     "verifyEmail": {
-      "title": "Überprüfen Sie Ihre E-Mail",
-      "verifying": "Überprüfen Ihrer E-Mail...",
-      "successTitle": "E-Mail verifiziert!",
-      "successDescription": "Ihre E-Mail wurde erfolgreich verifiziert. Weiterleitung zum Login...",
-      "backToLogin": "Zurück zur Anmeldung",
+      "title": "Verify Your Email",
+      "verifying": "Verifying your email...",
+      "successTitle": "Email Verified!",
+      "successDescription": "Your email has been verified successfully. Redirecting to login...",
+      "backToLogin": "Back to login",
       "errors": {
-        "invalidToken": "Ungültiger oder abgelaufener Verifizierungslink",
-        "tokenExpired": "Der Verifizierungslink ist abgelaufen. Bitte fordern Sie einen neuen an.",
-        "alreadyVerified": "Ihre E-Mail ist bereits verifiziert",
-        "networkError": "E-Mail konnte nicht verifiziert werden. Bitte versuchen Sie es erneut.",
-        "generic": "Bei der Verifizierung Ihrer E-Mail ist ein Fehler aufgetreten."
+        "invalidToken": "Invalid or expired verification link",
+        "tokenExpired": "Verification link has expired. Please request a new one.",
+        "alreadyVerified": "Your email is already verified",
+        "networkError": "Failed to verify email. Please try again.",
+        "generic": "An error occurred while verifying your email."
       }
     },
     "error": {
       "title": "Authentifizierungsfehler",
-      "description": "Bei der Anmeldung gab es ein Problem.",
-      "configuration": "Es liegt ein Konfigurationsfehler mit dem Authentifizierungssystem vor.",
-      "accessDenied": "Sie haben keine Erlaubnis, auf diese Ressource zuzugreifen.",
-      "verification": "Der Anmeldelink ist nicht mehr gültig.",
-      "default": "Bei der Anmeldung ist ein unerwarteter Fehler aufgetreten.",
-      "credentialsSignin": "Ungültige Anmeldedaten. Bitte überprüfen Sie Ihre E-Mail und Ihr Passwort.",
+      "description": "Es gab ein Problem beim Anmelden.",
+      "configuration": "Beim Authentifizierungssystem ist ein Konfigurationsfehler aufgetreten.",
+      "accessDenied": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen.",
+      "verification": "Der Login-Link ist nicht mehr gültig.",
+      "default": "Beim Anmelden ist ein unerwarteter Fehler aufgetreten.",
+      "credentialsSignin": "Ungültige Anmeldeinformationen. Bitte überprüfen Sie Ihre E-Mail und Ihr Passwort.",
       "tryAgain": "Erneut versuchen",
-      "goHome": "Nach Hause gehen"
+      "goHome": "Nach Hause"
     },
     "userMenu": {
       "myAccount": "Mein Konto",
-      "viewPanel": "Ansicht Panel",
-      "admin": "Verwaltung",
+      "dashboard": "Dashboard",
+      "viewPanel": "Panel anzeigen",
+      "admin": "Admin",
       "logout": "Abmelden",
-      "signIn": "Eintragen",
-      "loggingOut": "Ich melde mich ab...",
-      "dashboard": "Dashboard"
+      "signIn": "Anmelden",
+      "loggingOut": "Abmelden..."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "overview": "Overview",
+      "servers": "Servers",
+      "billing": "Billing",
+      "support": "Support",
+      "account": "Account",
+      "backToSite": "Back to Site",
+      "gamePanel": "Game Panel",
+      "helpCenter": "Help Center"
+    },
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening"
+    },
+    "subtitle": "Here's what's happening with your servers",
+    "welcome": {
+      "title": "Welcome!",
+      "magicLinkSuccess": "You've successfully signed in with your magic link. Welcome to your dashboard!"
+    },
+    "stats": {
+      "totalServers": "Total Servers",
+      "activeServers": "Active Servers",
+      "accountBalance": "Account Balance",
+      "openTickets": "Open Tickets",
+      "online": "online",
+      "activeDescription": "Currently running",
+      "balanceDescription": "Available credit",
+      "ticketsDescription": "Awaiting response"
+    },
+    "actions": {
+      "openPanel": "Open Panel",
+      "newServer": "New Server"
+    },
+    "recentServers": {
+      "title": "Recent Servers",
+      "description": "Your most recently accessed servers",
+      "viewAll": "View All",
+      "empty": {
+        "title": "No servers yet",
+        "description": "You don't have any game servers yet. Get started by creating your first server.",
+        "action": "Create Server"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "minecraft": "Minecraft Server",
+      "minecraftDesc": "Deploy a new Minecraft server",
+      "rust": "Rust Server",
+      "rustDesc": "Deploy a new Rust server",
+      "support": "Open Ticket",
+      "supportDesc": "Get help from our team",
+      "knowledgeBase": "Knowledge Base",
+      "knowledgeBaseDesc": "Browse help articles"
+    },
+    "servers": {
+      "title": "My Servers",
+      "description": "Manage and monitor your game servers",
+      "status": {
+        "running": "Running",
+        "online": "Online",
+        "offline": "Offline",
+        "starting": "Starting",
+        "stopping": "Stopping",
+        "suspended": "Suspended",
+        "installing": "Installing"
+      },
+      "resources": {
+        "memory": "Memory",
+        "cpu": "CPU",
+        "disk": "Disk"
+      },
+      "actions": {
+        "newServer": "New Server",
+        "refresh": "Refresh",
+        "console": "Console",
+        "files": "Files",
+        "databases": "Databases",
+        "openPanel": "Open in Panel"
+      },
+      "filters": {
+        "searchPlaceholder": "Search servers...",
+        "status": "Status",
+        "allStatuses": "All Statuses"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "empty": {
+        "title": "No servers found",
+        "description": "You don't have any game servers yet. Create your first server to get started.",
+        "action": "Create Server"
+      }
+    },
+    "account": {
+      "title": "Account Settings",
+      "description": "Manage your profile and security settings",
+      "tabs": {
+        "profile": "Profile",
+        "security": "Security"
+      },
+      "profile": {
+        "overview": "Account Overview",
+        "overviewDescription": "Your account information and status",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "personalInfo": "Personal Information",
+        "personalInfoDescription": "Update your personal details",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last Name",
+        "lastNamePlaceholder": "Doe",
+        "username": "Username",
+        "usernamePlaceholder": "johndoe",
+        "email": "Email Address",
+        "emailNote": "Contact support to change your email address",
+        "phoneNumber": "Phone Number",
+        "phoneNumberPlaceholder": "+1 (555) 000-0000",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Acme Inc.",
+        "billingEmail": "Billing Email",
+        "billingEmailPlaceholder": "billing@example.com",
+        "saveChanges": "Save Changes",
+        "success": "Profile Updated",
+        "successDescription": "Your profile has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your profile. Please try again."
+      },
+      "security": {
+        "changePassword": "Change Password",
+        "changePasswordDescription": "Update your password to keep your account secure",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm New Password",
+        "passwordRequirements": "Password must be at least 8 characters",
+        "updatePassword": "Update Password",
+        "passwordMismatch": "Passwords Don't Match",
+        "passwordMismatchDescription": "The new passwords you entered don't match.",
+        "passwordTooShort": "Password Too Short",
+        "passwordTooShortDescription": "Password must be at least 8 characters long.",
+        "passwordChanged": "Password Changed",
+        "passwordChangedDescription": "Your password has been updated successfully.",
+        "error": "Update Failed",
+        "errorDescription": "Failed to update your password. Please try again.",
+        "emailNotVerified": "Email Not Verified",
+        "emailNotVerifiedDescription": "Your email address has not been verified. ",
+        "resendVerification": "Resend verification email",
+        "accountInfo": "Account Information",
+        "accountInfoDescription": "Additional details about your account",
+        "accountCreated": "Account Created",
+        "lastLogin": "Last Login",
+        "accountId": "Account ID"
+      }
     }
   },
   "admin": {
-    "title": "Verwaltungsbereich",
+    "title": "Admin-Panel",
     "nav": {
       "dashboard": "Dashboard",
-      "users": "Alle Benutzer",
-      "servers": "Alle Server",
-      "sync": "Sync-Aktionen",
-      "syncLogs": "Sync-Protokolle",
+      "users": "All Users",
+      "servers": "All Servers",
+      "nodes": "Server Nodes",
+      "locations": "Locations",
+      "allocations": "Allocations",
+      "eggs": "Nests & Eggs",
+      "sync": "Sync Actions",
+      "syncLogs": "Sync Logs",
       "settings": "Einstellungen",
-      "backToSite": "Zurück zur Website",
-      "nodes": "Server-Knoten",
-      "locations": "Standorte",
-      "allocations": "Zuteilungen",
-      "eggs": "Nester und Eier"
+      "backToSite": "Zurück zur Seite"
     },
     "status": {
-      "online": "System online"
+      "online": "System Online"
     },
     "dashboard": {
       "title": "Dashboard",
-      "description": "Überblick über die Daten Ihres Pterodactyl-Panels und den Synchronisationsstatus."
+      "description": "Übersicht Ihrer Pterodactyl-Daten und Synchronisationsstatus."
     },
     "stats": {
-      "users": "Benutzer insgesamt",
+      "users": "Benutzer gesamt",
       "migratedCount": "{count} migriert",
       "servers": "Server",
-      "nodes": "Knotenpunkte",
+      "nodes": "Nodes",
       "locations": "Standorte",
-      "allocations": "Zuteilungen",
+      "allocations": "Allokationen",
       "nests": "Nester",
       "eggs": "Eier",
       "eggVariables": "Ei-Variablen",
@@ -1100,73 +1286,73 @@
     },
     "sync": {
       "status": "Sync-Status",
-      "lastSync": "Letzte Synchronisierung",
-      "never": "Niemals",
+      "lastSync": "Letzter Sync",
+      "never": "Nie",
       "idle": "Leerlauf",
       "syncing": "Synchronisieren...",
-      "inProgress": "Synchronisierung läuft",
-      "syncingTarget": "Synchronisierung der {target}-Daten vom Panel...",
-      "complete": "vollständig",
-      "runFull": "Vollständige Synchronisierung durchführen",
-      "success": "Synchronisierung abgeschlossen",
-      "completed": "Die {target}-Daten wurden erfolgreich synchronisiert.",
-      "error": "Synchronisierung fehlgeschlagen",
-      "quickActions": "Schnell-Sync-Aktionen",
+      "inProgress": "Synchronisation läuft",
+      "syncingTarget": "Synchronisiere {target} Daten vom Panel...",
+      "complete": "complete",
+      "runFull": "Voller Sync ausführen",
+      "started": "Sync Started",
+      "running": "Syncing data from the panel. This may take a moment.",
+      "success": "Sync abgeschlossen",
+      "completed": "{target} Daten erfolgreich synchronisiert.",
+      "error": "Sync fehlgeschlagen",
+      "quickActions": "SchnellSync Aktionen",
       "quickActionsDescription": "Synchronisieren Sie einzelne Datentypen aus dem Pterodactyl-Panel.",
       "targets": {
+        "full": "Full Sync",
         "locations": "Standorte",
-        "nodes": "Knotenpunkte",
-        "allocations": "Zuteilungen",
-        "nests": "Nester und Eier",
+        "nodes": "Nodes",
+        "allocations": "Allokationen",
+        "nests": "Nester & Eier",
         "servers": "Server",
         "databases": "Datenbanken",
-        "users": "Benutzer",
-        "full": "Vollständige Synchronisation"
-      },
-      "started": "Synchronisierung gestartet",
-      "running": "Synchronisierung der Daten aus dem Panel. Dies kann einen Moment dauern."
+        "users": "Benutzer"
+      }
     },
     "syncLogs": {
-      "title": "Sync-Protokolle",
-      "description": "Audit-Protokoll der Synchronisierungsläufe und des Planerstatus",
-      "scheduler": "Planer",
-      "running": "Laufen",
-      "idle": "Leerlauf",
-      "startedAt": "nBPH0X gestartet",
-      "autoSync": "Auto-Synchronisation",
-      "intervalSeconds": "Intervall (Sekunden)",
-      "save": "Speichern Sie",
-      "saving": "Sparen...",
-      "refresh": "Auffrischen",
-      "refreshing": "Erfrischend...",
-      "audit": "Prüfung",
-      "auditDescription": "Letzte Synchronisationsläufe (neueste zuerst)",
-      "searchPlaceholder": "Nachrichten suchen oder eingeben...",
-      "limitPlaceholder": "Grenze",
-      "noEntries": "Keine Log-Einträge",
-      "items": "Artikel",
-      "failed": "Gescheitert",
-      "loadMore": "Mehr laden",
-      "noMoreEntries": "Keine weiteren Einträge",
+      "title": "Sync Logs",
+      "description": "Audit log of sync runs and scheduler status",
+      "scheduler": "Scheduler",
+      "running": "Running",
+      "idle": "Idle",
+      "startedAt": "started {time}",
+      "autoSync": "Auto-sync",
+      "intervalSeconds": "Interval (seconds)",
+      "save": "Save",
+      "saving": "Saving...",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "audit": "Audit",
+      "auditDescription": "Recent sync runs (newest first)",
+      "searchPlaceholder": "Search messages or type...",
+      "limitPlaceholder": "Limit",
+      "noEntries": "No log entries",
+      "items": "Items",
+      "failed": "Failed",
+      "loadMore": "Load More",
+      "noMoreEntries": "No more entries",
       "status": {
-        "running": "Laufen",
-        "completed": "Abgeschlossen",
-        "failed": "Gescheitert",
-        "pending": "Anhängig"
+        "running": "Running",
+        "completed": "Completed",
+        "failed": "Failed",
+        "pending": "Pending"
       }
     },
     "users": {
       "title": "Benutzer",
-      "description": "Verwalten Sie Benutzerkonten und Berechtigungen.",
+      "description": "Benutzerkonten und Berechtigungen verwalten.",
       "stats": {
-        "total": "Benutzer insgesamt",
+        "total": "Benutzer gesamt",
         "migrated": "Migriert",
         "admins": "Admins",
         "active": "Aktiv"
       },
       "filters": {
         "title": "Filter",
-        "searchPlaceholder": "Suche nach Name oder E-Mail...",
+        "searchPlaceholder": "Nach Name oder E-Mail suchen...",
         "all": "Alle Benutzer",
         "active": "Aktiv",
         "inactive": "Inaktiv",
@@ -1180,12 +1366,12 @@
         "status": "Status",
         "pterodactyl": "Panel-ID",
         "created": "Erstellt",
-        "lastLogin": "Letzte Anmeldung"
+        "lastLogin": "Letzter Login"
       },
       "badges": {
         "active": "Aktiv",
         "inactive": "Inaktiv",
-        "admin": "Verwaltung",
+        "admin": "Admin",
         "migrated": "Migriert"
       },
       "empty": {
@@ -1193,50 +1379,50 @@
         "searchHint": "Versuchen Sie, Ihre Suche oder Ihre Filter anzupassen."
       },
       "pagination": {
-        "showing": "Anzeige von {from} bis {to} von {total}-Benutzern",
+        "showing": "{from} bis {to} von {total} Benutzern anzeigen",
         "previous": "Vorherige",
-        "next": "Weiter"
+        "next": "Nächste"
       }
     },
     "servers": {
       "title": "Server",
-      "description": "Alle Spielserver anzeigen und verwalten.",
+      "description": "Alle Spielserver ansehen und verwalten.",
       "stats": {
-        "total": "Server insgesamt",
-        "running": "Laufen",
+        "total": "Gesamt Server",
+        "running": "Laufend",
         "offline": "Offline",
-        "suspended": "Aufgehängt"
+        "suspended": "Gesperrt"
       },
       "filters": {
         "title": "Filter",
         "searchPlaceholder": "Suche nach Name oder UUID...",
         "all": "Alle Server",
-        "running": "Laufen",
+        "running": "Laufend",
         "offline": "Offline",
-        "suspended": "Aufgehängt",
-        "installing": "Installation von"
+        "suspended": "Gesperrt",
+        "installing": "Installiere"
       },
       "table": {
         "server": "Server",
         "status": "Status",
-        "owner": "Eigentümer",
+        "owner": "Besitzer",
         "resources": "Ressourcen",
-        "node": "Knotenpunkt",
+        "node": "Knoten",
         "created": "Erstellt"
       },
       "status": {
-        "running": "Laufen",
+        "running": "Laufend",
         "offline": "Offline",
         "starting": "Start",
-        "stopping": "Anhalten",
-        "installing": "Installation von",
-        "install_failed": "Gescheitert",
-        "suspended": "Aufgehängt",
-        "restoring_backup": "Wiederherstellung"
+        "stopping": "Stoppen",
+        "installing": "Installiere",
+        "install_failed": "Fehler",
+        "suspended": "Gesperrt",
+        "restoring_backup": "Wiederherstellen"
       },
       "resources": {
         "memory": "Speicher",
-        "disk": "Festplatte",
+        "disk": "Platte",
         "cpu": "CPU"
       },
       "empty": {
@@ -1244,92 +1430,92 @@
         "searchHint": "Versuchen Sie, Ihre Suche oder Ihre Filter anzupassen."
       },
       "pagination": {
-        "showing": "Anzeige von {from} bis {to} von {total}-Servern",
+        "showing": "{from} bis {to} von {total} Servern anzeigen",
         "previous": "Vorherige",
-        "next": "Weiter"
+        "next": "Nächste"
       }
     },
     "settings": {
       "title": "Einstellungen",
-      "description": "Konfigurieren Sie die Systemeinstellungen und Verbindungen.",
+      "description": "Systemeinstellungen und Verbindungen konfigurieren.",
       "save": "Änderungen speichern",
-      "saved": "Gespeicherte Einstellungen",
+      "saved": "Einstellungen gespeichert",
       "savedDesc": "Ihre Einstellungen wurden erfolgreich gespeichert.",
-      "saveError": "Die Einstellungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
-      "copyFailed": "Kopieren in die Zwischenablage fehlgeschlagen",
+      "saveError": "Einstellungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+      "copyFailed": "Fehler beim Kopieren in die Zwischenablage",
       "tabs": {
         "connections": "Verbindungen",
         "features": "Eigenschaften",
         "notifications": "Benachrichtigungen",
-        "advanced": "Fortgeschrittene"
+        "advanced": "Erweitert"
       },
       "status": {
         "connected": "Verbunden",
-        "disconnected": "Getrennt"
+        "disconnected": "Verbindung getrennt"
       },
       "connection": {
         "success": "Verbindung erfolgreich",
-        "successDesc": "Erfolgreiche Verbindung mit {type}.",
+        "successDesc": "Erfolgreich mit {type} verbunden.",
         "failed": "Verbindung fehlgeschlagen",
-        "error": "Verbindungstest fehlgeschlagen."
+        "error": "Fehler beim Testen der Verbindung."
       },
       "testConnection": "Verbindung testen",
       "pterodactyl": {
-        "title": "Pterodactyl-Panel",
+        "title": "Pterodactyl Panel",
         "description": "Konfigurieren Sie die Verbindung zu Ihrem Pterodactyl-Panel.",
         "url": "Panel-URL",
         "apiKey": "API-Schlüssel",
-        "apiKeyNote": "Geben Sie Ihren Pterodactyl-Panel-API-Schlüssel zur Authentifizierung ein.",
-        "apiUrl": "API-URL",
-        "apiUrlNote": "Die Basis-URL für die Pterodactyl-API (normalerweise Panel-URL + /api).",
-        "version": "Panel-Version",
-        "apiKeyclient": "Client-API-Schlüssel",
-        "apiKeyNoteclient": "Geben Sie Ihren Pterodactyl-Client-API-Schlüssel ein. Dieser wird für die Synchronisierung von Server- und Benutzerdaten von der Client-API benötigt."
+        "apiKeyNote": "Geben Sie Ihren Pterodactyl Panel API-Schlüssel zur Authentifizierung ein.",
+        "apiKeyclient": "Client API Key",
+        "apiKeyNoteclient": "Enter your Pterodactyl client API key. This is required for syncing server and user data from the client API.",
+        "apiUrl": "API URL",
+        "apiUrlNote": "Die Basis-URL für die Pterodactyl-API (üblicherweise Panel-URL + /api).",
+        "version": "Panel-Version"
       },
       "crowdin": {
-        "title": "Crowdin Übersetzungsmanagement",
-        "description": "Konfigurieren Sie die Crowdin-Einstellungen für das automatische Übersetzungsmanagement.",
+        "title": "Crowdin-Übersetzungsmanagement",
+        "description": "Crowdin-Einstellungen für die automatische Übersetzungsverwaltung konfigurieren.",
         "projectId": "Projekt-ID",
-        "personalToken": "Persönliche Wertmarke",
-        "personalTokenNote": "Ihr persönliches Crowdin-Zugangs-Token. Bewahren Sie diesen sicher auf."
+        "personalToken": "Persönliches Token",
+        "personalTokenNote": "Ihr Crowdin persönlicher Zugangs-Token. Bewahren Sie dies sicher."
       },
       "github": {
-        "title": "GitHub-Konfiguration",
-        "description": "Konfigurieren Sie den GitHub-Zugang für Versionshinweise und Changelog-Aktualisierungen.",
+        "title": "GitHub Configuration",
+        "description": "GitHub Zugriff für Release-Notizen und Changelog-Updates konfigurieren.",
         "token": "GitHub Personal Access Token",
-        "tokenNote": "Dient zum Abrufen von Veröffentlichungsinformationen aus Ihren GitHub-Repositories.",
-        "warning": "⚠️ Token-Schutz",
-        "warningDesc": "Einmal festgelegt, kann dieses Token nicht mehr über die Benutzeroberfläche angezeigt oder geändert werden. Um es zu aktualisieren, müssen Sie es löschen und ein neues Token über dieses Panel setzen."
+        "tokenNote": "Wird zum Abrufen von Release-Informationen aus Ihren GitHub Repositories verwendet.",
+        "warning": ":warnung: Tokenschutz",
+        "warningDesc": "Einmal eingestellt, kann dieses Token nicht über die Benutzeroberfläche angesehen oder geändert werden. Um es zu aktualisieren, müssen Sie ein neues Token aus diesem Panel löschen und setzen."
       },
       "database": {
         "title": "Datenbank",
-        "description": "Konfiguration der Datenbankverbindung.",
+        "description": "Datenbankverbindungskonfiguration.",
         "provider": "Anbieter",
-        "connectionString": "Verbindungszeichenfolge",
+        "connectionString": "Verbindungszeichenkette",
         "connectionStringNote": "Die Datenbank-URL wird als Umgebungsvariable gespeichert.",
-        "readOnly": "Aus offensichtlichen Gründen wird unser Datenbankverbindungsstring über Umgebungsvariablen verwaltet, warum sollten Sie überhaupt hier nachsehen.... Ich spreche zu Ihnen RIZON!"
+        "readOnly": "Aus offensichtlichen Gründen wird unser Datenbankverbindungs-String durch Umgebungsvariablen verwaltet... Im Gespräch mit Ihnen RIZON!"
       },
       "features": {
-        "title": "Feature Toggles",
-        "description": "Aktivieren oder deaktivieren Sie Systemfunktionen.",
-        "registration": "Benutzer-Registrierung",
-        "registrationDesc": "Erlauben Sie neuen Nutzern, Konten zu registrieren.",
+        "title": "Feature Schalter",
+        "description": "Systemfunktionen aktivieren oder deaktivieren.",
+        "registration": "Benutzerregistrierung",
+        "registrationDesc": "Neuen Benutzern erlauben, Konten zu registrieren.",
         "maintenance": "Wartungsmodus",
         "maintenanceDesc": "Aktivieren Sie den Wartungsmodus, um den Zugriff auf die Website zu sperren.",
-        "autoSync": "Automatische Synchronisierung",
-        "autoSyncDesc": "Synchronisieren Sie die Daten des Panels automatisch in regelmäßigen Abständen."
+        "autoSync": "Automatische Sync",
+        "autoSyncDesc": "Automatisch Daten aus dem Panel periodisch synchronisieren."
       },
       "notifications": {
         "title": "Benachrichtigungen",
-        "description": "Konfigurieren Sie die Benachrichtigungseinstellungen.",
+        "description": "Benachrichtigungseinstellungen konfigurieren.",
         "email": "E-Mail-Benachrichtigungen",
-        "emailDesc": "Senden Sie E-Mail-Benachrichtigungen für wichtige Ereignisse mit Resend.",
+        "emailDesc": "Senden Sie E-Mail-Benachrichtigungen für wichtige Ereignisse mit \"Erneut senden\".",
         "resendApiKey": "API-Schlüssel erneut senden",
-        "resendApiKeyNote": "Ihr Resend API-Schlüssel für den Versand von E-Mails. Erhalten Sie einen auf resend.com",
-        "discord": "Discord-Benachrichtigungen",
-        "discordDesc": "Senden Sie Benachrichtigungen an Discord-Kanäle über Webhooks.",
+        "resendApiKeyNote": "Ihr API-Schlüssel zum Senden von E-Mails erneut senden. Holen Sie sich einen auf resend.com",
+        "discord": "Discord Benachrichtigungen",
+        "discordDesc": "Sende Benachrichtigungen an Discord Kanäle über Webhooks.",
         "webhook": "Discord Webhook URL",
-        "webhookDesc": "Geben Sie die URL Ihres Discord-Webhooks ein, um Benachrichtigungen zu erhalten.",
+        "webhookDesc": "Gib deine Discord Webhook URL ein, um Benachrichtigungen zu erhalten.",
         "webhooksList": "Konfigurierte Webhooks",
         "webhookName": "Webhook-Name",
         "webhookNamePlaceholder": "z. B. Server-Updates, Warnungen",
@@ -1340,19 +1526,19 @@
       "advanced": {
         "title": "Erweiterte Einstellungen",
         "description": "Erweiterte Konfigurationsoptionen.",
-        "cacheTimeout": "Cache-Zeitüberschreitung",
-        "cacheTimeoutDesc": "Wie lange API-Antworten zwischengespeichert werden sollen.",
-        "syncInterval": "Synchronisationsintervall",
-        "syncIntervalDesc": "Wie oft die Daten des Panels automatisch synchronisiert werden sollen.",
-        "seconds": "sekunden",
+        "cacheTimeout": "Cache-Timeout",
+        "cacheTimeoutDesc": "Wie lange werden API-Antworten gecacht?",
+        "syncInterval": "Sync-Intervall",
+        "syncIntervalDesc": "Wie oft werden Daten aus dem Panel automatisch synchronisiert.",
+        "seconds": "Sekunden",
         "minute": "minute",
         "minutes": "minuten",
-        "hour": "stunde",
-        "hours": "stunden",
+        "hour": "std",
+        "hours": "std",
         "dangerZone": "Gefahrenzone",
-        "dangerZoneDesc": "Diese Maßnahmen sind unumkehrbar. Gehen Sie mit Bedacht vor.",
-        "clearCache": "Cache löschen",
-        "resetSync": "Sync zurücksetzen"
+        "dangerZoneDesc": "Diese Maßnahmen sind unumkehrbar, mit Vorsicht vorgehen.",
+        "clearCache": "Cache leeren",
+        "resetSync": "Reset Sync"
       },
       "saveSettings": "Einstellungen speichern"
     },
@@ -1362,476 +1548,337 @@
     "error": {
       "title": "Fehler",
       "unauthorized": "Sie sind nicht berechtigt, auf diese Seite zuzugreifen.",
-      "forbidden": "Admin-Zugang erforderlich."
+      "forbidden": "Admin-Zugriff erforderlich."
     },
     "maintenance": {
-      "title": "Wir sind gleich wieder da",
-      "description": "Wir führen derzeit planmäßige Wartungsarbeiten durch, um unsere Dienste zu verbessern.",
-      "status": "Website unter Wartung",
-      "estimatedTime": "Wir erwarten, dass wir bald wieder online sind",
-      "contact": "Wenn Sie dringende Fragen haben, wenden Sie sich bitte an unser Support-Team",
-      "contactSupport": "Kontakt zum Support",
-      "followSuggestion": "Folgen Sie uns auf Discord für Echtzeit-Updates zum Wartungsstatus.",
-      "discordSuggestion": "Discord beitreten"
-    }
-  },
-  "servicesHome": {
-    "badge": "Was wir anbieten",
-    "title": "Alles, was Sie brauchen,",
-    "titleHighlight": "ein Ort",
-    "description": "Spieleserver und VPS-Hosting, die auf Leistung ausgelegt sind. Sofortige Einrichtung, DDoS-Schutz und 24/7 Experten-Support.",
-    "browsePlans": "Pläne durchsuchen",
-    "startingFrom": "Von",
-    "customSolution": "Benötigen Sie etwas, das wir nicht aufgelistet haben?",
-    "contactUs": "Kontakt",
-    "forCustom": "und wir finden das Richtige für Sie."
-  },
-  "vpsPage": {
-    "title": "VPS-Hosting",
-    "description": "Leistungsstarke virtuelle private Server mit vollem Root-Zugriff, NVMe-SSD-Speicher, DDoS-Schutz und 24/7-Experten-Support.",
-    "startingAt": "Beginnend bei"
-  },
-  "dashboard": {
-    "nav": {
-      "overview": "Übersicht",
-      "servers": "Server",
-      "billing": "Rechnungsstellung",
-      "support": "Unterstützung",
-      "account": "Konto",
-      "backToSite": "Zurück zur Website",
-      "gamePanel": "Spiel-Panel",
-      "helpCenter": "Hilfe-Center"
-    },
-    "greeting": {
-      "morning": "Guten Morgen!",
-      "afternoon": "Guten Tag",
-      "evening": "Guten Abend"
-    },
-    "subtitle": "So sieht es mit Ihren Servern aus",
-    "welcome": {
-      "title": "Herzlich willkommen!",
-      "magicLinkSuccess": "Sie haben sich erfolgreich mit Ihrem magischen Link angemeldet. Willkommen in Ihrem Dashboard!"
-    },
-    "stats": {
-      "totalServers": "Server insgesamt",
-      "activeServers": "Aktive Server",
-      "accountBalance": "Kontostand",
-      "openTickets": "Offene Tickets",
-      "online": "online",
-      "activeDescription": "Läuft derzeit",
-      "balanceDescription": "Verfügbarer Kredit",
-      "ticketsDescription": "Erwartet eine Antwort"
-    },
-    "actions": {
-      "openPanel": "Offenes Panel",
-      "newServer": "Neuer Server"
-    },
-    "recentServers": {
-      "title": "Neueste Server",
-      "description": "Ihre zuletzt aufgerufenen Server",
-      "viewAll": "Alle anzeigen",
-      "empty": {
-        "title": "Noch keine Server",
-        "description": "Du hast noch keine Spieleserver. Beginnen Sie mit der Erstellung Ihres ersten Servers.",
-        "action": "Server erstellen"
-      }
-    },
-    "quickActions": {
-      "title": "Quick Actions",
-      "minecraft": "Minecraft Server",
-      "minecraftDesc": "Einen neuen Minecraft-Server einrichten",
-      "rust": "Rust-Server",
-      "rustDesc": "Einsetzen eines neuen Rust-Servers",
-      "support": "Ticket öffnen",
-      "supportDesc": "Holen Sie sich Hilfe von unserem Team",
-      "knowledgeBase": "Wissensdatenbank",
-      "knowledgeBaseDesc": "Hilfeartikel durchsuchen"
-    },
-    "servers": {
-      "title": "Meine Server",
-      "description": "Verwalten und überwachen Sie Ihre Spieleserver",
-      "status": {
-        "running": "Laufen",
-        "online": "Online",
-        "offline": "Offline",
-        "starting": "Start",
-        "stopping": "Stoppen",
-        "suspended": "Aufgehängt",
-        "installing": "Installation von"
-      },
-      "resources": {
-        "memory": "Speicher",
-        "cpu": "CPU",
-        "disk": "Festplatte"
-      },
-      "actions": {
-        "newServer": "Neuer Server",
-        "refresh": "Aktualisieren",
-        "console": "Konsole",
-        "files": "Dateien",
-        "databases": "Datenbanken",
-        "openPanel": "Im Panel öffnen"
-      },
-      "filters": {
-        "searchPlaceholder": "Server suchen...",
-        "status": "Status",
-        "allStatuses": "Alle Stati"
-      },
-      "pagination": {
-        "showing": "Anzeige von {from} bis {to} von {total}",
-        "previous": "Vorherige",
-        "next": "Weiter"
-      },
-      "empty": {
-        "title": "Keine Server gefunden",
-        "description": "Du hast noch keine Spielserver. Erstelle deinen ersten Server, um loszulegen.",
-        "action": "Server erstellen"
-      }
-    },
-    "account": {
-      "title": "Kontoeinstellungen",
-      "description": "Verwalten Sie Ihr Profil und Ihre Sicherheitseinstellungen",
-      "tabs": {
-        "profile": "Profil",
-        "security": "Sicherheit"
-      },
-      "profile": {
-        "overview": "Kontoübersicht",
-        "overviewDescription": "Ihre Kontoinformationen und Ihr Status",
-        "verified": "Geprüft",
-        "unverified": "Unverifiziert",
-        "personalInfo": "Persönliche Informationen",
-        "personalInfoDescription": "Aktualisieren Sie Ihre persönlichen Daten",
-        "firstName": "Vorname",
-        "firstNamePlaceholder": "John",
-        "lastName": "Nachname",
-        "lastNamePlaceholder": "Doe",
-        "username": "Benutzername",
-        "usernamePlaceholder": "johndoe",
-        "email": "E-Mail Adresse",
-        "emailNote": "Kontaktieren Sie den Support, um Ihre E-Mail-Adresse zu ändern",
-        "phoneNumber": "Rufnummer",
-        "phoneNumberPlaceholder": "+1 (555) 000-0000",
-        "companyName": "Name des Unternehmens",
-        "companyNamePlaceholder": "Acme Inc.",
-        "billingEmail": "E-Mail für die Rechnungsstellung",
-        "billingEmailPlaceholder": "billing@example.com",
-        "saveChanges": "Änderungen speichern",
-        "success": "Profil aktualisiert",
-        "successDescription": "Ihr Profil wurde erfolgreich aktualisiert.",
-        "error": "Aktualisierung fehlgeschlagen",
-        "errorDescription": "Ihr Profil konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
-      },
-      "security": {
-        "changePassword": "Passwort ändern",
-        "changePasswordDescription": "Aktualisieren Sie Ihr Passwort, um Ihr Konto sicher zu halten",
-        "currentPassword": "Aktuelles Passwort",
-        "newPassword": "Neues Passwort",
-        "confirmPassword": "Neues Passwort bestätigen",
-        "passwordRequirements": "Das Passwort muss mindestens 8 Zeichen lang sein",
-        "updatePassword": "Passwort aktualisieren",
-        "passwordMismatch": "Passwörter stimmen nicht überein",
-        "passwordMismatchDescription": "Die neuen Kennwörter, die Sie eingegeben haben, stimmen nicht überein.",
-        "passwordTooShort": "Passwort zu kurz",
-        "passwordTooShortDescription": "Das Passwort muss mindestens 8 Zeichen lang sein.",
-        "passwordChanged": "Geändertes Passwort",
-        "passwordChangedDescription": "Ihr Passwort wurde erfolgreich aktualisiert.",
-        "error": "Aktualisierung fehlgeschlagen",
-        "errorDescription": "Ihr Passwort konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
-        "emailNotVerified": "E-Mail nicht verifiziert",
-        "emailNotVerifiedDescription": "Ihre E-Mail-Adresse wurde nicht überprüft.",
-        "resendVerification": "Verifizierungs-E-Mail erneut senden",
-        "accountInfo": "Konto-Informationen",
-        "accountInfoDescription": "Zusätzliche Informationen über Ihr Konto",
-        "accountCreated": "Konto erstellt",
-        "lastLogin": "Letzte Anmeldung",
-        "accountId": "Konto-ID"
-      }
+      "title": "Wir sind gleich zurück",
+      "description": "Zur Zeit führen wir Wartungsarbeiten durch, um unsere Dienste zu verbessern.",
+      "status": "Seite wird gewartet",
+      "estimatedTime": "Wir erwarten, bald wieder online zu sein",
+      "contact": "Bei dringenden Fragen wenden Sie sich bitte an unser Support-Team",
+      "contactSupport": "Support kontaktieren",
+      "followSuggestion": "Folge uns auf Discord für Echtzeit-Updates über den Status der Wartung.",
+      "discordSuggestion": "Trete Discord bei"
     }
   },
   "vps": {
-    "badge": "VPS-Server",
-    "title": "Wählen Sie Ihr",
-    "titleHighlight": "VPS-Plan",
-    "description": "Vollständig kontrollierte virtuelle private Server auf Basis von Unternehmens-Hardware. Root-Zugriff, NVMe-Speicher, DDoS-Schutz und sofortige Bereitstellung.",
+    "badge": "VPS Servers",
+    "title": "Choose Your",
+    "titleHighlight": "VPS Plan",
+    "description": "Full-control virtual private servers powered by enterprise hardware. Root access, NVMe storage, DDoS protection, and instant deployment.",
     "hosting": "Hosting",
-    "learnMore": "Mehr erfahren",
-    "viewPlans": "Pläne ansehen",
-    "customSolution": "Sie benötigen eine individuelle VPS-Lösung oder haben Fragen?",
-    "contactUs": "Kontakt",
-    "forCustom": "und wir finden das Richtige für Sie.",
+    "learnMore": "Learn More",
+    "viewPlans": "View Plans",
+    "customSolution": "Need a custom VPS solution or have questions?",
+    "contactUs": "Contact us",
+    "forCustom": "and we'll find the right fit.",
+    "outOfStock": "Currently Out of Stock",
+    "outOfStockNotice": "Intel VPS plans are temporarily unavailable. Please check back soon or join our Discord for updates.",
     "highlights": {
       "deploy": {
-        "title": "Sofortige Bereitstellung",
-        "description": "Ihr VPS ist in weniger als 60 Sekunden nach dem Kauf eingerichtet und einsatzbereit."
+        "title": "Instant Deployment",
+        "description": "Your VPS is provisioned and ready in under 60 seconds after purchase."
       },
       "control": {
-        "title": "Vollständiger Root-Zugriff",
-        "description": "Vollständige Kontrolle über Ihren Server mit Root-SSH-Zugang und einem Betriebssystem Ihrer Wahl."
+        "title": "Full Root Access",
+        "description": "Complete control over your server with root SSH access and your choice of OS."
       },
       "hardware": {
-        "title": "Hardware für Unternehmen",
-        "description": "Prozessoren der Enterprise-Klasse mit NVMe-SSD-Speicher und ECC-RAM in allen Tarifen."
+        "title": "Enterprise Hardware",
+        "description": "Enterprise grade processors with NVMe SSD storage and ECC RAM across all plans."
       }
     },
     "amd": {
-      "description": "Leistungsstarker KVM-VPS auf AMD-Hardware für Unternehmen. Ideal für anspruchsvolle Workloads, Webanwendungen und Spiele-Backends.",
-      "heroDescription": "KVM-VPS der Enterprise-Klasse auf AMD-Hardware mit NVMe-SSD-Speicher, vollständigem Root-Zugriff und DDoS-Schutz für Unternehmen. Bereitstellung in Sekunden.",
-      "tag": "AMD-angetrieben",
+      "description": "High-performance KVM VPS on enterprise AMD hardware. Ideal for demanding workloads, web applications, and game backends.",
+      "heroDescription": "Enterprise grade KVM VPS on AMD hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "AMD Powered",
       "features": {
-        "0": "AMD-Prozessoren für Unternehmen",
-        "1": "NVMe-SSD-Speicher",
-        "2": "Vollständiger Root-/SSH-Zugang",
-        "3": "DDoS-Schutz"
+        "0": "Enterprise AMD processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Vollständiger Root-Zugriff",
-        "1": "KVM-Virtualisierung",
-        "2": "NVMe-SSD",
-        "3": "DDoS-Schutz"
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
+        "2": "NVMe SSD",
+        "3": "DDoS Protection"
       },
       "plans": {
         "starter": {
           "name": "Starter",
-          "description": "Perfekt für kleine Projekte und Tests"
+          "description": "Perfect for small projects and testing"
         },
         "standard": {
           "name": "Standard",
-          "description": "Großartig für wachsende Anwendungen"
+          "description": "Great for growing applications"
         },
         "performance": {
-          "name": "Leistung",
-          "description": "Ideal für stark frequentierte Workloads"
+          "name": "Performance",
+          "description": "Ideal for high-traffic workloads"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB-Bandbreite",
-        "bandwidthUnmetered": "Ungemessene Bandbreite",
-        "ddos": "DDoS-Schutz",
-        "ipv4": "Dedizierte IPv4-Adresse",
-        "rootAccess": "Vollständiger Root-/SSH-Zugang",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
         "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "AMD-Hardware für Unternehmen",
-          "description": "Angetrieben von AMD-Hardware der Enterprise-Klasse, die außergewöhnliche Multi-Thread-Leistung für anspruchsvolle Workloads bietet.",
+          "title": "Enterprise AMD Hardware",
+          "description": "Powered by enterprise grade AMD hardware delivering exceptional multi-threaded performance for demanding workloads.",
           "highlights": {
-            "0": "AMD-Prozessoren für Unternehmen",
-            "1": "Hohe Kernzahlen",
-            "2": "Großer L3-Cache",
-            "3": "Hohe Taktraten"
+            "0": "Enterprise AMD processors",
+            "1": "High core counts",
+            "2": "Large L3 cache",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-Speicher",
-          "description": "Ultraschneller NVMe-Solid-State-Speicher mit sequenziellen Lesegeschwindigkeiten von über 3.000 MB/s für schnellen Datenzugriff.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage with sequential read speeds exceeding 3,000 MB/s for rapid data access.",
           "highlights": {
             "0": "NVMe Gen 3/4 SSDs",
-            "1": "3.000+ MB/s Lesegeschwindigkeiten",
-            "2": "Niedrige Latenzzeit E/A",
-            "3": "RAID-Redundanz"
+            "1": "3,000+ MB/s read speeds",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-Schutz",
-          "description": "DDoS-Abwehr auf Unternehmensniveau hält Ihren VPS auch bei groß angelegten Angriffen online.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Schicht 3/4/7-Filterung",
-            "1": "Automatisierte Kantenschrubbung",
-            "2": "Minimierung von Ausfallzeiten",
-            "3": "Globale POPs"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Hochgeschwindigkeitsnetz",
-          "description": "uplink mit 1 Gbit/s und Routing mit niedriger Latenz für optimale Konnektivität, egal wo Ihre Benutzer sind.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1Gbps Uplink",
-            "1": "Routing mit niedriger Latenzzeit",
-            "2": "Premium-Peering",
-            "3": "IPv4- und IPv6-Unterstützung"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Vollständiger Root-Zugriff",
-          "description": "Vollständige Kontrolle über Ihre Serverumgebung. Installieren Sie jede Software, konfigurieren Sie jeden Dienst, und führen Sie jedes Betriebssystem aus.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Vollständiger SSH-Root-Zugang",
-            "1": "Wählen Sie Ihre Linux-Distribution",
-            "2": "KVM-Virtualisierung",
-            "3": "Benutzerdefinierte ISO-Unterstützung"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 Expertenunterstützung",
-          "description": "Unser Team steht Ihnen rund um die Uhr zur Verfügung, um Sie bei der Servereinrichtung, Optimierung und Fehlerbehebung zu unterstützen.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Discord-Unterstützung",
-            "1": "Ticket-System",
-            "2": "Wissensbasis",
-            "3": "Hilfe bei der Server-Migration"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Bekomme ich vollen Root-Zugriff auf meinen VPS?",
-          "answer": "Ja, alle AMD VPS-Pläne beinhalten vollen Root-Zugriff über SSH. Sie haben die vollständige Kontrolle über Ihre Serverumgebung, einschließlich Betriebssystem, Software und Konfiguration."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all AMD VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Welche Betriebssysteme gibt es?",
-          "answer": "Wir unterstützen beliebte Linux-Distributionen wie Ubuntu, Debian, CentOS, AlmaLinux und Rocky Linux. Sie können auch Ihre eigene benutzerdefinierte ISO hochladen."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kann ich meinen VPS-Plan später aufrüsten?",
-          "answer": "Ja, Sie können Ihren VPS-Plan jederzeit über unser Abrechnungspanel aktualisieren. Ressourcenerhöhungen werden mit minimaler Ausfallzeit durchgeführt."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Was passiert, wenn ich mein Bandbreitenlimit überschreite?",
-          "answer": "Bei gebührenpflichtigen Tarifen benachrichtigen wir Sie, bevor Sie Ihr Limit erreichen. Sie können jederzeit zusätzliche Bandbreite erwerben oder auf einen Tarif ohne Tarif erhöhen."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Ist DDoS-Schutz enthalten?",
-          "answer": "Ja, alle AMD VPS-Pläne beinhalten DDoS-Abwehr in Unternehmensqualität. Dies schützt Ihren Server vor Layer 3, 4 und 7 Angriffen mit Zero-Downtime-Scrubbing."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all AMD VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Bieten Sie Rückerstattungen an?",
-          "answer": "Ja, wir bieten eine 48-Stunden-Geld-zurück-Garantie für alle neuen VPS-Käufe. Wenden Sie sich innerhalb von 48 Stunden nach dem Kauf an den Support, um eine vollständige Rückerstattung zu erhalten."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my AMD VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
       }
     },
     "intel": {
-      "description": "Zuverlässiger KVM-VPS auf Intel-Hardware für Unternehmen. Ausgezeichnete Single-Thread-Leistung für Webhosting, Datenbanken und Anwendungsserver.",
-      "heroDescription": "Stabiler KVM-VPS auf Intel-Hardware mit NVMe-SSD-Speicher, vollständigem Root-Zugriff und DDoS-Schutz für Unternehmen. Bereitstellung in Sekunden.",
-      "tag": "Intel-gestützt",
+      "description": "Reliable KVM VPS on enterprise Intel hardware. Excellent single-thread performance for web hosting, databases, and application servers.",
+      "heroDescription": "Rock-solid KVM VPS on Intel hardware with NVMe SSD storage, full root access, and enterprise DDoS protection. Deploy in seconds.",
+      "tag": "Intel Powered",
       "features": {
-        "0": "Intel-Prozessoren für Unternehmen",
-        "1": "NVMe-SSD-Speicher",
-        "2": "Vollständiger Root-/SSH-Zugang",
-        "3": "DDoS-Schutz"
+        "0": "Enterprise Intel processors",
+        "1": "NVMe SSD storage",
+        "2": "Full root / SSH access",
+        "3": "DDoS Protection"
       },
       "heroFeatures": {
-        "0": "Vollständiger Root-Zugriff",
-        "1": "KVM-Virtualisierung",
-        "2": "NVMe-SSD",
-        "3": "DDoS-Schutz"
+        "0": "Full Root Access",
+        "1": "KVM Virtualization",
+        "2": "NVMe SSD",
+        "3": "DDoS Protection"
       },
       "plans": {
         "core": {
-          "name": "Kern",
-          "description": "Perfekt für kleine Projekte und Webhosting"
+          "name": "Core",
+          "description": "Perfect for small projects and web hosting"
         },
         "pro": {
           "name": "Pro",
-          "description": "Großartig für Produktionsanwendungen"
+          "description": "Great for production applications"
         },
         "enterprise": {
-          "name": "Unternehmen",
-          "description": "Ideal für stark nachgefragte Dienste"
+          "name": "Enterprise",
+          "description": "Ideal for high-demand services"
         }
       },
       "planFeatures": {
         "cpu": "{cores} vCPU",
         "ram": "{amount} GB DDR4 ECC RAM",
         "storage": "{amount} GB NVMe SSD",
-        "bandwidth": "{amount} TB-Bandbreite",
-        "bandwidthUnmetered": "Ungemessene Bandbreite",
-        "ddos": "DDoS-Schutz",
-        "ipv4": "Dedizierte IPv4-Adresse",
-        "rootAccess": "Vollständiger Root-/SSH-Zugang",
+        "bandwidth": "{amount} TB Bandwidth",
+        "bandwidthUnmetered": "Unmetered Bandwidth",
+        "ddos": "DDoS Protection",
+        "ipv4": "Dedicated IPv4 Address",
+        "rootAccess": "Full Root / SSH Access",
         "uptime": "99.9% Uptime SLA"
       },
       "pageFeatures": {
         "hardware": {
-          "title": "Intel-Hardware für Unternehmen",
-          "description": "Basierend auf Intel-Hardware der Enterprise-Klasse mit starker Single-Thread-Leistung für Webserver, Datenbanken und Anwendungen.",
+          "title": "Enterprise Intel Hardware",
+          "description": "Built on enterprise grade Intel hardware with strong single-thread performance for web servers, databases, and applications.",
           "highlights": {
-            "0": "Intel-Prozessoren für Unternehmen",
-            "1": "Starke Single-Thread-Leistung",
-            "2": "Große Cache-Größen",
-            "3": "Hohe Taktraten"
+            "0": "Enterprise Intel processors",
+            "1": "Strong single-thread perf",
+            "2": "Large cache sizes",
+            "3": "High clock speeds"
           }
         },
         "storage": {
-          "title": "NVMe SSD-Speicher",
-          "description": "Ultraschneller NVMe-Solid-State-Speicher mit hoher IOPS-Leistung und niedriger Latenz für E/A-intensive Anwendungen.",
+          "title": "NVMe SSD Storage",
+          "description": "Ultra-fast NVMe solid-state storage delivering high IOPS and low latency for I/O-intensive applications.",
           "highlights": {
             "0": "NVMe Gen 3/4 SSDs",
-            "1": "Hohe IOPS-Leistung",
-            "2": "Niedrige Latenzzeit E/A",
-            "3": "RAID-Redundanz"
+            "1": "High IOPS performance",
+            "2": "Low latency I/O",
+            "3": "RAID redundancy"
           }
         },
         "ddos": {
-          "title": "DDoS-Schutz",
-          "description": "DDoS-Abwehr auf Unternehmensniveau hält Ihren VPS auch bei groß angelegten Angriffen online.",
+          "title": "DDoS Protection",
+          "description": "Enterprise grade DDoS mitigation keeps your VPS online even during large-scale attacks.",
           "highlights": {
-            "0": "Schicht 3/4/7-Filterung",
-            "1": "Automatisierte Kantenschrubbung",
-            "2": "Minimierung von Ausfallzeiten",
-            "3": "Globale POPs"
+            "0": "Layer 3/4/7 filtering",
+            "1": "Automated edge scrubbing",
+            "2": "Zero downtime mitigation",
+            "3": "Global POPs"
           }
         },
         "network": {
-          "title": "Hochgeschwindigkeitsnetz",
-          "description": "uplink mit 1 Gbit/s und Routing mit niedriger Latenz für optimale Konnektivität, egal wo Ihre Benutzer sind.",
+          "title": "High-Speed Network",
+          "description": "1Gbps uplink with low-latency routing for optimal connectivity wherever your users are.",
           "highlights": {
-            "0": "1Gbps Uplink",
-            "1": "Routing mit niedriger Latenzzeit",
-            "2": "Premium-Peering",
-            "3": "IPv4- und IPv6-Unterstützung"
+            "0": "1Gbps uplink",
+            "1": "Low latency routing",
+            "2": "Premium peering",
+            "3": "IPv4 & IPv6 support"
           }
         },
         "access": {
-          "title": "Vollständiger Root-Zugriff",
-          "description": "Vollständige Kontrolle über Ihre Serverumgebung. Installieren Sie jede Software, konfigurieren Sie jeden Dienst, und führen Sie jedes Betriebssystem aus.",
+          "title": "Full Root Access",
+          "description": "Complete control over your server environment. Install any software, configure any service, and run any OS.",
           "highlights": {
-            "0": "Vollständiger SSH-Root-Zugang",
-            "1": "Wählen Sie Ihre Linux-Distribution",
-            "2": "KVM-Virtualisierung",
-            "3": "Benutzerdefinierte ISO-Unterstützung"
+            "0": "Full SSH root access",
+            "1": "Choose your Linux distro",
+            "2": "KVM virtualization",
+            "3": "Custom ISO support"
           }
         },
         "support": {
-          "title": "24/7 Expertenunterstützung",
-          "description": "Unser Team steht Ihnen rund um die Uhr zur Verfügung, um Sie bei der Servereinrichtung, Optimierung und Fehlerbehebung zu unterstützen.",
+          "title": "24/7 Expert Support",
+          "description": "Our team is available around the clock to help with server setup, optimization, and troubleshooting.",
           "highlights": {
-            "0": "Discord-Unterstützung",
-            "1": "Ticket-System",
-            "2": "Wissensbasis",
-            "3": "Hilfe bei der Server-Migration"
+            "0": "Discord support",
+            "1": "Ticket system",
+            "2": "Knowledge base",
+            "3": "Server migration help"
           }
         }
       },
       "faqs": {
         "rootAccess": {
-          "question": "Bekomme ich vollen Root-Zugriff auf meinen VPS?",
-          "answer": "Ja, alle Intel VPS-Pläne beinhalten vollen Root-Zugriff über SSH. Sie haben die vollständige Kontrolle über Ihre Serverumgebung, einschließlich Betriebssystem, Software und Konfiguration."
+          "question": "Do I get full root access to my VPS?",
+          "answer": "Yes, all Intel VPS plans include full root access via SSH. You have complete control over your server environment including OS, software, and configuration."
         },
         "os": {
-          "question": "Welche Betriebssysteme gibt es?",
-          "answer": "Wir unterstützen beliebte Linux-Distributionen wie Ubuntu, Debian, CentOS, AlmaLinux und Rocky Linux. Sie können auch Ihre eigene benutzerdefinierte ISO hochladen."
+          "question": "Which operating systems are available?",
+          "answer": "We support popular Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own custom ISO."
         },
         "upgrade": {
-          "question": "Kann ich meinen VPS-Plan später aufrüsten?",
-          "answer": "Ja, Sie können Ihren VPS-Plan jederzeit über unser Abrechnungspanel aktualisieren. Ressourcenerhöhungen werden mit minimaler Ausfallzeit durchgeführt."
+          "question": "Can I upgrade my VPS plan later?",
+          "answer": "Yes, you can upgrade your VPS plan at any time from our billing panel. Resource increases are applied with minimal downtime."
         },
         "bandwidth": {
-          "question": "Was passiert, wenn ich mein Bandbreitenlimit überschreite?",
-          "answer": "Bei gebührenpflichtigen Tarifen benachrichtigen wir Sie, bevor Sie Ihr Limit erreichen. Sie können jederzeit zusätzliche Bandbreite erwerben oder auf einen Tarif ohne Tarif erhöhen."
+          "question": "What happens if I exceed my bandwidth limit?",
+          "answer": "On metered plans, we'll notify you before you hit your limit. You can purchase additional bandwidth or upgrade to an unmetered plan at any time."
         },
         "ddos": {
-          "question": "Ist DDoS-Schutz enthalten?",
-          "answer": "Ja, alle Intel VPS-Pläne beinhalten DDoS-Abwehr in Unternehmensqualität. Dies schützt Ihren Server vor Layer 3, 4 und 7 Angriffen mit Zero-Downtime-Scrubbing."
+          "question": "Is DDoS protection included?",
+          "answer": "Yes, all Intel VPS plans include enterprise grade DDoS mitigation. This protects your server from Layer 3, 4, and 7 attacks with zero-downtime scrubbing."
         },
         "refunds": {
-          "question": "Bieten Sie Rückerstattungen an?",
-          "answer": "Ja, wir bieten eine 48-Stunden-Geld-zurück-Garantie für alle neuen VPS-Käufe. Wenden Sie sich innerhalb von 48 Stunden nach dem Kauf an den Support, um eine vollständige Rückerstattung zu erhalten."
+          "question": "Do you offer refunds?",
+          "answer": "Yes, we offer a 48-hour money-back guarantee on all new VPS purchases. Contact support within 48 hours of purchase for a full refund."
+        },
+        "windows": {
+          "question": "Can I run Windows on my Intel VPS?",
+          "answer": "Windows is supported on our VPS plans on a BYOL (Bring Your Own License) basis. You must supply a valid Windows Server license we do not provide or include Windows licenses. Linux distributions are available at no extra cost."
         }
+      }
+    },
+    "pricing": {
+      "badge": "VPS Pricing",
+      "title": "Plans & Pricing",
+      "description": "Choose the plan that fits your needs. All plans include full root access, DDoS protection, and 24/7 support.",
+      "mostPopular": "Most Popular",
+      "getStarted": "Get Started",
+      "viewAllPlans": "View All Plans",
+      "contactUs": "contact us",
+      "customSolution": "Need something custom?",
+      "unmetered": "Unmetered",
+      "poweredBy": "Powered by {model}",
+      "filters": {
+        "search": "Search plans...",
+        "price": "Price",
+        "cpu": "CPU Cores",
+        "ram": "RAM",
+        "storage": "Storage",
+        "sortDefault": "Sort: Default",
+        "sortAsc": "Price: Low to High",
+        "sortDesc": "Price: High to Low",
+        "clearFilters": "Clear Filters",
+        "noResults": "No plans match your filters",
+        "noResultsDesc": "Try adjusting or clearing your filters to see available plans."
       }
     }
   }
