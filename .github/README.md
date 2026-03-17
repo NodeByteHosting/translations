@@ -47,7 +47,9 @@ The easiest way to contribute translations is through our Crowdin project:
 
 ## Requesting a New Language
 
-If your language isn't listed, [open an issue](https://github.com/NodeByteHosting/translations/issues) or ask in our [Discord](https://discord.gg/nodebyte)!
+If your language isn't listed you can request it here:
+- [Open an issue](https://github.com/NodeByteHosting/translations/issues)
+- [Join our Discord](https://discord.gg/nodebyte)!
 
 ## License
 
