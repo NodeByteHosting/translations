@@ -8,7 +8,7 @@ Community translations for [NodeByte Hosting](https://nodebyte.host).
 
 ### Via Crowdin (Recommended)
 The easiest way to contribute translations is through our Crowdin project:
-**[Translate on Crowdin →](https://crowdin.com/project/nodebyte)**
+**[Translate on Crowdin](https://crowdin.com/project/nodebyte)**
 
 Crowdin provides a user-friendly interface for translating and automatically syncs approved translations to this repository.
 
