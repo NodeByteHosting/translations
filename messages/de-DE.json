@@ -547,23 +547,23 @@
         "3": "24/7 Support"
       }
     },
-    "fivem": {
-      "description": "Custom script support, txAdmin panel, OneSync Infinity, and enterprise DDoS protection for GTA roleplay communities.",
+    "terraria": {
+      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
       "tag": "Coming Soon",
       "features": {
-        "0": "Custom script support",
-        "1": "txAdmin panel",
-        "2": "OneSync Infinity",
+        "0": "tModLoader support",
+        "1": "Custom worlds",
+        "2": "Auto backups",
         "3": "DDoS protection"
       }
     },
-    "redm": {
-      "description": "Full VORP/RedEM:R framework support, custom map and content streaming for Red Dead Redemption 2 roleplay communities.",
+    "gmod": {
+      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
       "tag": "Coming Soon",
       "features": {
-        "0": "VORP/RedEM:R support",
-        "1": "Custom map streaming",
-        "2": "Custom peds & vehicles",
+        "0": "Workshop addons",
+        "1": "DarkRP ready",
+        "2": "MySQL included",
         "3": "DDoS protection"
       }
     },
