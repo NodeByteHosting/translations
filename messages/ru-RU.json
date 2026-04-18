@@ -304,6 +304,14 @@
         "inferno": {
           "name": "Инферно",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -430,6 +438,10 @@
         "performance": {
           "name": "Производительность",
           "description": "Рекомендуется для 100 игроков"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +672,12 @@
     "ticket": {
       "title": "Заявка в поддержку",
       "description": "Отправить заявку через нашу панель биллинга по вопросам, связанным с учетной записью.",
-      "button": "Открыть тикет"
+      "button": "Открыть тикет",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "Поддержка по электронной почте",

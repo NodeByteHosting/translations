@@ -304,6 +304,14 @@
         "inferno": {
           "name": "Infern",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -430,6 +438,10 @@
         "performance": {
           "name": "Performanță",
           "description": "Recomandat pentru 100 de jucători"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +672,12 @@
     "ticket": {
       "title": "Suport tichet",
       "description": "Trimiteți un bilet prin panoul nostru de facturare pentru probleme legate de cont.",
-      "button": "Deschide Bilet"
+      "button": "Deschide Bilet",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "Suport Email",
