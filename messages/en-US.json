@@ -430,6 +430,10 @@
         "performance": {
           "name": "Performance",
           "description": "Recommended for 100 Players"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +664,12 @@
     "ticket": {
       "title": "Support Ticket",
       "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "button": "Open Ticket",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "Email Support",
