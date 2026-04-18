@@ -304,6 +304,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -430,6 +438,10 @@
         "performance": {
           "name": "Prestation",
           "description": "Rekommenderas för 100 spelare"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +672,12 @@
     "ticket": {
       "title": "Supportärende",
       "description": "Skicka in ett ärende via vår faktureringspanel för redovisningsrelaterade frågor.",
-      "button": "Öppna ärende"
+      "button": "Öppna ärende",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "E-posta support",

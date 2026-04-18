@@ -304,6 +304,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -430,6 +438,10 @@
         "performance": {
           "name": "Performances",
           "description": "Recommandé pour 100 joueurs"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +672,12 @@
     "ticket": {
       "title": "Ticket de support",
       "description": "Soumettez un ticket par l'intermédiaire de notre panneau de facturation pour les problèmes liés au compte.",
-      "button": "Ouvrir un ticket"
+      "button": "Ouvrir un ticket",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "Support par e-mail",

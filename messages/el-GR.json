@@ -304,6 +304,14 @@
         "inferno": {
           "name": "Κόλαση",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -430,6 +438,10 @@
         "performance": {
           "name": "Επιδόσεις",
           "description": "Συνιστάται για 100 παίκτες"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +672,12 @@
     "ticket": {
       "title": "Αίτημα Υποστήριξης",
       "description": "Υποβάλετε ένα εισιτήριο μέσω του πίνακα χρέωσης μας για θέματα που σχετίζονται με λογαριασμό.",
-      "button": "Άνοιγμα Αιτήματος"
+      "button": "Άνοιγμα Αιτήματος",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "Υποστήριξη Email",

@@ -304,6 +304,14 @@
         "inferno": {
           "name": "جحيم",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -430,6 +438,10 @@
         "performance": {
           "name": "الأداء",
           "description": "موصى به لـ 100 لاعب"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -660,7 +672,12 @@
     "ticket": {
       "title": "تذكرة الدعم",
       "description": "قم بتقديم تذكرة من خلال لوحة الفوترة الخاصة بنا للمسائل المتعلقة بالحساب.",
-      "button": "فتح تذكرة"
+      "button": "فتح تذكرة",
+      "features": {
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
+      }
     },
     "email": {
       "badge": "دعم البريد الإلكتروني",
