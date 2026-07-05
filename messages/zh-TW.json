@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "專用伺服器",
+      "description": "配備專用 CPU 核心的裸機伺服器"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "烈焰風暴",
+          "description": "專為規模龐大且活躍的社群打造"
+        },
+        "supernova": {
+          "name": "超新星",
+          "description": "為大型伺服器提供最大效能"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performance",
           "description": "Recommended for 100 Players"
+        },
+        "premium": {
+          "name": "尊享版",
+          "description": "推薦給 150 名以上玩家"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Support Ticket",
       "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "button": "Open Ticket",
+      "features": {
+        "0": "帳戶與帳單問題",
+        "1": "已追蹤並設定優先級",
+        "2": "24 小時內回覆"
+      }
     },
     "email": {
       "badge": "Email Support",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "專用伺服器",
+      "systemStatus": "《魔鏡》"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS 控制面板",
+      "gamePanel": "遊戲面板"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",

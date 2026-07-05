@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Özel Sunucular",
+      "description": "Özel CPU çekirdeklerine sahip bare-metal sunucular"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Ateş Fırtınası",
+          "description": "Büyük ve aktif topluluklar için tasarlanmıştır"
+        },
+        "supernova": {
+          "name": "Süpernova",
+          "description": "Devasa sunucular için maksimum güç"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performance",
           "description": "Recommended for 100 Players"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "150'den fazla oyuncu için önerilir"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Support Ticket",
       "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "button": "Open Ticket",
+      "features": {
+        "0": "Hesap ve faturalandırma sorunları",
+        "1": "Takip edildi ve önceliklendirildi",
+        "2": "24 saat içinde yanıt verilir"
+      }
     },
     "email": {
       "badge": "Email Support",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Özel Sunucular",
+      "systemStatus": "Aynalı Cam"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS Paneli",
+      "gamePanel": "Oyun Paneli"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",

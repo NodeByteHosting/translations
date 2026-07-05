@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Omistettuja palvelimia",
+      "description": "Bare-metal-palvelimet, joissa on erilliset CPU-ytimet"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Tulimyrsky",
+          "description": "Suunniteltu suurille ja aktiivisille yhteisöille"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Enimmäisteho suurille palvelimille"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Suorituskyky",
           "description": "Suositellaan 100 pelaajalle"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Suositellaan yli 150 pelaajalle"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Tue Tukipyyntöä",
       "description": "Lähetä lippu laskutuspaneelin kautta tiliin liittyviin kysymyksiin.",
-      "button": "Avaa Tiketti"
+      "button": "Avaa Tiketti",
+      "features": {
+        "0": "Tili- ja laskutusasiat",
+        "1": "Seurattu ja priorisoitu",
+        "2": "Vastaus 24 tunnin kuluessa"
+      }
     },
     "email": {
       "badge": "Lähetä Tuki Sähköpostilla",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Pelin Paneeli",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Omistettuja palvelimia",
+      "systemStatus": "Peili"
     },
     "resources": {
       "discordServer": "Discord-palvelin",
       "serviceStatus": "Palvelun Tila",
       "knowledgeBase": "Tietämyskanta",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS-hallintapaneeli",
+      "gamePanel": "Pelit-paneeli"
     },
     "legalLinks": {
       "terms": "Ehdot Ja Ehdot",

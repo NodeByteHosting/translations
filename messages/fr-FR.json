@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Serveurs dédiés",
+      "description": "Serveurs « bare metal » dotés de cœurs de processeur dédiés"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Tempête de feu",
+          "description": "Conçu pour les grandes communautés dynamiques"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Une puissance maximale pour les serveurs de grande envergure"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performances",
           "description": "Recommandé pour 100 joueurs"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recommandé pour plus de 150 joueurs"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Ticket de support",
       "description": "Soumettez un ticket par l'intermédiaire de notre panneau de facturation pour les problèmes liés au compte.",
-      "button": "Ouvrir un ticket"
+      "button": "Ouvrir un ticket",
+      "features": {
+        "0": "Problèmes liés au compte et à la facturation",
+        "1": "Suivi et classés par ordre de priorité",
+        "2": "Réponse sous 24 heures"
+      }
     },
     "email": {
       "badge": "Support par e-mail",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Panneau de jeu",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Serveurs dédiés",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
       "discordServer": "Serveur Discord",
       "serviceStatus": "Statut du service",
       "knowledgeBase": "Base de connaissances",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "Panneau de contrôle VPS",
+      "gamePanel": "Panneau de jeu"
     },
     "legalLinks": {
       "terms": "Termes et Conditions",

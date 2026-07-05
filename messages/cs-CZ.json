@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Vyhrazené servery",
+      "description": "Servery typu „bare-metal“ s vyhrazenými jádry procesoru"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Příklad",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Ohnivá bouře",
+          "description": "Určeno pro velké a aktivní komunity"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximální výkon pro rozsáhlé servery"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Výkon",
           "description": "Doporučeno pro 100 hráčů"
+        },
+        "premium": {
+          "name": "Prémiové",
+          "description": "Doporučeno pro 150 a více hráčů"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Tiket podpory",
       "description": "Odešlete letenku přes náš fakturační panel pro problémy spojené s účtem.",
-      "button": "Otevřít ticket"
+      "button": "Otevřít ticket",
+      "features": {
+        "0": "Problémy s účtem a fakturací",
+        "1": "Sledováno a označeno jako prioritní",
+        "2": "Odpověď do 24 hodin"
+      }
     },
     "email": {
       "badge": "E-mailová podpora",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Herní panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Vyhrazené servery",
+      "systemStatus": "Zrcadlo"
     },
     "resources": {
       "discordServer": "Discord server",
       "serviceStatus": "Stav služby",
       "knowledgeBase": "Znalostní báze",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "Panel VPS",
+      "gamePanel": "Herní panel"
     },
     "legalLinks": {
       "terms": "Pravidla & Podmínky",

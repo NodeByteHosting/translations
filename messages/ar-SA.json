@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "الخوادم المخصصة",
+      "description": "خوادم «باري ميتال» مزودة بنوى معالج مخصصة"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "جحيم",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "العاصفة النارية",
+          "description": "مصمم للمجتمعات الكبيرة والنشطة"
+        },
+        "supernova": {
+          "name": "سوبرنوفا",
+          "description": "أقصى قدر من الأداء للخوادم الضخمة"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "الأداء",
           "description": "موصى به لـ 100 لاعب"
+        },
+        "premium": {
+          "name": "فئة بريميوم",
+          "description": "موصى به لـ 150 لاعبًا أو أكثر"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "تذكرة الدعم",
       "description": "قم بتقديم تذكرة من خلال لوحة الفوترة الخاصة بنا للمسائل المتعلقة بالحساب.",
-      "button": "فتح تذكرة"
+      "button": "فتح تذكرة",
+      "features": {
+        "0": "مشكلات الحساب والفوترة",
+        "1": "تم تتبعها وتحديد أولوياتها",
+        "2": "الرد في غضون 24 ساعة"
+      }
     },
     "email": {
       "badge": "دعم البريد الإلكتروني",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "لوحة اللعبة",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "الخوادم المخصصة",
+      "systemStatus": "المرآة"
     },
     "resources": {
       "discordServer": "خادم ديسكورد",
       "serviceStatus": "حالة الخدمة",
       "knowledgeBase": "قاعدة المعارف",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "لوحة تحكم VPS",
+      "gamePanel": "لوحة الألعاب"
     },
     "legalLinks": {
       "terms": "الشروط والأحكام",

@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Виділені сервери",
+      "description": "Сервери «з нуля» з виділеними ядрами процесора"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Вогнемет 'Пекло'",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "«Вогняна буря»",
+          "description": "Створено для великих та активних спільнот"
+        },
+        "supernova": {
+          "name": "Супернова",
+          "description": "Максимальна потужність для потужних серверів"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Продуктивність",
           "description": "Рекомендовано для 100 гравців"
+        },
+        "premium": {
+          "name": "Преміум",
+          "description": "Рекомендовано для 150 і більше гравців"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Служба підтримки",
       "description": "Відправте квиток через нашу платіжну панель для проблем, пов'язаних з обліковим записом.",
-      "button": "Відкрити тікет"
+      "button": "Відкрити тікет",
+      "features": {
+        "0": "Питання щодо облікового запису та оплати",
+        "1": "Відстежено та визначено пріоритетність",
+        "2": "Відповідь протягом 24 годин"
+      }
     },
     "email": {
       "badge": "Підтримка по електронній пошті",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Ігрова панель",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Виділені сервери",
+      "systemStatus": "Дзеркало"
     },
     "resources": {
       "discordServer": "Discord сервер",
       "serviceStatus": "Стан служби",
       "knowledgeBase": "База знань",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "Панель управління VPS",
+      "gamePanel": "Ігрова панель"
     },
     "legalLinks": {
       "terms": "Правила та Умови",

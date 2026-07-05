@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Dedikerade servrar",
+      "description": "Bare-metal-servrar med dedikerade CPU-kärnor"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Utvecklad för stora och aktiva samhällen"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximal effekt för stora servrar"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Prestation",
           "description": "Rekommenderas för 100 spelare"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Rekommenderas för 150+ spelare"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Supportärende",
       "description": "Skicka in ett ärende via vår faktureringspanel för redovisningsrelaterade frågor.",
-      "button": "Öppna ärende"
+      "button": "Öppna ärende",
+      "features": {
+        "0": "Problem med konto och fakturering",
+        "1": "Uppföljda och prioriterade",
+        "2": "Svar inom 24 timmar"
+      }
     },
     "email": {
       "badge": "E-posta support",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Spelpanelen",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Dedikerade servrar",
+      "systemStatus": "Spegel"
     },
     "resources": {
       "discordServer": "Discords server",
       "serviceStatus": "Tjänstens status",
       "knowledgeBase": "Kunskapsbas",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS-panelen",
+      "gamePanel": "Spelpanel"
     },
     "legalLinks": {
       "terms": "Regler & villkor",

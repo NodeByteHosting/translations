@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "専用サーバー",
+      "description": "専用CPUコアを備えたベアメタルサーバー"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "インフェルノ",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "ファイアストーム",
+          "description": "大規模で活発なコミュニティ向けに設計されています"
+        },
+        "supernova": {
+          "name": "超新星",
+          "description": "大規模サーバー向けの最大出力"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "パフォーマンス",
           "description": "100人のプレイヤーにおすすめです"
+        },
+        "premium": {
+          "name": "プレミアム",
+          "description": "150人以上のプレイヤーにおすすめ"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "サポートチケット",
       "description": "アカウント関連の問題については、請求パネルからチケットを送信してください。",
-      "button": "チケットを開く"
+      "button": "チケットを開く",
+      "features": {
+        "0": "アカウントおよび請求に関する問題",
+        "1": "追跡・優先順位付け済み",
+        "2": "24時間以内にご返信いたします"
+      }
     },
     "email": {
       "badge": "メールサポート",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "ゲームパネル",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "専用サーバー",
+      "systemStatus": "ルッキング・グラス"
     },
     "resources": {
       "discordServer": "Discord サーバー",
       "serviceStatus": "サービスステータス",
       "knowledgeBase": "ナレッジベース",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPSパネル",
+      "gamePanel": "ゲームパネル"
     },
     "legalLinks": {
       "terms": "利用規約",

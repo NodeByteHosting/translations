@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Αποκλειστικοί διακομιστές",
+      "description": "Διακομιστές «bare-metal» με αποκλειστικούς πυρήνες CPU"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Κόλαση",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Πυρκαγιά-καταιγίδα",
+          "description": "Σχεδιασμένο για μεγάλες και δραστήριες κοινότητες"
+        },
+        "supernova": {
+          "name": "Σουπερνόβα",
+          "description": "Μέγιστη ισχύς για μεγάλους διακομιστές"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Επιδόσεις",
           "description": "Συνιστάται για 100 παίκτες"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Συνιστάται για 150+ παίκτες"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Αίτημα Υποστήριξης",
       "description": "Υποβάλετε ένα εισιτήριο μέσω του πίνακα χρέωσης μας για θέματα που σχετίζονται με λογαριασμό.",
-      "button": "Άνοιγμα Αιτήματος"
+      "button": "Άνοιγμα Αιτήματος",
+      "features": {
+        "0": "Θέματα σχετικά με τον λογαριασμό και τη χρέωση",
+        "1": "Παρακολούθηση και ιεράρχηση",
+        "2": "Απάντηση εντός 24 ωρών"
+      }
     },
     "email": {
       "badge": "Υποστήριξη Email",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Πλαίσιο Παιχνιδιού",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Αποκλειστικοί διακομιστές",
+      "systemStatus": "Καθρέφτης"
     },
     "resources": {
       "discordServer": "Διακομιστής Discord",
       "serviceStatus": "Κατάσταση Υπηρεσίας",
       "knowledgeBase": "Γνωσιακή Βάση",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "Πίνακας ελέγχου VPS",
+      "gamePanel": "Πίνακας παιχνιδιών"
     },
     "legalLinks": {
       "terms": "Όροι & Προϋποθέσεις",

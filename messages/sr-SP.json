@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Посвећени сервери",
+      "description": "Бер-метал сервери са наменским ЦПУ језгрима"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Олуја ватре",
+          "description": "Изграђено за велике и активне заједнице"
+        },
+        "supernova": {
+          "name": "Супернова",
+          "description": "Максимална снага за масивне сервере"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performance",
           "description": "Recommended for 100 Players"
+        },
+        "premium": {
+          "name": "Премијум",
+          "description": "Препоручује се за 150+ играча"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Support Ticket",
       "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "button": "Open Ticket",
+      "features": {
+        "0": "Проблеми са налогом и наплатом",
+        "1": "Праћено и приоритетирано",
+        "2": "Одговор у року од 24 сата"
+      }
     },
     "email": {
       "badge": "Email Support",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Посвећени сервери",
+      "systemStatus": "Огледало"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS контролна табла",
+      "gamePanel": "Панел игре"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",

@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Dedikerte servere",
+      "description": "Bare-metal-servere med dedikerte CPU-kjerner"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Laget for store og aktive lokalsamfunn"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maksimal ytelse for store servere"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Ytelse",
           "description": "Anbefalt for 100 spillere"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Anbefales for 150+ spillere"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Støtte sak",
       "description": "Send inn en sak gjennom vårt faktureringspanel for tilknyttede problemer.",
-      "button": "Åpne sak"
+      "button": "Åpne sak",
+      "features": {
+        "0": "Problemer med konto og fakturering",
+        "1": "Sporet og prioritert",
+        "2": "Svar innen 24 timer"
+      }
     },
     "email": {
       "badge": "E-post støtte",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Spill Panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Dedikerte servere",
+      "systemStatus": "Speilet"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Tjeneste status",
       "knowledgeBase": "Kunnskapsbase",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS-panel",
+      "gamePanel": "Spillpanel"
     },
     "legalLinks": {
       "terms": "Vilkår og betingelser",

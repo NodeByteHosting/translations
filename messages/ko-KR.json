@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "전용 서버",
+      "description": "전용 CPU 코어를 갖춘 베어메탈 서버"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "파이어스톰",
+          "description": "규모가 크고 활발한 커뮤니티를 위해 설계되었습니다"
+        },
+        "supernova": {
+          "name": "초신성",
+          "description": "대규모 서버를 위한 최대 성능"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performance",
           "description": "Recommended for 100 Players"
+        },
+        "premium": {
+          "name": "프리미엄",
+          "description": "150명 이상의 플레이어에게 추천"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Support Ticket",
       "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "button": "Open Ticket",
+      "features": {
+        "0": "계정 및 결제 관련 문제",
+        "1": "추적 및 우선순위 지정",
+        "2": "24시간 이내 답변"
+      }
     },
     "email": {
       "badge": "Email Support",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "전용 서버",
+      "systemStatus": "루킹 글래스"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS 패널",
+      "gamePanel": "게임 패널"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",

@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Dedicated servers",
+      "description": "Bare-metal-servers met toegewezen CPU-kernen"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Vuurhaard",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Vuurstorm",
+          "description": "Ontworpen voor grote en actieve gemeenschappen"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Maximaal vermogen voor grote servers"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Prestaties",
           "description": "Aanbevolen voor 100 spelers"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Aanbevolen voor 150+ spelers"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Ondersteuning Ticket",
       "description": "Een ticket indienen via ons factureringspaneel voor accountgerelateerde problemen.",
-      "button": "Open ticket"
+      "button": "Open ticket",
+      "features": {
+        "0": "Problemen met je account en facturering",
+        "1": "Bijgehouden en geprioriteerd",
+        "2": "Reactie binnen 24 uur"
+      }
     },
     "email": {
       "badge": "E-mail Ondersteuning",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Spel paneel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Dedicated servers",
+      "systemStatus": "Spiegel"
     },
     "resources": {
       "discordServer": "Discord server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Kennisbank",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS-paneel",
+      "gamePanel": "Spelpaneel"
     },
     "legalLinks": {
       "terms": "Algemene Voorwaarden",

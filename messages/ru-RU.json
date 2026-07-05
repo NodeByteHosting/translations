@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Выделенные серверы",
+      "description": "Серверы «bare-metal» с выделенными ядрами процессора"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Инферно",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Огненный шторм",
+          "description": "Создан для больших и активных сообществ"
+        },
+        "supernova": {
+          "name": "Сверхновая",
+          "description": "Максимальная мощность для крупных серверов"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Производительность",
           "description": "Рекомендуется для 100 игроков"
+        },
+        "premium": {
+          "name": "Премиум",
+          "description": "Рекомендуется для 150 и более игроков"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Заявка в поддержку",
       "description": "Отправить заявку через нашу панель биллинга по вопросам, связанным с учетной записью.",
-      "button": "Открыть тикет"
+      "button": "Открыть тикет",
+      "features": {
+        "0": "Вопросы, связанные с учетной записью и оплатой",
+        "1": "Отслежено и расставлено по приоритетам",
+        "2": "Ответ в течение 24 часов"
+      }
     },
     "email": {
       "badge": "Поддержка по электронной почте",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Панель игр",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Выделенные серверы",
+      "systemStatus": "Зеркало"
     },
     "resources": {
       "discordServer": "Сервер Discord",
       "serviceStatus": "Состояние сервиса",
       "knowledgeBase": "База знаний",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "Панель управления VPS",
+      "gamePanel": "Игровая панель"
     },
     "legalLinks": {
       "terms": "Условия использования",

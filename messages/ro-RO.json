@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Servere dedicate",
+      "description": "Servere bare-metal cu nuclee CPU dedicate"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Infern",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Firestorm",
+          "description": "Conceput pentru comunități mari și active"
+        },
+        "supernova": {
+          "name": "Supernova",
+          "description": "Putere maximă pentru servere de mari dimensiuni"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performanță",
           "description": "Recomandat pentru 100 de jucători"
+        },
+        "premium": {
+          "name": "Premium",
+          "description": "Recomandat pentru peste 150 de jucători"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Suport tichet",
       "description": "Trimiteți un bilet prin panoul nostru de facturare pentru probleme legate de cont.",
-      "button": "Deschide Bilet"
+      "button": "Deschide Bilet",
+      "features": {
+        "0": "Probleme legate de cont și facturare",
+        "1": "Urmărite și prioritizate",
+        "2": "Răspuns în termen de 24 de ore"
+      }
     },
     "email": {
       "badge": "Suport Email",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Panou de jocuri",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Servere dedicate",
+      "systemStatus": "Oglinda"
     },
     "resources": {
       "discordServer": "Server Discord",
       "serviceStatus": "Starea serviciului",
       "knowledgeBase": "Baza de cunoștințe",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "Panoul VPS",
+      "gamePanel": "Panoul de joc"
     },
     "legalLinks": {
       "terms": "Termeni & Condiții",

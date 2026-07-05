@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Dedikált szerverek",
+      "description": "Bare-metal szerverek dedikált CPU-magokkal"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "Inferno",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "Tűzvihar",
+          "description": "Nagy és aktív közösségek számára készült"
+        },
+        "supernova": {
+          "name": "Szupernóva",
+          "description": "Maximális teljesítmény hatalmas szerverekhez"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "Performance",
           "description": "Recommended for 100 Players"
+        },
+        "premium": {
+          "name": "Prémium",
+          "description": "150 vagy annál több játékos számára ajánlott"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "Support Ticket",
       "description": "Submit a ticket through our billing panel for account-related issues.",
-      "button": "Open Ticket"
+      "button": "Open Ticket",
+      "features": {
+        "0": "Fiók- és számlázási problémák",
+        "1": "Nyomon követve és fontossági sorrendbe állítva",
+        "2": "Válasz 24 órán belül"
+      }
     },
     "email": {
       "badge": "Email Support",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "Dedikált szerverek",
+      "systemStatus": "Tükör"
     },
     "resources": {
       "discordServer": "Discord Server",
       "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS-panel",
+      "gamePanel": "Játékpanel"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",

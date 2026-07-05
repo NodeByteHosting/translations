@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "专用服务器",
+      "description": "配备专用CPU核心的裸机服务器"
     }
   },
   "servicesHome": {
@@ -304,6 +308,14 @@
         "inferno": {
           "name": "英弗诺文",
           "description": "Ideal for medium sized communities"
+        },
+        "firestorm": {
+          "name": "烈焰风暴",
+          "description": "专为规模庞大且活跃的社区打造"
+        },
+        "supernova": {
+          "name": "超新星",
+          "description": "为大型服务器提供最大功率"
         }
       },
       "planFeatures": {
@@ -430,6 +442,10 @@
         "performance": {
           "name": "业绩",
           "description": "推荐给100名玩家"
+        },
+        "premium": {
+          "name": "高级版",
+          "description": "推荐150名及以上玩家参与"
         }
       },
       "planFeatures": {
@@ -660,7 +676,12 @@
     "ticket": {
       "title": "支持工单",
       "description": "通过我们的账单面板提交账单以处理与账户有关的问题。",
-      "button": "打开工单"
+      "button": "打开工单",
+      "features": {
+        "0": "账户与账单问题",
+        "1": "已跟踪并确定优先级",
+        "2": "24小时内回复"
+      }
     },
     "email": {
       "badge": "电子邮件支持",
@@ -705,13 +726,17 @@
       "gameServers": "Game Hosting",
       "vpsServers": "VPS Hosting",
       "gamePanel": "游戏面板",
-      "vpsPanel": "VPS Panel"
+      "vpsPanel": "VPS Panel",
+      "dedicatedServers": "专用服务器",
+      "systemStatus": "魔镜"
     },
     "resources": {
       "discordServer": "Discord 服务器",
       "serviceStatus": "服务状态",
       "knowledgeBase": "知识库",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "vpsPanel": "VPS 控制面板",
+      "gamePanel": "游戏面板"
     },
     "legalLinks": {
       "terms": "条款与条件",

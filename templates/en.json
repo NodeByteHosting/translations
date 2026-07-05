@@ -63,6 +63,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "dedicated": {
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -451,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod Supported",
         "rustplus": "Rust+ Supported",
         "uptime": "99.6% Uptime SLA"
@@ -719,15 +723,15 @@
       "maintenance": "Under Maintenance"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel"
     },
     "legalLinks": {
@@ -737,7 +741,7 @@
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contact Us",
       "companyInfo": "Company Info",
       "changes": "Changelog"
@@ -1064,7 +1068,7 @@
       "signIn": "Sign in",
       "errors": {
         "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
         "passwordsDontMatch": "Passwords do not match.",
         "passwordTooShort": "Password must be at least 8 characters.",
