@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Özel Sunucular",
-      "description": "Özel CPU çekirdeklerine sahip bare-metal sunucular"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "Ateş Fırtınası",
-          "description": "Büyük ve aktif topluluklar için tasarlanmıştır"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "Süpernova",
-          "description": "Devasa sunucular için maksimum güç"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "150'den fazla oyuncu için önerilir"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod Supported",
         "rustplus": "Rust+ Supported",
         "uptime": "99.6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Submit a ticket through our billing panel for account-related issues.",
       "button": "Open Ticket",
       "features": {
-        "0": "Hesap ve faturalandırma sorunları",
-        "1": "Takip edildi ve önceliklendirildi",
-        "2": "24 saat içinde yanıt verilir"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Under Maintenance"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Özel Sunucular",
-      "systemStatus": "Aynalı Cam"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS Paneli",
-      "gamePanel": "Oyun Paneli"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",
@@ -745,7 +741,7 @@
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contact Us",
       "companyInfo": "Company Info",
       "changes": "Changelog"
@@ -1072,7 +1068,7 @@
       "signIn": "Sign in",
       "errors": {
         "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
         "passwordsDontMatch": "Passwords do not match.",
         "passwordTooShort": "Password must be at least 8 characters.",

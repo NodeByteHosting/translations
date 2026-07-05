@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "专用服务器",
-      "description": "配备专用CPU核心的裸机服务器"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "烈焰风暴",
-          "description": "专为规模庞大且活跃的社区打造"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "超新星",
-          "description": "为大型服务器提供最大功率"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "推荐给100名玩家"
         },
         "premium": {
-          "name": "高级版",
-          "description": "推荐150名及以上玩家参与"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL 数据库",
-        "panel": "BytePanel (同名面板)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod 支持的",
         "rustplus": "支持Rust+",
         "uptime": "99.6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "通过我们的账单面板提交账单以处理与账户有关的问题。",
       "button": "打开工单",
       "features": {
-        "0": "账户与账单问题",
-        "1": "已跟踪并确定优先级",
-        "2": "24小时内回复"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "维护中"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "游戏面板",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "专用服务器",
-      "systemStatus": "魔镜"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord 服务器",
-      "serviceStatus": "服务状态",
       "knowledgeBase": "知识库",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS 控制面板",
-      "gamePanel": "游戏面板"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "条款与条件",
@@ -745,7 +741,7 @@
       "legalHub": "法律中心"
     },
     "company": {
-      "aboutNodeByte": "关于 NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "联系我们",
       "companyInfo": "公司信息",
       "changes": "更新日志"
@@ -1072,7 +1068,7 @@
       "signIn": "登录",
       "errors": {
         "emailExists": "此电子邮件的帐户已存在。",
-        "notInPanel": "未找到游戏面板帐户，请先购买服务创建面板帐户。",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "此面板帐户已经链接到另一个NodeByte帐户。",
         "passwordsDontMatch": "密码不匹配。",
         "passwordTooShort": "密码必须至少 8 个字符。",

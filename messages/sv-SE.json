@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Dedikerade servrar",
-      "description": "Bare-metal-servrar med dedikerade CPU-kärnor"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -311,11 +311,11 @@
         },
         "firestorm": {
           "name": "Firestorm",
-          "description": "Utvecklad för stora och aktiva samhällen"
+          "description": "Built for large and active communities"
         },
         "supernova": {
           "name": "Supernova",
-          "description": "Maximal effekt för stora servrar"
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "Rekommenderas för 150+ spelare"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL-databaser",
-        "panel": "BytePanel (Spelpanel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod stöds",
         "rustplus": "Rust+ stöds",
         "uptime": "99,6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Skicka in ett ärende via vår faktureringspanel för redovisningsrelaterade frågor.",
       "button": "Öppna ärende",
       "features": {
-        "0": "Problem med konto och fakturering",
-        "1": "Uppföljda och prioriterade",
-        "2": "Svar inom 24 timmar"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Under Underhåll"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Spelpanelen",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Dedikerade servrar",
-      "systemStatus": "Spegel"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discords server",
-      "serviceStatus": "Tjänstens status",
       "knowledgeBase": "Kunskapsbas",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-panelen",
-      "gamePanel": "Spelpanel"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Regler & villkor",
@@ -745,7 +741,7 @@
       "legalHub": "Juridiskt nav"
     },
     "company": {
-      "aboutNodeByte": "Om NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Kontakta oss",
       "companyInfo": "Företagsinformation",
       "changes": "Ändringslogg"
@@ -1072,7 +1068,7 @@
       "signIn": "Logga in",
       "errors": {
         "emailExists": "Ett konto med denna e-post finns redan.",
-        "notInPanel": "Inget spelpanelkonto hittades med denna e-post. Vänligen köp en tjänst först för att skapa ett panelkonto.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Detta panelkonto är redan länkat till ett annat NodeByte-konto.",
         "passwordsDontMatch": "Lösenorden matchar inte.",
         "passwordTooShort": "Lösenordet måste vara minst 8 tecken.",

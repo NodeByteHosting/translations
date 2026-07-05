@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "専用サーバー",
-      "description": "専用CPUコアを備えたベアメタルサーバー"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "ファイアストーム",
-          "description": "大規模で活発なコミュニティ向けに設計されています"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "超新星",
-          "description": "大規模サーバー向けの最大出力"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "100人のプレイヤーにおすすめです"
         },
         "premium": {
-          "name": "プレミアム",
-          "description": "150人以上のプレイヤーにおすすめ"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL データベース",
-        "panel": "BytePanel(ゲームパネル)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod対応",
         "rustplus": "Rust+ サポート",
         "uptime": "99.6%の稼働時間SLA"
@@ -678,9 +678,9 @@
       "description": "アカウント関連の問題については、請求パネルからチケットを送信してください。",
       "button": "チケットを開く",
       "features": {
-        "0": "アカウントおよび請求に関する問題",
-        "1": "追跡・優先順位付け済み",
-        "2": "24時間以内にご返信いたします"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "メンテナンス中"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "ゲームパネル",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "専用サーバー",
-      "systemStatus": "ルッキング・グラス"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord サーバー",
-      "serviceStatus": "サービスステータス",
       "knowledgeBase": "ナレッジベース",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPSパネル",
-      "gamePanel": "ゲームパネル"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "利用規約",
@@ -745,7 +741,7 @@
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "NodeByteについて",
+      "aboutNodeByte": "About Us",
       "contact": "お問い合わせ",
       "companyInfo": "会社情報",
       "changes": "更新履歴"
@@ -1072,7 +1068,7 @@
       "signIn": "サインイン",
       "errors": {
         "emailExists": "このメールアドレスのアカウントは既に存在します。",
-        "notInPanel": "このメールアドレスのゲームパネルアカウントが見つかりません。まずサービスを購入してパネルアカウントを作成してください。",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "このパネルアカウントは既に別のNodeByteアカウントにリンクされています。",
         "passwordsDontMatch": "パスワードが一致しません。",
         "passwordTooShort": "パスワードは8文字以上である必要があります。",

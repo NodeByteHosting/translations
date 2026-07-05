@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "الخوادم المخصصة",
-      "description": "خوادم «باري ميتال» مزودة بنوى معالج مخصصة"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "العاصفة النارية",
-          "description": "مصمم للمجتمعات الكبيرة والنشطة"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "سوبرنوفا",
-          "description": "أقصى قدر من الأداء للخوادم الضخمة"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "موصى به لـ 100 لاعب"
         },
         "premium": {
-          "name": "فئة بريميوم",
-          "description": "موصى به لـ 150 لاعبًا أو أكثر"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 قواعد بيانات MySQL",
-        "panel": "BytePanel (لوحة اللعبة)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod مدعوم",
         "rustplus": "Rust+ مدعوم",
         "uptime": "99.6% تحديث مستوى المعيشة"
@@ -678,9 +678,9 @@
       "description": "قم بتقديم تذكرة من خلال لوحة الفوترة الخاصة بنا للمسائل المتعلقة بالحساب.",
       "button": "فتح تذكرة",
       "features": {
-        "0": "مشكلات الحساب والفوترة",
-        "1": "تم تتبعها وتحديد أولوياتها",
-        "2": "الرد في غضون 24 ساعة"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "تحت الصيانة"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "لوحة اللعبة",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "الخوادم المخصصة",
-      "systemStatus": "المرآة"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "خادم ديسكورد",
-      "serviceStatus": "حالة الخدمة",
       "knowledgeBase": "قاعدة المعارف",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "لوحة تحكم VPS",
-      "gamePanel": "لوحة الألعاب"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "الشروط والأحكام",
@@ -745,7 +741,7 @@
       "legalHub": "المركز القانوني"
     },
     "company": {
-      "aboutNodeByte": "حول NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "اتصل بنا",
       "companyInfo": "معلومات الشركة",
       "changes": "تغيير"
@@ -1072,7 +1068,7 @@
       "signIn": "تسجيل الدخول",
       "errors": {
         "emailExists": "يوجد بالفعل حساب بهذا البريد الإلكتروني.",
-        "notInPanel": "لم يتم العثور على حساب لعبة بهذا البريد الإلكتروني. الرجاء شراء خدمة أولاً لإنشاء حساب لوحة.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "حساب اللوحة هذا مرتبط بالفعل بحساب NodeByte آخر.",
         "passwordsDontMatch": "كلمة المرور غير متطابقة.",
         "passwordTooShort": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.",

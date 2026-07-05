@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Αποκλειστικοί διακομιστές",
-      "description": "Διακομιστές «bare-metal» με αποκλειστικούς πυρήνες CPU"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "Πυρκαγιά-καταιγίδα",
-          "description": "Σχεδιασμένο για μεγάλες και δραστήριες κοινότητες"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "Σουπερνόβα",
-          "description": "Μέγιστη ισχύς για μεγάλους διακομιστές"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "Συνιστάται για 150+ παίκτες"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 Βάσεις Δεδομένων MySQL",
-        "panel": "BytePanel (Πίνακας Παιχνιδιών)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Υποστηρίζεται Οξείδιο/Umod",
         "rustplus": "Υποστηριζόμενο Rust+",
         "uptime": "99,6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Υποβάλετε ένα εισιτήριο μέσω του πίνακα χρέωσης μας για θέματα που σχετίζονται με λογαριασμό.",
       "button": "Άνοιγμα Αιτήματος",
       "features": {
-        "0": "Θέματα σχετικά με τον λογαριασμό και τη χρέωση",
-        "1": "Παρακολούθηση και ιεράρχηση",
-        "2": "Απάντηση εντός 24 ωρών"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Υπό Συντήρηση"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Πλαίσιο Παιχνιδιού",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Αποκλειστικοί διακομιστές",
-      "systemStatus": "Καθρέφτης"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Διακομιστής Discord",
-      "serviceStatus": "Κατάσταση Υπηρεσίας",
       "knowledgeBase": "Γνωσιακή Βάση",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "Πίνακας ελέγχου VPS",
-      "gamePanel": "Πίνακας παιχνιδιών"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Όροι & Προϋποθέσεις",
@@ -745,7 +741,7 @@
       "legalHub": "Νομικό Κόμβο"
     },
     "company": {
-      "aboutNodeByte": "Σχετικά Με NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Επικοινωνήστε Μαζί Μας",
       "companyInfo": "Πληροφορίες Εταιρείας",
       "changes": "Αρχείο Αλλαγών"
@@ -1072,7 +1068,7 @@
       "signIn": "Σύνδεση",
       "errors": {
         "emailExists": "Υπάρχει ήδη λογαριασμός με αυτό το email.",
-        "notInPanel": "Δεν βρέθηκε λογαριασμός πίνακα παιχνιδιών με αυτό το email. Παρακαλώ αγοράστε μια υπηρεσία για να δημιουργήσετε έναν λογαριασμό πίνακα.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Αυτός ο λογαριασμός πάνελ είναι ήδη συνδεδεμένος με άλλο λογαριασμό NodeByte.",
         "passwordsDontMatch": "Οι κωδικοί πρόσβασης δεν ταιριάζουν.",
         "passwordTooShort": "Ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον 8 χαρακτήρες.",

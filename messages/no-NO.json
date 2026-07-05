@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Dedikerte servere",
-      "description": "Bare-metal-servere med dedikerte CPU-kjerner"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -311,11 +311,11 @@
         },
         "firestorm": {
           "name": "Firestorm",
-          "description": "Laget for store og aktive lokalsamfunn"
+          "description": "Built for large and active communities"
         },
         "supernova": {
           "name": "Supernova",
-          "description": "Maksimal ytelse for store servere"
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "Anbefales for 150+ spillere"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL databaser",
-        "panel": "BytePanel (Samme Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oksid/Umod støttet",
         "rustplus": "Rust+ Støttet",
         "uptime": "99.6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Send inn en sak gjennom vårt faktureringspanel for tilknyttede problemer.",
       "button": "Åpne sak",
       "features": {
-        "0": "Problemer med konto og fakturering",
-        "1": "Sporet og prioritert",
-        "2": "Svar innen 24 timer"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Under vedlikehold"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Spill Panel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Dedikerte servere",
-      "systemStatus": "Speilet"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Tjeneste status",
       "knowledgeBase": "Kunnskapsbase",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-panel",
-      "gamePanel": "Spillpanel"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Vilkår og betingelser",
@@ -745,7 +741,7 @@
       "legalHub": "Juridisk hub"
     },
     "company": {
-      "aboutNodeByte": "Om NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Kontakt oss",
       "companyInfo": "Firmaets informasjon",
       "changes": "Endringslogg"
@@ -1072,7 +1068,7 @@
       "signIn": "Logg inn",
       "errors": {
         "emailExists": "En konto med denne e-postadressen finnes allerede.",
-        "notInPanel": "Ingen spill-panelkonto funnet med denne e-posten. Vennligst kjøp en tjeneste først for å opprette en panelkonto.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Denne panelkontoen er allerede koblet til en annen NodeByte konto.",
         "passwordsDontMatch": "Passordene samsvarer ikke.",
         "passwordTooShort": "Passordet må bestå av minst åtte tegn.",

@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "전용 서버",
-      "description": "전용 CPU 코어를 갖춘 베어메탈 서버"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "파이어스톰",
-          "description": "규모가 크고 활발한 커뮤니티를 위해 설계되었습니다"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "초신성",
-          "description": "대규모 서버를 위한 최대 성능"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "Recommended for 100 Players"
         },
         "premium": {
-          "name": "프리미엄",
-          "description": "150명 이상의 플레이어에게 추천"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod Supported",
         "rustplus": "Rust+ Supported",
         "uptime": "99.6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Submit a ticket through our billing panel for account-related issues.",
       "button": "Open Ticket",
       "features": {
-        "0": "계정 및 결제 관련 문제",
-        "1": "추적 및 우선순위 지정",
-        "2": "24시간 이내 답변"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Under Maintenance"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "전용 서버",
-      "systemStatus": "루킹 글래스"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS 패널",
-      "gamePanel": "게임 패널"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",
@@ -745,7 +741,7 @@
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contact Us",
       "companyInfo": "Company Info",
       "changes": "Changelog"
@@ -1072,7 +1068,7 @@
       "signIn": "Sign in",
       "errors": {
         "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
         "passwordsDontMatch": "Passwords do not match.",
         "passwordTooShort": "Password must be at least 8 characters.",

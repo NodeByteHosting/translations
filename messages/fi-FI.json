@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Omistettuja palvelimia",
-      "description": "Bare-metal-palvelimet, joissa on erilliset CPU-ytimet"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "Tulimyrsky",
-          "description": "Suunniteltu suurille ja aktiivisille yhteisöille"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
           "name": "Supernova",
-          "description": "Enimmäisteho suurille palvelimille"
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "Suositellaan yli 150 pelaajalle"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL-tietokantaa",
-        "panel": "BytePanel (nimipaneeli)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Tuetut Happi/Umod",
         "rustplus": "Rust+ Tuettu",
         "uptime": "99,6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Lähetä lippu laskutuspaneelin kautta tiliin liittyviin kysymyksiin.",
       "button": "Avaa Tiketti",
       "features": {
-        "0": "Tili- ja laskutusasiat",
-        "1": "Seurattu ja priorisoitu",
-        "2": "Vastaus 24 tunnin kuluessa"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Kunnossapidon Alla"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Pelin Paneeli",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Omistettuja palvelimia",
-      "systemStatus": "Peili"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord-palvelin",
-      "serviceStatus": "Palvelun Tila",
       "knowledgeBase": "Tietämyskanta",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-hallintapaneeli",
-      "gamePanel": "Pelit-paneeli"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Ehdot Ja Ehdot",
@@ -745,7 +741,7 @@
       "legalHub": "Oikeudellinen Hub"
     },
     "company": {
-      "aboutNodeByte": "Tietoja NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Ota Yhteyttä",
       "companyInfo": "Yrityksen Tiedot",
       "changes": "Muutosloki"
@@ -1072,7 +1068,7 @@
       "signIn": "Kirjaudu sisään",
       "errors": {
         "emailExists": "Tällä sähköpostiosoitteella on jo tili.",
-        "notInPanel": "Tällä sähköpostilla ei löytynyt pelipaneelitiliä. Ole hyvä ja osta ensin palvelu luodaksesi paneelitilin.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Tämä paneelitili on jo linkitetty toiseen NodeByte tiliin.",
         "passwordsDontMatch": "Salasanat eivät täsmää.",
         "passwordTooShort": "Salasanan on oltava vähintään 8 merkkiä pitkä.",

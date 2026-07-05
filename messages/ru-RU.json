@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Выделенные серверы",
-      "description": "Серверы «bare-metal» с выделенными ядрами процессора"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "Огненный шторм",
-          "description": "Создан для больших и активных сообществ"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "Сверхновая",
-          "description": "Максимальная мощность для крупных серверов"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "Рекомендуется для 100 игроков"
         },
         "premium": {
-          "name": "Премиум",
-          "description": "Рекомендуется для 150 и более игроков"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 баз данных MySQL",
-        "panel": "BytePanel (панель)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Окисл/Umod поддерживается",
         "rustplus": "Rust+ поддерживается",
         "uptime": "99,6% выше SLA"
@@ -678,9 +678,9 @@
       "description": "Отправить заявку через нашу панель биллинга по вопросам, связанным с учетной записью.",
       "button": "Открыть тикет",
       "features": {
-        "0": "Вопросы, связанные с учетной записью и оплатой",
-        "1": "Отслежено и расставлено по приоритетам",
-        "2": "Ответ в течение 24 часов"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "При обслуживании"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Панель игр",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Выделенные серверы",
-      "systemStatus": "Зеркало"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Сервер Discord",
-      "serviceStatus": "Состояние сервиса",
       "knowledgeBase": "База знаний",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "Панель управления VPS",
-      "gamePanel": "Игровая панель"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Условия использования",
@@ -745,7 +741,7 @@
       "legalHub": "Юридический центр"
     },
     "company": {
-      "aboutNodeByte": "О NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Свяжитесь с нами",
       "companyInfo": "Информация о компании",
       "changes": "Список изменений"
@@ -1072,7 +1068,7 @@
       "signIn": "Войти",
       "errors": {
         "emailExists": "Учетная запись с таким адресом электронной почты уже существует.",
-        "notInPanel": "Не найдено ни одного игрового аккаунта на этом email. Пожалуйста, сначала купите сервис, чтобы создать аккаунт в панели.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Этот аккаунт уже связан с другим аккаунтом NodeByte.",
         "passwordsDontMatch": "Пароли не совпадают.",
         "passwordTooShort": "Пароль должен содержать не менее 8 символов.",

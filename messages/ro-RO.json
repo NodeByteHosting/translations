@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Servere dedicate",
-      "description": "Servere bare-metal cu nuclee CPU dedicate"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -311,11 +311,11 @@
         },
         "firestorm": {
           "name": "Firestorm",
-          "description": "Conceput pentru comunități mari și active"
+          "description": "Built for large and active communities"
         },
         "supernova": {
           "name": "Supernova",
-          "description": "Putere maximă pentru servere de mari dimensiuni"
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "Recomandat pentru peste 150 de jucători"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 Baze de date MySQL",
-        "panel": "Panou BytePanel (Game)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxid/Umod suportat",
         "rustplus": "Rust+ suportat",
         "uptime": "SLA de uptime 99,6%"
@@ -678,9 +678,9 @@
       "description": "Trimiteți un bilet prin panoul nostru de facturare pentru probleme legate de cont.",
       "button": "Deschide Bilet",
       "features": {
-        "0": "Probleme legate de cont și facturare",
-        "1": "Urmărite și prioritizate",
-        "2": "Răspuns în termen de 24 de ore"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "În întreținere"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Panou de jocuri",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Servere dedicate",
-      "systemStatus": "Oglinda"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Server Discord",
-      "serviceStatus": "Starea serviciului",
       "knowledgeBase": "Baza de cunoștințe",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "Panoul VPS",
-      "gamePanel": "Panoul de joc"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Termeni & Condiții",
@@ -745,7 +741,7 @@
       "legalHub": "Platformă juridică"
     },
     "company": {
-      "aboutNodeByte": "Despre NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contactează-ne",
       "companyInfo": "Informații companie",
       "changes": "Jurnal modificări"
@@ -1072,7 +1068,7 @@
       "signIn": "Autentificare",
       "errors": {
         "emailExists": "Există deja un cont cu acest e-mail.",
-        "notInPanel": "Nu a fost găsit niciun cont de panou de joc cu acest e-mail. Vă rugăm să cumpărați mai întâi un serviciu pentru a crea un cont de panou.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Acest cont de panou este deja conectat la un alt cont NodeByte.",
         "passwordsDontMatch": "Parolele nu se potrivesc.",
         "passwordTooShort": "Parola trebuie să conțină cel puțin 8 caractere.",

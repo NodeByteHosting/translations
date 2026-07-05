@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Dedizierte Server",
-      "description": "Bare-Metal-Server mit dedizierten CPU-Kernen"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "Feuersturm",
-          "description": "Entwickelt für große und aktive Gemeinschaften"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
           "name": "Supernova",
-          "description": "Maximale Leistung für riesige Server"
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -445,7 +445,7 @@
         },
         "premium": {
           "name": "Premium",
-          "description": "Empfohlen für mehr als 150 Spieler"
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL-Datenbanken",
-        "panel": "BytePanel (Game Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxid/Umod unterstützt",
         "rustplus": "Rost+ unterstützt",
         "uptime": "99,6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Senden Sie ein Ticket über unser Abrechnungsfeld für kontenbezogene Fragen.",
       "button": "Ticket öffnen",
       "features": {
-        "0": "Probleme mit dem Konto und der Abrechnung",
-        "1": "Nachverfolgt und priorisiert",
-        "2": "Antwort innerhalb von 24 Stunden"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Wartungsarbeiten"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Spielfeld",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Dedizierte Server",
-      "systemStatus": "Spiegel"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service-Status",
       "knowledgeBase": "Wissensdatenbank",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-Panel",
-      "gamePanel": "Spiel-Panel"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Nutzungsbedingungen",
@@ -745,7 +741,7 @@
       "legalHub": "Rechtlicher Hub"
     },
     "company": {
-      "aboutNodeByte": "Über NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Kontaktiere uns",
       "companyInfo": "Firmeninfo",
       "changes": "Changelog"
@@ -1072,7 +1068,7 @@
       "signIn": "Anmelden",
       "errors": {
         "emailExists": "Ein Konto mit dieser E-Mail existiert bereits.",
-        "notInPanel": "Kein Spielfeldkonto mit dieser E-Mail gefunden. Bitte kaufe zuerst einen Service, um ein Panelkonto zu erstellen.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Dieses Panel-Konto ist bereits mit einem anderen NodeByte-Konto verknüpft.",
         "passwordsDontMatch": "Passwörter stimmen nicht überein.",
         "passwordTooShort": "Passwort muss mindestens 8 Zeichen lang sein.",

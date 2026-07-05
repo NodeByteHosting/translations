@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "專用伺服器",
-      "description": "配備專用 CPU 核心的裸機伺服器"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "烈焰風暴",
-          "description": "專為規模龐大且活躍的社群打造"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "超新星",
-          "description": "為大型伺服器提供最大效能"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "Recommended for 100 Players"
         },
         "premium": {
-          "name": "尊享版",
-          "description": "推薦給 150 名以上玩家"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL Databases",
-        "panel": "BytePanel (Game Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxide/Umod Supported",
         "rustplus": "Rust+ Supported",
         "uptime": "99.6% Uptime SLA"
@@ -678,9 +678,9 @@
       "description": "Submit a ticket through our billing panel for account-related issues.",
       "button": "Open Ticket",
       "features": {
-        "0": "帳戶與帳單問題",
-        "1": "已追蹤並設定優先級",
-        "2": "24 小時內回覆"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Under Maintenance"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Game Panel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "專用伺服器",
-      "systemStatus": "《魔鏡》"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord Server",
-      "serviceStatus": "Service Status",
       "knowledgeBase": "Knowledge Base",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS 控制面板",
-      "gamePanel": "遊戲面板"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Terms & Conditions",
@@ -745,7 +741,7 @@
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "About NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contact Us",
       "companyInfo": "Company Info",
       "changes": "Changelog"
@@ -1072,7 +1068,7 @@
       "signIn": "Sign in",
       "errors": {
         "emailExists": "An account with this email already exists.",
-        "notInPanel": "No game panel account found with this email. Please purchase a service first to create a panel account.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "This panel account is already linked to another NodeByte account.",
         "passwordsDontMatch": "Passwords do not match.",
         "passwordTooShort": "Password must be at least 8 characters.",

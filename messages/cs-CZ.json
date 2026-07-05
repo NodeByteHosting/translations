@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Vyhrazené servery",
-      "description": "Servery typu „bare-metal“ s vyhrazenými jádry procesoru"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "Ohnivá bouře",
-          "description": "Určeno pro velké a aktivní komunity"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
           "name": "Supernova",
-          "description": "Maximální výkon pro rozsáhlé servery"
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "Doporučeno pro 100 hráčů"
         },
         "premium": {
-          "name": "Prémiové",
-          "description": "Doporučeno pro 150 a více hráčů"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 MySQL databáze",
-        "panel": "BytePanel (Herní panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Oxid/Umod podporován",
         "rustplus": "Rust+ podporován",
         "uptime": "99,6% Prodloužení SLA"
@@ -678,9 +678,9 @@
       "description": "Odešlete letenku přes náš fakturační panel pro problémy spojené s účtem.",
       "button": "Otevřít ticket",
       "features": {
-        "0": "Problémy s účtem a fakturací",
-        "1": "Sledováno a označeno jako prioritní",
-        "2": "Odpověď do 24 hodin"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Probíhá údržba"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Herní panel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Vyhrazené servery",
-      "systemStatus": "Zrcadlo"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord server",
-      "serviceStatus": "Stav služby",
       "knowledgeBase": "Znalostní báze",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "Panel VPS",
-      "gamePanel": "Herní panel"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Pravidla & Podmínky",
@@ -745,7 +741,7 @@
       "legalHub": "Zákonné rozhraní"
     },
     "company": {
-      "aboutNodeByte": "O NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Kontaktujte nás",
       "companyInfo": "Informace o společnosti",
       "changes": "Seznam změn"
@@ -1072,7 +1068,7 @@
       "signIn": "Přihlásit se",
       "errors": {
         "emailExists": "Účet s tímto e-mailem již existuje.",
-        "notInPanel": "Nebyl nalezen žádný účet v herním panelu s tímto e-mailem. Nejdříve si prosím zakupte službu pro vytvoření účtu v panelu.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Tento panel je již propojen s jiným NodeByte účtem.",
         "passwordsDontMatch": "Hesla se neshodují.",
         "passwordTooShort": "Heslo musí mít alespoň 8 znaků.",

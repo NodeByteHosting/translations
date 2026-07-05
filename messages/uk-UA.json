@@ -65,8 +65,8 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Виділені сервери",
-      "description": "Сервери «з нуля» з виділеними ядрами процесора"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
     }
   },
   "servicesHome": {
@@ -310,12 +310,12 @@
           "description": "Ideal for medium sized communities"
         },
         "firestorm": {
-          "name": "«Вогняна буря»",
-          "description": "Створено для великих та активних спільнот"
+          "name": "Firestorm",
+          "description": "Built for large and active communities"
         },
         "supernova": {
-          "name": "Супернова",
-          "description": "Максимальна потужність для потужних серверів"
+          "name": "Supernova",
+          "description": "Maximum power for massive servers"
         }
       },
       "planFeatures": {
@@ -444,8 +444,8 @@
           "description": "Рекомендовано для 100 гравців"
         },
         "premium": {
-          "name": "Преміум",
-          "description": "Рекомендовано для 150 і більше гравців"
+          "name": "Premium",
+          "description": "Recommended for 150+ Players"
         }
       },
       "planFeatures": {
@@ -455,7 +455,7 @@
         "ddos": "DDoS Protection",
         "location": "Multiple Locations",
         "databases": "10 баз даних MySQL",
-        "panel": "Панель байтпанелі (Game Panel)",
+        "panel": "BytePanel (GSM)",
         "oxide": "Окиснення/Umod підтримується",
         "rustplus": "Rust+ підтримується",
         "uptime": "99.6% УПЛА"
@@ -678,9 +678,9 @@
       "description": "Відправте квиток через нашу платіжну панель для проблем, пов'язаних з обліковим записом.",
       "button": "Відкрити тікет",
       "features": {
-        "0": "Питання щодо облікового запису та оплати",
-        "1": "Відстежено та визначено пріоритетність",
-        "2": "Відповідь протягом 24 годин"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -723,20 +723,16 @@
       "maintenance": "Проходять технічні роботи"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Ігрова панель",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Виділені сервери",
-      "systemStatus": "Дзеркало"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "systemStatus": "Looking Glass"
     },
     "resources": {
-      "discordServer": "Discord сервер",
-      "serviceStatus": "Стан служби",
       "knowledgeBase": "База знань",
-      "billingPanel": "Billing Panel",
-      "vpsPanel": "Панель управління VPS",
-      "gamePanel": "Ігрова панель"
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
+      "billingPanel": "Billing Panel"
     },
     "legalLinks": {
       "terms": "Правила та Умови",
@@ -745,7 +741,7 @@
       "legalHub": "Юридичний вузол"
     },
     "company": {
-      "aboutNodeByte": "Про NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Зв’язатись з нами",
       "companyInfo": "Інформація про компанію",
       "changes": "Список змін"
@@ -1072,7 +1068,7 @@
       "signIn": "Увійти",
       "errors": {
         "emailExists": "Обліковий запис з цією електронною адресою вже існує.",
-        "notInPanel": "Для створення облікового запису для гри не знайдено на цьому email. Будь ласка, придбайте послугу, спочатку щоб створити обліковий запис.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Обліковий запис панелі уже з'єднано з іншим обліковим записом NodeByt.",
         "passwordsDontMatch": "Паролі не співпадають.",
         "passwordTooShort": "Пароль має складатися з принаймні з 8 символів.",
