@@ -720,7 +720,9 @@
     "statusLabels": {
       "operational": "All Systems Operational",
       "degraded": "Degraded Performance",
-      "maintenance": "Under Maintenance"
+      "maintenance": "Under Maintenance",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
       "dedicatedServers": "Dedicated Servers",
