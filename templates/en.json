@@ -686,13 +686,15 @@
     },
     "sponsors": {
       "badge": "Sponsors",
-      "title": "Our Sponsors",
-      "emptyLabel": "sponsors"
+      "title": "Our Sponsors"
     },
     "partners": {
       "badge": "Partners",
-      "title": "Our Partners",
-      "emptyLabel": "partners"
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
     },
     "cta": {
       "title": "Interested in Partnering?",
