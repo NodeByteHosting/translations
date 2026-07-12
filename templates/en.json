@@ -26,6 +26,10 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -428,7 +432,8 @@
       "aboutNodeByte": "About Us",
       "contact": "Contact Us",
       "companyInfo": "Company Info",
-      "changes": "Changelog"
+      "changes": "Changelog",
+      "partners": "Partners & Sponsors"
     },
     "trustpilot": {
       "reviews": "reviews",
@@ -668,6 +673,32 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Join Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors",
+      "emptyLabel": "sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners",
+      "emptyLabel": "partners"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
