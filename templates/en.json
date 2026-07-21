@@ -26,6 +26,10 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
     "partners": {
       "title": "Partners & Sponsors",
       "description": "Communities and projects we work with"
@@ -418,15 +422,18 @@
       "dedicatedServers": "Dedicated Servers",
       "gameServers": "Game Servers",
       "vpsServers": "VPS Servers",
-      "systemStatus": "Looking Glass"
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
       "knowledgeBase": "Knowledge Base",
       "vpsPanel": "VPS Panel",
       "gamePanel": "Game Panel",
-      "billingPanel": "Billing Panel"
+      "billingPanel": "Billing Panel",
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Terms & Conditions",
       "privacy": "Privacy Policy",
       "refund": "Refund Policy",
@@ -437,7 +444,8 @@
       "contact": "Contact Us",
       "companyInfo": "Company Info",
       "changes": "Changelog",
-      "partners": "Community"
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "reviews",
