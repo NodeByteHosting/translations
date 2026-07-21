@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Minecraft主机",
-      "description": "即时设置的Minecraft服务器"
-    },
-    "rust": {
-      "title": "Rust 主机",
-      "description": "使用 DDoS 保护的Rust 服务器"
-    },
-    "hytale": {
-      "title": "海运主机",
-      "description": "带有DDoS保护的 Hytale 服务器"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "专用服务器",
-      "description": "配备专用CPU核心的裸机服务器"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "主机",
-    "joinWaitlist": "加入等候列表",
-    "minecraft": {
-      "description": "Java 和 Bedrock 服务器，只需点击Mod加载器、插件和完整版本支持。",
-      "tag": "最热门的",
-      "features": {
-        "0": "Forge & Fabric 支持",
-        "1": "插件管理",
-        "2": "自动备份",
-        "3": "自定义 JAR 上传"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "优秀的小型服务器和测试"
-        },
-        "blaze": {
-          "name": "烈焰人",
-          "description": "对成长社区非常好"
-        },
-        "inferno": {
-          "name": "英弗诺文",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "烈焰风暴",
-          "description": "专为规模庞大且活跃的社区打造"
-        },
-        "supernova": {
-          "name": "超新星",
-          "description": "为大型服务器提供最大功率"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Storage",
-        "databases": "10 MySQL 数据库",
-        "ddos": "DDoS Protection",
-        "panel": "字节面板",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99.6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "单击模组加载器",
-          "description": "安装Forge、Fabric、Paper、Spigot以及更多从我们的控制面板上点击。",
-          "highlights": {
-            "0": "Forge & Fabric 支持",
-            "1": "纸张与Spigot服务器",
-            "2": "Bukkit compatibility",
-            "3": "自定义 JAR 上传"
-          }
-        },
-        "hardware": {
-          "title": "高性能硬件",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD 存储",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "DDoS 保护",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "3/4/7 层保护",
-            "1": "Enterprise network filtering",
-            "2": "零关闭时间减少",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "即时设置",
-          "description": "您的服务器部署在几秒钟内。购买后立即开始播放。",
-          "highlights": {
-            "0": "自动配置。",
-            "1": "Pre configured settings",
-            "2": "准备好在 60 秒内",
-            "3": "无需技术知识"
-          }
-        },
-        "ftp": {
-          "title": "FTP 完整访问",
-          "description": "通过 FTP/SFTP完成文件访问。轻松地上传世界、插件和配置。",
-          "highlights": {
-            "0": "SFTP 文件访问权限",
-            "1": "Web based file manager",
-            "2": "拖放上传",
-            "3": "自动备份"
-          }
-        },
-        "slots": {
-          "title": "无限槽位",
-          "description": "没有人造的玩家限制您的硬件可以处理的玩家数量。",
-          "highlights": {
-            "0": "没有栏位限制",
-            "1": "可缩放资源",
-            "2": "随时升级",
-            "3": "公平的资源分配"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "您支持什么版本的Minecraft？",
-          "answer": "我们支持从1.7.10到最新版本的 Minecraft 版本，包括快照。Java Edition 和 Bedrock Edition 服务器都可用。"
-        },
-        "mods": {
-          "question": "我可以安装模组和插件吗？",
-          "answer": "是的！我们支持所有主要的模组加载器，包括Forge、Fabric和NeoForge。 对于插件，我们支持纸张、 Spigot、 Bukkit和 Purpur。您也可以上传自定义的 JAR。"
-        },
-        "upload": {
-          "question": "如何上传我现有的世界？",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "玩家有限制吗？",
-          "answer": "不，我们不施加人为的玩家限制。您的服务器可以容纳尽可能多的玩家和您分配的资源。"
-        },
-        "upgrade": {
-          "question": "我可以稍后升级我的计划吗？",
-          "answer": "绝对！您可以随时从我们的账单面板升级或降级计划。更改立即生效，不需要关机。"
-        },
-        "refunds": {
-          "question": "您是否退款？",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "性能高",
-      "features": {
-        "0": "Oxide/uMod 支持",
-        "1": "自定义地图",
-        "2": "擦除调度器",
-        "3": "RCON 访问"
-      },
-      "plans": {
-        "starter": {
-          "name": "启动器",
-          "description": "推荐给40名玩家"
-        },
-        "standard": {
-          "name": "标准的",
-          "description": "推荐给75名玩家"
-        },
-        "performance": {
-          "name": "业绩",
-          "description": "推荐给100名玩家"
-        },
-        "premium": {
-          "name": "高级版",
-          "description": "推荐150名及以上玩家参与"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Storage",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 MySQL 数据库",
-        "panel": "BytePanel (同名面板)",
-        "oxide": "Oxide/Umod 支持的",
-        "rustplus": "支持Rust+",
-        "uptime": "99.6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Oxide/uMod 支持",
-          "description": "完全支持 Oxide 和 uMod 插件。直接从我们的控制面板安装和管理插件。",
-          "highlights": {
-            "0": "单击Oxide 安装",
-            "1": "插件管理器",
-            "2": "Auto updates available",
-            "3": "权限管理"
-          }
-        },
-        "maps": {
-          "title": "自定义地图",
-          "description": "使用程序生成的地图或上传您自己的自定义地图。完整的地图自定义支持。",
-          "highlights": {
-            "0": "程序生成",
-            "1": "自定义地图上传",
-            "2": "地图大小控制",
-            "3": "自定义种子"
-          }
-        },
-        "performance": {
-          "title": "性能高",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD 存储",
-            "2": "High single thread performance",
-            "3": "低延迟网络"
-          }
-        },
-        "ddos": {
-          "title": "DDoS 保护",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "3/4/7 层保护",
-            "3": "零关机"
-          }
-        },
-        "wipe": {
-          "title": "擦除调度器",
-          "description": "自动擦除调度以保持您的服务器刷新。配置每周、双周或每月的擦除。",
-          "highlights": {
-            "0": "自动擦除",
-            "1": "蓝图擦除选项",
-            "2": "地图擦除计划",
-            "3": "Discord 通知"
-          }
-        },
-        "rcon": {
-          "title": "完全访问RCON",
-          "description": "完成服务器管理远程控制台访问权限。从任何地方执行命令。",
-          "highlights": {
-            "0": "基于网络的 RCON",
-            "1": "命令计划",
-            "2": "玩家管理",
-            "3": "实时日志"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "您支持Oxid/uMod 插件吗？",
-          "answer": "是的！我们完全支持Oxide和uMod。 您可以从我们的控制面板中一键安装 Oxide 并通过我们的插件管理器或通过FTP管理插件。"
-        },
-        "maps": {
-          "question": "我可以使用自定义地图吗？",
-          "answer": "绝对！您可以使用程序生成的带有自定义种子和大小的地图，或者通过FTP上传您自己的自定义地图文件。"
-        },
-        "wipe": {
-          "question": "擦除调度程序如何工作？",
-          "answer": "我们的清除调度程序允许您在您选择的schedule上自动化服务器擦除。 您可以配置仅限地图的wipes或完整的蓝图wipes，并且可以选择性地发送 Discord 通知。"
-        },
-        "tickRate": {
-          "question": "服务器的刻度率是多少？",
-          "answer": "我们的Rust服务器运行默认30秒。我们的高性能硬件确保即使与许多在线玩家一致的性能。"
-        },
-        "rcon": {
-          "question": "我可以访问 RCON吗？",
-          "answer": "是的，您可以获得完全的 RCON 访问权限。您可以使用我们的 web RCON 控制台或与任何标准的 RCON 客户端连接。"
-        },
-        "modded": {
-          "question": "您支持已修改的服务器吗？",
-          "answer": "是的，我们支持原版服务器和moded Rust服务器。安装 Oxide 并添加任何您需要创建完美模式的插件。"
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Mod 支持",
-        "1": "自定义地图",
-        "2": "简易配置",
-        "3": "24/7 支持"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "加入等候列表"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "通过我们的账单面板提交账单以处理与账户有关的问题。",
       "button": "打开工单",
       "features": {
-        "0": "账户与账单问题",
-        "1": "已跟踪并确定优先级",
-        "2": "24小时内回复"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "所有系统运行",
       "degraded": "降级性能",
-      "maintenance": "维护中"
+      "maintenance": "维护中",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "游戏面板",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "专用服务器",
-      "systemStatus": "魔镜"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Discord 服务器",
-      "serviceStatus": "服务状态",
       "knowledgeBase": "知识库",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS 控制面板",
-      "gamePanel": "游戏面板"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "条款与条件",
       "privacy": "隐私政策",
       "refund": "退款政策",
       "legalHub": "法律中心"
     },
     "company": {
-      "aboutNodeByte": "关于 NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "联系我们",
       "companyInfo": "公司信息",
-      "changes": "更新日志"
+      "changes": "更新日志",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "评论",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "加入Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "登录",
       "errors": {
         "emailExists": "此电子邮件的帐户已存在。",
-        "notInPanel": "未找到游戏面板帐户，请先购买服务创建面板帐户。",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "此面板帐户已经链接到另一个NodeByte帐户。",
         "passwordsDontMatch": "密码不匹配。",
         "passwordTooShort": "密码必须至少 8 个字符。",

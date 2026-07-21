@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Хостинг Minecraft",
-      "description": "Серверы Minecraft с мгновенной настройкой"
-    },
-    "rust": {
-      "title": "Хостинг Ржавчины",
-      "description": "Серверы ржавчины с защитой DDoS"
-    },
-    "hytale": {
-      "title": "Хостинг Hytale",
-      "description": "Серверы Hytale с защитой DDoS"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Выделенные серверы",
-      "description": "Серверы «bare-metal» с выделенными ядрами процессора"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Хостинг",
-    "joinWaitlist": "Присоединиться к Очереди",
-    "minecraft": {
-      "description": "Серверы Java & Bedrock с одним кликом на загрузчиках модов, плагинах и полной поддержкой версий.",
-      "tag": "Самые популярные",
-      "features": {
-        "0": "Поддержка Forge & Fabric",
-        "1": "Управление плагинами",
-        "2": "Автоматическое резервное копирование",
-        "3": "Пользовательские JAR загрузки"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Идеально подходит для небольших серверов и тестирования"
-        },
-        "blaze": {
-          "name": "Пламя",
-          "description": "Отлично подходит для растущих сообществ"
-        },
-        "inferno": {
-          "name": "Инферно",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Огненный шторм",
-          "description": "Создан для больших и активных сообществ"
-        },
-        "supernova": {
-          "name": "Сверхновая",
-          "description": "Максимальная мощность для крупных серверов"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} ГБ хранилища",
-        "databases": "10 баз данных MySQL",
-        "ddos": "DDoS Protection",
-        "panel": "Байт-Панель",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99,6% выше SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "Загрузки модов в один клик",
-          "description": "Установите Forge, Fabric, Paper, Spigot, и многое другое одним щелчком мыши на нашей панели управления.",
-          "highlights": {
-            "0": "Поддержка Forge & Fabric",
-            "1": "Серверы бумаги и Spigot",
-            "2": "Bukkit compatibility",
-            "3": "Пользовательские JAR загрузки"
-          }
-        },
-        "hardware": {
-          "title": "Высокопроизводительное оборудование",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD накопитель",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "Защита DDoS",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Защита уровня 3/4/7",
-            "1": "Enterprise network filtering",
-            "2": "Уменьшение времени простоя",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Мгновенная установка",
-          "description": "Ваш сервер развернут в течение секунд. Начните играть сразу после покупки.",
-          "highlights": {
-            "0": "Автоматическое обеспечение",
-            "1": "Pre configured settings",
-            "2": "Готовы за 60 секунд",
-            "3": "Никаких технических знаний не требуется"
-          }
-        },
-        "ftp": {
-          "title": "Полный FTP доступ",
-          "description": "Полный доступ к файлам через FTP/SFTP. Загрузите миры, плагины и конфигурации.",
-          "highlights": {
-            "0": "Доступ к файлу SFTP",
-            "1": "Web based file manager",
-            "2": "Перетаскивание выгрузок",
-            "3": "Автоматическое резервное копирование"
-          }
-        },
-        "slots": {
-          "title": "Неограниченные слоты",
-          "description": "Нет ограничений для искусственных игроков. Хост столько игроков, сколько ваше оборудование может обработать.",
-          "highlights": {
-            "0": "Нет ограничений на слот",
-            "1": "Масштабируемые ресурсы",
-            "2": "Обновиться в любое время",
-            "3": "Распределение справедливых ресурсов"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Какие версии Minecraft вы поддерживаете?",
-          "answer": "Мы поддерживаем все версии Minecraft от 1.7.10 до последней версии, включая снимки. Доступны серверы Java Edition, а также Bedrock Edition."
-        },
-        "mods": {
-          "question": "Могу ли я установить моды и плагины?",
-          "answer": "Да! Мы поддерживаем все основные загрузчики модов, включая Forge, Fabric, NeoForge. Для плагинов мы поддерживаем Paper, Spigot, Bukkit и Purpur. Вы также можете загрузить пользовательские JAR."
-        },
-        "upload": {
-          "question": "Как загрузить свой существующий мир?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Лимит игрока?",
-          "answer": "Нет, мы не накладываем ограничения на искусственные игроки. Ваш сервер может размещать столько игроков, сколько будут обрабатывать выделенные вами ресурсы."
-        },
-        "upgrade": {
-          "question": "Могу ли я обновить свой план позже?",
-          "answer": "Абсолютно! Вы можете обновить или понизить свой план в любое время с нашей панели биллинга. Изменения вступят в силу без перерыва."
-        },
-        "refunds": {
-          "question": "Вы предлагаете возврат средств?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Высокая производительность",
-      "features": {
-        "0": "Поддержка Oxide/uMod",
-        "1": "Пользовательские карты",
-        "2": "Очистить планировщик",
-        "3": "RCON доступ"
-      },
-      "plans": {
-        "starter": {
-          "name": "Старт",
-          "description": "Рекомендуется для 40 игроков"
-        },
-        "standard": {
-          "name": "Стандартный",
-          "description": "Рекомендуется для 75 игроков"
-        },
-        "performance": {
-          "name": "Производительность",
-          "description": "Рекомендуется для 100 игроков"
-        },
-        "premium": {
-          "name": "Премиум",
-          "description": "Рекомендуется для 150 и более игроков"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}ГБ SSD хранилища",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 баз данных MySQL",
-        "panel": "BytePanel (панель)",
-        "oxide": "Окисл/Umod поддерживается",
-        "rustplus": "Rust+ поддерживается",
-        "uptime": "99,6% выше SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Поддержка Oxide/uMod",
-          "description": "Полная поддержка плагинов Oxide и uMod. Установите и управляйте плагинами прямо из панели управления.",
-          "highlights": {
-            "0": "Установка Оксида в один клик",
-            "1": "Менеджер плагинов",
-            "2": "Auto updates available",
-            "3": "Управление разрешениями"
-          }
-        },
-        "maps": {
-          "title": "Пользовательские карты",
-          "description": "Используйте процедурные карты или загрузите свои собственные пользовательские карты. Полная поддержка настройки карт.",
-          "highlights": {
-            "0": "Генерация процедурных процедур",
-            "1": "Пользовательские загрузки карт",
-            "2": "Управление размером карты",
-            "3": "Настройки ключа"
-          }
-        },
-        "performance": {
-          "title": "Высокая производительность",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD накопитель",
-            "2": "High single thread performance",
-            "3": "Сеть с низкой задержкой"
-          }
-        },
-        "ddos": {
-          "title": "Защита DDoS",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Защита уровня 3/4/7",
-            "3": "Нулевое время понижения"
-          }
-        },
-        "wipe": {
-          "title": "Очистить планировщик",
-          "description": "Автоматическое планирование свайпов, чтобы держать ваш сервер свежим. Настройте еженедельные, два раза в неделю или ежемесячные свайпы.",
-          "highlights": {
-            "0": "Автоматические стирания",
-            "1": "Параметры стирания чертежей",
-            "2": "Планирование свайпа карты",
-            "3": "Уведомления Discord"
-          }
-        },
-        "rcon": {
-          "title": "Полный доступ к RCON",
-          "description": "Полный доступ к удаленной консоли для управления сервером. Выполните команды откуда угодно.",
-          "highlights": {
-            "0": "RCON на базе Интернета",
-            "1": "Планирование команд",
-            "2": "Управление плеером",
-            "3": "Журналы в реальном времени"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Поддерживаются ли плагины Oxide/uMod?",
-          "answer": "Да! Мы полностью поддерживаем Oxide и uMod. Вы можете установить Oxide одним щелчком мыши из нашей панели управления и управлять плагинами через наш менеджер плагинов или через FTP."
-        },
-        "maps": {
-          "question": "Могу ли я использовать пользовательские карты?",
-          "answer": "Абсолютно! Вы можете использовать созданные процедурой карты с пользовательскими сидами и размерами или загружать свои собственные пользовательские файлы карт по FTP."
-        },
-        "wipe": {
-          "question": "Как работает планировщик?",
-          "answer": "Свайп планировщик позволяет автоматизировать удаление серверов по выбранному графику. Вы можете настроить только карты или полностью удалить чертёж и, при необходимости, отправлять уведомления Discord."
-        },
-        "tickRate": {
-          "question": "Что такое тик на сервере?",
-          "answer": "Наши Rust серверы работают по цене 30 тиков. Наше высокопроизводительное оборудование обеспечивает совместимость даже со многими игроками в сети."
-        },
-        "rcon": {
-          "question": "Могу ли я получить доступ к RCON?",
-          "answer": "Да, вы получаете полный доступ к RCON. Вы можете использовать RCON на нашей веб-консоли или связаться с любым стандартным RCON клиентом."
-        },
-        "modded": {
-          "question": "Поддерживаете ли вы модные серверы?",
-          "answer": "Да, мы поддерживаем серверы vanilla и modded Rust . Установите Oxide и добавьте плагины, которые необходимы для создания идеальных модификаций."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Поддержка модов",
-        "1": "Пользовательские карты",
-        "2": "Простая конфигурация",
-        "3": "Поддержка 24/7"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Присоединиться к Очереди"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Отправить заявку через нашу панель биллинга по вопросам, связанным с учетной записью.",
       "button": "Открыть тикет",
       "features": {
-        "0": "Вопросы, связанные с учетной записью и оплатой",
-        "1": "Отслежено и расставлено по приоритетам",
-        "2": "Ответ в течение 24 часов"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Все системные операторы",
       "degraded": "Ухудшение производительности",
-      "maintenance": "При обслуживании"
+      "maintenance": "При обслуживании",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Панель игр",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Выделенные серверы",
-      "systemStatus": "Зеркало"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Сервер Discord",
-      "serviceStatus": "Состояние сервиса",
       "knowledgeBase": "База знаний",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "Панель управления VPS",
-      "gamePanel": "Игровая панель"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Условия использования",
       "privacy": "Политика конфиденциальности",
       "refund": "Политика возврата",
       "legalHub": "Юридический центр"
     },
     "company": {
-      "aboutNodeByte": "О NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Свяжитесь с нами",
       "companyInfo": "Информация о компании",
-      "changes": "Список изменений"
+      "changes": "Список изменений",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "обзоры",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Присоединиться к Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Войти",
       "errors": {
         "emailExists": "Учетная запись с таким адресом электронной почты уже существует.",
-        "notInPanel": "Не найдено ни одного игрового аккаунта на этом email. Пожалуйста, сначала купите сервис, чтобы создать аккаунт в панели.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Этот аккаунт уже связан с другим аккаунтом NodeByte.",
         "passwordsDontMatch": "Пароли не совпадают.",
         "passwordTooShort": "Пароль должен содержать не менее 8 символов.",

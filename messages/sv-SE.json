@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Minecraft värd",
-      "description": "Minecraft-servrar med omedelbar installation"
-    },
-    "rust": {
-      "title": "Rust Hosting",
-      "description": "Rust-servrar med DDoS-skydd"
-    },
-    "hytale": {
-      "title": "Hytale Värd",
-      "description": "Hytale-servrar med DDoS-skydd"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Dedikerade servrar",
-      "description": "Bare-metal-servrar med dedikerade CPU-kärnor"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Värd",
-    "joinWaitlist": "Gå med i väntelistan",
-    "minecraft": {
-      "description": "Java & Bedrock servrar med ett klick mod loaders, plugins och full version stöd.",
-      "tag": "Mest populära",
-      "features": {
-        "0": "Forge & Tyg stöd",
-        "1": "Hantering av tillägg",
-        "2": "Automatiska säkerhetskopieringar",
-        "3": "Anpassade JAR-uppladdningar"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Perfekt för små servrar och testning"
-        },
-        "blaze": {
-          "name": "Blaze",
-          "description": "Perfekt för växande samhällen"
-        },
-        "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Firestorm",
-          "description": "Utvecklad för stora och aktiva samhällen"
-        },
-        "supernova": {
-          "name": "Supernova",
-          "description": "Maximal effekt för stora servrar"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB Lagring",
-        "databases": "10 MySQL-databaser",
-        "ddos": "DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99,6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "One-Click Mod Loaders",
-          "description": "Installera Forge, Fabric, Paper, Spigot och mer med ett enda klick från vår kontrollpanel.",
-          "highlights": {
-            "0": "Forge & Tyg stöd",
-            "1": "Papper & Spigot servrar",
-            "2": "Bukkit compatibility",
-            "3": "Anpassade JAR-uppladdningar"
-          }
-        },
-        "hardware": {
-          "title": "Hårdvara med hög prestanda",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD-lagring",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "DDoS skydd",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Skydd för lager 3/4/7",
-            "1": "Enterprise network filtering",
-            "2": "Begränsning av noll driftstopp",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Omedelbar installation",
-          "description": "Din server är distribuerad inom några sekunder. Börja spela direkt efter köp.",
-          "highlights": {
-            "0": "Automatiserad provisionering",
-            "1": "Pre configured settings",
-            "2": "Redo på under 60 sekunder",
-            "3": "Ingen teknisk kunskap behövs"
-          }
-        },
-        "ftp": {
-          "title": "Full FTP-åtkomst",
-          "description": "Fullständig filåtkomst via FTP/SFTP. Ladda upp världar, plugins och konfigurationer med lätthet.",
-          "highlights": {
-            "0": "Åtkomst till SFTP-fil",
-            "1": "Web based file manager",
-            "2": "Dra och släpp uppladdningar",
-            "3": "Automatiska säkerhetskopior"
-          }
-        },
-        "slots": {
-          "title": "Obegränsade tider",
-          "description": "Inga konstgjorda spelargränser. Värd så många spelare som din hårdvara kan hantera.",
-          "highlights": {
-            "0": "Inga platsbegränsningar",
-            "1": "Skalbara resurser",
-            "2": "Uppgradera när som helst",
-            "3": "Rättvis resursallokering"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Vilka Minecraft-versioner stöder du?",
-          "answer": "Vi stöder alla Minecraft-versioner från 1.7.10 till den senaste utgåvan, inklusive ögonblicksbilder. Både Java Edition och Bedrock Edition-servrar är tillgängliga."
-        },
-        "mods": {
-          "question": "Kan jag installera mods och plugins?",
-          "answer": "Ja! Vi stöder alla stora mod lastare inklusive Forge, Fabric, och NeoForge. För plugins stöder vi Paper, Spigot, Bukkit och Purpur. Du kan också ladda upp anpassade JAR."
-        },
-        "upload": {
-          "question": "Hur laddar jag upp min befintliga värld?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Finns det en spelarbegränsning?",
-          "answer": "Nej, vi har inga konstgjorda spelargränser. Din server kan vara värd för så många spelare som dina tilldelade resurser kan hantera."
-        },
-        "upgrade": {
-          "question": "Kan jag uppgradera min plan senare?",
-          "answer": "Absolut! Du kan uppgradera eller nedgradera din plan när som helst från vår faktureringspanel. Ändringar träder i kraft omedelbart utan någon stillestånd."
-        },
-        "refunds": {
-          "question": "Erbjuder du återbetalning?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Hög prestanda",
-      "features": {
-        "0": "Oxide/uMod-stöd",
-        "1": "Anpassade kartor",
-        "2": "Rensa schemaläggare",
-        "3": "RCON åtkomst"
-      },
-      "plans": {
-        "starter": {
-          "name": "Starter",
-          "description": "Rekommenderas för 40 spelare"
-        },
-        "standard": {
-          "name": "Standard",
-          "description": "Rekommenderas för 75 spelare"
-        },
-        "performance": {
-          "name": "Prestation",
-          "description": "Rekommenderas för 100 spelare"
-        },
-        "premium": {
-          "name": "Premium",
-          "description": "Rekommenderas för 150+ spelare"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD-lagring",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 MySQL-databaser",
-        "panel": "BytePanel (Spelpanel)",
-        "oxide": "Oxide/Umod stöds",
-        "rustplus": "Rust+ stöds",
-        "uptime": "99,6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Oxide/uMods stöd",
-          "description": "Fullt stöd för Oxide och uMod-plugins. Installera och hantera plugins direkt från vår kontrollpanel.",
-          "highlights": {
-            "0": "Installera Oxide med ett klick",
-            "1": "Plugin hanterare",
-            "2": "Auto updates available",
-            "3": "Hantering av behörighet"
-          }
-        },
-        "maps": {
-          "title": "Anpassade kartor",
-          "description": "Använd procedurgenererade kartor eller ladda upp dina egna anpassade kartor. Fullständig stöd för kartanpassning.",
-          "highlights": {
-            "0": "Processuell generering",
-            "1": "Anpassad karta uppladdningar",
-            "2": "Kontroll av kartstorlek",
-            "3": "Anpassning av frön"
-          }
-        },
-        "performance": {
-          "title": "Hög prestanda",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD-lagring",
-            "2": "High single thread performance",
-            "3": "Nätverk med låg latens"
-          }
-        },
-        "ddos": {
-          "title": "DDoS skydd",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Skydd för lager 3/4/7",
-            "3": "Noll stillestånd"
-          }
-        },
-        "wipe": {
-          "title": "Rensa schemaläggare",
-          "description": "Automatiserad rensning schemaläggning för att hålla din server fräsch. Konfigurera veckovis, varannan vecka, eller månatlig torkning.",
-          "highlights": {
-            "0": "Automatiska våtservetter",
-            "1": "Radera ritningsalternativ",
-            "2": "Radera schemaläggning på kartan",
-            "3": "Discord aviseringar"
-          }
-        },
-        "rcon": {
-          "title": "Full tillgång till RCON",
-          "description": "Komplett fjärråtkomst till konsolen för serverhantering. Utför kommandon var som helst.",
-          "highlights": {
-            "0": "Webbaserad RCON",
-            "1": "Kommando schemaläggning",
-            "2": "Spelarhantering",
-            "3": "Loggar i realtid"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Stödjer du Oxide/uMod-plugins?",
-          "answer": "Ja! Vi stöder Oxide och uMod. Du kan installera Oxide med ett klick från vår kontrollpanel och hantera plugins via vår plugin manager eller via FTP."
-        },
-        "maps": {
-          "question": "Kan jag använda anpassade kartor?",
-          "answer": "Absolut! Du kan använda procedurmässigt genererade kartor med anpassade frön och storlekar, eller ladda upp dina egna anpassade kartfiler via FTP."
-        },
-        "wipe": {
-          "question": "Hur fungerar torkning schemaläggaren?",
-          "answer": "Vår våtservetter låter dig automatisera serverservetter på ett schema du väljer. Du kan konfigurera våtservetter eller hela våtservetter och eventuellt skicka Discord-meddelanden."
-        },
-        "tickRate": {
-          "question": "Vad är serverns bockkurs?",
-          "answer": "Våra rostservrar körs med standard 30 tick. Vår högpresterande hårdvara säkerställer konsekvent prestanda även med många spelare online."
-        },
-        "rcon": {
-          "question": "Kan jag komma åt RCON?",
-          "answer": "Ja, du får full RCON tillgång. Du kan använda vår webbaserade RCON konsol eller ansluta till någon standard RCON klient."
-        },
-        "modded": {
-          "question": "Stödjer du modderade servrar?",
-          "answer": "Ja, vi stöder både vanilj och modded Rust-servrar. Installera Oxide och lägg till alla plugins du behöver för att skapa din perfekta moddupplevelse."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Mod stöd",
-        "1": "Anpassade kartor",
-        "2": "Enkel konfiguration",
-        "3": "24/7 support"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Gå med i väntelistan"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Skicka in ett ärende via vår faktureringspanel för redovisningsrelaterade frågor.",
       "button": "Öppna ärende",
       "features": {
-        "0": "Problem med konto och fakturering",
-        "1": "Uppföljda och prioriterade",
-        "2": "Svar inom 24 timmar"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Alla system operationella",
       "degraded": "Förnedrad prestanda",
-      "maintenance": "Under Underhåll"
+      "maintenance": "Under Underhåll",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Spelpanelen",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Dedikerade servrar",
-      "systemStatus": "Spegel"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Discords server",
-      "serviceStatus": "Tjänstens status",
       "knowledgeBase": "Kunskapsbas",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-panelen",
-      "gamePanel": "Spelpanel"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Regler & villkor",
       "privacy": "Integritetspolicy",
       "refund": "Återbetalningspolicy",
       "legalHub": "Juridiskt nav"
     },
     "company": {
-      "aboutNodeByte": "Om NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Kontakta oss",
       "companyInfo": "Företagsinformation",
-      "changes": "Ändringslogg"
+      "changes": "Ändringslogg",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "recensioner",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Anslut till Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Logga in",
       "errors": {
         "emailExists": "Ett konto med denna e-post finns redan.",
-        "notInPanel": "Inget spelpanelkonto hittades med denna e-post. Vänligen köp en tjänst först för att skapa ett panelkonto.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Detta panelkonto är redan länkat till ett annat NodeByte-konto.",
         "passwordsDontMatch": "Lösenorden matchar inte.",
         "passwordTooShort": "Lösenordet måste vara minst 8 tecken.",

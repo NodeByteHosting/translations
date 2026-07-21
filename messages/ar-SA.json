@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "استضافة Minecraft",
-      "description": "خوادم Minecraft مع الإعداد الفوري"
-    },
-    "rust": {
-      "title": "الاستضافة الراكدة",
-      "description": "يجب على الخوادم مع حماية DDoS"
-    },
-    "hytale": {
-      "title": "الاستضافة الهوائية",
-      "description": "خوادم هيدرولية مع حماية DDoS"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "الخوادم المخصصة",
-      "description": "خوادم «باري ميتال» مزودة بنوى معالج مخصصة"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "الاستضافة",
-    "joinWaitlist": "الانضمام إلى قائمة الانتظار",
-    "minecraft": {
-      "description": "خوادم Java & Bedrock بنقرة واحدة مع تحميل المودج، الإضافات، ودعم الإصدار الكامل.",
-      "tag": "الأكثر شعبية",
-      "features": {
-        "0": "دعم التصنيع و الحفر",
-        "1": "إدارة الإضافات",
-        "2": "النسخ الاحتياطي التلقائي",
-        "3": "تحميل JAR مخصص"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "ممتاز للخوادم الصغيرة والاختبار"
-        },
-        "blaze": {
-          "name": "بلازي",
-          "description": "عظيم للمجتمعات المتنامية"
-        },
-        "inferno": {
-          "name": "جحيم",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "العاصفة النارية",
-          "description": "مصمم للمجتمعات الكبيرة والنشطة"
-        },
-        "supernova": {
-          "name": "سوبرنوفا",
-          "description": "أقصى قدر من الأداء للخوادم الضخمة"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "تخزين {amount} جيجابايت",
-        "databases": "10 قواعد بيانات MySQL",
-        "ddos": "DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99.6% تحديث مستوى المعيشة"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "بنقرة واحدة لتحميل المودي",
-          "description": "تثبيت Forge, Fabric, Paper, Spigot, وأكثر بنقرة واحدة من لوحة التحكم لدينا.",
-          "highlights": {
-            "0": "دعم التصنيع و الحفر",
-            "1": "خوادم الورق & Spigot",
-            "2": "Bukkit compatibility",
-            "3": "تحميل JAR مخصص"
-          }
-        },
-        "hardware": {
-          "title": "معدات الأداء العالي",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "وحدة تخزين SSD NVMe",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "حماية DDoS",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "حماية الطبقة 3/4/7",
-            "1": "Enterprise network filtering",
-            "2": "تخفيض وقت التعطيل الصفري",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "الإعداد الفوري",
-          "description": "يتم نشر الخادم الخاص بك خلال ثواني. ابدأ التشغيل مباشرة بعد الشراء.",
-          "highlights": {
-            "0": "المؤقت الآلي",
-            "1": "Pre configured settings",
-            "2": "جاهز في أقل من 60 ثانية",
-            "3": "لا حاجة إلى معرفة تقنية"
-          }
-        },
-        "ftp": {
-          "title": "الوصول الكامل لـ FTP",
-          "description": "إكمال الوصول إلى الملف عبر FTP/SFTP. تحميل العوالم، الإضافات، والتكوين بسهولة.",
-          "highlights": {
-            "0": "الوصول إلى ملف SFTP",
-            "1": "Web based file manager",
-            "2": "سحب وإسقاط التحميلات",
-            "3": "النسخ الاحتياطي التلقائي"
-          }
-        },
-        "slots": {
-          "title": "خانات غير محدودة",
-          "description": "لا توجد حدود اصطناعية لللاعب. استضيف أكبر عدد ممكن من اللاعبين الذين يمكن لجهازك التعامل معهم.",
-          "highlights": {
-            "0": "لا توجد قيود على الفتحة",
-            "1": "الموارد القابلة للقياس",
-            "2": "الترقية في أي وقت",
-            "3": "التخصيص العادل للموارد"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "ما هي إصدارات Minecraft التي تدعمها؟",
-          "answer": "نحن ندعم جميع إصدارات Minecraft من 1.7.10 إلى أحدث إصدار، بما في ذلك لقطات سريعة. كل من إصدار Java وBedrock Edition خوادم متوفرة."
-        },
-        "mods": {
-          "question": "هل يمكنني تثبيت الإضافات والإضافات؟",
-          "answer": "نعم! نحن ندعم جميع محمّلات المودات الرئيسية بما في ذلك Forge, Fabric, و NeoForge. للملحقات، نحن ندعم الورقة، سبيجوت، بوكيت، وبوربور. يمكنك أيضًا تحميل JARs مخصصة."
-        },
-        "upload": {
-          "question": "كيف يمكنني تحميل علمي الحالي؟",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "هل هناك حد للاعبين ؟",
-          "answer": "لا، نحن لا نفرض حدودا اصطناعية. يمكن للخادم الخاص بك استضافة أكبر عدد ممكن من اللاعبين الذين يمكن أن تتعامل معهم مواردك المخصصة."
-        },
-        "upgrade": {
-          "question": "هل يمكنني ترقية خطتي لاحقاً؟",
-          "answer": "بالتأكيد! يمكنك ترقية أو تخفيض خطتك في أي وقت من لوحة الفوترة الخاصة بنا. تصبح التغييرات نافذة المفعول على الفور بدون توقف عن العمل."
-        },
-        "refunds": {
-          "question": "هل تعرض الاسترداد؟",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "الأداء العالي",
-      "features": {
-        "0": "دعم Oxide/uMod",
-        "1": "خرائط مخصصة",
-        "2": "جدولة المسح",
-        "3": "الوصول إلى RCON"
-      },
-      "plans": {
-        "starter": {
-          "name": "المبتدئ",
-          "description": "موصى به لـ 40 لاعب"
-        },
-        "standard": {
-          "name": "قياسي",
-          "description": "موصى به لـ 75 لاعب"
-        },
-        "performance": {
-          "name": "الأداء",
-          "description": "موصى به لـ 100 لاعب"
-        },
-        "premium": {
-          "name": "فئة بريميوم",
-          "description": "موصى به لـ 150 لاعبًا أو أكثر"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD التخزين",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 قواعد بيانات MySQL",
-        "panel": "BytePanel (لوحة اللعبة)",
-        "oxide": "Oxide/Umod مدعوم",
-        "rustplus": "Rust+ مدعوم",
-        "uptime": "99.6% تحديث مستوى المعيشة"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "دعم Oxide/uMod",
-          "description": "الدعم الكامل لإضافات أوكسيدي و uMod . قم بتثبيت الاضافات وإدارتها مباشرة من لوحة التحكم الخاصة بنا.",
-          "highlights": {
-            "0": "تثبيت Oxide بنقرة واحدة",
-            "1": "مدير الاضافات",
-            "2": "Auto updates available",
-            "3": "إدارة الأذونات"
-          }
-        },
-        "maps": {
-          "title": "خرائط مخصصة",
-          "description": "استخدم الخرائط التي تم إنشاؤها إجرائيا أو قم بتحميل الخرائط المخصصة الخاصة بك. دعم كامل لتخصيص الخريطة.",
-          "highlights": {
-            "0": "وضع الإجراءات",
-            "1": "تحميل خريطة مخصصة",
-            "2": "تحكم حجم الخريطة",
-            "3": "تخصيص البذور"
-          }
-        },
-        "performance": {
-          "title": "الأداء العالي",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "وحدة تخزين SSD NVMe",
-            "2": "High single thread performance",
-            "3": "الشبكات ذات الوقت المنخفض"
-          }
-        },
-        "ddos": {
-          "title": "حماية DDoS",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "حماية الطبقة 3/4/7",
-            "3": "وقت التعطيل صفر"
-          }
-        },
-        "wipe": {
-          "title": "جدولة المسح",
-          "description": "جدولة مسح تلقائي للحفاظ على خادمك. تكوين لاسلكي أسبوعي، أو أسبوعي، أو شهري.",
-          "highlights": {
-            "0": "مسح تلقائي",
-            "1": "خيارات مسح المخططات",
-            "2": "مسح جدولة الخرائط",
-            "3": "إشعارات ديسكورد"
-          }
-        },
-        "rcon": {
-          "title": "وصول RCON الكامل",
-          "description": "أكمل الوصول إلى وحدة التحكم عن بعد لإدارة الخادم. تنفيذ الأوامر من أي مكان.",
-          "highlights": {
-            "0": "RCON على شبكة الإنترنت",
-            "1": "جدولة الأوامر",
-            "2": "إدارة اللاعب",
-            "3": "السجلات في الوقت الحقيقي"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "هل تدعم إضافات Oxide/uMod ؟",
-          "answer": "نعم! نحن ندعم Oxide و uMod. يمكنك تثبيت أوكسيدي بنقرة واحدة من لوحة التحكم الخاصة بنا وإدارة الإضافات من خلال مدير البرنامج المساعد الخاص بنا أو عبر FTP."
-        },
-        "maps": {
-          "question": "هل يمكنني استخدام خرائط مخصصة؟",
-          "answer": "بالتأكيد! يمكنك استخدام الخرائط التي تم إنشاؤها إجرائيا مع بذور وأحجام مخصصة، أو تحميل ملفات الخرائط المخصصة الخاصة بك عن طريق FTP."
-        },
-        "wipe": {
-          "question": "كيف يعمل جدولة المسح؟",
-          "answer": "يسمح لك جدولة مسح السيرفر بمسح تلقائي في جدول زمني تختاره. يمكنك تكوين برامج مسح الخريطة فقط أو المخططات الكاملة، وإرسال إشعارات ديسكورد اختياريا."
-        },
-        "tickRate": {
-          "question": "ما هو معدل علامة الخادم؟",
-          "answer": "سيرفرات Rust لدينا تعمل في معدل الـ 30 علامة الافتراضي. جهازنا العالي الأداء يضمن الأداء المتسق حتى مع العديد من اللاعبين على الإنترنت."
-        },
-        "rcon": {
-          "question": "هل يمكنني الوصول إلى RCON؟",
-          "answer": "نعم، تحصل على وصول RCON الكامل. يمكنك استخدام وحدة تحكم RCON الخاصة بنا على شبكة الإنترنت أو الاتصال بأي عميل RCON قياسي."
-        },
-        "modded": {
-          "question": "هل تدعم الخوادم المعدّلة؟",
-          "answer": "نعم، نحن ندعم كل من خوادم الفانيليا والراست المعتدلة. قم بتثبيت أوكسيدي وإضافة أي إضافات تحتاجها لإنشاء تجربتك المثالية المودعة."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "دعم المودة",
-        "1": "خرائط مخصصة",
-        "2": "اعدادات سهلة",
-        "3": "دعم 24/7"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "الانضمام إلى قائمة الانتظار"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "قم بتقديم تذكرة من خلال لوحة الفوترة الخاصة بنا للمسائل المتعلقة بالحساب.",
       "button": "فتح تذكرة",
       "features": {
-        "0": "مشكلات الحساب والفوترة",
-        "1": "تم تتبعها وتحديد أولوياتها",
-        "2": "الرد في غضون 24 ساعة"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "تشغيل جميع النظم",
       "degraded": "الأداء المتدني",
-      "maintenance": "تحت الصيانة"
+      "maintenance": "تحت الصيانة",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "لوحة اللعبة",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "الخوادم المخصصة",
-      "systemStatus": "المرآة"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "خادم ديسكورد",
-      "serviceStatus": "حالة الخدمة",
       "knowledgeBase": "قاعدة المعارف",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "لوحة تحكم VPS",
-      "gamePanel": "لوحة الألعاب"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "الشروط والأحكام",
       "privacy": "سياسة الخصوصية",
       "refund": "سياسة الاسترداد",
       "legalHub": "المركز القانوني"
     },
     "company": {
-      "aboutNodeByte": "حول NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "اتصل بنا",
       "companyInfo": "معلومات الشركة",
-      "changes": "تغيير"
+      "changes": "تغيير",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "مراجعات",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "الانضمام إلى ديسكورد"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "تسجيل الدخول",
       "errors": {
         "emailExists": "يوجد بالفعل حساب بهذا البريد الإلكتروني.",
-        "notInPanel": "لم يتم العثور على حساب لعبة بهذا البريد الإلكتروني. الرجاء شراء خدمة أولاً لإنشاء حساب لوحة.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "حساب اللوحة هذا مرتبط بالفعل بحساب NodeByte آخر.",
         "passwordsDontMatch": "كلمة المرور غير متطابقة.",
         "passwordTooShort": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.",

@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Găzduire Minecraft",
-      "description": "Servere Minecraft cu configurare instantă"
-    },
-    "rust": {
-      "title": "Găzduire cu Rust",
-      "description": "Resetare servere cu protecție DDoS"
-    },
-    "hytale": {
-      "title": "Găzduire Hytale",
-      "description": "Servere de istorii cu protecție DDoS"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Servere dedicate",
-      "description": "Servere bare-metal cu nuclee CPU dedicate"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Găzduire",
-    "joinWaitlist": "Alătură-te listei de așteptare",
-    "minecraft": {
-      "description": "Serverele Java & Bedrock cu un singur click încărcătoare, plugin-uri și suport pentru versiunea completă.",
-      "tag": "Cele mai populare",
-      "features": {
-        "0": "Suport Forge & Tesatura",
-        "1": "Gestionarea plugin-urilor",
-        "2": "Backup-uri automate",
-        "3": "Încărcări JAR personalizate"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Perfect pentru servere mici și testare"
-        },
-        "blaze": {
-          "name": "Amortizor",
-          "description": "Grozav pentru comunitățile în creștere"
-        },
-        "inferno": {
-          "name": "Infern",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Firestorm",
-          "description": "Conceput pentru comunități mari și active"
-        },
-        "supernova": {
-          "name": "Supernova",
-          "description": "Putere maximă pentru servere de mari dimensiuni"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB de stocare",
-        "databases": "10 Baze de date MySQL",
-        "ddos": "DDoS Protection",
-        "panel": "Panou",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "SLA de uptime 99,6%"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "Încărcători pentru un singur clic",
-          "description": "Instalează Forge, Fabric, Hârtie, Spigot și multe altele cu un singur clic din panoul nostru de control.",
-          "highlights": {
-            "0": "Suport Forge & Tesatura",
-            "1": "Servere de hartie si Spigot",
-            "2": "Bukkit compatibility",
-            "3": "Încărcări JAR personalizate"
-          }
-        },
-        "hardware": {
-          "title": "Hardware de înaltă performanță",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "Stocare SSD NVMe",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "Protecție DDoS",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Protecție nivel 3/4/7",
-            "1": "Enterprise network filtering",
-            "2": "Reducere zero în timp",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Configurare instantanee",
-          "description": "Serverul tău este instalat în câteva secunde. Începe să joci imediat după cumpărare.",
-          "highlights": {
-            "0": "Furnizare automată",
-            "1": "Pre configured settings",
-            "2": "Gata în mai puțin de 60 de secunde",
-            "3": "Nu sunt necesare cunoștințe tehnice"
-          }
-        },
-        "ftp": {
-          "title": "Acces complet FTP",
-          "description": "Acces complet la fișiere prin FTP/SFTP. Încărcați lumi, plugin-uri și configurații cu ușurință.",
-          "highlights": {
-            "0": "Acces fișier SFTP",
-            "1": "Web based file manager",
-            "2": "Trageți și plasați încărcările",
-            "3": "Backup-uri automate"
-          }
-        },
-        "slots": {
-          "title": "Sloturi nelimitate",
-          "description": "Fără limite de jucători artificiali. Găzduiește cât de mulți jucători se pot descurca hardware-ul.",
-          "highlights": {
-            "0": "Fără restricții de sloturi",
-            "1": "Resurse scalabile",
-            "2": "Actualizați oricând",
-            "3": "Alocarea corectă a resurselor"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Ce versiuni de Minecraft susține?",
-          "answer": "Suportăm toate versiunile de Minecraft de la 1.7.10 la ultima versiune, inclusiv instantanee. Atât serverele Java Edition cât și Bedrock Edition sunt disponibile."
-        },
-        "mods": {
-          "question": "Pot instala mod-uri şi plugin-uri?",
-          "answer": "Da! Sprijinim toate încărcătoarele majore de moduri, inclusiv Forge, Fabric, şi NeoForge. Pentru plugin-uri, oferim suport pentru Hârtie, Spigot, Bukkit și Purpur. De asemenea, puteți încărca JAR-uri personalizate."
-        },
-        "upload": {
-          "question": "Cum pot încărca lumea mea existentă?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Există o limită pentru jucători?",
-          "answer": "Nu, nu impunem limite pentru jucători artificiali. Serverul tău poate găzdui cât de mulți jucători se pot descurca resursele alocate."
-        },
-        "upgrade": {
-          "question": "Pot actualiza planul mai târziu?",
-          "answer": "Absolut! Puteți să vă actualizați sau să vă retrogradați planul în orice moment din panoul de facturare. Modificările intră în vigoare imediat fără downtime."
-        },
-        "refunds": {
-          "question": "Oferiți rambursări?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Performanță ridicată",
-      "features": {
-        "0": "Suport oxid/uMod",
-        "1": "Hărți personalizate",
-        "2": "Ştergeţi programatorul",
-        "3": "Acces RCON"
-      },
-      "plans": {
-        "starter": {
-          "name": "Continuare",
-          "description": "Recomandat pentru 40 de jucători"
-        },
-        "standard": {
-          "name": "Standard",
-          "description": "Recomandat pentru 75 de jucători"
-        },
-        "performance": {
-          "name": "Performanță",
-          "description": "Recomandat pentru 100 de jucători"
-        },
-        "premium": {
-          "name": "Premium",
-          "description": "Recomandat pentru peste 150 de jucători"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB de stocare SSD",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 Baze de date MySQL",
-        "panel": "Panou BytePanel (Game)",
-        "oxide": "Oxid/Umod suportat",
-        "rustplus": "Rust+ suportat",
-        "uptime": "SLA de uptime 99,6%"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Suport oxid/uMod",
-          "description": "Suport complet pentru plugin-urile Oxide și uMod. Instalați și gestionați plugin-urile direct din panoul de control.",
-          "highlights": {
-            "0": "Instalare O1 click Oxide",
-            "1": "Manager plugin-uri",
-            "2": "Auto updates available",
-            "3": "Gestionare permisiuni"
-          }
-        },
-        "maps": {
-          "title": "Hărţi personalizate",
-          "description": "Folosește hărțile generate procedural sau încarcă propriile hărți personalizate. Suport pentru personalizarea hărții.",
-          "highlights": {
-            "0": "Generare procedurală",
-            "1": "Încărcare hartă personalizată",
-            "2": "Control dimensiune hartă",
-            "3": "Personalizarea Seed-ului"
-          }
-        },
-        "performance": {
-          "title": "Performanță ridicată",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "Stocare SSD NVMe",
-            "2": "High single thread performance",
-            "3": "Rețele de joasă latență"
-          }
-        },
-        "ddos": {
-          "title": "Protecție DDoS",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Protecție nivel 3/4/7",
-            "3": "Zero downtime"
-          }
-        },
-        "wipe": {
-          "title": "Curăță Planificator",
-          "description": "Ștergeți automat programarea pentru a păstra serverul proaspăt. Configurați săptămânal, bi-săptămânal sau ștergerile lunare.",
-          "highlights": {
-            "0": "Ștergeri automate",
-            "1": "Opțiuni de ștergere a planului",
-            "2": "Planificare ștergere hartă",
-            "3": "Notificări Discord"
-          }
-        },
-        "rcon": {
-          "title": "Acces complet RCON",
-          "description": "Acces la consolă completă pentru managementul serverului. Execută comenzi de oriunde.",
-          "highlights": {
-            "0": "RCON web",
-            "1": "Programarea comenzilor",
-            "2": "Administrarea jucătorului",
-            "3": "Jurnale în timp real"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Susțineți plugin-urile Oxide/uMod?",
-          "answer": "Da! Susținem pe deplin Oxidul și uMod. Puteți instala Oxide cu un singur clic din panoul nostru de control și să gestionați plugin-urile prin intermediul managerului nostru de plugin-uri sau prin FTP."
-        },
-        "maps": {
-          "question": "Pot folosi hărți personalizate?",
-          "answer": "Absolut! Puteţi utiliza hărţi generate procedural cu seed-uri şi mărimi personalizate, sau încărcaţi propriile fişiere de hartă personalizate prin FTP."
-        },
-        "wipe": {
-          "question": "Cum funcționează ștergerea programatorului?",
-          "answer": "Programul nostru de formatare vă permite să automatizați ștergerile serverului pe un program pe care îl alegeți. Poți configura ștergeri numai pentru hartă sau ștergeri complete pentru schițe și opțional să trimiți notificări Discord."
-        },
-        "tickRate": {
-          "question": "Care este rata de selectare a serverului?",
-          "answer": "Serverele noastre Rust rulează la valoarea implicită de 30 tick-uri. Hardware-ul nostru de înaltă performanță asigură o performanță constantă chiar și cu mulți jucători online."
-        },
-        "rcon": {
-          "question": "Pot accesa RCON?",
-          "answer": "Da, obții acces complet la RCON. Poți folosi consola RCON pe web sau să te conectezi cu orice client RCON standard."
-        },
-        "modded": {
-          "question": "Suporta servere modificate?",
-          "answer": "Da, suportăm servere de vanilie și Rust moded. Instalează Oxide și adaugă orice plugin-uri de care ai nevoie pentru a crea experiența ta modulată perfectă."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Suport mod",
-        "1": "Hărți personalizate",
-        "2": "Configurare ușoară",
-        "3": "Suport 24/7"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Alătură-te listei de așteptare"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Trimiteți un bilet prin panoul nostru de facturare pentru probleme legate de cont.",
       "button": "Deschide Bilet",
       "features": {
-        "0": "Probleme legate de cont și facturare",
-        "1": "Urmărite și prioritizate",
-        "2": "Răspuns în termen de 24 de ore"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Toate sistemele sunt operaţionale",
       "degraded": "Performanță degradată",
-      "maintenance": "În întreținere"
+      "maintenance": "În întreținere",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Panou de jocuri",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Servere dedicate",
-      "systemStatus": "Oglinda"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Server Discord",
-      "serviceStatus": "Starea serviciului",
       "knowledgeBase": "Baza de cunoștințe",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "Panoul VPS",
-      "gamePanel": "Panoul de joc"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Termeni & Condiții",
       "privacy": "Politica de confidenţialitate",
       "refund": "Politica de rambursare",
       "legalHub": "Platformă juridică"
     },
     "company": {
-      "aboutNodeByte": "Despre NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contactează-ne",
       "companyInfo": "Informații companie",
-      "changes": "Jurnal modificări"
+      "changes": "Jurnal modificări",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "recenzii",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Alătură-te Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Autentificare",
       "errors": {
         "emailExists": "Există deja un cont cu acest e-mail.",
-        "notInPanel": "Nu a fost găsit niciun cont de panou de joc cu acest e-mail. Vă rugăm să cumpărați mai întâi un serviciu pentru a crea un cont de panou.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Acest cont de panou este deja conectat la un alt cont NodeByte.",
         "passwordsDontMatch": "Parolele nu se potrivesc.",
         "passwordTooShort": "Parola trebuie să conțină cel puțin 8 caractere.",
