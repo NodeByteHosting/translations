@@ -666,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
