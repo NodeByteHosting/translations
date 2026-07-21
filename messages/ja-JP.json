@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Minecraft ホスティング",
-      "description": "Minecraft のサーバー"
-    },
-    "rust": {
-      "title": "Rust Hosting",
-      "description": "DDoS保護を備えたRustサーバー"
-    },
-    "hytale": {
-      "title": "Hytale Hosting",
-      "description": "DDoS保護機能を備えたHytale サーバー"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "専用サーバー",
-      "description": "専用CPUコアを備えたベアメタルサーバー"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "ホスティング",
-    "joinWaitlist": "ウェイトリストに参加",
-    "minecraft": {
-      "description": "1クリックでModローダー、プラグイン、およびフルバージョンをサポートするJavaとBedrockサーバー。",
-      "tag": "最も人気",
-      "features": {
-        "0": "Forge & Fabric のサポート",
-        "1": "プラグイン管理",
-        "2": "自動バックアップ",
-        "3": "カスタムJARアップロード"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "小規模なサーバーとテストに最適です"
-        },
-        "blaze": {
-          "name": "ブレイズ",
-          "description": "成長するコミュニティに最適です"
-        },
-        "inferno": {
-          "name": "インフェルノ",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "ファイアストーム",
-          "description": "大規模で活発なコミュニティ向けに設計されています"
-        },
-        "supernova": {
-          "name": "超新星",
-          "description": "大規模サーバー向けの最大出力"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB のストレージ",
-        "databases": "10 MySQL データベース",
-        "ddos": "DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99.6%の稼働時間SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "ワンクリックのModローダー",
-          "description": "Forge、Fabric、Paper、Spigotなどをコントロールパネルからワンクリックでインストールします。",
-          "highlights": {
-            "0": "Forge & Fabric のサポート",
-            "1": "紙とSpigot サーバー",
-            "2": "Bukkit compatibility",
-            "3": "カスタムJARアップロード"
-          }
-        },
-        "hardware": {
-          "title": "高性能ハードウェア",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSDストレージ",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "DDoS保護",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "レイヤ 3/4/7 保護",
-            "1": "Enterprise network filtering",
-            "2": "ゼロダウンタイムの削減",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "インスタントセットアップ",
-          "description": "サーバーは数秒以内に展開されます。購入後すぐにプレイを開始してください。",
-          "highlights": {
-            "0": "自動プロビジョニング",
-            "1": "Pre configured settings",
-            "2": "60秒以内に準備完了",
-            "3": "技術的な知識は必要ありません"
-          }
-        },
-        "ftp": {
-          "title": "完全な FTP アクセス",
-          "description": "FTP/SFTP経由でファイルアクセスを完了します。ワールド、プラグイン、設定を簡単にアップロードできます。",
-          "highlights": {
-            "0": "SFTP ファイルアクセス",
-            "1": "Web based file manager",
-            "2": "ドラッグ＆ドロップによるアップロード",
-            "3": "自動バックアップ"
-          }
-        },
-        "slots": {
-          "title": "無制限のスロット",
-          "description": "人工的なプレーヤーの制限はありません。ハードウェアが処理できる数のプレーヤーをホストします。",
-          "highlights": {
-            "0": "スロット制限なし",
-            "1": "スケーラブルなリソース",
-            "2": "いつでもアップグレード",
-            "3": "公正な資源の割り当て"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "どのバージョンの Minecraft をサポートしていますか?",
-          "answer": "1.7.10からスナップショットを含む最新のリリースまで、すべてのMinecraftバージョンをサポートしています。Java EditionとBedrock Editionの両方のサーバーが利用可能です。"
-        },
-        "mods": {
-          "question": "Modやプラグインをインストールできますか?",
-          "answer": "はい！Forge、Fabric、NeoForgeなどの主要なModローダーをすべてサポートしています。 プラグインの場合、Paper, Spigot, Bukkit, Purpar をサポートしています。カスタム JAR をアップロードすることもできます。"
-        },
-        "upload": {
-          "question": "既存のワールドをアップロードするにはどうすればいいですか?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "制限はありますか?",
-          "answer": "いいえ、私たちは人工的なプレイヤー制限を課しません。あなたのサーバーは割り当てられたリソースが処理できる数のプレイヤーをホストできます。"
-        },
-        "upgrade": {
-          "question": "後でプランをアップグレードできますか？",
-          "answer": "もちろんです！プランをいつでも請求パネルからアップグレードまたはダウングレードできます。変更はダウンタイムなしですぐに有効になります。"
-        },
-        "refunds": {
-          "question": "払い戻しを提供しますか？",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "高パフォーマンス",
-      "features": {
-        "0": "Oxide/uMod サポート",
-        "1": "カスタムマップ",
-        "2": "スケジューラの消去",
-        "3": "RCON アクセス"
-      },
-      "plans": {
-        "starter": {
-          "name": "Starter",
-          "description": "40人のプレイヤーにお勧めします"
-        },
-        "standard": {
-          "name": "標準",
-          "description": "75人のプレイヤーにおすすめです"
-        },
-        "performance": {
-          "name": "パフォーマンス",
-          "description": "100人のプレイヤーにおすすめです"
-        },
-        "premium": {
-          "name": "プレミアム",
-          "description": "150人以上のプレイヤーにおすすめ"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSDストレージ",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 MySQL データベース",
-        "panel": "BytePanel(ゲームパネル)",
-        "oxide": "Oxide/Umod対応",
-        "rustplus": "Rust+ サポート",
-        "uptime": "99.6%の稼働時間SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Oxide/uMod サポート",
-          "description": "Oxide プラグインと uMod プラグインを完全にサポートします。コントロールパネルから直接プラグインをインストールして管理します。",
-          "highlights": {
-            "0": "Oxide をワンクリックでインストール",
-            "1": "プラグインマネージャー",
-            "2": "Auto updates available",
-            "3": "権限管理"
-          }
-        },
-        "maps": {
-          "title": "カスタムマップ",
-          "description": "手続きによって生成された地図を使用するか、独自のカスタム地図をアップロードします。完全な地図カスタマイズをサポートします。",
-          "highlights": {
-            "0": "プロシージャル生成",
-            "1": "カスタムマップのアップロード",
-            "2": "マップサイズコントロール",
-            "3": "シードのカスタマイズ"
-          }
-        },
-        "performance": {
-          "title": "高パフォーマンス",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSDストレージ",
-            "2": "High single thread performance",
-            "3": "低遅延ネットワーク"
-          }
-        },
-        "ddos": {
-          "title": "DDoS保護",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "レイヤ 3/4/7 保護",
-            "3": "ダウンタイムゼロ時間"
-          }
-        },
-        "wipe": {
-          "title": "スケジューラの消去",
-          "description": "サーバーを新鮮に保つための自動ワイプスケジューリング。毎週、隔週、または毎月のワイプを設定します。",
-          "highlights": {
-            "0": "自動ワイプ",
-            "1": "ブループリントワイプオプション",
-            "2": "ワイプスケジューリングをマップする",
-            "3": "Discordの通知"
-          }
-        },
-        "rcon": {
-          "title": "完全な RCON アクセス",
-          "description": "サーバー管理のためのリモートコンソールアクセスを完了します。任意の場所からコマンドを実行します。",
-          "highlights": {
-            "0": "WebベースのRCON",
-            "1": "コマンドスケジュール",
-            "2": "プレイヤー管理",
-            "3": "リアルタイムログ"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Oxide/uModプラグインをサポートしていますか？",
-          "answer": "私たちは完全にサポート酸化物とuMod。 コントロールパネルからワンクリックでOxideをインストールし、プラグインマネージャまたはFTP経由でプラグインを管理できます。"
-        },
-        "maps": {
-          "question": "カスタムマップを使用できますか?",
-          "answer": "もちろんです! カスタムシードやサイズで手続き的に生成されたマップを使用したり、FTP 経由で独自のカスタムマップファイルをアップロードしたりできます。"
-        },
-        "wipe": {
-          "question": "ワイプスケジューラはどのように動作しますか?",
-          "answer": "当社のワイプスケジューラを使用すると、選択したスケジュールでサーバーワイプを自動化できます。 マップのみのワイプまたは完全なブループリントワイプを設定したり、必要に応じてDiscord通知を送信することができます。"
-        },
-        "tickRate": {
-          "question": "サーバーのティックレートは？",
-          "answer": "当社のRustサーバーはデフォルトの30ティックレートで動作します。当社の高性能ハードウェアは、オンラインの多くのプレイヤーでも一貫したパフォーマンスを保証します。"
-        },
-        "rcon": {
-          "question": "RCONにアクセスできますか?",
-          "answer": "はい、完全な RCON アクセスが可能です。当社の Web ベースの RCON コンソールを使用するか、標準の RCON クライアントに接続できます。"
-        },
-        "modded": {
-          "question": "moded サーバーをサポートしていますか？",
-          "answer": "はい、私たちはバニラとモッドのRustサーバーの両方をサポートしています。Oxideをインストールし、完璧なモッド体験を作成するために必要なプラグインを追加してください。"
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Mod サポート",
-        "1": "カスタムマップ",
-        "2": "簡単な構成",
-        "3": "24時間年中無休のサポート"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "ウェイトリストに参加"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "アカウント関連の問題については、請求パネルからチケットを送信してください。",
       "button": "チケットを開く",
       "features": {
-        "0": "アカウントおよび請求に関する問題",
-        "1": "追跡・優先順位付け済み",
-        "2": "24時間以内にご返信いたします"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "すべてのシステム操作",
       "degraded": "パフォーマンスが低下しました",
-      "maintenance": "メンテナンス中"
+      "maintenance": "メンテナンス中",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "ゲームパネル",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "専用サーバー",
-      "systemStatus": "ルッキング・グラス"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Discord サーバー",
-      "serviceStatus": "サービスステータス",
       "knowledgeBase": "ナレッジベース",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "VPSパネル",
-      "gamePanel": "ゲームパネル"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "利用規約",
       "privacy": "プライバシーポリシー",
       "refund": "払い戻しポリシー",
       "legalHub": "Legal Hub"
     },
     "company": {
-      "aboutNodeByte": "NodeByteについて",
+      "aboutNodeByte": "About Us",
       "contact": "お問い合わせ",
       "companyInfo": "会社情報",
-      "changes": "更新履歴"
+      "changes": "更新履歴",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "レビュー",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Discord に参加"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "サインイン",
       "errors": {
         "emailExists": "このメールアドレスのアカウントは既に存在します。",
-        "notInPanel": "このメールアドレスのゲームパネルアカウントが見つかりません。まずサービスを購入してパネルアカウントを作成してください。",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "このパネルアカウントは既に別のNodeByteアカウントにリンクされています。",
         "passwordsDontMatch": "パスワードが一致しません。",
         "passwordTooShort": "パスワードは8文字以上である必要があります。",

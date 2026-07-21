@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Hospedagem de Minecraft",
-      "description": "Servidores de Minecraft com configuração instantânea"
-    },
-    "rust": {
-      "title": "Hospedagem de ferrugem",
-      "description": "Servidores Rust com proteção DDoS"
-    },
-    "hytale": {
-      "title": "Hospedagem Hytale",
-      "description": "Servidores Hytale com proteção DDoS"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Servidores dedicados",
-      "description": "Servidores bare-metal com núcleos de CPU dedicados"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Hospedagem",
-    "joinWaitlist": "Lista de espera",
-    "minecraft": {
-      "description": "Servidores de Java e Bedrock com um clique em mod loaders, plugins, e suporte completo a versão.",
-      "tag": "Por Popularidade",
-      "features": {
-        "0": "Suporte à Forja & Tecido",
-        "1": "Gerenciamento de plugins",
-        "2": "Backups automáticos",
-        "3": "Upload de JAR personalizado"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Perfeito para servidores pequenos e testes"
-        },
-        "blaze": {
-          "name": "Incêndio",
-          "description": "Ótimo para comunidades em crescimento"
-        },
-        "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Tempestade de Fogo",
-          "description": "Feito para comunidades grandes e ativas"
-        },
-        "supernova": {
-          "name": "Supernova",
-          "description": "Potência máxima para servidores de grande porte"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB de Armazenamento",
-        "databases": "10 banco de dados MySQL",
-        "ddos": "DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "SLA 99,6%"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "Loaders de Mod com Um-Clique",
-          "description": "Instale Forge, Tecido, Papel, Spigot e muito mais com um único clique no nosso painel de controle.",
-          "highlights": {
-            "0": "Suporte à Forja & Tecido",
-            "1": "Servidores de papel e Spigot",
-            "2": "Bukkit compatibility",
-            "3": "Upload de JAR personalizado"
-          }
-        },
-        "hardware": {
-          "title": "Hardware de Alta Performance",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "Armazenamento SSD do NVMe",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "Proteção DDoS",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Proteção de camada 3/4/7",
-            "1": "Enterprise network filtering",
-            "2": "Reduzir tempo de inatividade",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Configuração instantânea",
-          "description": "Seu servidor é implantado em segundos. Comece a jogar imediatamente após a compra.",
-          "highlights": {
-            "0": "provisionamento automatizado",
-            "1": "Pre configured settings",
-            "2": "Pronto em menos de 60 segundos",
-            "3": "Não é necessário conhecimento técnico"
-          }
-        },
-        "ftp": {
-          "title": "Acesso FTP completo",
-          "description": "Acesso completo de arquivo via FTP/SFTP. Carregar mundos, plugins e configurações com facilidade.",
-          "highlights": {
-            "0": "Acesso ao arquivo SFTP",
-            "1": "Web based file manager",
-            "2": "Arrastar e soltar uploads",
-            "3": "Backup automático"
-          }
-        },
-        "slots": {
-          "title": "Slots Ilimitados",
-          "description": "Nenhum limite de jogador artificial. Hospede o maior número de jogadores que o seu hardware pode manipular.",
-          "highlights": {
-            "0": "Sem restrições de slot",
-            "1": "Recursos escaláveis",
-            "2": "Atualize sempre que quiser",
-            "3": "Alocação de recursos justa"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Quais versões de Minecraft você suporta?",
-          "answer": "Oferecemos suporte a todas as versões de Minecraft da 1.7.10 para a versão mais recente, incluindo snapshots. Ambos servidores da Java Edition e da Bedrock Edition estão disponíveis."
-        },
-        "mods": {
-          "question": "Posso instalar mods e plugins?",
-          "answer": "Sim! Oferecemos suporte a todos os principais moderadores, incluindo o Forge, o Tecido e o NeoForge. Para plugins, nós suportamos Paper, Spigot, Bukkit e Purpurpur. Você também pode fazer upload de JARs personalizados."
-        },
-        "upload": {
-          "question": "Como faço upload de meu mundo existente?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Há um limite de jogador?",
-          "answer": "Não, não impomos limites artificiais de jogadores. Seu servidor pode hospedar quantos jogadores seus recursos alocados podem lidar."
-        },
-        "upgrade": {
-          "question": "Posso atualizar meu plano mais tarde?",
-          "answer": "Com certeza! Você pode atualizar ou rebaixar seu plano a qualquer momento em nosso painel de cobrança. As alterações têm efeito imediato, sem interrupção."
-        },
-        "refunds": {
-          "question": "Você oferece reembolsos?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Alto Desempenho",
-      "features": {
-        "0": "Suporte Oxide/uMod",
-        "1": "Mapas Personalizados",
-        "2": "Limpar programador",
-        "3": "Acesso ao RCON"
-      },
-      "plans": {
-        "starter": {
-          "name": "Iniciante",
-          "description": "Recomendado para 40 jogadores"
-        },
-        "standard": {
-          "name": "Padrão",
-          "description": "Recomendado para 75 jogadores"
-        },
-        "performance": {
-          "name": "Desempenho",
-          "description": "Recomendado para 100 jogadores"
-        },
-        "premium": {
-          "name": "Premium",
-          "description": "Recomendado para mais de 150 jogadores"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB de Armazenamento SSD",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 banco de dados MySQL",
-        "panel": "BytePanel (painel do jogo)",
-        "oxide": "Oxide/Umod Suportado",
-        "rustplus": "Rust+ Suportado",
-        "uptime": "SLA 99,6%"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Suporte Oxide/uMod",
-          "description": "Suporte completo para plugins Oxide e uMod. Instale e gerencie plugins diretamente no nosso painel de controle.",
-          "highlights": {
-            "0": "Instalação em Oxide com um clique",
-            "1": "Gerenciador de plugins",
-            "2": "Auto updates available",
-            "3": "Gerenciamento de permissões"
-          }
-        },
-        "maps": {
-          "title": "Mapas Personalizados",
-          "description": "Use mapas gerados processualmente ou carregue seus próprios mapas personalizados. Suporte completo à personalização de mapas.",
-          "highlights": {
-            "0": "Geração processual",
-            "1": "Upload de mapas personalizados",
-            "2": "Controle tamanho do mapa",
-            "3": "Personalização da semente"
-          }
-        },
-        "performance": {
-          "title": "Alto Desempenho",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "Armazenamento SSD do NVMe",
-            "2": "High single thread performance",
-            "3": "Rede de baixa latência"
-          }
-        },
-        "ddos": {
-          "title": "Proteção DDoS",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Proteção de camada 3/4/7",
-            "3": "Sem tempo de inatividade"
-          }
-        },
-        "wipe": {
-          "title": "Limpar Agendador",
-          "description": "Agendamento de limpeza automatizado para manter seu servidor fresco. Configure limpezas semanais, bisemanais ou mensais.",
-          "highlights": {
-            "0": "Limpeza automatizada",
-            "1": "Opções de limpeza de planta",
-            "2": "Agendamento da limpeza do mapa",
-            "3": "Notificações do Discord"
-          }
-        },
-        "rcon": {
-          "title": "Acesso total ao RCON",
-          "description": "Acesso completo ao console remoto para o gerenciamento de servidores. Execute comandos de qualquer lugar.",
-          "highlights": {
-            "0": "RCON baseado na Web",
-            "1": "Agendamento de comandos",
-            "2": "Gerenciamento de jogadores",
-            "3": "Registros em tempo real"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Você suporta plugins Oxide/uMod?",
-          "answer": "Sim! Nós apoiamos totalmente o Oxide e o uMod. Você pode instalar o Oxide com um clique a partir do nosso painel de controle e gerenciar plugins através do nosso gerenciador de plugins ou via FTP."
-        },
-        "maps": {
-          "question": "Posso usar mapas personalizados?",
-          "answer": "Absolutamente! Você pode usar mapas gerados processualmente com sementes e tamanhos personalizados, ou enviar seus próprios arquivos de mapa personalizados via FTP."
-        },
-        "wipe": {
-          "question": "Como funciona o agendador de limpeza?",
-          "answer": "Nosso agendador de limpeza permite que você automatize as limpezas dos servidores na programação que você escolher. Você pode configurar limpezas de mapas ou limpar diagramas completos, e opcionalmente enviar notificações do Discord."
-        },
-        "tickRate": {
-          "question": "Qual é a taxa de marcação do servidor?",
-          "answer": "Nossos servidores de Rust funcionam com a taxa padrão de 30 marcas. Nosso hardware de alto desempenho garante o desempenho consistente mesmo com muitos jogadores online."
-        },
-        "rcon": {
-          "question": "Posso acessar o RCON?",
-          "answer": "Sim, você tem acesso completo ao RCON. Você pode usar o nosso console RCON baseado na web ou se conectar com qualquer cliente RCON padrão."
-        },
-        "modded": {
-          "question": "Você suporta servidores modificados?",
-          "answer": "Sim, nós suportamos os servidores Rust vanilla e modded . Instale o Oxide e adicione todos os plugins que você precisa para criar sua experiência perfeita modificada."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Suporte por mod",
-        "1": "Mapas Personalizados",
-        "2": "Configuração fácil",
-        "3": "Suporte 24 horas"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Lista de espera"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Envie um ticket através do nosso painel de faturamento para problemas relacionados à conta.",
       "button": "Abrir Ticket",
       "features": {
-        "0": "Problemas com a conta e o faturamento",
-        "1": "Acompanhado e priorizado",
-        "2": "Resposta em até 24 horas"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Todos os Sistemas Operacionais",
       "degraded": "Desempenho Degradado",
-      "maintenance": "Sob Manutenção"
+      "maintenance": "Sob Manutenção",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Painel de Jogo",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Servidores dedicados",
-      "systemStatus": "Espelho"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Servidor Discord",
-      "serviceStatus": "Status do Serviço",
       "knowledgeBase": "Base de Conhecimento",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "Painel do VPS",
-      "gamePanel": "Painel de Jogos"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Termos & Condições",
       "privacy": "Política de Privacidade",
       "refund": "Política de Reembolso",
       "legalHub": "Centro Jurídico"
     },
     "company": {
-      "aboutNodeByte": "Sobre NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Entre em contato",
       "companyInfo": "Informações da empresa",
-      "changes": "Mudanças"
+      "changes": "Mudanças",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "avaliações",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Junte-se ao Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Iniciar sessão",
       "errors": {
         "emailExists": "Já existe uma conta com este e-mail.",
-        "notInPanel": "Nenhuma conta de painel do jogo foi encontrada com este e-mail. Por favor, compre um serviço primeiro para criar uma conta de painel.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Esta conta de painel já está vinculada a outra conta de NodeByte.",
         "passwordsDontMatch": "As senhas não conferem.",
         "passwordTooShort": "A senha deve ter pelo menos 8 caracteres.",

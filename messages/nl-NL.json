@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Minecraft hosting",
-      "description": "Minecraft servers met onmiddellijke installatie"
-    },
-    "rust": {
-      "title": "Rust hostingscherm",
-      "description": "Rust servers met DDoS bescherming"
-    },
-    "hytale": {
-      "title": "Hytale gastheer",
-      "description": "Hytale servers met DDoS bescherming"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Dedicated servers",
-      "description": "Bare-metal-servers met toegewezen CPU-kernen"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Hosting",
-    "joinWaitlist": "Join wachtlijst",
-    "minecraft": {
-      "description": "Java & Bedrock servers met één klik mod loaders, plugins en volledige versie ondersteuning.",
-      "tag": "Meest populair",
-      "features": {
-        "0": "Smeed & Stofondersteuning",
-        "1": "Plugin beheer",
-        "2": "Automatische reservekopieën",
-        "3": "Aangepaste JAR uploads"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Perfect voor kleine servers en testen"
-        },
-        "blaze": {
-          "name": "Blaze",
-          "description": "Ideaal voor het groeien van gemeenschappen"
-        },
-        "inferno": {
-          "name": "Vuurhaard",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Vuurstorm",
-          "description": "Ontworpen voor grote en actieve gemeenschappen"
-        },
-        "supernova": {
-          "name": "Supernova",
-          "description": "Maximaal vermogen voor grote servers"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} GB opslagruimte",
-        "databases": "10 MySQL databases",
-        "ddos": "DDoS Protection",
-        "panel": "BytePanel",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99,6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "One-Click Mod Laders",
-          "description": "Installeer Forge, Fabric, Papier, Spigot, en meer met een enkele klik vanaf het controlepaneel.",
-          "highlights": {
-            "0": "Smeed & Stofondersteuning",
-            "1": "Papier & Spigot servers",
-            "2": "Bukkit compatibility",
-            "3": "Aangepaste JAR uploads"
-          }
-        },
-        "hardware": {
-          "title": "Hoge prestaties Hardware",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD opslag",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "DDoS bescherming",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Laag 3/4/7 bescherming",
-            "1": "Enterprise network filtering",
-            "2": "Nul downtime mitigatie",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Directe installatie",
-          "description": "Uw server is binnen enkele seconden geïmplementeerd. Start direct afspelen na aankoop.",
-          "highlights": {
-            "0": "Geautomatiseerde provisioning",
-            "1": "Pre configured settings",
-            "2": "Klaar in minder dan 60 seconden",
-            "3": "Geen technische kennis nodig"
-          }
-        },
-        "ftp": {
-          "title": "Volledige FTP toegang",
-          "description": "Voltooi bestandstoegang via FTP/SFTP. Upload werden, plugins en configuraties met gemak.",
-          "highlights": {
-            "0": "SFTP bestandstoegang",
-            "1": "Web based file manager",
-            "2": "Drag & drop uploads",
-            "3": "Automatische back-ups"
-          }
-        },
-        "slots": {
-          "title": "Onbeperkt aantal plaatsen",
-          "description": "Geen kunstmatige speler limiet. Host zoveel spelers als je hardware kan verwerken.",
-          "highlights": {
-            "0": "Geen slot beperkingen",
-            "1": "Schaalbare grondstoffen",
-            "2": "Upgrade op elk gewenst moment",
-            "3": "Eerlijke hulpbron toewijzing"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Welke Minecraft-versies ondersteunt u?",
-          "answer": "We ondersteunen alle Minecraft versies van 1.7.10 tot de laatste release, inclusief snapshots. Zowel Java Edition als Bedrock Edition servers zijn beschikbaar."
-        },
-        "mods": {
-          "question": "Kan ik mods en plugins installeren?",
-          "answer": "Ja! We ondersteunen alle grote mod laaders inclusief Forge, Fabric, en NeoForge. Voor plug-ins ondersteunen we Papier, Spigot, Bukkit en Purpur. U kunt ook aangepaste JAR's uploaden."
-        },
-        "upload": {
-          "question": "Hoe upload ik mijn bestaande wereld?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Is er een spelerslimiet?",
-          "answer": "Nee, we leggen geen kunstmatige spelerlimieten op. Je server kan zoveel spelers hosten als je toegewezen middelen kunnen gebruiken."
-        },
-        "upgrade": {
-          "question": "Kan ik mijn abonnement later upgraden?",
-          "answer": "Absoluut! U kunt uw abonnement op elk gewenst moment upgraden of downgraden vanuit ons factureringspaneel. Wijzigingen worden onmiddellijk van kracht zonder downtime."
-        },
-        "refunds": {
-          "question": "Bied je restituties aan?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Hoge prestaties",
-      "features": {
-        "0": "Oxide/uMod ondersteuning",
-        "1": "Aangepaste kaarten",
-        "2": "Scheduler wissen",
-        "3": "RCON toegang"
-      },
-      "plans": {
-        "starter": {
-          "name": "Beginner",
-          "description": "Aanbevolen voor 40 spelers"
-        },
-        "standard": {
-          "name": "Standaard",
-          "description": "Aanbevolen voor 75 spelers"
-        },
-        "performance": {
-          "name": "Prestaties",
-          "description": "Aanbevolen voor 100 spelers"
-        },
-        "premium": {
-          "name": "Premium",
-          "description": "Aanbevolen voor 150+ spelers"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}GB SSD Opslag",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 MySQL databases",
-        "panel": "BytePanel (Zelfde Panel)",
-        "oxide": "Oxide/Umod ondersteund",
-        "rustplus": "Rust+ ondersteund",
-        "uptime": "99,6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Oxide/uMod ondersteuning",
-          "description": "Volledige ondersteuning voor Oxide en uMod plugins. Installeer en beheer plugins rechtstreeks vanuit ons controlepaneel.",
-          "highlights": {
-            "0": "One-click Oxide installatie",
-            "1": "Plugin beheer",
-            "2": "Auto updates available",
-            "3": "Toestemming beheer"
-          }
-        },
-        "maps": {
-          "title": "Aangepaste kaarten",
-          "description": "Gebruik procedureel gegenereerde kaarten of upload uw eigen aangepaste kaarten. Volledige kaart aanpassingsondersteuning.",
-          "highlights": {
-            "0": "Procedurele generatie",
-            "1": "Aangepaste kaartuploads",
-            "2": "Kaart grootte controle",
-            "3": "Seed aanpassing"
-          }
-        },
-        "performance": {
-          "title": "Hoge prestaties",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD opslag",
-            "2": "High single thread performance",
-            "3": "Laag latency netwerk"
-          }
-        },
-        "ddos": {
-          "title": "DDoS bescherming",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Laag 3/4/7 bescherming",
-            "3": "Nul tijd"
-          }
-        },
-        "wipe": {
-          "title": "Wis Planner",
-          "description": "Automatisch wissen schema's om uw server vers te houden. Configureer wekelijks, tweewekelijks of maandelijks gewichten.",
-          "highlights": {
-            "0": "Geautomatiseerde wissen",
-            "1": "Blauwdruk wipe opties",
-            "2": "Kaart wissen planning",
-            "3": "Discord notificaties"
-          }
-        },
-        "rcon": {
-          "title": "Volledige RCON toegang",
-          "description": "Voltooi de externe console toegang voor serverbeheer. Voer opdrachten van waar dan ook uit.",
-          "highlights": {
-            "0": "Web-gebaseerde RCON",
-            "1": "Commando plannen",
-            "2": "Speler beheer",
-            "3": "Real-time logs"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Steun je Oxide/uMod plugins?",
-          "answer": "Ja! Oxide en uMod ondersteunen wij volledig. U kunt Oxide installeren met één klik vanaf ons controlepaneel en plug-ins beheren via onze plugin beheerder of via FTP."
-        },
-        "maps": {
-          "question": "Kan ik aangepaste kaarten gebruiken?",
-          "answer": "Absoluut! U kunt procedureel gegenereerde kaarten gebruiken met aangepaste seeds en groottes, of uw eigen aangepaste kaartbestanden uploaden via FTP."
-        },
-        "wipe": {
-          "question": "Hoe werkt de wipe planner?",
-          "answer": "Met het wissen van de server kan je de verwijdering van de server automatiseren volgens het schema dat je kiest. Je kunt alleen wispen of volledige blauwdruk wissen configureren en optioneel Discord meldingen versturen."
-        },
-        "tickRate": {
-          "question": "Wat is de server tick rate?",
-          "answer": "Onze Rust servers draaien met de standaard 30 tick snelheid. Onze high-performance hardware zorgt voor consistente prestaties, zelfs bij veel spelers online."
-        },
-        "rcon": {
-          "question": "Kan ik RCON-toegang krijgen?",
-          "answer": "Ja, u krijgt volledige RCON toegang. U kunt onze webgebaseerde RCON console gebruiken of verbinden met een standaard RCON client."
-        },
-        "modded": {
-          "question": "Ondersteunt u de modded servers?",
-          "answer": "Ja, we ondersteunen zowel vanilla als modded Rust servers. Installeer Oxide en voeg alle plugins toe die je nodig hebt om je perfecte modded ervaring te maken."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Mod ondersteuning",
-        "1": "Aangepaste kaarten",
-        "2": "Eenvoudige configuratie",
-        "3": "24/7 ondersteuning"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Join wachtlijst"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Een ticket indienen via ons factureringspaneel voor accountgerelateerde problemen.",
       "button": "Open ticket",
       "features": {
-        "0": "Problemen met je account en facturering",
-        "1": "Bijgehouden en geprioriteerd",
-        "2": "Reactie binnen 24 uur"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Alle systemen operationeel",
       "degraded": "Verminderde prestaties",
-      "maintenance": "In onderhoud"
+      "maintenance": "In onderhoud",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Spel paneel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Dedicated servers",
-      "systemStatus": "Spiegel"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Discord server",
-      "serviceStatus": "Service Status",
       "knowledgeBase": "Kennisbank",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-paneel",
-      "gamePanel": "Spelpaneel"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Algemene Voorwaarden",
       "privacy": "Privacy Beleid",
       "refund": "Restitutie beleid",
       "legalHub": "Juridische Hub"
     },
     "company": {
-      "aboutNodeByte": "Over NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Contacteer ons",
       "companyInfo": "Bedrijfs informatie",
-      "changes": "Wijzigingslogboek"
+      "changes": "Wijzigingslogboek",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "beoordelingen",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Deelnemen aan Discord"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Log in",
       "errors": {
         "emailExists": "Er bestaat al een account met dit e-mailadres.",
-        "notInPanel": "Geen spel panel account gevonden met deze e-mail. Koop eerst een dienst om een account aan te maken.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Dit panel account is al gekoppeld aan een ander NodeByte account.",
         "passwordsDontMatch": "Wachtwoorden komen niet overeen.",
         "passwordTooShort": "Wachtwoord moet ten minste 8 tekens bevatten.",

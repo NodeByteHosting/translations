@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Minecraft hosting",
-      "description": "Minecraft servery s okamžitým nastavením"
-    },
-    "rust": {
-      "title": "Rust Hosting",
-      "description": "Důvěryhodné servery s ochranou DDoS"
-    },
-    "hytale": {
-      "title": "Hytale hosting",
-      "description": "Hytale servery s ochranou DDoS"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Vyhrazené servery",
-      "description": "Servery typu „bare-metal“ s vyhrazenými jádry procesoru"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Hostování",
-    "joinWaitlist": "Připojit se do fronty",
-    "minecraft": {
-      "description": "Servery Java & Bedrock s jedním kliknutím na Modd loaders, pluginy a podporu plné verze.",
-      "tag": "Nejpopulárnější",
-      "features": {
-        "0": "Forge & Fabric podpora",
-        "1": "Správa pluginů",
-        "2": "Automatické zálohování",
-        "3": "Vlastní nahrání JAR"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Perfektní pro malé servery a testování"
-        },
-        "blaze": {
-          "name": "Blaze",
-          "description": "Pěstitelské komunity velké"
-        },
-        "inferno": {
-          "name": "Příklad",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Ohnivá bouře",
-          "description": "Určeno pro velké a aktivní komunity"
-        },
-        "supernova": {
-          "name": "Supernova",
-          "description": "Maximální výkon pro rozsáhlé servery"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "Úložiště {amount} GB",
-        "databases": "10 MySQL databáze",
-        "ddos": "DDoS Protection",
-        "panel": "Obetepanel",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99,6% Prodloužení SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "Nahrávače jednoho kliknutí Mod",
-          "description": "Nainstalujte Forge, Fabric, Paper, Spigot a více jedním kliknutím z našeho ovládacího panelu.",
-          "highlights": {
-            "0": "Forge & Fabric podpora",
-            "1": "Server papíru a Spigot",
-            "2": "Bukkit compatibility",
-            "3": "Vlastní nahrání JAR"
-          }
-        },
-        "hardware": {
-          "title": "Vysoce výkonný hardware",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD úložiště",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "Ochrana DDoS",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Ochrana vrstvy 3/4/7",
-            "1": "Enterprise network filtering",
-            "2": "Nulové omezení výpadku",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Okamžité nastavení",
-          "description": "Váš server je nasazen do sekund. Spustit přehrávání ihned po nákupu.",
-          "highlights": {
-            "0": "Automatizované poskytování",
-            "1": "Pre configured settings",
-            "2": "Připraveno za méně než 60 sekund",
-            "3": "Nejsou potřebné žádné technické znalosti"
-          }
-        },
-        "ftp": {
-          "title": "Úplný přístup FTP",
-          "description": "Dokončete přístup k souborům prostřednictvím FTP/SFTP. Nahrávejte světy, pluginy a konfigurace snadné.",
-          "highlights": {
-            "0": "Přístup k souboru SFTP",
-            "1": "Web based file manager",
-            "2": "Přetažení nahrávání",
-            "3": "Automatické zálohy"
-          }
-        },
-        "slots": {
-          "title": "Neomezený počet slotů",
-          "description": "Žádné omezení umělého přehrávače. Hostujte tolik hráčů, kolik může váš hardware zvládnout.",
-          "highlights": {
-            "0": "Žádná omezení slotu",
-            "1": "Škálovatelné zdroje",
-            "2": "Kdykoli aktualizujte",
-            "3": "Spravedlivé přidělování zdrojů"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Jaké Minecraft verze podporujete?",
-          "answer": "Podporujeme všechny verze Minecraftu od 1.7.10 do nejnovějšího vydání, včetně snapshots. Java Edition i Bedrock Edition jsou k dispozici."
-        },
-        "mods": {
-          "question": "Mohu nainstalovat mody a pluginy?",
-          "answer": "Ano! Podporujeme všechny velké nakladače módů včetně Forge, Fabric a NeoForge. Pro pluginy podporujeme dokument, Spigot, Bukkit a Purpur. Můžete také nahrát vlastní JAR."
-        },
-        "upload": {
-          "question": "Jak nahrát svůj existující svět?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Existuje limit hráčů?",
-          "answer": "Ne, neukládáme umělé limity hráčů. Váš server může hostit tolik hráčů, kolik může tvé přidělené zdroje zvládnout."
-        },
-        "upgrade": {
-          "question": "Mohu povýšit svůj plán později?",
-          "answer": "Naprosto! Plán můžete kdykoli upgradovat nebo snižovat z našeho fakturačního panelu. Změny se projeví okamžitě bez odstávky."
-        },
-        "refunds": {
-          "question": "Nabízíte vrácení peněz?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Vysoký výkon",
-      "features": {
-        "0": "Podpora oxidu/uMod",
-        "1": "Vlastní mapy",
-        "2": "Smazat plánovač",
-        "3": "Přístup RCON"
-      },
-      "plans": {
-        "starter": {
-          "name": "Počáteční",
-          "description": "Doporučeno pro 40 hráčů"
-        },
-        "standard": {
-          "name": "Standardní",
-          "description": "Doporučeno pro 75 hráčů"
-        },
-        "performance": {
-          "name": "Výkon",
-          "description": "Doporučeno pro 100 hráčů"
-        },
-        "premium": {
-          "name": "Prémiové",
-          "description": "Doporučeno pro 150 a více hráčů"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "Úložiště SSD {amount}GB",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 MySQL databáze",
-        "panel": "BytePanel (Herní panel)",
-        "oxide": "Oxid/Umod podporován",
-        "rustplus": "Rust+ podporován",
-        "uptime": "99,6% Prodloužení SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Podpora oxidu/uMod",
-          "description": "Plná podpora pluginů pro Oxid a uMod instalujte a spravujte pluginy přímo z našeho ovládacího panelu.",
-          "highlights": {
-            "0": "Instalace jedním kliknutím na Oxid",
-            "1": "Správce pluginů",
-            "2": "Auto updates available",
-            "3": "Správa oprávnění"
-          }
-        },
-        "maps": {
-          "title": "Vlastní mapy",
-          "description": "Použijte procedurálně vygenerované mapy nebo nahrajte vlastní mapy. Plná podpora přizpůsobení mapy.",
-          "highlights": {
-            "0": "Procesní výroba",
-            "1": "Vlastní nahrávání map",
-            "2": "Nastavení velikosti mapy",
-            "3": "Přizpůsobení seedu"
-          }
-        },
-        "performance": {
-          "title": "Vysoký výkon",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD úložiště",
-            "2": "High single thread performance",
-            "3": "Nízká latentní síť"
-          }
-        },
-        "ddos": {
-          "title": "Ochrana DDoS",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Ochrana vrstvy 3/4/7",
-            "3": "Nulový výpadek"
-          }
-        },
-        "wipe": {
-          "title": "Vymazat plánovač",
-          "description": "Automaticky vymazat plánování, aby váš server zůstal čerstvý. Nakonfigurujte každý týden, každý týden nebo měsíční vymazání.",
-          "highlights": {
-            "0": "Automatizované vymazání",
-            "1": "Možnosti vymazání plánu",
-            "2": "Vymazání mapy",
-            "3": "Discord oznámení"
-          }
-        },
-        "rcon": {
-          "title": "Úplný přístup RCON",
-          "description": "Dokončete přístup k vzdálené konzoli pro správu serverů. Proveďte příkazy odkudkoliv.",
-          "highlights": {
-            "0": "RCON na internetu",
-            "1": "Plánování příkazů",
-            "2": "Správa přehrávače",
-            "3": "Záznamy v reálném čase"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Podporujete pluginy Oxid/uMod?",
-          "answer": "Ano! Plně podporujeme oxid a uMod. Můžete nainstalovat Oxid jedním kliknutím z našeho ovládacího panelu a spravovat pluginy prostřednictvím našeho správce pluginů nebo prostřednictvím FTP."
-        },
-        "maps": {
-          "question": "Mohu použít vlastní mapy?",
-          "answer": "Naprosto! Můžete použít procedurálně generované mapy s vlastním seedem a velikostí nebo nahrát vlastní mapové soubory přes FTP."
-        },
-        "wipe": {
-          "question": "Jak funguje mazací plánovač?",
-          "answer": "Náš plánovač pro vymazání vám umožní automatizovat vymazání serveru podle plánu, který si vyberete. Můžete nakonfigurovat vymazání mapy nebo úplné vymazání plánů a volitelně odesílat Discord oznámení."
-        },
-        "tickRate": {
-          "question": "Jaká je rychlost ticků na serveru?",
-          "answer": "Naše Rust servery běží ve výchozím tempu 30 ticků. Náš vysoce výkonný hardware zajišťuje konzistentní výkon i u mnoha hráčů online."
-        },
-        "rcon": {
-          "question": "Mám přístup k RCON?",
-          "answer": "Ano, máte plný přístup k RCON. Můžete použít webovou konzoli RCON nebo se spojit s jakýmkoli standardním RCON klientem."
-        },
-        "modded": {
-          "question": "Podporujete moddované servery?",
-          "answer": "Ano, podporujeme vanilla i modded Rust servery. Nainstalujte oxid a přidejte pluginy, které potřebujete k vytvoření perfektního moderovaného zážitku."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Podpora modů",
-        "1": "Vlastní mapy",
-        "2": "Jednoduchá konfigurace",
-        "3": "Podpora 24/7"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Připojit se do fronty"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Odešlete letenku přes náš fakturační panel pro problémy spojené s účtem.",
       "button": "Otevřít ticket",
       "features": {
-        "0": "Problémy s účtem a fakturací",
-        "1": "Sledováno a označeno jako prioritní",
-        "2": "Odpověď do 24 hodin"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Všechny systémy fungují",
       "degraded": "Zhoršený výkon",
-      "maintenance": "Probíhá údržba"
+      "maintenance": "Probíhá údržba",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Herní panel",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Vyhrazené servery",
-      "systemStatus": "Zrcadlo"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Discord server",
-      "serviceStatus": "Stav služby",
       "knowledgeBase": "Znalostní báze",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "Panel VPS",
-      "gamePanel": "Herní panel"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Pravidla & Podmínky",
       "privacy": "Ochrana osobních údajů",
       "refund": "Zásady vrácení peněz",
       "legalHub": "Zákonné rozhraní"
     },
     "company": {
-      "aboutNodeByte": "O NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Kontaktujte nás",
       "companyInfo": "Informace o společnosti",
-      "changes": "Seznam změn"
+      "changes": "Seznam změn",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "recenze",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Připojit se k Discordu"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Přihlásit se",
       "errors": {
         "emailExists": "Účet s tímto e-mailem již existuje.",
-        "notInPanel": "Nebyl nalezen žádný účet v herním panelu s tímto e-mailem. Nejdříve si prosím zakupte službu pro vytvoření účtu v panelu.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Tento panel je již propojen s jiným NodeByte účtem.",
         "passwordsDontMatch": "Hesla se neshodují.",
         "passwordTooShort": "Heslo musí mít alespoň 8 znaků.",

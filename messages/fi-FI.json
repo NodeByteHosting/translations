@@ -26,6 +26,14 @@
       "title": "Network & Nodes",
       "description": "Node and Location information"
     },
+    "lookingGlass": {
+      "title": "Looking Glass",
+      "description": "Test network connectivity from our nodes"
+    },
+    "partners": {
+      "title": "Partners & Sponsors",
+      "description": "Communities and projects we work with"
+    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -36,18 +44,6 @@
     }
   },
   "services": {
-    "minecraft": {
-      "title": "Minecraft Hosting",
-      "description": "Minecraft-palvelimet joissa pika-asetukset"
-    },
-    "rust": {
-      "title": "Rust Hosting",
-      "description": "Pölypalvelimet, joissa on DDoS-suojaus"
-    },
-    "hytale": {
-      "title": "Hytale Hosting",
-      "description": "Hytale-palvelimet joissa DDoS suojaus"
-    },
     "gameServers": {
       "title": "Game Servers",
       "description": "Browse all game hosting options"
@@ -65,8 +61,12 @@
       "description": "Browse all VPS hosting options"
     },
     "dedicated": {
-      "title": "Omistettuja palvelimia",
-      "description": "Bare-metal-palvelimet, joissa on erilliset CPU-ytimet"
+      "title": "Dedicated Servers",
+      "description": "Bare-metal servers with dedicated CPU cores"
+    },
+    "objectStorage": {
+      "title": "Object Storage",
+      "description": "S3-compatible cloud storage with free egress"
     }
   },
   "servicesHome": {
@@ -104,8 +104,8 @@
   },
   "hero": {
     "promo": {
-      "prefix": "VPS SERVERS",
-      "highlight": "AVAILABLE NOW",
+      "prefix": "NOW OFFERING",
+      "highlight": "OBJECT STORAGE",
       "suffix": "WITH LAUNCH DISCOUNTS!"
     },
     "title": "Server Hosting",
@@ -286,313 +286,7 @@
       "button": "View VPS Plans"
     },
     "hosting": "Palvelin",
-    "joinWaitlist": "Liity Jonotuslistaan",
-    "minecraft": {
-      "description": "Java & Bedrock palvelimet yhdellä napsautuksella mod-kuormaajat, liitännäiset ja täysi versiotuki.",
-      "tag": "Suosituimmat",
-      "features": {
-        "0": "Taotun ja kankaan tuki",
-        "1": "Liitännäisten hallinta",
-        "2": "Automaattiset varmuuskopiot",
-        "3": "Mukautetut JAR lataukset"
-      },
-      "plans": {
-        "ember": {
-          "name": "Ember",
-          "description": "Täydellinen pienten palvelimien ja testaus"
-        },
-        "blaze": {
-          "name": "Blaze",
-          "description": "Suuri kasvaville yhteisöille"
-        },
-        "inferno": {
-          "name": "Inferno",
-          "description": "Ideal for medium sized communities"
-        },
-        "firestorm": {
-          "name": "Tulimyrsky",
-          "description": "Suunniteltu suurille ja aktiivisille yhteisöille"
-        },
-        "supernova": {
-          "name": "Supernova",
-          "description": "Enimmäisteho suurille palvelimille"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount} Gt Tallennustila",
-        "databases": "10 MySQL-tietokantaa",
-        "ddos": "DDoS Protection",
-        "panel": "BytePaneeli",
-        "jars": "Auto/Pre Installed jars",
-        "uptime": "99,6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "modLoaders": {
-          "title": "Yhden Klikkauksen Modien Lataajat",
-          "description": "Asenna Forge, Fabric, Paper, Spigot, ja paljon muuta yhdellä napsautuksella meidän ohjauspaneeli.",
-          "highlights": {
-            "0": "Taotun ja kankaan tuki",
-            "1": "Paperi & Spiget-palvelimet",
-            "2": "Bukkit compatibility",
-            "3": "Mukautetut JAR lataukset"
-          }
-        },
-        "hardware": {
-          "title": "Korkean Suorituskyvyn Laitteisto",
-          "description": "Enterprise grade processors with NVMe storage for blazing fast performance.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD tallennustila",
-            "2": "DDR4 ECC memory",
-            "3": "High clock speed processors"
-          }
-        },
-        "ddos": {
-          "title": "DDoS Suojaus",
-          "description": "Enterprise grade DDoS mitigation keeps your server online even during the largest attacks.",
-          "highlights": {
-            "0": "Tason 3/4/7 suojaus",
-            "1": "Enterprise network filtering",
-            "2": "Nollaa seisokkien vähentämistä",
-            "3": "Enterprise POPs"
-          }
-        },
-        "instant": {
-          "title": "Välitön Asetukset",
-          "description": "Palvelimesi on käytössä muutamassa sekunnissa. Aloita toisto heti oston jälkeen.",
-          "highlights": {
-            "0": "Automatisoidut varaukset",
-            "1": "Pre configured settings",
-            "2": "Valmis alle 60 sekunnissa",
-            "3": "Teknistä tietämystä ei tarvita"
-          }
-        },
-        "ftp": {
-          "title": "Täysi Ftp Pääsy",
-          "description": "Täydellinen pääsy tiedostoihin FTP/SFTP:llä. Lataa maailmoja, liitännäisiä ja konfiguraatioita helposti.",
-          "highlights": {
-            "0": "SFTP tiedoston käyttö",
-            "1": "Web based file manager",
-            "2": "Vedä ja pudota lataukset",
-            "3": "Automaattiset varmuuskopiot"
-          }
-        },
-        "slots": {
-          "title": "Rajoittamaton Lähtöpaikka",
-          "description": "Ei keinotekoisia pelaajarajoja. Isäntä niin monta pelaajaa kuin laitteistosi voi käsitellä.",
-          "highlights": {
-            "0": "Ei lähtö- ja saapumisaikoja koskevia rajoituksia",
-            "1": "Skaalattavat resurssit",
-            "2": "Päivitä milloin tahansa",
-            "3": "Oikeudenmukainen resurssien jako"
-          }
-        }
-      },
-      "faqs": {
-        "versions": {
-          "question": "Mitä Minecraftin versioita tuet?",
-          "answer": "Tuemme kaikkia Minecraftin versioita 1.7.10 viimeisimpään julkaisuun, mukaan lukien tilannekuvat. Sekä Java Edition että Bedrock Edition -palvelimet ovat käytettävissä."
-        },
-        "mods": {
-          "question": "Voinko asentaa modeja ja liitännäisiä?",
-          "answer": "Kyllä! Tuemme kaikkia suurimpia mod kuormaajia, kuten Forge, Fabric, ja NeoForge. Plugins, tuemme Paper, Spigot, Bukkit ja Purpur. Voit myös ladata mukautettuja JAR."
-        },
-        "upload": {
-          "question": "Miten voin ladata nykyisen maailmani?",
-          "answer": "You can upload your world files via our web based file manager or through SFTP. Simply drag and drop your world folder and it will be ready to use."
-        },
-        "playerLimit": {
-          "question": "Onko pelaajan raja olemassa?",
-          "answer": "Ei, emme määrää keinotekoisia pelaajarajoja. Palvelin voi isännöidä niin monta pelaajaa kuin varatut resurssit voivat käsitellä."
-        },
-        "upgrade": {
-          "question": "Voinko päivittää suunnitelmaani myöhemmin?",
-          "answer": "Ehdottomasti! Voit päivittää tai alentaa tilaustasi milloin tahansa laskutuspaneelistamme. Muutokset tulevat voimaan välittömästi ilman seisokkeja."
-        },
-        "refunds": {
-          "question": "Tarjoatteko hyvityksiä?",
-          "answer": "Yes, we offer a 48 hour money back guarantee on all new purchases. If you're not satisfied, contact support for a full refund."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "rust": {
-      "description": "High performance Rust server hosting with Oxide/uMod support and custom map options.",
-      "tag": "Korkea Suorituskyky",
-      "features": {
-        "0": "Hapettu/uMod -tuki",
-        "1": "Mukautetut kartat",
-        "2": "Tyhjennä ajastus",
-        "3": "RCON käyttö"
-      },
-      "plans": {
-        "starter": {
-          "name": "Käynnistäjä",
-          "description": "Suositellaan 40 pelaajalle"
-        },
-        "standard": {
-          "name": "Normaali",
-          "description": "Suositellaan 75 pelaajalle"
-        },
-        "performance": {
-          "name": "Suorituskyky",
-          "description": "Suositellaan 100 pelaajalle"
-        },
-        "premium": {
-          "name": "Premium",
-          "description": "Suositellaan yli 150 pelaajalle"
-        }
-      },
-      "planFeatures": {
-        "cpu": "High Performance CPU",
-        "ram": "{amount} GB DDR4 RAM",
-        "storage": "{amount}Gt Ssd Tallennustila",
-        "ddos": "DDoS Protection",
-        "location": "Multiple Locations",
-        "databases": "10 MySQL-tietokantaa",
-        "panel": "BytePanel (nimipaneeli)",
-        "oxide": "Tuetut Happi/Umod",
-        "rustplus": "Rust+ Tuettu",
-        "uptime": "99,6% Uptime SLA"
-      },
-      "pageFeatures": {
-        "oxide": {
-          "title": "Oxide/uMod -tuki",
-          "description": "Täydellinen tuki oksidi- ja uMod-liitännäisille. Asenna ja hallitse liitännäisiä suoraan meidän ohjauspaneelista.",
-          "highlights": {
-            "0": "Yhden napsautuksen oksidi-asennus",
-            "1": "Liitännäisen hallinta",
-            "2": "Auto updates available",
-            "3": "Käyttöoikeuksien hallinta"
-          }
-        },
-        "maps": {
-          "title": "Mukautetut Kartat",
-          "description": "Käytä menettelyllisesti luotuja karttoja tai lataa omia mukautettuja karttoja. Koko kartan muokkaustuki.",
-          "highlights": {
-            "0": "Menettelyyn perustuva tuotanto",
-            "1": "Mukautettujen karttojen lataukset",
-            "2": "Kartan koon säätö",
-            "3": "Siementen räätälöinti"
-          }
-        },
-        "performance": {
-          "title": "Korkea Suorituskyky",
-          "description": "Rust demands powerful hardware. Our servers use high performance CPUs and NVMe storage for a smooth experience.",
-          "highlights": {
-            "0": "High performance CPUs",
-            "1": "NVMe SSD tallennustila",
-            "2": "High single thread performance",
-            "3": "Matalan latenssin verkostoituminen"
-          }
-        },
-        "ddos": {
-          "title": "DDoS Suojaus",
-          "description": "Enterprise grade DDoS mitigation through multiple network POPs protects your server from attacks 24/7.",
-          "highlights": {
-            "0": "Enterprise network filtering",
-            "1": "Global POPs",
-            "2": "Tason 3/4/7 suojaus",
-            "3": "Nolla seisokkeja"
-          }
-        },
-        "wipe": {
-          "title": "Tyhjennä Aikataulu",
-          "description": "Automaattinen pyyhkäisy ajastus pitääksesi palvelimen tuoreena. Määritä viikoittain, kahdesti viikossa tai kuukausittain.",
-          "highlights": {
-            "0": "Automatisoidut pyyhkeet",
-            "1": "Suunnitelman pyyhkäisyn asetukset",
-            "2": "Kartan pyyhkäisyn ajastus",
-            "3": "Discordin ilmoitukset"
-          }
-        },
-        "rcon": {
-          "title": "Täysi RCON Pääsy",
-          "description": "Suorita etäyhteyden käyttö palvelimen hallintaan. Suorita komentoja mistä tahansa.",
-          "highlights": {
-            "0": "Web-pohjainen RCON",
-            "1": "Komennon ajastus",
-            "2": "Pelaajien hallinta",
-            "3": "Reaaliaikaiset lokit"
-          }
-        }
-      },
-      "faqs": {
-        "oxide": {
-          "question": "Tuetko Oxide/uMod -liitännäisiä?",
-          "answer": "Kyllä! Tuemme täysin Oxidia ja uMod. Voit asentaa Oxide yhdellä napsautuksella meidän ohjauspaneeli ja hallita plugins kautta plugin manageri tai FTP."
-        },
-        "maps": {
-          "question": "Voinko käyttää omia karttoja?",
-          "answer": "Ehdottomasti! Voit käyttää menettelyllisesti luotuja karttoja, joissa on mukautettuja siemeniä ja kokoja, tai ladata omia mukautettuja karttatiedostoja FTP:n kautta."
-        },
-        "wipe": {
-          "question": "Miten pyyhkäisy aikataulu toimii?",
-          "answer": "Pyyhkäisy ajastin avulla voit automatisoida palvelimen pyyhkimet aikataulussa, jonka valitset. Voit määrittää vain karttapyyhkeet tai koko suunnitelman pyyhkeet ja halutessasi lähettää Discord-ilmoituksia."
-        },
-        "tickRate": {
-          "question": "Mikä on palvelimen rasti?",
-          "answer": "Meidän Rust palvelimet toimivat oletuksena 30 rastitusnopeus. Meidän korkean suorituskyvyn laitteisto takaa johdonmukaisen suorituskyvyn jopa monien pelaajien verkossa."
-        },
-        "rcon": {
-          "question": "Voinko käyttää RCONia?",
-          "answer": "Kyllä, saat täyden RCON yhteyden. Voit käyttää web-pohjaista RCON konsolia tai liittää mihin tahansa standardi RCON asiakas."
-        },
-        "modded": {
-          "question": "Tuetko moderoituja palvelimia?",
-          "answer": "Kyllä, tuemme sekä vanilja- että moderoituja ruostimia. Asenna Oxide ja lisää kaikki plugins sinun täytyy luoda täydellinen modded kokemus."
-        },
-        "location": {
-          "question": "Can I choose my server location?",
-          "answer": "Yes! You can select your preferred data centre location at checkout. We offer multiple locations to ensure the best latency for you and your players."
-        }
-      }
-    },
-    "hytale": {
-      "description": "Launch your Hytale server today. Full mod support, instant setup, and 24/7 expert support from day one.",
-      "tag": "Early Access",
-      "features": {
-        "0": "Modin tuki",
-        "1": "Mukautetut kartat",
-        "2": "Helppo konfigurointi",
-        "3": "24/7 tuki"
-      }
-    },
-    "terraria": {
-      "description": "Full tModLoader support, custom world configuration, automatic backups, and enterprise DDoS protection for Terraria communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "tModLoader support",
-        "1": "Custom worlds",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    },
-    "gmod": {
-      "description": "Full Steam Workshop support, MySQL integration, DarkRP-ready setup, and enterprise DDoS protection for Garry's Mod communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Workshop addons",
-        "1": "DarkRP ready",
-        "2": "MySQL included",
-        "3": "DDoS protection"
-      }
-    },
-    "palworld": {
-      "description": "Custom world configuration, mod support, automatic backups, and enterprise DDoS protection for Palworld communities.",
-      "tag": "Coming Soon",
-      "features": {
-        "0": "Custom world config",
-        "1": "Mod support",
-        "2": "Auto backups",
-        "3": "DDoS protection"
-      }
-    }
+    "joinWaitlist": "Liity Jonotuslistaan"
   },
   "gamePage": {
     "features": {
@@ -678,9 +372,9 @@
       "description": "Lähetä lippu laskutuspaneelin kautta tiliin liittyviin kysymyksiin.",
       "button": "Avaa Tiketti",
       "features": {
-        "0": "Tili- ja laskutusasiat",
-        "1": "Seurattu ja priorisoitu",
-        "2": "Vastaus 24 tunnin kuluessa"
+        "0": "Account & billing issues",
+        "1": "Tracked & prioritised",
+        "2": "Response within 24 hours"
       }
     },
     "email": {
@@ -720,35 +414,38 @@
     "statusLabels": {
       "operational": "Kaikki Järjestelmät Toimivat",
       "degraded": "Heikentynyt Suorituskyky",
-      "maintenance": "Kunnossapidon Alla"
+      "maintenance": "Kunnossapidon Alla",
+      "down": "Service Disruption",
+      "unavailable": "Status Unavailable"
     },
     "services": {
-      "gameServers": "Game Hosting",
-      "vpsServers": "VPS Hosting",
-      "gamePanel": "Pelin Paneeli",
-      "vpsPanel": "VPS Panel",
-      "dedicatedServers": "Omistettuja palvelimia",
-      "systemStatus": "Peili"
+      "dedicatedServers": "Dedicated Servers",
+      "gameServers": "Game Servers",
+      "vpsServers": "VPS Servers",
+      "objectStorage": "Object Storage",
+      "nodes": "Network & Nodes"
     },
     "resources": {
-      "discordServer": "Discord-palvelin",
-      "serviceStatus": "Palvelun Tila",
       "knowledgeBase": "Tietämyskanta",
+      "vpsPanel": "VPS Panel",
+      "gamePanel": "Game Panel",
       "billingPanel": "Billing Panel",
-      "vpsPanel": "VPS-hallintapaneeli",
-      "gamePanel": "Pelit-paneeli"
+      "systemStatus": "System Status"
     },
     "legalLinks": {
+      "sla": "Service Level Agreement",
       "terms": "Ehdot Ja Ehdot",
       "privacy": "Yksityisyyden Suoja",
       "refund": "Hyvityksen Käytäntö",
       "legalHub": "Oikeudellinen Hub"
     },
     "company": {
-      "aboutNodeByte": "Tietoja NodeByte",
+      "aboutNodeByte": "About Us",
       "contact": "Ota Yhteyttä",
       "companyInfo": "Yrityksen Tiedot",
-      "changes": "Muutosloki"
+      "changes": "Muutosloki",
+      "partners": "Community",
+      "brand": "Brand & Press"
     },
     "trustpilot": {
       "reviews": "arvostelut",
@@ -969,6 +666,10 @@
       "vpsLaunch": {
         "title": "VPS Hosting Launch",
         "description": "Introduced AMD and Intel VPS plans full-root Linux virtual machines with NVMe SSD storage, enterprise DDoS protection, and instant provisioning."
+      },
+      "dedicatedAndStorage": {
+        "title": "Dedicated Servers & Object Storage",
+        "description": "Rolled out bare-metal dedicated servers alongside S3-compatible object storage, rounding out a full hosting lineup from shared game servers to dedicated infrastructure."
       }
     },
     "team": {
@@ -988,6 +689,34 @@
       "description": "Join thousands of communities and businesses who trust NodeByte for their hosting needs.",
       "getStarted": "View All Services",
       "joinDiscord": "Liity Discordiin"
+    }
+  },
+  "partnersPage": {
+    "badge": "Partners & Sponsors",
+    "hero": {
+      "title": "Built With",
+      "titleHighlight": "Our Partners",
+      "description": "We team up with communities, creators, and projects who share our focus on reliability and performance, offering sustainable infrastructure discounts instead of one-off giveaways.",
+      "becomeAPartner": "Become a Partner",
+      "viewProgram": "View Partner Program"
+    },
+    "sponsors": {
+      "badge": "Sponsors",
+      "title": "Our Sponsors"
+    },
+    "partners": {
+      "badge": "Partners",
+      "title": "Our Partners"
+    },
+    "communities": {
+      "badge": "Communities",
+      "title": "Communities We Sponsor"
+    },
+    "cta": {
+      "title": "Interested in Partnering?",
+      "description": "Read the full partnership program for tiers, perks, and eligibility, or reach out to our team directly.",
+      "readDocs": "Read Partnership Docs",
+      "contactUs": "Contact Us"
     }
   },
   "notFound": {
@@ -1072,7 +801,7 @@
       "signIn": "Kirjaudu sisään",
       "errors": {
         "emailExists": "Tällä sähköpostiosoitteella on jo tili.",
-        "notInPanel": "Tällä sähköpostilla ei löytynyt pelipaneelitiliä. Ole hyvä ja osta ensin palvelu luodaksesi paneelitilin.",
+        "notInPanel": "No game server manager account found with this email. Please purchase a service first to create an account.",
         "panelAccountLinked": "Tämä paneelitili on jo linkitetty toiseen NodeByte tiliin.",
         "passwordsDontMatch": "Salasanat eivät täsmää.",
         "passwordTooShort": "Salasanan on oltava vähintään 8 merkkiä pitkä.",
