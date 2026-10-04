@@ -59,6 +59,10 @@
     "allVps": {
       "title": "VPS Servers",
       "description": "Browse all VPS hosting options"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

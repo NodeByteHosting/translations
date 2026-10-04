@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Виділені сервери",
       "description": "Сервери «з нуля» з виділеними ядрами процесора"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Máy chủ chuyên dụng",
       "description": "Máy chủ bare-metal với các lõi CPU chuyên dụng"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

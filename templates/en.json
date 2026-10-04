@@ -63,6 +63,10 @@
     "objectStorage": {
       "title": "Object Storage",
       "description": "S3-compatible cloud storage with free egress"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

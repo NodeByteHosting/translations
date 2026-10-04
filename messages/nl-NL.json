@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Dedicated servers",
       "description": "Bare-metal-servers met toegewezen CPU-kernen"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

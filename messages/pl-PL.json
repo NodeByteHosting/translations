@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Serwery dedykowane",
       "description": "Serwery typu bare-metal z dedykowanymi rdzeniami procesora"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

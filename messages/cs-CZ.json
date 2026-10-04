@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Vyhrazené servery",
       "description": "Servery typu „bare-metal“ s vyhrazenými jádry procesoru"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "전용 서버",
       "description": "전용 CPU 코어를 갖춘 베어메탈 서버"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

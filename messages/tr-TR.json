@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Özel Sunucular",
       "description": "Özel CPU çekirdeklerine sahip bare-metal sunucular"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

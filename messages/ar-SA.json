@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "الخوادم المخصصة",
       "description": "خوادم «باري ميتال» مزودة بنوى معالج مخصصة"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

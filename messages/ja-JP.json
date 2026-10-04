@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "専用サーバー",
       "description": "専用CPUコアを備えたベアメタルサーバー"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

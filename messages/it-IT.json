@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Server dedicati",
       "description": "Server bare-metal con core CPU dedicati"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

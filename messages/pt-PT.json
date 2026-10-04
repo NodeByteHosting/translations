@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "Servidores dedicados",
       "description": "Servidores bare-metal com núcleos de CPU dedicados"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {

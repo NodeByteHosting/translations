@@ -63,6 +63,10 @@
     "dedicated": {
       "title": "專用伺服器",
       "description": "配備專用 CPU 核心的裸機伺服器"
+    },
+    "discordBots": {
+      "title": "Discord Bots",
+      "description": "Always-on hosting for your Discord bots"
     }
   },
   "servicesHome": {
