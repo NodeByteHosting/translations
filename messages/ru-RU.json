@@ -22,10 +22,6 @@
       "title": "О нас",
       "description": "Подробнее о NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "Панель игр",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "Выделенные серверы",
-      "systemStatus": "Зеркало"
+      "systemStatus": "Зеркало",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "Сервер Discord",

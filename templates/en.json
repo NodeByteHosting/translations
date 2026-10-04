@@ -22,13 +22,9 @@
       "title": "About Us",
       "description": "Learn more about NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "lookingGlass": {
       "title": "Looking Glass",
-      "description": "Test network connectivity from our nodes"
+      "description": "See how fast each of our locations is from you"
     },
     "partners": {
       "title": "Partners & Sponsors",
@@ -423,7 +419,7 @@
       "gameServers": "Game Servers",
       "vpsServers": "VPS Servers",
       "objectStorage": "Object Storage",
-      "nodes": "Network & Nodes"
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "knowledgeBase": "Knowledge Base",

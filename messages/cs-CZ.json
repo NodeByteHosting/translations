@@ -22,10 +22,6 @@
       "title": "O nás",
       "description": "Další informace o NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "Herní panel",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "Vyhrazené servery",
-      "systemStatus": "Zrcadlo"
+      "systemStatus": "Zrcadlo",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "Discord server",

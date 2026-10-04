@@ -22,10 +22,6 @@
       "title": "Sobre a gente",
       "description": "Saiba mais sobre NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "Painel de Jogo",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "Servidores dedicados",
-      "systemStatus": "Espelho"
+      "systemStatus": "Espelho",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "Servidor Discord",

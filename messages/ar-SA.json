@@ -22,10 +22,6 @@
       "title": "نبذة عنا",
       "description": "تعرف على المزيد حول NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "لوحة اللعبة",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "الخوادم المخصصة",
-      "systemStatus": "المرآة"
+      "systemStatus": "المرآة",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "خادم ديسكورد",

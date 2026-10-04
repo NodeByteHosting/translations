@@ -22,10 +22,6 @@
       "title": "Despre noi",
       "description": "Află mai multe despre NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "Panou de jocuri",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "Servere dedicate",
-      "systemStatus": "Oglinda"
+      "systemStatus": "Oglinda",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "Server Discord",

@@ -22,10 +22,6 @@
       "title": "Tietoa Meistä",
       "description": "Lue lisää NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "Pelin Paneeli",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "Omistettuja palvelimia",
-      "systemStatus": "Peili"
+      "systemStatus": "Peili",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "Discord-palvelin",

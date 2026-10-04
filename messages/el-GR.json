@@ -22,10 +22,6 @@
       "title": "Σχετικά Με Εμάς",
       "description": "Μάθετε περισσότερα για το NodeByte"
     },
-    "network": {
-      "title": "Network & Nodes",
-      "description": "Node and Location information"
-    },
     "github": {
       "title": "GitHub",
       "description": "Explore our open source projects"
@@ -728,7 +724,8 @@
       "gamePanel": "Πλαίσιο Παιχνιδιού",
       "vpsPanel": "VPS Panel",
       "dedicatedServers": "Αποκλειστικοί διακομιστές",
-      "systemStatus": "Καθρέφτης"
+      "systemStatus": "Καθρέφτης",
+      "discordBots": "Discord Bot Hosting"
     },
     "resources": {
       "discordServer": "Διακομιστής Discord",
